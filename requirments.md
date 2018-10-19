@@ -24,8 +24,8 @@
 [http://as-rank.caida.org/asns/?name=9231&type=search](http://as-rank.caida.org/asns/?name=9231&type=search)<br>
 
 统计每个链接中，除去中国后，As Rank的数量，并按运营商去重汇总。<br>
-原计划使用selenium+phantomJS的方式爬取动态页面，并提取出有效的信息，后面因为windows环境的问题，导致该方法一直无法成功，最后直接找到获取获得的API接口，获取了相关数据并按要求处理完毕。<br>
-后续有有时间再尝试下动态页面的爬取方案。<br>
+原计划使用selenium+phantomJS的方式爬取动态页面，并提取出有效的信息，后面因为windows环境的问题，导致该方法一直无法成功，最后直接找到获取数据的API接口，获取了相关数据并按要求处理完毕。<br>
+后续有时间再尝试下动态页面的爬取方案。<br>
 
 **实现文件**：crawler/crawler_task_1.py
 
