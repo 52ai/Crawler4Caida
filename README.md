@@ -14,7 +14,7 @@ CAIDA的使命 <br>
 About CAIDA还有[Annual Report](http://www.caida.org/home/about/annualreports/)、[Program Plan](http://www.caida.org/home/about/progplan/)、[Institutional Review Board（IRB）Approval Process](http://www.caida.org/home/about/irb/) 、[About CAIDA Staff](http://www.caida.org/home/staff/)。
 ## 为什么要建Crawler4Caida开源库
 
-因部门工作内容需要，在研究的过程中会需要用到CAIDA数据中心中的网络数据，并对其进行一定的处理分析，按需求提取结果。在编写爬虫的过程中发现，虽然每次具体的需求不一，但是抓取数据的思路大同小异。<br>
+因部门工作内容需要，在研究的过程中会用到CAIDA数据中心中的网络数据，并对其进行一定的处理分析，按需求提取结果。在编写爬虫的过程中发现，虽然每次具体的需求不一，但是抓取数据的思路大同小异。<br>
 为提供高工作效率，减少不必要的开发成本，特建此库，把以往编写Caida网络数据爬虫记录下来，并通过后期的程序重构和新需求的加入，以不断充实此开源库。
 
 ## Crawler4Caida库结构
