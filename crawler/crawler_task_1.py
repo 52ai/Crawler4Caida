@@ -1,7 +1,7 @@
 # coding:utf-8
 """
 create on Oct 16,2018 by Wayne
-using api tp get rank data
+using api get rank data
 """
 
 import json
