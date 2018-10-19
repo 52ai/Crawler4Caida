@@ -4,7 +4,8 @@
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
 CAIDA（the Center for Applied Internet Data Analysis），中文全称为互联网应用数据分析中心，引导网络研究并构建网络研究基础设施，为大规模的数据采集、管理，并将数据分发至科学研究社区提供支撑。<br>
 详细信息可以通过这个2页的PDF获取：[下载](http://www.caida.org/publications/posters/eps/caida-infosheet-2016.pdf)<br>
-CAIDA的使命 <br>
+
+**CAIDA的使命**<br>
 ```
 1）provide macroscopic insights into Internet infrastructure, behavior, usage, and evolution,
 2）foster a collaborative environment in which data can be acquired, analyzed, and (as appropriate) shared,
