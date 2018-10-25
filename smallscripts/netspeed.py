@@ -47,7 +47,7 @@ def run_ping_test(ip_str):
     """
     # list_p_r = []
     # print("本组测试开始(", ip_str, ")：ping %s -n 3 ", ip_str)
-    ftp_sub = subprocess.Popen("ping %s -n 5" % ip_str,
+    ftp_sub = subprocess.Popen("ping %s -n 10" % ip_str,
                                stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
     ret = ftp_sub.stdout.read()
     str_ret = ret.decode('gbk')
@@ -83,13 +83,13 @@ if __name__ == "__main__":
     # run_ping_test(ip_str)
     # run_tracert_test(ip_str)
     time_start = time.time()
-    print("测试启动:", time_start)
+    print("测试启动:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_start)))
     for item in ip_info:
         # print(item)
         loss_rate, time_delay = run_ping_test(item[1])
         print(item[0], ":丢包率(%s)  平均时延（%s）" % (loss_rate, time_delay))
     time_end = time.time()
-    print("测试结束:", time_end, "，共耗时：", (time_end - time_start), "ms")
+    print("测试结束:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end)), "，共耗时：", (time_end - time_start), "s")
 """
 在windows下使用tracert 命令得到的原输出如下：
 通过最多 30 个跃点跟踪
@@ -99,4 +99,34 @@ if __name__ == "__main__":
     ....
  28   294 ms   295 ms   301 ms  vps-1149050-3181.cp.idhost.kz [95.56.234.66] 
 跟踪完成。
+
+每个IP测试10次的结果如下：
+测试启动: 2018-10-25 19:35:52
+中亚-哈萨克斯坦 :丢包率(10%)  平均时延（350ms）
+中亚-吉尔吉斯斯坦-比什凯克 :丢包率(NONE)  平均时延（INFINITE）
+西亚-蒙古-乌兰巴托 :丢包率(0%)  平均时延（363ms）
+西亚-伊朗-德黑兰 :丢包率(10%)  平均时延（293ms）
+西亚-阿联酋-迪拜 :丢包率(10%)  平均时延（462ms）
+西亚-土耳其-伊斯坦布尔 :丢包率(10%)  平均时延（366ms）
+西亚-沙特阿拉伯-利雅得 :丢包率(0%)  平均时延（342ms）
+南亚-印度-新德里 :丢包率(0%)  平均时延（455ms）
+东南亚-印度尼西亚-雅加达 :丢包率(20%)  平均时延（105ms）
+东南亚-越南-胡志明 :丢包率(0%)  平均时延（392ms）
+东南亚-新加坡 :丢包率(0%)  平均时延（117ms）
+东南亚-泰国-曼谷 :丢包率(10%)  平均时延（226ms）
+日本-东京 :丢包率(0%)  平均时延（237ms）
+台北 :丢包率(0%)  平均时延（60ms）
+香港 :丢包率(0%)  平均时延（39ms）
+欧洲-乌克兰-哈尔科夫 :丢包率(0%)  平均时延（482ms）
+欧洲-意大利-米兰 :丢包率(0%)  平均时延（391ms）
+欧洲-俄罗斯-莫斯科 :丢包率(0%)  平均时延（112ms）
+欧洲-德国-法兰克福 :丢包率(0%)  平均时延（321ms）
+欧洲-英国-伦敦 :丢包率(0%)  平均时延（288ms）
+美洲-美国-芝加哥 :丢包率(0%)  平均时延（272ms）
+美洲-美国-纽约 :丢包率(0%)  平均时延（304ms）
+美洲-加拿大-多伦多 :丢包率(0%)  平均时延（307ms）
+美洲-阿根廷-布宜诺斯艾利斯 :丢包率(0%)  平均时延（381ms）
+大洋洲-澳大利亚-悉尼 :丢包率(10%)  平均时延（346ms）
+大洋洲-新西兰-奥克兰 :丢包率(0%)  平均时延（230ms）
+测试结束: 2018-10-25 19:40:46 ，共耗时： 294.17404866218567 s
 """
