@@ -1,10 +1,11 @@
 # coding:utf-8
 """
-create on Oct 23,2018 by Wayne Yu
+create on Oct 26,2018 by Wayne Yu
 Function:
 该程序旨在对工业园区的出国网速进行测试，并按一定的格式输出报告。
 以国家（IP地址）为单位，通过ping和tracert命令去统计丢包率、时延以及经过的路由表。
 例：中亚-哈萨克斯坦/95.56.234.66
+Verison 2.0
 """
 import subprocess
 import threading
