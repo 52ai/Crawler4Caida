@@ -68,14 +68,14 @@ ip_info = [["新加坡", "180.210.206.51"],
 
 # lose_rate_list 用于存储丢包率，格式为country,ip,company1,company2,...,average
 loss_rate_list = []
-loss_rate_file = "./loss_rate.csv"
+loss_rate_file = 'C:/ywyscripts/loss_rate.csv'
 # time_delay_list 用于存储时延，格式为country,ip,company1,company2,...,average
 time_delay_list = []
-time_delay_file = "./time_delay.csv"
+time_delay_file = 'C:/ywyscripts/time_delay.csv'
 
 # log_list 用于存储所有log输出
 log_list = []
-log_file = "./log.txt"
+log_file = 'C:/ywyscripts/log.txt'
 
 # company_log_list 用于存储每个企业测试输出日志数据，用于备份使用
 company_log_list = []
@@ -87,7 +87,7 @@ def run_ping_test(ip_str):
     """
     # list_p_r = []
     # print("本组测试开始(", ip_str, ")：ping %s -n 3 ", ip_str)
-    ftp_sub = subprocess.Popen("ping %s -n 1" % ip_str,
+    ftp_sub = subprocess.Popen("ping %s -n 20" % ip_str,
                                stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
     ret = ftp_sub.stdout.read()
     str_ret = ret.decode('gbk')
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     # ip_str = "95.56.234.66"
     # run_ping_test(ip_str)
     # run_tracert_test(ip_str)
-    print("=>读loss_rate文件，生成loss_rate_list")
+    print("=>read loss_rate file, generate loss_rate_list")
     f_loss_rate = open(loss_rate_file, "r", encoding='utf-8')
     for line in f_loss_rate.readlines():
         # print(line.strip().split(','))
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     f_loss_rate.close()
     # print(loss_rate_list)
 
-    print("=>读time_delay文件，生成time_delay_list")
+    print("=>read time_delay file, generate time_delay_list")
     f_time_delay = open(time_delay_file, "r", encoding='utf-8')
     for line in f_time_delay.readlines():
         # print(line.strip().split(','))
@@ -141,7 +141,7 @@ if __name__ == "__main__":
     # print(time_delay_list)
 
     time_start = time.time()
-    print("=>测试启动:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_start)))
+    print("=>TEST START:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_start)))
     print("country, ip, loss_rate, time_delay")
     item_index = 0
     for item in ip_info:
@@ -155,40 +155,40 @@ if __name__ == "__main__":
         item_index += 1  # 索引自增1
     # print(len(ip_info))
     time_end = time.time()
-    print("=>测试结束:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end)), "，共耗时：", (time_end - time_start), "s")
+    print("=>TEST FINISH:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end)), ", TIME CONSUMING：", (time_end - time_start), "s")
     # print(loss_rate_list)
     # print(time_delay_list)
-    print("=>写company_log")
-    company_log_file = "company_log_" + time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime(time_start)) + ".csv"
+    print("=>WRITE company_log")
+    company_log_file = 'C:/ywyscripts/company_log_' + time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime(time_start)) + ".csv"
     f = open(company_log_file, "w+", encoding='utf-8')
     for item in company_log_list:
         f.write(item)
     f.close()
-    print("=>写company_log完成")
+    # print("=>写company_log完成")
 
-    print("=>写log.txt文件开始")
+    print("=>WRITE log.txt FILE")
     log_list.append("=>写log结束 %s" % (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end))))
     f = open(log_file, "a", encoding='utf-8')
     for item in log_list:
         f.write(item)
     f.close()
-    print("=>写log.txt文件完成")
+    # print("=>写log.txt文件完成")
 
-    print("=>写loss_rate.csv文件开始")
+    print("=>WRITE loss_rate.csv FILE")
     f = open(loss_rate_file, "w", newline='', encoding='utf-8')
     writer = csv.writer(f)
     for item in loss_rate_list:
         writer.writerow(item)
     f.close()
-    print("=>写loss_rate.csv文件结束")
+    # print("=>写loss_rate.csv文件结束")
 
-    print("=>写time_delay.csv文件开始")
+    print("=>WRITE time_delay.csv FILE")
     f = open(time_delay_file, "w", newline='', encoding='utf-8')
     writer = csv.writer(f)
     for item in time_delay_list:
         writer.writerow(item)
     f.close()
-    print("=>写time_delay.csv文件结束")
+    # print("=>写time_delay.csv文件结束")
 
 
 
