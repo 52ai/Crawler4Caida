@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallscripts/netspeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/netspeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smallscripts/netspeedV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/netspeedV2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,14 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="netspeed.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py">
+      <file leaf-file-name="netspeedV2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="e#172#189#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -65,6 +62,7 @@
         <option value="$PROJECT_DIR$/refactoring/crawler.py" />
         <option value="$PROJECT_DIR$/requirments.md" />
         <option value="$PROJECT_DIR$/smallscripts/netspeed.py" />
+        <option value="$PROJECT_DIR$/smallscripts/netspeedV2.py" />
       </list>
     </option>
   </component>
@@ -80,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +95,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,6 +102,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\smallscripts" />
       <recent name="D:\Code\Crawler4Caida\refactoring" />
       <recent name="D:\Code\Crawler4Caida\crawler" />
     </key>
@@ -120,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.netspeed (1)">
+  <component name="RunManager" selected="Python.netspeedV2">
     <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,13 +174,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="netspeedV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallscripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallscripts/netspeedV2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.crawler" />
       <item itemvalue="Python.netspeed" />
       <item itemvalue="Python.netspeed (1)" />
+      <item itemvalue="Python.netspeedV2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.netspeedV2" />
         <item itemvalue="Python.netspeed (1)" />
         <item itemvalue="Python.netspeed" />
         <item itemvalue="Python.crawler" />
@@ -201,15 +220,25 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12552892" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16713682" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.14804845" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" visible="true" weight="0.16689098" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3755047" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3755047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.14670256" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -239,13 +268,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#172#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="16" selection-start-column="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#172#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="16" selection-start-column="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/netspeed_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -275,9 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -307,9 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -339,9 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -371,9 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1342">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -430,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="e#126#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,8 +554,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="40" />
           <folding>
-            <element signature="e#126#143#0" expanded="true" />
+            <element signature="e#172#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,13 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py">
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#172#189#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
         </state>
       </provider>
     </entry>
