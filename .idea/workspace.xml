@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/smallscripts/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallscripts/loss_rate.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallscripts/netspeedV3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallscripts/time_delay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallscripts/模板文件.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/company_log_2018_10_29_17_50_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/loss_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/loss_rate.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/time_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/time_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smallscripts/netspeed_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallscripts/netspeed_demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,13 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="netspeed.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="netspeed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="137" column="40" lean-forward="true" selection-start-line="137" selection-start-column="40" selection-end-line="137" selection-end-column="40" />
+            <state relative-caret-position="-1202">
+              <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
               <folding>
                 <element signature="e#526#543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="netspeedV3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1901">
+              <caret line="213" column="66" lean-forward="true" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
+              <folding>
+                <element signature="e#211#228#0" expanded="true" />
+                <element signature="e#3089#3468#0" />
               </folding>
             </state>
           </provider>
@@ -59,17 +74,20 @@
         <option value="$PROJECT_DIR$/smallscripts/模板文件.txt" />
         <option value="$PROJECT_DIR$/smallscripts/loss_rate.txt" />
         <option value="$PROJECT_DIR$/smallscripts/time_delay.txt" />
-        <option value="$PROJECT_DIR$/smallscripts/time_delay.csv" />
-        <option value="$PROJECT_DIR$/smallscripts/loss_rate.csv" />
         <option value="$PROJECT_DIR$/smallscripts/netspeedV2.py" />
         <option value="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/loss_rate.csv" />
         <option value="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/time_delay.csv" />
         <option value="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/log.txt" />
+        <option value="$PROJECT_DIR$/smallscripts/模板文件.csv" />
+        <option value="$PROJECT_DIR$/smallscripts/loss_rate.csv" />
+        <option value="$PROJECT_DIR$/smallscripts/time_delay.csv" />
+        <option value="$PROJECT_DIR$/smallscripts/netspeed_demo.py" />
         <option value="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py" />
+        <option value="$PROJECT_DIR$/smallscripts/netspeedV3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2018" />
     <option name="y" value="54" />
     <option name="width" value="1247" />
@@ -81,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,7 +116,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,8 +123,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\smallscripts\001国际通道园区网络环境测试脚本" />
       <recent name="D:\Code\Crawler4Caida\smallscripts" />
+      <recent name="D:\Code\Crawler4Caida\smallscripts\001国际通道园区网络环境测试脚本" />
       <recent name="D:\Code\Crawler4Caida\refactoring" />
       <recent name="D:\Code\Crawler4Caida\crawler" />
     </key>
@@ -123,25 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.netspeed (2)">
-    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/refactoring" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/refactoring/crawler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.netspeedV3">
     <configuration name="netspeed (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,24 +178,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="netspeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallscripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\smallscripts\netspeed_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="netspeedV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,20 +196,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="netspeedV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallscripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallscripts/netspeedV3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="netspeed_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallscripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallscripts/netspeed_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.crawler" />
-      <item itemvalue="Python.netspeed" />
       <item itemvalue="Python.netspeed (1)" />
       <item itemvalue="Python.netspeedV2" />
       <item itemvalue="Python.netspeed (2)" />
+      <item itemvalue="Python.netspeedV3" />
+      <item itemvalue="Python.netspeed_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.netspeedV3" />
         <item itemvalue="Python.netspeed (2)" />
+        <item itemvalue="Python.netspeed_demo" />
         <item itemvalue="Python.netspeedV2" />
         <item itemvalue="Python.netspeed (1)" />
-        <item itemvalue="Python.netspeed" />
-        <item itemvalue="Python.crawler" />
       </list>
     </recent_temporary>
   </component>
@@ -254,16 +272,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2018" y="54" width="1247" height="661" extended-state="0" />
+    <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3432589" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2045134" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14804845" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5113636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22745626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2405303" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17092867" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -298,6 +317,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="137" column="40" lean-forward="true" selection-start-line="137" selection-start-column="40" selection-end-line="137" selection-end-column="40" />
+          <folding>
+            <element signature="e#526#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -599,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -613,19 +635,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smallscripts/模板文件.csv" />
     <entry file="file://$PROJECT_DIR$/smallscripts/company_log_2018_10_29_17_36_17.csv" />
     <entry file="file://$PROJECT_DIR$/smallscripts/company_log_2018_10_29_17_39_13.csv" />
-    <entry file="file://$PROJECT_DIR$/smallscripts/loss_rate.csv" />
-    <entry file="file://$PROJECT_DIR$/smallscripts/time_delay.csv" />
     <entry file="file://$PROJECT_DIR$/smallscripts/company_log_2018_10_29_17_45_20.csv" />
-    <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="102" column="26" lean-forward="true" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -638,20 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/time_delay.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/loss_rate.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/模板文件.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -659,12 +657,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/time_delay.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/loss_rate.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/模板文件.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="true" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="137" column="40" lean-forward="true" selection-start-line="137" selection-start-column="40" selection-end-line="137" selection-end-column="40" />
+        <state relative-caret-position="-1202">
+          <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
           <folding>
             <element signature="e#526#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/loss_rate.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/time_delay.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smallscripts/netspeedV3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1901">
+          <caret line="213" column="66" lean-forward="true" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
+          <folding>
+            <element signature="e#211#228#0" expanded="true" />
+            <element signature="e#3089#3468#0" />
           </folding>
         </state>
       </provider>

@@ -45,7 +45,7 @@ ip_info = [["新加坡", "180.210.206.51"],
            ["蒙古", "43.231.113.234"],
            ["日本", "45.32.51.106"],
            ["韩国", "103.86.86.1"],
-           ["香港", "203.160.84.241"],
+           ["香港", "203.119.87.218"],
            ["台湾", "113.196.70.31"],
            ["英国", "5.1.88.152"],
            ["德国", "185.72.247.76"],
@@ -87,7 +87,7 @@ def run_ping_test(ip_str):
     """
     # list_p_r = []
     # print("本组测试开始(", ip_str, ")：ping %s -n 3 ", ip_str)
-    ftp_sub = subprocess.Popen("ping %s -n 20" % ip_str,
+    ftp_sub = subprocess.Popen("ping %s -n 10" % ip_str,
                                stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
     ret = ftp_sub.stdout.read()
     str_ret = ret.decode('gbk')
@@ -156,39 +156,39 @@ if __name__ == "__main__":
     # print(len(ip_info))
     time_end = time.time()
     print("=>TEST FINISH:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end)), ", TIME CONSUMING：", (time_end - time_start), "s")
-    # print(loss_rate_list)
-    # print(time_delay_list)
-    print("=>WRITE company_log")
-    company_log_file = 'C:/ywyscripts/company_log_' + time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime(time_start)) + ".csv"
-    f = open(company_log_file, "w+", encoding='utf-8')
-    for item in company_log_list:
-        f.write(item)
-    f.close()
-    # print("=>写company_log完成")
-
-    print("=>WRITE log.txt FILE")
-    log_list.append("=>写log结束 %s" % (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end))))
-    f = open(log_file, "a", encoding='utf-8')
-    for item in log_list:
-        f.write(item)
-    f.close()
-    # print("=>写log.txt文件完成")
-
-    print("=>WRITE loss_rate.csv FILE")
-    f = open(loss_rate_file, "w", newline='', encoding='utf-8')
-    writer = csv.writer(f)
-    for item in loss_rate_list:
-        writer.writerow(item)
-    f.close()
-    # print("=>写loss_rate.csv文件结束")
-
-    print("=>WRITE time_delay.csv FILE")
-    f = open(time_delay_file, "w", newline='', encoding='utf-8')
-    writer = csv.writer(f)
-    for item in time_delay_list:
-        writer.writerow(item)
-    f.close()
-    # print("=>写time_delay.csv文件结束")
+    print(loss_rate_list)
+    print(time_delay_list)
+    # print("=>WRITE company_log")
+    # company_log_file = 'C:/ywyscripts/company_log_' + time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime(time_start)) + ".csv"
+    # f = open(company_log_file, "w+", encoding='utf-8')
+    # for item in company_log_list:
+    #     f.write(item)
+    # f.close()
+    # # print("=>写company_log完成")
+    #
+    # print("=>WRITE log.txt FILE")
+    # log_list.append("=>写log结束 %s" % (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end))))
+    # f = open(log_file, "a", encoding='utf-8')
+    # for item in log_list:
+    #     f.write(item)
+    # f.close()
+    # # print("=>写log.txt文件完成")
+    #
+    # print("=>WRITE loss_rate.csv FILE")
+    # f = open(loss_rate_file, "w", newline='', encoding='utf-8')
+    # writer = csv.writer(f)
+    # for item in loss_rate_list:
+    #     writer.writerow(item)
+    # f.close()
+    # # print("=>写loss_rate.csv文件结束")
+    #
+    # print("=>WRITE time_delay.csv FILE")
+    # f = open(time_delay_file, "w", newline='', encoding='utf-8')
+    # writer = csv.writer(f)
+    # for item in time_delay_list:
+    #     writer.writerow(item)
+    # f.close()
+    # # print("=>写time_delay.csv文件结束")
 
 
 

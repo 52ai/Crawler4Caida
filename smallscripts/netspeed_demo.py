@@ -63,7 +63,7 @@ import re
 
 def run(ip):
     list_p_r = []
-    ftp_sub = subprocess.Popen("ping %s -n 5" % ip,
+    ftp_sub = subprocess.Popen("ping %s -n 10" % ip,
                                stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
     ret = ftp_sub.stdout.read()
     str_ret = ret.decode("gbk")
@@ -76,5 +76,5 @@ def run(ip):
     return list_p_r
 
 
-ip = "45.32.51.106"
+ip = "41.185.78.52"
 print(run(ip))
