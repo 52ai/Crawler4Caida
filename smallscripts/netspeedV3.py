@@ -64,7 +64,7 @@ company_log_list = []
 # 全局的拆分后的IP地址列表
 ip_info_threading = []
 
-n_threading = 11  # 设置并发线程数为11次
+n_threading = 33  # 设置并发线程数为11次
 # 根据并发发线程数，拆分IP地址列表，按照等分，每轮的个数为IP列表总的个数除以并发数，向上取整
 max_ip_cnt = (len(ip_info) // n_threading)
 run_index_group = [0] * n_threading  # 存储组内坐标列表，初始化全为0
@@ -74,7 +74,7 @@ def run_ping_test(run_index):
     for run_item in ip_info_threading[run_index]:
         # print(run_item)
         # loss_rate, time_delay = run_ping(run_item[1])
-        ftp_sub = subprocess.Popen("ping %s -n 200" % run_item[1],
+        ftp_sub = subprocess.Popen("ping %s -n 300" % run_item[1],
                                    stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
         ret = ftp_sub.stdout.read()
         str_ret = ret.decode('gbk')
@@ -213,6 +213,9 @@ if __name__ == "__main__":
 =>TEST FINISH: 2018-10-30 18:13:51 , TIME CONSUMING： 86.72197484970093 s
 33国际IP，ping 50，11个并发，进行实验
 =>TEST FINISH: 2018-10-30 18:26:23 , TIME CONSUMING： 180.65175580978394 s
+33国际IP，ping 500,11个并发，进行实验
+=>TEST FINISH: 2018-10-31 10:49:59 , TIME CONSUMING： 2194.2702968120575 s
+
 """
 
 
