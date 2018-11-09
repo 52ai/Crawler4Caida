@@ -1,5 +1,5 @@
 ## Crawler4Caida
-一个关于CAIDA（互联网应用数据分析中心）网络研究数据爬取的爬虫程序库，包括全球AS、DNS、IPV4/IPV6等。
+一个关于CAIDA（互联网应用数据分析中心）网络研究数据爬取的爬虫程序库，包括全球AS、DNS、IPV4/IPV6等(并扩充至部门工作自动化部分)。
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
 CAIDA（the Center for Applied Internet Data Analysis），中文全称为互联网应用数据分析中心，引导网络研究并构建网络研究基础设施，为大规模的数据采集、管理，并将数据分发至科学研究社区提供支撑。<br>
@@ -20,7 +20,9 @@ About CAIDA还有[Annual Report](http://www.caida.org/home/about/annualreports/)
 
 ## Crawler4Caida库结构
 
-crawler ---放置按需求编写的爬虫程序<br>
+automation --- 按照任务以文件夹的形式进行管理源程序<br>
+crawler --- 放置按需求编写的爬虫程序，一般是以单个文件的形式存档<br>
+crawler4caida --- 不定期更新系统化的CAIDA数据的分析程序，不限于AS号、DNS、IPv4/IPv6、网间互联互通等内容<br>
 refactoring --- 放置重构之后的爬虫程序，一般完成时间较晚<br>
 requirements.md  ---需求记录文档<br>
 README.md  ---库介绍文档<br>

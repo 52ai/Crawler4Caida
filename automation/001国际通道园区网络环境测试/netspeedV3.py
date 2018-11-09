@@ -64,7 +64,7 @@ company_log_list = []
 # 全局的拆分后的IP地址列表
 ip_info_threading = []
 
-n_threading = 11  # 设置并发线程数为11次
+n_threading = 33  # 设置并发线程数为11次
 # 根据并发发线程数，拆分IP地址列表，按照等分，每轮的个数为IP列表总的个数除以并发数，向上取整
 max_ip_cnt = (len(ip_info) // n_threading)
 run_index_group = [0] * n_threading  # 存储组内坐标列表，初始化全为0
@@ -74,7 +74,7 @@ def run_ping_test(run_index):
     for run_item in ip_info_threading[run_index]:
         # print(run_item)
         # loss_rate, time_delay = run_ping(run_item[1])
-        ftp_sub = subprocess.Popen("ping %s -n 50" % run_item[1],
+        ftp_sub = subprocess.Popen("ping %s -n 10" % run_item[1],
                                    stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
         ret = ftp_sub.stdout.read()
         str_ret = ret.decode('gbk')
@@ -91,7 +91,8 @@ def run_ping_test(run_index):
             time_delay = "INFINITE"
         log_str = "%s, %s, %s, %s" % (run_item[0], run_item[1], loss_rate, time_delay)
         company_log_list.append(log_str + "\n")
-        print(log_str)
+        # print(log_str)
+        print(".", end='')
         loss_rate_list[run_index * max_ip_cnt + run_index_group[run_index]].append(loss_rate)  # 添加丢包率
         time_delay_list[run_index * max_ip_cnt + run_index_group[run_index]].append(time_delay)  # 添加时延
         run_index_group[run_index] += 1  # 组内索引自增1
@@ -116,7 +117,7 @@ if __name__ == "__main__":
     # ip_str = "95.56.234.66"
     # run_ping_test(ip_str)
     # run_tracert_test(ip_str)
-    print("=>read loss_rate file, generate loss_rate_list")
+    # print("=>read loss_rate file, generate loss_rate_list")
     f_loss_rate = open(loss_rate_file, "r", encoding='utf-8')
     for line in f_loss_rate.readlines():
         # print(line.strip().split(','))
@@ -124,7 +125,7 @@ if __name__ == "__main__":
     f_loss_rate.close()
     # print(loss_rate_list)
 
-    print("=>read time_delay file, generate time_delay_list")
+    # print("=>read time_delay file, generate time_delay_list")
     f_time_delay = open(time_delay_file, "r", encoding='utf-8')
     for line in f_time_delay.readlines():
         # print(line.strip().split(','))
@@ -134,7 +135,7 @@ if __name__ == "__main__":
 
     time_start = time.time()
     print("=>TEST START:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_start)))
-    print("country, ip, loss_rate, time_delay")
+    # print("country, ip, loss_rate, time_delay")
     # 下面开始读取IP地址列表进行ping测试，设置并发线程个数为n_threading
     tmp_ip_info = []
     item_index = 1
@@ -148,7 +149,7 @@ if __name__ == "__main__":
         item_index += 1
     if len(tmp_ip_info) != 0:
         ip_info_threading.append(tmp_ip_info)
-    print(ip_info_threading)
+    # print(ip_info_threading)
     # 根据并发线程数，拆分IP地址列表完毕，格式为[[[country, ip],[],[],[]],[],[],[]...]
     # item_index = 0
     # for item in ip_info:
@@ -165,7 +166,7 @@ if __name__ == "__main__":
     threads = []  # 存储进程
     item_index = 0
     for item in ip_info_threading:
-        print(item)
+        # print(item)
         threads.append(threading.Thread(target=run_ping_test, args=(item_index,)))
         item_index += 1
     for t in threads:
@@ -175,33 +176,33 @@ if __name__ == "__main__":
     for k in threads:
         k.join()
     print("All threading finished!")
-    print(loss_rate_list)
-    print(time_delay_list)
+    # print(loss_rate_list)
+    # print(time_delay_list)
     time_end = time.time()
     print("=>TEST FINISH:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end)), ", TIME CONSUMING：", (time_end - time_start), "s")
 
-    print("=>WRITE company_log")
+    # print("=>WRITE company_log")
     company_log_file = 'C:/ywyscripts/company_log_' + time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime(time_start)) + ".csv"
     f = open(company_log_file, "w+", encoding='utf-8')
     for item in company_log_list:
         f.write(item)
     f.close()
 
-    print("=>WRITE log.txt FILE")
+    # print("=>WRITE log.txt FILE")
     log_list.append("=>写log结束 %s" % (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time_end))))
     f = open(log_file, "a", encoding='utf-8')
     for item in log_list:
         f.write(item)
     f.close()
 
-    print("=>WRITE loss_rate.csv FILE")
+    # print("=>WRITE loss_rate.csv FILE")
     f = open(loss_rate_file, "w", newline='', encoding='utf-8')
     writer = csv.writer(f)
     for item in loss_rate_list:
         writer.writerow(item)
     f.close()
 
-    print("=>WRITE time_delay.csv FILE")
+    # print("=>WRITE time_delay.csv FILE")
     f = open(time_delay_file, "w", newline='', encoding='utf-8')
     writer = csv.writer(f)
     for item in time_delay_list:
@@ -212,6 +213,12 @@ if __name__ == "__main__":
 =>TEST FINISH: 2018-10-30 18:13:51 , TIME CONSUMING： 86.72197484970093 s
 33国际IP，ping 50，11个并发，进行实验
 =>TEST FINISH: 2018-10-30 18:26:23 , TIME CONSUMING： 180.65175580978394 s
+33国际IP，ping 500,11个并发，进行实验
+=>TEST FINISH: 2018-10-31 10:49:59 , TIME CONSUMING： 2194.2702968120575 s
+33国际IP，ping 300,11个并发，进行实验
+=>TEST START: 2018-10-31 12:23:05
+.................................All threading finished!
+=>TEST FINISH: 2018-10-31 12:30:33 , TIME CONSUMING： 447.999125957489 s
 """
 
 
