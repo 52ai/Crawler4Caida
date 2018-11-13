@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/automation/002全球网络架构地位变化分析/crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/002全球网络架构地位变化分析/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/002全球网络架构地位变化分析/crawler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,8 @@
       <file leaf-file-name="crawler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/automation/002全球网络架构地位变化分析/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="51" />
-              <folding>
-                <element signature="e#82#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -117,19 +114,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\smallscripts" />
-      <recent name="D:\Code\Crawler4Caida\refactoring" />
-      <recent name="D:\Code\Crawler4Caida\crawler" />
-      <recent name="D:\Code\Crawler4Caida\automation" />
-      <recent name="D:\Code\Crawler4Caida\smallscripts\001国际通道园区网络环境测试脚本" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\automation\002全球网络架构地位变化分析" />
       <recent name="D:\Code\Crawler4Caida\automation" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\crawler" />
       <recent name="D:\Code\Crawler4Caida\refactoring" />
-      <recent name="D:\Code\Crawler4Caida\smallscripts\001国际通道园区网络环境测试" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\refactoring" />
+      <recent name="D:\Code\Crawler4Caida\smallscripts" />
+      <recent name="D:\Code\Crawler4Caida\crawler" />
+      <recent name="D:\Code\Crawler4Caida\automation" />
+      <recent name="D:\Code\Crawler4Caida\smallscripts\001国际通道园区网络环境测试脚本" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,13 +278,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20028208" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14670256" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29340512" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.218035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2153432" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13055182" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -299,21 +296,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25176305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14804845" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26917902" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2422611" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -325,6 +322,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/automation/002全球网络架构地位变化分析/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py" />
     <entry file="file://$PROJECT_DIR$/automation/001国际通道园区网络环境测试/netspeedV2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,9 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/refactoring/crawler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -614,11 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/002全球网络架构地位变化分析/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <element signature="e#82#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

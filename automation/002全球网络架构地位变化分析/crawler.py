@@ -27,6 +27,7 @@ if __name__ == "__main__":
     
     以电信4314 AS号为例，其API接口为：http://as-rank.caida.org/api/v1/asns/4134/links?populate=1
     """
-    api_url = "http://as-rank.caida.org/api/v1/asns/4134/links?populate=1"
+    # api_url = "http://as-rank.caida.org/api/v1/asns/36678/links?populate=1"
+    api_url = "http://as-rank.caida.org/api/v1/asns?populate=1"  # 全球互联网所有的AS号码
     get_info(api_url)
 
