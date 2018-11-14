@@ -25,6 +25,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 
+
 def get_artists_info(url):
     """
     抓取网易云音乐歌手页面的动态信息，并根据要求返回相关信息
