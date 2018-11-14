@@ -1,2 +1,2 @@
-# can ignore add directories and files in a directory
-./automation/003Music163Spiders/geckodriver.log
+# can ignore all directories and files in a directory
+automation/003Music163Spiders/*.log
