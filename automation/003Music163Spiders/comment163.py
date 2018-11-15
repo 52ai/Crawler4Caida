@@ -6,6 +6,7 @@
 下一步工作就是找个时间，好好的规划下对于网易云音乐的数据爬取及分析的思路
 不过在此之前，先把几个关键的技术点攻破
 形成爬取->存储->分析->输出的一条龙服务，最最关键就是要有好的idea
+以此作为开始吧，仿佛看到了曙光
 """
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
