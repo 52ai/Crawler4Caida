@@ -59,10 +59,11 @@ def get_artists_info(url):
 
 if __name__ == "__main__":
     # page_url = "https://music.163.com/#/artist?id=8103"
-    page_url = "https://xueqiu.com/#/cn"
+    # page_url = "https://xueqiu.com/#/cn"
     # page_url = "https://music.163.com/#/artist/desc?id=8103"  # 花粥的简介及个人资料
     # page_url = "https://music.163.com/artist/desc?id=8103"
     # page_url = "http://as-rank.caida.org/asns/3549?page=1&count=40&page=2"
+    page_url = "https://wenku.baidu.com/view/0ccb2226a5e9856a561260f0.html"
     print(get_artists_info(page_url))
     # print(urlopen(page_url))
 
