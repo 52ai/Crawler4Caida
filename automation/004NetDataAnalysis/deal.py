@@ -13,11 +13,12 @@ def write_csv(file_list, file_name):
     :param file_list:
     :return: None
     """
-    f = open(file_name, "w", newline='', encoding='utf-8')
+    f = open(file_name, "w", newline='', encoding='GBK')
     writer = csv.writer(f)
     for item in file_list:
         writer.writerow(item)
     f.close()
+
 
 def process_data(file_name):
     out_file_list = []  # 规定格式存储的数据列表
@@ -65,5 +66,6 @@ def process_data(file_name):
 
 
 if __name__ == "__main__":
-    process_file = "分小时算平均-电信到移动_ywy.csv"
+    # process_file = "分小时算平均-电信到移动_ywy.csv"
+    process_file = "分小时算平均-联通到移动_ywy.csv"
     process_data(process_file)
