@@ -40,7 +40,7 @@
       <file leaf-file-name="autoDownload.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="375">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -162,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="108" />
     <option name="y" value="132" />
     <option name="width" value="1606" />
@@ -364,7 +364,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2651099" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25137362" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -727,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="375">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
