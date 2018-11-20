@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoLogin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="autoLogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="167">
+              <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
               <folding>
                 <element signature="e#352#382#0" expanded="true" />
                 <element signature="e#613#852#0" />
@@ -36,11 +37,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="autoDownload.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="log.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/log.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -61,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/deal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#88#98#0" expanded="true" />
               </folding>
@@ -148,14 +158,15 @@
         <option value="$PROJECT_DIR$/automation/003Music163Spiders/comment163.py" />
         <option value="$PROJECT_DIR$/automation/003Music163Spiders/log.csv" />
         <option value="$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py" />
+        <option value="$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="201" />
-    <option name="y" value="98" />
+    <option name="x" value="108" />
+    <option name="y" value="132" />
     <option name="width" value="1606" />
-    <option name="height" value="907" />
+    <option name="height" value="861" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,7 +224,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.autoLogin">
+  <component name="RunManager" selected="Python.autoDownload">
+    <configuration name="autoDownload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/003Music163Spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="autoLogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,24 +256,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="cheese" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/003Music163Spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/cheese.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,18 +317,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.crawler_review" />
-      <item itemvalue="Python.cheese" />
       <item itemvalue="Python.autoLogin" />
       <item itemvalue="Python.comment163" />
       <item itemvalue="Python.deal" />
+      <item itemvalue="Python.autoDownload" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.autoDownload" />
         <item itemvalue="Python.autoLogin" />
         <item itemvalue="Python.deal" />
         <item itemvalue="Python.comment163" />
         <item itemvalue="Python.crawler_review" />
-        <item itemvalue="Python.cheese" />
       </list>
     </recent_temporary>
   </component>
@@ -344,16 +355,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="201" y="98" width="1606" height="907" extended-state="0" />
+    <frame x="108" y="132" width="1606" height="861" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18303572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16454081" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14670256" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35271317" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31593406" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26614988" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2651099" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,13 +404,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/comment163.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/deal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1342">
@@ -682,6 +686,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+          <folding>
+            <element signature="e#352#382#0" expanded="true" />
+            <element signature="e#613#852#0" />
+            <element signature="e#638#2265#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/log.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/comment163.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -695,29 +718,17 @@
     <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/deal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#88#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/log.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py">
+    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#352#382#0" expanded="true" />
-            <element signature="e#613#852#0" />
-            <element signature="e#638#2265#0" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
