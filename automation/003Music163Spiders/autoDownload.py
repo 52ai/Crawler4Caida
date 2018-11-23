@@ -42,7 +42,7 @@ import requests
 import threading
 
 
-url_list = [["https://dws-video.wenzaizhibo.com/f9ce79a273f44e14de61aff74c101146/5bf6defe/00-x-upload/video/101938187_321f608db6f3e44b24ac51ae6f13f0db_kxn8Pd7A.mp4", "纯正英语口语（让你马上开口说英语）1.mp4"],
+url_list = [["https://dws-video.wenzaizhibo.com/9479218336fb9535c396d51aff7c3451/5bf83046/00-x-upload/video/101938187_321f608db6f3e44b24ac51ae6f13f0db_kxn8Pd7A.mp4", "纯正英语口语（让你马上开口说英语）1.mp4"],
             ["https://dws-video.wenzaizhibo.com/fab34786450ce56ed3410a937ca4ae2e/5bf6df63/00-x-upload/video/101949616_03a2bfea33715d3fd8bcfc44a54d4c3b_co0YCgSW.mp4", "纯正英语口语（让你马上开口说英语）2.mp4"],
             ["https://dws-video.wenzaizhibo.com/30b85805f76e5dae117f233d0fca496d/5bf6df8a/00-x-upload/video/101959533_343c99ad33b754f316487580a7fada53_lhKHSS3X.mp4", "纯正英语口语（让你马上开口说英语）3.mp4"],
             ["https://dws-video.wenzaizhibo.com/d8ce3cab6a668893dadab4a1165a642d/5bf6dfac/00-x-upload/video/101964240_b559e498942159bbf6b07760c69a7811_luDFSVdZ.mp4", "纯正英语口语（让你马上开口说英语）4.mp4"],
