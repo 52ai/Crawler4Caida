@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/006Wechat/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/006Wechat/demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,35 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="autoDownload.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/automation/006Wechat/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-              <folding>
-                <element signature="e#4773#4788#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="find_genshuixue_url.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/find_genshuixue_url.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cheese.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/cheese.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#58#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -128,12 +105,13 @@
         <option value="$PROJECT_DIR$/automation/005windowsAuto/autoShutdown.py" />
         <option value="$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py" />
         <option value="$PROJECT_DIR$/automation/003Music163Spiders/find_genshuixue_url.py" />
+        <option value="$PROJECT_DIR$/automation/006Wechat/demo.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="33" />
+    <option name="x" value="187" />
+    <option name="y" value="38" />
     <option name="width" value="1571" />
     <option name="height" value="864" />
   </component>
@@ -159,7 +137,7 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="003Music163Spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="006Wechat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.autoDownload">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="autoDownload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,24 +232,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="crawler_review" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/003Music163Spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/crawler_review.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="deal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,20 +250,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/006Wechat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/006Wechat/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.crawler_review" />
       <item itemvalue="Python.autoLogin" />
       <item itemvalue="Python.comment163" />
       <item itemvalue="Python.deal" />
       <item itemvalue="Python.autoDownload" />
+      <item itemvalue="Python.demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.autoDownload" />
         <item itemvalue="Python.autoLogin" />
         <item itemvalue="Python.deal" />
         <item itemvalue="Python.comment163" />
-        <item itemvalue="Python.crawler_review" />
       </list>
     </recent_temporary>
   </component>
@@ -330,16 +308,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="10" width="1520" height="921" extended-state="0" />
+    <frame x="187" y="38" width="1571" height="864" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19365722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18721461" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14670256" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2987887" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34898478" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3488372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25126904" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27086183" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,7 +357,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed_demo.py" />
     <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -674,20 +651,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
+        <state relative-caret-position="127">
           <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
           <folding>
             <element signature="e#4773#4788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/cheese.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#58#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,6 +663,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/cheese.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#58#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/006Wechat/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
