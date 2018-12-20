@@ -10,7 +10,6 @@ import time
 from selenium.webdriver.common.by import By
 from urllib.request import urlretrieve
 import pytesseract
-import tesseract
 from PIL import Image, ImageEnhance
 driver = webdriver.Firefox()
 driver.get("http://www.bbums.cn/busrvmanager/query.jsp")
@@ -37,10 +36,8 @@ sharp_img = ImageEnhance.Contrast(imageCode).enhance(2.0)  # 图片增强并二�
 sharp_img.save("sharp_img.png")
 image_number = pytesseract.image_to_string(sharp_img)  # 在windows下需要先安装tesseract-ocr程序，并配置tesseract的环境变量
 print("image_number:", image_number)
-
-
 checkcode_input = driver.find_element_by_id("checkcode")
-checkcode_input.send_keys("0000")
+checkcode_input.send_keys(image_number)
 time.sleep(3)
 btn_dev = driver.find_element_by_id("btn_dev")
 btn_dev.click()
