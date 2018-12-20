@@ -6,17 +6,18 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
 from selenium.webdriver.common.by import By
 from urllib.request import urlretrieve
 import pytesseract
 from PIL import Image, ImageEnhance
+import time
+
 driver = webdriver.Firefox()
 driver.get("http://www.bbums.cn/busrvmanager/query.jsp")
 print(driver.title)
 uuid_input = driver.find_element_by_id("uuid")
 uuid_input.send_keys("d75aaa83-d4de-1544-975f-407d0f289335	")
-time.sleep(3)
+# time.sleep(3)
 
 # 截取屏幕保存到本地，然后提取验证码，作为输入
 driver.save_screenshot("screen.png")
@@ -34,16 +35,19 @@ frame_crop.save('checkcode_crop.png')  # 保存截取的验证码
 imageCode = Image.open("checkcode_crop.png")
 sharp_img = ImageEnhance.Contrast(imageCode).enhance(2.0)  # 图片增强并二值化
 sharp_img.save("sharp_img.png")
-image_number = pytesseract.image_to_string(sharp_img)  # 在windows下需要先安装tesseract-ocr程序，并配置tesseract的环境变量
+image_number = pytesseract.image_to_string(sharp_img)  # 在windows下需要先安装tesseract-ocr程序，并修改pytesseract.py
 print("image_number:", image_number)
 checkcode_input = driver.find_element_by_id("checkcode")
 checkcode_input.send_keys(image_number)
-time.sleep(3)
+# time.sleep(3)
 btn_dev = driver.find_element_by_id("btn_dev")
 btn_dev.click()
 print(driver.page_source)
+div_table = driver.find_element_by_xpath('//div[@id="info"]/table/tbody/tr[5]/td[2]')
+print(div_table.text)
 time.sleep(3)
 driver.quit()
+
 # find the element that's name attribute is q (the google search box)
 # inputElement = driver.find_element_by_name("q")  # equal to the method: find_element(By.NAME, "q")
 # inputElement = driver.find_element(By.NAME, "q")
