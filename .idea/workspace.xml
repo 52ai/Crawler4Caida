@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_17.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop.png" beforeDir="false" afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/sharp_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/automation/007Crawler4UniversalService/sharp_img.png" afterDir="false" />
     </list>
@@ -21,64 +19,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="refactoring.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="multi_refactoring.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+            <state relative-caret-position="108">
+              <caret line="144" column="51" lean-forward="true" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
               <folding>
-                <element signature="e#253#283#0" expanded="true" />
+                <element signature="e#269#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uuid.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="netspeedV3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="209" column="13" lean-forward="true" selection-start-line="205" selection-start-column="4" selection-end-line="209" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uuid_3.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_3.csv">
+      <file leaf-file-name="result_all_plus_plus.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus_plus.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="110">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uuid_100.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="22">
-              <caret line="31" selection-start-line="31" selection-end-line="32" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sharp_img.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/sharp_img.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="checkcode_crop.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/screen.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -107,6 +67,7 @@
       <find>LLC</find>
       <find>2</find>
       <find>Math</find>
+      <find>8a77f5e5-129e-1b4a-9f7b-f898b98c7f8e</find>
     </findStrings>
     <replaceStrings>
       <replace>broswer</replace>
@@ -120,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crawler/crawler_task_1.py" />
-        <option value="$PROJECT_DIR$/refactoring/crawler.py" />
-        <option value="$PROJECT_DIR$/requirments.md" />
         <option value="$PROJECT_DIR$/smallscripts/netspeed.py" />
         <option value="$PROJECT_DIR$/smallscripts/log.txt" />
         <option value="$PROJECT_DIR$/smallscripts/模板文件.txt" />
@@ -166,10 +124,14 @@
         <option value="$PROJECT_DIR$/automation/006Wechat/demo.py" />
         <option value="$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV3.py" />
         <option value="$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py" />
-        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv" />
-        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_3.csv" />
         <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py" />
+        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid.csv" />
+        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_3.csv" />
         <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py" />
+        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv" />
+        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/test.py" />
+        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_17.csv" />
+        <option value="$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py" />
       </list>
     </option>
   </component>
@@ -201,12 +163,6 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="001GlobalNetTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="007Crawler4UniversalService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -220,18 +176,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\automation\007Crawler4UniversalService" />
-      <recent name="D:\Code\Crawler4Caida\automation\003网易云音乐爬虫（Music163Spiders）" />
-      <recent name="D:\Code\Crawler4Caida\refactoring" />
-      <recent name="D:\Code\Crawler4Caida\smallscripts" />
-      <recent name="D:\Code\Crawler4Caida\crawler" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\automation\003Music163Spiders" />
       <recent name="D:\Code\Crawler4Caida\automation\002全球网络架构地位变化分析" />
       <recent name="D:\Code\Crawler4Caida\automation" />
       <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\crawler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\automation\007Crawler4UniversalService" />
+      <recent name="D:\Code\Crawler4Caida\automation\003网易云音乐爬虫（Music163Spiders）" />
+      <recent name="D:\Code\Crawler4Caida\refactoring" />
+      <recent name="D:\Code\Crawler4Caida\smallscripts" />
       <recent name="D:\Code\Crawler4Caida\crawler" />
     </key>
   </component>
@@ -247,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.refactoring">
+  <component name="RunManager" selected="Python.multi_refactoring">
     <configuration name="Crawler4UniversalService" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,24 +217,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="comment163" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/003Music163Spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/comment163.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,6 +258,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="multi_refactoring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/007Crawler4UniversalService" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="refactoring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,18 +296,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.crawler" />
-      <item itemvalue="Python.comment163" />
       <item itemvalue="Python.get_artists_info" />
       <item itemvalue="Python.Crawler4UniversalService" />
       <item itemvalue="Python.refactoring" />
+      <item itemvalue="Python.multi_refactoring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multi_refactoring" />
         <item itemvalue="Python.refactoring" />
         <item itemvalue="Python.Crawler4UniversalService" />
         <item itemvalue="Python.crawler" />
         <item itemvalue="Python.get_artists_info" />
-        <item itemvalue="Python.comment163" />
       </list>
     </recent_temporary>
   </component>
@@ -381,14 +337,14 @@
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16572638" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.287024" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14615385" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2979415" />
-      <window_info anchor="bottom" x="76" y="312" width="1533" height="254" id="Run" order="2" visible="true" weight="0.29340512" />
+      <window_info active="true" anchor="bottom" x="76" y="312" width="1533" height="254" id="Run" order="2" visible="true" weight="0.3795424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30877572" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13997309" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -401,22 +357,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" x="76" y="312" width="1533" height="254" id="Run" order="2" visible="true" weight="0.3257066" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23060648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14615385" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2979415" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" x="76" y="312" width="1533" height="254" id="Run" order="2" visible="true" weight="0.3257066" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.30877572" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2979415" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -428,31 +384,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/automation/002asAnalysis/crawler.py">
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smallscripts/netspeed.py" />
-    <entry file="file://$PROJECT_DIR$/smallscripts/company_log_2018_10_29_17_36_17.csv" />
-    <entry file="file://$PROJECT_DIR$/smallscripts/company_log_2018_10_29_17_39_13.csv" />
-    <entry file="file://$PROJECT_DIR$/smallscripts/company_log_2018_10_29_17_45_20.csv" />
-    <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/模板文件.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="3080">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#269#299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/crawler_review.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -685,32 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/img1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/sharp_img.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="22">
-          <caret line="31" selection-start-line="31" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding>
-            <element signature="e#63#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,35 +630,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_3.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="209" column="13" lean-forward="true" selection-start-line="205" selection-start-column="4" selection-end-line="209" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
+    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-          <folding>
-            <element signature="e#253#283#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="748">
+          <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/test.py" />
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="444">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_17.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_100.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-538">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-103594">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_gbk.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-2501">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus_plus.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="144" column="51" lean-forward="true" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
+          <folding>
+            <element signature="e#269#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
