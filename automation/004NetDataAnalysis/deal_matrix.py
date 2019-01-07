@@ -117,9 +117,12 @@ def process_data(file_name_1, file_name_2):
     nums = []
     for i in range(31):
         for j in range(31):
-            nums.append(float(yidong_delay[i][j]))
-            nums.append(float(liantong_delay[i][j]))
-            nums.append(float(dianxin_delay[i][j]))
+            if float(yidong_delay[i][j]) != 0:
+                nums.append(float(yidong_delay[i][j]))
+            if float(liantong_delay[i][j]) != 0:
+                nums.append(float(liantong_delay[i][j]))
+            if float(dianxin_delay[i][j]) != 0:
+                nums.append(float(dianxin_delay[i][j]))
             min_delay = min(nums)
             best_delay[i][j] = min_delay
             average_delay[i][j] = max(nums) / len(nums)
@@ -137,6 +140,7 @@ def process_data(file_name_1, file_name_2):
     write_csv(best_delay, "best_delay.csv")
     # 按要求输出平均矩阵
     write_csv(average_delay, "average_delay.csv")
+
 
 if __name__ == "__main__":
     # process_file = "分小时算平均-电信到移动_ywy.csv"
