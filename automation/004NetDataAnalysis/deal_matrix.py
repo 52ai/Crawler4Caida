@@ -109,9 +109,9 @@ def process_data(file_name_1, file_name_2):
                     aim_delay = line_str.strip().split(',')[2]
             dianxin_delay[i][j] = aim_delay
     print(dianxin_delay)
-    # ################移动结束#####################################################################
+    # ################移动结束#################################
 
-    # ################求最优和平均###########
+    # ################求最优和平均#############################
     best_delay = [([0]*31) for i in range(31)]  # 生成31*31的各省运营商最优时延矩阵
     average_delay = [([0] * 31) for i in range(31)]  # 生成31*31的各省运营商平均时延矩阵
     nums = []
@@ -129,7 +129,7 @@ def process_data(file_name_1, file_name_2):
             nums = []
     print(best_delay)
     print(average_delay)
-    ###################################################################
+    ###########################################################
     # 按要求输出yidong_delay
     write_csv(yidong_delay, "yidong_delay.csv")
     # 按要求输出dianxin_delay
