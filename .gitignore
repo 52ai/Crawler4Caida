@@ -1,4 +1,4 @@
 # can ignore all directories and files in a directory
 automation/003Music163Spiders/*.log
 automation/003Music163Spiders/autoLogin.py
-000PublicData/*.*
+automation/000PublicData/*.*
