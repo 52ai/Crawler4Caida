@@ -10,7 +10,8 @@ import time
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Firefox()
-driver.get("https://crp.caict.ac.cn/seeyon/main.do?method=main&loginPortal=1&portalId=-7779029842361826066")
+driver.get("https://crp.caict.ac.cn/seeyon/main.do?method=index")
+time.sleep(5)
 print(driver.page_source)
 # find the element that's name attribute is q (the google search box)
 # inputElement = driver.find_element_by_name("q")  # equal to the method: find_element(By.NAME, "q")
