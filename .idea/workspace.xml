@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/009PDFConvertImag/convert.py" line="5" mnemonic="6" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b82fc14f-d5d5-4240-b9f0-96348b9c260f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/000PublicData/demo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000PublicData/demo_excel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000PublicData/domain.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000PublicData/test_save_excel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000PublicData/websiteList.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000PublicData/websiteList_deal.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000PublicData/websiteList_test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003Music163Spiders/autoLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003Music163Spiders/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/009PDFConvertImag/convert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/000PublicData/domain.csv" beforeDir="false" afterPath="$PROJECT_DIR$/000PublicData/domain.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/000PublicData/websiteList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/000PublicData/websiteList.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/company_log_2018_10_29_18_15_23.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/company_log_2018_10_29_18_15_23.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/company_log_2018_10_29_18_48_19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/company_log_2018_10_29_18_48_19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/instruction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/instruction.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/loss_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/loss_rate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/netspeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV3.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/time_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/time_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/001GlobalNetTest/模板文件.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/模板文件.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/002asAnalysis/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/002asAnalysis/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/163.txt" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/163.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/autoDownload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/cheese.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/cheese.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/cheese_caict.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/cheese_caict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/comment163.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/comment163.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/crawler_review.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/crawler_review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/find_genshuixue_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/find_genshuixue_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/get_artists_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/get_artists_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/003Music163Spiders/music_163_artists.csv" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/music_163_artists.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/average_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/average_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/base_matrix_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/base_matrix_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/best_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/best_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/city_province.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/city_province.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/deal.py" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/deal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/deal_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/deal_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/dianxin_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/dianxin_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/liantong_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/liantong_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/yidong_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/yidong_delay.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/分小时算平均-电信到移动_ywy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/分小时算平均-电信到移动_ywy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/分小时算平均-联通到移动_ywy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/分小时算平均-联通到移动_ywy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/处理完成_分小时算平均-电信到移动_ywy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/处理完成_分小时算平均-电信到移动_ywy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/004NetDataAnalysis/处理完成_分小时算平均-联通到移动_ywy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/004NetDataAnalysis/处理完成_分小时算平均-联通到移动_ywy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/005windowsAuto/autoShutdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/005windowsAuto/autoShutdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/006Wechat/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/006Wechat/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/Crawler4UniversalService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/checkcode_crop_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/multi_refactoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/refactoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_all_100.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_gbk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_all_gbk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_all_plus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus_plus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_all_plus_plus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus_plus_plus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/result_all_plus_plus_plus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen0.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen1.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen2.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen3.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen4.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen5.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen6.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen7.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen8.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/screen9.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/sharp_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/sharp_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/uuid.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/uuid_100.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/uuid_17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/uuid_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/007Crawler4UniversalService/最全的一次截图.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/最全的一次截图.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website.py" beforeDir="false" afterPath="$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website_useExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/008WebsiteDataAnalysis/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/008WebsiteDataAnalysis/demo_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/automation/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,26 +113,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="requirements.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="616">
-                <caret line="28" selection-start-line="28" selection-end-line="28" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -41,8 +127,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="44">
-                <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+              <first_editor relative-caret-position="22">
+                <caret line="1" column="78" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="78" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -95,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smallscripts/001国际通道园区网络环境测试脚本/log.txt" />
         <option value="$PROJECT_DIR$/smallscripts/模板文件.csv" />
         <option value="$PROJECT_DIR$/smallscripts/loss_rate.csv" />
         <option value="$PROJECT_DIR$/smallscripts/time_delay.csv" />
@@ -144,14 +229,15 @@
         <option value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website.py" />
         <option value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo.py" />
         <option value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website_useExcel.py" />
+        <option value="$PROJECT_DIR$/automation/009PDFConvertImag/convert.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="14" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="245" />
+    <option name="y" value="30" />
     <option name="width" value="1463" />
     <option name="height" value="851" />
   </component>
@@ -161,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,26 +259,25 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\automation\003Music163Spiders" />
       <recent name="D:\Code\Crawler4Caida\automation\002全球网络架构地位变化分析" />
       <recent name="D:\Code\Crawler4Caida\automation" />
-      <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\crawler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\automation\008WebsiteDataAnalysis" />
+      <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\automation\000PublicData" />
+      <recent name="D:\Code\Crawler4Caida\automation\008WebsiteDataAnalysis" />
       <recent name="D:\Code\Crawler4Caida\automation\003Music163Spiders" />
       <recent name="D:\Code\Crawler4Caida\automation\004NetDataAnalysis" />
-      <recent name="D:\Code\Crawler4Caida\automation\007Crawler4UniversalService" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,8 +292,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.comment163">
-    <configuration name="comment163" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="convert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/009PDFConvertImag" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/009PDFConvertImag/convert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/002asAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/002asAnalysis/crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="crawler_review" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,43 +341,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/comment163.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="deal_website" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="deal_website_useExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website_useExcel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/crawler_review.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,17 +355,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/006Wechat" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/006Wechat/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="demo_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_genshuixue_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,30 +373,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/003Music163Spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/003Music163Spiders/find_genshuixue_url.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.demo_excel" />
-      <item itemvalue="Python.deal_website" />
-      <item itemvalue="Python.deal_website_useExcel" />
+      <item itemvalue="Python.crawler_review" />
+      <item itemvalue="Python.find_genshuixue_url" />
+      <item itemvalue="Python.crawler" />
+      <item itemvalue="Python.convert" />
       <item itemvalue="Python.demo" />
-      <item itemvalue="Python.comment163" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.comment163" />
-        <item itemvalue="Python.deal_website_useExcel" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.deal_website" />
-        <item itemvalue="Python.demo_excel" />
+        <item itemvalue="Python.crawler" />
+        <item itemvalue="Python.convert" />
+        <item itemvalue="Python.find_genshuixue_url" />
+        <item itemvalue="Python.crawler_review" />
       </list>
     </recent_temporary>
   </component>
@@ -337,19 +423,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="14" width="1463" height="851" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21824561" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15331928" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14615385" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" x="76" y="312" width="1533" height="254" id="Run" order="2" weight="0.2881907" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2979415" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286517" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.29577464" />
+      <window_info anchor="bottom" x="76" y="312" width="1533" height="254" id="Run" order="2" weight="0.28602383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19252078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2654388" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,23 +469,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/netspeed.py">
+    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
@@ -407,25 +481,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smallscripts/time_delay.csv" />
-    <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/loss_rate.csv">
+    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/loss_rate.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-300" />
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler4caida/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -465,28 +527,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automation/004/给余文艳处理-分小时算平均-联通到移动.csv" />
     <entry file="file://$PROJECT_DIR$/automation/004/给余文艳处理-分小时算平均-电信到移动.csv" />
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/分小时算平均-电信到移动_ywy.csv">
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/分小时算平均-电信到移动_ywy.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/分小时算平均-联通到移动_ywy.csv">
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/分小时算平均-联通到移动_ywy.csv">
       <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
@@ -498,70 +548,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/处理完成_分小时算平均-电信到移动_ywy.csv">
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/处理完成_分小时算平均-电信到移动_ywy.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-462">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/005windowsAuto/autoShutdown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoDownload.py">
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/autoDownload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/find_genshuixue_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/002asAnalysis/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/crawler_review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/comment163.py">
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/comment163.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/get_artists_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/001GlobalNetTest/netspeedV3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/refactoring.py">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/refactoring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
@@ -569,164 +577,108 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/test.py" />
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_100.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/uuid_100.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="444">
           <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid_17.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/uuid_17.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_100.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/result_all_100.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-538">
           <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/uuid.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/uuid.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-103594">
           <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/result_all_plus.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-2501">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus_plus_plus.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/result_all_plus_plus_plus.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/result_all_plus_plus.csv">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/result_all_plus_plus.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="220">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/Crawler4UniversalService.py">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/Crawler4UniversalService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/007Crawler4UniversalService/multi_refactoring.py">
+    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/multi_refactoring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
           <caret line="151" selection-start-line="151" selection-end-line="151" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/city_province.csv">
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/city_province.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/test.py">
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/cheese_caict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/cheese.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/000PublicData/domain.csv">
+    <entry file="file://$PROJECT_DIR$/000PublicData/domain.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/deal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo.py">
+    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/004NetDataAnalysis/deal_matrix.py">
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/deal_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation/003Music163Spiders/autoLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="71" column="89" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/008WebsiteDataAnalysis/deal_website_useExcel.py">
+    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/008WebsiteDataAnalysis/demo_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation/006Wechat/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/CT001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -742,18 +694,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="925">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/autoLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/cheese.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/cheese_caict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/crawler_review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="60" column="57" lean-forward="true" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/find_genshuixue_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/get_artists_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/005windowsAuto/autoShutdown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/deal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/009PDFConvertImag/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/CT001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler4caida/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/demo_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006Wechat/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/CT001.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="78" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="78" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
