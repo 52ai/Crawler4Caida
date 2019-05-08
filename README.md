@@ -1,6 +1,7 @@
 ## Crawler4Caida
-一个关于CAIDA（互联网应用数据分析中心）网络研究数据爬取的爬虫程序库，包括全球AS、DNS、IPV4/IPV6等(并扩充至部门工作自动化部分)。<br>
-“始于CAIDA，而不止于CAIDA！”，未来此库就会有更多的可能性Using Python3.X！---2019.04.05 By Wayne Yu<br>
+一个关于CAIDA网络研究数据爬取的爬虫程序库，包括全球AS、DNS、IPV4/IPV6等(并扩充至部门工作自动化部分)。<br>
+始于CAIDA，而不止于CAIDA！未来此库就会有更多的可能性Using Python3.X！---2019.04.05 By Wayne Yu<br>
+懒得再去建库了，入职后所有的Python程序都扔这里面了。--2019.05.08 By Wayne Yu<br>
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
 CAIDA（the Center for Applied Internet Data Analysis），中文全称为互联网应用数据分析中心，引导网络研究并构建网络研究基础设施，为大规模的数据采集、管理，并将数据分发至科学研究社区提供支撑。<br>

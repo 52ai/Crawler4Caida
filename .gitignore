@@ -1,5 +1,2 @@
 # can ignore all directories and files in a directory
-automation/003Music163Spiders/*.log
-automation/003Music163Spiders/autoLogin.py
-automation/000PublicData/*.xls
-automation/000PublicData/*.xlsx
+000LocalData/*
