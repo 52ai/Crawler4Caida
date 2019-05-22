@@ -28,8 +28,8 @@ def deal_domain_str(domain):
 
 if __name__ == "__main__":
     # 获取自主顶级域名列表
-    domain_file = "../000PublicData/domain.csv"
-    websiteList_file = "../000PublicData/websiteList_deal.xlsx"
+    domain_file = "../000LocalData/domain.csv"
+    websiteList_file = "../000LocalData/websiteList_deal.xlsx"
     csv_open = open(domain_file, 'r', encoding='utf-8-sig')
     for line in csv_open.readlines():
         line = line.strip().split(",")
