@@ -10,6 +10,7 @@
 懒得再去建库了，入职后所有的Python程序都扔这里面了。--2019.05.08 By Wayne Yu<br>
 修改仓库的Description为：一个致力于用Python提高部门工作自动化水平的程序库！（包括网络数据爬取、办公自动化、辅助研究等）--- 2019.05.09 By Wayne Yu<br>
 尝试着坚持每天Github，坚持每天写点程序，老本行不能丢！今天是Github连击第4天，加油！---2019..05.11 By Wayne Yu<br>
+每天总得写点代码，找一些有意思的事情做！---2019.05.24 By Wayne Yu<br>
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
 CAIDA（the Center for Applied Internet Data Analysis），中文全称为互联网应用数据分析中心，引导网络研究并构建网络研究基础设施，为大规模的数据采集、管理，并将数据分发至科学研究社区提供支撑。<br>
