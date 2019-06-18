@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on Jane 17, 2019 by Wayne
+create on June 17, 2019 by Wayne
 程序功能描述:
 1.提取网站的二级域名；2.若存在com.cn,edu.cn,gov.cn,net.cn,org.cn等自主域名，则取到三级域名
 
