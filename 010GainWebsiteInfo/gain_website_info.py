@@ -62,6 +62,7 @@ if __name__ == "__main__":
         # 对网站进行统一处理，先去掉http、www前缀，然后再统一访问格式
         # web_url = urlparse(web_url)
         # print(web_url)
+        # 网站存在打不开的情况，需要对打不开的网站做相应的异常处理
         try:
             get_page_info(web_url, line_cnt)
         except Exception as e:
