@@ -1,0 +1,34 @@
+1561601903641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofile.0rMGtUgjdrn6"
+1561601905116	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561601905117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561601905117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561601908978	Marionette	INFO	Listening on port 49397
+1561601910189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 133: unreachable code after return statement
+[Child 11428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chrom[Parent 1376, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1561602055110	Marionette	INFO	Stopped listening on port 49397
+[GPU 2212, Chrome_C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: Reading manifest: Invalid extension permission: about:reader*
+[Parent 15728, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11924, C1561601975668	Marionette	INFO	Listening on port 49531
+1561601976610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0, line 133: unreachable code after return statement
+1561601986301	Marionette	INFO	Stopped listening on port 49531
+[Parent 15728, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2540, Chrome_ChildThread] WARNING: pi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

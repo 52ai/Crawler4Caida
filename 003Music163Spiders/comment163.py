@@ -28,5 +28,5 @@ time.sleep(5)
 print(driver.find_element_by_id('comment-box').text)
 bsObj = BeautifulSoup(driver.page_source)
 source = driver.page_source
-open('163.txt','w').write(source)
+open('163.txt','w', encoding='utf-8').write(source)
 driver.quit()

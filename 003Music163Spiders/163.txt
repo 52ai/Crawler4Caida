@@ -1,0 +1,565 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="baidu_ssp_verify" content="39f14c78c537175eb4b5192c72d002c1">
+<meta name="baidu-site-verification" content="cNhJHKEzsD">
+<meta name="360-site-verification" content="e37aef53e3922913e2a6a4682e479b84">
+<meta name="sogou_site_verification" content="7zFjYjJaMq">
+<meta name="msvalidate.01" content="0CA3171633345524D8CBED5E95C75FFF">
+<meta name="google-site-verification" content="rh2irYN2Lu028orAseOD3aXd5u7Eu1mqTfhoVaw2Ihg">
+<meta name="shenma-site-verification" content="12da4afc02bfe908ed0667f287167d11_1555581349">
+<meta property="qc:admins" content="27354635321361636375">
+<link rel="canonical" href="https://music.163.com/song?id=31877470">
+<meta name="applicable-device" content="pc">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://music.163.com/m/song?id=31877470">
+<meta name="mobile-agent" content="format=html5;url=https://music.163.com/m/song?id=31877470">
+<title>乌兰巴托的夜 (Live) - 谭维维 - 单曲 - 网易云音乐</title>
+<meta name="keywords" content="乌兰巴托的夜 (Live)，谭维维，《乌兰巴托的夜 (Live)》下载，《乌兰巴托的夜 (Live)》歌词，《乌兰巴托的夜 (Live)》在线试听，《乌兰巴托的夜 (Live)》mp3下载，《乌兰巴托">
+<meta name="description" content="歌曲名《乌兰巴托的夜 (Live)》，由 谭维维 演唱，收录于《我是歌手第三季 第12期》专辑中。《乌兰巴托的夜 (Live)》下载，《乌兰巴托的夜 (Live)》在线试听，更多相关歌曲推荐尽在网易云音乐">
+<meta property="og:title" content="乌兰巴托的夜 (Live)">
+<meta property="og:type" content="music.song">
+<meta property="og:image" content="http://p2.music.126.net/DprdNIWpRWYZJak4Q-cS-Q==/2891715582273535.jpg">
+<meta property="og:url" content="https://music.163.com/song?id=31877470">
+<meta property="og:audio" content="https://music.163.com/song?id=31877470">
+<meta property="og:description" content="歌曲名《乌兰巴托的夜 (Live)》，由 谭维维 演唱，收录于《我是歌手第三季 第12期》专辑中">
+<meta property="og:site_name" content="网易云音乐">
+<script type="application/ld+json">
+{
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=31877470",
+"appid": "1582028769404989",
+"title": "乌兰巴托的夜 (Live)",
+"images": ["http://p2.music.126.net/DprdNIWpRWYZJak4Q-cS-Q==/2891715582273535.jpg"],
+"description": "歌曲名《乌兰巴托的夜 (Live)》，由 谭维维 演唱，收录于《我是歌手第三季 第12期》专辑中。《乌兰巴托的夜 (Live)》下载，《乌兰巴托的夜 (Live)》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2015-03-20T00:00:00"
+}
+</script>
+<script type="text/javascript">
+var GDownloadLink="";
+var GDevice = "phone";
+var GFrom="";
+var GClient="";
+var GPlatform="other";
+var GRef = '';
+var GInApp = false;
+var GMobile = false;
+var GAbroad = false;
+var GUser={};
+var GAllowRejectComment = false;
+var GEnc = true;
+var GEnvType = "online";
+var GWebpSupport = "1";
+var vipWebCashierRedirect = "1"
+window.NEJ_CONF = {p_csrf:{cookie:'__csrf',param:'csrf_token'}};
+GUtil = {
+getBase:function(){
+return location.protocol+'//'+location.hostname;
+},
+getPathAndHash:function(_url){//获取URL path 之后的所有内容,并将/#/替换成/m/使之成为path的一部分
+if(!_url) return '';
+var _reg0 = /^https?:\/\/.*?\//i,
+_reg1 = /\/?#\/?/i;
+return _url.replace(_reg0,'/').replace(_reg1,'/m/');
+},
+composeRefer:function(_url,_ref){//对所有的页面请求都加上ref参数表示被嵌套的来源
+if(!_ref) return _url;
+var _hi = _url.indexOf('#'),
+_si = _url.indexOf('?');
+if(_si>0&&(_si<_hi||_hi<0)){
+return _url.substring(0,_si+1)+'ref='+_ref+'&'+_url.substring(_si+1);
+}else if(_hi>0&&(_si<0||_si>_hi)){
+return _url.substring(0,_hi)+'?ref='+_ref+_url.substring(_hi);
+}else{
+return _url+'?ref='+_ref;
+}
+}
+};(function(){
+var _ua = window.navigator.userAgent,
+_isMobile = /(mobile|mobi|wap|iphone)/i.test(_ua),
+_isAndroid = /android/i.test(_ua),
+_isIpad = /(ipad)/i.test(_ua),
+_igList = [/^\/xiami$/,/^\/live$/],//不需要以单页面打开的列表，比如某些活动页面
+_pn = location.pathname,
+_idx = _pn.lastIndexOf('/'),
+_pReg = /\s*(\w+)\s*=\s*(\d+)\s*/,
+_redirect2mobile = function() {
+var _type,_murl,
+_id = 0,
+_hash = location.hash,
+_mReg = /^#\/?m?\/(share|song|playlist|djradio|dj|program|album|mv|artist|topic|radio|zysf|drqp|qp|activity|store|user|event|video|discover\/toplist)(\/(\d+))?/,
+_base = location.protocol+'//'+location.hostname,
+_sindex = _hash.lastIndexOf('?'),
+_search = _sindex>-1?_hash.substring(_sindex+1):'',
+_match = _mReg.exec(_hash);
+// 无hash || 不匹配 || 匹配但是商品之外不带参数 || 匹配且是排行榜
+if (!_hash.length || !_match || (_match[1] != 'store' && !_search) || /share|discover\/toplist/.test(_match[1])) {
+// 有hash && (没有参数 || 排行榜)
+if ((!_search || /share|discover\/toplist/.test(_match[1])) && _hash.length) {
+location.href = _base + '/' + _hash.replace('#', 'm');
+} else {
+location.href = _base + '/m/';
+}
+return;
+}
+_type = _match[1];
+_id = _match[3];
+if (_type == 'dj') _type = 'program';
+if (_type == 'store') {
+_murl = /^#\/store\/(product|concert)\/detail/.test(_hash) ? _hash.replace('#/store', '/store/m') : '/store/m/product/index';
+} else {
+_murl = '/' + _type + '?' + (_id ? 'id=' + _id + '&': '') + _search;
+}
+location.href = _base + _murl;
+};
+if(_isMobile || _isAndroid || _isIpad){
+_redirect2mobile();
+return;
+}
+if(!_pn||_pn=='/') return;
+for(var i in _igList){
+if(_igList[i].test(_pn)) return;
+}
+if(top==self){
+location.href = '/#'+GUtil.getPathAndHash(location.href);
+return;
+}
+//搜索引擎过来的内容页连接
+if(top==self&&/^\/static\/(song|playlist|album|artist)/i.test(_pn)){
+location.href = '/#'+_pn.substring(0,_idx).replace('/static/','/')+'?id='+_pn.substring(_idx+1);
+}
+})();
+(function(){
+var _addEvent = function(_node,_type,_cb){
+if(_node.addEventListener){
+_node.addEventListener(_type,_cb);
+}else if(_node.attachEvent){
+_node.attachEvent('on'+_type,_cb);
+}
+},
+_pathPrefixArray = [
+'/store/', // 商城
+'/m/at/', // 活动
+'/prime/m/', // 会员移动端页面
+'/oauth2/', // 授权
+'/m/oauth2/', // 授权
+'/octave/', // 新数字专辑
+'/v/', // 新数字专辑
+'/st/', // 静态页面
+'/nmusician/',// 音乐人
+'/nact/', // 新活动
+'/m/topic/', // 专栏移动端
+'/show/m/', //演出移动端
+],
+_isNotMainsitePagePath = function(_pagePath){
+// 对于非主站内的页面的跳转 需要排除
+var _path = (_pagePath||'').replace(/^https?:\/\/.*?\//i, '/').split(/[?#]/)[0];
+for(var i=0;i<_pathPrefixArray.length;i++){
+if(_path.indexOf(_pathPrefixArray[i])===0) return true;
+}
+return false;
+},
+_onAnchorClick = function(_event){//截获所有<a>标签的点击事件，自定义页面的跳转
+_event = _event||window.event;
+var _el = _event.target||_event.srcElement,
+_base = location.protocol+'//'+location.host;
+while(_el&&_el!=document){
+if(_el.tagName&&_el.tagName.toLowerCase()=='a'){
+//fix ie6下有时javascript:;不能阻止默认事件的bug.
+if(_el.href.indexOf('javascript:')>=0){
+!!_event.preventDefault
+? _event.preventDefault()
+: _event.returnValue = !1;
+return;
+}
+if(_event.button==2) return;//ff 右键会触发click事件
+//商城有独立地顶栏了，排除掉。但会员、数字专辑、单曲的商品、订单页仍保持主站frame，
+//这些url往往是通过/vip2, /payfee这样的地址跳转的，也没有问题，如果真的有，URL用#配置就好了
+if(_isNotMainsitePagePath(_el.href)) return;
+//新窗口打开的链接、云音乐单页面形式的链接、站外的链接不做拦截处理。
+if(_el.target=='_blank'
+||_el.target=='blank'
+||_isNotSameHost(_el.href)
+||_el.href==_base
+||_el.href.indexOf(_base+'/#')>=0) return;
+!!_event.preventDefault
+? _event.preventDefault()
+: _event.returnValue = !1;
+location.dispatch2(_el.href);
+break;
+}else{
+_el = _el.parentNode;
+}
+}
+},
+_isNotSameHost = function(_href){
+var _same = true;
+if(_href.charAt(0)!='/'){
+var _index = _href.indexOf('//'+location.hostname);
+if(_index > 0){
+var _index2 = _href.indexOf('?');
+if(_index2 > 0 && _index2 < _index){
+_same = false;
+}
+}else{
+_same = false;
+}
+}
+return !_same;
+};
+_addEvent(document,'click',_onAnchorClick);
+//扩展一个js中直接使用的页面跳转的方法，以拦截js中的页面跳转行为
+location.dispatch2 = function(_url,_replace){
+var delegate = false;
+try{
+delegate = !!top.GDispatcher;
+}catch(e){
+delegate = false;
+}
+// 处理对于非主站内的页面的跳转
+if(_isNotMainsitePagePath(_url)){
+if(delegate && top.location && top.location.href){
+top.location.href = _url;
+}else{
+location.href = _url;
+}
+return;
+}
+if(delegate){
+top.GDispatcher.dispatch(_url,_replace);
+}else{
+_url = GUtil.composeRefer(_url,GRef);
+//邮箱音乐盒中，每次链接的跳转都要将proxy.html的地址合并到hash中
+if(GRef&&GRef=='mail'){
+var _hindex,_sindex,
+_reg = /(https?:\/\/.+\/proxy.html)/,
+_hreg = /#(.*?)$/,
+_href = decodeURIComponent(location.href);
+if(!_reg.test(decodeURIComponent(_url))&&_reg.test(_href)){
+_hindex = _url.indexOf('#');
+_sindex = _url.lastIndexOf('?');
+if(_hindex>0){
+_url = _url+(_sindex>_hindex?'&':'?')+'proxy='+encodeURIComponent(RegExp.$1);
+}else{
+_url = _url+'#proxy='+encodeURIComponent(RegExp.$1);
+}
+}
+}
+if(_replace){
+location.replace(_url);
+}else{
+location.href = _url;
+}
+}
+};
+})();(function(){
+if(window.addEventListener){
+window.addEventListener('scroll', onScroll)
+}else{
+window.attachEvent('onscroll', onScroll)
+}
+try{
+top.scrollTopbar(0);
+}catch(e){
+}
+function onScroll(){
+try{
+top.scrollTopbar(Math.max(document.body.scrollTop, document.documentElement.scrollTop));
+}catch(e){
+//ignore
+}
+};
+})();</script>
+<base href="//music.163.com/" target="_top">
+<link rel="shortcut icon" href="//s1.music.126.net/style/favicon.ico?v20180823">
+<link href="//s2.music.126.net/web/s/core_a2afaa30ff508c1cd4417f3af55cd360.css?a2afaa30ff508c1cd4417f3af55cd360" type="text/css" rel="stylesheet"><link href="//s2.music.126.net/web/s/pt_frame_a0a1ed6e26403b3fd29ba210afcd0d4e.css?a0a1ed6e26403b3fd29ba210afcd0d4e" type="text/css" rel="stylesheet">
+<meta property="og:music:play" content="https://music.163.com/song?id=31877470">
+<meta property="og:music:artist" content="谭维维">
+<meta property="og:music:album" content="我是歌手第三季 第12期">
+<meta property="music:album" content="https://music.163.com/album?id=3142053">
+<meta property="music:duration" content="312">
+<meta property="music:musician" content="https://music.163.com/artist?id=9489">
+<script type="text/javascript" src="//s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/vipcashier.55a4fc69829a3a06a5b9.umd.js"></script><style type="text/css">.auto-1561601978637{position:fixed;_position:absolute;z-index:100;top:0;bottom:0;left:0;right:0;width:100%;height:100%;background-image:url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);}.auto-1561601978638{position:absolute;z-index:1000;border:1px solid #aaa;background:#fff;}.auto-1561601978638 .zbar{line-height:30px;background:#8098E7;border-bottom:1px solid #aaa;}.auto-1561601978638 .zcnt{padding:10px 5px;}.auto-1561601978638 .zttl{margin-right:20px;text-align:left;}.auto-1561601978638 .zcls{position:absolute;top:5px;right:0;width:20px;height:20px;line-height:20px;cursor:pointer;}.auto-1561601978639{position:absolute;background:#fff;}.auto-1561601978640{font-size:12px;line-height:160%;}.auto-1561601978640 a{margin:0 2px;padding:2px 8px;color:#333;border:1px solid #aaa;text-decoration:none;}.auto-1561601978640 .js-disabled{cursor:default;}.auto-1561601978640 .js-selected{cursor:default;background:#bbb;}.j-item.j-selected a{background:#eee;text-decoration:none;color:#333;}.u-atlist{position: absolute;z-index: 10000;}.f-thide.selected-item{background-color: #eee;}#shadow-box{position: absolute;display: block;left: 450px;top: 1020px;border: 1px solid black;word-wrap: break-word;display:none;opacity: 0;filter: Alpha(opacity=0);z-index: -1000;}</style><script type="text/javascript" charset="UTF-8" async="" src="https://acstatic-dun.126.net/2.5.4_326bd85f/watchman.min.js"></script><script type="text/javascript" charset="UTF-8" async="" src="https://acstatic-dun.126.net/2.5.4_326bd85f/watchman.min.js"></script></head>
+<body id="auto-id-CySQoQhXR5QfpBFR" class="auto-1561601978643-parent">
+<div data-module="discover" data-sub="other" id="g_top" class="m-top">&nbsp;</div>
+<div id="g_nav" class="m-subnav">&nbsp;</div>
+<script>
+try{
+top.matchNav("discover", "other");
+}catch(e){
+}
+</script>
+<div class="g-bd4 f-cb">
+<div class="g-mn4">
+<div class="g-mn4c">
+<div class="g-wrap6">
+<div class="m-lycifo">
+<div class="f-cb">
+<div class="cvrwrap f-cb f-pr">
+<div class="u-cover u-cover-6 f-fl">
+<img src="http://p2.music.126.net/DprdNIWpRWYZJak4Q-cS-Q==/2891715582273535.jpg?param=130y130" class="j-img" data-src="http://p2.music.126.net/DprdNIWpRWYZJak4Q-cS-Q==/2891715582273535.jpg">
+<span class="msk f-alpha"></span>
+</div>
+<div class="out s-fc3">
+<i class="u-icn u-icn-95 f-fl"></i>
+<a data-action="outchain" data-rt="" data-href="/outchain/2/31877470/" class="des s-fc7">生成外链播放器</a>
+</div>
+</div>
+<div class="cnt">
+<div class="hd">
+<i class="lab u-icn u-icn-37"></i>
+<div class="tit">
+<em class="f-ff2">乌兰巴托的夜 (Live)</em>
+</div>
+</div>
+<p class="des s-fc4">歌手：<span title="谭维维"><a class="s-fc7" href="/artist?id=9489">谭维维</a></span></p>
+<p class="des s-fc4">所属专辑：<a href="/album?id=3142053" class="s-fc7">我是歌手第三季 第12期</a></p>
+<div class="m-info">
+<div id="content-operation" class="btns f-cb" data-rid="31877470" data-type="18">
+<a data-res-action="play" data-res-id="31877470" data-res-type="18" href="javascript:;" class="u-btn2 u-btn2-2 u-btni-addply f-fl" hidefocus="true" title="播放"><i><em class="ply"></em>播放</i></a>
+<a data-res-action="addto" data-res-id="31877470" data-res-type="18" href="javascript:;" class="u-btni u-btni-add" hidefocus="true" title="添加到播放列表"></a>
+<a data-res-id="31877470" data-res-type="18" data-count="-1" data-fee="8" data-payed="0" data-pl="128000" data-dl="0" data-cp="1" data-toast="false" data-st="0" data-flag="256" data-res-action="fav" class="u-btni u-btni-fav " href="javascript:;">
+<i>收藏</i>
+</a>
+<a data-res-id="31877470" data-res-type="18" data-count="-1" data-res-action="share" data-res-name="乌兰巴托的夜 (Live)" data-res-author="谭维维" data-res-authors="" data-res-pic="" class="u-btni u-btni-share " href="javascript:;"><i>分享</i></a>
+<a data-res-id="31877470" data-res-type="18" data-res-action="download" class="u-btni u-btni-dl " href="javascript:;"><i>下载</i></a>
+<a data-res-action="comment" href="javascript:;" class="u-btni u-btni-cmmt "><i>(<span id="cnt_comment_count">15915</span>)</i></a>
+</div>
+</div>
+<div id="lyric-content" class="bd bd-open f-brk f-ib" data-song-id="31877470" data-third-copy="false" ,="" copy-from="">你走了那么多年<br><br>你还在我的身边<br><br>那一天你微笑的脸<br><br>如今闭上眼<br><br>我还能看得见<br><br>穿过旷野的风<br>你慢些走<br><br><div id="flag_more" class="f-hide">我用沉默告诉你<br>我醉了酒<br><br>乌兰巴托的夜<br><br>那么静那么静<br><br>连风都听不到<br><br>听不到<br><br>飘向天边的云<br>你慢些走<br><br>我用奔跑告诉你<br>我不回头<br><br>乌兰巴托的夜<br>那么静那么静<br><br>连云都不知道<br><br>不知道<br><br>乌兰巴托的夜<br><br>嘿 你在<br><br>你在这世界<br><br>每个角落存在<br><br>嘿 你在<br><br>你穿过风<br>穿过云 穿过一切 回来<br><br>乌兰巴托的夜<br>那么静那么静<br><br>连风都听不到<br>听不到<br><br>乌兰巴托的夜<br>那么静那么静<br><br>连云都不知道<br><br>不知道<br><br>我们的世界改变了什么<br><br>我们的世界期待着什么<br><br>我们的世界剩下些什么<br><br>我们的世界只剩下荒漠<br><br>穿过旷野的风<br><br>你慢些走<br><br>唱歌的人不时掉眼泪<br></div><div class="crl"><a id="flag_ctrl" href="javascript:void(0)" class="s-fc7">展开<i class="u-icn u-icn-69"></i></a></div></div>
+</div>
+</div>
+<div id="user-operation" class="lrc-user"><p><a class="f-tdu s-fc4" data-action="loginlink" data-href="/lyric/up?id=31877470">上传歌词</a>&nbsp;<a class="f-tdu s-fc4" href="/lyric/report?id=31877470">报错</a></p><p class="s-fc3"></p><!--#if--></div>
+</div>
+<div class="n-cmt" id="comment-box" data-tid="R_SO_4_31877470" data-count="0"><div id="auto-id-tD0P4aNPtSIrTFTn"><div class="u-title u-title-1">
+<h3><span class="f-ff2">评论</span></h3><span class="sub s-fc3">共<span class="j-flag">15915</span>条评论</span>
+</div>
+<div class="m-cmmt">
+<div class="iptarea">
+<div class="head"><img src="http://s4.music.126.net/style/web2/img/default/default_avatar.jpg?param=50y50"></div>
+<div class="j-flag"><div><div class="m-cmmtipt f-cb f-pr"><div class="u-txtwrap holder-parent f-pr" style="display: block;"><textarea class="u-txt area j-flag" data-type="" placeholder="评论" id="auto-id-kTpswlTIx6ID24IT"></textarea></div><div class="btns f-cb f-pr"><i class="icn u-icn u-icn-36 j-flag" id="auto-id-q1uTx3udPAEHSxlz"></i><i class="icn u-icn u-icn-41 j-flag" id="auto-id-G7TyXxr4TZBsVhfD"></i><a href="javascript:void(0)" class="btn u-btn u-btn-1 j-flag" id="auto-id-Mz9wnzivtPaGz4Rz">评论</a><span class="zs s-fc4 j-flag">140</span></div><div class="corr u-arr"><em class="arrline">◆</em><span class="arrclr">◆</span></div></div></div></div>
+</div>
+<div class="cmmts j-flag" id="auto-id-kuVRZB0wcnksnwOB"><h3 class="u-hd4">精彩评论</h3> <div id="203063141561601978643" class="itm" data-id="20306314"><div class="head"><a href="/user/home?id=60206257"><img src="https://p2.music.126.net/ioFh5-TyRVDYjV-Vr_C1YA==/109951164062073016.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=60206257" class="s-fc7">灵犀一剑</a>：从此在我心中封神</div></div><div class="rp"><div class="time s-fc4">2015年6月1日</div><a data-id="20306314" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (37088)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20306314" data-type="reply">回复</a></div></div></div><div id="236442711561601978643" class="itm" data-id="23644271"><div class="head"><a href="/user/home?id=53230730"><img src="https://p2.music.126.net/4axLCUF_Qt_xgtnej9_JhA==/2884019000766651.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=53230730" class="s-fc7">aftertime</a><img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png" class="brand-tag brand-package">：作为一个信奉唯物主义的科学工作者，在她去世之前，我怕鬼，而现在，明明知道不可能，却渺茫的希望这世上真有鬼魂存在，希望有那么一个地方，我还能再见她一面，无论是天堂还是黄泉。</div></div><div class="rp"><div class="time s-fc4">2015年6月25日</div><a data-id="23644271" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (24841)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="23644271" data-type="reply">回复</a></div></div></div><div id="207660141561601978643" class="itm" data-id="20766014"><div class="head"><a href="/user/home?id=50805107"><img src="https://p2.music.126.net/iKPIUM11G0Ni6wpT04_OQA==/109951163738959427.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=50805107" class="s-fc7">Ego_陈十四</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：谭维维是川音学民族唱法的吧，果然什么民族风格都hold得住。其实这种声音才是最有国际范儿的，民族的，世界的。</div></div><div class="rp"><div class="time s-fc4">2015年6月4日</div><a data-id="20766014" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (18759)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20766014" data-type="reply">回复</a></div></div></div><div id="590518251561601978643" class="itm" data-id="59051825"><div class="head"><a href="/user/home?id=36222980"><img src="https://p1.music.126.net/1HFvnfAgDUNafq-FUL-vxg==/109951163579565204.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=36222980" class="s-fc7">Adia的半亩花田</a>：谭维维是个严重被低估的歌手。其实选秀节目这么多年，我觉得她是唱功最好的，各种风格都驾驭得很好，而且用很民族的方式国际着。我不算是她的粉丝，仅仅是听众而已，可过去许久，一想起可以用震撼来形容的现场就想到这首。在我心里，她不是歌手，是歌者。总让我觉得是古老部落的祭司。虔诚，感动，力量</div></div><div class="rp"><div class="time s-fc4">2016年1月5日</div><a data-id="59051825" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (15645)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="59051825" data-type="reply">回复</a></div></div></div><div id="1308598881561601978643" class="itm" data-id="130859888"><div class="head"><a href="/user/home?id=97643098"><img src="https://p1.music.126.net/6yADzVsJhK0GHDTmpWKZTw==/109951163310370492.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=97643098" class="s-fc7">剑廿十三</a>：一个年幼失去父亲的小女孩，从小承担照顾家人的重担，不该嘶吼？一个曾经被看为冠军的才女，一直被埋没了这么多年，不该嘶吼？一个执着于做音乐的明星，却只被观众说成靠飚高音上位的人，不该嘶吼？</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=15847085">上马寻香</a>：这首歌干嘛要用高音去嘶吼？</div><div class="rp"><div class="time s-fc4">2016年3月17日</div><a data-id="130859888" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (14576)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="130859888" data-type="reply">回复</a></div></div></div><div id="209008811561601978643" class="itm" data-id="20900881"><div class="head"><a href="/user/home?id=71673302"><img src="https://p1.music.126.net/bJaD7vjdfSU9axY0iVJ8pg==/7936274929554603.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=71673302" class="s-fc7">NewAgeRR</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：被秒杀了，尤其是杭盖最后两句“那木哈”<img src="http://s1.music.126.net/style/web2/emt/emoji_33.png">，心都化了！搜了下其他版本，降央犹如醇厚的牛奶永远那么的抓人！原谅我不够“文艺”，实在无法理解左小祖咒的版本<img src="http://s1.music.126.net/style/web2/emt/emoji_357.png">……</div></div><div class="rp"><div class="time s-fc4">2015年6月5日</div><a data-id="20900881" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (11167)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20900881" data-type="reply">回复</a></div></div></div><div id="207633161561601978643" class="itm" data-id="20763316"><div class="head"><a href="/user/home?id=9599884"><img src="https://p1.music.126.net/uF_NMiV5xfIuEyfR-8le_Q==/109951163858700997.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=9599884" class="s-fc7">Sitar7</a><img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png" class="brand-tag brand-package">：这是维维唱给爸爸的歌，就像维维自己说的，中间有段歌词唱起来非常奇妙——“嘿，你在”。不论每次听歌的情绪是什么，到了这句就有了时空感，好像在离天堂最近的地方跟父亲说话。希望大家在感动的同时也能珍惜当下的生活，好好的爱自己的亲人朋友，每一个人。</div></div><div class="rp"><div class="time s-fc4">2015年6月4日</div><a data-id="20763316" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (8764)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20763316" data-type="reply">回复</a></div></div></div><div id="206445891561601978643" class="itm" data-id="20644589"><div class="head"><a href="/user/home?id=562933"><img src="https://p1.music.126.net/1JyA9s-a1pIBkzFWwfminQ==/109951162808715903.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=562933" class="s-fc7">fayeason7</a>：个人觉得三季以来最精彩的表演，当属乌兰巴托的夜和鱼鸟之恋</div></div><div class="rp"><div class="time s-fc4">2015年6月3日</div><a data-id="20644589" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (6849)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20644589" data-type="reply">回复</a></div></div></div><div id="1262488841561601978643" class="itm" data-id="126248884"><div class="head"><a href="/user/home?id=74493387"><img src="https://p1.music.126.net/GP7wlPsjcB9Kgmx55P_iqA==/109951163915985642.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=74493387" class="s-fc7">吳意穿堂風</a>：这首歌是我唯一一次相信现场观众能听哭的歌</div></div><div class="rp"><div class="time s-fc4">2016年3月5日</div><a data-id="126248884" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (6585)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="126248884" data-type="reply">回复</a></div></div></div><div id="205055251561601978643" class="itm" data-id="20505525"><div class="head"><a href="/user/home?id=52404731"><img src="https://p1.music.126.net/c8qln5FMMhSjFbrD3fLzkQ==/7755955022586151.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=52404731" class="s-fc7">M_Artemis</a>：不知为何，呼麦的空旷配上这个歌词，总给人一种感觉：此刻就现在乌兰巴托的高岗上，静静感受着逝去的亲人听到呼唤又回来了，就在身边。但是飘飘荡荡，终又离去…</div></div><div class="rp"><div class="time s-fc4">2015年6月2日</div><a data-id="20505525" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (5773)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20505525" data-type="reply">回复</a></div></div></div><div id="327195841561601978643" class="itm" data-id="32719584"><div class="head"><a href="/user/home?id=12977990"><img src="https://p1.music.126.net/23ayJB8Z6NgQtpUL2G7LzQ==/2535473816012063.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=12977990" class="s-fc7">智商下限</a>：谭维维就这首歌放格莱美演唱都不为过！</div></div><div class="rp"><div class="time s-fc4">2015年8月24日</div><a data-id="32719584" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (5029)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="32719584" data-type="reply">回复</a></div></div></div><div id="675889931561601978643" class="itm" data-id="67588993"><div class="head"><a href="/user/home?id=71395868"><img src="https://p1.music.126.net/nFEkyeo0jYFeYjxSBZxDIA==/19129303300467937.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=71395868" class="s-fc7">月吟诗</a><sup class="icn u-icn2 u-icn2-music2"></sup>：谭维维的乌兰巴托的夜，不愧是2015年华语最佳现场。这首歌真的美到浑然天成，每一个咬字，每一个呼吸都恰到好处，感情的起起落落拿捏精准到妙不可言。特别特别喜欢这个编曲，蒙古长调的加入惊艳无比！听到最后，也不由得跟着歌者泪流……十分动人……</div></div><div class="rp"><div class="time s-fc4">2016年2月3日</div><a data-id="67588993" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (4810)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="67588993" data-type="reply">回复</a></div></div></div><div id="209065021561601978643" class="itm" data-id="20906502"><div class="head"><a href="/user/home?id=71673302"><img src="https://p1.music.126.net/bJaD7vjdfSU9axY0iVJ8pg==/7936274929554603.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=71673302" class="s-fc7">NewAgeRR</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：谭几乎是这届歌手唯一的亮点。韩红的莫尼山也不错</div></div><div class="rp"><div class="time s-fc4">2015年6月5日</div><a data-id="20906502" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (4108)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20906502" data-type="reply">回复</a></div></div></div><div id="6250294661561601978643" class="itm" data-id="625029466"><div class="head"><a href="/user/home?id=17900899"><img src="https://p1.music.126.net/DKBi9JfvMyiq5O9mn9YfyA==/3419481172468483.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=17900899" class="s-fc7">哪吒姑娘</a>：今天睡午觉时，梦到爸爸了。他拿着钥匙开家里的门，妈妈问，你怎么来了？&nbsp;“姑娘快结婚了，我太想她了，所以来看看。”<img src="http://s1.music.126.net/style/web2/emt/emoji_33.png"></div></div><div class="rp"><div class="time s-fc4">2017年11月26日</div><a data-id="625029466" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (3756)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="625029466" data-type="reply">回复</a></div></div></div><div id="201735561561601978643" class="itm" data-id="20173556"><div class="head"><a href="/user/home?id=16560306"><img src="https://p1.music.126.net/6w9SPqPH1_tCjHhR5-2jIQ==/7945071023432077.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=16560306" class="s-fc7">一万里蔚蓝</a><sup class="u-icn u-icn-84"></sup>：说真的，当时我就惊呆了！<img src="http://s1.music.126.net/style/web2/emt/emoji_363.png"><img src="http://s1.music.126.net/style/web2/emt/emoji_363.png"><img src="http://s1.music.126.net/style/web2/emt/emoji_363.png">那个现场版mv可以同步吗？</div></div><div class="rp"><div class="time s-fc4">2015年5月31日</div><a data-id="20173556" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (2848)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="20173556" data-type="reply">回复</a></div></div></div><br><br><h3 class="u-hd4">最新评论(15915)</h3> <div id="15374564881561601978643" class="itm" data-id="1537456488"><div class="head"><a href="/user/home?id=70942702"><img src="https://p1.music.126.net/w6cAytpVoBXI3ZKcq6Zr-w==/109951163988568557.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=70942702" class="s-fc7">鹅颈大丘</a>：因为一个人，喜欢一首歌。因为一个人，重复一首歌。</div></div><div class="rp"><div class="time s-fc4">18分钟前</div><a data-id="1537456488" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1537456488" data-type="reply">回复</a></div></div></div><div id="15374575871561601978643" class="itm" data-id="1537457587"><div class="head"><a href="/user/home?id=1732247359"><img src="https://p1.music.126.net/4i8mwtbINL_9QgfTvfxlDA==/109951163917406889.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1732247359" class="s-fc7">迷上大乔</a>：不知道为什么一听这首歌我好伤心</div></div><div class="rp"><div class="time s-fc4">08:38</div><a data-id="1537457587" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1537457587" data-type="reply">回复</a></div></div></div><div id="15372700721561601978643" class="itm" data-id="1537270072"><div class="head"><a href="/user/home?id=270589198"><img src="https://p1.music.126.net/JFTSIbATv_55RQvrE8hOhA==/109951164175432184.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=270589198" class="s-fc7">真暖啊</a>：我也是，龚琳娜老师的小河淌水我也听哭了</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=341539694">绕梁bass</a>：腾格尔老师的《天堂》</div><div class="rp"><div class="time s-fc4">00:23</div><a data-id="1537270072" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1537270072" data-type="reply">回复</a></div></div></div><div id="15371262781561601978643" class="itm" data-id="1537126278"><div class="head"><a href="/user/home?id=504160650"><img src="https://p1.music.126.net/HFFy1U-3qPOAvExgyVXoEQ==/109951164012491562.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=504160650" class="s-fc7">酷锕坤</a>：等我足够有钱，我一定会给你一个美好的未来，但是请你等我好吗？</div></div><div class="rp"><div class="time s-fc4">昨天22:40</div><a data-id="1537126278" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1537126278" data-type="reply">回复</a></div></div></div><div id="15369601431561601978643" class="itm" data-id="1536960143"><div class="head"><a href="/user/home?id=284747204"><img src="https://p1.music.126.net/9BdAVby7qxlgcVNaLCaRsg==/109951163988978071.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=284747204" class="s-fc7">_泉___</a>：还有九儿</div></div><div class="rp"><div class="time s-fc4">昨天20:15</div><a data-id="1536960143" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536960143" data-type="reply">回复</a></div></div></div><div id="15367785131561601978643" class="itm" data-id="1536778513"><div class="head"><a href="/user/home?id=328195347"><img src="https://p1.music.126.net/XrK4yNbWjYUVSGdMqLJ0mQ==/18585045044504209.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=328195347" class="s-fc7">梅竹姬</a>：这是我心中的谭维维第一好听的歌，第二是如果有来生</div></div><div class="rp"><div class="time s-fc4">昨天17:10</div><a data-id="1536778513" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536778513" data-type="reply">回复</a></div></div></div><div id="15366876301561601978643" class="itm" data-id="1536687630"><div class="head"><a href="/user/home?id=608501779"><img src="https://p1.music.126.net/dk1WjP-EY1RNqlPoGlDjiQ==/109951163850650511.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=608501779" class="s-fc7">锁月灵符</a>：是的，就是你一个人</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=245973721">wuli茜茜酱</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：难道只有我一个人觉得谭维维把这首歌给毁了吗？我觉得最好的版本是江湖乐队的版本，如果调再高一点就好了！这首歌，直白的嗓音，像民谣一样直接表达情感足够了！草原的辽阔寂寥唱出来就足够了！谭维维的嗓音可能真的不适合唱这种质朴的直接表达情感的歌儿！我觉得唱一首毁一首</div><div class="rp"><div class="time s-fc4">昨天15:25</div><a data-id="1536687630" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (1)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536687630" data-type="reply">回复</a></div></div></div><div id="15365272081561601978643" class="itm" data-id="1536527208"><div class="head"><a href="/user/home?id=245973721"><img src="https://p1.music.126.net/yrOf1YhBkPTpdtJiNbDJLQ==/18655413790322528.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=245973721" class="s-fc7">wuli茜茜酱</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：好吧，我觉得谭维维唱摇滚还不错！但是表达情感上差一点</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=1336100180">甜晗苏其2</a>：是的，就你一个人这么觉得</div><div class="rp"><div class="time s-fc4">昨天13:08</div><a data-id="1536527208" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536527208" data-type="reply">回复</a></div></div></div><div id="15365695631561601978643" class="itm" data-id="1536569563"><div class="head"><a href="/user/home?id=256501937"><img src="https://p1.music.126.net/m658LR92oBEiQw-sZMshrg==/109951164174851568.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=256501937" class="s-fc7">-HuangPy</a>：乌海一中</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=1481589994">白色玛塞</a><img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png" class="brand-tag brand-package">：上学在乌海是吗</div><div class="rp"><div class="time s-fc4">昨天13:06</div><a data-id="1536569563" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536569563" data-type="reply">回复</a></div></div></div><div id="15364871361561601978643" class="itm" data-id="1536487136"><div class="head"><a href="/user/home?id=1336100180"><img src="https://p1.music.126.net/bSR312LGb2SA0TdvEcWeEQ==/109951163750085548.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1336100180" class="s-fc7">甜晗苏其2</a>：是的，就你一个人这么觉得</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=245973721">wuli茜茜酱</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：难道只有我一个人觉得谭维维把这首歌给毁了吗？我觉得最好的版本是江湖乐队的版本，如果调再高一点就好了！这首歌，直白的嗓音，像民谣一样直接表达情感足够了！草原的辽阔寂寥唱出来就足够了！谭维维的嗓音可能真的不适合唱这种质朴的直接表达情感的歌儿！我觉得唱一首毁一首</div><div class="rp"><div class="time s-fc4">昨天12:23</div><a data-id="1536487136" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (1)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536487136" data-type="reply">回复</a></div></div></div><div id="15364163671561601978643" class="itm" data-id="1536416367"><div class="head"><a href="/user/home?id=9070934"><img src="https://p1.music.126.net/xfffKTYmN0aLng-kaYBjuQ==/109951163050530246.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=9070934" class="s-fc7">网瘾少女林xx</a>：高考后新的人生才开始，要好好生活。未来会有太多苦痛，也有太多精彩，祝好。</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=435336531">shskm</a>：爸爸&nbsp;我过一本线啦&nbsp;正常发挥&nbsp;可是你不在我身旁&nbsp;他们都说为我骄傲&nbsp;那我是你的骄傲吗</div><div class="rp"><div class="time s-fc4">昨天11:15</div><a data-id="1536416367" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536416367" data-type="reply">回复</a></div></div></div><div id="15363241321561601978643" class="itm" data-id="1536324132"><div class="head"><a href="/user/home?id=1481589994"><img src="https://p1.music.126.net/QbL2hDY0cqQBGpKZFNl2Hw==/109951163558996498.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1481589994" class="s-fc7">白色玛塞</a><img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png" class="brand-tag brand-package">：我也是乌海的，加油啊内大很棒的，虽然我没能去了...</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=256501937">-HuangPy</a>：出生在蒙K，上学在蒙C&nbsp;，希望大学在蒙A，希望挚爱在身边<img src="http://s1.music.126.net/style/web2/emt/emoji_33.png"></div><div class="rp"><div class="time s-fc4">昨天08:58</div><a data-id="1536324132" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536324132" data-type="reply">回复</a></div></div></div><div id="15363222201561601978643" class="itm" data-id="1536322220"><div class="head"><a href="/user/home?id=1481589994"><img src="https://p1.music.126.net/QbL2hDY0cqQBGpKZFNl2Hw==/109951163558996498.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1481589994" class="s-fc7">白色玛塞</a><img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png" class="brand-tag brand-package">：上学在乌海是吗</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=256501937">-HuangPy</a>：出生在蒙K，上学在蒙C&nbsp;，希望大学在蒙A，希望挚爱在身边<img src="http://s1.music.126.net/style/web2/emt/emoji_33.png"></div><div class="rp"><div class="time s-fc4">昨天08:57</div><a data-id="1536322220" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536322220" data-type="reply">回复</a></div></div></div><div id="15361997261561601978643" class="itm" data-id="1536199726"><div class="head"><a href="/user/home?id=398947116"><img src="https://p1.music.126.net/jgE3sEPrexYuAHxgIGhRUQ==/18643319162293371.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=398947116" class="s-fc7">杨大哈嗯哼</a>：是的，就你一个人这么觉得</div></div><div class="que f-brk f-pr s-fc3"><span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span><a class="s-fc7" href="/user/home?id=245973721">wuli茜茜酱</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：难道只有我一个人觉得谭维维把这首歌给毁了吗？我觉得最好的版本是江湖乐队的版本，如果调再高一点就好了！这首歌，直白的嗓音，像民谣一样直接表达情感足够了！草原的辽阔寂寥唱出来就足够了！谭维维的嗓音可能真的不适合唱这种质朴的直接表达情感的歌儿！我觉得唱一首毁一首</div><div class="rp"><div class="time s-fc4">昨天01:39</div><a data-id="1536199726" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (3)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536199726" data-type="reply">回复</a></div></div></div><div id="15361370161561601978643" class="itm" data-id="1536137016"><div class="head"><a href="/user/home?id=1808950966"><img src="https://p1.music.126.net/Moz4rT-mxTdXlcFSuDi--Q==/109951163960907324.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1808950966" class="s-fc7">喜欢九月的女孩</a>：想起以前时光，我多希望时光倒流。那时候还能见到你，那时候就该让时光慢点倒流</div></div><div class="rp"><div class="time s-fc4">昨天00:49</div><a data-id="1536137016" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (1)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536137016" data-type="reply">回复</a></div></div></div><div id="15360829611561601978643" class="itm" data-id="1536082961"><div class="head"><a href="/user/home?id=256501937"><img src="https://p1.music.126.net/m658LR92oBEiQw-sZMshrg==/109951164174851568.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=256501937" class="s-fc7">-HuangPy</a>：出生在蒙K，上学在蒙C&nbsp;，希望大学在蒙A，希望挚爱在身边<img src="http://s1.music.126.net/style/web2/emt/emoji_33.png"></div></div><div class="rp"><div class="time s-fc4">昨天00:18</div><a data-id="1536082961" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (2)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1536082961" data-type="reply">回复</a></div></div></div><div id="15359378061561601978643" class="itm" data-id="1535937806"><div class="head"><a href="/user/home?id=1353476024"><img src="https://p1.music.126.net/XVq-OT3B6GBawhef6w_iFA==/109951164173854966.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1353476024" class="s-fc7">小肥瑶o</a>：好想念你…突然就很想……&nbsp;不该是这样的，还没有真正意识过来，就已经失去的感受，是怨我自己吗？怨当初我的年幼无知</div></div><div class="rp"><div class="time s-fc4">6月25日 23:08</div><a data-id="1535937806" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1535937806" data-type="reply">回复</a></div></div></div><div id="15359248851561601978643" class="itm" data-id="1535924885"><div class="head"><a href="/user/home?id=1724736821"><img src="https://p1.music.126.net/Kc733meTwptR-RHgZ2T6fQ==/109951163772028710.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=1724736821" class="s-fc7">梦南风北巷</a>：夜很静，我在想你，你知道吗？</div></div><div class="rp"><div class="time s-fc4">6月25日 23:06</div><a data-id="1535924885" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (1)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1535924885" data-type="reply">回复</a></div></div></div><div id="15358643621561601978643" class="itm" data-id="1535864362"><div class="head"><a href="/user/home?id=473964427"><img src="https://p1.music.126.net/WUb39wIViA0GQLyAlCYmMg==/109951163351700764.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=473964427" class="s-fc7">陈亦洋洋洋</a><img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" class="brand-tag brand-vip">：我们的世界还剩下些什么，只剩下荒漠</div></div><div class="rp"><div class="time s-fc4">6月25日 22:46</div><a data-id="1535864362" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i> (1)</a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1535864362" data-type="reply">回复</a></div></div></div><div id="15358264201561601978643" class="itm" data-id="1535826420"><div class="head"><a href="/user/home?id=473873000"><img src="https://p1.music.126.net/b4xaBW9nxeWkdgJsGXJ6QQ==/18676304511877744.jpg?param=50y50"></a></div><div class="cntwrap"><div class=""><div class="cnt f-brk"><a href="/user/home?id=473873000" class="s-fc7">等什么恋</a>：这个版本的是最震撼的</div></div><div class="rp"><div class="time s-fc4">6月25日 22:11</div><a data-id="1535826420" data-type="like" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-12"></i></a><span class="sep">|</span><a href="javascript:void(0)" class="s-fc3" data-id="1535826420" data-type="reply">回复</a></div></div></div></div>
+<div class="j-flag auto-1561601978640-parent"><div class="auto-1561601978640 u-page"><a href="#" class="zbtn zprv js-p-1561601978643 js-disabled" id="auto-id-0ffMbPyDA3TpnDtB">上一页</a><a href="#" class="zpgi zpg1 js-i-1561601978643 js-selected" id="auto-id-rLNAq3aQKsXt7gi0">1</a><a href="#" class="zpgi zpg2 js-i-1561601978643" id="auto-id-0QHJGLhngVuNIAzI">2</a><a href="#" class="zpgi zpg3 js-i-1561601978643" id="auto-id-EWphe0liRhLN1xeE">3</a><a href="#" class="zpgi zpg4 js-i-1561601978643" id="auto-id-h8eMw9Zyb2fsL1tG">4</a><a href="#" class="zpgi zpg5 js-i-1561601978643" id="auto-id-BsGU1MmxsoTIwftS">5</a><a href="#" class="zpgi zpg6 js-i-1561601978643" id="auto-id-XQGTR8xEX7xSaIeO">6</a><a href="#" class="zpgi zpg7 js-i-1561601978643" id="auto-id-E1pH06Jc8gHH9hRs">7</a><a href="#" class="zpgi zpg8 js-i-1561601978643" id="auto-id-kC1qKXNRSblkz5xH">8</a><span class="zdot">...</span><a href="#" class="zpgi zpg9 js-i-1561601978643" id="auto-id-WxsAmsg8a2tuu59A">796</a><a href="#" class="zbtn znxt js-n-1561601978643" id="auto-id-Fw41HNnFMmwlahze">下一页</a></div></div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="g-sd4">
+<div class="g-wrap7">
+<div id="j-music-ad" class="m-sidead f-hide" data-has-music-ad="0">
+<div class="j-flag f-hide" id="auto-id-2J6doo7BV7NTyTBu"></div>
+<div class="f-hide j-flag">
+<ins class="adsbydm" inner-prod="adbid" inner-width="200" inner-height="220" inner-src="https://iad.g.163.com/wa/ad?site=netease&amp;affiliate=music&amp;cat=detail&amp;type=logo200x220&amp;location=1" check-src="https://iad.g.163.com/wa/ad_check?site=netease&amp;affiliate=music&amp;cat=detail&amp;type=logo200x220&amp;location=1"></ins>
+</div>
+</div>
+<h3 class="u-hd3">
+<span class="f-fl">包含这首歌的歌单</span>
+</h3>
+<ul class="m-rctlist f-cb">
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=2444897054" title="超好听Cover 翻唱集「百听不厌」" data-res-id="2444897054" data-res-type="13" data-res-action="log" data-res-data="recommendclick|0||song-playlist-recommend|31877470"><img src="http://p2.music.126.net/cthrHC4gh2O4cJicB6pVYw==/109951163954907657.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=2444897054" title="超好听Cover 翻唱集「百听不厌」" data-res-id="2444897054" data-res-type="13" data-res-action="log" data-res-data="recommendclick|0||song-playlist-recommend|31877470">超好听Cover 翻唱集「百听不厌」</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=379919713" title="耗尽爱意">耗尽爱意</a>
+</p></div>
+</li>
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=2545676687" title="听歌不听Live版，跟闲鱼有什么区别" data-res-id="2545676687" data-res-type="13" data-res-action="log" data-res-data="recommendclick|1||song-playlist-recommend|31877470"><img src="http://p2.music.126.net/WUKYde6GRzMI9am9R9uSmg==/109951163831771514.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=2545676687" title="听歌不听Live版，跟闲鱼有什么区别" data-res-id="2545676687" data-res-type="13" data-res-action="log" data-res-data="recommendclick|1||song-playlist-recommend|31877470">听歌不听Live版，跟闲鱼有什么区别</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=113047483" title="橘子树风车">橘子树风车</a>
+<sup class="u-icn u-icn-84 "></sup>
+</p></div>
+</li>
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=2441690071" title="『翻唱』百首经典翻唱 每首都能单曲循环" data-res-id="2441690071" data-res-type="13" data-res-action="log" data-res-data="recommendclick|2||song-playlist-recommend|31877470"><img src="http://p2.music.126.net/ILsQEXNpo1ziEufJByka1Q==/109951163574940427.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=2441690071" title="『翻唱』百首经典翻唱 每首都能单曲循环" data-res-id="2441690071" data-res-type="13" data-res-action="log" data-res-data="recommendclick|2||song-playlist-recommend|31877470">『翻唱』百首经典翻唱 每首都能单曲循环</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=1512580110" title="乐享音悦汇">乐享音悦汇</a>
+</p></div>
+</li>
+</ul>
+<h3 class="u-hd3">
+<span class="f-fl">相似歌曲</span>
+</h3>
+<ul class="m-sglist f-cb">
+<li>
+</li><li class="f-cb">
+<div class="txt">
+<div class="f-thide">
+<a href="/song?id=31877488" title="灯塔 (Live)" class="s-fc1" data-res-id="31877488" data-res-type="18" data-res-action="log" data-res-data="recommendclick|0||song-song-recommend|31877470">灯塔 (Live)</a>
+</div>
+<div class="f-thide s-fc4"><span title="谭维维"><a class="s-fc4" href="/artist?id=9489">谭维维</a></span></div>
+</div>
+<div class="opr f-cb">
+<a data-res-action="play" data-res-id="31877488" data-res-type="18" class="play" href="javascript:;"></a>
+<a data-res-action="addto" data-res-id="31877488" data-res-type="18" class="add" href="javascript:;"></a>
+</div>
+</li>
+
+<li>
+</li><li class="f-cb">
+<div class="txt">
+<div class="f-thide">
+<a href="/song?id=1361988914" title="孤单心事" class="s-fc1" data-res-id="1361988914" data-res-type="18" data-res-action="log" data-res-data="recommendclick|1||song-song-recommend|31877470">孤单心事</a>
+</div>
+<div class="f-thide s-fc4"><span title="颜人中"><a class="s-fc4" href="/artist?id=31376161">颜人中</a></span></div>
+</div>
+<div class="opr f-cb">
+<a data-res-action="play" data-res-id="1361988914" data-res-type="18" class="play" href="javascript:;"></a>
+<a data-res-action="addto" data-res-id="1361988914" data-res-type="18" class="add" href="javascript:;"></a>
+</div>
+</li>
+
+<li>
+</li><li class="f-cb">
+<div class="txt">
+<div class="f-thide">
+<a href="/song?id=31877245" title="贝加尔湖畔 (Live)" class="s-fc1" data-res-id="31877245" data-res-type="18" data-res-action="log" data-res-data="recommendclick|2||song-song-recommend|31877470">贝加尔湖畔 (Live)</a>
+</div>
+<div class="f-thide s-fc4"><span title="李健"><a class="s-fc4" href="/artist?id=3695">李健</a></span></div>
+</div>
+<div class="opr f-cb">
+<a data-res-action="play" data-res-id="31877245" data-res-type="18" class="play" href="javascript:;"></a>
+<a data-res-action="addto" data-res-id="31877245" data-res-type="18" class="add" href="javascript:;"></a>
+</div>
+</li>
+
+<li>
+</li><li class="f-cb">
+<div class="txt">
+<div class="f-thide">
+<a href="/song?id=31877246" title="莫尼山 (Live)" class="s-fc1" data-res-id="31877246" data-res-type="18" data-res-action="log" data-res-data="recommendclick|3||song-song-recommend|31877470">莫尼山 (Live)</a>
+</div>
+<div class="f-thide s-fc4"><span title="韩红"><a class="s-fc4" href="/artist?id=7891">韩红</a></span></div>
+</div>
+<div class="opr f-cb">
+<a data-res-action="play" data-res-id="31877246" data-res-type="18" class="play" href="javascript:;"></a>
+<a data-res-action="addto" data-res-id="31877246" data-res-type="18" class="add" href="javascript:;"></a>
+</div>
+</li>
+
+<li>
+</li><li class="f-cb">
+<div class="txt">
+<div class="f-thide">
+<a href="/song?id=1300156868" title="九儿（Cover 群星）" class="s-fc1" data-res-id="1300156868" data-res-type="18" data-res-action="log" data-res-data="recommendclick|4||song-song-recommend|31877470">九儿（Cover 群星）</a>
+</div>
+<div class="f-thide s-fc4"><span title="低才生"><a class="s-fc4" href="/artist?id=12193360">低才生</a></span></div>
+</div>
+<div class="opr f-cb">
+<a data-res-action="play" data-res-id="1300156868" data-res-type="18" class="play" href="javascript:;"></a>
+<a data-res-action="addto" data-res-id="1300156868" data-res-type="18" class="add" href="javascript:;"></a>
+</div>
+</li>
+
+</ul>
+<div class="m-multi">
+<h3 class="u-hd3">
+<span class="f-fl">网易云音乐多端下载</span>
+</h3>
+<ul class="bg f-cb">
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json="{&quot;type&quot;:&quot;iPhone&quot;,&quot;source&quot;:&quot;detail&quot;}" href="https://itunes.apple.com/cn/app/id590338362" class="ios" hidefocus="true" target="_blank">iPhone</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json="{&quot;type&quot;:&quot;pc&quot;,&quot;source&quot;:&quot;detail&quot;}" href="https://music.163.com/api/pc/download/latest" class="pc" hidefocus="true" target="_blank">PC</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json="{&quot;type&quot;:&quot;android&quot;,&quot;source&quot;:&quot;detail&quot;}" href="https://music.163.com/api/android/download/latest2" class="aos" hidefocus="true" target="_blank">Android</a></li>
+</ul>
+<p class="s-fc4">同步歌单，随时畅听320k好音乐</p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-ft ">
+<div class="m-ft">
+<div class="wrap f-cb">
+<div class="copy">
+<p class="link" id="music-link">
+<a href="//music.163.com/about" target="_blank" class="item s-fc4">关于网易</a><span class="line">|</span>
+<a href="//help.mail.163.com/service.html" target="_blank" class="item s-fc4">客户服务</a><span class="line">|</span>
+<a href="//music.163.com/html/web2/service.html" target="_blank" class="item s-fc4">服务条款</a><span class="line">|</span>
+<a href="//corp.163.com/gb/legal.html" target="_blank" class="item s-fc4">隐私政策</a><span class="line">|</span>
+<a href="//music.163.com/st/staticdeal/complaints.html" target="_blank" class="item s-fc4">版权投诉指引</a><span class="line">|</span>
+<a id="g_feedback" href="#" class="item s-fc4" onclick="nm.x.feedback();return false;" hidefocus="true">意见反馈</a>
+<span class="line">|</span><a class="s-fc4"></a></p>
+<p class="right s-fc3">
+<span class="sep span">网易公司版权所有©1997-2019</span><span class="span">杭州乐读科技有限公司运营：</span><a href="http://p1.music.126.net/03WF0APmm-J0TqdbOc8-XQ==/109951163649544962.png" target="_blank" class="alink s-fc3">浙网文[2018]3506-263号</a>
+</p>
+<p class="contact s-fc3">
+<span class="sep span">违法和不良信息举报电话：0571-89853516</span>
+<span class="span">举报邮箱：</span><a class="alink" href="mailto:ncm5990@163.com">ncm5990@163.com</a>
+</p>
+</div>
+<ul class="enter f-fr">
+<li class="unit">
+<a class="logo logonew logo-auth f-tid" href="//music.163.com/st/userbasic#/auth" target="_blank"></a>
+<span class="tt tt-auth"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-musician f-tid" href="//music.163.com/recruit" target="_blank"></a>
+<span class="tt tt-musician"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-reward f-tid" href="//music.163.com/web/reward" target="_blank"></a>
+<span class="tt tt-reward"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-cash f-tid" href="//music.163.com/uservideo#/plan" target="_blank"></a>
+<span class="tt tt-cash"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script>
+var imgconfig = ""
+var links = document.getElementById("music-link");
+document.getElementById("g_feedback").className="item s-fc4";
+var itemlink = document.createElement("a");
+itemlink.className="s-fc4";
+itemlink.innerHTML="";
+itemlink.onclick=function() {
+var path = "https://st.qa.igame.163.com";
+if (window.location.href.indexOf("music.163.com") > -1) {
+path = "https://st.music.163.com";
+}
+window.open(path+"/itempage/item.html?img="+encodeURIComponent(imgconfig));
+}
+var span = document.createElement("span");
+span.className="line";
+span.innerHTML="|";
+links.append(span);
+links.append(itemlink);
+</script>
+<a title="回到顶部" class="m-back" href="#" id="g_backtop" hidefocus="true" style="display:none;">回到顶部</a>
+
+<script src="//s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53ed6fc6b0.js?e3ba01ce182714ba883bdd53ed6fc6b0" type="text/javascript"></script><iframe style="display: none;" id="auto-id-fTkLlWu7DagsQc8t" src="about:blank" frameborder="0"></iframe><script type="text/javascript" src="https://acstatic-dun.126.net/tool.min.js"></script><script src="//s3.music.126.net/web/s/pt_song_index_7f6b9b91174e46d5a7e25e0633ad4142.js?7f6b9b91174e46d5a7e25e0633ad4142" type="text/javascript"></script><div id="shadow-box" style="overflow-wrap: break-word; width: 564px; margin: 0px -20px 0px 0px; height: 50px; padding-left: 6px; padding-top: 5px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 19px; overflow: auto;" class="auto-1561601978643"><span class="node-before"></span><span>@</span><span class="node-after"></span></div><script type="text/javascript" src="https://acstatic-dun.126.net/tool.min.js"></script><script src="https://iad.g.163.com/wa/ad_check?site=netease&amp;affiliate=music&amp;cat=detail&amp;type=logo200x220&amp;location=1&amp;callback=g_cbm1s4v" id="j-script-ad" type="text/javascript"></script>
+<script defer="defer" src="//img3.126.net/kaola/dsp1f/js/ntes-ad-cloud.min.js?v=1.0"></script>
+
+<script type="text/javascript">
+var _gaq=_gaq||[];
+_gaq.push(['_setAccount','UA-38766552-1'],['_setLocalGifPath','/UA-38766552-1/__utm.gif'],['_setLocalRemoteServerMode']);
+_gaq.push(['_trackPageview']);
+//fix ipad下的一个bug
+if (navigator.userAgent.indexOf('iPad') != -1) {
+iframeHeight = Math.max(
+Math.max(document.body.scrollHeight, document.documentElement.scrollHeight),
+Math.max(document.body.offsetHeight, document.documentElement.offsetHeight),
+Math.max(document.body.clientHeight, document.documentElement.clientHeight)
+);
+top.document.body.style.height = iframeHeight + 20 + 'px';
+}</script>
+<div><div></div></div></body></html>
