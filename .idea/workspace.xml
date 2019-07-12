@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/011DeleteDataZPS/excel-process_5.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/011DeleteDataZPS/excel-process_6.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/011DeleteDataZPS/test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011DeleteDataZPS/test_back.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003Music163Spiders/163.txt" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/163.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003Music163Spiders/comment163.py" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/comment163.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/011DeleteDataZPS/excel-process_5.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/011DeleteDataZPS/excel-process_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/011DeleteDataZPS/excel-process_6.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/011DeleteDataZPS/test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/011DeleteDataZPS/test.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="netspeed.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="netspeed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1567">
-              <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel-process_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,6 +62,7 @@
         <option value="$PROJECT_DIR$/006Wechat/wechat_avatar.py" />
         <option value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_5.0.py" />
         <option value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_6.0.py" />
+        <option value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py" />
       </list>
     </option>
   </component>
@@ -109,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.excel-process_6.0">
+  <component name="RunManager" selected="Python.excel-process_v2">
     <configuration name="comment163" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_5.0.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\011DeleteDataZPS\excel-process_v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,13 +167,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_6.0.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\011DeleteDataZPS\excel-process_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="exe_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel-process_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +181,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/008WebsiteDataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/011DeleteDataZPS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/008WebsiteDataAnalysis/exe_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,19 +210,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.exe_demo" />
       <item itemvalue="Python.wechat_avatar" />
       <item itemvalue="Python.comment163" />
       <item itemvalue="Python.excel-process_5.0" />
       <item itemvalue="Python.excel-process_6.0" />
+      <item itemvalue="Python.excel-process_v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.excel-process_v2" />
         <item itemvalue="Python.excel-process_6.0" />
         <item itemvalue="Python.excel-process_5.0" />
         <item itemvalue="Python.comment163" />
         <item itemvalue="Python.wechat_avatar" />
-        <item itemvalue="Python.exe_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -236,12 +245,12 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14963119" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3280098" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19826652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2340195" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.2340195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -622,14 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_6.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_5.0.py">
+    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
@@ -641,8 +643,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1567">
-          <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
