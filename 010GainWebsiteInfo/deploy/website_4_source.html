@@ -1,0 +1,83 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<title>飞牛网改版升级说明-大润发优鲜</title>
+		<link rel="stylesheet" type="text/css" href="//static01.fn-mart.com/product/css_build/common.css?v=2018020666">
+		<link rel="shortcut icon" href="//static01.fn-mart.com/images/feiniu_favicon.ico">
+        <link rel="stylesheet" href="//static01.fn-mart.com/product/css_build/www/transfer.css?v=2018020666" type="text/css">
+	</head>
+	<body>
+		<div class="mksr"></div>
+		<div class="m-g-intro">
+			<div class="intro ma fixed">
+				<!-- <div class="login-info">
+					<ul>
+						<li class="J_login_st">
+							<a href="https://passport.feiniu.com/gateway/login" alt="" title="请登录">Hi，请登录</a>
+						</li>
+						<li class="spc"></li>
+						<li><a class="J_order_st" href="https://passport.feiniu.com/gateway/login" target="_blank" title="我的订单">我的订单</a></li>
+					</ul>
+				</div> -->
+				<div class="intro-tip">飞牛网改版升级啦！</div>
+				<div class="intro-info">为追求极致的用户体验，飞牛网从2018年2月5日起整体改版升级——【大润发优鲜】，大润发倾力打造的年轻、时尚、便捷、精致的互联网生鲜超市，主要以APP为载体实现了线上服务，线下体验的新零售模式：
+				</div>
+				<div class="cont">
+					<div class="flcont">
+						<ul>
+							<li class="fn-close-1">
+								<p class="word">包邮门槛更低</p>
+								<p>满29元即可享受</p>
+							</li>
+							<li class="fn-close-2">
+								<p class="word">配送速度更快</p>
+								<p>1小时极速送达</p>
+							</li>
+							<li class="fn-close-3">
+								<p class="word">服务体验更好</p>
+								<p>大润发品质，售后无忧</p>
+							</li>
+						</ul>
+					</div>
+					<div class="rgcont">
+						<p class="word">扫码下载大润发优鲜APP</p>
+						<p>领取50元新人大礼包</p>
+						<p class="img"><img src="//static01.fn-mart.com/product/images/close/fn_yx_new.jpg?v=2018020666" alt="大润发优鲜APP"></p>
+					</div>
+				</div>
+				<div class="im-tip">
+					<span>重要提醒：</span>
+					<p>1、大润发优鲜，可以共用原来的飞牛网帐号/密码、购物卡和帐户余额。</p>
+					<p>2、大润发优鲜，配送范围为全国大润发门店周边3公里内。</p>
+					<p>3、您原飞牛网账户中的积分将自动升级为大润发优鲜优惠券。</p>
+				</div>
+				<div class="im-intro">
+					<p>您若有任何问题需要咨询处理，可致电客服热线：021-60556603，服务时间：08:00-21:30</p>
+					<p>以上所述，烦请您周知并相互转告。</p>
+					<p>希望大润发优鲜APP，能给您带来前所未有的满意体验，也期待您继续支持和关注大润发，我们还会继续努力，让您更满意</p>
+				</div>
+				<!-- <div class="im-btn">
+					<a class="J_order_st" href="https://passport.feiniu.com/gateway/login" alt="" title="查询订单">查询订单</a>
+				</div> -->
+			</div>
+		</div>
+		<script src="//static01.fn-mart.com/product/js_build/lib/jquery/1.11.1/jquery-1.11.1.js?v=2018020666"></script>
+		<script>
+			(function() {
+				var un_login_url = 'https://passport.feiniu.com/gateway/login',
+					login_url_rc = 'https://home.feiniu.com/order/orderList';
+				if ($.cookie("fn_username_for_js")) {
+				 	var username = $.cookie("P_un") ? $.cookie("P_un") : $.cookie("fn_username_for_js");
+				 	$(".J_login_st").html('<a href="' + login_url_rc + '" alt="" title="" target="_self">' + username + '</a>');
+				 	$(".J_order_st").attr('href', login_url_rc);
+				} else {
+				 	$(".J_order_st").attr('href', un_login_url);
+				 	if ($.cookie("P_un")) {
+				 		$(".J_login_st").html('<a class="z-c-red" href="' + un_login_url + '" title="请登录"><span>' + $.cookie("P_un") + '</span>，请登录</a>');
+				 	} else {
+				 		$(".J_login_st").html('<a href="' + un_login_url + '" title="请登录">Hi，请登录</a>');
+				 	}
+				}
+			})()
+		</script>
+	
+</body></html>
