@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/content.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_10_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_10_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_source.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,40 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gain_website_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
+      <file leaf-file-name="helloTkinter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1210">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#125#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gain_website_info_v2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#140#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+            <state relative-caret-position="220">
+              <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -90,14 +72,15 @@
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/deployment_description.md" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1957" />
-    <option name="y" value="26" />
-    <option name="width" value="1776" />
-    <option name="height" value="899" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="275" />
+    <option name="y" value="54" />
+    <option name="width" value="1374" />
+    <option name="height" value="757" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,7 +97,7 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="010GainWebsiteInfo" type="462c0819:PsiDirectoryNode" />
+              <item name="012Tkinter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,8 +132,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gain_website_info_v2 (1)">
-    <configuration name="excel-process_6.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.helloTkinter">
+    <configuration name="deal_website_useExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/011DeleteDataZPS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/008WebsiteDataAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\011DeleteDataZPS\excel-process_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,24 +164,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_V3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="excel-process_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/011DeleteDataZPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,20 +205,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="helloTkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.excel-process_6.0" />
-      <item itemvalue="Python.excel-process_v2" />
       <item itemvalue="Python.excel-process_V3" />
       <item itemvalue="Python.gain_website_info_v2" />
       <item itemvalue="Python.gain_website_info_v2 (1)" />
+      <item itemvalue="Python.deal_website_useExcel" />
+      <item itemvalue="Python.helloTkinter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.helloTkinter" />
+        <item itemvalue="Python.deal_website_useExcel" />
         <item itemvalue="Python.gain_website_info_v2 (1)" />
         <item itemvalue="Python.gain_website_info_v2" />
         <item itemvalue="Python.excel-process_V3" />
-        <item itemvalue="Python.excel-process_v2" />
-        <item itemvalue="Python.excel-process_6.0" />
       </list>
     </recent_temporary>
   </component>
@@ -271,19 +254,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2171" y="56" width="1776" height="899" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16340621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1886196" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35096154" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3280098" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19712794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.2780679" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.1516793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/exe_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -604,11 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1210">
+        <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#125#155#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,12 +604,6 @@
         <state relative-caret-position="-1056" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -649,25 +616,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py">
+    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#140#170#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#201#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
         </state>
       </provider>
     </entry>
