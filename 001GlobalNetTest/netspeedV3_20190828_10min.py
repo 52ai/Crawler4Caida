@@ -6,6 +6,8 @@ Version : 3.0
 该脚本程序在V2.0的基础之上增加了并发的功能，以缩短测试的时间（以33个国际IP地址为例，每个地址ping 50次，需耗时大概50分钟）。
 为尽可能的减少并发ping带来的时延和丢包率的影响，并发的线程数要尽可能的少（控制在10个线程以内）
 并发之后程序的结构，需要进行调整
+
+20190828 更新了测试的国际IP地址
 """
 import subprocess
 import threading
@@ -64,7 +66,7 @@ company_log_list = []
 # 全局的拆分后的IP地址列表
 ip_info_threading = []
 
-n_threading = 33  # 设置并发线程数为11次
+n_threading = 11  # 设置并发线程数为11次
 # 根据并发发线程数，拆分IP地址列表，按照等分，每轮的个数为IP列表总的个数除以并发数，向上取整
 max_ip_cnt = (len(ip_info) // n_threading)
 run_index_group = [0] * n_threading  # 存储组内坐标列表，初始化全为0
@@ -74,7 +76,7 @@ def run_ping_test(run_index):
     for run_item in ip_info_threading[run_index]:
         # print(run_item)
         # loss_rate, time_delay = run_ping(run_item[1])
-        ftp_sub = subprocess.Popen("ping %s -n 3" % run_item[1],
+        ftp_sub = subprocess.Popen("ping %s -n 200" % run_item[1],
                                    stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
         ret = ftp_sub.stdout.read()
         str_ret = ret.decode('gbk')
