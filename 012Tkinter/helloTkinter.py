@@ -1,6 +1,9 @@
 # coding:utf-8
 """
-Create on 20 Aug,2019
+Create on 20 Aug,2019 by Wayne Yu
+
+Less is more! Using Tkinter.
+
 """
 
 import tkinter as tk

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_10min.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_20min.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_5min.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_00_plus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label_plus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_02_Button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/012Tkinter/helloTkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,23 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="netspeedV3_20190828.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py">
+      <file leaf-file-name="helloTkinter_03_entirely.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+            <state relative-caret-position="207">
+              <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
               <folding>
-                <element signature="e#211#228#0" expanded="true" />
+                <element signature="e#104#125#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="netspeedV3_20190828_5min.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_5min.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -73,19 +66,25 @@
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/deployment_description.md" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md" />
-        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_10min.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_20min.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter_plus.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloLabel.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label_plus.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter_02_Button.py" />
+        <option value="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="10" />
-    <option name="width" value="1667" />
-    <option name="height" value="1005" />
+    <option name="x" value="63" />
+    <option name="y" value="9" />
+    <option name="width" value="1640" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -102,11 +101,6 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="001GlobalNetTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="012Tkinter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -118,17 +112,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo\deploy" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\012Tkinter" />
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest" />
       <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo" />
       <recent name="D:\Code\Crawler4Caida\011DeleteDataZPS" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo\deploy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,8 +138,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.netspeedV3_20190828_5min">
-    <configuration name="helloTkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.helloTkinter_03_entirely">
+    <configuration name="_pydev_execfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="helloTkinter_01_Label" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,13 +169,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="netspeedV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="helloTkinter_01_Label_plus" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,17 +183,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label_plus.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="netspeedV3_20190828" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="helloTkinter_02_Button" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,17 +201,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter_02_Button.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="netspeedV3_20190828_20min" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="helloTkinter_03_entirely" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,48 +219,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_20min.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="netspeedV3_20190828_5min" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_5min.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.helloTkinter" />
-      <item itemvalue="Python.netspeedV3" />
-      <item itemvalue="Python.netspeedV3_20190828" />
-      <item itemvalue="Python.netspeedV3_20190828_20min" />
-      <item itemvalue="Python.netspeedV3_20190828_5min" />
+      <item itemvalue="Python.helloTkinter_01_Label" />
+      <item itemvalue="Python.helloTkinter_01_Label_plus" />
+      <item itemvalue="Python.helloTkinter_02_Button" />
+      <item itemvalue="Python.helloTkinter_03_entirely" />
+      <item itemvalue="Python._pydev_execfile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.netspeedV3_20190828_5min" />
-        <item itemvalue="Python.netspeedV3_20190828_20min" />
-        <item itemvalue="Python.netspeedV3_20190828" />
-        <item itemvalue="Python.netspeedV3" />
-        <item itemvalue="Python.helloTkinter" />
+        <item itemvalue="Python.helloTkinter_03_entirely" />
+        <item itemvalue="Python._pydev_execfile" />
+        <item itemvalue="Python.helloTkinter_01_Label_plus" />
+        <item itemvalue="Python.helloTkinter_02_Button" />
+        <item itemvalue="Python.helloTkinter_01_Label" />
       </list>
     </recent_temporary>
   </component>
@@ -265,18 +260,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="99" width="1374" height="757" extended-state="0" />
+    <frame x="63" y="9" width="1640" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26796407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403246" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48397437" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20892018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.35930735" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,37 +286,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="660">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/get_redirect_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="242">
-            <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -593,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -607,22 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/time_delay.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/loss_rate.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="e#211#228#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,18 +588,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding>
-            <element signature="e#211#228#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1672">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_5min.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
+        <state relative-caret-position="264">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_00_plus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_02_Button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label_plus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+          <folding>
+            <element signature="e#104#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
