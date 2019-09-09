@@ -8,7 +8,8 @@ create on 30 Aug,2019 by Wayne Yu
 
 from tkinter import *
 import tkinter as tk
-
+import tkinter.messagebox
+import tkinter.filedialog
 
 class App:
     def __init__(self, root):
@@ -76,6 +77,7 @@ class App:
         group_scale.grid(row=6, column=0, columnspan=3, sticky=W)
         self.s1 = Scale(group_scale, from_=0, to=42, orient=HORIZONTAL)
         self.s1.pack()
+        Button(group_scale, text='打开文件', command=tk.filedialog.askopenfilename).pack(fill=X)  # 文件打开对话框
 
         # 图像显示
         global photo_python
@@ -98,9 +100,11 @@ class App:
             print("输入正确！")
             return True
         else:
-            print("输入长度不够，请重新输入！")
+            # print("输入长度不够，请重新输入！")
+            tk.messagebox.showinfo("提示", "输入用户名长度不够，请重新输入！")
             self.e1.delete(0, END)
             return False
+
 
 
 if __name__ == "__main__":

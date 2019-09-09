@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_00_plus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label_plus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_02_Button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/012Tkinter/helloTkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" beforeDir="false" afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +17,8 @@
       <file leaf-file-name="helloTkinter_03_entirely.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+            <state relative-caret-position="242">
+              <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
               <folding>
                 <element signature="e#104#125#0" expanded="true" />
               </folding>
@@ -81,8 +75,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="9" />
+    <option name="x" value="30" />
+    <option name="y" value="8" />
     <option name="width" value="1640" />
     <option name="height" value="985" />
   </component>
@@ -91,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,7 +102,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +254,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="9" width="1640" height="985" extended-state="0" />
+    <frame x="30" y="8" width="1640" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403246" />
@@ -270,7 +264,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20892018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.35930735" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.35915494" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -644,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+        <state relative-caret-position="242">
+          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding>
             <element signature="e#104#125#0" expanded="true" />
           </folding>
