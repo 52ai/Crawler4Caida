@@ -15,6 +15,7 @@ import threading
 import time
 import re
 import csv
+import socket
 
 
 # ip_info 用于存储需要测试IP地址及其地理信息
@@ -202,20 +203,20 @@ def main_run():
     f.close()
 
 
-def count_test(max_n):
+def count_test(self, max_n):
     print("开始休眠")
     for i in range(0, 100):
-        print(i)
+        # print(i)
+        self.lb_m.insert(END, str(i))
+        self.tv.step(1)
         time.sleep(1)
     print("休眠结束")
 
 
-def sleep_test():
+def sleep_test(self):
     max_n = 100
-    t_c = threading.Thread(target=count_test, args=(max_n,))
+    t_c = threading.Thread(target=count_test, args=(self, max_n))
     t_c.start()
-
-
 
 
 class App:
@@ -231,14 +232,14 @@ class App:
         Button(group_top, text="Sop", width=10, command=self.stop).grid(row=3, column=1, sticky=E, padx=10, pady=5)
         Button(group_top, text="Exit", width=10, command=root.quit).grid(row=3, column=2, sticky=W, padx=10, pady=5)
 
-        v1 = StringVar()
-        v2 = StringVar()
+        v1 = StringVar(group_top, value="北京")
+        v2 = StringVar(group_top, value="中国信息通信研究院")
         self.e1 = Entry(group_top, text=v1, validate="focusout", width=31)
         self.e2 = Entry(group_top, text=v2, validate="focusout", width=31)
         comvalue = StringVar()
         self.c_tread = ttk.Combobox(group_top, textvariable=comvalue, width=10)
         self.c_tread["values"] = ("33", "11", "1")
-        self.c_tread.current(0)  # 选择第一个
+        self.c_tread.current(1)
 
         self.e1.grid(row=0, column=1, sticky=W, padx=10, pady=5)
         self.e2.grid(row=1, column=1, sticky=W, padx=10, pady=5)
@@ -266,10 +267,21 @@ class App:
         self.tv.grid(row=2, column=0, sticky=W)
 
     def app_run(self):
-        print("City: %s " % self.e1.get())
-        print("Company: %s" % self.e2.get())
-        print("Thread: %s" % self.c_tread.get())
-        sleep_test()
+        # print("City: %s " % self.e1.get())
+        # print("Company: %s" % self.e2.get())
+        # print("Thread: %s" % self.c_tread.get())
+        self.lb_m.insert(END, "International Network Speed Tools")
+        city = self.e1.get()
+        company = self.e2.get()
+        thread = self.c_tread.get()
+        str_inert_city = "城市:"+city
+        self.lb_m.insert(END, str_inert_city)
+        str_inert_company = "公司:"+company
+        self.lb_m.insert(END, str_inert_company)
+        myaddr = socket.gethostbyname(socket.gethostname())
+        str_insert_ip = "本次测试本地IP地址："+myaddr
+        self.lb_m.insert(END, str_insert_ip)
+        sleep_test(self)
 
     def stop(self):
         pass
