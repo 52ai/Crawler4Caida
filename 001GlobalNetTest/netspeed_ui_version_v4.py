@@ -72,6 +72,29 @@ company_log_list = []
 ip_info_threading = []
 
 
+def get_ip_info(ip):
+    ip_detail_info = []
+    # 淘宝IP地址库接口
+    r = requests.get('http://ip.taobao.com/service/getIpInfo.php?ip=%s' % ip)
+    if r.json()['code'] == 0:
+        i = r.json()['data']
+        country = i['country']  # 国家
+        area = i['area']  # 区域
+        region = i['region']  # 地区
+        city = i['city']  # 城市
+        isp = i['isp']  # 运营商
+        # print(u'国家: %s\n区域: %s\n省份: %s\n城市: %s\n运营商: %s\n' % (country, area, region, city, isp))
+        ip_detail_info.append(country)
+        ip_detail_info.append(area)
+        ip_detail_info.append(region)
+        ip_detail_info.append(region)
+        ip_detail_info.append(city)
+        ip_detail_info.append(isp)
+    else:
+        print("ERRO! ip: %s" % ip)
+    return ip_detail_info
+
+
 def run_ping_group(self, run_index):
     # print("run_index:", run_index)
     for run_item in ip_info_threading[run_index]:
