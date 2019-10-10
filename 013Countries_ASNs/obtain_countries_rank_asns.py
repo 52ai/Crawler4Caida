@@ -8,6 +8,8 @@ Fun:获取全球各个国家的ASNs分配的数量、通道的数量以及ASN V4
 from selenium import webdriver
 import time
 from selenium.webdriver.firefox.options import Options
+from bs4 import BeautifulSoup
+
 
 def obtain_info(page_url):
     """
@@ -16,21 +18,23 @@ def obtain_info(page_url):
     :return:
     """
     driver.get(page_url)
-    time.sleep(10)  # 延迟加载，等待页面的内容加载完毕
+    time.sleep(3)  # 延迟加载，等待页面的内容加载完毕
     # 获取页面的html信息
     page_html = driver.page_source
     print(page_html)
+    bsObj = BeautifulSoup(page_html, "html.parser")
+    print(bsObj)
 
 
 if __name__ == "__main__":
     web_url = "https://whois.ipip.net/countries"
     time_start = time.time()
-
     # 启动浏览器
-    fire_options = Options()
-    fire_options.headless = True
-    driver = webdriver.Firefox(options=fire_options)
-    driver.maximize_window()
+    # fire_options = Options()
+    # fire_options.headless = True
+    # driver = webdriver.Firefox(options=fire_options)
+    driver = webdriver.Firefox()
+    # driver.maximize_window()
     try:
         obtain_info(web_url)
     except Exception as e:
