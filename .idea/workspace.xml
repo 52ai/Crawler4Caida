@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/013Countries_ASNs/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/013Countries_ASNs/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py" beforeDir="false" afterPath="$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,25 +12,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Crawler4Caida" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="obtain_countries_rank_asns.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py">
+      <file leaf-file-name="bgp_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="520">
+              <caret line="64" column="36" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="64" selection-end-column="36" />
               <folding>
-                <element signature="e#140#170#0" expanded="true" />
+                <element signature="e#126#135#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -112,6 +104,7 @@
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v4.py" />
         <option value="$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" />
       </list>
     </option>
   </component>
@@ -136,22 +129,18 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="003Music163Spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="010GainWebsiteInfo" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="013Countries_ASNs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="014Faceplusplus" type="462c0819:PsiDirectoryNode" />
+              <item name="015BGPAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,19 +150,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
-      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo\deploy" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
+      <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
       <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
       <recent name="D:\Code\Crawler4Caida\012Tkinter" />
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest" />
-      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo" />
-      <recent name="D:\Code\Crawler4Caida\011DeleteDataZPS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
+      <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
+      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo\deploy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,8 +178,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.obtain_countries_rank_asns">
-    <configuration name="helloTkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bgp_analysis">
+    <configuration name="bgp_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,18 +271,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.helloTkinter_03_entirely" />
-      <item itemvalue="Python.helloTkinter" />
       <item itemvalue="Python.obtain_countries_rank_asns" />
       <item itemvalue="Python.testapi_segment_url" />
       <item itemvalue="Python.testapi_segment_local" />
+      <item itemvalue="Python.bgp_analysis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bgp_analysis" />
         <item itemvalue="Python.obtain_countries_rank_asns" />
         <item itemvalue="Python.testapi_segment_local" />
         <item itemvalue="Python.testapi_segment_url" />
         <item itemvalue="Python.helloTkinter_03_entirely" />
-        <item itemvalue="Python.helloTkinter" />
       </list>
     </recent_temporary>
   </component>
@@ -313,15 +303,15 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25869337" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675745" visible="true" weight="0.17650159" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25893825" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16468039" />
+      <window_info id="Structure" order="1" sideWeight="0.50324255" side_tool="true" visible="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.18093175" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788732" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -347,31 +337,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/exe_demo.py">
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="990">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#126#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/006Wechat/demo.py">
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003Music163Spiders/comment163.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/006Wechat/wechat_avatar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="440">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -424,13 +403,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -643,15 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/003Music163Spiders/cheese_caict.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003Music163Spiders/cheese.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/013Countries_ASNs/data/countries_asns_CN_AS4611.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/013Countries_ASNs/data/countries_asns_CN.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="66">
@@ -669,9 +632,6 @@
         <state relative-caret-position="-1188" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/013Countries_ASNs/data/countries_asns_CN_AS23852.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/013Countries_ASNs/data/countries_asns_CN_AS4134.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="132">
@@ -679,20 +639,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#140#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/deal_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="64" column="36" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="64" selection-end-column="36" />
+          <folding>
+            <element signature="e#126#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
