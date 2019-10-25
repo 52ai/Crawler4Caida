@@ -21,7 +21,7 @@ if __name__ == "__main__":
     # url = "http://as-rank.caida.org/api/v1/asns/4134/links?populate=1"
     # print("TEST:", count_AS(url))
     """
-    电信 AS号：4134、4089、49209、36678
+    电信 AS号：4134、4809、49209、36678
     联通 AS号：4837、9929、10099、19174、197407
     移动 AS号：9808、58453、9231
     

@@ -61,5 +61,5 @@ def joint_avatar(path):
 
 if __name__ == "__main__":
     avatar_dir = create_filepath()
-    # save_avatar(avatar_dir)
+    save_avatar(avatar_dir)
     joint_avatar(avatar_dir)

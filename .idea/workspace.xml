@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/rel1(19980101-20191001).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/rel2(20151201-20191001).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002asAnalysis/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/002asAnalysis/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006Wechat/wechat.png" beforeDir="false" afterPath="$PROJECT_DIR$/006Wechat/wechat20190625.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006Wechat/wechat_avatar.py" beforeDir="false" afterPath="$PROJECT_DIR$/006Wechat/wechat_avatar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bgp_analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
+      <file leaf-file-name="bgp_analysis_rel2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="64" column="36" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="66">
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extractPeeringDB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
               <folding>
-                <element signature="e#126#135#0" expanded="true" />
+                <element signature="e#15#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawler_review.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/003Music163Spiders/crawler_review.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#839#873#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +106,6 @@
         <option value="$PROJECT_DIR$/008WebsiteDataAnalysis/demo.py" />
         <option value="$PROJECT_DIR$/008WebsiteDataAnalysis/exe_demo.py" />
         <option value="$PROJECT_DIR$/006Wechat/wechat_avastar.py" />
-        <option value="$PROJECT_DIR$/006Wechat/wechat_avatar.py" />
         <option value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_5.0.py" />
         <option value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_6.0.py" />
         <option value="$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py" />
@@ -105,20 +132,27 @@
         <option value="$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" />
+        <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py" />
+        <option value="$PROJECT_DIR$/015BGPAnalysis/rel2(20151201-20191001).txt" />
+        <option value="$PROJECT_DIR$/006Wechat/wechat_avatar.py" />
+        <option value="$PROJECT_DIR$/015BGPAnalysis/rel1(19980101-20191001).txt" />
+        <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1.py" />
+        <option value="$PROJECT_DIR$/002asAnalysis/crawler.py" />
+        <option value="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="65" />
-    <option name="width" value="1640" />
-    <option name="height" value="985" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,23 +163,13 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="015BGPAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="003Music163Spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,17 +177,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
+      <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
+      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo\deploy" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\016IXPAnalysis" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
       <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
       <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
       <recent name="D:\Code\Crawler4Caida\012Tkinter" />
-      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
-      <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
-      <recent name="D:\Code\Crawler4Caida\010GainWebsiteInfo\deploy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bgp_analysis">
+  <component name="RunManager" selected="Python.extractPeeringDB">
     <configuration name="bgp_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,13 +217,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\015BGPAnalysis\bgp_analysis_rel2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="helloTkinter_03_entirely" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bgp_analysis_rel1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,17 +231,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="obtain_countries_rank_asns" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bgp_analysis_rel2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,17 +249,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013Countries_ASNs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="testapi_segment_local" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="extractPeeringDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,17 +267,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014Faceplusplus" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/016IXPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/014Faceplusplus/testapi_segment_local.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="testapi_segment_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wechat_avatar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,30 +285,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014Faceplusplus" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/006Wechat" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/014Faceplusplus/testapi_segment_url.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/006Wechat/wechat_avatar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.helloTkinter_03_entirely" />
-      <item itemvalue="Python.obtain_countries_rank_asns" />
-      <item itemvalue="Python.testapi_segment_url" />
-      <item itemvalue="Python.testapi_segment_local" />
       <item itemvalue="Python.bgp_analysis" />
+      <item itemvalue="Python.bgp_analysis_rel2" />
+      <item itemvalue="Python.wechat_avatar" />
+      <item itemvalue="Python.bgp_analysis_rel1" />
+      <item itemvalue="Python.extractPeeringDB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.extractPeeringDB" />
+        <item itemvalue="Python.bgp_analysis_rel1" />
+        <item itemvalue="Python.wechat_avatar" />
+        <item itemvalue="Python.bgp_analysis_rel2" />
         <item itemvalue="Python.bgp_analysis" />
-        <item itemvalue="Python.obtain_countries_rank_asns" />
-        <item itemvalue="Python.testapi_segment_local" />
-        <item itemvalue="Python.testapi_segment_url" />
-        <item itemvalue="Python.helloTkinter_03_entirely" />
       </list>
     </recent_temporary>
   </component>
@@ -303,14 +329,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675745" visible="true" weight="0.17650159" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.1886196" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16468039" />
-      <window_info id="Structure" order="1" sideWeight="0.50324255" side_tool="true" visible="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.18093175" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42903575" />
+      <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.31419286" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788732" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,6 +347,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2535211" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.17650159" />
+      <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" visible="true" weight="0.17650159" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39788732" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.31419286" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -337,101 +382,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#126#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/011DeleteDataZPS/excel-process_V3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/D010/content.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/content.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -653,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/deal_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -667,12 +610,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis.py">
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/draw.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/draw.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/rel2(20151201-20191001).txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="64" selection-end-column="36" />
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/wechat/26.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/wechat/12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/wechat/7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/wechat/0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006Wechat/wechat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006Wechat/wechat20190625.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006Wechat/wechat_avatar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006Wechat/demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/draw_rel1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/rel1(19980101-20191001).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#55#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="60" column="62" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
           <folding>
             <element signature="e#126#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003Music163Spiders/crawler_review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#839#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
