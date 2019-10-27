@@ -55,7 +55,7 @@ def draw(draw_date, data_list):
         peer_list.append(int(item[1]))
         transit_list.append(int(item[2]))
 
-    fig, ax = plt.subplots(1, 1)
+    fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
     plt.xticks(rotation=30)
     tick_spacing = 1
     ax.set_title("Global BGP Analysis Graph")
@@ -71,7 +71,7 @@ def draw(draw_date, data_list):
     # cxy, f = axs[1].cohere(peer_list, transit_list, 256, 100. / dt)
     # axs[1].set_ylabel('coherence')
     # fig.tight_layout()
-    plt.savefig("draw.jpg", dpi=1000)
+    plt.savefig("drawrel2.jpg", dpi=1000)
     plt.show()
 
 

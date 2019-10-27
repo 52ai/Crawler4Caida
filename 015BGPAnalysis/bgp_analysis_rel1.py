@@ -12,6 +12,7 @@ import numpy as np
 import matplotlib.ticker as ticker
 import time
 
+
 def analysis(open_file):
     """
     对数据进行分析处理
@@ -45,7 +46,7 @@ def draw(draw_date, data_list):
     :return:
     """
     dt = 1
-    t = np.arange(0, len(draw_date), dt)
+    # t = np.arange(0, len(draw_date), dt)
     edge_list = []
     peer_list = []
     transit_list = []
@@ -55,7 +56,7 @@ def draw(draw_date, data_list):
         peer_list.append(int(item[1]))
         transit_list.append(int(item[2]))
 
-    fig, ax = plt.subplots(1, 1)
+    fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
     plt.xticks(rotation=30)
     tick_spacing = 6
     ax.set_title("Global BGP Analysis Graph(19980101-20191001)")
