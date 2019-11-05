@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py" beforeDir="false" afterPath="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(FR).csv" beforeDir="false" afterPath="$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(FR).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/017RelativeValueOfISP/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/017RelativeValueOfISP/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +18,12 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="crawler_info_for_ISP_NoCut.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="120" column="16" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+            <state relative-caret-position="269">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#329#359#0" expanded="true" />
               </folding>
@@ -42,8 +43,17 @@
       <file leaf-file-name="top_sites_with_as_(JP).csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(JP).csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="-429">
               <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_sites_with_as_(JP)_copy.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(JP)_copy.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -53,11 +63,34 @@
           <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
+      <file leaf-file-name="top_sites_with_as_(HK).csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(HK).csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-671" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_sites_with_as_(AU).csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(AU).csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-671" />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="top_sites_with_as_(IN).csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(IN).csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="-517">
               <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_sites_with_as_(CN).csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(CN).csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -148,6 +181,7 @@
         <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_as.py" />
         <option value="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP.py" />
         <option value="$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(IN).csv" />
+        <option value="$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(CN).csv" />
         <option value="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py" />
       </list>
     </option>
@@ -349,9 +383,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24702059" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36078006" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.13434453" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.33116883" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788732" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,21 +399,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.17650159" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" visible="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2535211" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788732" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.31419286" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32719395" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -397,41 +431,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_00_plus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_02_Button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_01_Label_plus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -678,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5290">
           <caret line="352" column="38" lean-forward="true" selection-start-line="352" selection-start-column="38" selection-end-line="352" selection-end-column="38" />
-          <folding>
-            <element signature="e#140#170#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,16 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="926">
           <caret line="142" column="30" lean-forward="true" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
-          <folding>
-            <element signature="e#329#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(JP)_copy.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -720,24 +706,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(JP).csv">
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(SG).csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="-671" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(CN)_copy.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="429">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(AU).csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-671" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(CN).csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(HK).csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-671" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(IN).csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-517">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(JP).csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-429">
           <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(JP)_copy.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(US).csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(IN).csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(FR).csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
@@ -746,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="120" column="16" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+        <state relative-caret-position="269">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#329#359#0" expanded="true" />
           </folding>

@@ -69,7 +69,7 @@ def obtain_asn_by_site(page_url):
     access_asn = []
     # 获取页面信息
     driver.get(page_url)
-    time.sleep(10)  # 延迟加载，等待页面内容加载完毕
+    time.sleep(3)  # 延迟加载，等待页面内容加载完毕
     # 获取页面html信息
     page_html = driver.page_source
     bs_obj = BeautifulSoup(page_html, "html.parser")
@@ -87,7 +87,7 @@ def obtain_asn_by_site(page_url):
 
 if __name__ == "__main__":
     # countries = ["US", "JP", "IN", "FR", "SG", "AU", "HK", "CN"]
-    countries = ["SG"]
+    countries = ["FR"]
     # web_url = "https://www.alexa.com/topsites/countries/US"  # 爬虫的入口程序
     time_start = time.time()
     # 启动浏览器
@@ -98,6 +98,8 @@ if __name__ == "__main__":
             web_url = "https://www.alexa.com/topsites/countries/" + countries_item
             countries_top_sites = obtain_top_sites_by_country(web_url)
             print("countries top sites:", countries_top_sites)
+            print("sleep 10 seconds......")
+            time.sleep(10)
             temp_list = []
             cnt_rank = 1
             for sites_url in countries_top_sites:
