@@ -129,7 +129,7 @@ def obtain_country_asns(page_url):
         as_list_item = []
         rank_cnt += 1
     # 把获取到的AS list写入到文件中
-   # rint(as_list)
+    # print(as_list)
     page_url_copy = page_url
     as_country = page_url_copy.split("/")[-1]
     # print(page_url_copy)
