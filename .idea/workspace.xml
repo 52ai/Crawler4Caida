@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_normal_distribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/draw_active_as_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_normal_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_normal_distribution.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +18,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bgp_analysis_normal_distribution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bgp_analysis_normal_distribution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_normal_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="3520">
+              <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
               <folding>
                 <element signature="e#103#112#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_active_as_info.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/015BGPAnalysis/draw_active_as_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+              <folding>
+                <element signature="e#101#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="active_as_info_20191001.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/data/active_as_info_20191001.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-237010" />
           </provider>
         </entry>
       </file>
@@ -70,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py" />
         <option value="$PROJECT_DIR$/008WebsiteDataAnalysis/domain_demo.py" />
         <option value="$PROJECT_DIR$/008WebsiteDataAnalysis/gain_domain_name.py" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py" />
@@ -121,14 +140,14 @@
         <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_as.py" />
         <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_as_all.py" />
         <option value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_normal_distribution.py" />
+        <option value="$PROJECT_DIR$/015BGPAnalysis/draw_active_as_info.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="125" />
+    <option name="width" value="1278" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -159,6 +178,13 @@
               <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
               <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
+              <item name="serial-0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -211,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bgp_analysis_normal_distribution">
+  <component name="RunManager" selected="Python.draw_active_as_info">
     <configuration name="bgp_analysis_as_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,7 +310,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="crawler_info_for_ISP_NoCut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="draw_active_as_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,30 +318,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/017RelativeValueOfISP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP_NoCut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/draw_active_as_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.crawler_info_for_ISP_NoCut" />
       <item itemvalue="Python.bgp_analysis_cn" />
       <item itemvalue="Python.bgp_analysis_rel1_v2" />
       <item itemvalue="Python.bgp_analysis_as_v2" />
       <item itemvalue="Python.bgp_analysis_normal_distribution" />
+      <item itemvalue="Python.draw_active_as_info" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draw_active_as_info" />
         <item itemvalue="Python.bgp_analysis_normal_distribution" />
         <item itemvalue="Python.bgp_analysis_as_v2" />
         <item itemvalue="Python.bgp_analysis_rel1_v2" />
         <item itemvalue="Python.bgp_analysis_cn" />
-        <item itemvalue="Python.crawler_info_for_ISP_NoCut" />
       </list>
     </recent_temporary>
   </component>
@@ -333,16 +359,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="125" y="0" width="1278" height="1047" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.17702845" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.2798387" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50189036" side_tool="true" weight="0.11117414" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24702059" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28710726" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24673851" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29540482" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.21235102" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.22404991" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788732" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,34 +414,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/tkinter/ttk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
-          <caret line="711" column="8" selection-start-line="711" selection-start-column="8" selection-end-line="711" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="774" column="8" selection-start-line="774" selection-start-column="8" selection-end-line="774" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1574">
-          <caret line="2282" column="8" selection-start-line="2282" selection-start-column="8" selection-end-line="2282" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_5min.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4598">
@@ -606,13 +604,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/data/top_sites_with_as_(FR).csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/rel2(20151201-20191001).txt">
@@ -664,27 +662,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
-          <folding>
-            <element signature="e#144#153#0" expanded="true" />
-            <element signature="e#288#703#0" />
-            <element signature="e#1872#2428#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_as_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1738">
           <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/serial-3/19980101.as-rel.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/active_as_info_19980101.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -709,16 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-847">
           <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
-          <folding>
-            <element signature="e#103#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -726,24 +699,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="e#126#135#0" expanded="true" />
-            <element signature="e#878#1984#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/data/active_as_info_19980101.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1320" />
+        <state relative-caret-position="-132">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/data/active_as_info_20041001.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/data/active_as_info_20091001.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="e#126#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/data/active_as_info_20141001.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_normal_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="3520">
+          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
           <folding>
             <element signature="e#103#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/data/active_as_info_20191001.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-237010" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/draw_active_as_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+          <folding>
+            <element signature="e#101#110#0" expanded="true" />
           </folding>
         </state>
       </provider>

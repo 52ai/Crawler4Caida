@@ -135,3 +135,29 @@ if __name__ == "__main__":
         analysis(path_item)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
+
+"""
+run-log:
+C:\Python37\python.exe D:/Code/Crawler4Caida/015BGPAnalysis/bgp_analysis_normal_distribution.py
+..\000LocalData\as_relationships\serial-3\19980101.as-rel.txt
+Active AS： 3233
+write file <../000LocalData/as_relationships/data/active_as_info_19980101.csv> ...
+write finish!
+..\000LocalData\as_relationships\serial-3\20041001.as-rel.txt
+Active AS： 18454
+write file <../000LocalData/as_relationships/data/active_as_info_20041001.csv> ...
+write finish!
+..\000LocalData\as_relationships\serial-3\20091001.as-rel.txt
+Active AS： 32826
+write file <../000LocalData/as_relationships/data/active_as_info_20091001.csv> ...
+write finish!
+..\000LocalData\as_relationships\serial-3\20141001.as-rel.txt
+Active AS： 46120
+write file <../000LocalData/as_relationships/data/active_as_info_20141001.csv> ...
+write finish!
+..\000LocalData\as_relationships\serial-3\20191001.as-rel.txt
+Active AS： 66488
+write file <../000LocalData/as_relationships/data/active_as_info_20191001.csv> ...
+write finish!
+=>Scripts Finish, Time Consuming: 44216.931780576706 S
+"""
