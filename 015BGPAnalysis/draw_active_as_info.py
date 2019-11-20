@@ -3,6 +3,7 @@
 create on Nov 12,2019 by Wayne YU
 Function:
 
+
 对active as info数据进行绘图分析，柱形图、折线图等
 """
 import os
@@ -62,18 +63,19 @@ def draw(x_list, y_list, date_str):
     :param date_str:
     :return:
     """
-    fig, ax = plt.subplots(1, 1, figsize=(30.0, 10.8))
+    fig, ax = plt.subplots(1, 1, figsize=(50.0, 10.0))
     plt.xticks(rotation=90)
     tick_spacing = 4
     title_string = "Global BGP Relationships Distribution Analysis Graph " + date_str
     ax.set_title(title_string)
-    ax.plot(x_list, y_list)
+    # ax.plot(x_list, y_list, 'bo')
+    ax.bar(x_list, y_list)
     ax.set_xlabel('Relationships Nums')
     ax.set_ylabel('COUNT')
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
-    save_fig_name = "distribution_draw_" + date_str + ".jpg"
+    save_fig_name = "distribution_draw_bar" + date_str + ".jpg"
     plt.savefig(save_fig_name, dpi=1000)
-    # plt.show()
+    plt.show()
 
 
 if __name__ == "__main__":
