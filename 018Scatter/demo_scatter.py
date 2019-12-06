@@ -10,7 +10,7 @@ Function:
 import numpy as np
 import matplotlib.pyplot as plt
 
-N = 200
+N = 500
 r = 10 * np.random.rand(N)
 theta = 2 * np.pi * np.random.rand(N)
 
@@ -18,7 +18,8 @@ area = 20
 colors = theta
 
 ax = plt.subplot(111, projection='polar')
-c = ax.scatter(theta, r, c=colors, s=area, cmap='hsv')
+c = ax.scatter(theta, r, c=colors, marker='s', s=area, cmap='hsv', alpha=0.75)
+ax.set_ylim(0, 10)  # 设置极坐标半径r的最大刻度
 print(r)
 print(theta)
 p1_theta = theta[0]
