@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on Nov 6, 2019 by  Wayne Yu
+create on Dec 6, 2019 by  Wayne Yu
 Version:2
 Function:
 
@@ -129,12 +129,13 @@ def gain_as_info(asn):
     for line in as_org2info_asn_read.readlines():
         if line.strip().split("|")[0] == asn:
             org_id = line.strip().split("|")[3]
-            as_info_list.append( line.strip().split("|")[2])
+            as_info_list.append( line.strip().split("|")[2])  # as name
             break
     for line in as_org2info_read.readlines():
         if line.strip().split("|")[0] == org_id:
-            as_info_list.append(line.strip().split("|")[2])
-            as_info_list.append(line.strip().split("|")[3])
+            as_info_list.append(line.strip().split("|")[2])  # org name
+            as_info_list.append(line.strip().split("|")[4])  # source
+            as_info_list.append(line.strip().split("|")[3])  # country
             break
     return as_info_list
 
@@ -167,37 +168,40 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     active_as = []  # 记录活跃的as号
     file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
+    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-3"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
-    date_string, as_active_list = gain_active_as(file_path[0])
-    print("活跃的AS号数量：", len(as_active_list))
-    # print(as_active_list)
-    as_core_map_data = []
-    as_temp = []
-    cnt = 10
-    for as_item in as_active_list:
-        cnt -= 1
-        if cnt == 0:
-            break
-        try:
-            as_temp.append(as_item)
-            as_rel = gain_as_relationships_cnt(as_item, file_path[0])  # 计算as的BGP互联关系
-            as_temp.extend(as_rel)
-            as_info = gain_as_info(as_item)  # 获取as info
-            # print(as_info)
-            as_temp.extend(as_info)
-            as_geo = gain_as_geo(as_info[-1])
-            as_temp.extend(as_geo)
-            as_core_map_data.append(as_temp)
-        except Exception as e:
-            print(e)
-        finally:
-            # print(as_temp)
-            as_temp = []
-    # 存储as_core_map_data文件
-    save_path = './as_core_map_data.csv'
-    write_to_csv(as_core_map_data, save_path)
+    for path_item in file_path[3:]:
+        date_string, as_active_list = gain_active_as(path_item)
+        print("活跃的AS号数量：", len(as_active_list))
+        # print(as_active_list)
+        as_core_map_data = []
+        as_temp = []
+        # cnt = 10
+        for as_item in as_active_list:
+            # cnt -= 1
+            # if cnt == 0:
+            #     break
+            try:
+                as_temp.append(as_item)
+                as_rel = gain_as_relationships_cnt(as_item, path_item)  # 计算as的BGP互联关系
+                as_temp.extend(as_rel)
+                as_info = gain_as_info(as_item)  # 获取as info
+                # print(as_info)
+                as_temp.extend(as_info)
+                as_geo = gain_as_geo(as_info[-1])
+                as_temp.extend(as_geo)
+                print(as_temp)
+                as_core_map_data.append(as_temp)
+            except Exception as e:
+                print(e)
+            finally:
+                # print(as_temp)
+                as_core_map_data.append(as_temp)
+                as_temp = []
+        # 存储as_core_map_data文件
+        save_path = '..\\000LocalData\\as_map\\as_core_map_data_' + date_string + '.csv'
+        write_to_csv(as_core_map_data, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
