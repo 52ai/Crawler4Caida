@@ -73,7 +73,6 @@ hjson['edges'] = edges_list
 hjson['dependentsCount'] = dependentsCount_list
 print(type(hjson))
 
-
 # 生成json
 with open("./as_rel.json", "w") as f:
     json.dump(hjson, f)
