@@ -39,15 +39,23 @@ bgp_file = "..\\000LocalData\\as_relationships\\serial-3\\20091001.as-rel.txt"
 file_read = open(file_in, 'r', encoding='utf-8')
 map_asn2index = {}
 asn_index = 0
+asn_temp = ""
 for line in file_read.readlines():
     line = line.strip().split('|')
+    if len(line) < 11:
+        continue
+    if asn_temp == line[0]:
+        continue
     nodes_str = line[5] + "(AS"+line[0]+")"
     nodes_list.append(nodes_str)
     dependentsCount_list.append(int(line[1]))
     map_asn2index[line[0]] = asn_index
     asn_index += 1
+    asn_temp = line[0]
 
+print("len(map_asn2index):", len(map_asn2index))
 print(map_asn2index)
+
 """
 在上面的循环中，需要建立ASN与index Number的对应关系
 """
@@ -65,7 +73,7 @@ for line in bgp_file_read.readlines():
         edges_list.append(source_index)
         edges_list.append(destination_index)
     except Exception as e:
-        print(e,line)
+        print(e, line)
 
 
 hjson['nodes'] = nodes_list
