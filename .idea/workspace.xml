@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/bgp_map_2000.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/bgp_map_2000.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/bgp_map_2004.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/bgp_map_2004.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/018Scatter/as_core_map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/018Scatter/as_core_map.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/018Scatter/draw_as_core_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +21,7 @@
       <file leaf-file-name="draw_as_core.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2486">
+            <state relative-caret-position="2420">
               <caret line="113" selection-start-line="113" selection-end-line="113" />
               <folding>
                 <element signature="e#95#106#0" expanded="true" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="draw_as_core_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="366" column="19" selection-start-line="366" selection-start-column="19" selection-end-line="366" selection-end-column="19" />
+            <state relative-caret-position="211">
+              <caret line="376" column="74" selection-start-line="376" selection-start-column="74" selection-end-line="376" selection-end-column="74" />
               <folding>
                 <element signature="e#105#116#0" expanded="true" />
                 <element signature="e#223#653#0" />
@@ -46,11 +45,7 @@
       </file>
       <file leaf-file-name="as_core_map_data_new19980101.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new19980101.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="60368">
-              <caret line="2744" column="5" selection-start-line="2744" selection-start-column="5" selection-end-line="2744" selection-end-column="6" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="deal_as_org_info.py" pinned="false" current-in-tab="false">
@@ -68,7 +63,7 @@
       <file leaf-file-name="deal_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/018Scatter/deal_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="660">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -77,7 +72,7 @@
       <file leaf-file-name="as_core_map_v3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="220">
               <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="e#190#199#0" expanded="true" />
@@ -89,7 +84,7 @@
       <file leaf-file-name="as_core_map_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="330">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#394#403#0" expanded="true" />
@@ -101,7 +96,7 @@
       <file leaf-file-name="as_core_map.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="176">
               <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
@@ -227,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,6 +260,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,7 +436,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32286024" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.15276273" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.09859155" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -455,21 +450,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.20389885" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40520042" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24673851" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39703903" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.11484291" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50189036" side_tool="true" weight="0.11117414" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24673851" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -756,15 +751,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1694">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#95#129#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
+        <state relative-caret-position="330">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#394#403#0" expanded="true" />
@@ -774,14 +766,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="176">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="220">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="e#190#199#0" expanded="true" />
@@ -791,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2486">
+        <state relative-caret-position="2420">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="e#95#106#0" expanded="true" />
@@ -825,22 +817,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/deal_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="660">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new19980101.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
+      <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="60368">
           <caret line="2744" column="5" selection-start-line="2744" selection-start-column="5" selection-end-line="2744" selection-end-column="6" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="366" column="19" selection-start-line="366" selection-start-column="19" selection-end-line="366" selection-end-column="19" />
+        <state relative-caret-position="211">
+          <caret line="376" column="74" selection-start-line="376" selection-start-column="74" selection-end-line="376" selection-end-column="74" />
           <folding>
             <element signature="e#105#116#0" expanded="true" />
             <element signature="e#223#653#0" />
