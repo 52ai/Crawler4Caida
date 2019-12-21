@@ -33,8 +33,8 @@ dependentsCount_list = []
 # for item in range(0, 10000):
 #     dependentsCount_list.append(1)
 
-file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20021001.csv'
-bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\20021001.as-rel.txt"
+file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20001001.csv'
+bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\20001001.as-rel.txt"
 
 file_read = open(file_in, 'r', encoding='utf-8')
 map_asn2index = {}
@@ -82,7 +82,7 @@ hjson['dependentsCount'] = dependentsCount_list
 print(type(hjson))
 
 # 生成json
-with open("./as_rel20021001.json", "w") as f:
+with open("../000LocalData/as_echarts/as_rel20001001.json", "w") as f:
     json.dump(hjson, f)
     print("write json file complete!")
 

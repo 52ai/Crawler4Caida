@@ -43,14 +43,14 @@
 			}
 
 			nodes.forEach(function (node) {
-				// if (node.value > 100) {
+				if (node.value > 100) {
 				node.emphasis = {
 					label: {
 						show: true
 					}
 				}
-				// }
-				if (node.value > 5000) {
+		}
+				if (node.value > 3000) {
 					node.label = {
 						show: true
 					}
@@ -77,7 +77,7 @@
 						// borderColor: '#fff',
 						// borderWidth: 1
 					},
-					focusNodeAdjacency: false,
+					focusNodeAdjacency: true,
 					focusNodeAdjacencyOn: 'click',
 					symbolSize: function (value) {
 						return Math.sqrt(value / 10);
