@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,31 +16,81 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="draw_as_core_v4(cn).py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="454" column="76" lean-forward="true" selection-start-line="454" selection-start-column="76" selection-end-line="454" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.41276866">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="deal_as_org_info.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/018Scatter/deal_as_org_info.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2376">
+                  <caret line="135" column="41" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="draw_as_core_v4(cn).py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7656">
+                  <caret line="423" column="19" selection-start-line="423" selection-start-column="19" selection-end-line="423" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#131#142#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="as_core_map_v3.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="66">
+                  <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#190#199#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="asn_info.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                  <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="as_compare.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="as_compare.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="335">
+                  <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#120#131#0" expanded="true" />
+                    <element signature="e#187#617#0" />
+                    <element signature="e#666#1386#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,8 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Antarctica</find>
-      <find>print</find>
       <find>table-responsive</find>
       <find>irt</find>
       <find>whois</find>
@@ -73,13 +122,15 @@
       <find>colors</find>
       <find>4837</find>
       <find>4134|</find>
-      <find>4134</find>
       <find>174|</find>
       <find>max_all_rel</find>
       <find>cn_index</find>
       <find>|CN|</find>
       <find>9002</find>
       <find>4809</find>
+      <find>4134</find>
+      <find>397016</find>
+      <find>CN</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -94,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_10min.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_20min.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828.py" />
@@ -136,7 +186,6 @@
         <option value="$PROJECT_DIR$/018Scatter/deal_data.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map_v2.py" />
-        <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
         <option value="$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20191101.csv" />
         <option value="$PROJECT_DIR$/018Scatter/deal_as_org_info.py" />
         <option value="$PROJECT_DIR$/019Echarts/Generate_json.py" />
@@ -145,6 +194,8 @@
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
+        <option value="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" />
       </list>
     </option>
   </component>
@@ -166,6 +217,35 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_Gao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
+              <item name="serial-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="018Scatter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -178,19 +258,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\018Scatter" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_echarts" />
-      <recent name="D:\Code\Crawler4Caida\019Echarts" />
-      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
       <recent name="D:\Code\Crawler4Caida\014Faceplusplus" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
+      <recent name="D:\Code\Crawler4Caida\018Scatter" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_echarts" />
+      <recent name="D:\Code\Crawler4Caida\019Echarts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.draw_as_core_v4(cn)">
+  <component name="RunManager" selected="Python.as_compare">
     <configuration name="Generate_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +304,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="as_core_map_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="as_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +312,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/018Scatter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/020MultiSourceCompare" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,18 +378,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Generate_json" />
-      <item itemvalue="Python.as_core_map_v3" />
       <item itemvalue="Python.draw_as_core_v2" />
       <item itemvalue="Python.draw_as_core_v3" />
       <item itemvalue="Python.draw_as_core_v4(cn)" />
+      <item itemvalue="Python.as_compare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.as_compare" />
         <item itemvalue="Python.draw_as_core_v4(cn)" />
         <item itemvalue="Python.draw_as_core_v3" />
         <item itemvalue="Python.draw_as_core_v2" />
         <item itemvalue="Python.Generate_json" />
-        <item itemvalue="Python.as_core_map_v3" />
       </list>
     </recent_temporary>
   </component>
@@ -344,9 +424,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50189036" side_tool="true" weight="0.11117414" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4127844" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" visible="true" weight="0.1971831" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.18093175" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,17 +468,10 @@
           <line>18</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9482">
-          <caret line="431" selection-start-line="431" selection-end-line="431" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9548">
@@ -588,20 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/deal_as_org_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="135" column="41" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3278">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_data_2019120601.csv" />
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_data_20041001.csv" />
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v2.py">
@@ -666,22 +725,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="454" column="76" lean-forward="true" selection-start-line="454" selection-start-column="76" selection-end-line="454" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="264">
-            <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7656">
+          <caret line="423" column="19" selection-start-line="423" selection-start-column="19" selection-end-line="423" selection-end-column="19" />
+          <folding>
+            <element signature="e#131#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/deal_as_org_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="135" column="41" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asstream20191203.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/as_rel_gao_20191203.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="9275420">
+          <caret line="421610" column="16" lean-forward="true" selection-start-line="421610" selection-start-column="16" selection-end-line="421610" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/serial-1/20191201.as-rel.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#190#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+          <folding>
+            <element signature="e#120#131#0" expanded="true" />
+            <element signature="e#187#617#0" />
+            <element signature="e#666#1386#0" />
+          </folding>
         </state>
       </provider>
     </entry>
