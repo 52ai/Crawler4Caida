@@ -198,7 +198,6 @@ def as_vertex_compare(as_caida_file, as_gao_file):
     print("As Gao diffence US Count:", us_cnt)
 
 
-
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     file_in_caida = '..\\000LocalData\\as_relationships\\serial-1\\20191201.as-rel.txt'
