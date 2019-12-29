@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/018Scatter/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/018Scatter/color_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v5(ru).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py" beforeDir="false" afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py" beforeDir="false" afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,68 +17,60 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42520267">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="as_compare.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1364">
-                  <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
-                  <folding>
-                    <element signature="e#120#131#0" expanded="true" />
-                    <element signature="e#187#617#0" />
-                    <element signature="e#655#1687#0" />
-                    <element signature="e#1722#2128#0" />
-                    <element signature="e#2166#2863#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="draw_as_core_v6(br).py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2244">
-                  <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#191#202#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="color_demo.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/018Scatter/color_demo.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="498">
-                  <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#79#110#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="draw_as_core_v6(br).py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9746">
-                  <caret line="443" column="44" selection-start-line="443" selection-start-column="44" selection-end-line="443" selection-end-column="44" />
-                  <folding>
-                    <element signature="e#191#202#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="as_compare.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1364">
+              <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
+              <folding>
+                <element signature="e#120#131#0" expanded="true" />
+                <element signature="e#187#617#0" />
+                <element signature="e#655#1687#0" />
+                <element signature="e#1722#2128#0" />
+                <element signature="e#2166#2863#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_as_core_v6(br).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2244">
+              <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+              <folding>
+                <element signature="e#191#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/018Scatter/color_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="e#79#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_as_core_v4(cn).py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="149" selection-start-line="149" selection-end-line="180" selection-end-column="136" />
+              <folding>
+                <element signature="e#131#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,18 +169,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
         <option value="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" />
-        <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v2.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v5(ru).py" />
         <option value="$PROJECT_DIR$/018Scatter/bg_color_demo.py" />
         <option value="$PROJECT_DIR$/018Scatter/color_demo.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py" />
+        <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -262,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.draw_as_core_v6(br)">
+  <component name="RunManager" selected="Python.draw_as_core_v4(cn)">
     <configuration name="as_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,7 +288,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="draw_as_core_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="draw_as_core_v4(cn)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,7 +300,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,19 +343,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.draw_as_core_v3" />
       <item itemvalue="Python.as_compare" />
       <item itemvalue="Python.draw_as_core_v5(ru)" />
       <item itemvalue="Python.draw_as_core_v6(br)" />
       <item itemvalue="Python.color_demo" />
+      <item itemvalue="Python.draw_as_core_v4(cn)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draw_as_core_v4(cn)" />
         <item itemvalue="Python.draw_as_core_v6(br)" />
         <item itemvalue="Python.color_demo" />
         <item itemvalue="Python.as_compare" />
         <item itemvalue="Python.draw_as_core_v5(ru)" />
-        <item itemvalue="Python.draw_as_core_v3" />
       </list>
     </recent_temporary>
   </component>
@@ -393,16 +382,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.2850369" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.20231824" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50189036" side_tool="true" weight="0.11117414" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21235102" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4225352" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.12567714" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.24052005" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -450,6 +440,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3146">
+          <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
+          <folding>
+            <element signature="e#120#131#0" expanded="true" />
+            <element signature="e#187#617#0" />
+            <element signature="e#655#1687#0" />
+            <element signature="e#1722#2128#0" />
+            <element signature="e#2166#2863#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/color_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#79#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2332">
+          <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding>
+            <element signature="e#191#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
           <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
           <folding>
@@ -464,7 +488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/color_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="484">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="e#79#110#0" expanded="true" />
@@ -474,10 +498,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9746">
-          <caret line="443" column="44" selection-start-line="443" selection-start-column="44" selection-end-line="443" selection-end-column="44" />
+        <state relative-caret-position="2244">
+          <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
           <folding>
             <element signature="e#191#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
+          <folding>
+            <element signature="e#120#131#0" expanded="true" />
+            <element signature="e#187#617#0" />
+            <element signature="e#655#1687#0" />
+            <element signature="e#1722#2128#0" />
+            <element signature="e#2166#2863#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding>
+            <element signature="e#191#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/color_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#79#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="149" selection-start-line="149" selection-end-line="180" selection-end-column="136" />
+          <folding>
+            <element signature="e#131#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
