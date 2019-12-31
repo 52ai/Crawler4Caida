@@ -53,6 +53,7 @@ for line in file_read.readlines():
 print("len(map_asn2index):", len(map_asn2index))
 print(map_asn2index)
 
+
 """
 在上面的循环中，需要建立ASN与index Number的对应关系
 """
