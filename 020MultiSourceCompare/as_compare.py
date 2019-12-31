@@ -432,7 +432,7 @@ def as_vertex_compare(as_caida_file, as_gao_file):
             as_rel_integrate_list.append(temp_list)
             temp_list = []
     # print(len(as_rel_integrate_list))
-    gain_as_rel_integrate(as_rel_integrate_list)  # 根据as rel 列表生成文件
+    # gain_as_rel_integrate(as_rel_integrate_list)  # 根据as rel 列表生成文件
 
 
 if __name__ == "__main__":
