@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="537c481be9b54ab788c40ddccff31e32" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_537c481be9b54ab788c40ddccff31e32 = echarts.init(
+            document.getElementById('537c481be9b54ab788c40ddccff31e32'), 'white', {renderer: 'canvas'});
+        var option_537c481be9b54ab788c40ddccff31e32 = {
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u5546\u5bb6A",
+            "label": {
+                "show": false,
+                "position": "top",
+                "fontSize": 12
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 44
+                },
+                {
+                    "name": "Canada",
+                    "value": 144
+                },
+                {
+                    "name": "Brazil",
+                    "value": 59
+                },
+                {
+                    "name": "Russia",
+                    "value": 142
+                },
+                {
+                    "name": "United States",
+                    "value": 107
+                },
+                {
+                    "name": "Africa",
+                    "value": 59
+                },
+                {
+                    "name": "Germany",
+                    "value": 37
+                }
+            ],
+            "roam": true,
+            "showLegendSymbol": true,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5546\u5bb6A"
+            ],
+            "selected": {
+                "\u5546\u5bb6A": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Map-\u4e16\u754c\u5730\u56fe"
+        }
+    ],
+    "visualMap": {
+        "type": "continuous",
+        "min": 0,
+        "max": 200,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true
+    }
+};
+        chart_537c481be9b54ab788c40ddccff31e32.setOption(option_537c481be9b54ab788c40ddccff31e32);
+    </script>
+</body>
+</html>
