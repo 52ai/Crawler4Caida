@@ -6,7 +6,7 @@ Function:
 基于Pyecharts的Geo图
 
 """
-from example.commons import Faker
+from pyecharts.faker import Faker
 from pyecharts import options as opts
 from pyecharts.charts import Geo
 from pyecharts.globals import ChartType, SymbolType
