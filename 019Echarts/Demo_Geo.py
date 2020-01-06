@@ -40,4 +40,4 @@ def map_world() -> Map:
     return c
 
 
-map_world().render()
+map_world().render("world_2D_render.html")
