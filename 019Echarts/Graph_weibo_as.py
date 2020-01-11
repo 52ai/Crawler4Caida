@@ -8,6 +8,7 @@ create on Jan 6, 2020 By Wayne Yu
 import json
 import os
 import random
+import numpy
 
 from pyecharts import options as opts
 from pyecharts.charts import Graph, Page
@@ -24,6 +25,8 @@ def read_as_info(file_name):
     as_info = []
     cn_as = []
     temp_dict = {}
+    temp_dict_normal = {}
+    temp_dict_label = {}
     categories_list = []
     file_read = open(file_name, 'r', encoding='utf-8')
     for line in file_read.readlines():
@@ -32,15 +35,32 @@ def read_as_info(file_name):
         if line[5] == "CN":
             print(line)
             node_name = "AS" + str(line[0])
-            node_size = line[1]
+            node_size = int(line[1])
+
+            if node_size > 42:
+                node_size = (node_size / 4) + 10
+                print(node_size)
+            else:
+                node_size = 10
             temp_dict["name"] = node_name
-            temp_dict["symbolSize"] = int(node_size) / 5.0
+            temp_dict["symbolSize"] = node_size
             temp_dict["draggable"] = "True"
-            temp_dict["value"] = node_size
+            temp_dict["value"] = line[1]
             temp_dict["category"] = line[5]
-            as_info.append(temp_dict)
-            temp_dict = {}
+
             cn_as.append(line[0])
+            if int(line[1]) > 42:
+                temp_dict_normal["show"] = "True"
+                temp_dict_label["normal"] = temp_dict_normal
+                temp_dict["label"] = temp_dict_label
+                as_info.append(temp_dict)
+                temp_dict = {}
+                temp_dict_normal = {}
+                temp_dict_label = {}
+            else:
+                as_info.append(temp_dict)
+                temp_dict = {}
+
     categories_info = []
     for item in list(set(categories_list)):
         temp_dict["name"] = item
@@ -88,8 +108,11 @@ def graph_weibo() -> Graph:
             as_info_dict,
             as_links_dict,
             categories_dict,
-            repulsion=10000,
-            linestyle_opts=opts.LineStyleOpts(),
+            # layout="circular",
+            is_rotate_label=True,
+            gravity=0.2,
+            repulsion=100000,
+            linestyle_opts=opts.LineStyleOpts(width=0.1),
             label_opts=opts.LabelOpts(is_show=False),
         )
         .set_global_opts(
@@ -100,4 +123,4 @@ def graph_weibo() -> Graph:
     return c
 
 
-graph_weibo().render("Graph_weibo_as.html")
+graph_weibo().render("Graph_as_cn.html")

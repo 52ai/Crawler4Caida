@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Demo_Geo.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Demo_Geo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_weibo_render.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_weibo_render.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Scatter_3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Scatter_3D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/scatter_render.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/scatter_render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,73 +17,32 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Graph_weibo.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#74#85#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Scatter_3D.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/019Echarts/Scatter_3D.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#77#90#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Graph_weibo_as.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="56">
-                  <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#74#85#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="weibo.json" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/000LocalData/echart_example/weibo.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10296">
-                  <caret line="468" column="10" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Graph_weibo_as.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="169">
-                  <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#74#85#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Graph_weibo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-32">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#74#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph_weibo_as.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="e#74#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -206,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,43 +170,10 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="as_compare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="echart_example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="019Echarts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="020MultiSourceCompare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="021Folium" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,16 +339,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.170706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.170706" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26868907" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27410617" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.15817985" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.15817985" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,17 +363,17 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.2850369" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.170706" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17768148" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26868907" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49810964" weight="0.12567714" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50189036" side_tool="true" weight="0.11117414" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.15817985" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
@@ -794,37 +719,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo.py">
+    <entry file="file://$PROJECT_DIR$/000LocalData/echart_example/weibo.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#74#85#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="445" column="9" selection-start-line="445" selection-start-column="9" selection-end-line="445" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/Scatter_3D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="826">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="e#77#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/echart_example/weibo.json">
+    <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10296">
-          <caret line="468" column="10" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
+        <state relative-caret-position="-32">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#74#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="836">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#74#85#0" expanded="true" />
           </folding>
