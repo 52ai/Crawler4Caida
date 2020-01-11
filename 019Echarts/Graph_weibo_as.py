@@ -102,7 +102,7 @@ def graph_weibo() -> Graph:
     as_links_dict = read_as_links('..\\000LocalData\\as_compare\\as_rel_20191203_integrate.txt', cn_as)
     print(as_links_dict)
     c = (
-        Graph(init_opts=opts.InitOpts(width="1920px", height="900px", page_title="Graph-中国AS网络互联关系图", theme=ThemeType.INFOGRAPHIC))
+        Graph(init_opts=opts.InitOpts(width="1920px", height="900px", page_title="Graph-中国AS网络互联关系图", theme=ThemeType.DARK))
         .add(
             "",
             as_info_dict,
