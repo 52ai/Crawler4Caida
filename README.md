@@ -15,6 +15,7 @@
 博学之，审问之，慎思之，明辨之，笃行之！---2019.06.20 By Wayne Yu<br>
 最近一段时间一直在忙全球互联网网络地图构建与生成方法的课题，已取得阶段性进展!---2019.12.24 By Wayne Yu<br>
 经过一段时间的思考，昨天确定了以互联网网络（专业领域/Graph）+复杂系统（普适规律/Complex System）为研究方向的总体思路！---2020.01.14 By Wayne YU<br>
+修改仓库的Description为：一个致力于用Python提高部门工作自动化水平的程序库！（包括数据采集、办公自动化、辅助研究、图网络、复杂系统等)---2020.01.14 By Wayne YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>

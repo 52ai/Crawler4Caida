@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_as_cn.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_as_cn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_les_miserables.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_les_miserables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph_weibo_as.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph_weibo_as.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+            <state relative-caret-position="579">
+              <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
               <folding>
                 <element signature="e#74#85#0" expanded="true" />
               </folding>
@@ -31,11 +29,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph_les_miserables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/019Echarts/Graph_les_miserables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="264">
+                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -114,7 +117,6 @@
         <option value="$PROJECT_DIR$/018Scatter/deal_as_org_info.py" />
         <option value="$PROJECT_DIR$/019Echarts/Generate_json.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v2.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v5(ru).py" />
@@ -146,6 +148,7 @@
         <option value="$PROJECT_DIR$/019Echarts/Graph_weibo_as_cn.html" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_les_miserables.py" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -167,11 +170,6 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="019Echarts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,14 +343,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.19441517" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.19441517" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35861322" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20476706" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22968581" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.35427952" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,13 +396,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/019Echarts/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9328">
@@ -742,11 +733,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+        <state relative-caret-position="579">
+          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
           <folding>
             <element signature="e#74#85#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
