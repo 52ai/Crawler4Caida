@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,9 +31,9 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="198">
+                <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -350,7 +349,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20476706" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.35427952" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.1332611" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -743,9 +742,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
