@@ -14,6 +14,7 @@ from pyecharts import options as opts
 from pyecharts.charts import Graph, Page
 from pyecharts.globals import ThemeType
 
+
 def graph_les_miserables():
     with open(
         os.path.join("..\\000LocalData\\echart_example\\", "les-miserables.json"), "r", encoding="utf-8"
