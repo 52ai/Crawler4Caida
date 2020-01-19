@@ -154,7 +154,7 @@ if __name__ == "__main__":
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
     as_core_map_data = []
-    for path_item in file_path:
+    for path_item in file_path[-2:]:
         date_string, as_active_list = gain_active_as(path_item)
         print("活跃的AS号数量：", len(as_active_list))
         # print(as_active_list)

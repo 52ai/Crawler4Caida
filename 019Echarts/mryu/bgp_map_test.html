@@ -24,7 +24,7 @@
 		<script>
 
 		var myChart = echarts.init(document.getElementById('container'));
-		$.getJSON("http://www.mryu.top/apps/as_rel20191203.json", function (res) {
+		$.getJSON("http://www.mryu.top/apps/as_rel20191001.json", function (res) {
 			var data = res;
 			var nodes = data.nodes.map(function (nodeName, idx) {
 				return {
@@ -43,13 +43,13 @@
 			}
 
 			nodes.forEach(function (node) {
-				 if (node.value > 10) {
+				 //if (node.value > 1000) {
 				node.emphasis = {
 					label: {
 						show: true
 					}
 				}
-				 }
+				 //}
 				if (node.value > 5000) {
 					node.label = {
 						show: true
@@ -81,7 +81,21 @@
 					focusNodeAdjacency: true,
 					focusNodeAdjacencyOn: 'click',
 					symbolSize: function (value) {
-						return Math.sqrt(value / 10);
+						//return Math.sqrt(value / 10);
+						if (value > 1000)
+						{
+							return 3;
+						}
+						else if(value > 900){
+							return 2;
+						}
+						else if(value > 800){
+							return 1;
+						}
+						else{
+							return Math.sqrt(value / 10);
+						}
+
 					},
 					label: {
 						textStyle: {
