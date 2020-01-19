@@ -47,7 +47,7 @@ for line in file_read.readlines():
     map_asn2index[line[0]] = asn_index
     asn_index += 1
     asn_temp = line[0]
-    if asn_index > 420:
+    if asn_index > 200:
         break
 
 print("len(map_asn2index):", len(map_asn2index))
