@@ -11,6 +11,8 @@ Function:
 import time
 import csv
 import os
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 
 def write_to_csv(res_list, des_path):
@@ -52,28 +54,65 @@ def gain_active_as(as_info, country_str):
             ru_as_info.append(line)
         active_as_global += 1
     active_as_country = len(ru_as_info)
-    return date_str, active_as_country, active_as_global
+    return date_str, active_as_global, active_as_country
+
+
+def draw(draw_data, country_str):
+    """
+    对传入的数据进行绘图
+    :param draw_date:
+    :param data_list:
+    :return:
+    """
+    draw_date = []
+    global_list = []
+    country_list = []
+    for item in draw_data:
+        # print(int(item[0]))
+        draw_date.append(item[0])
+        global_list.append(int(item[1]))
+        country_list.append(int(item[2]))
+
+    fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
+    plt.xticks(rotation=30)
+    # tick_spacing = 6
+    title_string = country_str + " Active As Graph(20180201-20200101)"
+    ax.set_title(title_string)
+    # ax.plot(draw_date, global_list, linewidth=2, linestyle=':', label='Global Active AS', marker='o')
+    ax.plot(draw_date, country_list, linewidth=1, linestyle='--', label='Russia Active AS', marker='+')
+    # ax.set_xlim(0, len(date_list))
+    ax.set_xlabel('Time')
+    ax.set_ylabel('Active AS Nums')
+    ax.legend()
+    # ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
+    # ax.grid(True)
+    # cxy, f = axs[1].cohere(peer_list, transit_list, 256, 100. / dt)
+    # axs[1].set_ylabel('coherence')
+    # fig.tight_layout()
+    plt.savefig("..\\000LocalData\\RUNet\\active_as_bar_" + country_str + ".jpg")
+    # plt.show()
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # 获取历年活跃AS数量列表
     file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_map"):
+    for root, dirs, files in os.walk("..\\000LocalData\\as_map_two_years"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
     active_as_ru = []
     temp_list = []
     for path_item in file_path:
-        dateStr, activeAS_country, activeAS_global = gain_active_as(path_item, "IN")
+        dateStr, activeAS_country, activeAS_global = gain_active_as(path_item, "RU")
         temp_list.append(dateStr)
         temp_list.append(activeAS_country)
         temp_list.append(activeAS_global)
         active_as_ru.append(temp_list)
         print(temp_list)
         temp_list = []
+    draw(active_as_ru, "RU")
     # save_path
-    save_path = "..\\000LocalData\\RUNet\\active_as_in.csv"
+    save_path = "..\\000LocalData\\RUNet\\active_as_ru.csv"
     write_to_csv(active_as_ru, save_path)
     time_end = time.time()
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

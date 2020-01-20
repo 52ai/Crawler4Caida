@@ -110,19 +110,40 @@ def analysis(open_file, as_analysis, as2country):
                 transit_provider_cnt += 1
             edge_cnt += 1
 
+            # 判断互联对方AS，是否为国内AS号
+            try:
+                if as2country[str(line.strip().split('|')[1])] == "RU":
+                    internal_cnt += 1
+                else:
+                    external_cnt += 1
+            except Exception as e:
+                # print("ASN %s Not In Dict!" % (str(line.strip().split('|')[1])))
+                pass
+
         if line.strip().split('|')[1] == as_analysis:  # 如果位于第二位
             if line.strip().split('|')[2] == '0':
                 peer_cnt += 1
             if line.strip().split('|')[2] == '-1':
                 transit_customer_cnt += 1
             edge_cnt += 1
+
+            # 判断互联对方AS，是否为国内AS号
+            try:
+                if as2country[str(line.strip().split('|')[1])] == "RU":
+                    internal_cnt += 1
+                else:
+                    external_cnt += 1
+            except Exception as e:
+                # print("ASN %s Not In Dict!" % (str(line.strip().split('|')[0])))
+                pass
+
         # if edge_cnt > 1000:
         #     break
 
-    return edge_cnt, peer_cnt, transit_provider_cnt + transit_customer_cnt, transit_provider_cnt, transit_customer_cnt
+    return edge_cnt, peer_cnt, transit_provider_cnt + transit_customer_cnt, internal_cnt, external_cnt
 
 
-def draw(draw_date, data_list, as_analysis):
+def draw(draw_date, data_list, as_analysis, as_rank):
     """
     对传入的数据进行绘图
     :param draw_date:
@@ -134,40 +155,40 @@ def draw(draw_date, data_list, as_analysis):
     edge_list = []
     peer_list = []
     transit_list = []
-    transit_provider_list = []
-    transit_customer_list = []
+    internal_list = []
+    external_list = []
     for item in data_list:
         # print(int(item[0]))
         edge_list.append(int(item[0]))
         peer_list.append(int(item[1]))
         transit_list.append(int(item[2]))
-        transit_provider_list.append(int(item[3]))
-        transit_customer_list.append(int(item[4]))
+        internal_list.append(int(item[3]))
+        external_list.append(int(item[4]))
 
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
     plt.xticks(rotation=30)
-    tick_spacing = 6
-    title_string = "Global BGP Analysis Graph(19980101-20191001) AS:" + as_analysis
+    # tick_spacing = 6
+    title_string = "Russia BGP Analysis Graph(20180201-20201001) AS:" + as_analysis
     ax.set_title(title_string)
-    ax.plot(draw_date, edge_list, label='All AS-Relationships')
-    ax.plot(draw_date, peer_list, label='Peer')
-    ax.plot(draw_date, transit_list, label='Transit')
-    # ax.plot(draw_date, transit_provider_list, label='Transit(as Provider)')
-    # ax.plot(draw_date, transit_customer_list, label='Transit(as Customer)')
+    ax.plot(draw_date, edge_list, linewidth=2, linestyle=':', label='All AS-Relationships', marker='o')
+    # ax.plot(draw_date, peer_list, label='Peer')
+    # ax.plot(draw_date, transit_list, label='Transit')
+    ax.plot(draw_date, internal_list, linewidth=1, linestyle='--', label='Internal AS-Relationships', marker='+')
+    ax.plot(draw_date, external_list, linewidth=1, linestyle='-', label='External AS-Relationships', marker='*')
     # ax.set_xlim(0, len(date_list))
     ax.set_xlabel('Time')
     ax.set_ylabel('Relationships Nums')
     ax.legend()
-    ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
+    # ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     # ax.grid(True)
     # cxy, f = axs[1].cohere(peer_list, transit_list, 256, 100. / dt)
     # axs[1].set_ylabel('coherence')
     # fig.tight_layout()
-    plt.savefig("draw_AS"+ as_analysis+".jpg")
+    plt.savefig("..\\000LocalData\\RUNet\\NO" + str(as_rank) + "_RUas_" + as_analysis + ".jpg")
     # plt.show()
 
 
-def analysis_top_as(as_number, as2country):
+def analysis_top_as(as_number, as2country, as_rank):
     """
     根据传入的信息，进行总互联关系数量、国内互联关系数量以及国外互联关系数量变化趋势分析
     :param as_number:
@@ -187,7 +208,21 @@ def analysis_top_as(as_number, as2country):
         result_list.append(analysis(path_item, as_number, as2country))
         temp_str = path_item.split('\\')[-1]
         date_list.append(temp_str.split('.')[0])
-    # draw(date_list, result_list, as_number)
+    # print(result_list)
+    save_list = []
+    temp_list = []
+    iter_cnt = 0
+    for iter_cnt in range(0, len(result_list)):
+        temp_list.append(date_list[iter_cnt])
+        temp_list.extend(list(result_list[iter_cnt]))
+        save_list.append(temp_list)
+        temp_list = []
+        iter_cnt += 1
+    print(save_list)
+    # save path
+    save_path = "..\\000LocalData\\RUNet\\RU_as_" + as_number + ".csv"
+    write_to_csv(save_list, save_path)
+    draw(date_list, result_list, as_number, as_rank)
 
 
 if __name__ == "__main__":
@@ -195,8 +230,10 @@ if __name__ == "__main__":
     as_info_file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20200101.csv'
     top_as_list, as2country_dict = gain_top_as_ru(as_info_file_in)
     # 根据已知的TOP AS列表，逐个的进行总互联关系数量、国内互联关系数量以及国外互联关系数量变化趋势分析
+    rank_cnt = 1
     for item_as in top_as_list:
-        analysis_top_as(item_as[0], as2country_dict)
+        analysis_top_as(item_as[0], as2country_dict, rank_cnt)
+        rank_cnt += 1
     time_end = time.time()
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 

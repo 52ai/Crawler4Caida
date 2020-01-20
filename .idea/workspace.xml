@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/023RUNet/country_active_as.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/023RUNet/gain_as2ip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/023RUNet/country_active_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/country_active_as.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="gain_as2ip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="81" column="57" lean-forward="true" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+            <state relative-caret-position="22">
+              <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
               <folding>
                 <element signature="e#101#112#0" expanded="true" />
               </folding>
@@ -31,17 +30,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="asTop100_analysis_ru.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="asTop100_analysis_ru.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1013">
-              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="220">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="e#118#129#0" expanded="true" />
                 <element signature="e#241#834#0" />
-                <element signature="e#262#692#0" />
-                <element signature="e#728#1556#0" />
-                <element signature="e#2723#4207#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="country_active_as.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="81" column="4" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+              <folding>
+                <element signature="e#108#119#0" expanded="true" />
+                <element signature="e#185#615#0" />
               </folding>
             </state>
           </provider>
@@ -102,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v4.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeed_run_v4.py" />
         <option value="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v5.py" />
         <option value="$PROJECT_DIR$/018Scatter/demo_scatter.py" />
@@ -149,10 +157,11 @@
         <option value="$PROJECT_DIR$/019Echarts/Scatter_3D.py" />
         <option value="$PROJECT_DIR$/020MultiSourceCompare/Generate_json_integrate.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
-        <option value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
         <option value="$PROJECT_DIR$/023RUNet/deal_file.py" />
         <option value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py" />
+        <option value="$PROJECT_DIR$/023RUNet/draw_active_as.py" />
+        <option value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
       </list>
     </option>
   </component>
@@ -167,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +194,6 @@
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
               <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
-              <item name="serial-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -226,7 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.asTop100_analysis_ru">
+  <component name="RunManager" selected="Python.country_active_as">
     <configuration name="Generate_json_integrate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -361,9 +363,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.country_active_as" />
         <item itemvalue="Python.asTop100_analysis_ru" />
         <item itemvalue="Python.gain_as2ip" />
-        <item itemvalue="Python.country_active_as" />
         <item itemvalue="Python.as_core_map_v3" />
         <item itemvalue="Python.Generate_json_integrate" />
       </list>
@@ -400,9 +402,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24863686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32606325" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.17993458" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.17993458" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39585605" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,21 +418,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.170706" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26868907" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.15817985" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -448,6 +450,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4664">
+          <caret line="212" column="16" lean-forward="true" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+          <folding>
+            <element signature="e#118#129#0" expanded="true" />
+            <element signature="e#241#834#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v6(br).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -709,9 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/active_as.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_cn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2897" />
@@ -721,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="650" column="44" selection-start-line="650" selection-start-column="44" selection-end-line="650" selection-end-column="44" />
-          <folding>
-            <element signature="e#124#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,42 +741,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/active_as_ru.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-5437" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/active_as_ru.csv" />
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/active_as.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-862">
           <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#87#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="76" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-          <folding>
-            <element signature="e#108#119#0" expanded="true" />
-            <element signature="e#185#615#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn2ip.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeedV3_20190828_20min.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#234#251#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,39 +760,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#305#314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/deal_file.py" />
     <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="81" column="57" lean-forward="true" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+        <state relative-caret-position="22">
+          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
           <folding>
             <element signature="e#101#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/deal_file.py">
+    <entry file="file://$PROJECT_DIR$/023RUNet/draw_active_as.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="220">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="e#118#129#0" expanded="true" />
             <element signature="e#241#834#0" />
-            <element signature="e#262#692#0" />
-            <element signature="e#728#1556#0" />
-            <element signature="e#2723#4207#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="81" column="4" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding>
+            <element signature="e#108#119#0" expanded="true" />
+            <element signature="e#185#615#0" />
           </folding>
         </state>
       </provider>
