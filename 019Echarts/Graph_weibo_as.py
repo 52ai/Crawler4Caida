@@ -8,7 +8,7 @@ create on Jan 6, 2020 By Wayne Yu
 import json
 import os
 import random
-import numpy
+import numpy as np
 
 from pyecharts import options as opts
 from pyecharts.charts import Graph, Page
@@ -38,10 +38,11 @@ def read_as_info(file_name):
             node_size = int(line[1])
 
             if node_size > 42:
-                node_size = (node_size / 4) + 10
+                # node_size = np.log((node_size / 4) + 10)
+                node_size = np.log(node_size) * np.log(node_size)
                 print(node_size)
             else:
-                node_size = 10
+                node_size = 8
             temp_dict["name"] = node_name
             temp_dict["symbolSize"] = node_size
             temp_dict["draggable"] = "True"
@@ -123,4 +124,4 @@ def graph_weibo() -> Graph:
     return c
 
 
-graph_weibo().render("Graph_as_cn.html")
+graph_weibo().render("Graph_as_cn_circle.html")
