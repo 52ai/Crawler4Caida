@@ -32,7 +32,7 @@ def read_as_info(file_name):
     for line in file_read.readlines():
         line = line.strip().split('|')
         categories_list.append(line[5])
-        if line[5] == "CN":
+        if line[5] == "RU":
             print(line)
             node_name = "AS" + str(line[0])
             node_size = int(line[1])
@@ -103,7 +103,7 @@ def graph_weibo() -> Graph:
     as_links_dict = read_as_links('..\\000LocalData\\as_compare\\as_rel_20191203_integrate.txt', cn_as)
     print(as_links_dict)
     c = (
-        Graph(init_opts=opts.InitOpts(width="1920px", height="960px", page_title="Graph-中国AS网络互联关系图", theme=ThemeType.DARK))
+        Graph(init_opts=opts.InitOpts(width="1920px", height="960px", page_title="Graph-俄罗斯AS网络互联关系图", theme=ThemeType.DARK))
         .add(
             "",
             as_info_dict,
@@ -118,10 +118,10 @@ def graph_weibo() -> Graph:
         )
         .set_global_opts(
             legend_opts=opts.LegendOpts(is_show=False),
-            title_opts=opts.TitleOpts(title="Graph-中国AS网络互联关系图"),
+            title_opts=opts.TitleOpts(title="Graph-俄罗斯AS网络互联关系图"),
         )
     )
     return c
 
 
-graph_weibo().render("Graph_as_cn_circle.html")
+graph_weibo().render("Graph_as_RU_circle.html")
