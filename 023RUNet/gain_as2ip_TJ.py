@@ -1,9 +1,10 @@
 # coding:utf-8
 """
-create on Jan 20, 2020 By Wayne YU
+create on Feb 6, 2020 By Wayne YU
 
 Function:
-根据TOP AS 列表，获取1-2个可以ping通的ip地址
+根据TJ AS 列表，获取1-2个可以ping通的ip地址
+
 """
 
 import time
@@ -25,7 +26,7 @@ def write_to_csv(res_list, des_path):
     print("write file <%s> ..." % des_path)
     csvFile = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile, delimiter="|")
+        writer = csv.writer(csvFile, delimiter=",")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
@@ -128,10 +129,6 @@ def as2ip(top_as_file):
         ip_list = get_ip(as_item)
         temp_list.append("AS"+line[0])
         temp_list.append(line[1])
-        temp_list.append(line[5])
-        temp_list.append(line[6])
-        temp_list.append(line[7])
-        temp_list.append(line[8])
         temp_list.extend(ip_list)
         as_info_list.append(temp_list)
         print(temp_list)
@@ -141,10 +138,10 @@ def as2ip(top_as_file):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    as_info_file_in = '..\\000LocalData\\RUNet\\as_top_100_ru.csv'
+    as_info_file_in = '..\\000LocalData\\RUNet\\as_info_2_zf_Ping.csv'
     as_ip_info = as2ip(as_info_file_in)
     # save path
-    save_path = "..\\000LocalData\\RUNet\\as_ip_info.csv"
+    save_path = "..\\000LocalData\\RUNet\\as_ip_info_2_zf_TJ.csv"
     write_to_csv(as_ip_info, save_path)
     time_end = time.time()
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

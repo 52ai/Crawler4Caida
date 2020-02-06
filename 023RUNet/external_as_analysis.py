@@ -21,6 +21,9 @@ Function:
 哈萨克斯坦（Kazakhstan， KZ），各国方向都有（见绘图）
 吉尔吉斯斯坦（Kyrgyzstan， KG），各国方向都有（见绘图）
 塔吉克斯坦（Tajikistan， TJ），只有2个国外互联方向，俄罗斯（15条边），吉尔吉斯斯坦（1条边）
+只与俄罗斯互联的塔吉克斯坦AS网络：['48001', '15881', '42713', '43197', '48184', '205507', '57443', '48887', '34557', '8847']
+
+
 乌兹别克斯坦（Uzbekistan, UZ），各国方向都有，以乌克兰为主（见绘图）
 土库曼斯坦（Turkmenistan， TM），只有3个国外互联方向，俄罗斯（2条边），哈萨克斯坦（1条边），美国（1条边）)
 阿富汗斯坦（Afghanistan， AF），各国方向都有（见绘图）
@@ -108,7 +111,7 @@ def external_as_analysis(country, country_as_info, as2country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path[-12:]:
+    for path_item in file_path[-1:]:
         print(path_item)
         # 遍历一次文件，获取该国出口AS的数量
         file_read = open(path_item, 'r', encoding='utf-8')
@@ -135,6 +138,17 @@ def external_as_analysis(country, country_as_info, as2country):
         external_as_list = list(set(external_as_list))
         print("External Edges Count:", external_cnt)
         print("External AS Count:", len(external_as_list))
+        # print(external_as_list)
+        # 生成as_info_2_zf_Ping
+        # as_info_2_zf_Ping = []
+        # for item in country_as_info:
+        #     if item[0] in external_as_list:
+        #         as_info_2_zf_Ping.append(item[0:2])
+        # print(as_info_2_zf_Ping)
+        # # 存储as_info_2_zf_Ping
+        # save_path = "..\\000LocalData\\RUNet\\as_info_2_zf_Ping.csv"
+        # write_to_csv(as_info_2_zf_Ping, save_path)
+
         print("External Country Count:", len(list(set(external_country_list))))
         # print(list(set(external_country_list)))
 
@@ -188,7 +202,7 @@ def draw_bar(rank_list, country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = "RU"
+    country = "TJ"
     # as_info_file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20200101.csv'
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     country_as_info, as2country_dict = gain_as2country(as_info_file_in, country)
