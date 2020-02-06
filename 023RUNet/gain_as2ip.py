@@ -14,6 +14,7 @@ import subprocess
 import re
 import random
 
+
 def write_to_csv(res_list, des_path):
     """
     把给定的List，写到指定路径的文件中
@@ -140,10 +141,10 @@ def as2ip(top_as_file):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    as_info_file_in = '..\\000LocalData\\RUNet\\as_top_100_ru.csv'
+    as_info_file_in = '..\\000LocalData\\RUNet\\as_top_100_ru_transitASProvider.csv'
     as_ip_info = as2ip(as_info_file_in)
     # save path
-    save_path = "..\\000LocalData\\RUNet\\as_ip_info.csv"
+    save_path = "..\\000LocalData\\RUNet\\as_ip_info_transit.csv"
     write_to_csv(as_ip_info, save_path)
     time_end = time.time()
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

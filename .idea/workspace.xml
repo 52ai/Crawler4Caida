@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/023RUNet/external_as_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/023RUNet/gain_as2ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/gain_as2ip.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="asTop100_analysis_ru_v2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="asTop100_analysis_ru_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4026">
-              <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+            <state relative-caret-position="-938">
+              <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="27" />
               <folding>
                 <element signature="e#188#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="external_as_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+              <folding>
+                <element signature="e#700#711#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v5.py" />
         <option value="$PROJECT_DIR$/018Scatter/demo_scatter.py" />
         <option value="$PROJECT_DIR$/018Scatter/deal_data.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map.py" />
@@ -126,7 +139,6 @@
         <option value="$PROJECT_DIR$/019Echarts/Scatter_3D.py" />
         <option value="$PROJECT_DIR$/020MultiSourceCompare/Generate_json_integrate.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
-        <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
         <option value="$PROJECT_DIR$/023RUNet/deal_file.py" />
         <option value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py" />
         <option value="$PROJECT_DIR$/023RUNet/draw_active_as.py" />
@@ -134,6 +146,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" />
         <option value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py" />
+        <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
+        <option value="$PROJECT_DIR$/023RUNet/external_as_analysis.py" />
       </list>
     </option>
   </component>
@@ -158,6 +172,11 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -169,7 +188,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -199,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.asTop100_analysis_ru_v2">
+  <component name="RunManager" selected="Python.external_as_analysis">
     <configuration name="Graph_weibo_as" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,24 +232,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="asTop100_analysis_ru" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,6 +273,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="external_as_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="gain_as2ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,19 +310,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.asTop100_analysis_ru" />
       <item itemvalue="Python.country_active_as" />
-      <item itemvalue="Python.gain_as2ip" />
       <item itemvalue="Python.Graph_weibo_as" />
       <item itemvalue="Python.asTop100_analysis_ru_v2" />
+      <item itemvalue="Python.external_as_analysis" />
+      <item itemvalue="Python.gain_as2ip" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.external_as_analysis" />
+        <item itemvalue="Python.gain_as2ip" />
         <item itemvalue="Python.asTop100_analysis_ru_v2" />
         <item itemvalue="Python.Graph_weibo_as" />
         <item itemvalue="Python.country_active_as" />
-        <item itemvalue="Python.asTop100_analysis_ru" />
-        <item itemvalue="Python.gain_as2ip" />
       </list>
     </recent_temporary>
   </component>
@@ -331,15 +350,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.22181243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.2365648" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5387132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43075246" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.17011996" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2944384" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39585605" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -705,22 +725,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="27" />
+          <folding>
+            <element signature="e#188#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+        <state relative-caret-position="580">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="e#101#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4026">
-          <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        <state relative-caret-position="428">
+          <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
           <folding>
-            <element signature="e#188#199#0" expanded="true" />
+            <element signature="e#700#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
