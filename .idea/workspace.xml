@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_as_ru_circle.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_as_ru_circle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,21 +15,15 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="asTop100_analysis_ru_v2.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="asTop100_analysis_ru_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="country_active_as.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1606">
-              <caret line="107" column="42" lean-forward="true" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+            <state relative-caret-position="-4026">
+              <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+              <folding>
+                <element signature="e#188#199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,16 +154,6 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="015BGPAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="018Scatter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -350,17 +331,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.22181243" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3642312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5387132" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.17011996" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.17011996" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39585605" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,25 +348,26 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.170706" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26868907" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.15817985" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -405,6 +385,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+          <folding>
+            <element signature="e#188#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+          <folding>
+            <element signature="e#108#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/render.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -664,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_cn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-726" />
@@ -680,20 +673,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
-          <folding>
-            <element signature="e#118#129#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/deal_as_org_info.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/deal_data.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,17 +695,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
+    <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        <state relative-caret-position="337">
+          <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+          <folding>
+            <element signature="e#108#119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
+    <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="107" column="42" lean-forward="true" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+        <state relative-caret-position="1782">
+          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+          <folding>
+            <element signature="e#101#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4026">
+          <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding>
+            <element signature="e#188#199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
