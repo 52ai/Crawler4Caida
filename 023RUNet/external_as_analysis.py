@@ -202,7 +202,7 @@ def draw_bar(rank_list, country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = "TJ"
+    country = "ZW"
     # as_info_file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20200101.csv'
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     country_as_info, as2country_dict = gain_as2country(as_info_file_in, country)
