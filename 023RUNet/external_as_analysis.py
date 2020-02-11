@@ -139,6 +139,30 @@ def external_as_analysis(country, country_as_info, as2country):
         print("External Edges Count:", external_cnt)
         print("External AS Count:", len(external_as_list))
         # print(external_as_list)
+        # 统计小于65535的AS号
+        # v4_as_list = []
+        # for as_item in external_as_list:
+        #     if int(as_item) < 65535:
+        #         v4_as_list.append(as_item)
+        # # print(v4_as_list)
+        # print("V4 AS Length:", len(v4_as_list))
+        # # 生成AS2Name的字典
+        # as2name_dict = {}
+        # for as_item in country_as_info:
+        #     as2name_dict[as_item[0]] = as_item[1]
+        # # 输出as-as name
+        # as2name_v4_list = []
+        # temp_as2name_list = []
+        # for as_item in v4_as_list:
+        #     print(as_item, as2name_dict[as_item])
+        #     temp_as2name_list.append(as_item)
+        #     temp_as2name_list.append(as2name_dict[as_item])
+        #     as2name_v4_list.append(temp_as2name_list)
+        #     temp_as2name_list = []
+        # # 存储as2name_v4_list
+        # save_path = "..\\000LocalData\\RUNet\\as2name_v4_list(CN).csv"
+        # write_to_csv(as2name_v4_list, save_path)
+
         # 生成as_info_2_zf_Ping
         # as_info_2_zf_Ping = []
         # for item in country_as_info:
@@ -202,7 +226,7 @@ def draw_bar(rank_list, country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = "ZW"
+    country = "CN"
     # as_info_file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20200101.csv'
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     country_as_info, as2country_dict = gain_as2country(as_info_file_in, country)
