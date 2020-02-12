@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/006Wechat/wechat.png" beforeDir="false" afterPath="$PROJECT_DIR$/006Wechat/wechat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/023RUNet/external_as_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +16,49 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="external_as_analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#811#822#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4276355">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="external_as_analysis.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-888">
+                  <caret line="137" column="54" lean-forward="true" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#811#822#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="external_as_analysis_v2.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="318">
+                  <caret line="175" column="114" selection-start-line="175" selection-start-column="114" selection-end-line="175" selection-end-column="114" />
+                  <folding>
+                    <element signature="e#6906#7698#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="external_as_analysis_v2.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="577">
+                  <caret line="282" column="44" lean-forward="true" selection-start-line="282" selection-start-column="44" selection-end-line="282" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/018Scatter/deal_data.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map_v2.py" />
         <option value="$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20191101.csv" />
@@ -135,6 +163,7 @@
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip_TJ.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/023RUNet/external_as_analysis.py" />
+        <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" />
       </list>
     </option>
   </component>
@@ -160,6 +189,11 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -173,19 +207,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\023RUNet" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_map\two_years" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-2" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_map" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\023RUNet" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_map\two_years" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-2" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_map" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wechat_avatar">
+  <component name="RunManager" selected="Python.external_as_analysis_v2">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,6 +271,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="external_as_analysis_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="extractPeeringDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,24 +302,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="gain_as2ip_TJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/gain_as2ip_TJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,18 +327,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.external_as_analysis" />
-      <item itemvalue="Python.gain_as2ip_TJ" />
       <item itemvalue="Python.extractPeeringDB" />
       <item itemvalue="Python.demo" />
       <item itemvalue="Python.wechat_avatar" />
+      <item itemvalue="Python.external_as_analysis_v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.external_as_analysis_v2" />
         <item itemvalue="Python.wechat_avatar" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.external_as_analysis" />
         <item itemvalue="Python.extractPeeringDB" />
-        <item itemvalue="Python.gain_as2ip_TJ" />
       </list>
     </recent_temporary>
   </component>
@@ -334,16 +368,16 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.17228661" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.115384616" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31515813" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29989094" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.23227917" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.24863686" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39585605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,21 +389,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.170706" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26868907" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39653304" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.15817985" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24593717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -387,6 +421,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#811#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/Graph_npm_dependence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -573,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="27" />
-          <folding>
-            <element signature="e#188#199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,20 +657,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#15#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/abnormal_data.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v2.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#124#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,12 +680,6 @@
           <caret column="202" selection-start-column="202" selection-end-column="202" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/bgp_map_2019.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/bgp_map_2001.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/bgp_map_2004.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -673,9 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/006Wechat/wechat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/006Wechat/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -687,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#80#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,11 +716,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="-888">
+          <caret line="137" column="54" lean-forward="true" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
           <folding>
             <element signature="e#811#822#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="282" column="44" lean-forward="true" selection-start-line="282" selection-start-column="44" selection-end-line="282" selection-end-column="44" />
         </state>
       </provider>
     </entry>
