@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +16,7 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4276355">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="external_as_analysis.py" pinned="false" current-in-tab="false">
@@ -34,8 +34,8 @@
           <file leaf-file-name="external_as_analysis_v2.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="175" column="114" selection-start-line="175" selection-start-column="114" selection-end-line="175" selection-end-column="114" />
+                <state relative-caret-position="149">
+                  <caret line="332" lean-forward="true" selection-start-line="332" selection-end-line="332" />
                   <folding>
                     <element signature="e#6906#7698#0" />
                   </folding>
@@ -47,13 +47,18 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="external_as_analysis_v2.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="external_as_analysis_v2.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
-                  <caret line="282" column="44" lean-forward="true" selection-start-line="282" selection-start-column="44" selection-end-line="282" selection-end-column="44" />
+                <state relative-caret-position="483">
+                  <caret line="308" lean-forward="true" selection-start-line="308" selection-end-line="308" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crawler.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -69,7 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>3356</find>
       <find />
       <find>'dependentsCount'</find>
       <find>US</find>
@@ -99,6 +103,7 @@
       <find>CN</find>
       <find>item_cnt</find>
       <find>RU</find>
+      <find>9808</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -190,6 +195,11 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="002asAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -366,16 +376,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.115384616" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.13277134" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29989094" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50272626" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.24863686" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.38931298" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -724,10 +733,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="282" column="44" lean-forward="true" selection-start-line="282" selection-start-column="44" selection-end-line="282" selection-end-column="44" />
+        <state relative-caret-position="149">
+          <caret line="332" lean-forward="true" selection-start-line="332" selection-end-line="332" />
+          <folding>
+            <element signature="e#6906#7698#0" />
+          </folding>
         </state>
       </provider>
     </entry>

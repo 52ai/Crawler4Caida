@@ -6,7 +6,7 @@ Function:
 
 V2：
 在研究俄罗斯断网事件的过程，对出口AS网络做了详细的研究
-昨天接到李博士的电话，说是网安局想要了解，我国出口AS互联关系中，美国占比的情况
+需进一步分析，我国出口AS互联关系中，美国占比的情况
 分为两类，一类是全部互联关系；一类是AS TOP 1000的互联关系占比情况
 
 
@@ -118,10 +118,25 @@ def external_as_analysis(country, country_as_info, as2country):
 
             except Exception as e:
                 pass
+        # 统计出口AS的排名
+        external_as_rank = {}
+        for item in list(set(external_as_list)):
+            external_as_rank[item] = 0
+        for item in external_as_list:
+            external_as_rank[item] += 1
+        # 将字典转换为列表
+        external_as_rank_list = []
+        temp_list = []
+        for item in external_as_rank.keys():
+            temp_list.append(item)
+            temp_list.append(external_as_rank[item])
+            external_as_rank_list.append(temp_list)
+            temp_list = []
+        external_as_rank_list.sort(reverse=True, key=lambda elem: int(elem[1]))
         external_as_list = list(set(external_as_list))
         print("All External Edges Count:", external_cnt)
         print("All External AS Count:", len(external_as_list))
-        # print(external_as_list)
+        print(external_as_rank_list)
 
         # 统计小于65535的AS号
         # v4_as_list = []
@@ -270,9 +285,26 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
                             top_n_external_country_list.append(str(as2country[line.strip().split('|')[0]]))
             except Exception as e:
                 pass
+        # 统计出口AS的排名
+        external_as_rank = {}
+        for item in list(set(top_n_external_as_list)):
+            external_as_rank[item] = 0
+        for item in top_n_external_as_list:
+            external_as_rank[item] += 1
+        # 将字典转换为列表
+        external_as_rank_list = []
+        temp_list = []
+        for item in external_as_rank.keys():
+            temp_list.append(item)
+            temp_list.append(external_as_rank[item])
+            external_as_rank_list.append(temp_list)
+            temp_list = []
+        external_as_rank_list.sort(reverse=True, key=lambda elem: int(elem[1]))
+
         top_n_external_as_list = list(set(top_n_external_as_list))
         print("<TOP %s AS>External Edges Count: %s" % (topn, top_n_external_cnt))
         print("<TOP %s AS>External AS Count: %s" % (topn, len(top_n_external_as_list)))
+        print(external_as_rank_list)
         print("<TOP %s AS>External Counter Count: %s" % (topn, len(list(set(top_n_external_country_list)))))
 
         # 统计互联国家方向排名
