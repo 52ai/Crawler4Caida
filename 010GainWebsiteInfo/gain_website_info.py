@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 
 mylog = []
 
+
 def get_page_info(page_url, page_cnt):
     """
     :param page_url, page_cnt:
