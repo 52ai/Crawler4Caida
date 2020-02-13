@@ -49,7 +49,6 @@ def gain_page_info(page_url):
     keti_content = bsObj.find("div", {"class": "xilanArticle"})
 
 
-
 def gain_page_list(page_url):
     """
     根据传入的page_url，获取page_list
@@ -92,7 +91,7 @@ def gain_page_list(page_url):
         page_list_save.append(tempt_list)
         tempt_list = []
     # 存储page_list_save
-    save_path = "./keti_list.csv"
+    save_path = "..\\000LocalData\\caict_k\\keti_list.csv"
     write_to_csv(page_list_save, save_path)
 
     return page_list
@@ -106,8 +105,17 @@ def login_knowledge_factory(page_url):
     """
     result_list = []
     driver.get(page_url)
-    user_name = "yuwenyan"
-    user_password = "Yuwenyan2019"
+    # 获取用户名和密码
+    login_pwd_file = "..\\000LocalData\\caict_k\\login.csv"
+    file_read = open(login_pwd_file, 'r', encoding='utf-8')
+    user_name_list = []
+    user_password_list = []
+    for line in file_read.readlines():
+        line = line.strip().split(',')
+        user_name_list.append(line[0])
+        user_password_list.append(line[1])
+    user_name = user_name_list[0]
+    user_password = user_password_list[0]
     time.sleep(1)
     try:
         login_username = driver.find_element_by_id("svpn_name")

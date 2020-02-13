@@ -778,3 +778,44 @@ JavaScript error: http://k.caict.ac.cn/ekp/caict/km/zhaochengguo/kjcg/, line 57:
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1581558344138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofile.loEWopvcujtI"
+1581558345000	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581558345359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581558345359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581558345359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581558345359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581558351006	Marionette	INFO	Listening on port 52668
+1581558351201	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://k.caict.ac.cn/ekp/caict/km/js/head.js, line 333: unreachable code after return statement
+JavaScript error: http://k.caict.ac.cn/ekp/caict/km/pub/index.jsp?SiteId=11&com.trs.idm.gSessionId=D5A62F074C5FA40E42BF435AE03DCAFA-192.168.122.1, line 408: TypeError: document.getElementById(...) is null
+JavaScript error: http://k.caict.ac.cn/ekp/caict/km/zhaochengguo/kjcg/, line 57: TypeError: document.getElementById(...) is null
+1581558736109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofile.A568gVOOGn6c"
+1581558737004	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581558737126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581558737126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581558737126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581558737127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581558741741	Marionette	INFO	Listening on port 52983
+1581558741825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581558743810	Marionette	INFO	Stopped listening on port 52983
+JavaScript error: https://vpn.caict.ac.cn/com/js/common.min.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581558780173	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofile.sz8CJMEtkxwe"
+1581558780852	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581558780984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581558780984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581558780985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581558780985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581558784232	Marionette	INFO	Listening on port 53044
+1581558784555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://k.caict.ac.cn/ekp/caict/km/js/head.js, line 333: unreachable code after return statement
+JavaScript error: http://k.caict.ac.cn/ekp/caict/km/pub/index.jsp?SiteId=11&com.trs.idm.gSessionId=823A22380536EE37710C0EE8E25E27B4-192.168.122.1, line 408: TypeError: document.getElementById(...) is null
+JavaScript error: http://k.caict.ac.cn/ekp/caict/km/zhaochengguo/kjcg/, line 57: TypeError: document.getElementById(...) is null
