@@ -1,17 +1,25 @@
 # coding:utf-8
 """
-create on Feb 12, 2020 By Wayne YU
+create on Feb 13, 2020 By Wayne YU
 Function:
 
-爬取知识工厂中的相关数据用于地图基础课题的绘制
+爬取院知识工厂中软课题研究成果<research_subject>
+爬取包括7项内容:
+课题名称（subject_name）、
+课题编号（subject_number）、
+课题时间（subject_time）、
+负责人（responsible_person）、
+负责单位（responsible_dep）、
+课题类别（subject_classification）、
+课题内容（subject_content）
 
-暂包括软课题、专报
 
 """
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 import csv
+import re
 
 
 def write_to_csv(res_list, des_path):
@@ -24,7 +32,7 @@ def write_to_csv(res_list, des_path):
     print("write file <%s> ..." % des_path)
     csvFile = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile, delimiter=",")
+        writer = csv.writer(csvFile, delimiter="|")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
@@ -42,11 +50,37 @@ def gain_page_info(page_url):
     """
     page_info = []
     driver.get(page_url)
-    time.sleep(3)  # 延迟加载等待页面加载完毕
+    time.sleep(1)  # 延迟加载等待页面加载完毕
     page_html = driver.page_source
     bsObj = BeautifulSoup(page_html, "html.parser")
-    keti_info = bsObj.find("div", {"class": "ketiBox"})
-    keti_content = bsObj.find("div", {"class": "xilanArticle"})
+    subject_info = bsObj.find("div", {"class": "ketiBox"})
+    subject_info_text = subject_info.get_text()
+    subject_info_text = subject_info_text.strip().split("\n")
+    subject_info_str = subject_info_text[0]
+    subject_info_str = subject_info_str.strip().split("：")
+    # print(subject_info_str)
+    cop = re.compile("[^\u4e00-\u9fa5^a-z^A-Z^0-9]")
+    subject_classification = subject_info_str[1].split("\xa0\xa0\xa0")[0]
+    subject_classification = str(subject_classification)
+    subject_classification = cop.sub('', subject_classification)
+    responsible_dep = subject_info_str[-1]
+    responsible_dep = str(responsible_dep)
+    responsible_dep = cop.sub('', responsible_dep)
+    print(subject_classification)
+    print(responsible_dep)
+    page_info.append(responsible_dep)
+    page_info.append(subject_classification)
+    subject_content = bsObj.find("div", {"class": "xilanArticle"})
+    subject_content = subject_content.findAll("p")
+    # print(subject_content)
+    # print(len(subject_content))
+    # print("-------------------------------")
+    subject_content_info = ""
+    for item in subject_content[0:len(subject_content)-1]:
+        print(item)
+        subject_content_info = subject_content_info + str(item)
+    page_info.append(subject_content_info)
+    return page_info
 
 
 def gain_page_list(page_url):
@@ -81,18 +115,49 @@ def gain_page_list(page_url):
     page_html = driver.page_source
     bsObj = BeautifulSoup(page_html, "html.parser")
     li_list = bsObj.find("div", {"class": "bd sgUL"}).find("ul")
-    for item in li_list:
-        project_name = item.get_text()
-        project_page_url = "http://k.caict.ac.cn" + item.find("a").attrs['href']
-        print(project_name, project_page_url)
-        # gain_page_info(project_page_url)
-        tempt_list.append(project_name)
-        tempt_list.append(project_page_url)
-        page_list_save.append(tempt_list)
-        tempt_list = []
-    # 存储page_list_save
-    save_path = "..\\000LocalData\\caict_k\\keti_list.csv"
-    write_to_csv(page_list_save, save_path)
+    try:
+        for item in li_list:
+            item_a = item.find("a").get_text()
+            item_a = item_a.strip().split(" ")
+            if len(item_a) == 2:
+                subject_name = item_a[1]
+                subject_number = item_a[0]
+                # 对课题编号的不规范情况做一些处理
+                """
+                规范命名2019-T-32，大致规范了下，有空还需做进一步处理
+                """
+                subject_number.replace("－", "-", 2)
+                subject_number_split = subject_number.split("-")
+                subject_time = subject_number_split[0]
+                if len(subject_time) != 4:
+                    subject_time = subject_time[0:4]
+                    subject_number = subject_number[0:4] + "-" + subject_number[4:4] + "-" + subject_number[5:]
+                    subject_number.replace("--", "-", 2)
+            else:
+                continue
+
+            if len(item.find("span").get_text()) != 0:
+                responsible_person = item.find("span").get_text()
+            else:
+                responsible_person = "None"
+
+            subject_page_url = "http://k.caict.ac.cn" + item.find("a").attrs['href']
+            print(subject_name, subject_number, subject_time, responsible_person, subject_page_url)
+            page_info_list = gain_page_info(subject_page_url)
+            tempt_list.append(subject_name)
+            tempt_list.append(subject_number)
+            tempt_list.append(subject_time)
+            tempt_list.append(responsible_person)
+            tempt_list.extend(page_info_list)
+            tempt_list.append(subject_page_url)
+            page_list_save.append(tempt_list)
+            tempt_list = []
+    except Exception as e_log:
+        print(e_log)
+    finally:
+        # 存储page_list_save
+        save_path = "..\\000LocalData\\caict_k\\research_subject.csv"
+        write_to_csv(page_list_save, save_path)
 
     return page_list
 
@@ -154,14 +219,14 @@ def login_knowledge_factory(page_url):
         page_list_info = gain_page_list(kjcg_url)
         print(page_list_info)
 
-        time.sleep(200)
+        time.sleep(10)
         # 关闭当前窗口
         driver.close()
         # 切回到vpn窗口
         driver.switch_to.window(vpn_handle)
         # # 自动退出
-        # vpn_logout = driver.find_element_by_xpath("//*[@_html='注销']")
-        # vpn_logout.click()
+        vpn_logout = driver.find_element_by_xpath("//*[@_html='注销']")
+        vpn_logout.click()
 
     except BaseException as e_log:
         print(e_log)
