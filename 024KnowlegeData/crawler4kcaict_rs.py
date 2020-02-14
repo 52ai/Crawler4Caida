@@ -92,7 +92,7 @@ def gain_page_list(page_url):
     page_list = []
     print(page_url)
     driver.get(page_url)
-    time.sleep(3)  # 延迟加载等待页面加载完毕
+    # time.sleep(3)  # 延迟加载等待页面加载完毕
     # 获取页面html信息
     # page_html = driver.page_source
     # bsObj = BeautifulSoup(page_html, "html.parser")
@@ -115,8 +115,26 @@ def gain_page_list(page_url):
     page_html = driver.page_source
     bsObj = BeautifulSoup(page_html, "html.parser")
     li_list = bsObj.find("div", {"class": "bd sgUL"}).find("ul")
-    try:
-        for item in li_list:
+    # 寻找断点
+    break_cnt = 0
+    for item in li_list:
+        item_a = item.find("a").get_text()
+        item_a = item_a.strip().split(" ")
+        if len(item_a) == 2:
+            subject_name = item_a[1]
+        else:
+            break_cnt += 1
+            continue
+        if subject_name == "移动应用商店对信息产业的发展影响分析":
+            break
+        break_cnt += 1
+
+    run_cnt = 0
+    for item in li_list:
+        if run_cnt < break_cnt:
+            run_cnt += 1
+            continue
+        try:
             item_a = item.find("a").get_text()
             item_a = item_a.strip().split(" ")
             if len(item_a) == 2:
@@ -152,13 +170,13 @@ def gain_page_list(page_url):
             tempt_list.append(subject_page_url)
             page_list_save.append(tempt_list)
             tempt_list = []
-    except Exception as e_log:
-        print(e_log)
-    finally:
-        # 存储page_list_save
-        save_path = "..\\000LocalData\\caict_k\\research_subject.csv"
-        write_to_csv(page_list_save, save_path)
-
+        except Exception as e_log:
+            print("ERROR:", e_log)
+            continue
+        finally:
+            # 存储page_list_save
+            save_path = "..\\000LocalData\\caict_k\\research_subject.csv"
+            write_to_csv(page_list_save, save_path)
     return page_list
 
 

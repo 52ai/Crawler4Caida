@@ -116,6 +116,7 @@ def external_as_analysis(country, country_as_info, as2country):
         external_cnt = 0  # 存储该国出口连边的数量
         external_as_list = []  # 存储出口AS
         external_country_list = []  # 存储该国出口方向的国家
+        external_country_as = []  # 存储该国出口互联关系中，国外AS网络
         for line in file_read.readlines():
             if line.strip().find("#") == 0:
                 continue
@@ -126,6 +127,7 @@ def external_as_analysis(country, country_as_info, as2country):
                         external_cnt += 1
                         external_as_list.append(str(line.strip().split('|')[0]))
                         external_country_list.append(as2country[str(line.strip().split('|')[1])])
+                        external_country_as.append(str(line.strip().split('|')[1]))
                 # else:
                 if as2country[str(line.strip().split('|')[0])] != country:
                     # if as2country[str(line.strip().split('|')[1])] == country:
@@ -133,7 +135,7 @@ def external_as_analysis(country, country_as_info, as2country):
                         external_cnt += 1
                         external_as_list.append(str(line.strip().split('|')[1]))
                         external_country_list.append(as2country[str(line.strip().split('|')[0])])
-
+                        external_country_as.append(str(line.strip().split('|')[0]))
             except Exception as e:
                 pass
         # 统计出口AS的排名
@@ -153,7 +155,8 @@ def external_as_analysis(country, country_as_info, as2country):
         external_as_rank_list.sort(reverse=True, key=lambda elem: int(elem[1]))
         external_as_list = list(set(external_as_list))
         print("All External Edges Count:", external_cnt)
-        print("All External AS Count:", len(external_as_list))
+        print("All External AS Count(Abroad):", len(list(set(external_country_as))))
+        print("All External AS Count(Internal):", len(external_as_list))
         print(external_as_rank_list)
 
         # 统计小于65535的AS号
@@ -285,6 +288,7 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
         top_n_external_cnt = 0  # 存储该国与TOP N AS，出口互联边的数量
         top_n_external_as_list = []  # 存储该国与TOP N AS互联的出口AS
         top_n_external_country_list = []  # 存储该国与TOP N AS互联，出口方向的国家
+        top_n_external_country_as = []  # 存储该国出口互联关系中，国外AS网络
         for line in file_read.readlines():
             if line.strip().find("#") == 0:
                 continue
@@ -296,6 +300,7 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
                             top_n_external_cnt += 1
                             top_n_external_as_list.append(str(line.strip().split('|')[0]))
                             top_n_external_country_list.append(str(as2country[line.strip().split('|')[1]]))
+                            top_n_external_country_as.append(str(line.strip().split('|')[1]))
                 # else:
                 if as2country[str(line.strip().split('|')[0])] != country:
                     # if as2country[str(line.strip().split('|')[1])] == country:
@@ -304,6 +309,7 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
                             top_n_external_cnt += 1
                             top_n_external_as_list.append(str(line.strip().split('|')[1]))
                             top_n_external_country_list.append(str(as2country[line.strip().split('|')[0]]))
+                            top_n_external_country_as.append(str(line.strip().split('|')[0]))
             except Exception as e:
                 pass
         # 统计出口AS的排名
@@ -324,7 +330,8 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
 
         top_n_external_as_list = list(set(top_n_external_as_list))
         print("<TOP %s AS>External Edges Count: %s" % (topn, top_n_external_cnt))
-        print("<TOP %s AS>External AS Count: %s" % (topn, len(top_n_external_as_list)))
+        print("<TOP %s AS>External AS Count(Abroad): %s" % (topn, len(list(set(top_n_external_country_as)))))
+        print("<TOP %s AS>External AS Count(Internal): %s" % (topn, len(top_n_external_as_list)))
         print(external_as_rank_list)
         print("<TOP %s AS>External Counter Count: %s" % (topn, len(list(set(top_n_external_country_list)))))
 
@@ -348,7 +355,7 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
             temp_list.append(external_country_rank[item])
             external_country_rank_list.append(temp_list)
             temp_list = []
-        external_country_rank_list.sort(reverse=True, key=lambda elem:int(elem[1]))
+        external_country_rank_list.sort(reverse=True, key=lambda elem: int(elem[1]))
         print(external_country_rank_list)
 
 
