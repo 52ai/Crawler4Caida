@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/024KnowlegeData/rs_clean.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024KnowlegeData/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/024KnowlegeData/rs_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/rs_clean.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,13 +16,13 @@
     <favorites_list name="Crawler4Caida" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63958734">
+    <splitter split-orientation="horizontal" split-proportion="0.8394584">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="crawler4kcaict_rs.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1484">
+                <state relative-caret-position="3250">
                   <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
                   <folding>
                     <element signature="e#277#307#0" expanded="true" />
@@ -38,7 +34,7 @@
           <file leaf-file-name="external_as_analysis_v3.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
+                <state relative-caret-position="7788">
                   <caret line="357" column="71" selection-start-line="357" selection-start-column="71" selection-end-line="357" selection-end-column="71" />
                   <folding>
                     <element signature="e#354#365#0" expanded="true" />
@@ -50,7 +46,7 @@
           <file leaf-file-name="as_compare.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-208">
+                <state relative-caret-position="22">
                   <caret line="328" column="32" selection-start-line="328" selection-start-column="32" selection-end-line="328" selection-end-column="32" />
                 </state>
               </provider>
@@ -59,8 +55,8 @@
           <file leaf-file-name="rs_clean.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="146" column="24" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+                <state relative-caret-position="251">
+                  <caret line="116" column="125" selection-start-line="116" selection-start-column="125" selection-end-line="116" selection-end-column="125" />
                   <folding>
                     <element signature="e#336#347#0" expanded="true" />
                   </folding>
@@ -71,12 +67,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="rs_clean.py" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Scatter_3D.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/019Echarts/Scatter_3D.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-770">
+                  <caret line="13" column="19" selection-start-line="13" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rs_clean.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-61">
-                  <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+                <state relative-caret-position="-22">
+                  <caret line="243" column="55" selection-start-line="243" selection-start-column="55" selection-end-line="243" selection-end-column="55" />
                   <folding>
                     <element signature="e#336#347#0" expanded="true" />
                   </folding>
@@ -97,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>174|</find>
       <find>max_all_rel</find>
       <find>cn_index</find>
       <find>|CN|</find>
@@ -127,6 +131,7 @@
       <find>人力资源部</find>
       <find>通信信息研究所</find>
       <find>西部分院</find>
+      <find>subject_type</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -195,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -227,12 +232,12 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="020MultiSourceCompare" type="462c0819:PsiDirectoryNode" />
+              <item name="019Echarts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
+              <item name="020MultiSourceCompare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -417,11 +422,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.1472192" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39694658" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13304253" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22900763" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.29334787" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,21 +438,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.15700738" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18320611" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.21264994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -731,17 +736,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="335" column="18" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="18" />
-          <folding>
-            <element signature="e#173#184#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/research_subject_GBK.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/keti_list.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/research_subject202001232337.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -755,12 +751,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/research_subject_raw.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1484">
+        <state relative-caret-position="3250">
           <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
           <folding>
             <element signature="e#277#307#0" expanded="true" />
@@ -768,16 +761,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="328" column="32" selection-start-line="328" selection-start-column="32" selection-end-line="328" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="7788">
           <caret line="357" column="71" selection-start-line="357" selection-start-column="71" selection-end-line="357" selection-end-column="71" />
           <folding>
             <element signature="e#354#365#0" expanded="true" />
@@ -785,10 +771,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/019Echarts/world_2D_render.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019Echarts/tab_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019Echarts/Scatter_3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="13" column="19" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="328" column="32" selection-start-line="328" selection-start-column="32" selection-end-line="328" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="146" column="24" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+        <state relative-caret-position="251">
+          <caret line="116" column="125" selection-start-line="116" selection-start-column="125" selection-end-line="116" selection-end-column="125" />
           <folding>
             <element signature="e#336#347#0" expanded="true" />
           </folding>
