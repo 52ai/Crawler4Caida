@@ -25,6 +25,7 @@ from pyecharts.globals import SymbolType
 from pyecharts.globals import ThemeType
 from pyecharts.commons.utils import JsCode
 
+
 # caict_dept = ["泰尔数据研究中心", "信息通信安全研究所", "西部分院(重庆)", "电信与信息服务咨询中心",
 #               "政策与经济研究所", "技术与标准研究所", "产业与规划研究所", "信息化与工业化融合研究所", "安全研究所",
 #               "云计算与大数据研究所", "泰尔系统实验室", "泰尔终端实验室", "泰尔认证研究所",
