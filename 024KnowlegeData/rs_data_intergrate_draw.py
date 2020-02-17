@@ -13,7 +13,7 @@ research_subject_clean.csv
 数据以李博士整理的十年间院课题名称为key，整合其中领域、研究方向、关键词三项数据项
 
 最终形成数据格式如下：
-课题名称、课题编号、时间、负责人、负责单位、课题类型、课题内容、课题URL、课题领域、研究方向、关键词
+课题名称、课题编号、时间、负责人、负责单位、课题类型、课题领域、研究方向、关键词、课题内容、课题URL
 
 共计1690个数据项，时间跨度为十年左右
 
@@ -27,6 +27,10 @@ import csv
 import time
 from urllib.request import urlopen
 import json
+from pyecharts import options as opts
+from pyecharts.charts import Graph
+from pyecharts.globals import ThemeType
+
 
 def write_to_csv(res_list, des_path):
     """
@@ -132,9 +136,10 @@ def generate_json(res_file_path):
         line = line.strip().split("|")
         res_list.append(line)
     print("处理完成的程序采集信息记录数：", len(res_list))
-    html = urlopen(r'http://static.popodv.com/data/attr/webkit-dep.json')
+    html = urlopen(r'https://www.echartsjs.com/examples/data/asset/data/webkit-dep.json')
     hjson = json.loads(html.read())
-    print(hjson)
+    hjson_web = hjson
+    # print(hjson)
     # 生成tyepe
     type = "force"
     # 生成categories
@@ -156,6 +161,9 @@ def generate_json(res_file_path):
                        '网络安全与国际治理': 6,
                        'ICT': 7
                        }
+    """
+     data: ['无线网络', '信息网络', '大数据与人工智能', '先进计算', '数字经济与法律监管', '两化融合与产业互联网', '网络安全与国际治理', 'ICT']
+    """
     nodes_list = []
     temp_dict = {}
     iter_cnt = 0
@@ -195,12 +203,46 @@ def generate_json(res_file_path):
     hjson['categories'] = categories_list
     hjson['nodes'] = nodes_list
     hjson['links'] = links_list
-    print(hjson)
+    # print(hjson)
 
     # 生成json
     with open("..\\000LocalData\\caict_k\\research_subject_intergrate.json", "w") as f:
         json.dump(hjson, f)
         print("write json file complete!")
+
+    # 绘制网络拓扑图
+    # print("绘制网络拓扑图")
+    # opts_title = "院软课题知识网络拓扑图绘制[2010-2019]"
+    # graph_topology(hjson_web, opts_title).render("..\\000LocalData\\caict_k\\subject_graph.html")
+
+
+def graph_topology(res_json, opts_title_name)->Graph:
+    """
+    绘制网络拓扑图
+    :param res_json:
+    :param opts_title_name:
+    :return:
+    """
+    c = (
+        Graph(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=opts_title_name, theme=ThemeType.SHINE))
+        .add(
+            "",
+            res_json["nodes"],
+            res_json["links"],
+            res_json["categories"],
+            # layout="circular",
+            is_rotate_label=True,
+            gravity=0.2,
+            repulsion=100000,
+            linestyle_opts=opts.LineStyleOpts(width=0.1),
+            label_opts=opts.LabelOpts(is_show=False),
+        )
+        .set_global_opts(
+            legend_opts=opts.LegendOpts(is_show=False),
+            title_opts=opts.TitleOpts(title=opts_title_name),
+        )
+    )
+    return c
 
 
 if __name__ == "__main__":
@@ -209,7 +251,7 @@ if __name__ == "__main__":
     res_manual_file = "..\\000LocalData\\caict_k\\院软科学研究课题与专报（2010-2019）-合稿.xlsx"
     des_file = "..\\000LocalData\\caict_k\\research_subject_intergrate.csv"
     # data_intergrate_draw(res_auto_file, res_manual_file, des_file)
-    print("生成绘制院团课题网络拓扑图所需的json数据")
+    # print("生成绘制院团课题网络拓扑图所需的json数据")
     generate_json(des_file)
     time_end = time.time()  # 记录程序结束时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

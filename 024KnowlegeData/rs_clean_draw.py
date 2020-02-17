@@ -266,7 +266,7 @@ def data_clean(res_file_path, des_file_path):
             """
             开始JIEBA词，进行主题词提取
             """
-            # print(line[0])
+            print(line[0])
             # print(line[6])
             for keyword, weight in extract_tags(line[0], withWeight=True):
                 # print('%s %s' % (keyword, weight))
