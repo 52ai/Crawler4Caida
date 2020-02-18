@@ -70,20 +70,24 @@ def data_intergrate_draw(res_auto_file_path, res_manual_file_path, des_file_path
     """
     res_manual_list = []  # 存储人工标注的数据
     temp_list = []
+    res_name_list = []  # 存储name_list 用于去重
     for row in worksheet.rows:
         # for cell in row:
         #     print(cell.value, end="")
         # print(row[0].value)
+        if str(row[2].value) in res_name_list:
+            continue
         temp_list.append(row[2].value)  # 添加题目
         temp_list.append(row[3].value)  # 添加领域
         temp_list.append(row[4].value)  # 添加研究方向
         key_words_str = ""
         for cell in row[5:]:
             if str(cell.value) != "None":
-                key_words_str = key_words_str + str(cell.value) + "、"
+                key_words_str = key_words_str + str(cell.value).strip() + "、"
         key_words_str = key_words_str[0:-1]
         temp_list.append(key_words_str)
         res_manual_list.append(temp_list)
+        res_name_list.append(str(row[2].value))
         temp_list = []
     res_manual_list = res_manual_list[1:]  # 去除头部的信息
     print("处理完成的人工标注信息记录数：", len(res_manual_list))
@@ -250,8 +254,8 @@ if __name__ == "__main__":
     res_auto_file = "..\\000LocalData\\caict_k\\research_subject_clean.csv"
     res_manual_file = "..\\000LocalData\\caict_k\\院软科学研究课题与专报（2010-2019）-合稿.xlsx"
     des_file = "..\\000LocalData\\caict_k\\research_subject_intergrate.csv"
-    # data_intergrate_draw(res_auto_file, res_manual_file, des_file)
+    data_intergrate_draw(res_auto_file, res_manual_file, des_file)
     # print("生成绘制院团课题网络拓扑图所需的json数据")
-    generate_json(des_file)
+    # generate_json(des_file)
     time_end = time.time()  # 记录程序结束时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
