@@ -10,8 +10,9 @@ import random
 
 from pyecharts.faker import Faker
 from pyecharts import options as opts
-from pyecharts.charts import Scatter3D
+from pyecharts.charts import Scatter3D, Surface3D
 from pyecharts.globals import ThemeType
+import numpy as np
 
 
 def read_as_info(file_name):
@@ -57,23 +58,44 @@ def read_as_info(file_name):
 
 def scatter3d_base() -> Scatter3D:
     # data = [
-    #     [random.randint(0, 100), random.randint(0, 200), random.randint(0, 100)]
-    #     for _ in range(10000)
+    #     [random.randint(-100, 100), random.randint(-100, 100), random.randint(-100, 100)]
+    #     for _ in range(1000)
     # ]
-    data, max_rel = read_as_info('..\\000LocalData\\as_compare\\as_core_map_data_integrate20191203.csv')
+    # 求莫比乌斯环数据
+    v_mobius = np.linspace(-1.0, 1.0, num=500, endpoint=True)
+    u_mobius = np.linspace(0, 2 * np.pi, num=500, endpoint=True)
+    x_3d = (1. + v_mobius/2. * np.cos(u_mobius/2.)) * np.cos(u_mobius)
+    print(x_3d)
+    y_3d = (1. + v_mobius/2. * np.cos(u_mobius/2.)) * np.sin(u_mobius)
+    print(y_3d)
+    z_3d = v_mobius/2. * np.sin(v_mobius/2.)
+    print(z_3d)
+    # data = [[0, 0, 0], [100, 100, 100], [100, -100, -100]]
+    # print(data)
+    data = []
+    temp_list = []
+    for iter_cnt in range(0, len(list(x_3d))):
+        temp_list.append(x_3d[iter_cnt])
+        temp_list.append(y_3d[iter_cnt])
+        temp_list.append(x_3d[iter_cnt])
+        data.append(temp_list)
+        temp_list = []
+    print(data)
+    # data, max_rel = read_as_info('..\\000LocalData\\as_compare\\as_core_map_data_integrate20191203.csv')
     c = (
-        Scatter3D(init_opts=opts.InitOpts(width="1080px", height="1080px", page_title="全球互联网网络3D散点图", theme=ThemeType.ROMANTIC))
-        .add("随机散点",
+        Scatter3D(init_opts=opts.InitOpts(width="1920px", height="960px", page_title="3D散点图", theme=ThemeType.DARK))
+        .add("3D散点可视化",
              data,
-             grid3d_opts=opts.Grid3DOpts(width=300, height=160, depth=300, rotate_speed=5, is_rotate=True, rotate_sensitivity=2),
-             xaxis3d_opts=opts.Axis3DOpts(type_="value", name="经度", min_=180.0, max_=-180.0),
-             yaxis3d_opts=opts.Axis3DOpts(type_="value", name="维度", min_=-180.0, max_=180.0),
-             zaxis3d_opts=opts.Axis3DOpts(type_="value", name="连通度", min_=0, max_=max_rel+1),
-             itemstyle_opts=opts.ItemStyleOpts()
+             grid3d_opts=opts.Grid3DOpts(width=100, height=100, depth=100, rotate_speed=5, is_rotate=False, rotate_sensitivity=2),
+             xaxis3d_opts=opts.Axis3DOpts(type_="value", name="x", textstyle_opts=opts.TextStyleOpts(color="white")),
+             yaxis3d_opts=opts.Axis3DOpts(type_="value", name="y", textstyle_opts=opts.TextStyleOpts(color="white")),
+             zaxis3d_opts=opts.Axis3DOpts(type_="value", name="z", textstyle_opts=opts.TextStyleOpts(color="white")),
+             itemstyle_opts=opts.ItemStyleOpts(),
+             # label_opts=opts.LabelOpts(color="white")
 
              )
         .set_global_opts(
-            title_opts=opts.TitleOpts("全球互联网网络3D散点图"),
+            title_opts=opts.TitleOpts("3D散点图"),
             visualmap_opts=opts.VisualMapOpts(range_color=Faker.visual_color),
         )
     )
@@ -82,4 +104,4 @@ def scatter3d_base() -> Scatter3D:
     return c
 
 
-scatter3d_base().render("scatter_render.html")
+scatter3d_base().render("scatter_3d_render.html")
