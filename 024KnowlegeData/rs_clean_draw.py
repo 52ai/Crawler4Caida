@@ -266,7 +266,7 @@ def data_clean(res_file_path, des_file_path):
             """
             开始JIEBA词，进行主题词提取
             """
-            print(line[0])
+            # print(line[0])
             # print(line[6])
             for keyword, weight in extract_tags(line[0], withWeight=True):
                 # print('%s %s' % (keyword, weight))
@@ -302,7 +302,7 @@ def data_clean(res_file_path, des_file_path):
             print("ERROR:", e, " line:", line_cnt)
         line_cnt += 1
         des_list.append(line)
-    print(subject_time_type_themeriver)
+    # print(subject_time_type_themeriver)
     print("=>编号统计:", len(set(subject_number_list)))
     # print(list2dict_count(subject_number_list))
     print("=>年份统计:", len(set(year_list)), list(set(year_list)))
