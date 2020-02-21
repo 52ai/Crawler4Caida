@@ -455,3 +455,24 @@ if __name__ == "__main__":
     # write_to_csv(as_gao_list, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
+
+
+"""
+C:\Python37\python.exe D:/Code/Crawler4Caida/020MultiSourceCompare/as_compare_v2.py
+Test Caida Source Data
+Caida Source Active As: 67612
+AS Up Stream Dict Length: 67530
+AS Down Stream Dict Length: 13639
+AS Stream Set Union Length: 67612
+- - - - - - - - - - - - - - - - - - - -
+Test Gao Source Data
+Gao File All lines: 69695
+AS Gao Stream Dict Up: 69695
+AS Gao Stream Dict Down: 11803
+AS Gao Set Union Length: 69695
+- - - - - - - - - - - - - - - - - - - -
+AS Intersection Length: 67398
+AS Caida Difference Set Length: 214
+AS Gao Difference Set Length: 2297
+
+"""
