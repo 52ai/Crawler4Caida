@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/027CNNet/Generate_json_cn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/027CNNet/Graph_as_global.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/027CNNet/Graph_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/Graph_cn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +20,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Generate_json_cn.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/027CNNet/Generate_json_cn.py">
+      <file leaf-file-name="as_map_cn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+            <state relative-caret-position="449">
+              <caret line="249" column="66" selection-start-line="249" selection-start-column="66" selection-end-line="249" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph_as_global.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="123" column="68" selection-start-line="123" selection-start-column="68" selection-end-line="123" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rs_clean_draw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4488" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph_rs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_rs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="183" column="41" selection-start-line="183" selection-start-column="41" selection-end-line="183" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph_weibo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+              <folding>
+                <element signature="e#74#85#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/019Echarts/Graph_demo.py" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_weibo.py" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_npm_dependence.py" />
         <option value="$PROJECT_DIR$/019Echarts/Demo_Geo.py" />
@@ -112,7 +147,6 @@
         <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/rs_clean.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate.py" />
-        <option value="$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/tab_test.py" />
         <option value="$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py" />
         <option value="$PROJECT_DIR$/025Visualization3D/eight_planet.py" />
@@ -131,15 +165,17 @@
         <option value="$PROJECT_DIR$/027CNNet/country_active_as.py" />
         <option value="$PROJECT_DIR$/018Scatter/as_core_map_v4.py" />
         <option value="$PROJECT_DIR$/020MultiSourceCompare/as_compare_v2.py" />
-        <option value="$PROJECT_DIR$/027CNNet/as_map_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/Graph_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/Graph_weibo_as.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" />
+        <option value="$PROJECT_DIR$/027CNNet/as_map_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/Generate_json_cn.py" />
+        <option value="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" />
+        <option value="$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py" />
+        <option value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -172,6 +208,11 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="019Echarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="024KnowlegeData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -217,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Generate_json_cn">
+  <component name="RunManager" selected="Python.Graph_as_global">
     <configuration name="Generate_json_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,6 +295,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Graph_as_global" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Graph_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,24 +326,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Graph_cn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Graph_weibo_as" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\027CNNet\Graph_as_cn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,17 +352,17 @@
     <list>
       <item itemvalue="Python.as_map_cn" />
       <item itemvalue="Python.Graph_cn" />
-      <item itemvalue="Python.Graph_weibo_as" />
       <item itemvalue="Python.Generate_json_cn" />
       <item itemvalue="Python.Graph_as_cn" />
+      <item itemvalue="Python.Graph_as_global" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Generate_json_cn" />
+        <item itemvalue="Python.Graph_as_global" />
         <item itemvalue="Python.Graph_as_cn" />
-        <item itemvalue="Python.Graph_cn" />
-        <item itemvalue="Python.Graph_weibo_as" />
         <item itemvalue="Python.as_map_cn" />
+        <item itemvalue="Python.Generate_json_cn" />
+        <item itemvalue="Python.Graph_cn" />
       </list>
     </recent_temporary>
   </component>
@@ -348,17 +389,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.13487881" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.18974918" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.24100327" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.1908397" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.24972737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -409,13 +450,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/026Labelme/tests/labelme_tests/test_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/026Labelme/labelme.spec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
@@ -659,16 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6569" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/019Echarts/Generate_json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816">
@@ -684,16 +708,6 @@
         <state relative-caret-position="-1386" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="131" column="44" lean-forward="true" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
-          <folding>
-            <element signature="e#131#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="455">
@@ -701,44 +715,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate_draw.py">
+    <entry file="file://$PROJECT_DIR$/027CNNet/Generate_json_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
-          <folding>
-            <element signature="e#430#445#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_rs.py">
+    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2068">
-          <caret line="156" column="42" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
+        <state relative-caret-position="541">
+          <caret line="131" column="44" lean-forward="true" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+          <folding>
+            <element signature="e#131#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="319">
+          <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="249" column="66" selection-start-line="249" selection-start-column="66" selection-end-line="249" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_rs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="183" column="41" selection-start-line="183" selection-start-column="41" selection-end-line="183" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
             <element signature="e#74#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn.py">
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate_draw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="225" column="77" selection-start-line="225" selection-start-column="20" selection-end-line="225" selection-end-column="77" />
+        <state relative-caret-position="342">
+          <caret line="147" column="18" lean-forward="true" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+          <folding>
+            <element signature="e#430#445#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Generate_json_cn.py">
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        <state relative-caret-position="-4488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="123" column="68" selection-start-line="123" selection-start-column="68" selection-end-line="123" selection-end-column="68" />
         </state>
       </provider>
     </entry>
