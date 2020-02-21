@@ -1,10 +1,16 @@
 # coding:utf-8
 """
-create on Dec 24 2019 By Wayne Yu
+create on Feb 21 2020 By Wayne Yu
 Function:
 
 将Caida的AS BGP互联关系数据与高总的数据进行比对
 以弥补，Caida数据在国内部分的缺失
+
+V2:
+
+采用最新数据2200221
+根据高总的数据生成Caida格式的互联关系
+将Caida的AS BGP互联数据与高总的数据进行对比
 
 """
 
@@ -173,7 +179,7 @@ def gain_as_rel_gao_v3(as_gao_stream_dict_up):
         #     break
     # 对 as_rel_gao列表按照，item[0]进行排序
     as_rel_gao.sort(key=lambda elem:int(elem[0]))
-    save_path = '..\\000LocalData\\as_Gao\\as_rel_gao_20191203_dict_up.txt'
+    save_path = '..\\000LocalData\\as_Gao\\as_rel_gao_20200221_dict_up.txt'
     write_to_csv(as_rel_gao, save_path)
 
 
@@ -198,7 +204,7 @@ def gain_as_rel_gao_v4(as_gao_stream_dict_down):
         # if key_cnt > 10:
         #     break
 
-    save_path = '..\\000LocalData\\as_Gao\\as_rel_gao_20191203_dict_down.txt'
+    save_path = '..\\000LocalData\\as_Gao\\as_rel_gao_20200221_dict_down.txt'
     write_to_csv(as_rel_gao, save_path)
 
 
@@ -236,7 +242,7 @@ def gain_as_rel_integrate(as_rel_list):
         #     break
         item_cnt += 1
     print("去重后的列表长度:", len(as_rel_list_result))
-    save_path = '..\\000LocalData\\as_compare\\as_rel_20191203_integrate.txt'
+    save_path = '..\\000LocalData\\as_compare\\as_rel_20200221_integrate.txt'
     write_to_csv(as_rel_list_result, save_path)
 
 
@@ -362,7 +368,7 @@ def as_vertex_compare(as_caida_file, as_gao_file):
     # print(as_gao_difference)
     # print(gain_country_by_as("4134"))
     as_country_dict = gain_as_country_dict()
-    # print(as_country_dict)
+    print("as2country Dict Length:", len(as_country_dict))
     cn_cnt = 0
     us_cnt = 0
     for as_item in as_gao_difference:
@@ -381,7 +387,9 @@ def as_vertex_compare(as_caida_file, as_gao_file):
     print("As Gao diffence US Count:", us_cnt)
     print("- - - - - - - - - - - - - - - - - - - -")
     # print(as_gao_stream_dict_up)
-    # gain_as_rel_gao_v3(as_gao_stream_dict_up)  # 根据生成自治域网络画像字典，生成AS|AS格式文件
+    # gain_as_rel_gao_v3(as_gao_stream_dict_up)  # 根据生成自治域网络画像字典，生成AS|AS格式文件(上游)
+    # gain_as_rel_gao_v4(as_gao_stream_dict_down) # 根据生成自治域网络画像字典，生成AS|AS格式文件（下游）
+
     # 将高总的数据和Caida的数据进行整合
     # 先搞一个最全的，然后排序，再进行去重
 
@@ -432,7 +440,7 @@ def as_vertex_compare(as_caida_file, as_gao_file):
             as_rel_integrate_list.append(temp_list)
             temp_list = []
     # print(len(as_rel_integrate_list))
-    # gain_as_rel_integrate(as_rel_integrate_list)  # 根据as rel 列表生成文件
+    gain_as_rel_integrate(as_rel_integrate_list)  # 根据as rel 列表生成文件
 
 
 if __name__ == "__main__":

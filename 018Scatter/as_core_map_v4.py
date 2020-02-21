@@ -1,11 +1,15 @@
 # coding:utf-8
 """
-create on Dec 11, 2019 By Wayne Yu
+create on Feb 21, 2020 By Wayne Yu
 
 Version:3.0
 Description：优化了算法，大大缩短了遍历图计算关键参数的时间
 哈希表(Python下就是字典了)的时间复杂度简直不要太好了，能有字典解决的，就不要无脑循环了
 明明可以遍历一遍表即可获取到全部信息的，之前非得循环套循环，哎……
+
+Version:4.0
+
+引入高总的AS info，以减少没有info 的as 数量
 
 """
 import os
@@ -110,23 +114,33 @@ def gain_as_relationships_dict(asn_list, open_file):
 
 def gain_as_info(asn_core_map_list):
     """
-    根据as_org_info文件，去获取as的详细信息
-    包括AS_Name、Org_Name、Source、Country、Latitude、Longitude
+    根据asn_info.txt文件，去获取as的详细信息
+    包括as_org, as_country
     :param asn_core_map_list:
     :return as_core_map_list:
     """
-    as_org_info_file = "..\\000LocalData\\as_geo\\as_org_info.csv"
+    as_org_info_file = "..\\000LocalData\\as_Gao\\asn_info.txt"
     as_org_info_file_read = open(as_org_info_file, 'r', encoding='utf-8')
     # 读取以便as_org_info_file，用哈希表的方式记录其信息
     as_org_info_dict = {}
+    # for line in as_org_info_file_read.readlines():
+    #     line = line.strip().split("|")
+    #     as_org_info_dict.setdefault(line[0], []).append(line[2])
+    #     as_org_info_dict.setdefault(line[0], []).append(line[3])
+    #     as_org_info_dict.setdefault(line[0], []).append(line[5])
+    #     as_org_info_dict.setdefault(line[0], []).append(line[4])
+    #     as_org_info_dict.setdefault(line[0], []).append(line[6])
+    #     as_org_info_dict.setdefault(line[0], []).append(line[7])
+
     for line in as_org_info_file_read.readlines():
-        line = line.strip().split("|")
-        as_org_info_dict.setdefault(line[0], []).append(line[2])
-        as_org_info_dict.setdefault(line[0], []).append(line[3])
-        as_org_info_dict.setdefault(line[0], []).append(line[5])
-        as_org_info_dict.setdefault(line[0], []).append(line[4])
-        as_org_info_dict.setdefault(line[0], []).append(line[6])
-        as_org_info_dict.setdefault(line[0], []).append(line[7])
+        line = line.strip().split("\t")
+        as_org = ""
+        for item in line[1].strip().split(",")[0: -1]:
+            as_org = as_org + item
+        as_country = line[1].strip().split(",")[-1].strip()
+        as_org_info_dict.setdefault(line[0], []).append(as_org)
+        as_org_info_dict.setdefault(line[0], []).append(as_country)
+
     # print(as_org_info_dict)
     # 根据as org info哈希表，生成asn_core_map_list信息
     except_asn = []  # 存储没有信息的asn
@@ -174,16 +188,14 @@ if __name__ == "__main__":
         as_core_map_data = gain_as_info(as_core_map_data)
         # print(as_core_map_data)
         # 存储as_core_map_data文件
-        save_path = '..\\000LocalData\\as_map\\as_core_map_data_new' + date_string + '.csv'
+        save_path = '..\\000LocalData\\as_map_Gao\\as_map_Gao' + date_string + '.csv'
         write_to_csv(as_core_map_data, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
 """
-1998年全球BGP互联数据中，无法获取信息的asn号个数: 161
-{'6676', '8573', '7040', '2135', '8277', '5393', '5465', '3605', '7910', '8198', '5559', '5506', '8355', '3586', '6840', '8417', '4039', '5471', '5561', '6746', '6758', '5509', '8421', '5412', '7414', '6683', '5510', '6680', '5490', '6865', '6722', '8212', '6897', '8370', '6795', '8306', '6875', '7124', '8252', '834', '6678', '8413', '6517', '6705', '6809', '6743', '7346', '8498', '8533', '1899', '2853', '3248', '6765', '6741', '6806', '5590', '6770', '8465', '7642', '3353', '6901', '5569', '3350', '6515', '5556', '2120', '5597', '8514', '10278', '5395', '6864', '5611', '8205', '5492', '6589', '8349', '6668', '6708', '6684', '8511', '5639', '8366', '2820', '3346', '8392', '8407', '3228', '5481', '6888', '8383', '5558', '3208', '8199', '5499', '6771', '8293', '8509', '8504', '5595', '7837', '6889', '8335', '6690', '8215', '7864', '6804', '6902', '8320', '5625', '6752', '5557', '8313', '10292', '8583', '8225', '7984', '8497', '2380', '6715', '8425', '5536', '8259', '8321', '8332', '8250', '6884', '6792', '6896', '5494', '7420', '6543', '8424', '8397', '6845', '6835', '8316', '3251', '6754', '5402', '6568', '6841', '8406', '10269', '6669', '6827', '8209', '5592', '6721', '3328', '8340', '5596', '6800', '8525', '5512', '6064', '8284', '8327', '6756', '6760', '5389', '6783'}
-
 ..\000LocalData\as_relationships\serial-1\20200201.as-rel.txt
 活跃的AS号数量： 67612
-没有信息的asn号个数: 3339
+没有信息的asn号个数: 2738
+
 """

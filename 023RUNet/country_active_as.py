@@ -110,9 +110,9 @@ if __name__ == "__main__":
         active_as_ru.append(temp_list)
         print(temp_list)
         temp_list = []
-    draw(active_as_ru, "RU")
+    draw(active_as_ru, "CN")
     # save_path
-    save_path = "..\\000LocalData\\RUNet\\active_as_ru.csv"
+    save_path = "..\\000LocalData\\RUNet\\active_as_cn.csv"
     write_to_csv(active_as_ru, save_path)
     time_end = time.time()
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

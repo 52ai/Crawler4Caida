@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/018Scatter/as_core_map_v4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/027CNNet/as_compare_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/027CNNet/country_active_as.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/023RUNet/country_active_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/country_active_as.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,17 +23,37 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="132">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+    <leaf>
+      <file leaf-file-name="as_compare_v2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/027CNNet/as_compare_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4851">
+              <caret line="210" column="39" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="country_active_as.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/027CNNet/country_active_as.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="114" column="59" lean-forward="true" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="as_map_Gao20200201.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/000LocalData/as_map_Gao/as_map_Gao20200201.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-1426663" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="as_core_map_v4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -45,9 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4809</find>
-      <find>4134</find>
-      <find>397016</find>
       <find>28917</find>
       <find>dependence</find>
       <find>dependentsCount</find>
@@ -75,6 +96,9 @@
       <find>rs_name、rs_number、rs_time、responsible_person、responsible_dept、rs_classification、rs_content、page_url</find>
       <find>课题名称、课题编号、时间、负责人、负责单位、课题类型、课题内容、课题URL、课题领域、研究方向、关键词</find>
       <find>人工智能</find>
+      <find>as_gao_stream_dict_up</find>
+      <find>gain_as_rel_gao_v4</find>
+      <find>gain_as_rel_gao_v3</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -89,12 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/020MultiSourceCompare/as_core_map_integrate.py" />
-        <option value="$PROJECT_DIR$/020MultiSourceCompare/draw_as_core_integrate.py" />
-        <option value="$PROJECT_DIR$/020MultiSourceCompare/draw_as_core_integrate_cn.py" />
-        <option value="$PROJECT_DIR$/000LocalData/as_compare/as_rel20191203.json" />
-        <option value="$PROJECT_DIR$/020MultiSourceCompare/bgp_map_2019.html" />
-        <option value="$PROJECT_DIR$/019Echarts/selenium_demo.py" />
         <option value="$PROJECT_DIR$/019Echarts/demo.py" />
         <option value="$PROJECT_DIR$/019Echarts/Global_Geo.py" />
         <option value="$PROJECT_DIR$/021Folium/demo_folium.py" />
@@ -112,11 +130,9 @@
         <option value="$PROJECT_DIR$/018Scatter/draw_as_map_v1.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v7.py" />
         <option value="$PROJECT_DIR$/020MultiSourceCompare/Generate_json_integrate.py" />
-        <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
         <option value="$PROJECT_DIR$/023RUNet/deal_file.py" />
         <option value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru.py" />
         <option value="$PROJECT_DIR$/023RUNet/draw_active_as.py" />
-        <option value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" />
         <option value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py" />
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
@@ -140,11 +156,19 @@
         <option value="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate_draw.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/027CNNet/Gain_as_cn.py" />
+        <option value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
+        <option value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
+        <option value="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" />
+        <option value="$PROJECT_DIR$/027CNNet/as_compare.py" />
+        <option value="$PROJECT_DIR$/027CNNet/as_compare_v2.py" />
+        <option value="$PROJECT_DIR$/027CNNet/country_active_as.py" />
+        <option value="$PROJECT_DIR$/018Scatter/as_core_map_v4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -161,6 +185,27 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_map_Gao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="018Scatter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="027CNNet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,19 +218,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\027CNNet" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
+      <recent name="D:\Code\Crawler4Caida\018Scatter" />
+      <recent name="D:\Code\Crawler4Caida\026Labelme" />
+      <recent name="D:\Code\Crawler4Caida\024KnowlegeData" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\026Labelme" />
-      <recent name="D:\Code\Crawler4Caida\024KnowlegeData" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_geo" />
-      <recent name="D:\Code\Crawler4Caida\023RUNet" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,8 +245,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__main__">
-    <configuration name="Scatter_3D" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.as_compare_v2">
+    <configuration name="as_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,17 +254,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/019Echarts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/020MultiSourceCompare" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019Echarts/Scatter_3D.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020MultiSourceCompare/as_compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="as_compare_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,17 +272,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/026Labelme/labelme" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/026Labelme/labelme/__main__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/as_compare_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="rs_clean_draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="as_core_map_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,17 +290,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024KnowlegeData" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/018Scatter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/018Scatter/as_core_map_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="as_core_map_v4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,17 +308,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/026Labelme" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/018Scatter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/026Labelme/setup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/018Scatter/as_core_map_v4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="country_active_as" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,30 +326,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/026Labelme/tests/labelme_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/026Labelme/tests/labelme_tests/test_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Scatter_3D" />
-      <item itemvalue="Python.rs_clean_draw" />
-      <item itemvalue="Python.test_app" />
-      <item itemvalue="Python.setup" />
-      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.as_compare" />
+      <item itemvalue="Python.country_active_as" />
+      <item itemvalue="Python.as_core_map_v3" />
+      <item itemvalue="Python.as_core_map_v4" />
+      <item itemvalue="Python.as_compare_v2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__main__" />
-        <item itemvalue="Python.setup" />
-        <item itemvalue="Python.test_app" />
-        <item itemvalue="Python.rs_clean_draw" />
-        <item itemvalue="Python.Scatter_3D" />
+        <item itemvalue="Python.as_compare_v2" />
+        <item itemvalue="Python.as_compare" />
+        <item itemvalue="Python.as_core_map_v3" />
+        <item itemvalue="Python.as_core_map_v4" />
+        <item itemvalue="Python.country_active_as" />
       </list>
     </recent_temporary>
   </component>
@@ -331,19 +376,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.21127503" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.26238146" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
+      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.16575791" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.1472192" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" weight="0.2955289" />
-      <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.23009814" />
-      <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
+      <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.23009814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
+      <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,21 +400,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.15700738" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18320611" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.21264994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -392,217 +437,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5808">
-          <caret line="264" column="11" selection-start-line="264" selection-start-column="11" selection-end-line="264" selection-end-column="11" />
-          <folding>
-            <element signature="e#277#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip_TJ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2200">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200101.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_echarts/as_rel19980101.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret column="202" selection-start-column="202" selection-end-column="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/bgp_map_2004.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/006Wechat/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/006Wechat/wechat_avatar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/017RelativeValueOfISP/crawler_info_for_ISP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2859" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/login.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/013Countries_ASNs/obtain_countries_rank_asns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="192" column="26" lean-forward="true" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-en.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="335" column="18" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/research_subject202001232337.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-4545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/caict_k/research_subject.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1370">
-          <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/tab_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="328" column="32" selection-start-line="328" selection-start-column="32" selection-end-line="328" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="357" column="71" selection-start-line="357" selection-start-column="71" selection-end-line="357" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/004NetDataAnalysis/deal_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/Generate_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding>
-            <element signature="e#95#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/025Visualization3D/arcade_demo.py" />
     <entry file="file://$PROJECT_DIR$/024KnowlegeData/tab_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -698,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="264" column="11" selection-start-line="264" selection-start-column="11" selection-end-line="264" selection-end-column="11" />
-          <folding>
-            <element signature="e#277#307#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,6 +554,201 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_compare/as_core_map_data_integrate20191203.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200101.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="319">
+          <caret line="64320" column="66" lean-forward="true" selection-start-line="64320" selection-start-column="66" selection-end-line="64320" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/021Folium/demo_folium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13369">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="e#124#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/Generate_json_integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/20190701.as-org2info.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/20191001.as-rel.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/countries_asns_CN_copy.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/active_as_info_19980101.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/as_analysis_cn.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/active_as.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-4867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/bgp_analysis_result_21years.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/as_org_info.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1990274">
+          <caret line="90467" column="55" lean-forward="true" selection-start-line="90467" selection-start-column="55" selection-end-line="90467" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_compare/as_core_map_data_integrate_20191203_rank.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019Echarts/Generate_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#95#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/countries_asns_CN.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="625">
+          <caret line="536" lean-forward="true" selection-start-line="536" selection-end-line="536" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="e#190#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="455">
+          <caret line="64272" selection-start-line="64272" selection-end-line="64273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/country_active_as.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1283">
+          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/draw_as_core_integrate_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/draw_as_core_integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asstream20191203.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/Gain_as_cn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asstream20200221.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="292" column="51" lean-forward="true" selection-start-line="292" selection-start-column="51" selection-end-line="292" selection-end-column="51" />
+          <folding>
+            <element signature="e#187#617#0" />
+            <element signature="e#655#3231#0" />
+            <element signature="e#3272#4762#0" />
+            <element signature="e#5654#6308#0" />
+            <element signature="e#6355#7495#0" />
+            <element signature="e#7533#8565#0" />
+            <element signature="e#8600#9006#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_core_map_integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2686">
+          <folding>
+            <element signature="e#103#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/as_compare_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4851">
+          <caret line="210" column="39" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/country_active_as.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="114" column="59" lean-forward="true" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_map_Gao/as_map_Gao20200201.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1426663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="4" />
         </state>
       </provider>
     </entry>
