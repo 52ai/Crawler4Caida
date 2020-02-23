@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/027CNNet/as_map_cn_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/027CNNet/Graph_cn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/027CNNet/as_map_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/as_map_cn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/027CNNet/draw_as_core_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/draw_as_core_cn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Gao2Caida_draw_cn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+              <folding>
+                <element signature="e#25834#26541#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="draw_as_core_cn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="666" column="76" lean-forward="true" selection-start-line="666" selection-start-column="76" selection-end-line="666" selection-end-column="76" />
-              <folding>
-                <element signature="e#124#135#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-27">
+              <caret line="630" selection-start-line="630" selection-end-line="630" />
             </state>
           </provider>
         </entry>
@@ -43,7 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dependence</find>
       <find>dependentsCount</find>
       <find>MapGlobe</find>
       <find>BR</find>
@@ -73,6 +82,7 @@
       <find>gain_as_rel_gao_v3</find>
       <find>9808</find>
       <find>3</find>
+      <find>4134</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -87,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/019Echarts/Graph_npm_dependence.py" />
-        <option value="$PROJECT_DIR$/019Echarts/Demo_Geo.py" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_weibo_as_cn.html" />
         <option value="$PROJECT_DIR$/019Echarts/Graph_les_miserables.py" />
         <option value="$PROJECT_DIR$/022Taichi/fractal.py" />
@@ -136,8 +144,10 @@
         <option value="$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py" />
         <option value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v7.py" />
-        <option value="$PROJECT_DIR$/027CNNet/draw_as_core_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/as_map_cn.py" />
+        <option value="$PROJECT_DIR$/027CNNet/draw_as_core_cn.py" />
+        <option value="$PROJECT_DIR$/027CNNet/as_map_cn_v2.py" />
+        <option value="$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py" />
       </list>
     </option>
   </component>
@@ -163,6 +173,12 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_map_intergrate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -208,8 +224,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.as_map_cn">
-    <configuration name="Generate_json_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Gao2Caida_draw_cn">
+    <configuration name="Gao2Caida_draw_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,25 +237,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Generate_json_cn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Graph_as_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,6 +279,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="as_map_cn_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/as_map_cn_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="draw_as_core_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,18 +317,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.as_map_cn" />
-      <item itemvalue="Python.Generate_json_cn" />
-      <item itemvalue="Python.Graph_as_cn" />
       <item itemvalue="Python.Graph_as_global" />
       <item itemvalue="Python.draw_as_core_cn" />
+      <item itemvalue="Python.Gao2Caida_draw_cn" />
+      <item itemvalue="Python.as_map_cn_v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gao2Caida_draw_cn" />
+        <item itemvalue="Python.as_map_cn_v2" />
         <item itemvalue="Python.as_map_cn" />
         <item itemvalue="Python.draw_as_core_cn" />
         <item itemvalue="Python.Graph_as_global" />
-        <item itemvalue="Python.Graph_as_cn" />
-        <item itemvalue="Python.Generate_json_cn" />
       </list>
     </recent_temporary>
   </component>
@@ -341,12 +357,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.21759747" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.20864068" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.23773174" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.36095965" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.20719738" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
@@ -534,13 +550,6 @@
         <state relative-caret-position="-1716" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_compare_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -551,13 +560,6 @@
     <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1928" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py">
@@ -653,20 +655,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn_v2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="229" column="25" selection-start-line="229" selection-start-column="25" selection-end-line="229" selection-end-column="25" />
+        <state relative-caret-position="-978">
+          <caret line="226" column="87" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="87" />
+          <folding>
+            <element signature="e#5238#7034#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+          <folding>
+            <element signature="e#25834#26541#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="666" column="76" lean-forward="true" selection-start-line="666" selection-start-column="76" selection-end-line="666" selection-end-column="76" />
-          <folding>
-            <element signature="e#124#135#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-27">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
         </state>
       </provider>
     </entry>
