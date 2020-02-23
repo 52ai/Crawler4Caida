@@ -255,7 +255,7 @@ if __name__ == "__main__":
     save_path = '..\\000LocalData\\as_cn\\as_map_caida_20200221_cn.csv'
     write_to_csv(as_map_cn_caida, save_path)
     # 生成as_map_cn数据Rank，并存储
-    as_map_cn_caida.sort(reverse=True, key=lambda elem: int(elem[2]))
+    as_map_cn_caida.sort(reverse=True, key=lambda elem: int(elem[1]))
     save_path = '..\\000LocalData\\as_cn\\as_map_caida_20200221_Rank_cn.csv'
     write_to_csv(as_map_cn_caida, save_path)
 
@@ -288,7 +288,7 @@ if __name__ == "__main__":
     save_path = '..\\000LocalData\\as_cn\\as_map_gao_20200221_cn.csv'
     write_to_csv(as_map_cn_gao, save_path)
     # 生成as_map_cn数据Rank，并存储
-    as_map_cn_gao.sort(reverse=True, key=lambda elem: int(elem[2]))
+    as_map_cn_gao.sort(reverse=True, key=lambda elem: int(elem[1]))
     save_path = '..\\000LocalData\\as_cn\\as_map_gao_20200221_Rank_cn.csv'
     write_to_csv(as_map_cn_gao, save_path)
 
@@ -321,7 +321,7 @@ if __name__ == "__main__":
     save_path = '..\\000LocalData\\as_cn\\as_map_intergrate_20200221_cn.csv'
     write_to_csv(as_map_cn_intergrate, save_path)
     # 生成as_map_cn数据Rank，并存储
-    as_map_cn_intergrate.sort(reverse=True, key=lambda elem: int(elem[2]))
+    as_map_cn_intergrate.sort(reverse=True, key=lambda elem: int(elem[1]))
     save_path = '..\\000LocalData\\as_cn\\as_map_intergrate_20200221_Rank_cn.csv'
     write_to_csv(as_map_cn_intergrate, save_path)
 
