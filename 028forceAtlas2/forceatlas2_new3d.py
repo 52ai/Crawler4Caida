@@ -153,7 +153,7 @@ def apply_attraction(nodes, edges, coefficient, edgeWeightInfluence):
 def forceatlas3d(
                 G,  # 一个由3D numpy ndarrary格式化的图
                 pos=None,  # 初始化位置的数组
-                niter=100,  # 主体程序循环迭代的次数niter
+                niter=10,  # 主体程序循环迭代的次数niter
 
                 # Behavior alternatives
                 outboundAttractionDistribution=False,  # "Dissuade hubs" # NOT (fully) IMPLEMENTED
@@ -305,7 +305,7 @@ def forceatlas3d(
 
 # forceAtlas3d基于networkx内容布局
 def forceatlas3d_networkx_layout(G, pos=None, **kwargs):
-    draw_gap = 50  # 迭代绘图间隔
+    draw_gap = 10  # 迭代绘图间隔,总共绘约五张图
     assert isinstance(G, networkx.classes.graph.Graph), "Not a networkx graph"
     assert isinstance(pos, dict) or (pos is None), "pos must be specified as a dictionary, as in networkx"
     M = numpy.asarray(networkx.to_numpy_matrix(G))
@@ -366,11 +366,11 @@ def draw_3d(G_3d, pos, graph_name):
 
 
 if __name__ == "__main__":
-    G = networkx.random_geometric_graph(500, 0.3, dim=3)
+    G = networkx.random_geometric_graph(500, 0.2, dim=3)
     # pos= networkx.get_node_attributes(G, 'pos')  # 获取图中点的坐标
     pos = {i: (random.random(), random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
     # print(pos)
     draw_3d(G, pos, "draw_3d")
-    layout_3d = forceatlas3d_networkx_layout(G, pos, niter=200)  # 采用自己编写的3D布局算法
+    layout_3d = forceatlas3d_networkx_layout(G, pos, niter=50)  # 采用自己编写的3D布局算法
     # print(layout_3d)
     draw_3d(G, layout_3d, "draw_3d_layout")
