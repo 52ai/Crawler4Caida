@@ -265,8 +265,25 @@ def forceatlas2_networkx_layout(G, pos=None, **kwargs):
 
 
 if __name__ == "__main__":
-    G = networkx.karate_club_graph()
-    pos = { i : (random.random(), random.random()) for i in G.nodes()} # Optionally specify positions as a dictionary
-    l = forceatlas2_networkx_layout(G, pos, niter=1000) # Optionally specify iteration count
-    networkx.draw_networkx(G, l)
-    plt.show()
+    plt.figure(figsize=(12, 8))
+    # G = networkx.karate_club_graph()
+    G = networkx.random_geometric_graph(300, 0.125)
+    print("G Nodes:", G.nodes)
+    print("G Nodes Count:", G.number_of_nodes())
+    print("G Edges Count:", G.number_of_edges())
+    pos = {i: (random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
+    # print(pos)
+    networkx.draw_networkx(G, pos, node_size=10, width=0.05, with_labels=False)  # 绘制随机生成的聚类原图
+    plt.savefig("../000LocalData/networkx_graph/0_forceatlas2.png", dpi=600)
+    plt.close()
+
+    plt.figure(figsize=(12, 8))
+    l = forceatlas2_networkx_layout(G, pos, niter=300)  # 采用自己编写的布局算法
+    networkx.draw_networkx(G, l, node_size=10, width=0.05, with_labels=False)
+    plt.savefig("../000LocalData/networkx_graph/1_forceatlas2.png", dpi=600)
+    plt.close()
+
+    plt.figure(figsize=(12, 8))
+    networkx.draw_networkx(G, pos=networkx.spring_layout(G), node_size=10, width=0.05, with_labels=False)  # 绘制随机生成的聚类原图-采用networkx自带布局算法（spring）
+    plt.savefig("../000LocalData/networkx_graph/2_forceatlas2.png", dpi=600)
+    plt.close()

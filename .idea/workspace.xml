@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7722">
-              <caret line="351" column="9" lean-forward="true" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
+              <caret line="351" column="9" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
               <folding>
                 <element signature="e#107#128#0" expanded="true" />
               </folding>
@@ -35,8 +35,21 @@
       <file leaf-file-name="forceatlas2_new.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1828">
-              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+            <state relative-caret-position="406">
+              <caret line="280" column="51" selection-start-line="280" selection-start-column="51" selection-end-line="280" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn_networkx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/028forceAtlas2/learn_networkx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding>
+                <element signature="e#347#368#0" expanded="true" />
+                <element signature="e#437#1290#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MapGlobe</find>
       <find>BR</find>
       <find>CN</find>
       <find>item_cnt</find>
@@ -82,6 +94,7 @@
       <find>3</find>
       <find>4134</find>
       <find>forceatlas2_layout</find>
+      <find>dpi</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -96,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/023RUNet/draw_active_as.py" />
-        <option value="$PROJECT_DIR$/019Echarts/Graph_weibo_as.py" />
         <option value="$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py" />
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip_TJ.py" />
@@ -145,16 +156,17 @@
         <option value="$PROJECT_DIR$/028forceAtlas2/fa2util.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_copy.py" />
-        <option value="$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/nx_pylab.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_ywy.py" />
+        <option value="$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/nx_pylab.py" />
+        <option value="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" />
+        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2306" />
-    <option name="y" value="211" />
-    <option name="width" value="1525" />
-    <option name="height" value="849" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2865" />
+    <option name="width" value="982" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,6 +183,11 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="025Visualization3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="028forceAtlas2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -182,14 +199,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -213,24 +230,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.forceatlas2_new">
-    <configuration name="fa2util" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/fa2util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="forceatlas2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,7 +284,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_forceatlas2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="learn_networkx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,26 +296,44 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/test_forceatlas2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="matplotlib_3d_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025Visualization3D" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.fa2util" />
-      <item itemvalue="Python.test_forceatlas2" />
       <item itemvalue="Python.forceatlas2" />
       <item itemvalue="Python.forceatlas2_copy" />
       <item itemvalue="Python.forceatlas2_new" />
+      <item itemvalue="Python.learn_networkx" />
+      <item itemvalue="Python.matplotlib_3d_demo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.forceatlas2_new" />
+        <item itemvalue="Python.learn_networkx" />
+        <item itemvalue="Python.matplotlib_3d_demo" />
         <item itemvalue="Python.forceatlas2_copy" />
         <item itemvalue="Python.forceatlas2" />
-        <item itemvalue="Python.fa2util" />
-        <item itemvalue="Python.test_forceatlas2" />
       </list>
     </recent_temporary>
   </component>
@@ -346,14 +363,14 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.15015806" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.18703899" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.23882225" />
-      <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.17557251" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.2868048" />
+      <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.20044053" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,89 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13860">
-          <caret line="630" selection-start-line="630" selection-end-line="630" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/026Labelme/labelme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/026Labelme/labelme/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/026Labelme/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="101" column="66" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200101.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="319">
-          <caret line="64320" column="66" lean-forward="true" selection-start-line="64320" selection-start-column="66" selection-end-line="64320" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/Generate_json_integrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/active_as.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-4867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/as_org_info.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1990274">
-          <caret line="90467" column="55" lean-forward="true" selection-start-line="90467" selection-start-column="55" selection-end-line="90467" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/data/countries_asns_CN.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="625">
-          <caret line="536" lean-forward="true" selection-start-line="536" selection-end-line="536" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
@@ -695,27 +629,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/nx_pylab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="559" column="24" lean-forward="true" selection-start-line="559" selection-start-column="24" selection-end-line="559" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7722">
-          <caret line="351" column="9" lean-forward="true" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
+          <caret line="351" column="9" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
           <folding>
             <element signature="e#107#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/ba.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="423" column="16" lean-forward="true" selection-start-line="423" selection-start-column="16" selection-end-line="423" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="429" column="15" selection-start-line="429" selection-start-column="15" selection-end-line="429" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/nx_pylab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/branca/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-842">
+          <caret line="350" column="8" selection-start-line="350" selection-start-column="8" selection-end-line="350" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1612">
+          <caret line="1271" selection-start-line="1271" selection-end-line="1271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="e#109#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="719" column="4" selection-start-line="719" selection-start-column="4" selection-end-line="719" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/generators/geometric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3507">
+          <caret line="2309" column="23" selection-start-line="2309" selection-start-column="23" selection-end-line="2309" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/learn_networkx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="e#347#368#0" expanded="true" />
+            <element signature="e#437#1290#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1828">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+        <state relative-caret-position="406">
+          <caret line="280" column="51" selection-start-line="280" selection-start-column="51" selection-end-line="280" selection-end-column="51" />
         </state>
       </provider>
     </entry>
