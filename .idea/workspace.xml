@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +22,10 @@
       <file leaf-file-name="forceatlas2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3723">
-              <caret line="178" column="1" lean-forward="true" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+            <state relative-caret-position="273">
+              <caret line="362" selection-start-line="362" selection-start-column="2" selection-end-line="363" selection-end-column="12" />
               <folding>
-                <element signature="e#589#610#0" expanded="true" />
+                <element signature="e#107#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,17 +141,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2103" />
+    <option name="y" value="99" />
+    <option name="width" value="1585" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,16 +333,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="2103" y="99" width="1585" height="879" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.17017913" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.18422754" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.2791712" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.23648648" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.30861506" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.25405404" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -355,21 +357,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.15700738" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18320611" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.21264994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -669,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="315" column="71" selection-start-line="315" selection-start-column="71" selection-end-line="315" selection-end-column="71" />
-          <folding>
-            <element signature="e#5238#7034#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,37 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/test_forceatlas2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/fa2util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="262" column="27" lean-forward="true" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/fa2util.pxd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/test_forceatlas2.py" />
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/fa2util.py" />
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/fa2util.pxd" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/nx_pylab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
@@ -720,12 +692,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3723">
-          <caret line="178" column="1" lean-forward="true" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+        <state relative-caret-position="273">
+          <caret line="362" selection-start-line="362" selection-start-column="2" selection-end-line="363" selection-end-column="12" />
           <folding>
-            <element signature="e#589#610#0" expanded="true" />
+            <element signature="e#107#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
