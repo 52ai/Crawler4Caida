@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on Feb 25, 2020 By Wenyan YU
+create on Feb 26, 2020 By Wenyan YU
 
 Function:
 
@@ -13,6 +13,7 @@ Gephi版：https://github.com/gephi/gephi/blob/master/modules/LayoutPlugin/src/m
 新版本1：需要调通forceAtlas2算法，并能够在此基础上做相应的改进和推广
 新版本2：在forceAtlas2算法的基础上，开始向三维推广forceAtlas3d
 新版本3：在力引导网络布局算法3D版的基础上，优化展示效果
+新版本4：在力引导网络布局算法3D版优化展示效果基础上，引入动画（animation）的概念，进一步方便展示效果
 
 """
 from math import sqrt
