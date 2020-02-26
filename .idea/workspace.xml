@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,14 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forceatlas2_new3d.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forceatlas2_new3d.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="298" column="70" selection-start-line="298" selection-start-column="70" selection-end-line="298" selection-end-column="70" />
+            <state relative-caret-position="572">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forceatlas2_new3d_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="377" selection-start-line="377" selection-end-line="377" />
               <folding>
-                <element signature="e#534#555#0" expanded="true" />
+                <element signature="e#546#567#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="axes3d.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="2584" column="18" selection-start-line="2584" selection-start-column="18" selection-end-line="2584" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_base.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/site-packages/matplotlib/axes/_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="1088" column="26" selection-start-line="1088" selection-start-column="26" selection-end-line="1088" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -85,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip_TJ.py" />
         <option value="$PROJECT_DIR$/023RUNet/external_as_analysis.py" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py" />
@@ -136,6 +163,7 @@
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py" />
+        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py" />
       </list>
     </option>
   </component>
@@ -149,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,18 +188,12 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="025Visualization3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="028forceAtlas2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,19 +201,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\000LocalData" />
-      <recent name="D:\Code\Crawler4Caida" />
-      <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\028forceAtlas2" />
       <recent name="D:\Code\Crawler4Caida\027CNNet" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
       <recent name="D:\Code\Crawler4Caida\018Scatter" />
       <recent name="D:\Code\Crawler4Caida\026Labelme" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\000LocalData" />
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,25 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.forceatlas2_new3d">
-    <configuration name="forceatlas2_copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\028forceAtlas2\forceatlas2_new.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.forceatlas2_new3d_v2">
     <configuration name="forceatlas2_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,6 +260,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="forceatlas2_new3d_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,19 +320,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.forceatlas2_copy" />
       <item itemvalue="Python.forceatlas2_new" />
       <item itemvalue="Python.learn_networkx" />
       <item itemvalue="Python.matplotlib_3d_demo" />
       <item itemvalue="Python.forceatlas2_new3d" />
+      <item itemvalue="Python.forceatlas2_new3d_v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.forceatlas2_new3d_v2" />
         <item itemvalue="Python.forceatlas2_new3d" />
         <item itemvalue="Python.learn_networkx" />
         <item itemvalue="Python.forceatlas2_new" />
         <item itemvalue="Python.matplotlib_3d_demo" />
-        <item itemvalue="Python.forceatlas2_copy" />
       </list>
     </recent_temporary>
   </component>
@@ -344,9 +367,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.3391494" />
+      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" weight="0.2519084" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.25736097" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.17230098" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,21 +383,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.15700738" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18320611" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.21264994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -397,21 +420,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/draw_as_core_integrate_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/draw_as_core_integrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_core_map_integrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2686" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/027CNNet/country_active_as.py" />
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map_Gao/as_map_Gao20200201.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -595,14 +603,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7722">
           <caret line="351" column="9" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
-          <folding>
-            <element signature="e#107#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/ba.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v3.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -653,27 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1109">
-          <caret line="1504" column="8" selection-start-line="1504" selection-start-column="8" selection-end-line="1504" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="428" column="46" selection-start-line="428" selection-start-column="46" selection-end-line="428" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#109#148#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="e#347#368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,10 +685,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="298" column="70" selection-start-line="298" selection-start-column="70" selection-end-line="298" selection-end-column="70" />
+        <state relative-caret-position="572">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2416" column="10" lean-forward="true" selection-start-line="2416" selection-start-column="10" selection-end-line="2416" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="222" column="8" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/axis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="2090" column="46" selection-start-line="2090" selection-start-column="46" selection-end-line="2090" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="1088" column="26" selection-start-line="1088" selection-start-column="26" selection-end-line="1088" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="2584" column="18" selection-start-line="2584" selection-start-column="18" selection-end-line="2584" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="377" selection-start-line="377" selection-end-line="377" />
           <folding>
-            <element signature="e#534#555#0" expanded="true" />
+            <element signature="e#546#567#0" expanded="true" />
           </folding>
         </state>
       </provider>
