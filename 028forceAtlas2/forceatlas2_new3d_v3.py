@@ -364,12 +364,15 @@ def draw_3d(G_3d, pos, graph_name, is_show=False):
     ax.set_ylabel('Y', color="white")
     ax.set_zlabel('Z', color="white")
     ax.grid(b=False)  # 去除栅栏
-    ax.yaxis.set_ticks_position('none')
-    ax.zaxis.set_ticks_position('none')
+
+    # ax.yaxis.set_ticks_position('none')
+    # ax.zaxis.set_ticks_position('none')
     # ax.patch.set_facecolor('black')
-    # ax.set_title("Force 3D", size=20, color="white")
+
+    ax.set_title("Force 3D", size=20, color="white")
     ax.set_facecolor('black')
     plt.axis('off')
+
     save_path = "../000LocalData/networkx_graph/" + graph_name + ".png"
     plt.savefig(save_path, dpi=200)
     if is_show:  # 判断是否需要show

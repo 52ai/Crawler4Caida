@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028forceAtlas2/learn_matplotlib_animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/029Torch/hello_touch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/029Torch/linear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,37 +18,42 @@
   <component name="FavoritesManager">
     <favorites_list name="Crawler4Caida">
       <favorite_root url="file://$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/environment" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forceatlas2_new3d_v3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
+    <leaf>
+      <file leaf-file-name="env.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="733">
+                <caret line="149" column="110" selection-start-line="149" selection-start-column="110" selection-end-line="149" selection-end-column="110" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello_touch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/029Torch/hello_touch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linear.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/029Torch/linear.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="learn_matplotlib_animation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/028forceAtlas2/learn_matplotlib_animation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#206#246#0" expanded="true" />
-                <element signature="e#242#1118#0" />
+                <element signature="e#77#89#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animation.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python37/Lib/site-packages/matplotlib/animation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3174">
-              <caret line="967" column="8" selection-start-line="967" selection-start-column="8" selection-end-line="967" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -107,9 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py" />
-        <option value="$PROJECT_DIR$/000LocalData/caict_k/pwd.csv" />
-        <option value="$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py" />
         <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py" />
         <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" />
@@ -156,14 +159,18 @@
         <option value="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py" />
-        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/learn_matplotlib_animation.py" />
+        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" />
+        <option value="$PROJECT_DIR$/env.md" />
+        <option value="$PROJECT_DIR$/029Torch/hello_touch.py" />
+        <option value="$PROJECT_DIR$/029Torch/linear.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2873" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2473" />
+    <option name="y" value="54" />
+    <option name="width" value="1011" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -171,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,33 +189,32 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="028forceAtlas2" type="462c0819:PsiDirectoryNode" />
+              <item name="029Torch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData" />
+      <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\028forceAtlas2" />
       <recent name="D:\Code\Crawler4Caida\027CNNet" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
       <recent name="D:\Code\Crawler4Caida\018Scatter" />
       <recent name="D:\Code\Crawler4Caida\026Labelme" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\000LocalData" />
-      <recent name="D:\Code\Crawler4Caida" />
-      <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,25 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.learn_matplotlib_animation">
-    <configuration name="forceatlas2_new3d" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.linear">
     <configuration name="forceatlas2_new3d_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,6 +266,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="hello_touch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/029Torch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/029Torch/hello_touch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="learn_matplotlib_animation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,7 +302,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="learn_networkx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linear" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,30 +310,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/029Torch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/learn_networkx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/029Torch/linear.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.learn_networkx" />
-      <item itemvalue="Python.forceatlas2_new3d" />
       <item itemvalue="Python.forceatlas2_new3d_v2" />
       <item itemvalue="Python.learn_matplotlib_animation" />
       <item itemvalue="Python.forceatlas2_new3d_v3" />
+      <item itemvalue="Python.hello_touch" />
+      <item itemvalue="Python.linear" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linear" />
+        <item itemvalue="Python.hello_touch" />
+        <item itemvalue="Python.forceatlas2_new3d_v3" />
         <item itemvalue="Python.learn_matplotlib_animation" />
         <item itemvalue="Python.forceatlas2_new3d_v2" />
-        <item itemvalue="Python.forceatlas2_new3d" />
-        <item itemvalue="Python.forceatlas2_new3d_v3" />
-        <item itemvalue="Python.learn_networkx" />
       </list>
     </recent_temporary>
   </component>
@@ -353,17 +360,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" weight="0.37605932" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.1743941" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.27973568" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.23991276" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.17230098" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22657952" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,21 +384,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7039187" visible="true" weight="0.15700738" />
       <window_info id="Structure" order="1" sideWeight="0.29608127" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18320611" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23227917" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.21264994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.24536532" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -414,33 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1928" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="264" column="11" selection-start-line="264" selection-start-column="11" selection-end-line="264" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/Generate_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="e#95#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/Graph_weibo_as.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="455">
@@ -703,9 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/style/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/matplotlib/style/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -720,21 +697,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/learn_matplotlib_animation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="2596">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/learn_matplotlib_animation.py">
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="733">
+            <caret line="149" column="110" selection-start-line="149" selection-start-column="110" selection-end-line="149" selection-end-column="110" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/torch/autograd/variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/029Torch/linear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#206#246#0" expanded="true" />
-            <element signature="e#242#1118#0" />
+            <element signature="e#77#89#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/029Torch/hello_touch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
