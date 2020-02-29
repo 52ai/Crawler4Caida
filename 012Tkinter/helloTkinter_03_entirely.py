@@ -1,4 +1,4 @@
-# utf-8
+# coding:utf-8
 """
 create on 30 Aug,2019 by Wayne Yu
 
@@ -10,6 +10,7 @@ from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
 import tkinter.filedialog
+
 
 class App:
     def __init__(self, root):
@@ -104,7 +105,6 @@ class App:
             tk.messagebox.showinfo("提示", "输入用户名长度不够，请重新输入！")
             self.e1.delete(0, END)
             return False
-
 
 
 if __name__ == "__main__":
