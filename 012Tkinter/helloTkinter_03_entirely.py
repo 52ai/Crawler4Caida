@@ -10,6 +10,7 @@ from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
 import tkinter.filedialog
+from ttkthemes import ThemedTk
 
 
 class App:
@@ -109,7 +110,8 @@ class App:
 
 if __name__ == "__main__":
     # 创建一个top level的根窗口，并把他作为参数实例化APP对象
-    root = tk.Tk()
+    # root = tk.Tk()
+    root = ThemedTk(theme="arc")
     root.minsize(400, 870)  # 设置最小尺寸
     app = App(root)
     # 开始主事件循环

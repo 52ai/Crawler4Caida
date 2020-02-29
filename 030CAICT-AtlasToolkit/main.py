@@ -9,9 +9,10 @@ Function:
 """
 from tkinter import *
 import tkinter as tk
+from tkinter import ttk
 import tkinter.messagebox
 import tkinter.filedialog
-
+from ttkthemes import ThemedTk, ThemedStyle
 
 def get_screen_size(window):
     return window.winfo_screenwidth(), window.winfo_screenheight()
@@ -138,7 +139,7 @@ class App:
         # 增加绘图目标Label Frame
         self.cv_frame = Frame(root, width=600, height=685, bg='#fff2cc')
         self.cv_frame.grid(row=0, rowspan=5, column=0, sticky=N)
-        aim_frame = LabelFrame(self.cv_frame, text="第一步：您的绘图目标是什么？", width=600, height=200, bg='#fff2cc')
+        aim_frame = LabelFrame(self.cv_frame, text="第一步：确定绘图目标", width=600, height=60, bg='#fff2cc')
         aim_frame.grid(row=0, column=0, sticky=W)
         aim_frame.grid_propagate(0)  # 组件大小不变
         # #给绘图目标Label Frame里面添加Radiobutton
@@ -149,8 +150,13 @@ class App:
                     "希望分析文本数据词频信息",
                     "希望展示多类时间序列数据"]
 
-        for i in range(0, len(aim_list)):
-            Radiobutton(aim_frame, text=aim_list[i], command=self.call_aim_rb, variable=self.aim_v_radio, value=i, bg='#fff2cc').grid(row=i, column=0, sticky=W)
+        # for i in range(0, len(aim_list)):
+        #     Radiobutton(aim_frame, text=aim_list[i], command=self.call_aim_rb, variable=self.aim_v_radio, value=i, bg='#fff2cc').grid(row=i, column=0, sticky=W)
+        comvalue_aim = StringVar()
+        c_aim = ttk.Combobox(aim_frame, textvariable=comvalue_aim, width=80)
+        c_aim["values"] = aim_list
+        c_aim.current(1)
+        c_aim.grid(row=0, column=0, sticky=W)
 
         # 根据第一步的选择自动给出绘图实例
 
@@ -164,7 +170,7 @@ class App:
         tool_frame.grid_propagate(0)  # 组件大小不变
 
         # 导出绘图数据格式
-        export_frame = LabelFrame(self.cv_frame, text="第三步：导出绘图数据格式", width=600, height=50, bg='#fff2cc')
+        export_frame = LabelFrame(self.cv_frame, text="第三步：导出数据格式", width=600, height=50, bg='#fff2cc')
         export_frame.grid(row=2, column=0, sticky=W)
         export_frame.grid_propagate(0)  # 组件大小不变
 
@@ -219,22 +225,22 @@ class App:
                 Radiobutton(tool_frame, text=tool_list[i], variable=self.tool_v_radio, value=i, bg='#fff2cc').grid(row=i, column=0, sticky=W)
 
         # 个性化数据处理
-        process_frame = LabelFrame(self.cv_frame, text="第三步：个性化的数据处理", width=600, height=100, bg='#fff2cc')
+        process_frame = LabelFrame(self.cv_frame, text="第四步：个性数据处理", width=600, height=100, bg='#fff2cc')
         process_frame.grid(row=3, column=0, sticky=W)
         process_frame.grid_propagate(0)  # 组件大小不变
 
         # 用户上传绘图数据
-        upload_frame = LabelFrame(self.cv_frame, text="第四步：用户上传绘图数据", width=600, height=50, bg='#fff2cc')
+        upload_frame = LabelFrame(self.cv_frame, text="第五步：上传绘图数据", width=600, height=50, bg='#fff2cc')
         upload_frame.grid(row=4, column=0, sticky=W)
         upload_frame.grid_propagate(0)  # 组件大小不变
 
         # 用户获取绘图结果（绘图参数调优）
-        result_frame = LabelFrame(self.cv_frame, text="第五步：用户获取绘图结果", width=600, height=50, bg='#fff2cc')
+        result_frame = LabelFrame(self.cv_frame, text="第六步：获取绘图结果", width=600, height=50, bg='#fff2cc')
         result_frame.grid(row=5, column=0, sticky=W)
         result_frame.grid_propagate(0)  # 组件大小不变
 
         # 目标反馈与评价
-        feedback_frame = LabelFrame(self.cv_frame, text="第六步：目标的反馈与评价", width=600, height=50, bg='#fff2cc')
+        feedback_frame = LabelFrame(self.cv_frame, text="第七步：目标反馈评价", width=600, height=50, bg='#fff2cc')
         feedback_frame.grid(row=6, column=0, sticky=W)
         feedback_frame.grid_propagate(0)  # 组件大小不变
 
@@ -249,12 +255,14 @@ class App:
 
 if __name__ == "__main__":
     # 创建一个Top Level的根窗口， 并把他们作为参数实例化为App对象
-    root = tk.Tk()
+    # root = tk.Tk()
+    root = ThemedTk(theme="arc")
     root.title("CAICT地图绘制工具箱（CAICT-AtlasToolkit）")
     center_window(root, 0, 0)  # 设置窗口位置
     # root.maxsize(750, 800)
     root.minsize(770, 690)  # 设置窗口最小尺寸
     root.resizable(0, 0)  # 锁定尺寸
+    # root.attributes("-alpha", 0.80)
     app = App(root)
     # 开始主事件循环
     root.mainloop()
