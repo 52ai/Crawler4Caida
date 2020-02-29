@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" beforeDir="false" afterPath="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,49 +18,49 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4552696">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="helloTkinter_03_entirely.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#104#125#0" expanded="true" />
-                    <element signature="e#3700#4002#0" />
-                    <element signature="e#4038#4287#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                    <element signature="e#241#303#0" />
-                    <element signature="e#339#395#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="helloTkinter_03_entirely.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
+              <folding>
+                <element signature="e#104#125#0" expanded="true" />
+                <element signature="e#3700#4002#0" />
+                <element signature="e#4038#4287#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="166" column="61" lean-forward="true" selection-start-line="166" selection-start-column="61" selection-end-line="166" selection-end-column="61" />
+              <folding>
+                <element signature="e#111#132#0" expanded="true" />
+                <element signature="e#6352#6771#0" />
+                <element signature="e#6826#7194#0" />
+                <element signature="e#7249#7609#0" />
+                <element signature="e#7664#8027#0" />
+                <element signature="e#8082#8445#0" />
+                <element signature="e#8497#8857#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph_as_global.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,8 +170,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2473" />
-    <option name="y" value="54" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1011" />
     <option name="height" value="1047" />
   </component>
@@ -367,7 +365,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.14014752" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.1332982" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
@@ -439,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2660">
-          <caret line="121" column="24" lean-forward="true" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_cn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2574">
@@ -471,13 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13596">
           <caret line="630" selection-start-line="630" selection-end-line="630" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -725,10 +709,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/cv_bg.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/cv_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2198">
+          <caret line="2466" column="8" selection-start-line="2466" selection-start-column="8" selection-end-line="2466" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="574">
+          <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
           <folding>
             <element signature="e#104#125#0" expanded="true" />
             <element signature="e#3700#4002#0" />
@@ -737,27 +734,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/tkinter/__init__.py">
+    <entry file="file://$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1562">
-          <caret line="2391" column="8" selection-start-line="2391" selection-start-column="8" selection-end-line="2391" selection-end-column="8" />
+        <state relative-caret-position="-11191">
+          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/cv_bg.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/cv_bg.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="88">
+          <caret line="166" column="61" lean-forward="true" selection-start-line="166" selection-start-column="61" selection-end-line="166" selection-end-column="61" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#241#303#0" />
-            <element signature="e#339#395#0" />
+            <element signature="e#111#132#0" expanded="true" />
+            <element signature="e#6352#6771#0" />
+            <element signature="e#6826#7194#0" />
+            <element signature="e#7249#7609#0" />
+            <element signature="e#7664#8027#0" />
+            <element signature="e#8082#8445#0" />
+            <element signature="e#8497#8857#0" />
           </folding>
         </state>
       </provider>
