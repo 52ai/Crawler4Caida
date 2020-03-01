@@ -61,6 +61,7 @@ def graph_rs(year_string, opts_title_name) -> Graph:
     # print(hjson["nodes"])
     # print(hjson["links"])
     nodes_list, links_list, categories_list, title_string = generate_json(year_string)
+
     opts_title_name = opts_title_name + title_string
     c = (
         Graph(init_opts=opts.InitOpts(width="1920px", height="900px", page_title=opts_title_name, theme=ThemeType.INFOGRAPHIC))

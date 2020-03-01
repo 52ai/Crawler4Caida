@@ -30,11 +30,15 @@ def graph_weibo() -> Graph:
             label_opts=opts.LabelOpts(is_show=False),
         )
         .set_global_opts(
-            legend_opts=opts.LegendOpts(is_show=False),
+            legend_opts=opts.LegendOpts(
+                orient="vertical",
+                pos_left="1%",
+                pos_top="5%",
+            ),
             title_opts=opts.TitleOpts(title="Graph-微博转发关系图"),
         )
     )
     return c
 
 
-graph_weibo().render("Graph_weibo_render.html")
+graph_weibo().render("..\\000LocalData\\caict_k\\Graph_weibo_render.html")
