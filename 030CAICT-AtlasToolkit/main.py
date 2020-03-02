@@ -20,7 +20,7 @@ from pyecharts import options as opts
 from pyecharts.charts import Graph, ThemeRiver, Polar, WordCloud, Map
 from pyecharts.globals import ThemeType
 import json
-
+from tk_html_widgets import HTMLLabel, HTMLText, HTMLScrolledText
 
 def graph_2d(open_file) -> Graph:
     """
@@ -414,8 +414,7 @@ class App:
             # 先清空tool_frame
             for widget in tool_frame.winfo_children():
                 widget.destroy()
-            tool_list = ["01-网络拓扑图（2D）",
-                         "02-网络拓扑图（3D）"]
+            tool_list = ["01-网络拓扑图（2D）"]
 
             c_tool = ttk.Combobox(tool_frame, textvariable=self.c_tv_tool, width=70)
             c_tool["values"] = tool_list
@@ -497,7 +496,6 @@ class App:
         根据aim_number + tool_number,定义好绘图的数据接口格式 
         """
         data_format = {"01-01": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
-                       "01-02": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
                        "02-04": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
                        "03-03": {"line": ["node_name", "radius", "angle"]},
                        "04-071": {"line": ["location", "value"]},
@@ -508,29 +506,31 @@ class App:
         export_frame = LabelFrame(self.cv_frame, text="第三步：导出数据格式", width=600, height=580, bg='#fff2cc')
         export_frame.grid(row=0, column=0, sticky=W)
         export_frame.grid_propagate(0)  # 组件大小不变
-
-        format_label = Label(export_frame, text=str(data_format[str(self.aim_tool_number)]), anchor="w", width=72, bg='#fff2cc')
+        format_label_text = "<B><i>" + str(data_format[str(self.aim_tool_number)]) + "</i></B>"
+        # format_label = HTMLLabel(export_frame, text=format_label_text, anchor="w", width=72, bg='#fff2cc')
+        format_label = HTMLLabel(export_frame, html=format_label_text, width=72, height=6)
         format_label.grid(row=0, column=0, sticky=W, padx=5)
 
         if self.aim_tool_number == "01-01":
             format_file = "./samples/01-01(01).json"
             grou_sb_text = "绘图数据示例："+str(format_file)
+
             # 添加显示文本的信息框
             group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            # s = ttk.Style()
+            # s.configure('TLabelframe.Label', font='arial 14 bold', background='#fff2cc')
+            # group_sb = ttk.LabelFrame(export_frame, text=grou_sb_text, width=500, height=500)
             group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
-            sb = Scrollbar(group_sb)
+            sb = ttk.Scrollbar(group_sb)
             sb.pack(side=RIGHT, fill=Y)
             lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
             file_in = open(format_file, 'r', encoding='utf-8')
+
             for line in file_in.readlines():
                 # print(line, end="")
                 lb.insert(END, line)
             lb.pack(side=LEFT, fill=BOTH)
             sb.config(command=lb.yview)
-        if self.aim_tool_number == "01-02":
-            print("该算法正在集成中……请您晚些时日再用")
-            tk.messagebox.showinfo("提示", "该算法正在集成中……请您晚些时日再用")
-            self.return_main()
         if self.aim_tool_number == "02-04":
             format_file = "./samples/02-04(01).json"
             grou_sb_text = "绘图数据示例："+str(format_file)
@@ -651,6 +651,9 @@ class App:
         process_label = Label(process_frame, text=process_tips_str, anchor="w", width=72, bg='#fff2cc')
         process_label.grid(row=1, column=0, sticky=W, padx=5)
 
+        # process_label_text = "<B>用户根据导出的绘图数据格式进行线下个性化数据处理(如:Excel、Python等)\n支持EXCEL、TXT、CSV、Json<参考绘图数据样例></i></B>"
+        # process_label = HTMLLabel(process_frame, html=process_label_text, width=72, height=6)
+        # process_label.grid(row=0, column=0, sticky=W, padx=5)
         # # 添加下一步按钮
         btn_process = ttk.Button(process_frame, text="下一步", width=8, command=self.call_process_btn)
         btn_process.grid(row=0, column=1, sticky=W, padx=5)
@@ -848,7 +851,7 @@ class App:
         print("Event:关于页面")
         tk.messagebox.showinfo("CAICT-AtlasToolkit V0.1", "Using Python+Tkinter+Pyecharts+Matplotlib"
                                                           "\n亮点1：按照数给定数据格式，上传数据即可实现一键绘图；"
-                                                          "\n亮点2：自主实现了ForceAtlas2的网络布局算法，并首次推广至3D；"
+                                                          "\n亮点2：自主实现了ForceAtlas2的网络布局算法，并将其推广至3D；"
                                                           "\n亮点3：支持多种复杂图的绘制。\n"
                                                           "\n指导人员：李原、李想\n开发人员：余文艳(yuwenyan@caict.ac.cn)"
                                                           "\n开发时间：2020年3月")
