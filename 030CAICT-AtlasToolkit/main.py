@@ -15,10 +15,9 @@ from tkinter import ttk
 import tkinter.messagebox
 import tkinter.filedialog
 from ttkthemes import ThemedTk
-from tk_html_widgets import HTMLScrolledText, HTMLLabel, HTMLText
 
 from pyecharts import options as opts
-from pyecharts.charts import Graph, ThemeRiver, Polar, WordCloud
+from pyecharts.charts import Graph, ThemeRiver, Polar, WordCloud, Map
 from pyecharts.globals import ThemeType
 import json
 
@@ -95,6 +94,93 @@ def graph_starcloud(open_file) -> Graph:
     return c
 
 
+def polar(open_file) -> Polar:
+    """
+    根据定义好的数据格式，利用pyecharts绘制极坐标图，格式为极径、极角（0-360）
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "极坐标图<" + title_str + ">"
+    # 打开文件读取数据
+    data = []
+    file_in = open(open_file, "r", encoding="utf-8")
+    for line in file_in.readlines():
+        line = line.strip().split(",")
+        data.append(line)
+
+    c = (
+        Polar(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.DARK))
+        .add_schema(
+            angleaxis_opts=opts.AngleAxisOpts(
+                type_="value",  boundary_gap=False, start_angle=0, min_=0, max_=360
+            )
+        )
+        .add(
+            "",
+            data,
+            type_="scatter",
+            symbol="circle",
+            symbol_size=10,
+            label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
+    )
+    return c
+
+
+def map_china(open_file) -> Map:
+    """
+    绘制中国地图
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "中国地图<" + title_str + ">"
+    # 打开文件读取数据
+    data = []
+    file_in = open(open_file, "r", encoding="utf-8")
+    for line in file_in.readlines():
+        line = line.strip().split(",")
+        data.append(line)
+
+    c = (
+        Map(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.WESTEROS))
+        .add("", data, "china")
+        .set_global_opts(
+            title_opts=opts.TitleOpts(title=title_str),
+            visualmap_opts=opts.VisualMapOpts(max_=200),
+        )
+    )
+    return c
+
+
+def map_world(open_file) -> Map:
+    """
+    绘制世界地图
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "世界地图<" + title_str + ">"
+    # 打开文件读取数据
+    data = []
+    file_in = open(open_file, "r", encoding="utf-8")
+    for line in file_in.readlines():
+        line = line.strip().split(",")
+        data.append(line)
+
+    c = (
+        Map(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.LIGHT))
+        .add("", data, "world")
+        .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(
+            title_opts=opts.TitleOpts(title=title_str),
+            visualmap_opts=opts.VisualMapOpts(max_=200),
+        )
+    )
+    return c
+
+
 def words_cloud(open_file)->WordCloud:
     """
     根据定义好的数据格式，利用pyecharts绘制词云图
@@ -143,40 +229,6 @@ def theme_river(open_file)->ThemeRiver:
               singleaxis_opts=opts.SingleAxisOpts(type_="time", pos_bottom="10%"))
          .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
          )
-    return c
-
-
-def polar(open_file) -> Polar:
-    """
-    根据定义好的数据格式，利用pyecharts绘制极坐标图，格式为极径、极角（0-360）
-    :param open_file:
-    :return:
-    """
-    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
-    title_str = "极坐标图<" + title_str + ">"
-    # 打开文件读取数据
-    data = []
-    file_in = open(open_file, "r", encoding="utf-8")
-    for line in file_in.readlines():
-        line = line.strip().split(",")
-        data.append(line)
-
-    c = (
-        Polar(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.DARK))
-        .add_schema(
-            angleaxis_opts=opts.AngleAxisOpts(
-                type_="value",  boundary_gap=False, start_angle=0, min_=0, max_=360
-            )
-        )
-        .add(
-            "",
-            data,
-            type_="scatter",
-            symbol="circle",
-            symbol_size=10,
-            label_opts=opts.LabelOpts(is_show=False))
-        .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
-    )
     return c
 
 
@@ -294,7 +346,7 @@ class App:
         Button(func_frame_mid, text="06主题河流图", anchor="e", width=21, fg='white', bg='#9dbb61').grid(row=6, column=0, sticky=W)
         Button(func_frame_mid, text="07地理图绘制系列", anchor="e", width=21, fg='white', bg='#9dbb61').grid(row=7, column=0, sticky=W)
         # #添加关于按钮
-        Button(func_frame_bottom, text="关于", anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=8, column=0, sticky=S)
+        Button(func_frame_bottom, text="关于", command=self.about_toolkit, anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=8, column=0, sticky=S)
 
     def quit(self):
         # 结束主事件循环
@@ -394,7 +446,7 @@ class App:
             # 先清空tool_frame
             for widget in tool_frame.winfo_children():
                 widget.destroy()
-            tool_list = ["07-地理图绘制系列"]
+            tool_list = ["071-地理图绘制系列(中国地图)", "072-地理图绘制系列(世界地图)"]
             c_tool = ttk.Combobox(tool_frame, textvariable=self.c_tv_tool, width=70)
             c_tool["values"] = tool_list
             c_tool.current(0)
@@ -447,8 +499,9 @@ class App:
         data_format = {"01-01": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
                        "01-02": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
                        "02-04": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
-                       "03-03": {"line": ["node_name", "angle", "radius"]},
-                       "04-07": {"line": ["node_name", "longitude", "latitude"]},
+                       "03-03": {"line": ["node_name", "radius", "angle"]},
+                       "04-071": {"line": ["location", "value"]},
+                       "04-072": {"line": ["location", "value"]},
                        "05-05": {"line": ["words", "frequency"]},
                        "06-06": {"line": ["date", "values", "theme"]}}
         # 导出绘图数据格式
@@ -474,7 +527,10 @@ class App:
                 lb.insert(END, line)
             lb.pack(side=LEFT, fill=BOTH)
             sb.config(command=lb.yview)
-
+        if self.aim_tool_number == "01-02":
+            print("该算法正在集成中……请您晚些时日再用")
+            tk.messagebox.showinfo("提示", "该算法正在集成中……请您晚些时日再用")
+            self.return_main()
         if self.aim_tool_number == "02-04":
             format_file = "./samples/02-04(01).json"
             grou_sb_text = "绘图数据示例："+str(format_file)
@@ -493,6 +549,38 @@ class App:
 
         if self.aim_tool_number == "03-03":
             format_file = "./samples/03-03(01).csv"
+            grou_sb_text = "绘图数据示例：" + str(format_file)
+            # 添加显示文本的信息框
+            group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
+            sb = Scrollbar(group_sb)
+            sb.pack(side=RIGHT, fill=Y)
+            lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
+            file_in = open(format_file, 'r', encoding='utf-8')
+            for line in file_in.readlines():
+                # print(line, end="")
+                lb.insert(END, line)
+            lb.pack(side=LEFT, fill=BOTH)
+            sb.config(command=lb.yview)
+
+        if self.aim_tool_number == "04-071":
+            format_file = "./samples/04-071(01).csv"
+            grou_sb_text = "绘图数据示例：" + str(format_file)
+            # 添加显示文本的信息框
+            group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
+            sb = Scrollbar(group_sb)
+            sb.pack(side=RIGHT, fill=Y)
+            lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
+            file_in = open(format_file, 'r', encoding='utf-8')
+            for line in file_in.readlines():
+                # print(line, end="")
+                lb.insert(END, line)
+            lb.pack(side=LEFT, fill=BOTH)
+            sb.config(command=lb.yview)
+
+        if self.aim_tool_number == "04-072":
+            format_file = "./samples/04-072(01).csv"
             grou_sb_text = "绘图数据示例：" + str(format_file)
             # 添加显示文本的信息框
             group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
@@ -637,6 +725,20 @@ class App:
             except Exception as e:
                 print("文件格式有误，绘图失败：", e)
                 self.call_process_btn()
+        elif self.aim_tool_number == "04-071":
+            try:
+                map_china(file_name).render(self.new_draw_html)
+                print("Event:绘图成功")
+            except Exception as e:
+                print("文件格式有误，绘图失败：", e)
+                self.call_process_btn()
+        elif self.aim_tool_number == "04-072":
+            try:
+                map_world(file_name).render(self.new_draw_html)
+                print("Event:绘图成功")
+            except Exception as e:
+                print("文件格式有误，绘图失败：", e)
+                self.call_process_btn()
         elif self.aim_tool_number == "05-05":
             try:
                 words_cloud(file_name).render(self.new_draw_html)
@@ -737,6 +839,19 @@ class App:
         """
         print("Event:查看作品一览目录")
         os.startfile(os.path.abspath(self.sample_list_dir))
+
+    def about_toolkit(self):
+        """
+        绘图工具的关于说明
+        :return:
+        """
+        print("Event:关于页面")
+        tk.messagebox.showinfo("CAICT-AtlasToolkit V0.1", "Using Python+Tkinter+Pyecharts+Matplotlib"
+                                                          "\n亮点1：按照数给定数据格式，上传数据即可实现一键绘图；"
+                                                          "\n亮点2：自主实现了ForceAtlas2的网络布局算法，并首次推广至3D；"
+                                                          "\n亮点3：支持多种复杂图的绘制。\n"
+                                                          "\n指导人员：李原、李想\n开发人员：余文艳(yuwenyan@caict.ac.cn)"
+                                                          "\n开发时间：2020年3月")
 
 
 if __name__ == "__main__":

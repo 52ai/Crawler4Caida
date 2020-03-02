@@ -2,18 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Map_世界地图</title>
+    <title>Map_中国地图</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
-        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/westeros.js"></script>
 
 </head>
 <body>
-    <div id="bb1c8ed297634302926b2db8b7b5f969" class="chart-container" style="width:1920px; height:960px;"></div>
+    <div id="06a58b363b284665b14371236ff70b65" class="chart-container" style="width:1920px; height:960px;"></div>
     <script>
-        var chart_bb1c8ed297634302926b2db8b7b5f969 = echarts.init(
-            document.getElementById('bb1c8ed297634302926b2db8b7b5f969'), 'westeros', {renderer: 'canvas'});
-        var option_bb1c8ed297634302926b2db8b7b5f969 = {
+        var chart_06a58b363b284665b14371236ff70b65 = echarts.init(
+            document.getElementById('06a58b363b284665b14371236ff70b65'), 'westeros', {renderer: 'canvas'});
+        var option_06a58b363b284665b14371236ff70b65 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -27,51 +27,45 @@
             "type": "map",
             "name": "\u5546\u5bb6A",
             "label": {
-                "show": false,
+                "show": true,
                 "position": "top",
                 "margin": 8
             },
-            "mapType": "world",
+            "mapType": "china",
             "data": [
                 {
-                    "name": "China",
-                    "value": 139
+                    "name": "\u5e7f\u4e1c",
+                    "value": 122
                 },
                 {
-                    "name": "Canada",
-                    "value": 33
+                    "name": "\u5317\u4eac",
+                    "value": 112
                 },
                 {
-                    "name": "Brazil",
-                    "value": 124
+                    "name": "\u4e0a\u6d77",
+                    "value": 117
                 },
                 {
-                    "name": "Russia",
-                    "value": 34
+                    "name": "\u6c5f\u897f",
+                    "value": 120
                 },
                 {
-                    "name": "United States",
-                    "value": 79
+                    "name": "\u6e56\u5357",
+                    "value": 115
                 },
                 {
-                    "name": "Africa",
-                    "value": 87
+                    "name": "\u6d59\u6c5f",
+                    "value": 130
                 },
                 {
-                    "name": "Germany",
-                    "value": 70
+                    "name": "\u6c5f\u82cf",
+                    "value": 45
                 }
             ],
             "roam": true,
             "zoom": 1,
             "showLegendSymbol": true,
-            "emphasis": {},
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
+            "emphasis": {}
         }
     ],
     "legend": [
@@ -103,7 +97,7 @@
     },
     "title": [
         {
-            "text": "Map-\u4e16\u754c\u5730\u56fe",
+            "text": "Map_\u4e2d\u56fd\u5730\u56fe",
             "padding": 5,
             "itemGap": 10
         }
@@ -128,7 +122,7 @@
         "itemHeight": 140
     }
 };
-        chart_bb1c8ed297634302926b2db8b7b5f969.setOption(option_bb1c8ed297634302926b2db8b7b5f969);
+        chart_06a58b363b284665b14371236ff70b65.setOption(option_06a58b363b284665b14371236ff70b65);
     </script>
 </body>
 </html>
