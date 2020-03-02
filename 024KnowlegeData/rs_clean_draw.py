@@ -62,7 +62,7 @@ def write_to_csv(res_list, des_path):
     print("write file <%s> ..." % des_path)
     csvFile = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile, delimiter="|")
+        writer = csv.writer(csvFile, delimiter=",")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
@@ -113,10 +113,13 @@ def list_rank2word_cloud(res_list_rank, opts_title_name)->WordCloud:
     words_data = []
     for item in res_list_rank:
         words_data.append(item)
-    # print(words_data)
+    print(words_data[0:100])
+    words_data = words_data[1:100]
+    save_path = "..\\000LocalData\\caict_k\\title_keywords_cloud.csv"
+    write_to_csv(words_data, save_path)
     c = (
          WordCloud(init_opts=opts.InitOpts(width="1920px", height="1080px", page_title=opts_title_name, theme=ThemeType.SHINE))
-         .add("", words_data, word_size_range=[10, 40], shape=SymbolType.ARROW)
+         .add("", words_data, word_size_range=[10, 200], shape=SymbolType.ARROW)
          .set_global_opts(title_opts=opts.TitleOpts(title=opts_title_name))
          )
     return c
@@ -329,24 +332,26 @@ def data_clean(res_file_path, des_file_path):
     title_list_rank = dict2list_rank(list2dict_count(title_keywords_list))
     list_rank2word_cloud(title_list_rank[0:], opts_title).render("..\\000LocalData\\caict_k\\title_keywords_cloud.html")
 
-    print("=>绘制词云（课题负责人）:", len(set(responsible_person_list)))
-    opts_title = "院软科学研究课题关键词词云（2005-2019）[课题负责人]"
-    title_list_rank = dict2list_rank(list2dict_count(responsible_person_list))
-    list_rank2word_cloud(title_list_rank[1:801], opts_title).render("..\\000LocalData\\caict_k\\responsible_person_cloud.html")
-
-    print("=>绘制词云（负责单位）:", len(set(dept_type_list)))
-    opts_title = "院软科学研究课题关键词词云（2005-2019）[负责单位]"
-    title_list_rank = dict2list_rank(list2dict_count(dept_type_list))
-    list_rank2word_cloud(title_list_rank[0:], opts_title).render("..\\000LocalData\\caict_k\\dept_type_cloud.html")
-
-    print("=>绘制词云（课题类型）:", len(set(subject_type_list)))
-    opts_title = "院软科学研究课题关键词词云（2005-2019）[课题类型]"
-    title_list_rank = dict2list_rank(list2dict_count(subject_type_list))
-    list_rank2word_cloud(title_list_rank[0:], opts_title).render("..\\000LocalData\\caict_k\\subject_type_cloud.html")
+    # print("=>绘制词云（课题负责人）:", len(set(responsible_person_list)))
+    # opts_title = "院软科学研究课题关键词词云（2005-2019）[课题负责人]"
+    # title_list_rank = dict2list_rank(list2dict_count(responsible_person_list))
+    # list_rank2word_cloud(title_list_rank[1:801], opts_title).render("..\\000LocalData\\caict_k\\responsible_person_cloud.html")
+    #
+    # print("=>绘制词云（负责单位）:", len(set(dept_type_list)))
+    # opts_title = "院软科学研究课题关键词词云（2005-2019）[负责单位]"
+    # title_list_rank = dict2list_rank(list2dict_count(dept_type_list))
+    # list_rank2word_cloud(title_list_rank[0:], opts_title).render("..\\000LocalData\\caict_k\\dept_type_cloud.html")
+    #
+    # print("=>绘制词云（课题类型）:", len(set(subject_type_list)))
+    # opts_title = "院软科学研究课题关键词词云（2005-2019）[课题类型]"
+    # title_list_rank = dict2list_rank(list2dict_count(subject_type_list))
+    # list_rank2word_cloud(title_list_rank[0:], opts_title).render("..\\000LocalData\\caict_k\\subject_type_cloud.html")
 
     print("=>绘制主题河流图（时间-统计-类型）:", len(subject_time_type_themeriver))
     opts_title = "院软科学研究课题主题河流图（2005-2019）"
     list_2theme_river(subject_time_type_themeriver, opts_title).render("..\\000LocalData\\caict_k\\subject_theme_river.html")
+    print(subject_time_type_themeriver)
+
 
     """"
     处理subject_bar_list开始
@@ -374,6 +379,8 @@ def data_clean(res_file_path, des_file_path):
     print("=>绘制课题类型Line面积图（课题类型）:", len(subject_bar_list))
     opts_title = "院软科学研究课题Line面积图（2005-2019）[课题类型]"
     list_2line_areastyle(subject_bar_list, opts_title).render("..\\000LocalData\\caict_k\\subject_line_areastyle.html")
+    save_path = "..\\000LocalData\\caict_k\\subject_line_areastyle.csv"
+    write_to_csv(subject_time_type_themeriver, save_path)
 
 
 if __name__ == "__main__":

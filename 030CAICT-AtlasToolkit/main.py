@@ -15,21 +15,27 @@ from tkinter import ttk
 import tkinter.messagebox
 import tkinter.filedialog
 from ttkthemes import ThemedTk
+from tk_html_widgets import HTMLScrolledText, HTMLLabel, HTMLText
 
 from pyecharts import options as opts
-from pyecharts.charts import Graph, Page
+from pyecharts.charts import Graph, ThemeRiver, Polar, WordCloud
 from pyecharts.globals import ThemeType
 import json
 
 
 def graph_2d(open_file) -> Graph:
+    """
+    网络拓扑图2D
+    :param open_file:
+    :return:
+    """
     title_str = str(open_file).strip().split("/")[-1].split(".")[0]
     title_str = "Graph<" + title_str + ">"
     with open(open_file, "r", encoding="utf-8") as f:
         j = json.load(f)
         nodes, links, categories = j
     c = (
-        Graph(init_opts=opts.InitOpts(width="1920px", height="900px", page_title=title_str, theme=ThemeType.INFOGRAPHIC))
+        Graph(init_opts=opts.InitOpts(width="1920px", height="900px", page_title=title_str, theme=ThemeType.DARK))
         .add(
             "",
             nodes,
@@ -47,6 +53,129 @@ def graph_2d(open_file) -> Graph:
             ),
             title_opts=opts.TitleOpts(title=title_str),
         )
+    )
+    return c
+
+
+def graph_starcloud(open_file) -> Graph:
+    """
+    绘制星云图
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "Graph_星云图<" + title_str + ">"
+    with open(open_file, "r", encoding="utf-8") as f:
+        j = json.load(f)
+        nodes, links, categories = j
+    c = (
+        Graph(init_opts=opts.InitOpts(width="1900px", height="960px", page_title=title_str, theme=ThemeType.DARK))
+        .add(
+            "",
+            nodes,
+            links,
+            categories,
+            # layout="circular",
+            is_rotate_label=True,
+            gravity=0.2,
+            repulsion=50,
+            linestyle_opts=opts.LineStyleOpts(width=0.1, opacity=0.8, color='source', curve=0),
+            label_opts=opts.LabelOpts(is_show=False),
+        )
+        .set_global_opts(
+            title_opts=opts.TitleOpts(title=title_str, title_textstyle_opts=opts.TextStyleOpts(color="#fff"), pos_left="2%"),
+            legend_opts=opts.LegendOpts(
+                orient="vertical",
+                pos_left="2%",
+                pos_top="5%",
+                pos_bottom="5"
+            )
+        )
+    )
+    return c
+
+
+def words_cloud(open_file)->WordCloud:
+    """
+    根据定义好的数据格式，利用pyecharts绘制词云图
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "词汇云图<" + title_str + ">"
+    # 打开文件读取数据
+    words_data = []
+    file_in = open(open_file, "r", encoding="utf-8")
+    for line in file_in.readlines():
+        line = line.strip().split(",")
+        words_data.append(line)
+
+    c = (
+         WordCloud(init_opts=opts.InitOpts(width="1920px", height="1080px", page_title=title_str, theme=ThemeType.SHINE))
+         .add("", words_data, word_size_range=[10, 200])
+         .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
+         )
+    return c
+
+
+def theme_river(open_file)->ThemeRiver:
+    """
+    根据定义好的格式，利用pyecharts绘制主题河流图
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "主题河流图<" + title_str + ">"
+    # 打开文件读取数据
+    theme_list = []
+    res_list = []
+    file_in = open(open_file, "r", encoding="utf-8")
+    for line in file_in.readlines():
+        line = line.strip().split(",")
+        res_list.append(line)
+        if line[-1] not in theme_list:
+            theme_list.append(line[-1])
+    c = (
+         ThemeRiver(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.SHINE))
+         .add(theme_list,
+              res_list,
+              label_opts=opts.LabelOpts(is_show=False),
+              singleaxis_opts=opts.SingleAxisOpts(type_="time", pos_bottom="10%"))
+         .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
+         )
+    return c
+
+
+def polar(open_file) -> Polar:
+    """
+    根据定义好的数据格式，利用pyecharts绘制极坐标图，格式为极径、极角（0-360）
+    :param open_file:
+    :return:
+    """
+    title_str = str(open_file).strip().split("/")[-1].split(".")[0]
+    title_str = "极坐标图<" + title_str + ">"
+    # 打开文件读取数据
+    data = []
+    file_in = open(open_file, "r", encoding="utf-8")
+    for line in file_in.readlines():
+        line = line.strip().split(",")
+        data.append(line)
+
+    c = (
+        Polar(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.DARK))
+        .add_schema(
+            angleaxis_opts=opts.AngleAxisOpts(
+                type_="value",  boundary_gap=False, start_angle=0, min_=0, max_=360
+            )
+        )
+        .add(
+            "",
+            data,
+            type_="scatter",
+            symbol="circle",
+            symbol_size=10,
+            label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
     )
     return c
 
@@ -81,6 +210,9 @@ class App:
         self.root = root
         self.aim_tool_number = ""  # 全局唯一定位为哪个算法
         self.download_dir = "./image"
+        self.sample_list_dir = "./GOOD"
+        self.new_draw_html = "./image/current.html"
+        self.new_draw_png = "./image/current.png"
 
         # # 增加菜单栏
         # menu_bar = Menu(root)
@@ -145,7 +277,7 @@ class App:
         Button(func_frame_top, command=self.draw_guide_init, text="绘图向导", anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=0, column=0, sticky=N)
         # # 增加作品一览Button
         Button(func_frame_top, command=self.open_download_dir, text="查看下载", anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=1, column=0, sticky=N)
-        Button(func_frame_top, text="作品一览", anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=2, column=0, sticky=N)
+        Button(func_frame_top, command=self.sample_list, text="作品一览", anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=2, column=0, sticky=N)
         # 增加回到主页按钮
         Button(func_frame_top, command=self.return_main, text="回到主页", anchor="e", width=21, fg='white', bg='#4bacc6').grid(row=3, column=0, sticky=N)
 
@@ -332,11 +464,74 @@ class App:
             grou_sb_text = "绘图数据示例："+str(format_file)
             # 添加显示文本的信息框
             group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
-            group_sb.grid(row=1, column=0, columnspan=2, sticky=W)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
             sb = Scrollbar(group_sb)
             sb.pack(side=RIGHT, fill=Y)
             lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
-            format_file = "./samples/01-01(01).json"
+            file_in = open(format_file, 'r', encoding='utf-8')
+            for line in file_in.readlines():
+                # print(line, end="")
+                lb.insert(END, line)
+            lb.pack(side=LEFT, fill=BOTH)
+            sb.config(command=lb.yview)
+
+        if self.aim_tool_number == "02-04":
+            format_file = "./samples/02-04(01).json"
+            grou_sb_text = "绘图数据示例："+str(format_file)
+            # 添加显示文本的信息框
+            group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
+            sb = Scrollbar(group_sb)
+            sb.pack(side=RIGHT, fill=Y)
+            lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
+            file_in = open(format_file, 'r', encoding='utf-8')
+            for line in file_in.readlines():
+                # print(line, end="")
+                lb.insert(END, line)
+            lb.pack(side=LEFT, fill=BOTH)
+            sb.config(command=lb.yview)
+
+        if self.aim_tool_number == "03-03":
+            format_file = "./samples/03-03(01).csv"
+            grou_sb_text = "绘图数据示例：" + str(format_file)
+            # 添加显示文本的信息框
+            group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
+            sb = Scrollbar(group_sb)
+            sb.pack(side=RIGHT, fill=Y)
+            lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
+            file_in = open(format_file, 'r', encoding='utf-8')
+            for line in file_in.readlines():
+                # print(line, end="")
+                lb.insert(END, line)
+            lb.pack(side=LEFT, fill=BOTH)
+            sb.config(command=lb.yview)
+
+        if self.aim_tool_number == "05-05":
+            format_file = "./samples/05-05(01).csv"
+            grou_sb_text = "绘图数据示例：" + str(format_file)
+            # 添加显示文本的信息框
+            group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
+            sb = Scrollbar(group_sb)
+            sb.pack(side=RIGHT, fill=Y)
+            lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
+            file_in = open(format_file, 'r', encoding='utf-8')
+            for line in file_in.readlines():
+                # print(line, end="")
+                lb.insert(END, line)
+            lb.pack(side=LEFT, fill=BOTH)
+            sb.config(command=lb.yview)
+
+        if self.aim_tool_number == "06-06":
+            format_file = "./samples/06-06(01).csv"
+            grou_sb_text = "绘图数据示例："+str(format_file)
+            # 添加显示文本的信息框
+            group_sb = LabelFrame(export_frame, text=grou_sb_text, width=500, height=500, bg='#fff2cc', padx=5, pady=5)
+            group_sb.grid(row=1, column=0, columnspan=2, sticky=W, pady=10)
+            sb = Scrollbar(group_sb)
+            sb.pack(side=RIGHT, fill=Y)
+            lb = Listbox(group_sb, yscrollcommand=sb.set, width=80, height=24)
             file_in = open(format_file, 'r', encoding='utf-8')
             for line in file_in.readlines():
                 # print(line, end="")
@@ -364,7 +559,7 @@ class App:
         process_tips_str = "用户根据导出的绘图数据格式进行线下个性化数据处理(如:Excel、Python等)"
         process_label = Label(process_frame, text=process_tips_str, anchor="w", width=72, bg='#fff2cc')
         process_label.grid(row=0, column=0, sticky=W, padx=5)
-        process_tips_str = "支持EXCEL、TXT、CSV、Json"
+        process_tips_str = "支持EXCEL、TXT、CSV、Json<参考绘图数据样例>"
         process_label = Label(process_frame, text=process_tips_str, anchor="w", width=72, bg='#fff2cc')
         process_label.grid(row=1, column=0, sticky=W, padx=5)
 
@@ -423,13 +618,42 @@ class App:
         # print("self.aim_tool_number:", self.aim_tool_number)
         if self.aim_tool_number == "01-01":
             try:
-                graph_2d(file_name).render("./image/current.html")
+                graph_2d(file_name).render(self.new_draw_html)
+                print("Event:绘图成功")
+            except Exception as e:
+                print("文件格式有误，绘图失败：", e)
+                self.call_process_btn()
+        elif self.aim_tool_number == "02-04":
+            try:
+                graph_starcloud(file_name).render(self.new_draw_html)
+                print("Event:绘图成功")
+            except Exception as e:
+                print("文件格式有误，绘图失败：", e)
+                self.call_process_btn()
+        elif self.aim_tool_number == "03-03":
+            try:
+                polar(file_name).render(self.new_draw_html)
+                print("Event:绘图成功")
+            except Exception as e:
+                print("文件格式有误，绘图失败：", e)
+                self.call_process_btn()
+        elif self.aim_tool_number == "05-05":
+            try:
+                words_cloud(file_name).render(self.new_draw_html)
+                print("Event:绘图成功")
+            except Exception as e:
+                print("文件格式有误，绘图失败：", e)
+                self.call_process_btn()
+        elif self.aim_tool_number == "06-06":
+            try:
+                theme_river(file_name).render(self.new_draw_html)
                 print("Event:绘图成功")
             except Exception as e:
                 print("文件格式有误，绘图失败：", e)
                 self.call_process_btn()
         else:
             print("该图例绘制算法尚未集成！")
+            self.call_process_btn()
 
     def call_upload_btn(self):
         """
@@ -467,7 +691,8 @@ class App:
         result_frame.grid(row=0, column=0, sticky=W)
         result_frame.grid_propagate(0)  # 组件大小不变
 
-        entry_str = StringVar(value=str("绘图结果为./image/current.html，已为您打开绘图结果本地下载目录"))
+        entry_str_value = "绘图结果为 " + str(self.new_draw_html) + "，已为您打开绘图结果本地下载目录"
+        entry_str = StringVar(value=entry_str_value)
         download_entry = Entry(result_frame, textvariable=entry_str, width=72)
         download_entry.grid(row=0, column=0, sticky=W, padx=5)
         # download_btn = ttk.Button(result_frame, text='下载结果', width=8, command=self.down_load2save_file)  # 文件打开对话框
@@ -488,7 +713,7 @@ class App:
         feedback_frame = LabelFrame(self.cv_frame, text="第七步：目标反馈评价", width=600, height=100, bg='#fff2cc')
         feedback_frame.grid(row=0, column=0, sticky=W)
         feedback_frame.grid_propagate(0)  # 组件大小不变
-        feedback_tips_str = "更多内容请联系yuwneyan@caict.ac.cn"
+        feedback_tips_str = "更多内容请联系规划所互联网网络研究部余文艳（yuwenyan@caict.ac.cn）"
         feedback_label = Label(feedback_frame, text=feedback_tips_str, anchor="w", width=72, bg='#fff2cc')
         feedback_label.grid(row=0, column=0, sticky=W, pady=10)
 
@@ -504,6 +729,14 @@ class App:
         # print("本地下载目录绝对路径: %s", os.path.abspath(self.download_dir))
         print("Event:打开本地下载目录")
         os.startfile(os.path.abspath(self.download_dir))
+
+    def sample_list(self):
+        """
+        用html的形式查看作品
+        :return:
+        """
+        print("Event:查看作品一览目录")
+        os.startfile(os.path.abspath(self.sample_list_dir))
 
 
 if __name__ == "__main__":

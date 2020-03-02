@@ -109,6 +109,16 @@ def graph_weibo(title_name) -> Graph:
     print("as list:", len(as_list))
     as_links_dict = read_as_links(bgp_file, as_list)
     print("links:", len(as_links_dict))
+
+    out_json = []
+    out_json.append(as_info_dict)
+    out_json.append(as_links_dict)
+    out_json.append(categories_dict)
+    print(out_json)
+    final_json = json.dumps(out_json, indent=4)
+    with open("..\\000LocalData\\as_cn\\graph_global_gao.json", 'a') as f:
+        f.write(final_json)
+
     title_name = title_name + "[Nodes:" + str(len(as_info_dict)) + " Links:" + str(len(as_links_dict)) + "]"
     c = (
         Graph(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_name, theme=ThemeType.DARK))

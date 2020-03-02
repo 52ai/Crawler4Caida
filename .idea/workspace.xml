@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main_last_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024KnowlegeData/Graph_rs.py" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/Graph_rs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/polar_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/polar_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/polar_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/polar_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/027CNNet/Graph_as_global.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/Graph_as_global.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/image/current.html" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/image/current.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,54 +27,32 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.20049968">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="339" column="62" selection-start-line="339" selection-start-column="62" selection-end-line="339" selection-end-column="62" />
-                  <folding>
-                    <element signature="e#125#134#0" expanded="true" />
-                    <element signature="e#451#1220#0" />
-                    <element signature="e#5185#5292#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="helloTkinter_03_entirely.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#111#132#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="322" column="89" selection-start-line="322" selection-start-column="89" selection-end-line="322" selection-end-column="89" />
-                  <folding>
-                    <element signature="e#125#134#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362">
+              <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
+              <folding>
+                <element signature="e#125#134#0" expanded="true" />
+                <element signature="e#522#1381#0" />
+                <element signature="e#1499#2574#0" />
+                <element signature="e#1413#1475#0" />
+                <element signature="e#1511#1567#0" />
+                <element signature="e#1614#1838#0" />
+                <element signature="e#6562#6669#0" />
+                <element signature="e#14430#15475#0" />
+                <element signature="e#17897#18679#0" />
+                <element signature="e#20035#21152#0" />
+                <element signature="e#20505#20611#0" />
+                <element signature="e#20654#20804#0" />
+                <element signature="e#20841#20986#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>subject_classification</find>
       <find>print</find>
       <find>ERROR</find>
       <find>http</find>
@@ -111,6 +92,7 @@
       <find>Button(</find>
       <find>self.c_v_aim</find>
       <find>c_tool.grid(row=0, column=0, sticky=W)</find>
+      <find>write_to_csv</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -127,11 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py" />
-        <option value="$PROJECT_DIR$/025Visualization3D/eight_planet.py" />
-        <option value="$PROJECT_DIR$/025Visualization3D/arcade_demo.py" />
-        <option value="$PROJECT_DIR$/019Echarts/Scatter_3D.py" />
-        <option value="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate_draw.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/027CNNet/Gain_as_cn.py" />
@@ -146,8 +123,6 @@
         <option value="$PROJECT_DIR$/027CNNet/Graph_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/Graph_weibo_as.py" />
         <option value="$PROJECT_DIR$/027CNNet/Generate_json_cn.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v7.py" />
         <option value="$PROJECT_DIR$/027CNNet/as_map_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/draw_as_core_cn.py" />
@@ -177,13 +152,20 @@
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/01-01(01).json" />
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/Graph.py" />
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/graph_2D.py" />
+        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_look.py" />
+        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_image.py" />
+        <option value="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" />
+        <option value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
+        <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
+        <option value="$PROJECT_DIR$/019Echarts/polar_demo.py" />
+        <option value="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" />
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="2313" />
+    <option name="y" value="155" />
     <option name="width" value="1011" />
     <option name="height" value="1047" />
   </component>
@@ -208,13 +190,23 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="030CAICT-AtlasToolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="echart_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="019Echarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="024KnowlegeData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="030CAICT-AtlasToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +247,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Graph_as_global" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,17 +255,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\Graph2d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Graph_weibo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="draw_as_core_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,29 +273,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024KnowlegeData" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/018Scatter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="helloTkinter_03_entirely" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/012Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/012Tkinter/helloTkinter_03_entirely.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +301,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="netspeed_ui_version_v5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="polar_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,30 +309,48 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/019Echarts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019Echarts/polar_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="rs_clean_draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024KnowlegeData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.helloTkinter_03_entirely" />
-      <item itemvalue="Python.netspeed_ui_version_v5" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.Graph_weibo" />
-      <item itemvalue="Python.Graph" />
+      <item itemvalue="Python.Graph_as_global" />
+      <item itemvalue="Python.draw_as_core_v3" />
+      <item itemvalue="Python.polar_demo" />
+      <item itemvalue="Python.rs_clean_draw" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.helloTkinter_03_entirely" />
-        <item itemvalue="Python.Graph" />
-        <item itemvalue="Python.Graph_weibo" />
-        <item itemvalue="Python.netspeed_ui_version_v5" />
+        <item itemvalue="Python.rs_clean_draw" />
+        <item itemvalue="Python.polar_demo" />
+        <item itemvalue="Python.draw_as_core_v3" />
+        <item itemvalue="Python.Graph_as_global" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +378,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.1564805" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.16649105" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" weight="0.30861506" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.17775354" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22682661" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
@@ -408,19 +399,19 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.17121047" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.13277134" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.17121047" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22682661" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
@@ -442,12 +433,10 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/fa2util.py" />
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/fa2util.pxd" />
     <entry file="file://$PROJECT_DIR$/002asAnalysis/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,13 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7722">
           <caret line="351" column="9" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="423" column="16" lean-forward="true" selection-start-line="423" selection-start-column="16" selection-end-line="423" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -668,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/012Tkinter/theme_tkinter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -682,26 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main_last_v1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/next.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="340" lean-forward="true" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate_draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3841">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#430#445#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,12 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/026Labelme/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/01-01(01).json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -732,23 +685,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/Graph2d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="56" column="65" lean-forward="true" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
-          <folding>
-            <element signature="e#146#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/Graph2d.py" />
     <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_weibo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#74#85#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,18 +711,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict_rs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_data_intergrate_draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4597">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
           <folding>
-            <element signature="e#111#132#0" expanded="true" />
+            <element signature="e#71#82#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#120#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019Echarts/polar_demo.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019Echarts/polar_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="e#75#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="322" column="89" selection-start-line="322" selection-start-column="89" selection-end-line="322" selection-end-column="89" />
+        <state relative-caret-position="-362">
+          <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
           <folding>
             <element signature="e#125#134#0" expanded="true" />
+            <element signature="e#522#1381#0" />
+            <element signature="e#1499#2574#0" />
+            <element signature="e#1413#1475#0" />
+            <element signature="e#1511#1567#0" />
+            <element signature="e#1614#1838#0" />
+            <element signature="e#6562#6669#0" />
+            <element signature="e#14430#15475#0" />
+            <element signature="e#17897#18679#0" />
+            <element signature="e#20035#21152#0" />
+            <element signature="e#20505#20611#0" />
+            <element signature="e#20654#20804#0" />
+            <element signature="e#20841#20986#0" />
           </folding>
         </state>
       </provider>
