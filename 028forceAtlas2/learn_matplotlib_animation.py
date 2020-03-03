@@ -149,8 +149,8 @@ def random_walk_3d():
 if __name__ == "__main__":
     start_time = time.time()
     # my_ani()
-    # lissajous_figure()
-    random_walk_3d()
+    lissajous_figure()
+    # random_walk_3d()
     end_time = time.time()
     print("Script Finish! Time Consuming: ", (end_time - start_time), "s")
 
