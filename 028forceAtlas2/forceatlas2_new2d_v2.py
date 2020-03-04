@@ -269,7 +269,7 @@ def forceatlas2(
             layout_2d_save_name = "new_draw_2d_layout_" + str(iter_cnt)
             print(layout_2d_save_name)
             layout_2d_pos = dict(zip(draw_graph.nodes(), [(n.x, n.y) for n in nodes]))
-            draw_2d(draw_graph, layout_2d_pos, layout_2d_save_name)
+            draw_2d(draw_graph, layout_2d_pos, layout_2d_save_name, is_draw=False)
             """
             根据各个点的平均速度，判断是否需要停止迭代
             """
@@ -292,7 +292,7 @@ def forceatlas2_networkx_layout(G, pos=None, **kwargs):
     return dict(zip(G.nodes(), layout_2d))
 
 
-def draw_2d(G_2d, pos, graph_name, is_show=False):
+def draw_2d(G_2d, pos, graph_name, is_draw=True, is_show=False):
     """
     根据传入的2D网络图绘制2d Graph
     :param G_2d:
@@ -307,42 +307,43 @@ def draw_2d(G_2d, pos, graph_name, is_show=False):
     temp_list.append(pos)
     ANIMATION_LIST.append(temp_list)
 
-    print("All Nodes Count:", G_2d.number_of_nodes())
-    print("All Edges Count:", G_2d.number_of_edges())
-    fig, ax = plt.subplots(1, 1, figsize=(10, 8))
-    # 2D绘点
-    for node_key in pos.keys():
-        xs = pos[node_key][0]
-        ys = pos[node_key][1]
-        ax.scatter(xs, ys, c='white', marker='o', s=10)
-    # 3D绘线
-    x_line = []
-    y_line = []
-    for line in G_2d.edges():
-        # 添加node1, node2的x轴
-        x_line.append(pos[line[0]][0])
-        x_line.append(pos[line[1]][0])
-        # 添加node1, node2的y轴
-        y_line.append(pos[line[0]][1])
-        y_line.append(pos[line[1]][1])
-        # 开始画线
-        ax.plot(x_line, y_line, 'white', linewidth=0.1)
+    if is_draw:
+        print("All Nodes Count:", G_2d.number_of_nodes())
+        print("All Edges Count:", G_2d.number_of_edges())
+        fig, ax = plt.subplots(1, 1, figsize=(10, 8))
+        # 2D绘点
+        for node_key in pos.keys():
+            xs = pos[node_key][0]
+            ys = pos[node_key][1]
+            ax.scatter(xs, ys, c='white', marker='o', s=10)
+        # 3D绘线
         x_line = []
         y_line = []
+        for line in G_2d.edges():
+            # 添加node1, node2的x轴
+            x_line.append(pos[line[0]][0])
+            x_line.append(pos[line[1]][0])
+            # 添加node1, node2的y轴
+            y_line.append(pos[line[0]][1])
+            y_line.append(pos[line[1]][1])
+            # 开始画线
+            ax.plot(x_line, y_line, 'white', linewidth=0.1)
+            x_line = []
+            y_line = []
 
-    ax.set_xlabel('X', color="white")
-    ax.set_ylabel('Y', color="white")
-    ax.grid(b=False)  # 去除栅栏
+        ax.set_xlabel('X', color="white")
+        ax.set_ylabel('Y', color="white")
+        ax.grid(b=False)  # 去除栅栏
 
-    ax.set_title("Force 2D", size=20, color="white")
-    ax.set_facecolor('black')
-    plt.axis('off')
+        ax.set_title("Force 2D", size=20, color="white")
+        ax.set_facecolor('black')
+        plt.axis('off')
 
-    save_path = "../000LocalData/networkx_graph/" + graph_name + ".png"
-    plt.savefig(save_path, dpi=200, facecolor='black')
-    if is_show:  # 判断是否需要show
-        plt.show()
-    plt.close()
+        save_path = "../000LocalData/networkx_graph/" + graph_name + ".png"
+        plt.savefig(save_path, dpi=200, facecolor='black')
+        if is_show:  # 判断是否需要show
+            plt.show()
+        plt.close()
 
 
 def my_layout_ani():
@@ -353,10 +354,16 @@ def my_layout_ani():
     data_draw = ANIMATION_LIST
     # 设置画布
     fig, ax = plt.subplots(1, 1, figsize=(10, 8))
-    ax.set_title("Force 2D", size=20, color="white")
-    ax.set_facecolor('black')
-    ax.grid(b=False)  # 去除栅栏
-    plt.axis('off')
+
+    def init():
+        """
+        初始化画布
+        :return:
+        """
+        ax.set_title("Force 2D", size=20, color="white")
+        ax.set_facecolor('black')
+        ax.grid(b=False)  # 去除栅栏
+        plt.axis('off')
 
     def update(i):
         """
@@ -392,7 +399,7 @@ def my_layout_ani():
             x_line = []
             y_line = []
 
-    line_ani = animation.FuncAnimation(fig, update, frames=50, interval=50, blit=False)
+    line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=50, interval=50, blit=False)
     # line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.gif', writer="imagemagick", dpi=100)
     line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.mp4', writer="ffmpeg",  savefig_kwargs={'facecolor': 'black'}, dpi=360)
     # plt.show()
@@ -400,7 +407,7 @@ def my_layout_ani():
 
 if __name__ == "__main__":
     # 生成300个点，距离阈值为0,3的图
-    G = networkx.random_geometric_graph(300, 0.15, dim=2)
+    G = networkx.random_geometric_graph(100, 0.17, dim=2)
     # print("G Nodes:", G.nodes)
     # print("G Nodes Count:", G.number_of_nodes())
     # print("G Edges Count:", G.number_of_edges())

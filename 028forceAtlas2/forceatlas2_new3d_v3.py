@@ -297,7 +297,7 @@ def forceatlas3d(
             layout_3d_save_name = "new_draw_3d_layout_" + str(iter_cnt)
             print(layout_3d_save_name)
             layout_3d_pos = dict(zip(draw_graph.nodes(), [(n.x, n.y, n.z) for n in nodes]))
-            draw_3d(draw_graph, layout_3d_pos, layout_3d_save_name)
+            draw_3d(draw_graph, layout_3d_pos, layout_3d_save_name, is_draw=False)
             """
             根据各个点的平均速度，判断是否需要停止迭代
             """
@@ -322,7 +322,7 @@ def forceatlas3d_networkx_layout(G, pos=None, **kwargs):
     return dict(zip(G.nodes(), layout_3d))
 
 
-def draw_3d(G_3d, pos, graph_name, is_show=False):
+def draw_3d(G_3d, pos, graph_name, is_draw=True, is_show=False):
     """
     根据传入的3D网络图绘制3d Graph
     :param G_3d:
@@ -337,57 +337,55 @@ def draw_3d(G_3d, pos, graph_name, is_show=False):
     temp_list.append(pos)
     ANIMATION_LIST.append(temp_list)
 
-    # pos = networkx.get_node_attributes(G, 'pos')  # 获取图中点的坐标
-    # print("All Nodes:", G.nodes())
-    print("All Nodes Count:", G_3d.number_of_nodes())
-    # print("All Edges:", G.edges())
-    print("All Edges Count:", G_3d.number_of_edges())
-    fig = plt.figure(figsize=(10, 8))
-    ax = Axes3D(fig)
-    # 3D绘点
-    for node_key in pos.keys():
-        xs = pos[node_key][0]
-        ys = pos[node_key][1]
-        zs = pos[node_key][2]
-        ax.scatter(xs, ys, zs, c='white', marker='o', s=10)
-    # 3D绘线
-    x_line = []
-    y_line = []
-    z_line = []
-    for line in G_3d.edges():
-        # 添加node1, node2的x轴
-        x_line.append(pos[line[0]][0])
-        x_line.append(pos[line[1]][0])
-        # 添加node1, node2的y轴
-        y_line.append(pos[line[0]][1])
-        y_line.append(pos[line[1]][1])
-        # 添加node1, node2的z轴
-        z_line.append(pos[line[0]][2])
-        z_line.append(pos[line[1]][2])
-        # 开始画线
-        ax.plot3D(x_line, y_line, z_line, 'white', linewidth=0.1)
+    if is_draw:
+        # pos = networkx.get_node_attributes(G, 'pos')  # 获取图中点的坐标
+        # print("All Nodes:", G.nodes())
+        print("All Nodes Count:", G_3d.number_of_nodes())
+        # print("All Edges:", G.edges())
+        print("All Edges Count:", G_3d.number_of_edges())
+        fig = plt.figure(figsize=(10, 8))
+        ax = Axes3D(fig)
+        # 3D绘点
+        for node_key in pos.keys():
+            xs = pos[node_key][0]
+            ys = pos[node_key][1]
+            zs = pos[node_key][2]
+            ax.scatter(xs, ys, zs, c='white', marker='o', s=10)
+        # 3D绘线
         x_line = []
         y_line = []
         z_line = []
+        for line in G_3d.edges():
+            # 添加node1, node2的x轴
+            x_line.append(pos[line[0]][0])
+            x_line.append(pos[line[1]][0])
+            # 添加node1, node2的y轴
+            y_line.append(pos[line[0]][1])
+            y_line.append(pos[line[1]][1])
+            # 添加node1, node2的z轴
+            z_line.append(pos[line[0]][2])
+            z_line.append(pos[line[1]][2])
+            # 开始画线
+            ax.plot3D(x_line, y_line, z_line, 'white', linewidth=0.1)
+            x_line = []
+            y_line = []
+            z_line = []
 
-    ax.set_xlabel('X', color="white")
-    ax.set_ylabel('Y', color="white")
-    ax.set_zlabel('Z', color="white")
-    ax.grid(b=False)  # 去除栅栏
+        ax.set_xlabel('X', color="white")
+        ax.set_ylabel('Y', color="white")
+        ax.set_zlabel('Z', color="white")
 
-    # ax.yaxis.set_ticks_position('none')
-    # ax.zaxis.set_ticks_position('none')
-    # ax.patch.set_facecolor('black')
+        ax.set_title("Force 3D", size=20, color="white")
+        ax.set_facecolor('black')
 
-    ax.set_title("Force 3D", size=20, color="white")
-    ax.set_facecolor('black')
-    plt.axis('off')
+        ax.grid(b=False)  # 去除栅栏
+        plt.axis('off')
 
-    save_path = "../000LocalData/networkx_graph/" + graph_name + ".png"
-    plt.savefig(save_path, dpi=200)
-    if is_show:  # 判断是否需要show
-        plt.show()
-    plt.close()
+        save_path = "../000LocalData/networkx_graph/" + graph_name + ".png"
+        plt.savefig(save_path, dpi=200)
+        if is_show:  # 判断是否需要show
+            plt.show()
+        plt.close()
 
 
 def my_layout_ani():
@@ -396,13 +394,19 @@ def my_layout_ani():
     :return:
     """
     data_draw = ANIMATION_LIST
-    # 设置画布
     fig = plt.figure(figsize=(10, 8))
     ax = Axes3D(fig)
-    ax.set_title("Force 3D", size=20, color="white")
-    ax.set_facecolor('black')
-    ax.grid(b=False)  # 去除栅栏
-    plt.axis('off')
+
+    def init():
+        """
+        画布初始化
+        :return:
+        """
+        # 设置画布
+        ax.set_title("Force 3D", size=20, color="white")
+        ax.set_facecolor('black')
+        ax.grid(b=False)  # 去除栅栏
+        plt.axis('off')
 
     def update(i):
         """
@@ -444,7 +448,7 @@ def my_layout_ani():
             y_line = []
             z_line = []
 
-    line_ani = animation.FuncAnimation(fig, update, frames=100, interval=50, blit=False)
+    line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=50, interval=50, blit=False)
     # line_ani.save('../000LocalData/networkx_graph/new_draw_3d_layout_ani.gif', writer="imagemagick", dpi=100)
     line_ani.save('../000LocalData/networkx_graph/new_draw_3d_layout_ani.mp4', writer="ffmpeg", dpi=360)
     # plt.show()
@@ -463,7 +467,7 @@ if __name__ == "__main__":
     temp_list.append(pos)
     ANIMATION_LIST.append(temp_list)
 
-    layout_3d = forceatlas3d_networkx_layout(G, pos, niter=100)  # 采用自己编写的3D布局算法
+    layout_3d = forceatlas3d_networkx_layout(G, pos, niter=50)  # 采用自己编写的3D布局算法
     # print(layout_3d)
     draw_3d(G, layout_3d, "new_draw_3d_layout")
     # print(ANIMATION_LIST)
