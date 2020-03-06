@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/add_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/clipboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/penguin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/renew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/033PyQt5/browser/icons/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/033PyQt5/matplotlib2pyqt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Crawler4Caida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Crawler4Caida.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/032wxPython/webview_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/032wxPython/webview_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/033PyQt5/browser/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/033PyQt5/browser/browser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,23 +21,14 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+    <leaf>
+      <file leaf-file-name="test_QtTest123.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/test_QtTest123.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="858" selection-start-line="858" selection-end-line="858" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="browser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/033PyQt5/browser/browser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="110">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
-                <element signature="e#154#180#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,12 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/018Scatter/as_core_map_v4.py" />
-        <option value="$PROJECT_DIR$/020MultiSourceCompare/as_compare_v2.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_cn.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_weibo_as.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Generate_json_cn.py" />
-        <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v7.py" />
         <option value="$PROJECT_DIR$/027CNNet/as_map_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/draw_as_core_cn.py" />
         <option value="$PROJECT_DIR$/027CNNet/as_map_cn_v2.py" />
@@ -159,7 +135,13 @@
         <option value="$PROJECT_DIR$/025Visualization3D/blender_3d.py" />
         <option value="$PROJECT_DIR$/032wxPython/webview_demo.py" />
         <option value="$PROJECT_DIR$/033PyQt5/browser/browser_demo.py" />
+        <option value="$PROJECT_DIR$/033PyQt5/matplotlib2pyqt.py" />
         <option value="$PROJECT_DIR$/033PyQt5/browser/browser.py" />
+        <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtUi.py" />
+        <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/myQtTest.py" />
+        <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtTest123.py" />
+        <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/__init__.py" />
+        <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/test_QtTest123.py" />
       </list>
     </option>
   </component>
@@ -174,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,31 +164,45 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="qtdesigner_ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="C:/Python37/python.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData" />
-      <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\033PyQt5\browser" />
       <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
       <recent name="D:\Code\Crawler4Caida\028forceAtlas2" />
       <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit" />
       <recent name="D:\Code\Crawler4Caida\027CNNet" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData" />
+      <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,8 +217,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.browser">
-    <configuration name="blender_3d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_QtTest123">
+    <configuration name="QtTest123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,11 +226,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025Visualization3D" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025Visualization3D/blender_3d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtTest123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="QtUi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtUi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,7 +272,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="browser_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myQtTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,17 +280,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/033PyQt5/browser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/033PyQt5/browser/browser_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/myQtTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="matplotlib_3d_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_QtTest123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,48 +298,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025Visualization3D" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="webview_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/032wxPython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/032wxPython/webview_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/test_QtTest123.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.matplotlib_3d_demo" />
-      <item itemvalue="Python.blender_3d" />
-      <item itemvalue="Python.webview_demo" />
       <item itemvalue="Python.browser" />
-      <item itemvalue="Python.browser_demo" />
+      <item itemvalue="Python.QtUi" />
+      <item itemvalue="Python.myQtTest" />
+      <item itemvalue="Python.QtTest123" />
+      <item itemvalue="Python.test_QtTest123" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_QtTest123" />
+        <item itemvalue="Python.QtTest123" />
+        <item itemvalue="Python.myQtTest" />
+        <item itemvalue="Python.QtUi" />
         <item itemvalue="Python.browser" />
-        <item itemvalue="Python.browser_demo" />
-        <item itemvalue="Python.webview_demo" />
-        <item itemvalue="Python.matplotlib_3d_demo" />
-        <item itemvalue="Python.blender_3d" />
       </list>
     </recent_temporary>
   </component>
@@ -351,19 +348,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.15384616" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.15384616" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.1821156" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
+      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.16684842" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.16684842" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.049073063" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.24427481" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.14830971" />
-      <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.19302072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
+      <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,21 +372,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.17228661" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.037077427" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16684842" />
       <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.2093784" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2093784" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16684842" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,47 +435,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/029Torch/linear.py" />
-    <entry file="file://$PROJECT_DIR$/env.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
-            <caret line="149" column="110" selection-start-line="149" selection-start-column="110" selection-end-line="149" selection-end-column="110" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/029Torch/hello_touch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2198">
-          <caret line="2466" column="8" selection-start-line="2466" selection-start-column="8" selection-end-line="2466" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11191">
-          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/012Tkinter/theme_tkinter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/024KnowlegeData/Graph_rs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -730,35 +686,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/033PyQt5/browser/countries_or_districts.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-10289" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/033PyQt5/browser/countries_or_districts.csv" />
     <entry file="file://$PROJECT_DIR$/033PyQt5/browser/browser_demo.py" />
-    <entry file="file://$PROJECT_DIR$/032wxPython/webview_demo.py">
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#118#127#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18436">
+          <caret line="850" column="27" lean-forward="true" selection-start-line="850" selection-start-column="27" selection-end-line="850" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+    <entry file="file://$PROJECT_DIR$/032wxPython/webview_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="858" selection-start-line="858" selection-end-line="858" />
+        <state relative-caret-position="242">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/033PyQt5/browser/browser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="440">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#154#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/myQtTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtUi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtTest123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/033PyQt5/matplotlib2pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#126#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/test_QtTest123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

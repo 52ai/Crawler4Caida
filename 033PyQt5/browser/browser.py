@@ -7,6 +7,7 @@ Function:
 测试PyQt的浏览器功能
 
 在https://github.com/RogerLZH/Browser基础上构建
+在windows 下，用QtWebEengineWidgets，需要装pip install pyqt5==5.10.1 -i https://pypi.douban.com/simple
 
 """
 
@@ -32,7 +33,7 @@ class MainWindow(QMainWindow):
 
         # 设置浏览器
         self.browser = QWebEngineView()
-        url = 'http://www.mryu.top/apps/graph_cjk_gao.html'
+        url = 'http://www.mryu.top/navi/index.html'
         # 指定打开界面的 URL
         self.browser.setUrl(QUrl(url))
         # 添加浏览器到窗口中
