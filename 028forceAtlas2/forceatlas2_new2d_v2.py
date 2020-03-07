@@ -401,7 +401,7 @@ def my_layout_ani():
 
     line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=100, interval=50, blit=False)
     line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.gif', writer="imagemagick", savefig_kwargs={'facecolor': 'black'}, dpi=100)
-    # line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.mp4', writer="ffmpeg",  savefig_kwargs={'facecolor': 'black'}, dpi=360)
+    line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.mp4', writer="ffmpeg",  savefig_kwargs={'facecolor': 'black'}, dpi=360)
     # plt.show()
 
 
