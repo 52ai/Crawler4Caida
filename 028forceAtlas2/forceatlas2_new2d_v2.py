@@ -399,15 +399,15 @@ def my_layout_ani():
             x_line = []
             y_line = []
 
-    line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=50, interval=50, blit=False)
-    # line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.gif', writer="imagemagick", dpi=100)
-    line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.mp4', writer="ffmpeg",  savefig_kwargs={'facecolor': 'black'}, dpi=360)
+    line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=100, interval=50, blit=False)
+    line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.gif', writer="imagemagick", savefig_kwargs={'facecolor': 'black'}, dpi=100)
+    # line_ani.save('../000LocalData/networkx_graph/new_draw_2d_layout_ani.mp4', writer="ffmpeg",  savefig_kwargs={'facecolor': 'black'}, dpi=360)
     # plt.show()
 
 
 if __name__ == "__main__":
     # 生成300个点，距离阈值为0,3的图
-    G = networkx.random_geometric_graph(100, 0.17, dim=2)
+    G = networkx.random_geometric_graph(300, 0.17, dim=2)
     # print("G Nodes:", G.nodes)
     # print("G Nodes Count:", G.number_of_nodes())
     # print("G Edges Count:", G.number_of_edges())
@@ -421,7 +421,7 @@ if __name__ == "__main__":
     temp_list.append(pos)
     ANIMATION_LIST.append(temp_list)
 
-    layout_2d = forceatlas2_networkx_layout(G, pos, niter=50)  # 2d版的forceatlas算法
+    layout_2d = forceatlas2_networkx_layout(G, pos, niter=100)  # 2d版的forceatlas算法
     draw_2d(G, layout_2d, "new_draw_2d_layout")
     my_layout_ani()  # 绘制2D网络动态布局的animation动画
 
