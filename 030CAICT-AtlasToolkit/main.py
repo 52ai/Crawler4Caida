@@ -22,6 +22,7 @@ from pyecharts.globals import ThemeType
 import json
 from tk_html_widgets import HTMLLabel, HTMLText, HTMLScrolledText
 
+
 def graph_2d(open_file) -> Graph:
     """
     网络拓扑图2D
