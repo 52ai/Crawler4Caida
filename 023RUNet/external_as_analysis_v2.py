@@ -333,7 +333,7 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = "SG"
+    country = "CN"
     as_info_file_top = '..\\000LocalData\\as_map\\as_core_map_data_new20200101.csv'
     top_n = 1000
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
