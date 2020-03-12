@@ -4,7 +4,7 @@ create on Mar 11, 2020 By Wayne YU
 
 Function:
 
-统计全球各主要国家从1998-2019，国家对外互联关系的变化趋势
+统计全球各主要国家从1998-2019，国家内部互联关系的变化趋势
 
 """
 
@@ -82,29 +82,26 @@ def external_as_analysis(country, country_as_info, as2country):
         print(path_item)
         # 遍历一次文件，获取该国出口AS的数量
         file_read = open(path_item, 'r', encoding='utf-8')
-        external_cnt = 0  # 存储该国出口连边的数量
+        internal_cnt = 0  # 存储该国内部连边的数量
         for line in file_read.readlines():
             if line.strip().find("#") == 0:
                 continue
             try:
                 if as2country[str(line.strip().split('|')[0])] == country:
-                    if as2country[str(line.strip().split('|')[1])] != country:
-                        external_cnt += 1
-                else:
                     if as2country[str(line.strip().split('|')[1])] == country:
-                        external_cnt += 1
+                        internal_cnt += 1
             except Exception as e:
                 pass
 
-        print("External Edges Count:", external_cnt)
+        print("internal Edges Count:", internal_cnt)
         temp_str = path_item.split('\\')[-1]
         date_str = temp_str.split('.')[0]
         temp_list.append(date_str)
-        temp_list.append(external_cnt)
+        temp_list.append(internal_cnt)
         print(temp_list)
         return_list.append(temp_list)
         temp_list = []
-    save_path = "../000LocalData/caict_display/External_BGP_Rel_" + country + ".csv"
+    save_path = "../000LocalData/caict_display/internal_BGP_Rel_" + country + ".csv"
     write_to_csv(return_list, save_path)
 
 
