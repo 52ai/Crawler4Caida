@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/035NetwrokSimulation/animate_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/3d_rendering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/tko/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/tko/ogl_hdr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/tko/tk_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/tko/win32_gdi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/025Visualization3D/pytkogl/tko/x11_gdi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/033PyQt5/browser/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/033PyQt5/browser/browser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,13 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="animate_network.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/035NetwrokSimulation/animate_network.py">
+      <file leaf-file-name="forceatlas2_new3d_v3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+            <state relative-caret-position="276">
+              <caret line="457" column="43" selection-start-line="457" selection-start-column="43" selection-end-line="457" selection-end-column="43" />
               <folding>
-                <element signature="e#284#302#0" expanded="true" />
+                <element signature="e#12396#14298#0" />
               </folding>
             </state>
           </provider>
@@ -43,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ERROR</find>
       <find>http</find>
       <find>&lt;p&gt;一、研究背景。二、储能技术在不同行业中的智能化分析。&lt;/p&gt;&lt;p&gt;1、数据中心领域储能技术及智能管理技术研究。2.通信基站领域储能技术及智能管理技术研究。3.可再生能源领域储能技术及智能管理技术研究。4.新能源汽车储能技术及智能管理技术研究。四、总结及发展建议。&lt;/p&gt;</find>
       <find>余文艳</find>
@@ -73,6 +84,7 @@
       <find>c_tool.grid(row=0, column=0, sticky=W)</find>
       <find>write_to_csv</find>
       <find>edges_cnt</find>
+      <find>self.stale</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -89,29 +101,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/graph_2D.py" />
-        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_look.py" />
-        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_image.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_as_cn.py" />
-        <option value="$PROJECT_DIR$/027CNNet/Graph_as_global.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v3.py" />
         <option value="$PROJECT_DIR$/019Echarts/polar_demo.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/rs_clean_draw.py" />
         <option value="$PROJECT_DIR$/019Echarts/Demo_Geo.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/learn_matplotlib_animation.py" />
-        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" />
         <option value="$PROJECT_DIR$/025Visualization3D/blender_wreck.py" />
         <option value="$PROJECT_DIR$/025Visualization3D/blender_3d.py" />
         <option value="$PROJECT_DIR$/032wxPython/webview_demo.py" />
         <option value="$PROJECT_DIR$/033PyQt5/browser/browser_demo.py" />
-        <option value="$PROJECT_DIR$/033PyQt5/browser/browser.py" />
         <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtUi.py" />
         <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/myQtTest.py" />
         <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtTest123.py" />
         <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/__init__.py" />
         <option value="$PROJECT_DIR$/000LocalData/qtdesigner_ui/test_QtTest123.py" />
         <option value="$PROJECT_DIR$/033PyQt5/matplotlib2pyqt.py" />
-        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" />
         <option value="$PROJECT_DIR$/034VideoScreen/video_screen.py" />
         <option value="$PROJECT_DIR$/034VideoScreen/const.py" />
         <option value="$PROJECT_DIR$/034VideoScreen/build.py" />
@@ -140,6 +144,14 @@
         <option value="$PROJECT_DIR$/031CAICT-Display/0_display_data.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/draw_as_core_v9.py" />
         <option value="$PROJECT_DIR$/035NetwrokSimulation/animate_network.py" />
+        <option value="$PROJECT_DIR$/025Visualization3D/3d_rendering.py" />
+        <option value="$PROJECT_DIR$/025Visualization3D/pytkogl/__init__.py" />
+        <option value="$PROJECT_DIR$/025Visualization3D/__init__.py" />
+        <option value="$PROJECT_DIR$/025Visualization3D/pytkogl/main.py" />
+        <option value="$PROJECT_DIR$/033PyQt5/browser/browser.py" />
+        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" />
+        <option value="C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" />
+        <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" />
       </list>
     </option>
   </component>
@@ -167,11 +179,6 @@
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="028forceAtlas2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="035NetwrokSimulation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,19 +190,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\025Visualization3D\pytkogl" />
+      <recent name="D:\Code\Crawler4Caida\025Visualization3D" />
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\034Python2CV" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\caict_k" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
-      <recent name="D:\Code\Crawler4Caida\034Python2CV" />
-      <recent name="D:\Code\Crawler4Caida\027CNNet" />
-      <recent name="D:\Code\Crawler4Caida\033PyQt5\browser" />
-      <recent name="D:\Code\Crawler4Caida\028forceAtlas2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,8 +217,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.animate_network">
-    <configuration name="1_internal_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.forceatlas2_new3d_v3">
+    <configuration name="browser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,17 +226,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/033PyQt5/browser" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/1_internal_as_rel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/033PyQt5/browser/browser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="2_external_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="forceatlas2_new2d_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,17 +244,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="4_external_as_analysis_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="forceatlas2_new3d_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,17 +262,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="animate_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,17 +280,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/035NetwrokSimulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025Visualization3D/pytkogl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/035NetwrokSimulation/animate_network.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025Visualization3D/pytkogl/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="draw_as_core_v9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="matplotlib_3d_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,30 +298,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025Visualization3D" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/draw_as_core_v9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.4_external_as_analysis_cn" />
-      <item itemvalue="Python.2_external_as_rel" />
-      <item itemvalue="Python.1_internal_as_rel" />
-      <item itemvalue="Python.draw_as_core_v9" />
-      <item itemvalue="Python.animate_network" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.matplotlib_3d_demo" />
+      <item itemvalue="Python.browser" />
+      <item itemvalue="Python.forceatlas2_new3d_v3" />
+      <item itemvalue="Python.forceatlas2_new2d_v2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.animate_network" />
-        <item itemvalue="Python.draw_as_core_v9" />
-        <item itemvalue="Python.1_internal_as_rel" />
-        <item itemvalue="Python.2_external_as_rel" />
-        <item itemvalue="Python.4_external_as_analysis_cn" />
+        <item itemvalue="Python.forceatlas2_new3d_v3" />
+        <item itemvalue="Python.forceatlas2_new2d_v2" />
+        <item itemvalue="Python.browser" />
+        <item itemvalue="Python.matplotlib_3d_demo" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -344,14 +351,14 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.14752372" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.13962065" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26499456" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.18865867" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.29116684" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.3217012" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.16139586" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,21 +372,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7039187" visible="true" weight="0.17228661" />
       <window_info id="Structure" order="0" sideWeight="0.29608127" side_tool="true" weight="0.17628205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.037077427" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16684842" />
       <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.2093784" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2093784" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16684842" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.5016251" side_tool="true" weight="0.17650159" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26826608" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,42 +424,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/QtTest123.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/qtdesigner_ui/test_QtTest123.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007Crawler4UniversalService/refactoring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/019Echarts/Generate_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="411" column="50" lean-forward="true" selection-start-line="411" selection-start-column="50" selection-end-line="411" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/034VideoScreen/misaki/build.py" />
     <entry file="file://$PROJECT_DIR$/034VideoScreen/misaki/const.py" />
     <entry file="file://$PROJECT_DIR$/034VideoScreen/misaki/misaki.py" />
     <entry file="file://$PROJECT_DIR$/034VideoScreen/recording.py" />
@@ -504,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/033PyQt5/browser/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -656,19 +620,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
+    <entry file="file://$PROJECT_DIR$/035NetwrokSimulation/animate_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="455" lean-forward="true" selection-start-line="455" selection-end-line="455" />
+        <state relative-caret-position="738">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/035NetwrokSimulation/animate_network.py">
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/3d_rendering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="10890">
+          <caret line="495" column="53" lean-forward="true" selection-start-line="495" selection-start-column="53" selection-end-line="495" selection-end-column="53" />
           <folding>
-            <element signature="e#284#302#0" expanded="true" />
+            <element signature="e#123#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/tko/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/tko/x11_gdi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/tko/win32_gdi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/tko/tk_win.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/tko/ogl_hdr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2958" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/pytkogl/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+          <folding>
+            <element signature="e#52#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/033PyQt5/browser/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="250" column="4" selection-start-line="250" selection-start-column="4" selection-end-line="250" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="344" column="38" selection-start-line="344" selection-start-column="38" selection-end-line="344" selection-end-column="38" />
+          <folding>
+            <element signature="e#10995#12752#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="1228" column="17" lean-forward="true" selection-start-line="1228" selection-start-column="17" selection-end-line="1228" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="457" column="43" selection-start-line="457" selection-start-column="43" selection-end-line="457" selection-end-column="43" />
+          <folding>
+            <element signature="e#12396#14298#0" />
           </folding>
         </state>
       </provider>

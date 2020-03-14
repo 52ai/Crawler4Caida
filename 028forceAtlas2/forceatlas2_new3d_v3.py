@@ -455,7 +455,7 @@ def my_layout_ani():
 
 
 if __name__ == "__main__":
-    G = networkx.random_geometric_graph(500, 0.3, dim=3)
+    G = networkx.random_geometric_graph(100, 0.3, dim=3)
     # pos= networkx.get_node_attributes(G, 'pos')  # 获取图中点的坐标
     pos = {i: (random.random(), random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
     # print(pos)
@@ -469,6 +469,6 @@ if __name__ == "__main__":
 
     layout_3d = forceatlas3d_networkx_layout(G, pos, niter=50)  # 采用自己编写的3D布局算法
     # print(layout_3d)
-    draw_3d(G, layout_3d, "new_draw_3d_layout")
+    draw_3d(G, layout_3d, "new_draw_3d_layout", is_show=True)
     # print(ANIMATION_LIST)
-    my_layout_ani()  # 绘制3D网络动态布局的animation动画
+    # my_layout_ani()  # 绘制3D网络动态布局的animation动画

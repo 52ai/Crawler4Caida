@@ -342,6 +342,7 @@ def draw_2d(G_2d, pos, graph_name, is_draw=True, is_show=False):
         save_path = "../000LocalData/networkx_graph/" + graph_name + ".png"
         plt.savefig(save_path, dpi=200, facecolor='black')
         if is_show:  # 判断是否需要show
+            fig.set_facecolor('black')
             plt.show()
         plt.close()
 
@@ -422,8 +423,8 @@ if __name__ == "__main__":
     ANIMATION_LIST.append(temp_list)
 
     layout_2d = forceatlas2_networkx_layout(G, pos, niter=100)  # 2d版的forceatlas算法
-    draw_2d(G, layout_2d, "new_draw_2d_layout")
-    my_layout_ani()  # 绘制2D网络动态布局的animation动画
+    draw_2d(G, layout_2d, "new_draw_2d_layout", is_show=True)
+    # my_layout_ani()  # 绘制2D网络动态布局的animation动画
 
 
 
