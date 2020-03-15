@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/034VideoScreen/video_screen.py" />
         <option value="$PROJECT_DIR$/034VideoScreen/const.py" />
         <option value="$PROJECT_DIR$/034VideoScreen/build.py" />
         <option value="$PROJECT_DIR$/034VideoScreen/hooker.py" />
@@ -124,6 +125,7 @@
         <option value="$PROJECT_DIR$/025Visualization3D/matplotlib_pointcloud_demo.py" />
         <option value="$PROJECT_DIR$/025Visualization3D/matplotlib_3d_demo.py" />
         <option value="$PROJECT_DIR$/037Open3D/examples/Python/Basic/convex_hull.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -353,7 +355,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26499456" />
       <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" weight="0.18320611" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.23446019" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.28789532" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,13 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/036PCL/examples/kdtree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/036PCL/examples/segment_cyl_plane.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
@@ -771,6 +766,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
