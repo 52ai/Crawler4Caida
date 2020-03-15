@@ -455,7 +455,7 @@ def my_layout_ani():
 
 
 if __name__ == "__main__":
-    G = networkx.random_geometric_graph(100, 0.3, dim=3)
+    G = networkx.random_geometric_graph(300, 0.3, dim=3)
     # pos= networkx.get_node_attributes(G, 'pos')  # 获取图中点的坐标
     pos = {i: (random.random(), random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
     # print(pos)

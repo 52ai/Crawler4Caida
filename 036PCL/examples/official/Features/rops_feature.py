@@ -1,3 +1,4 @@
+# coding:utf-8
 # RoPs (Rotational Projection Statistics) feature
 # http://pointclouds.org/documentation/tutorials/rops_feature.php#rops-feature
 
@@ -6,8 +7,8 @@ import sys
 
 
 def main():
-    argvs = sys.argv  # ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“ˆø”‚ğŠi”[‚µ‚½ƒŠƒXƒg‚Ìæ“¾
-    argc = len(argvs)  # ˆø”‚ÌŒÂ”
+    argvs = sys.argv  # ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½gï¿½Ìæ“¾
+    argc = len(argvs)  # ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒÂï¿½
 
     if argc != 4:
         exit(-1)

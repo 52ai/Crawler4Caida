@@ -13,8 +13,7 @@ def main():
     # pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
     # pcl::io::loadPCDFile<pcl::PointXYZ> (argv[1], *cloud);
     # cloud = pcl.load_XYZRGB('./examples/pcldata/tutorials/table_scene_mug_stereo_textured.pcd')
-    cloud = pcl.load(
-        './pcldata/tutorials/table_scene_mug_stereo_textured.pcd')
+    cloud = pcl.load('./tutorials/table_scene_mug_stereo_textured.pcd')
 
     # pcl::HarrisKeypoint3D<pcl::PointXYZ,pcl::PointXYZI> detector;
     # detector.setNonMaxSupression (true);

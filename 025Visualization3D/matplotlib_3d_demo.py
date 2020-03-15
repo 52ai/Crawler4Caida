@@ -23,14 +23,14 @@ def randrange(n, vmin, vmax):
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-n = 100
+n = 10000
 
 
 for cnt in range(0, 2):
     xs = randrange(n, 0, 100)
     ys = randrange(n, 0, 100)
     zs = randrange(n, 0, 100)
-    ax.scatter(xs, ys, zs, c='r', marker='o')
+    ax.scatter(xs, ys, zs, c='r', marker='.', s=2)
 
 x_line = [0, 50]
 y_line = [0, 50]
