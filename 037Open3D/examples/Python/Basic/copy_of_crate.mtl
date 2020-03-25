@@ -1,0 +1,7 @@
+# Created by Open3D 
+# object name: copy_of_crate
+newmtl copy_of_crate
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Kd copy_of_crate.png

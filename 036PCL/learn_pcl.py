@@ -19,7 +19,7 @@ for i in range(0, 100000):
     x = random.uniform(-1, 1)  # 随机生成范围内的浮点数
     y = random.uniform(-1, 1)  # 随机生成范围内的浮点数
     z = random.uniform(-1, 1)  # 随机生成范围内的浮点数
-    c = 0.19
+    c = 0.15
     temp_list.append(x)
     temp_list.append(y)
     temp_list.append(z)
