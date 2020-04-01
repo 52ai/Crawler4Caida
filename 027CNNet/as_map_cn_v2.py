@@ -32,7 +32,7 @@ def write_to_csv(res_list, des_path):
     把给定的List，写到指定路径的文件中
     :param res_list:
     :param des_path:
-    :return: None
+    :return None:
     """
     print("write file <%s> ..." % des_path)
     csvFile = open(des_path, 'w', newline='', encoding='utf-8')
