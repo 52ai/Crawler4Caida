@@ -26,6 +26,7 @@ import matplotlib.animation as animation
 
 ANIMATION_LIST = []  # 存储过程数据
 
+
 # 定义点的数据结构
 class Node:
     def __init__(self):
@@ -286,7 +287,7 @@ def forceatlas2_networkx_layout(G, pos=None, **kwargs):
     assert isinstance(pos, dict) or (pos is None), "pos must be specified as a dictionary, as in networkx"
     M = numpy.asarray(networkx.to_numpy_matrix(G))
     if pos is None:
-        layout_2d = forceatlas2(M, pos=None, draw_graph=G , draw_gap=draw_gap, **kwargs)
+        layout_2d = forceatlas2(M, pos=None, draw_graph=G, draw_gap=draw_gap, **kwargs)
     else:
         poslist = numpy.asarray([pos[i] for i in G.nodes()])
         layout_2d = forceatlas2(M, pos=poslist, draw_graph=G , draw_gap=draw_gap, **kwargs)
