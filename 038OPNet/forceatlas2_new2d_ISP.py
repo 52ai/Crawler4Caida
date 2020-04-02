@@ -413,10 +413,13 @@ def new_as_graph():
     :return as_G:
     """
     top_as_rel = "..\\000LocalData\\OPNet\\as_relationships(TOP ISP).csv"
+    # top_as_rel = "..\\000LocalData\\OPNet\\20200201.as-rel.txt"
     as_G = networkx.Graph()
 
     top_as_rel_read = open(top_as_rel, "r", encoding='utf-8')
     for line in top_as_rel_read.readlines():
+        if line.strip().find("#") == 0:
+            continue
         line = line.strip().split("|")
         # print(line)
         as_G.add_edge(line[0], line[1])
@@ -435,7 +438,7 @@ if __name__ == "__main__":
     pos = {i: (random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
     print(pos)
 
-    draw_2d(G, pos, 'new_draw_2d_isp')  # 绘制随时生成的原始布局
+    draw_2d(G, pos, 'new_draw_2d_isp_all')  # 绘制随时生成的原始布局
     # 记录起始数据
     temp_list = []
     temp_list.append(G)
@@ -443,7 +446,7 @@ if __name__ == "__main__":
     ANIMATION_LIST.append(temp_list)
 
     layout_2d = forceatlas2_networkx_layout(G, pos, niter=100)  # 2d版的forceatlas算法
-    draw_2d(G, layout_2d, "new_draw_2d_layout_isp", is_show=True)
+    draw_2d(G, layout_2d, "new_draw_2d_layout_isp_all", is_show=True)
     my_layout_ani()  # 绘制2D网络动态布局的animation动画
 
 
