@@ -201,7 +201,7 @@ def external_as_analysis(country, country_as_info, as2country):
         # print(external_country_rank_list)
         external_country_rank_list.sort(reverse=True, key=lambda elem: int(elem[1]))
         print(external_country_rank_list)
-        # draw_bar(external_country_rank_list, country)
+        draw_bar(external_country_rank_list, country)
 
 
 def draw_bar(rank_list, country):
@@ -217,8 +217,8 @@ def draw_bar(rank_list, country):
         x_list.append(item[0])
         y_list.append(item[1])
     # 开始绘图
-    fig, ax = plt.subplots(1, 1, figsize=(12, 8))
-    title_string = "External BGP Relationships Analysis:" + country + "( Date:20200101 )"
+    fig, ax = plt.subplots(1, 1, figsize=(50, 10))
+    title_string = "External BGP Relationships Analysis:" + country + "( Date:20200201 )"
     ax.set_title(title_string)
     color = ['blue']
     plt.bar(x_list, y_list, width=0.7, color=color)
@@ -228,7 +228,7 @@ def draw_bar(rank_list, country):
     ax.set_ylabel('Relationships Nums')
     # plt.grid(True, linestyle=':', color='r', alpha=0.9)
     # plt.show()
-    plt.savefig("..\\000LocalData\\RUNet\\External_BGP_Rel_" + country + ".jpg")
+    plt.savefig("..\\000LocalData\\RUNet\\External_BGP_Rel_" + country + "(20200201).jpg")
 
 
 def external_as_analysis_topn(topn, country, country_as_info, as2country, as_info_topn):
@@ -334,7 +334,7 @@ def external_as_analysis_topn(topn, country, country_as_info, as2country, as_inf
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     country = "CN"
-    as_info_file_top = '..\\000LocalData\\as_map\\as_core_map_data_new20200101.csv'
+    as_info_file_top = '..\\000LocalData\\as_map\\as_core_map_data_new20200201.csv'
     top_n = 1000
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     country_as_info, as2country_dict = gain_as2country(as_info_file_in, country)

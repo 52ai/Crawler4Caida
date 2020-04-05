@@ -140,16 +140,19 @@ def map_china(open_file) -> Map:
     # 打开文件读取数据
     data = []
     file_in = open(open_file, "r", encoding="utf-8")
+    visual_map_max = 0
     for line in file_in.readlines():
         line = line.strip().split(",")
         data.append(line)
+        if int(line[1]) > visual_map_max:
+            visual_map_max = int(line[1])
 
     c = (
         Map(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.WESTEROS))
         .add("", data, "china")
         .set_global_opts(
             title_opts=opts.TitleOpts(title=title_str),
-            visualmap_opts=opts.VisualMapOpts(max_=200),
+            visualmap_opts=opts.VisualMapOpts(max_=visual_map_max),
         )
     )
     return c
@@ -166,9 +169,12 @@ def map_world(open_file) -> Map:
     # 打开文件读取数据
     data = []
     file_in = open(open_file, "r", encoding="utf-8")
+    visual_map_max = 0
     for line in file_in.readlines():
         line = line.strip().split(",")
         data.append(line)
+        if int(line[1]) > visual_map_max:
+            visual_map_max = int(line[1])
 
     c = (
         Map(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.LIGHT))
@@ -176,7 +182,7 @@ def map_world(open_file) -> Map:
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
             title_opts=opts.TitleOpts(title=title_str),
-            visualmap_opts=opts.VisualMapOpts(max_=200),
+            visualmap_opts=opts.VisualMapOpts(max_=visual_map_max),
         )
     )
     return c
