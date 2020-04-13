@@ -182,7 +182,7 @@ def map_world(open_file) -> Map:
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
             title_opts=opts.TitleOpts(title=title_str),
-            visualmap_opts=opts.VisualMapOpts(max_=visual_map_max),
+            visualmap_opts=opts.VisualMapOpts(max_=visual_map_max)
         )
     )
     return c
