@@ -95,6 +95,7 @@ def draw(draw_data, country_str):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
+    country_str = "RU"
     # 获取历年活跃AS数量列表
     file_path = []
     for root, dirs, files in os.walk("..\\000LocalData\\as_map"):
@@ -103,16 +104,16 @@ if __name__ == "__main__":
     active_as_ru = []
     temp_list = []
     for path_item in file_path:
-        dateStr, activeAS_country, activeAS_global = gain_active_as(path_item, "CN")
+        dateStr, activeAS_country, activeAS_global = gain_active_as(path_item, country_str)
         temp_list.append(dateStr)
         temp_list.append(activeAS_country)
         temp_list.append(activeAS_global)
         active_as_ru.append(temp_list)
         print(temp_list)
         temp_list = []
-    draw(active_as_ru, "CN")
+    draw(active_as_ru, country_str)
     # save_path
-    save_path = "..\\000LocalData\\RUNet\\active_as_cn.csv"
+    save_path = "..\\000LocalData\\RUNet\\active_as_" + str.lower(country_str) + ".csv"
     write_to_csv(active_as_ru, save_path)
     time_end = time.time()
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
