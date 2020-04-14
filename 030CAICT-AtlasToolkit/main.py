@@ -35,7 +35,7 @@ def graph_2d(open_file) -> Graph:
         j = json.load(f)
         nodes, links, categories = j
     c = (
-        Graph(init_opts=opts.InitOpts(width="1920px", height="900px", page_title=title_str, theme=ThemeType.DARK))
+        Graph(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.DARK))
         .add(
             "",
             nodes,
@@ -69,7 +69,7 @@ def graph_starcloud(open_file) -> Graph:
         j = json.load(f)
         nodes, links, categories = j
     c = (
-        Graph(init_opts=opts.InitOpts(width="1900px", height="960px", page_title=title_str, theme=ThemeType.DARK))
+        Graph(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.DARK))
         .add(
             "",
             nodes,
@@ -111,7 +111,7 @@ def polar(open_file) -> Polar:
         data.append(line)
 
     c = (
-        Polar(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.DARK))
+        Polar(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.DARK))
         .add_schema(
             angleaxis_opts=opts.AngleAxisOpts(
                 type_="value",  boundary_gap=False, start_angle=0, min_=0, max_=360
@@ -148,11 +148,18 @@ def map_china(open_file) -> Map:
             visual_map_max = int(line[1])
 
     c = (
-        Map(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.WESTEROS))
-        .add("", data, "china")
+        Map(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.WESTEROS))
+        .add(series_name="该省份累计确诊病例", data_pair=data, maptype="china", is_map_symbol_show=True, zoom=1.1)
         .set_global_opts(
             title_opts=opts.TitleOpts(title=title_str),
-            visualmap_opts=opts.VisualMapOpts(max_=visual_map_max),
+            visualmap_opts=opts.VisualMapOpts(
+                pieces=[{"max": 9, "min": 1, 'label': '1-9', 'color': '#FFEBCD'},
+                        {"max": 99, "min": 10, 'label': '10-99', 'color': '#F5DEB3'},
+                        {"max": 499, "min": 100, 'label': '100-499', 'color': '#F4A460'},
+                        {"max": 999, "min": 500, 'label': '500-999', 'color': '#FA8072'},
+                        {"max": 9999, "min": 1000, 'label': '1000-9999', 'color': '#ee2c0f'},
+                        {"min": 10000, 'label': '≥10000', 'color': '#5B5B5B'}],
+                is_piecewise=True, item_width=45, item_height=30, textstyle_opts=opts.TextStyleOpts(font_size=20)),
         )
     )
     return c
@@ -177,12 +184,20 @@ def map_world(open_file) -> Map:
             visual_map_max = int(line[1])
 
     c = (
-        Map(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.LIGHT))
-        .add("", data, "world")
+        Map(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.LIGHT))
+        .add(series_name="该国家（地区）累计确诊病例", data_pair=data, maptype="world", is_map_symbol_show=False, zoom=1.1)
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
             title_opts=opts.TitleOpts(title=title_str),
-            visualmap_opts=opts.VisualMapOpts(max_=visual_map_max)
+            visualmap_opts=opts.VisualMapOpts(
+                pieces=[{"max": 99, "min": 1, 'label': '1-99', 'color': '#FFEBCD'},
+                        {"max": 999, "min": 100, 'label': '100-999', 'color': '#F5DEB3'},
+                        {"max": 4999, "min": 1000, 'label': '1000-4999', 'color': '#F4A460'},
+                        {"max": 9999, "min": 5000, 'label': '5000-9999', 'color': '#FA8072'},
+                        {"max": 99999, "min": 10000, 'label': '10000-99999', 'color': '#ee2c0f'},
+                        {"min": 100000, 'label': '≥100000', 'color': '#5B5B5B'}],
+                is_piecewise=True, item_width=45, item_height=30, textstyle_opts=opts.TextStyleOpts(font_size=20)
+            )
         )
     )
     return c
@@ -204,7 +219,7 @@ def words_cloud(open_file)->WordCloud:
         words_data.append(line)
 
     c = (
-         WordCloud(init_opts=opts.InitOpts(width="1920px", height="1080px", page_title=title_str, theme=ThemeType.SHINE))
+         WordCloud(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.SHINE))
          .add("", words_data, word_size_range=[10, 200])
          .set_global_opts(title_opts=opts.TitleOpts(title=title_str))
          )
@@ -229,7 +244,7 @@ def theme_river(open_file)->ThemeRiver:
         if line[-1] not in theme_list:
             theme_list.append(line[-1])
     c = (
-         ThemeRiver(init_opts=opts.InitOpts(width="1920px", height="960px", page_title=title_str, theme=ThemeType.SHINE))
+         ThemeRiver(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.SHINE))
          .add(theme_list,
               res_list,
               label_opts=opts.LabelOpts(is_show=False),

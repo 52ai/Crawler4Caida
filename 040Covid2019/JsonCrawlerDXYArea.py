@@ -54,24 +54,24 @@ if __name__ == "__main__":
 
     # 添加表头描述项
     temp_list_global = []
-    temp_list_global.append("国家名称")  # 国家名称
-    temp_list_global.append("国家英文名称")  # 国家英文名称
-    temp_list_global.append("累计确诊")  # 累计确诊
-    temp_list_global.append("现有确诊")  # 现有确诊
-    temp_list_global.append("累计治愈")  # 累计治愈
-    temp_list_global.append("累计死亡")  # 累计死亡
-    data_source_global.append(temp_list_global)
-    temp_list_global = []
+    # temp_list_global.append("国家名称")  # 国家名称
+    # temp_list_global.append("国家英文名称")  # 国家英文名称
+    # temp_list_global.append("累计确诊")  # 累计确诊
+    # temp_list_global.append("现有确诊")  # 现有确诊
+    # temp_list_global.append("累计治愈")  # 累计治愈
+    # temp_list_global.append("累计死亡")  # 累计死亡
+    # data_source_global.append(temp_list_global)
+    # temp_list_global = []
 
     # 添加表头描述项
     temp_list_cn = []
-    temp_list_cn.append("省份名称")  # 省份名称
-    temp_list_cn.append("累计确诊")  # 累计确诊
-    temp_list_cn.append("现有确诊")  # 现有确诊
-    temp_list_cn.append("累计治愈")  # 累计治愈
-    temp_list_cn.append("累计死亡")  # 累计死亡
-    data_source_cn.append(temp_list_cn)
-    temp_list_cn = []
+    # temp_list_cn.append("省份名称")  # 省份名称
+    # temp_list_cn.append("累计确诊")  # 累计确诊
+    # temp_list_cn.append("现有确诊")  # 现有确诊
+    # temp_list_cn.append("累计治愈")  # 累计治愈
+    # temp_list_cn.append("累计死亡")  # 累计死亡
+    # data_source_cn.append(temp_list_cn)
+    # temp_list_cn = []
 
     for k in range(len(json_data['results'])):
         # print(json_data['results'][k]['countryName'], json_data['results'][k]['countryEnglishName'],
@@ -79,12 +79,14 @@ if __name__ == "__main__":
 
         if json_data['results'][k]['countryName'] == json_data['results'][k]['provinceShortName']:
             # print(json_data['results'][k]['countryName'], json_data['results'][k]['provinceShortName'])
-            temp_list_global.append(json_data['results'][k]['countryName'])  # 国家名称
+            # temp_list_global.append(json_data['results'][k]['countryName'])  # 国家名称
+            if json_data['results'][k]['countryEnglishName'] is None:
+                continue
             temp_list_global.append(json_data['results'][k]['countryEnglishName'])  # 国家英文名称
             temp_list_global.append((json_data['results'][k]['confirmedCount']))  # 累计确诊
-            temp_list_global.append(json_data['results'][k]['currentConfirmedCount'])  # 现有确诊
-            temp_list_global.append(json_data['results'][k]['curedCount'])  # 累计治愈
-            temp_list_global.append(json_data['results'][k]['deadCount'])  # 累计死亡
+            # temp_list_global.append(json_data['results'][k]['currentConfirmedCount'])  # 现有确诊
+            # temp_list_global.append(json_data['results'][k]['curedCount'])  # 累计治愈
+            # temp_list_global.append(json_data['results'][k]['deadCount'])  # 累计死亡
             data_source_global.append(temp_list_global)
             temp_list_global = []
 
@@ -96,22 +98,21 @@ if __name__ == "__main__":
 
             temp_list_cn.append(province_short_name)  # 省份简称
             temp_list_cn.append(confirmed_count)  # 累计确诊
-            temp_list_cn.append(json_data['results'][k]['currentConfirmedCount'])  # 现有确诊
-            temp_list_cn.append(json_data['results'][k]['curedCount'])  # 累计治愈
-            temp_list_cn.append(json_data['results'][k]['deadCount'])  # 累计死亡
+            # temp_list_cn.append(json_data['results'][k]['currentConfirmedCount'])  # 现有确诊
+            # temp_list_cn.append(json_data['results'][k]['curedCount'])  # 累计治愈
+            # temp_list_cn.append(json_data['results'][k]['deadCount'])  # 累计死亡
 
             data_source_cn.append(temp_list_cn)
             temp_list_cn = []
 
-            province_short_name_list.append(province_short_name)  # 省份名称简称
-            confirmed_count_list.append(confirmed_count)
-
     print("已获取的全球数据（包括重要邮轮疫情）：", len(data_source_global))
+    data_source_global.sort(reverse=True, key=lambda elem: int(elem[1]))  # 按照累计确诊人数降序
     print(data_source_global)
     save_path = "../000LocalData/Covid2019/Covid_2019_global" + date_str + ".csv"
     write_to_csv(data_source_global, save_path)
 
     print("已获取的地方数据（包括中国总数）34+1：", len(data_source_cn))
+    data_source_cn.sort(reverse=True, key=lambda elem: int(elem[1]))  # 按照累计确诊人数降序
     print(data_source_cn)
     save_path = "../000LocalData/Covid2019/Covid_2019_cn" + date_str + ".csv"
     write_to_csv(data_source_cn, save_path)
