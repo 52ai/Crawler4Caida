@@ -436,7 +436,7 @@ class App:
             # 先清空tool_frame
             for widget in tool_frame.winfo_children():
                 widget.destroy()
-            tool_list = ["01-网络拓扑图（2D）"]
+            tool_list = ["01-网络拓扑图（2D）", "02-网络拓扑图（3D）"]
 
             c_tool = ttk.Combobox(tool_frame, textvariable=self.c_tv_tool, width=70)
             c_tool["values"] = tool_list
@@ -518,6 +518,7 @@ class App:
         根据aim_number + tool_number,定义好绘图的数据接口格式 
         """
         data_format = {"01-01": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
+                       "01-02": {"nodes": ["name", "symbolSize", "..."], "links": ["source", "target"], "categories": ["name"]},
                        "02-04": {"nodes": ["name", "symbolSize",  "..."], "links": ["source", "target"], "categories": ["name"]},
                        "03-03": {"line": ["node_name", "radius", "angle"]},
                        "04-071": {"line": ["location", "value"]},
@@ -553,6 +554,9 @@ class App:
                 lb.insert(END, line)
             lb.pack(side=LEFT, fill=BOTH)
             sb.config(command=lb.yview)
+        if self.aim_tool_number == "01-02":
+            self.return_main()  # 暂未实现
+
         if self.aim_tool_number == "02-04":
             format_file = "./samples/02-04(01).json"
             grou_sb_text = "绘图数据示例："+str(format_file)

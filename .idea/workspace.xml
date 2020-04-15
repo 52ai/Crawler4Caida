@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/GOOD/世界地图(04-071(02)-Covid20200414（NoSymbol）).PNG" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/GOOD/世界地图(04-071(02)-Covid20200414（NoSymbol）).PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/GOOD/中国地图(04-071(01)-Covid2020414).PNG" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/GOOD/中国地图(04-071(01)-Covid2020414).PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/image/current.html" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/image/current.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/image/current.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/~$使用说明.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +25,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2354">
-              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="1192">
+              <caret line="557" column="38" selection-start-line="557" selection-start-column="38" selection-end-line="557" selection-end-column="38" />
               <folding>
                 <element signature="e#125#134#0" expanded="true" />
               </folding>
@@ -34,20 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="as_core_map_data_new20200201.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-972">
-              <caret line="22451" column="53" selection-start-line="22451" selection-start-column="36" selection-end-line="22451" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ris_live.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#111#122#0" expanded="true" />
               </folding>
@@ -163,12 +154,12 @@
         <option value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
         <option value="$PROJECT_DIR$/040Covid2019/JsonCrawlerGithub2Local.py" />
         <option value="$PROJECT_DIR$/040Covid2019/JsonCrawlerDXYArea.py" />
-        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
         <option value="$PROJECT_DIR$/000LocalData/as_relationships/serial-1/20200201.as-rel.txt" />
+        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -179,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +198,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,16 +392,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.19652265" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.18651211" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.129771" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.24536532" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2082879" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.25845146" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -476,6 +468,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12540">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+          <folding>
+            <element signature="e#125#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#111#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12056">
+          <caret line="548" column="62" lean-forward="true" selection-start-line="548" selection-start-column="62" selection-end-line="548" selection-end-column="62" />
+          <folding>
+            <element signature="e#125#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#111#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/037Open3D/examples/Python/Basic/pointcloud.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -652,24 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid2019_data20200415.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid_2019_global20200414.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid_2019_global20200415.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid_2019_cn20200415.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid_2019_cn20200414.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v3.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -682,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#135#146#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,14 +709,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#273#288#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new3d_v2.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -707,12 +718,6 @@
           <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_cn/as_map_caida_20200221_Rank.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asstream20191203.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/as_rel_gao_20200221_dict_up.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -731,15 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_rel1_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#144#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -754,9 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200101.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/020MultiSourceCompare/as_core_map_integrate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -766,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#111#122#0" expanded="true" />
           </folding>
@@ -788,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2354">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="1192">
+          <caret line="557" column="38" selection-start-line="557" selection-start-column="38" selection-end-line="557" selection-end-column="38" />
           <folding>
             <element signature="e#125#134#0" expanded="true" />
           </folding>
