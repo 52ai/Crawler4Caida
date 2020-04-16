@@ -76,10 +76,10 @@ def gain_resource_data():
     save_path = "..\\000LocalData\\OPNet\\as_portrait_CN(ISP rank).csv"
     write_to_csv(as_portrait_cn_list, save_path)
     # 根据排序后的集合，获取Global TOP 100 AS和CN TOP 5 AS
-    top_as_global = [line[0] for line in as_portrait_list[:20]]
-    # print(top_as_global)
+    top_as_global = [line[0] for line in as_portrait_list[:30]]
+    print(top_as_global)
     top_as_cn = [line[0] for line in as_portrait_cn_list[:5]]
-    # print(top_as_cn)
+    print(top_as_cn)
     top_as = list(set(set(top_as_global) | set(top_as_cn)))
     # print(len(top_as))
     # print(top_as)
