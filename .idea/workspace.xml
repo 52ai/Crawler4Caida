@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/038OPNet/Gain_Resource_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/038OPNet/Gain_Resource_Data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +19,39 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.3196319">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="external_as_analysis_v5.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="903">
+                  <caret line="124" column="59" lean-forward="true" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#521#532#0" expanded="true" />
+                    <element signature="e#8560#9370#0" />
+                    <element signature="e#9466#14770#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="external_as_analysis_v5.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="344">
+                  <caret line="280" column="59" selection-start-line="280" selection-start-column="59" selection-end-line="280" selection-end-column="59" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/031CAICT-Display/0_display_data.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/draw_as_core_v9.py" />
         <option value="$PROJECT_DIR$/035NetwrokSimulation/animate_network.py" />
         <option value="$PROJECT_DIR$/025Visualization3D/3d_rendering.py" />
@@ -129,6 +160,7 @@
         <option value="$PROJECT_DIR$/000LocalData/as_relationships/serial-1/20200201.as-rel.txt" />
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
         <option value="$PROJECT_DIR$/038OPNet/Gain_Resource_Data.py" />
+        <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py" />
       </list>
     </option>
   </component>
@@ -151,6 +183,11 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,19 +200,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
-      <recent name="D:\Code\Crawler4Caida\023RUNet" />
-      <recent name="D:\Code\Crawler4Caida\028forceAtlas2" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\OPNet" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\020MultiSourceCompare" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\023RUNet" />
+      <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
+      <recent name="D:\Code\Crawler4Caida\028forceAtlas2" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\OPNet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Gain_Resource_Data">
+  <component name="RunManager" selected="Python.external_as_analysis_v5">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,6 +262,42 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="external_as_analysis_v4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="external_as_analysis_v5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="forceatlas2_new2d_ISP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,42 +311,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/038OPNet/forceatlas2_new2d_ISP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="learn_pcl" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/036PCL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/036PCL/learn_pcl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ris_live" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039BGPStream" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,19 +336,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.ris_live" />
-      <item itemvalue="Python.learn_pcl" />
       <item itemvalue="Python.working_with_numpy" />
       <item itemvalue="Python.Gain_Resource_Data" />
       <item itemvalue="Python.forceatlas2_new2d_ISP" />
+      <item itemvalue="Python.external_as_analysis_v4" />
+      <item itemvalue="Python.external_as_analysis_v5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.external_as_analysis_v5" />
+        <item itemvalue="Python.external_as_analysis_v4" />
         <item itemvalue="Python.Gain_Resource_Data" />
         <item itemvalue="Python.forceatlas2_new2d_ISP" />
         <item itemvalue="Python.working_with_numpy" />
-        <item itemvalue="Python.learn_pcl" />
-        <item itemvalue="Python.ris_live" />
       </list>
     </recent_temporary>
   </component>
@@ -350,15 +387,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.15911485" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.14120126" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" weight="0.32388222" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.3304253" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.22355507" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22355507" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,20 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12254">
-          <caret line="557" column="38" selection-start-line="557" selection-start-column="38" selection-end-line="557" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -607,13 +631,6 @@
         <state relative-caret-position="-2583" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1239">
@@ -681,14 +698,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="46442" column="54" lean-forward="true" selection-start-line="46442" selection-start-column="54" selection-end-line="46442" selection-end-column="54" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="493394">
           <caret line="22451" column="53" selection-start-line="22451" selection-start-column="36" selection-end-line="22451" selection-end-column="53" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="46442" column="54" lean-forward="true" selection-start-line="46442" selection-start-column="54" selection-end-line="46442" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -710,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1771">
           <caret line="899" lean-forward="true" selection-start-line="899" selection-end-line="899" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -759,6 +769,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="444" column="23" selection-start-line="444" selection-start-column="23" selection-end-line="444" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/039BGPStream/ris_live.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/asTop100_analysis_ru_v2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7374">
+          <caret line="370" lean-forward="true" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="280" column="59" selection-start-line="280" selection-start-column="59" selection-end-line="280" selection-end-column="59" />
         </state>
       </provider>
     </entry>
