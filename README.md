@@ -24,6 +24,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 明天开始要搞个大事情，有意思的事情，先做计划书。---20200324 By Wayne YU<br>
 静静写代码，倒也能平复我浮躁的情绪！ ---20200331 By Wayne YU<br>
 人生不可太着急，要循序渐进。做好可控的事，适应不可控的事，方可活的洒脱。---20200422 By Wayne YU<br>
+五一假期余额不足，且行且珍惜！---20200504 By Wayne YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
