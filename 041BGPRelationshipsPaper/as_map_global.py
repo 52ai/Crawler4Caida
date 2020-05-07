@@ -183,7 +183,7 @@ def draw_bar(data_list):
     :param data_list:
     :return:
     """
-    print(data_list)
+    # print(data_list)
     x_list = []
     y_list = []
 
@@ -203,7 +203,7 @@ def draw_bar(data_list):
             'size': 32
             }
     tick_spacing = 12
-    title_string = "全球TOP10互联网络服务商（2019）"
+    title_string = "全球TOP10自治系统网络（2019）"
     ax.set_title(title_string, font)
     color = ['blue']
     plt.bar(x_list, y_list, width=0.7, color=color)
@@ -217,9 +217,25 @@ def draw_bar(data_list):
     plt.savefig("..\\000LocalData\\Paper_Data\\draw_top10as.jpg")
 
 
+def get_as_classification_dict():
+    """
+    根据as classification文件内容对AS进行分类，返回分类字典
+    :return as_class_dict:
+    """
+    file_in = "..\\000LocalData\\as_Classification\\20150801.as2types.txt"
+    file_in_read = open(file_in, 'r', encoding='utf-8')
+    as_class_dict = {}
+    for line in file_in_read.readlines():
+        if line.strip().find("#") == 0:
+            continue
+        line = line.strip().split("|")
+        as_class_dict[line[0]] = line[2]
+    return as_class_dict
+
+
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    time_string = "20191201"
+    time_string = "20091201"
     rel_file_caida = "..\\000LocalData\\as_relationships\\serial-4\\" + time_string + ".as-rel.txt"
     save_path_home = "..\\000LocalData\\Paper_Data\\"
 
@@ -248,6 +264,8 @@ if __name__ == "__main__":
     save_path = save_path_home + 'as_map_caida_' + time_string + '_Rank.csv'
     as_map_caida.sort(reverse=True, key=lambda elem: int(elem[1]))
     write_to_csv(as_map_caida, save_path)
+    as_class_dict = get_as_classification_dict()
+    # print(as_class_dict)
 
     # 对全球TOP10互联网络服务商进行度的统计，并绘图
     top_as_rel = []
@@ -255,15 +273,23 @@ if __name__ == "__main__":
     sum_degreee = 0
     top3_sum_degreee = 0
     cnt = 0
-    for item in as_map_caida[0:10000]:
+    for item in as_map_caida[0:1000]:
         if cnt < 3:
             top3_sum_degreee += int(item[1])
         sum_degreee += int(item[1])
 
-        print(item[0], item[6], item[1])
-        temp_str = "AS" + str(item[0])
-        list_temp.append(temp_str)
-        list_temp.append(item[1])
+        if item[0] not in as_class_dict.keys():
+            print(item[0], item[6], item[1])
+            temp_str = "AS" + str(item[0])
+            list_temp.append(temp_str)
+            list_temp.append(item[1])
+            list_temp.append("Unknow")
+        else:
+            print(item[0], item[6], item[1], as_class_dict[item[0]])
+            temp_str = "AS" + str(item[0])
+            list_temp.append(temp_str)
+            list_temp.append(item[1])
+            list_temp.append(as_class_dict[item[0]])
         top_as_rel.append(list_temp)
         list_temp = []
         cnt += 1
@@ -271,6 +297,14 @@ if __name__ == "__main__":
     print("TOP3 percent:", (top3_sum_degreee/sum_degreee))
     # 绘图
     draw_bar(top_as_rel)
+    # 统计自治域网络的分类（Transit/Access、Content、Enterprise）
+    class_count_dict = {}
+    for item in top_as_rel:
+        if item[2] not in class_count_dict.keys():
+            class_count_dict[item[2]] = 1
+        else:
+            class_count_dict[item[2]] += 1
+    print(class_count_dict)
 
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
