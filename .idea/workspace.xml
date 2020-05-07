@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py" beforeDir="false" afterPath="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,53 +20,59 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="active_as.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bgp_analysis_as.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_as.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="110" column="69" lean-forward="true" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="as_core_map_data_new20191201.csv" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20191201.csv">
-              <provider selected="true" editor-type-id="csv-text-editor">
-                <state relative-caret-position="-27462" />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="active_as.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#92#101#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="active_as.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1936">
+              <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bgp_analysis_rel1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <folding>
+                <element signature="e#193#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bgp_analysis_as.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_as.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2332">
+              <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="external_as_analysis_v5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6270">
+              <caret line="288" column="7" selection-start-line="288" selection-start-column="7" selection-end-line="288" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="as_map_global.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1533">
+              <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
+              <folding>
+                <element signature="e#499#510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4134|</find>
       <find>12389|</find>
       <find>12389|-1</find>
       <find>20764</find>
@@ -106,6 +112,7 @@
       <find>4808</find>
       <find>9929</find>
       <find>caict_display</find>
+      <find>country</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -125,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/033PyQt5/browser/browser.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" />
         <option value="C:/Python37/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" />
         <option value="$PROJECT_DIR$/036PCL/example.py" />
@@ -173,9 +179,10 @@
         <option value="$PROJECT_DIR$/039BGPStream/pybgpdump/simple.py" />
         <option value="$PROJECT_DIR$/018Scatter/draw_as_core_v5(ru).py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/draw_as_core_v10.py" />
-        <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_as.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py" />
+        <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py" />
+        <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py" />
       </list>
     </option>
   </component>
@@ -190,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,8 +212,12 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="as_map" type="462c0819:PsiDirectoryNode" />
+              <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="027CNNet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -218,6 +228,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.active_as">
+  <component name="RunManager" selected="Python.as_map_global">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,6 +294,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="as_map_global" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041BGPRelationshipsPaper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,39 +371,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="external_as_analysis_v5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.external_as_analysis_v5" />
       <item itemvalue="Python.bgp_analysis_as" />
       <item itemvalue="Python.bgp_analysis_rel1" />
       <item itemvalue="Python.draw_as_core_v10" />
       <item itemvalue="Python.active_as" />
+      <item itemvalue="Python.as_map_global" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.as_map_global" />
         <item itemvalue="Python.active_as" />
         <item itemvalue="Python.bgp_analysis_rel1" />
         <item itemvalue="Python.draw_as_core_v10" />
         <item itemvalue="Python.bgp_analysis_as" />
-        <item itemvalue="Python.external_as_analysis_v5" />
       </list>
     </recent_temporary>
   </component>
@@ -412,15 +423,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.1780822" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.1780822" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" weight="0.20392585" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.2693566" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.174482" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
@@ -435,22 +445,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.20392585" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.1780822" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
+      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.20392585" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.174482" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.1908397" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,19 +505,19 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/draw_as_core_v10.py">
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9394">
-          <caret line="427" column="25" selection-start-line="427" selection-start-column="25" selection-end-line="427" selection-end-column="25" />
+        <state relative-caret-position="6336">
+          <caret line="288" column="7" selection-start-line="288" selection-start-column="7" selection-end-line="288" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py">
+    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="e#193#202#0" expanded="true" />
+            <element signature="e#499#510#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,13 +532,6 @@
     <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid2019_data20200414.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-197155" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_cn.py">
@@ -672,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
       <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="278">
@@ -780,46 +776,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-          <folding>
-            <element signature="e#193#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_as_v2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/015BGPAnalysis/active_as.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-          <folding>
-            <element signature="e#87#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_as.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="110" column="69" lean-forward="true" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20191201.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-27462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/Gao2Caida_draw_global_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9331" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="288" column="7" selection-start-line="288" selection-start-column="7" selection-end-line="288" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_as.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2332">
+          <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#193#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
+          <folding>
+            <element signature="e#499#510#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

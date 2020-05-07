@@ -89,7 +89,7 @@ def draw(draw_date, data_list):
     ax.grid(True)
     fig.tight_layout()
     plt.savefig("../000LocalData/Paper_Data/draw_rel1.jpg")
-    plt.show()
+    # plt.show()
 
 
 if __name__ == "__main__":
@@ -108,9 +108,9 @@ if __name__ == "__main__":
     date_list = []
     for path_item in file_path:
         result_list.append(analysis(path_item))
-        print(result_list)
         temp_str = path_item.split('\\')[-1]
         date_list.append(temp_str.split('.')[0])
+    print(result_list)
 
     draw(date_list, result_list)
 
