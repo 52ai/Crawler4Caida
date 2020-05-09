@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,26 +20,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_bgp_analysis_as_v3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/031CAICT-Display/3_bgp_analysis_as_v3.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="1_internal_as_rel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/031CAICT-Display/1_internal_as_rel.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="5_all_as_rel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#106#117#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2_external_as_rel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -156,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -167,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,13 +170,29 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_Gao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="031CAICT-Display" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.as_map_global">
+  <component name="RunManager" selected="Python.5_all_as_rel">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +244,24 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="5_all_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="active_as" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
@@ -290,24 +317,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="draw_as_core_v10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041BGPRelationshipsPaper" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041BGPRelationshipsPaper/draw_as_core_v10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="extractPeeringDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -329,18 +338,18 @@
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
       <item itemvalue="Python.bgp_analysis_rel1" />
-      <item itemvalue="Python.draw_as_core_v10" />
       <item itemvalue="Python.active_as" />
       <item itemvalue="Python.as_map_global" />
       <item itemvalue="Python.extractPeeringDB" />
+      <item itemvalue="Python.5_all_as_rel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5_all_as_rel" />
         <item itemvalue="Python.as_map_global" />
         <item itemvalue="Python.extractPeeringDB" />
         <item itemvalue="Python.active_as" />
         <item itemvalue="Python.bgp_analysis_rel1" />
-        <item itemvalue="Python.draw_as_core_v10" />
       </list>
     </recent_temporary>
   </component>
@@ -378,17 +387,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.13804004" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.13804004" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015806" side_tool="true" weight="0.19847329" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.22355507" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49841937" weight="0.43184295" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49841937" visible="true" weight="0.304253" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.18974918" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.25517994" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -461,6 +470,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/Covid2019/Covid_2019_global20200415.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="88">
@@ -489,13 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -738,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding>
-            <element signature="e#193#202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="e#253#264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="273" column="24" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
-          <folding>
-            <element signature="e#499#510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,9 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -781,19 +778,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/3_bgp_analysis_as_v3.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/1_internal_as_rel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="108" column="38" lean-forward="true" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#106#117#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
