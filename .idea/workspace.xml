@@ -23,15 +23,13 @@
       <file leaf-file-name="5_all_as_rel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="-1672">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#483#494#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_external_as_rel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -159,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,15 +385,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-2143" y="275" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.13804004" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.21601686" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015806" side_tool="true" weight="0.19847329" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.22355507" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49841937" visible="true" weight="0.304253" />
+      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49841937" visible="true" weight="0.33151582" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.25517994" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
@@ -411,21 +409,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.5823337" visible="true" weight="0.1780822" />
       <window_info id="Structure" order="0" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
       <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" visible="true" weight="0.20392585" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736565" weight="0.174482" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" weight="0.1908397" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18756816" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.41766632" side_tool="true" weight="0.16280295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,8 +470,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#483#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#483#494#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,14 +743,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="35150">
-          <caret line="1705" column="4" selection-start-line="1705" selection-end-line="1705" selection-end-column="4" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1334">
           <caret line="4074" column="85" lean-forward="true" selection-start-line="4074" selection-start-column="85" selection-end-line="4074" selection-end-column="85" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="35150">
+          <caret line="1705" column="4" selection-start-line="1705" selection-end-line="1705" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -792,13 +803,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="-1672">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#483#494#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
