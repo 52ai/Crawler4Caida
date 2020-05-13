@@ -209,7 +209,7 @@ def draw_bar(data_list):
     plt.bar(x_list, y_list, width=0.7, color=color)
     for x, y in zip(x_list, y_list):
         plt.text(x, y + 0.05, '%.0f' % y, ha='center', va='bottom', fontsize=32)
-    ax.set_xlabel('Statistical Time(UTC)', font)
+    ax.set_xlabel('Autonomous System Number', font)
     ax.set_ylabel('Degree of Network', font)
     # ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
@@ -222,7 +222,7 @@ def get_as_classification_dict():
     根据as classification文件内容对AS进行分类，返回分类字典
     :return as_class_dict:
     """
-    file_in = "..\\000LocalData\\as_Classification\\20150801.as2types.txt"
+    file_in = "..\\000LocalData\\as_Classification\\20190901.as2types.txt"
     file_in_read = open(file_in, 'r', encoding='utf-8')
     as_class_dict = {}
     for line in file_in_read.readlines():
@@ -235,7 +235,7 @@ def get_as_classification_dict():
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    time_string = "20091201"
+    time_string = "20191201"
     rel_file_caida = "..\\000LocalData\\as_relationships\\serial-4\\" + time_string + ".as-rel.txt"
     save_path_home = "..\\000LocalData\\Paper_Data\\"
 
