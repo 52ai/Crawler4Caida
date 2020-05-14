@@ -63,7 +63,7 @@ def write_to_csv(res_list, des_path):
     :return: None
     """
     print("write file <%s> ..." % des_path)
-    csvFile = open(des_path, 'w', newline='', encoding='utf-8')
+    csvFile = open(des_path, 'w', newline='', encoding='gbk')
     try:
         writer = csv.writer(csvFile, delimiter=",")
         for i in res_list:
