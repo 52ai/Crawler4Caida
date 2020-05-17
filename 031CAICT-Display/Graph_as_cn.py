@@ -120,6 +120,7 @@ def read_as_links(file_name, cn_as):
         if line.strip().find("#") == 0:
             continue
         line = line.strip().split('|')
+        print(line[2])
         if line[0] in cn_as and line[1] in cn_as:
             # print(line)
             temp_dict["source"] = "AS"+str(line[0])

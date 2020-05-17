@@ -28,15 +28,15 @@ def read_as_info(file_name):
     file_read = open(file_name, 'r', encoding='utf-8')
     as_list = []
     # 中日韩
-    country_group = ["CN", "JP", "KR"]
+    country_group = ["CN", "JP", "KR", "Others"]
     # 中国-东盟10国文莱（BN）、柬埔寨（KH）、印度尼西亚（ID）、老挝（LA）、马来西亚（MY）、缅甸（MM）、菲律宾(PH)、新加坡(SG)、泰国(TH)、越南(VN)
     # country_group = ["CN", "BN", "KH", "ID", "LA", "MY", "MM", "PH", "SG", "TH", "VN"]
 
     for line in file_read.readlines():
         line = line.strip().split('|')
         # print(line)
-        if line[-1] in country_group:
-            categories_list.append(line[-1])  # 添加分类
+        if line[8] in country_group:
+            # categories_list.append(line[8])  # 添加分类
             as_list.append(line[0])
             node_name = "AS" + str(line[0])
             node_size = np.sqrt(int(line[1]))
@@ -44,7 +44,7 @@ def read_as_info(file_name):
             temp_dict["symbolSize"] = node_size
             temp_dict["draggable"] = "True"
             temp_dict["value"] = line[1]
-            temp_dict["category"] = line[-1]
+            temp_dict["category"] = line[8]
 
             if int(line[2]) > 420000000000:
                 temp_dict_normal["show"] = "True"
@@ -57,6 +57,29 @@ def read_as_info(file_name):
             else:
                 as_info.append(temp_dict)
                 temp_dict = {}
+        else:
+            # categories_list.append("Others")  # 添加分类
+            as_list.append(line[0])
+            node_name = "AS" + str(line[0])
+            node_size = np.sqrt(int(line[1]))
+            temp_dict["name"] = node_name
+            temp_dict["symbolSize"] = node_size
+            temp_dict["draggable"] = "True"
+            temp_dict["value"] = line[1]
+            temp_dict["category"] = "Others"
+
+            if int(line[2]) > 420000000000:
+                temp_dict_normal["show"] = "True"
+                temp_dict_label["normal"] = temp_dict_normal
+                temp_dict["label"] = temp_dict_label
+                as_info.append(temp_dict)
+                temp_dict = {}
+                temp_dict_normal = {}
+                temp_dict_label = {}
+            else:
+                as_info.append(temp_dict)
+                temp_dict = {}
+
     categories_list = country_group
     categories_info = []
     # for item in list(set(categories_list)):
@@ -78,6 +101,7 @@ def read_as_links(file_name, as_list):
     :param cn_as:
     :return as_links:
     """
+    # print(as_list)
     as_links = []
     temp_dict = {}
     file_read = open(file_name, 'r', encoding='utf-8')
@@ -99,8 +123,8 @@ def graph_weibo(title_name) -> Graph:
     # file_in = '..\\000LocalData\\as_cn\\as_map_caida_20200221_cn.csv'
     # bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\20200201.as-rel.txt"
 
-    file_in = '..\\000LocalData\\as_map\\as_core_map_data_new20080101.csv'
-    bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\20080101.as-rel.txt"
+    file_in = '..\\000LocalData\\as_map\\as_core_map_data_new19980101.csv'
+    bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\19980101.as-rel.txt"
 
     # file_in = '..\\000LocalData\\as_cn\\as_map_gao_20200221.csv'
     # bgp_file = "..\\000LocalData\\as_Gao\\as_rel_gao_20200221_dict_up.txt"
@@ -115,7 +139,7 @@ def graph_weibo(title_name) -> Graph:
     out_json.append(as_info_dict)
     out_json.append(as_links_dict)
     out_json.append(categories_dict)
-    print(out_json)
+    # print(out_json)
     final_json = json.dumps(out_json, indent=4)
     with open("..\\000LocalData\\caict_display\\graph_global_display.json", 'a') as f:
         f.write(final_json)
@@ -148,5 +172,5 @@ def graph_weibo(title_name) -> Graph:
     return c
 
 
-opt_title_name = "Graph-全球AS网络互联关系拓扑图（2020）"
+opt_title_name = "Graph-全球AS网络互联关系拓扑图（1998）"
 graph_weibo(opt_title_name).render("..\\000LocalData\\caict_display\\graph_global_dispaly.html")
