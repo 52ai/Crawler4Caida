@@ -80,7 +80,7 @@ def read_as_info(file_name):
             # temp_dict["category"] = line[-1]
             temp_dict["category"] = as_item_class
 
-            if int(line[2]) > 100:
+            if int(line[2]) > 12:
                 temp_dict_normal["show"] = "True"
                 temp_dict_label["normal"] = temp_dict_normal
                 temp_dict["label"] = temp_dict_label
@@ -112,22 +112,34 @@ def read_as_links(file_name, cn_as):
     :param cn_as:
     :return as_links:
     """
-    as_links = []
+    as_links = []  # 存储连边的信息
     temp_dict = {}
+    temp_temp_dict = {}
     file_read = open(file_name, 'r', encoding='utf-8')
     iter_cnt = 0
     for line in file_read.readlines():
         if line.strip().find("#") == 0:
             continue
         line = line.strip().split('|')
-        print(line[2])
         if line[0] in cn_as and line[1] in cn_as:
+            # 处理连边的Color信息
+            print(line[2])
+            if line[2] == '0':
+                links_color = 'blue'
+            else:
+                links_color = "green"
             # print(line)
             temp_dict["source"] = "AS"+str(line[0])
             temp_dict["target"] = "AS"+str(line[1])
+
+            temp_temp_dict['width'] = 10
+            temp_temp_dict['color'] = links_color
+            temp_dict["linestyle_opts"] = temp_temp_dict
             as_links.append(temp_dict)
             temp_dict = {}
+            temp_temp_dict = {}
             iter_cnt += 1
+
     # print("iter_cnt:", iter_cnt)
     return as_links
 
@@ -164,9 +176,10 @@ def graph_weibo(title_name) -> Graph:
             categories_dict,
             # layout="circular",
             is_rotate_label=True,
-            gravity=0.2,
+            gravity=0.15,
             repulsion=420,
             linestyle_opts=opts.LineStyleOpts(width=10, opacity=0.3, color='#fff', curve=0),
+            # linestyle_opts=opts.LineStyleOpts(width=10, opacity=0.3, color="source", curve=0),
             label_opts=opts.LabelOpts(is_show=True, font_size=15),
         )
         .set_global_opts(
