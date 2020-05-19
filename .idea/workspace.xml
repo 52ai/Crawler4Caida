@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/031CAICT-Display/Graph_as_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/Graph_as_cn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037Open3D/learn_jupyter_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/037Open3D/learn_jupyter_visualization.py" afterDir="false" />
-    </list>
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,38 +20,11 @@
       <file leaf-file-name="testOpen3DVis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="139" column="98" selection-start-line="139" selection-start-column="98" selection-end-line="139" selection-end-column="98" />
+            <state relative-caret-position="1189">
+              <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
               <folding>
                 <element signature="e#309#329#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="io.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/open3d/open3d/io.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-886">
-              <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TriangleMesh.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/open3d/open3d/geometry/TriangleMesh.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
-              <caret line="84" column="145" selection-start-line="84" selection-start-column="88" selection-end-line="84" selection-end-column="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python37/Lib/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4576">
-              <caret line="217" column="8" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -411,16 +377,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5804677" visible="true" weight="0.18651211" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021075" side_tool="true" weight="0.2693566" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.22355507" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
-      <window_info active="true" anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.34460196" />
+      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49789253" weight="0.34460196" />
       <window_info id="Structure" order="0" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
-      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.1919302" />
+      <window_info active="true" anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.1919302" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -765,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="139" column="98" selection-start-line="139" selection-start-column="98" selection-end-line="139" selection-end-column="98" />
+        <state relative-caret-position="1189">
+          <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
           <folding>
             <element signature="e#309#329#0" expanded="true" />
           </folding>
