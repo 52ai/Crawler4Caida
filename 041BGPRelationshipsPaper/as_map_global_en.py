@@ -195,8 +195,8 @@ def draw_bar(data_list):
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
     plt.xticks(rotation=32)
     plt.tick_params(labelsize=32)
-    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
-    font = {'family': 'sans-serif',
+    # plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+    font = {'family': 'Times New Roman',
             'style': 'normal',
             'weight': 'normal',
             'color': 'black',
@@ -209,8 +209,8 @@ def draw_bar(data_list):
     plt.bar(x_list, y_list, width=0.7, color=color)
     for x, y in zip(x_list, y_list):
         plt.text(x, y + 0.05, '%.0f' % y, ha='center', va='bottom', fontsize=32)
-    ax.set_xlabel('Autonomous System Number', font)
-    ax.set_ylabel('Degree of Network', font)
+    ax.set_xlabel('Time of estimation', font)
+    ax.set_ylabel('Network degree', font)
     # ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()

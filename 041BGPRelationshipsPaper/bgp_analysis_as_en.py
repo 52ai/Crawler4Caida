@@ -93,14 +93,14 @@ def draw(draw_date, data_list, as_analysis):
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
     plt.xticks(rotation=32)
     plt.tick_params(labelsize=32)
-    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
-    font = {'family': 'sans-serif',
+    # plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+    font = {'family': 'Times New Roman',
             'style': 'normal',
             'weight': 'normal',
             'color': 'black',
             'size': 42
             }
-    font_legend = {'family': 'sans-serif',
+    font_legend = {'family': 'Times New Roman',
                    'style': 'normal',
                    'weight': 'normal',
                    'size': 32
@@ -108,13 +108,13 @@ def draw(draw_date, data_list, as_analysis):
     tick_spacing = 12
     # title_string = "全球互联网BGP互联趋势分析(19980101-20191201) AS:" + as_analysis
     # ax.set_title(title_string, font)
-    ax.plot(draw_date, edge_list, ls='-', marker='.', label='All Relationships')
+    ax.plot(draw_date, edge_list, ls='-', marker='.', label='Total interconnections')
     ax.plot(draw_date, peer_list, ls=':', marker='+', label='Peer')
     ax.plot(draw_date, transit_list, ls='-.', marker='s', label='Transit')
-    ax.plot(draw_date, transit_provider_list, ls=':', marker='v', label='Transit as Provider')
-    ax.plot(draw_date, transit_customer_list, ls=':', marker='^', label='Transit as Customer')
-    ax.set_xlabel('Statistical Time(UTC)', font)
-    ax.set_ylabel('Number of Relationships', font)
+    ax.plot(draw_date, transit_provider_list, ls=':', marker='v', label='Transit-ISP')
+    ax.plot(draw_date, transit_customer_list, ls=':', marker='^', label='Transit-Customer')
+    ax.set_xlabel('Time of estimation', font)
+    ax.set_ylabel('Interconnection', font)
     ax.legend(prop=font_legend)
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
@@ -124,10 +124,10 @@ def draw(draw_date, data_list, as_analysis):
 
 
 if __name__ == "__main__":
-    as_analysis = ["32787", "13335", "54994", "63541",
-                   "16509", "8075", "15169", "37963", "45102", "45090", "132203", "38365", "55967",
-                   "4134", "4837", "7018", "701", "2914"]
-    # as_analysis = ["32787"]
+    # as_analysis = ["32787", "13335", "54994", "63541",
+    #                "16509", "8075", "15169", "37963", "45102", "45090", "132203", "38365", "55967",
+    #                "4134", "4837", "7018", "701", "2914"]
+    as_analysis = ["7018", "2914", "32787", "15169", "45102", "4134", "4837"]
     # file_path = ["../000LocalData/as_relationships/20151201.as-rel2.txt",
     #              "../000LocalData/as_relationships/20160901.as-rel2.txt",
     #              "../000LocalData/as_relationships/20170901.as-rel2.txt",

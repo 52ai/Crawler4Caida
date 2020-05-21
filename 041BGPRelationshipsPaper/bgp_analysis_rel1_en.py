@@ -63,27 +63,27 @@ def draw(draw_date, data_list):
         transit_list.append(int(item[2]))
 
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
-    plt.xticks(rotation=30)
+    plt.xticks(rotation=32)
     plt.tick_params(labelsize=32)
-    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
-    font = {'family': 'sans-serif',
+    # plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+    font = {'family': 'Times New Roman',
             'style': 'normal',
             'weight': 'normal',
             'color': 'black',
             'size': 42
             }
-    font_legend = {'family': 'sans-serif',
+    font_legend = {'family': 'Times New Roman',
                    'style': 'normal',
                    'weight': 'normal',
                    'size': 36
                    }
     tick_spacing = 12
     # ax.set_title("全球互联网BGP互联趋势分析(19980101-20191201)", font)
-    ax.plot(draw_date, edge_list, ls='-', marker='.', label='All Relationships')
-    ax.plot(draw_date, peer_list, ls=':', marker='+', label='Peer')
-    ax.plot(draw_date, transit_list, ls='-.', marker='s', label='Transit')
-    ax.set_xlabel('Statistical Time(UTC)', font)
-    ax.set_ylabel('Number of Relationships', font)
+    ax.plot(draw_date, edge_list, ls='-', marker='.', label='All interconnected relationships')
+    ax.plot(draw_date, peer_list, ls=':', marker='+', label='Peer relationship')
+    ax.plot(draw_date, transit_list, ls='-.', marker='s', label='Transit relationship')
+    ax.set_xlabel('Time of estimation', font)
+    ax.set_ylabel('Interconnected relationship', font)
     ax.legend(prop=font_legend)
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
