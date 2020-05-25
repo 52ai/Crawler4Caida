@@ -194,5 +194,6 @@ def graph_weibo(title_name) -> Graph:
     )
     return c
 
+
 opt_title_name = "Graph-中国AS网络互联关系拓扑图(2020)"
 graph_weibo(opt_title_name).render("..\\000LocalData\\caict_display\\graph_cn_display.html")

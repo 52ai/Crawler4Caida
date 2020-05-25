@@ -15,7 +15,7 @@ ws.connect("wss://ris-live.ripe.net/v1/ws/?client=py-example-1")
 
 params = {
     "moreSpecific": True,
-    "host": "rrc21",
+    "host": "rrc24",
     "socketOptions": {
         "includeRaw": True
     }
