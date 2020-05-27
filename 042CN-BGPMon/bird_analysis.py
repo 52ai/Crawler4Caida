@@ -41,6 +41,7 @@ def gain_rib_info(rib_file):
     :param rib_file:
     :return rib_info_Prefix2AS:
     """
+    print("- - - - - - - - - -RIB INFO- - - - - - - - - - - - - - - - ")
     print(rib_file)
     rib_info_Prefix2ASPath = {}  # 存储Prefix: AS_PATH
     rib_info_Prefix2AS = {}  # 存储Prefix2AS的记录
@@ -79,14 +80,64 @@ def gain_rib_info(rib_file):
     return rib_info_Prefix2AS
 
 
+def gain_radb_info(radb_file):
+    """
+    根据传入的radb库的信息，按需求格式获取prefix2as以及其他可能需要的信息
+    :param radb_file:
+    :return radb_info_Prefix2AS:
+    """
+    print("- - - - - - - - - -RADB INFO- - - - - - - - - - - - - - - - ")
+    print(radb_file)
+    radb_info_Prefix2AS = {}  # 存储prefix2as的记录
+    radb_records_cnt = 0  # 统计RADB中注册的有效记录的个数
+    radb_as_list = []  # 存储radb库中存在的AS记录
+    file_read = open(radb_file, 'rb')
+    temp_route = ''
+    temp_origin = ''
+    for line in file_read.readlines():
+        line = line.strip()
+        if line:
+            line = line.split()
+            # print(line[0].decode('utf-8', 'ignore'), line[-1].decode('utf-8', 'ignore'))
+            """"
+            文件中存在多种编码的，可使用不严格解码的方式decode('utf-8', 'ignore')
+            """
+            if line[0].decode('utf-8', 'ignore') == 'route:':
+                temp_route = line[-1].decode('utf-8', 'ignore').strip()
+            elif line[0].decode('utf-8', 'ignore') == 'origin:':
+                temp_origin = line[-1].decode('utf-8', 'ignore').strip().upper().strip("AS")
+        else:
+            if temp_route and temp_origin:
+                # print(temp_route, temp_origin)
+                radb_as_list.append(temp_origin)  # 记录出现的AS网络
+                radb_records_cnt += 1
+                # 判断前缀是否在字典中
+                if temp_route not in radb_info_Prefix2AS.keys():
+                    radb_info_Prefix2AS.setdefault(temp_route, []).append(temp_origin)
+                else:
+                    # 若前缀在字典中，则需要判断origin as是否存在该前缀对应的源AS中
+                    if temp_origin not in radb_info_Prefix2AS[temp_route]:
+                        radb_info_Prefix2AS.setdefault(temp_route, []).append(temp_origin)
+                    else:
+                        print("Duplicate Registration!", temp_route, temp_origin)
+            temp_route = ''
+            temp_origin = ''
+    print("RADB All Records:", radb_records_cnt)
+    print("Prefix All Records(Origin AS):", len(radb_info_Prefix2AS))
+    print("AS Records:", len(set(radb_as_list)))
+
+    return radb_info_Prefix2AS
+
+
 def gain_message_info(message_file):
     """
     根据传入的message file<M>，进行相关数据统计分析
     :param message_file:
     :return message_info_Prefix2AS:
     """
+    print("- - - - - - - - - -MESSAGE INFO- - - - - - - - - - - - - - - - ")
     print(message_file)
-    message_info_withdraw = []  # 存储撤销的报文信息、
+    message_info_withdraw = []  # 存储撤销的报文信息
     message_info_Prefix2ASPath = {}  # 新增通告，存储Prefix: AS_PATH
     message_info_Prefix2AS = {}  # 新增通告，存储Prefix2AS的记录
     message_records_cnt = 0
@@ -136,6 +187,7 @@ def find_abnormal(rib_prefix2as, message_prefix2as):
     :param message_prefix2as:
     :return:
     """
+    print("- - - - - - - - - -Find Abnormal(RIB)- - - - - - - - - - - - - - - - ")
     new_prefix_cnt = 0
     abnormal_event_cnt = 0
     for key in message_prefix2as.keys():
@@ -151,14 +203,21 @@ def find_abnormal(rib_prefix2as, message_prefix2as):
     print("Abnormal Event:", abnormal_event_cnt)
 
 
-def find_abnormal_realtime(message_file, rib_prefix2as):
+def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as):
     """
     根据每15分钟切割好的UPDATE报文，逐行读取并判断是否为异常事件
     :param message_file:
     :param rib_prefix2as:
+    :param radb_prefix2as:
     :return:
     """
-    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    # 利用radb_prefix2as中的源AS数据扩充rib_prefix2as中的源AS数据
+    for key in rib_prefix2as.keys():
+        if key in radb_prefix2as.keys():
+            rib_prefix2as.setdefault(key, []).extend(radb_prefix2as[key])
+            rib_prefix2as[key] = list(set(rib_prefix2as[key]))  # 两个库合并，可能存在重复项，需去重
+
+    print("- - - - - - - - - -Find Abnormal Realtime(RIB+RADB)- - - - - - - - - - - - - - - - ")
     new_prefix_cnt = 0
     new_prefix_list = []  # 存储新通告的前缀
     abnormal_event_cnt = 0
@@ -191,11 +250,13 @@ def find_abnormal_realtime(message_file, rib_prefix2as):
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     rib_file_in = '../000LocalData/BGPData/birdmrt_master_2020-05-08_00_45_09_M.txt'
-    message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-05-26_15_37_56_M.txt'
+    radb_file_in = '../000LocalData/BGPData/20200527radb.db.route'
+    message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt'
     rib_prefix2as = gain_rib_info(rib_file_in)
+    radb_prefix2as = gain_radb_info(radb_file_in)
     message_prefix2as = gain_message_info(message_file_in)
     find_abnormal(rib_prefix2as, message_prefix2as)
-    find_abnormal_realtime(message_file_in, rib_prefix2as)
+    find_abnormal_realtime(message_file_in, rib_prefix2as, radb_prefix2as)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
