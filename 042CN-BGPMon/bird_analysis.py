@@ -169,7 +169,8 @@ def gain_message_info(message_file):
                     # 若该Origin AS记录不存在，则新增记录
                     message_info_Prefix2AS.setdefault(line[5], []).append(origin_as)
         else:
-            print(line[2])
+            # print(line[2])
+            pass
         message_records_cnt += 1
         if message_records_cnt >= 10000000:
             pass
@@ -251,7 +252,8 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     rib_file_in = '../000LocalData/BGPData/birdmrt_master_2020-05-08_00_45_09_M.txt'
     radb_file_in = '../000LocalData/BGPData/20200527radb.db.route'
-    message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt'
+    message_file_in = '../000LocalData/BGPData/updates.20200526.1010_M_Bird.txt'
+    # message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt'
     rib_prefix2as = gain_rib_info(rib_file_in)
     radb_prefix2as = gain_radb_info(radb_file_in)
     message_prefix2as = gain_message_info(message_file_in)
