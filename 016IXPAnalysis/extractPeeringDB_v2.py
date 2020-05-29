@@ -39,7 +39,9 @@ Function：
 4）全球IXP信息按大洲维度统计
 5）我国IXP发展具体情况
 6）全球IXP的IPV6支持情况
-
+7）案例1：阿姆斯特丹交换中心（AMS-IX）数据统计分析(https://peeringdb.com/api/ix/26)
+8）案例2：香港交换中心（HK-IX）数据统计分析
+9）案例3：莫斯科交换中心（MSK-IX Moscow）数据统计分析
 
 以上所有数据均可实时统计，可基于PeeringDB的数据一键生产当前时间【全球互联网交换中心的数据分析报告（PEERING DB）】
 
@@ -120,6 +122,7 @@ def generate_global_ixp_report():
 
     print("- - - - - - -0)全球互联网交换中心数据分析报告（PEERING DB）- ")
     print("报告生成时间：", datetime.now())
+    print("基础数据来源：https://www.peeringdb.com/")
     print("- - - - - - -1)当前时间全球IXP总数统计- - - - - - - - - - - -")
     print("Global IXP Count:", len(html_json['data']))
     print("- - - - - - -2)全球IXP发展趋势- - - - - - - - - - - -")
@@ -142,7 +145,7 @@ def generate_global_ixp_report():
         country_dict_list.append([key, country_dict[key]])
     country_dict_list.sort(reverse=True, key=lambda elem: int(elem[1]))
     # print(country_dict_list)
-    print("全球范围内共有", len(country_dict_list), "个国家（地区）上线了IXP")
+    print("全球范围内共有", len(country_dict_list), "个国家（地区）部署了IXP")
     print("按IXP数量降序排名，TOP 20信息如下：")
     for item in country_dict_list[0:20]:
         print(item[0], ":", item[1])
@@ -167,6 +170,57 @@ def generate_global_ixp_report():
     print("- - - - - - -6)全球IXP的IPV6支持情况- - - - - - - - - - - -")
     print("已支持IPV6的IXP数量：", ipv6_on_cnt)
     print("未支持IPV6的IXP数量：", ipv6_off_cnt)
+    print("- - - - - - -7)案例1：阿姆斯特丹交换中心（AMS-IX）数据统计分析- - - - - -")
+    html = urlopen(r'https://peeringdb.com/api/ix/26')
+    html_json = json.loads(html.read())
+    # print(html_json['data'][0])
+    ix_data = html_json['data'][0]
+    print("IXP名称(简称):", ix_data['name'])
+    print("IXP名称(全称):", ix_data['name_long'])
+    print("IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent'])
+    print("是否支持IPV6:", ix_data['proto_ipv6'])
+    print("官方网站:", ix_data['website'])
+    print("该IXP流量信息展示页面:", ix_data['url_stats'])
+    print("该IXP接入网络数量:", ix_data['net_count'])
+    print("该IXP网络基础设施点:")
+    item_cnt = 1
+    for item in ix_data['fac_set']:
+        print(item_cnt, "> ", item['name'], ", ", item['city'], ", ", item['country'])
+        item_cnt += 1
+    print("- - - - - - -8)案例2：香港交换中心（HK-IX）数据统计分析- - - - - -")
+    html = urlopen(r'https://peeringdb.com/api/ix/42')
+    html_json = json.loads(html.read())
+    # print(html_json['data'][0])
+    ix_data = html_json['data'][0]
+    print("IXP名称(简称):", ix_data['name'])
+    print("IXP名称(全称):", ix_data['name_long'])
+    print("IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent'])
+    print("是否支持IPV6:", ix_data['proto_ipv6'])
+    print("官方网站:", ix_data['website'])
+    print("该IXP流量信息展示页面:", ix_data['url_stats'])
+    print("该IXP接入网络数量:", ix_data['net_count'])
+    print("该IXP网络基础设施点:")
+    item_cnt = 1
+    for item in ix_data['fac_set']:
+        print(item_cnt, "> ", item['name'], ", ", item['city'], ", ", item['country'])
+        item_cnt += 1
+    print("- - - - - - -9)案例3：莫斯科交换中心（MSK-IX Moscow）数据统计分析- - - - - -")
+    html = urlopen(r'https://peeringdb.com/api/ix/100')
+    html_json = json.loads(html.read())
+    # print(html_json['data'][0])
+    ix_data = html_json['data'][0]
+    print("IXP名称(简称):", ix_data['name'])
+    print("IXP名称(全称):", ix_data['name_long'])
+    print("IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent'])
+    print("是否支持IPV6:", ix_data['proto_ipv6'])
+    print("官方网站:", ix_data['website'])
+    print("该IXP流量信息展示页面:", ix_data['url_stats'])
+    print("该IXP接入网络数量:", ix_data['net_count'])
+    print("该IXP网络基础设施点:")
+    item_cnt = 1
+    for item in ix_data['fac_set']:
+        print(item_cnt, "> ", item['name'], ", ", item['city'], ", ", item['country'])
+        item_cnt += 1
 
 
 if __name__ == "__main__":
