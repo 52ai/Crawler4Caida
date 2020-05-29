@@ -7,9 +7,11 @@ from datetime import *
 
 html = urlopen(r'https://www.peeringdb.com/api/ix')
 hjson = json.loads(html.read())
+print(hjson)
 # print "IX Count:", len(hjson['data']),"(2016年整个互联网有465个IXP)"
 # print hjson['data'][0]
-print("IX Count:", len(hjson['data']),"(2016年整个互联网有465个IXP)")
+
+print("IX Count:", len(hjson['data']), "(2016年整个互联网有465个IXP)")
 print(hjson['data'][0])
 
 dic_country = {}
@@ -78,9 +80,9 @@ for item in ixp_cnt_year:
 
 
 print("统计整个互联网从2010年至今，每年总的ixp数量")
-cnt_list = [0, 0, 0, 0, 0, 0, 0, 0]
+cnt_list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 for year in ixp_cnt_year.keys():
-    for i in range((year-2010),8):
+    for i in range((year-2010), 11):
         cnt_list[i] += ixp_cnt_year[year]
 
 print(cnt_list)
