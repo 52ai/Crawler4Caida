@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" beforeDir="false" afterPath="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +20,25 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.22229917">
+    <splitter split-orientation="horizontal" split-proportion="0.4610272">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="extractPeeringDB.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py">
+          <file leaf-file-name="bird_analysis.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="22">
-                  <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+                <state relative-caret-position="148">
+                  <caret line="276" column="4" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="live_data_gain.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1342">
+                  <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
                   <folding>
-                    <element signature="e#15#49#0" expanded="true" />
+                    <element signature="e#615#626#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -36,54 +47,8 @@
           <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/042CN-BGPMon/README.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bird_analysis.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="244" column="43" selection-start-line="244" selection-start-column="43" selection-end-line="244" selection-end-column="43" />
-                  <folding>
-                    <element signature="e#301#311#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="asn_info.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-110716" />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="as_core_map_data_new20200201.csv" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
-              <provider selected="true" editor-type-id="csv-text-editor">
-                <state relative-caret-position="70">
-                  <caret line="1466" column="4" selection-start-line="1466" selection-end-line="1466" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="birdmrt_messages_2020-05-26_18_22_57_M.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="25">
-                  <caret line="12" column="65" selection-end-line="21" selection-end-column="91" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="extractPeeringDB_v2.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB_v2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1474">
-                  <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+                <state relative-caret-position="1012">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
                 </state>
               </provider>
             </entry>
@@ -92,11 +57,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="extractPeeringDB_v2.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB_v2.py">
+          <file leaf-file-name="bird_analysis.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="266">
+                  <caret line="277" column="80" selection-start-line="277" selection-start-column="80" selection-end-line="277" selection-end-column="80" />
                 </state>
               </provider>
             </entry>
@@ -114,7 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4812</find>
       <find>5089</find>
       <find>4134|5089</find>
       <find>4797|</find>
@@ -144,6 +108,7 @@
       <find>136933</find>
       <find>194.45.34.0/24</find>
       <find>withdrawals</find>
+      <find>4134</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -208,19 +173,19 @@
         <option value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/Graph_as_cn_update.py" />
         <option value="$PROJECT_DIR$/042CN-BGPMon/README.txt" />
-        <option value="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" />
         <option value="$PROJECT_DIR$/042CN-BGPMon/format_ripe_message.py" />
-        <option value="$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py" />
         <option value="$PROJECT_DIR$/042CN-BGPMon/build_trusted_local_radb.py" />
         <option value="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py" />
         <option value="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB_v2.py" />
         <option value="$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv" />
+        <option value="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" />
+        <option value="$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="75" />
+    <option name="y" value="176" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -235,32 +200,6 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="BGPData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="016IXPAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="039BGPStream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -307,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extractPeeringDB_v2">
+  <component name="RunManager" selected="Python.bird_analysis">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -396,7 +335,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="format_ripe_message" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="live_data_gain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,7 +347,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042CN-BGPMon/format_ripe_message.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,18 +356,18 @@
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
       <item itemvalue="Python.bird_analysis" />
-      <item itemvalue="Python.format_ripe_message" />
       <item itemvalue="Python.build_trusted_local_radb" />
       <item itemvalue="Python.extractPeeringDB" />
       <item itemvalue="Python.extractPeeringDB_v2" />
+      <item itemvalue="Python.live_data_gain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.extractPeeringDB_v2" />
         <item itemvalue="Python.bird_analysis" />
+        <item itemvalue="Python.live_data_gain" />
+        <item itemvalue="Python.extractPeeringDB_v2" />
         <item itemvalue="Python.extractPeeringDB" />
         <item itemvalue="Python.build_trusted_local_radb" />
-        <item itemvalue="Python.format_ripe_message" />
       </list>
     </recent_temporary>
   </component>
@@ -469,16 +408,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.23919916" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.12802951" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021075" side_tool="true" weight="0.2693566" />
+      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.57797164" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17666303" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.12104689" />
-      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.5310796" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.38931298" />
-      <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
+      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2355507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
+      <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,21 +429,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.5804677" visible="true" weight="0.17175975" />
-      <window_info id="Structure" order="0" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.18018967" />
+      <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.17775354" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.22355507" />
-      <window_info anchor="bottom" x="-1188" y="169" width="694" height="627" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.21592148" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
-      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.21592148" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021075" side_tool="true" weight="0.2693566" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
+      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.29007635" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.304253" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.12104689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
+      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.15594329" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021075" side_tool="true" weight="0.2693566" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.17666303" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -774,13 +713,6 @@
         <state relative-caret-position="-1914" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/websocket/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100" />
@@ -790,13 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
           <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/build_trusted_local_radb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="83" selection-start-line="82" selection-end-line="83" />
         </state>
       </provider>
     </entry>
@@ -821,39 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/201603.as-rel-geo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/20190701.as-org2info-asn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="244" column="43" selection-start-line="244" selection-start-column="43" selection-end-line="244" selection-end-column="43" />
-          <folding>
-            <element signature="e#301#311#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
@@ -863,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="12" column="65" selection-end-line="21" selection-end-column="91" />
+        <state relative-caret-position="69">
+          <caret line="14" column="69" selection-end-line="21" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -875,10 +770,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="653">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/build_trusted_local_radb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="83" selection-start-line="82" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+          <folding>
+            <element signature="e#615#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="277" column="80" selection-start-line="277" selection-start-column="80" selection-end-line="277" selection-end-column="80" />
         </state>
       </provider>
     </entry>

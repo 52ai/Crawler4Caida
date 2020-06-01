@@ -10,6 +10,10 @@ MESSAGE数据可以构建通告数据的Prefix2AS，AS_PATH 2元组和AS_PATH 3�
 此外二者还可以分析相关的统计信息
 RIB(M)，PVR五元组，AS集、地址前缀集（再结合国家信息可出很多统计数据）
 MESSAGE(M)，通告前缀的记录数（新增通道和撤销通告的统计）等
+
+20200601
+将AS与国家和地理位置信息结合起来
+
 """
 import csv
 import time
@@ -33,6 +37,22 @@ def write_to_csv(res_list, des_path):
     finally:
         csv_file.close()
     print("write finish!")
+
+
+def gain_as_info():
+    """
+    获取AS的相关信息
+    :return:
+    """
+    # as_info_file = '../000LocalData/as_map/as_core_map_data_new20200201.csv'
+    as_info_file_gao = '../000LocalData/as_Gao/asn_info.txt'
+    as_info_dict = {}  # 存储AS信息的字典
+    file_read = open(as_info_file_gao, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split("\t")
+        as_info_dict[line[0]] = line[-1].split(',')[-1]
+
+    return as_info_dict
 
 
 def gain_rib_info(rib_file):
@@ -204,7 +224,7 @@ def find_abnormal(rib_prefix2as, message_prefix2as):
     print("Abnormal Event:", abnormal_event_cnt)
 
 
-def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as):
+def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as, as_info_dict):
     """
     根据每15分钟切割好的UPDATE报文，逐行读取并判断是否为异常事件
     :param message_file:
@@ -242,6 +262,7 @@ def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as):
                         print("Detect Origin AS:", origin_as)
                         print("Detect time(UTC):", line[1])
                         abnormal_prefix_list.append(line[5])
+
                     abnormal_event_cnt += 1
 
     print("New Prefix Announce:", new_prefix_cnt, "Not Repeated:", len(new_prefix_list))
@@ -252,16 +273,17 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     rib_file_in = '../000LocalData/BGPData/birdmrt_master_2020-05-08_00_45_09_M.txt'
     radb_file_in = '../000LocalData/BGPData/20200527radb.db.route'
-    message_file_in = '../000LocalData/BGPData/updates.20200526.1010_M_Bird.txt'
+    # message_file_in = '../000LocalData/BGPData/updates.20200526.1010_M_Bird.txt'
     # message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt'
+    message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-06-01_12_30_08_M.txt'
+    as_info_dict = gain_as_info()
     rib_prefix2as = gain_rib_info(rib_file_in)
     radb_prefix2as = gain_radb_info(radb_file_in)
     message_prefix2as = gain_message_info(message_file_in)
     find_abnormal(rib_prefix2as, message_prefix2as)
-    find_abnormal_realtime(message_file_in, rib_prefix2as, radb_prefix2as)
+    find_abnormal_realtime(message_file_in, rib_prefix2as, radb_prefix2as, as_info_dict)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
-
 
 
 
