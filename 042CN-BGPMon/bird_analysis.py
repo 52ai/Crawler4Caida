@@ -224,14 +224,16 @@ def find_abnormal(rib_prefix2as, message_prefix2as):
     print("Abnormal Event:", abnormal_event_cnt)
 
 
-def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as, as_info_dict):
+def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as, message_file_out):
     """
     根据每15分钟切割好的UPDATE报文，逐行读取并判断是否为异常事件
     :param message_file:
     :param rib_prefix2as:
     :param radb_prefix2as:
+    :param message_file_out:
     :return:
     """
+    message_file_out_list = []  # 存储输出的报文信息
     # 利用radb_prefix2as中的源AS数据扩充rib_prefix2as中的源AS数据
     for key in rib_prefix2as.keys():
         if key in radb_prefix2as.keys():
@@ -246,6 +248,7 @@ def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as, as_info_
     file_read = open(message_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("|")
+        flag = 0
         if line[2] == "A":
             origin_as = line[7].split(" ")[-1]
             if line[5] not in rib_prefix2as.keys():
@@ -254,6 +257,7 @@ def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as, as_info_
                 new_prefix_cnt += 1
             else:
                 if origin_as not in rib_prefix2as[line[5]]:
+                    flag = 1
                     if line[5] not in abnormal_prefix_list:
                         print("++++++++++++++++++++++++++++++++")
                         print("Event Type: Possible Hijack")
@@ -264,7 +268,10 @@ def find_abnormal_realtime(message_file, rib_prefix2as, radb_prefix2as, as_info_
                         abnormal_prefix_list.append(line[5])
 
                     abnormal_event_cnt += 1
-
+        line.append(flag)
+        message_file_out_list.append(line)
+        # print(line)
+    write_to_csv(message_file_out_list, message_file_out)
     print("New Prefix Announce:", new_prefix_cnt, "Not Repeated:", len(new_prefix_list))
     print("Abnormal Event:", abnormal_event_cnt, "Not Repeated:", len(abnormal_prefix_list))
 
@@ -276,12 +283,13 @@ if __name__ == "__main__":
     # message_file_in = '../000LocalData/BGPData/updates.20200526.1010_M_Bird.txt'
     # message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt'
     message_file_in = '../000LocalData/BGPData/birdmrt_messages_2020-06-01_12_30_08_M.txt'
+    message_file_out = '../000LocalData/BGPData/birdmrt_messages_2020-06-01_12_30_08_M_out.txt'
     as_info_dict = gain_as_info()
     rib_prefix2as = gain_rib_info(rib_file_in)
     radb_prefix2as = gain_radb_info(radb_file_in)
     message_prefix2as = gain_message_info(message_file_in)
     find_abnormal(rib_prefix2as, message_prefix2as)
-    find_abnormal_realtime(message_file_in, rib_prefix2as, radb_prefix2as, as_info_dict)
+    find_abnormal_realtime(message_file_in, rib_prefix2as, radb_prefix2as, message_file_out)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 

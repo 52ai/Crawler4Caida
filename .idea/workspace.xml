@@ -4,7 +4,6 @@
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" beforeDir="false" afterPath="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +19,14 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4610272">
+    <splitter split-orientation="horizontal" split-proportion="0.48967195">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="bird_analysis.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="148">
-                  <caret line="276" column="4" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="4" />
+                <state relative-caret-position="316">
+                  <caret line="283" column="4" selection-start-line="283" selection-start-column="4" selection-end-line="283" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -60,8 +59,8 @@
           <file leaf-file-name="bird_analysis.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="277" column="80" selection-start-line="277" selection-start-column="80" selection-end-line="277" selection-end-column="80" />
+                <state relative-caret-position="-484">
+                  <caret line="224" selection-start-line="224" selection-end-line="224" />
                 </state>
               </provider>
             </entry>
@@ -184,16 +183,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="176" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-18" />
+    <option name="y" value="-18" />
+    <option name="width" value="3876" />
+    <option name="height" value="2076" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +210,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,18 +405,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.12802951" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.13277134" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021075" side_tool="true" weight="0.2693566" />
-      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.57797164" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17666303" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.12104689" />
+      <window_info anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49789253" weight="0.24731183" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2355507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
+      <window_info active="true" anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.17121047" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36205018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -817,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="277" column="80" selection-start-line="277" selection-start-column="80" selection-end-line="277" selection-end-column="80" />
+        <state relative-caret-position="-484">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
         </state>
       </provider>
     </entry>
