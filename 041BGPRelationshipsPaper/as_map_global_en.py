@@ -214,7 +214,7 @@ def draw_bar(data_list):
     # ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    plt.savefig("..\\000LocalData\\Paper_Data\\draw_top10as_en.jpg", dpi=720)
+    plt.savefig("..\\000LocalData\\Paper_Data\\draw_top10as_en.jpg", dpi=1080)
 
 
 def get_as_classification_dict():

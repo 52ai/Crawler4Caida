@@ -109,8 +109,8 @@ def draw(x_list, y_list, save_name):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_fig_name = "../000LocalData/Paper_Data/" + save_name + "_en.jpg"
-    plt.savefig(save_fig_name, dpi=720)
+    save_fig_name = "../000LocalData/Paper_Data/" + save_name + "_en.png"
+    plt.savefig(save_fig_name, dpi=1080)
     # plt.show()
 
 
