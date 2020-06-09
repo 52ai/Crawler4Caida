@@ -558,3 +558,47 @@ IPDL protocol error: Handler returned error code!
 [GPU 8108, Chrome_ChildThread] WARNING
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1591588152074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofile.lM5I3XluCOu4"
+1591588153456	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591588154015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591588154015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591588154015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591588154015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591588157448	Marionette	INFO	Listening on port 8716
+1591588157940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591589902362	Marionette	INFO	Stopped listening on port 8716
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+extension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591589830025	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591589830026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591589830026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591589830026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591589833724	Marionette	INFO	Listening on port 17233
+1591589834146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.fanglb.com/js/jquery-1.10.0.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.fanglb.com/js/jquery-1.10.0.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.worldunionji.com/p/static/js/libs/jquery.min.js?20181224, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.blingclubs.com/, line 48: SyntaxError: expected expression, got ';'
+JavaScript warning: https://www.csgje.com/static/modules/cms/front/themes/skin/js/sea.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://cdn-static.farfetch-contents.com/v2-33-20156-585/static/js/jsbundles/ffmodernizr.min.js, line 3: Error: Script error for: loads
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: http://www.cf-china.com/js/jquery-1.10.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.loginapartment.com/, line 2524: TypeError: results is null
+JavaScript warning: http://www.fsgtravel.com/static/core/jquery/jquery.min.js?v=AA6240D812, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.fsgtravel.com/gzip_N1740896534/core/lib.js, line 19: unreachable code after return statement
+JavaScript warning: http://www.fsgtravel.com/gzip_N1501433689/fl/lib.js, line 53: unreachable code after return statement
+JavaScript warning: http://www.fsgtravel.com/gzip_N1501433689/fl/lib.js, line 211: unreachable code after return statement
+1591590552503	Marionette	INFO	Stopped listening on port 17233
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
