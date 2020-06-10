@@ -11,14 +11,33 @@ create on June 9, 2020 By Wayne Yu
 2）研究机器学习聚类算法，寻找合适的聚类模式，或者改进之
 3）提前输出点的静态坐标，再行绘制降低实时计算量
 
+*********************实验记录*********************
+实践是检验真理的唯一标准，绘图亦是如此
+只有不断的实践才能总结出规律（理论），并让理论服务于实践
+综合院大屏展示尺寸、力引导布局算法的特征、黄金分割率以及人眼垂直水平视觉差，画布的尺寸最终定在了1000px * 691.883px
+
+后面在此该尺寸的画布上不断尝试各类参数及拓扑算法的绘图实验，选择好看、有意义的记录之。
+考虑AS在注册时候，香港、台湾均和大陆单独分开的
+因此提高到香港、台湾时，均指中国香港，中国台湾，而中国则是指中国大陆地区
+
+# 实验1 国家（地区）Group互联关系组团(20200610)
+gravity=1,
+repulsion=5,
+画出的图，还可以，比之前散开的图要好看些，大体能充满画布，没有那么空
+在进行该实验的过程中解决了程序自动生成高清图的问题，并实现了自动化绘制多年的对比星云图，可从时间维度上进行对比
+
 """
 import json
 import numpy as np
+import csv
 
 from pyecharts import options as opts
 from pyecharts.charts import Graph
 from pyecharts.globals import ThemeType
 import time
+
+from pyecharts.render import make_snapshot
+from snapshot_selenium import snapshot
 
 
 def write_to_csv(res_list, des_path):
@@ -169,7 +188,11 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
 
     title_name = title_name + "[Nodes:" + str(len(as_info_dict)) + " Links:" + str(len(as_links_dict)) + "]"
     c = (
-        Graph(init_opts=opts.InitOpts(width="1000px", height="691.883px", page_title=title_name, theme=ThemeType.DARK, bg_color="#000"))
+        Graph(init_opts=opts.InitOpts(width="1000px",
+                                      height="691.883px",
+                                      page_title=title_name,
+                                      theme=ThemeType.DARK,
+                                      bg_color="#000"))
         .add(
             "",
             as_info_dict,
@@ -191,17 +214,17 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    my_time_str = "1999"
+    my_time_str = ["1999", "2004", "2009", "2014", "2019"]
     my_country_en2cn = gain_country_info()
     opt_title_name = "Graph-全球AS网络互联关系拓扑图"
-    graph_as_lay(opt_title_name, my_country_en2cn, my_time_str).render("..\\000LocalData\\BGPlay\\Global_BGP_lay.html")
+    for str_item in my_time_str:
+        render_str = "..\\000LocalData\\BGPlay\\Global_BGP_lay" + str_item + ".html"
+        img_str = "..\\000LocalData\\BGPlay\\Global_BGP_lay" + str_item + ".jpeg"
+        make_snapshot(snapshot,
+                      graph_as_lay(opt_title_name,
+                                   my_country_en2cn,
+                                   str_item).render(render_str),
+                      img_str,
+                      delay=30, pixel_ratio=10)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
-
-"""
-
-
-
-
-
-"""
