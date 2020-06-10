@@ -71,11 +71,11 @@ def gain_country_info():
     return coutry_info_dict
 
 
-def read_as_info(file_name, as2country):
+def read_as_info(file_name, en2cn_country):
     """
     根据传入的as_core_map_data信息，读取as_info
     :param file_name:
-    :param as2country:
+    :param en2cn_country:
     :return as_info:
     :return cn_as:
     """
@@ -85,11 +85,11 @@ def read_as_info(file_name, as2country):
     temp_dict_label = {}
     file_read = open(file_name, 'r', encoding='utf-8')
     as_list = []  # 记录所有展示的as列表
-    country_group = ["中国", "日本", "俄罗斯", "香港"]
+    country_group = ["中国（大陆）", "日本", "俄罗斯", "中国（香港）"]
     for line in file_read.readlines():
         line = line.strip().split('|')
         try:
-            country_cn = country_en2cn[line[8]].strip("\"")
+            country_cn = en2cn_country[line[8]].strip("\"")
             # print(country_cn)
         except Exception as e:
             print(e)
@@ -133,7 +133,6 @@ def read_as_links(file_name, as_list):
     :param cn_as:
     :return as_links:
     """
-    # print(as_list)
     as_links = []
     temp_dict = {}
     file_read = open(file_name, 'r', encoding='utf-8')
@@ -160,11 +159,10 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
     print("As List:", len(as_list))
     as_links_dict = read_as_links(bgp_file, as_list)
     print("links:", len(as_links_dict))
-    out_json = []
+    out_json = list()
     out_json.append(as_info_dict)
     out_json.append(as_links_dict)
     out_json.append(categories_dict)
-    # print(out_json)
     final_json = json.dumps(out_json, indent=4)
     with open("..\\000LocalData\\BGPlay\\Global_BGP_lay.json", 'a') as f:
         f.write(final_json)
@@ -179,8 +177,8 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
             categories_dict,
             # layout="circular",
             is_rotate_label=True,
-            gravity=0.15,
-            repulsion=42,
+            gravity=1,
+            repulsion=5,
             linestyle_opts=opts.LineStyleOpts(width=0.5, opacity=0.3, color='source', curve=0),
             label_opts=opts.LabelOpts(is_show=False, font_size=8),
         )
@@ -193,10 +191,17 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    time_str = "1999"
-    country_en2cn = gain_country_info()
+    my_time_str = "1999"
+    my_country_en2cn = gain_country_info()
     opt_title_name = "Graph-全球AS网络互联关系拓扑图"
-    graph_as_lay(opt_title_name, country_en2cn, time_str).render("..\\000LocalData\\BGPlay\\Global_BGP_lay.html")
+    graph_as_lay(opt_title_name, my_country_en2cn, my_time_str).render("..\\000LocalData\\BGPlay\\Global_BGP_lay.html")
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
+"""
+
+
+
+
+
+"""
