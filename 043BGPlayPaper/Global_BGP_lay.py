@@ -21,6 +21,7 @@ create on June 9, 2020 By Wayne Yu
 因此提高到香港、台湾时，均指中国香港，中国台湾，而中国则是指中国大陆地区
 
 # 实验1 国家（地区）Group互联关系组团(20200610)
+Group: ["中国（大陆）", "日本", "俄罗斯", "中国（香港）"]
 gravity=1,
 repulsion=5,
 画出的图，还可以，比之前散开的图要好看些，大体能充满画布，没有那么空
@@ -33,11 +34,17 @@ import csv
 
 from pyecharts import options as opts
 from pyecharts.charts import Graph
-from pyecharts.globals import ThemeType
+from pyecharts.globals import ThemeType, CurrentConfig
+from pyecharts.datasets import register_files
 import time
 
 from pyecharts.render import make_snapshot
 from snapshot_selenium import snapshot
+
+# 引用本地静态资源
+CurrentConfig.ONLINE_HOST = "http://127.0.0.1:8000/"
+# 使用自己构建的主题
+# register_files({"myTheme": ["themes/myTheme", "js"]})
 
 
 def write_to_csv(res_list, des_path):
@@ -105,6 +112,12 @@ def read_as_info(file_name, en2cn_country):
     file_read = open(file_name, 'r', encoding='utf-8')
     as_list = []  # 记录所有展示的as列表
     country_group = ["中国（大陆）", "日本", "俄罗斯", "中国（香港）"]
+    # country_group_color = dict()
+    # country_group_color["中国（大陆）"] = "red"
+    # country_group_color["日本"] = "green"
+    # country_group_color["俄罗斯"] = "blue"
+    # country_group_color["中国（香港）"] = "yellow"
+
     for line in file_read.readlines():
         line = line.strip().split('|')
         try:
@@ -141,7 +154,6 @@ def read_as_info(file_name, en2cn_country):
         temp_dict["name"] = item
         categories_info.append(temp_dict)
         temp_dict = {}
-
     return as_info, as_list, categories_info
 
 
@@ -194,10 +206,10 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
                                       theme=ThemeType.DARK,
                                       bg_color="#000"))
         .add(
-            "",
-            as_info_dict,
-            as_links_dict,
-            categories_dict,
+            series_name="",
+            nodes=as_info_dict,
+            links=as_links_dict,
+            categories=categories_dict,
             # layout="circular",
             is_rotate_label=True,
             gravity=1,
@@ -206,7 +218,8 @@ def graph_as_lay(title_name, country_en2cn, time_str) -> Graph:
             label_opts=opts.LabelOpts(is_show=False, font_size=8),
         )
         .set_global_opts(
-            legend_opts=opts.LegendOpts(textstyle_opts=opts.TextStyleOpts(font_size=14))
+            legend_opts=opts.LegendOpts(textstyle_opts=opts.TextStyleOpts(font_size=14),
+                                        legend_icon='roundRect')
                    )
         )
     return c
@@ -226,5 +239,6 @@ if __name__ == "__main__":
                                    str_item).render(render_str),
                       img_str,
                       delay=30, pixel_ratio=10)
+        print(img_str)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
