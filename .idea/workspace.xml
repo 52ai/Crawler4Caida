@@ -19,7 +19,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.30738524">
+    <splitter split-orientation="horizontal" split-proportion="0.38071066">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Global_BGP_lay.py" pinned="false" current-in-tab="false">
@@ -34,8 +34,8 @@
           <file leaf-file-name="GeoLite2-Country-Locations-zh-CN.csv" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
               <provider selected="true" editor-type-id="csv-text-editor">
-                <state relative-caret-position="501">
-                  <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+                <state relative-caret-position="-653">
+                  <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -65,20 +65,15 @@
           <file leaf-file-name="Global_BGP_lay.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="205" column="58" selection-start-line="205" selection-start-column="58" selection-end-line="205" selection-end-column="58" />
+                <state relative-caret-position="330">
+                  <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
                   <folding>
                     <element signature="e#708#719#0" expanded="true" />
+                    <element signature="e#962#1395#0" />
+                    <element signature="e#1422#1791#0" />
+                    <element signature="e#1823#2212#0" />
+                    <element signature="e#7163#8976#0" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="globals.py" pinned="false" current-in-tab="false">
-            <entry file="file://C:/Python37/Lib/site-packages/pyecharts/globals.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1123">
-                  <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -192,10 +187,10 @@
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global_en.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/active_as_en.py" />
         <option value="$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py" />
-        <option value="$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv" />
         <option value="$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/snapshot_selenium/snapshot.py" />
         <option value="$PROJECT_DIR$/043BGPlayPaper/README.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv" />
         <option value="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" />
       </list>
     </option>
@@ -473,13 +468,13 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.18124342" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.16965227" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21155943" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.1395856" />
-      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.30098146" />
+      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.29334787" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
       <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2093784" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
@@ -534,11 +529,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/websocket/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/websocket/_core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
@@ -801,36 +791,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/Graph_as_cn_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="501">
-          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/021Folium/demo_folium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/charts/basic_charts/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -845,13 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/options/series_options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -876,12 +833,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="991" column="6" selection-start-line="991" selection-start-column="6" selection-end-line="991" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/options/series_options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/charts/basic_charts/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/Graph_as_cn_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-653">
+          <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="205" column="58" selection-start-line="205" selection-start-column="58" selection-end-line="205" selection-end-column="58" />
+        <state relative-caret-position="330">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#708#719#0" expanded="true" />
+            <element signature="e#962#1395#0" />
+            <element signature="e#1422#1791#0" />
+            <element signature="e#1823#2212#0" />
+            <element signature="e#7163#8976#0" />
           </folding>
         </state>
       </provider>
