@@ -408,7 +408,7 @@ def my_layout_ani():
 
 if __name__ == "__main__":
     # 生成300个点，距离阈值为0,3的图
-    G = networkx.random_geometric_graph(300, 0.17, dim=2)
+    G = networkx.random_geometric_graph(100, 0.17, dim=2)
     # print("G Nodes:", G.nodes)
     # print("G Nodes Count:", G.number_of_nodes())
     # print("G Edges Count:", G.number_of_edges())
@@ -424,7 +424,7 @@ if __name__ == "__main__":
 
     layout_2d = forceatlas2_networkx_layout(G, pos, niter=100)  # 2d版的forceatlas算法
     draw_2d(G, layout_2d, "new_draw_2d_layout", is_show=True)
-    # my_layout_ani()  # 绘制2D网络动态布局的animation动画
+    my_layout_ani()  # 绘制2D网络动态布局的animation动画
 
 
 
