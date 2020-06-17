@@ -119,8 +119,9 @@ def external_as_analysis(country, as2country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = ["US", "BR", "RU", "DE", "GB", "AU", "PL", "IN", "UA", "CA",
-               "FR", "ID", "CN", "NL", "RO", "IT", "ES", "AR", "HK", "BD", "CH", "KR", "JP", "SE", "BG"]
+    # country = ["US", "BR", "RU", "DE", "GB", "AU", "PL", "IN", "UA", "CA",
+    #            "FR", "ID", "CN", "NL", "RO", "IT", "ES", "AR", "HK", "BD", "CH", "KR", "JP", "SE", "BG"]
+    country = ["US", "DE", "JP", "KR", "BR", "IN", "RU", "ZA", "SG", "MY", "ID", "VN"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     as2country_dict = gain_as2country(as_info_file_in)
     for country_item in country:

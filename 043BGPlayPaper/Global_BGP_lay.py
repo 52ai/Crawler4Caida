@@ -63,7 +63,7 @@ import csv
 
 from pyecharts import options as opts
 from pyecharts.charts import Graph
-from pyecharts.globals import ThemeType, CurrentConfig
+from pyecharts.globals import CurrentConfig
 from pyecharts.datasets import register_files
 import time
 

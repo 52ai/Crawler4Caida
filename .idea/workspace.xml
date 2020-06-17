@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/043BGPlayPaper/forceatlas2_new2d_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/forceatlas2_new2d_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,32 +24,78 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3023544">
+    <splitter split-orientation="horizontal" split-proportion="0.31900728">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="5_all_as_rel.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1677">
+                  <caret line="8" selection-start-line="6" selection-end-line="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GeoLite2-Country-Locations-zh-CN.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
+              <provider selected="true" editor-type-id="csv-text-editor">
+                <state relative-caret-position="202">
+                  <caret line="82" column="28" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Global_BGP_lay.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                <state relative-caret-position="209">
+                  <caret line="97" selection-start-line="97" selection-end-line="97" />
+                  <folding>
+                    <element signature="e#1500#1511#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GeoLite2-Country-Locations-zh-CN.csv" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
+          <file leaf-file-name="as_map_cn_v2.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="140" selection-start-line="140" selection-end-line="140" />
+                <state relative-caret-position="-198">
+                  <caret line="176" column="76" selection-start-line="176" selection-start-column="76" selection-end-line="176" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/README.txt">
+          <file leaf-file-name="0_display_data.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/0_display_data.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+                <state relative-caret-position="15">
+                  <caret line="166" selection-start-line="166" selection-end-line="166" />
+                  <folding>
+                    <element signature="e#481#490#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="6_as_prefix_info_format.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="229">
+                  <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#169#180#0" expanded="true" />
+                    <element signature="e#2037#2189#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="7_external_as_analysis_global.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1950">
+                  <caret line="142" selection-start-line="142" selection-end-line="142" />
                 </state>
               </provider>
             </entry>
@@ -52,24 +103,28 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="forceatlas2_new2d_v2.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/forceatlas2_new2d_v2.py">
+        <leaf>
+          <file leaf-file-name="ASlay.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+                <state relative-caret-position="249">
+                  <caret line="293" column="97" selection-start-line="293" selection-start-column="97" selection-end-line="293" selection-end-column="97" />
                   <folding>
-                    <element signature="e#582#603#0" expanded="true" />
+                    <element signature="e#383#394#0" expanded="true" />
+                    <element signature="e#3868#3886#0" />
+                    <element signature="e#5892#5977#0" />
+                    <element signature="e#9406#11077#0" />
+                    <element signature="e#10991#12771#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Global_BGP_lay.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
+          <file leaf-file-name="7_external_as_analysis_global.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="165" column="46" selection-start-line="165" selection-start-column="46" selection-end-line="165" selection-end-column="46" />
+                <state relative-caret-position="264">
+                  <caret line="141" selection-start-line="141" selection-end-line="141" />
                 </state>
               </provider>
             </entry>
@@ -87,10 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4797|</find>
-      <find>4797</find>
-      <find>3214</find>
-      <find>3214|4134</find>
       <find>9304</find>
       <find>58511</find>
       <find>4134|58511</find>
@@ -117,6 +168,10 @@
       <find>4134</find>
       <find>俄罗斯</find>
       <find>line[8]</find>
+      <find>Node</find>
+      <find>G</find>
+      <find>graph</find>
+      <find>泰国</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -129,6 +184,10 @@
       <replace>temp_list_cn</replace>
       <replace>Paper_Data</replace>
       <replace>rib_info_prefix2aspath</replace>
+      <replace>node</replace>
+      <replace>g</replace>
+      <replace>graph</replace>
+      <replace>force_graph</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -137,12 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v4.py" />
-        <option value="$PROJECT_DIR$/023RUNet/external_as_analysis.py" />
-        <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" />
-        <option value="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" />
-        <option value="$PROJECT_DIR$/023RUNet/country_active_as.py" />
-        <option value="$PROJECT_DIR$/040Covid2019/JsonCrawlerGithub2Local.py" />
         <option value="$PROJECT_DIR$/040Covid2019/JsonCrawlerDXYArea.py" />
         <option value="$PROJECT_DIR$/000LocalData/as_relationships/serial-1/20200201.as-rel.txt" />
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
@@ -155,7 +208,6 @@
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py" />
-        <option value="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/en_draw/active_as.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/en_draw/as_map_global.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/draw_as_core_v10_en.py" />
@@ -186,23 +238,29 @@
         <option value="$PROJECT_DIR$/043BGPlayPaper/README.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv" />
-        <option value="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" />
         <option value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/fore_directed_layout_as.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/force_directed_layout_as.py" />
+        <option value="$PROJECT_DIR$/031CAICT-Display/as_prefix_info_format.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" />
+        <option value="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" />
+        <option value="$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py" />
+        <option value="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1912" />
-    <option name="y" value="108" />
-    <option name="width" value="1920" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,32 +277,18 @@
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_geo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
               <item name="BGPlay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="010GainWebsiteInfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="021Folium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="027CNNet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="028forceAtlas2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="030CAICT-AtlasToolkit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -265,6 +309,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,19 +318,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData" />
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
-      <recent name="D:\Code\Crawler4Caida\023RUNet" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
       <recent name="D:\Code\Crawler4Caida" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData" />
+      <recent name="D:\Code\Crawler4Caida\023RUNet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.forceatlas2_new2d_v2">
+  <component name="RunManager" selected="Python.ASlay">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,7 +362,61 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="Global_BGP_lay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5_all_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="6_as_prefix_info_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="7_external_as_analysis_global" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ASlay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,13 +428,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="demo_folium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="force_directed_layout_as" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,65 +442,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/021Folium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/021Folium/demo_folium.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="forceatlas2_new2d_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/028forceAtlas2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="gain_website_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/010GainWebsiteInfo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\043BGPlayPaper\ASlay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,19 +454,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.gain_website_info" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.Global_BGP_lay" />
-      <item itemvalue="Python.demo_folium" />
-      <item itemvalue="Python.forceatlas2_new2d_v2" />
+      <item itemvalue="Python.force_directed_layout_as" />
+      <item itemvalue="Python.6_as_prefix_info_format" />
+      <item itemvalue="Python.5_all_as_rel" />
+      <item itemvalue="Python.7_external_as_analysis_global" />
+      <item itemvalue="Python.ASlay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.forceatlas2_new2d_v2" />
-        <item itemvalue="Python.Global_BGP_lay" />
-        <item itemvalue="Python.demo_folium" />
-        <item itemvalue="Python.gain_website_info" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.ASlay" />
+        <item itemvalue="Python.7_external_as_analysis_global" />
+        <item itemvalue="Python.5_all_as_rel" />
+        <item itemvalue="Python.6_as_prefix_info_format" />
+        <item itemvalue="Python.force_directed_layout_as" />
       </list>
     </recent_temporary>
   </component>
@@ -462,14 +507,14 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.14963119" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.12961012" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21155943" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.1395856" />
-      <window_info anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" weight="0.1908397" />
+      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.35114503" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info active="true" anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.28789532" />
+      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.18865867" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,34 +564,10 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1628">
-          <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/20190701.as-org2info-asn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_Gao/asn_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110716" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/BGPData/birdmrt_messages_2020-05-26_18_22_57_M.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="14" column="69" selection-end-line="21" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_map/as_core_map_data_new20200201.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="70">
@@ -658,18 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="53" selection-start-line="53" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-434" />
@@ -721,13 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="177" column="60" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -815,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -834,44 +829,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="165" column="46" selection-start-line="165" selection-start-column="46" selection-end-line="165" selection-end-column="46" />
+        <state relative-caret-position="132">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/forceatlas2_new3d_v2.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9438">
-          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        <state relative-caret-position="582">
+          <caret line="427" lean-forward="true" selection-start-line="427" selection-end-line="427" />
           <folding>
             <element signature="e#582#603#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="-502">
-          <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="-198">
+          <caret line="176" column="76" selection-start-line="176" selection-start-column="76" selection-end-line="176" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/forceatlas2_new2d_v2.py">
+    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="-1274">
+          <caret line="53" selection-start-line="53" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
-            <element signature="e#582#603#0" expanded="true" />
+            <element signature="e#1500#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1501">
+          <folding>
+            <element signature="e#113#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2662">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="202">
+          <caret line="82" column="28" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1677">
+          <caret line="8" selection-start-line="6" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+          <folding>
+            <element signature="e#169#180#0" expanded="true" />
+            <element signature="e#2037#2189#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/0_display_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="e#481#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="293" column="97" selection-start-line="293" selection-start-column="97" selection-end-line="293" selection-end-column="97" />
+          <folding>
+            <element signature="e#383#394#0" expanded="true" />
+            <element signature="e#3868#3886#0" />
+            <element signature="e#5892#5977#0" />
+            <element signature="e#9406#11077#0" />
+            <element signature="e#10991#12771#0" />
           </folding>
         </state>
       </provider>
