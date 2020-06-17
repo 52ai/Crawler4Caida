@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/forceatlas2_new2d_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" afterDir="false" />
-    </list>
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +61,7 @@
           <file leaf-file-name="0_display_data.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/031CAICT-Display/0_display_data.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
+                <state relative-caret-position="193">
                   <caret line="166" selection-start-line="166" selection-end-line="166" />
                   <folding>
                     <element signature="e#481#490#0" expanded="true" />
@@ -107,8 +99,8 @@
           <file leaf-file-name="ASlay.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="293" column="97" selection-start-line="293" selection-start-column="97" selection-end-line="293" selection-end-column="97" />
+                <state relative-caret-position="-169">
+                  <caret line="292" column="35" lean-forward="true" selection-start-line="292" selection-start-column="35" selection-end-line="292" selection-end-column="35" />
                   <folding>
                     <element signature="e#383#394#0" expanded="true" />
                     <element signature="e#3868#3886#0" />
@@ -505,16 +497,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.12961012" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21155943" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.1395856" />
-      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.35114503" />
+      <window_info anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" weight="0.42857143" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.18865867" />
+      <window_info active="true" anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" visible="true" weight="0.18865867" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -923,7 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/0_display_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="193">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
           <folding>
             <element signature="e#481#490#0" expanded="true" />
@@ -933,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="293" column="97" selection-start-line="293" selection-start-column="97" selection-end-line="293" selection-end-column="97" />
+        <state relative-caret-position="-169">
+          <caret line="292" column="35" lean-forward="true" selection-start-line="292" selection-start-column="35" selection-end-line="292" selection-end-column="35" />
           <folding>
             <element signature="e#383#394#0" expanded="true" />
             <element signature="e#3868#3886#0" />
