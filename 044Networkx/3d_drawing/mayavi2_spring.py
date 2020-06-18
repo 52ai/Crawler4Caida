@@ -13,7 +13,7 @@ from mayavi import mlab
 # H=nx.krackhardt_kite_graph()
 # H=nx.Graph();H.add_edge('a','b');H.add_edge('a','c');H.add_edge('a','d')
 # H=nx.grid_2d_graph(4,5)
-H = nx.cycle_graph(100)
+H = nx.cycle_graph(42)
 
 # reorder nodes from 0,len(G)-1
 G = nx.convert_node_labels_to_integers(H)

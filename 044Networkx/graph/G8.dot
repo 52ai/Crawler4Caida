@@ -1,0 +1,13 @@
+strict graph G8 {
+	graph [label=G8,
+		name=G8
+	];
+	node [color=red,
+		shape=circle,
+		style=filled
+	];
+	0;
+	1;
+	2;
+	3;
+}

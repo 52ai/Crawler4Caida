@@ -1,0 +1,10 @@
+strict graph G1 {
+	graph [label=G1,
+		name=G1
+	];
+	node [color=red,
+		shape=circle,
+		style=filled
+	];
+	0;
+}

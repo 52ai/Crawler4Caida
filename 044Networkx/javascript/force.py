@@ -16,7 +16,7 @@ import flask
 import networkx as nx
 from networkx.readwrite import json_graph
 
-G = nx.barbell_graph(6, 3)
+G = nx.barbell_graph(10, 2)
 # this d3 example uses the name attribute for the mouse-hover value,
 # so add a name to each node
 for n in G:

@@ -1,0 +1,15 @@
+strict graph G18 {
+	graph [label=G18,
+		name=G18
+	];
+	node [color=red,
+		shape=circle,
+		style=filled
+	];
+	0 -- 1;
+	0 -- 2;
+	0 -- 3;
+	1 -- 2;
+	1 -- 3;
+	2 -- 3;
+}

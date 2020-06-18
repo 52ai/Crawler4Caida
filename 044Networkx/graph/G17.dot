@@ -1,0 +1,14 @@
+strict graph G17 {
+	graph [label=G17,
+		name=G17
+	];
+	node [color=red,
+		shape=circle,
+		style=filled
+	];
+	0 -- 1;
+	0 -- 2;
+	0 -- 3;
+	1 -- 2;
+	2 -- 3;
+}

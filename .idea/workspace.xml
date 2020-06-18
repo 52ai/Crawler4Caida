@@ -2,9 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/contour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/contour_contour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/delaunay_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/glyph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/image_cursor_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/magnetic_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/mlab_3D_to_2D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/multi_block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/numeric_source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/offscreen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/polydata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/probe_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/scatter_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/streamline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/structured_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/structured_points2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/structured_points3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/surf_regular_mlab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/tvtk_segmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/unstructured_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/cube.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/fire_ug.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/gen_tinyplot3d.f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/heart.vti" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/heart.vtk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/room_vis.wrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/tiny.q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data/tiny.xyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data_interaction/normal_flipping_stl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data_interaction/pick_on_surface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/data_interaction/select_red_balls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/explorer/explorer3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/explorer/explorer_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/adjust_cropping_extents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/coil_design_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/compute_in_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/lorenz_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/mayavi_traits_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/mlab_interactive_dialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/mlab_traits_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/mlab_visual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/multiple_engines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/multiple_mlab_scene_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/poll_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/qt_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/subclassing_mayavi_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/superquad_with_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/volume_slicer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/volume_slicer_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/wx_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/interactive/wx_mayavi_embed_in_notebook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mayavi_jupyter.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/atomic_orbital.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/boy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/bunny.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon_decimation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/chemistry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/custom_colormap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/dragon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/flight_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/julia_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/julia_set_decimation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/lorenz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/lucy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/magnetic_field_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/mri.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/plotting_many_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/protein.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/simple_structured_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/spherical_harmonics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/surface_from_irregular_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/tvtk_in_mayavi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/wigner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/nongui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/standalone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/user_mayavi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/mayavi/zzz_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/actor_editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/animated_texture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/array_animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/dscene.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/images/image_LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/images/masonry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/ivtk_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/off_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/plugins/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/scene.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/scene_editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/texture_glyph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/tiny_mesh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/bounce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/doublependulum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/gyro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/gyro2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/lorenz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/orbit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/randombox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/045Mayavi/tvtk/visual/wave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" beforeDir="false" afterPath="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/044Networkx/javascript/force.py" beforeDir="false" afterPath="$PROJECT_DIR$/044Networkx/javascript/force.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,14 +123,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mayavi2_spring.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py">
+      <file leaf-file-name="chemistry.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/chemistry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-              <folding>
-                <element signature="e#34#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -98,8 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/000LocalData/as_relationships/serial-1/20200201.as-rel.txt" />
-        <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
         <option value="$PROJECT_DIR$/038OPNet/Gain_Resource_Data.py" />
         <option value="$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py" />
         <option value="$PROJECT_DIR$/039BGPStream/pybgpdump/simple.py" />
@@ -149,6 +246,8 @@
         <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
         <option value="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" />
         <option value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
+        <option value="$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py" />
+        <option value="$PROJECT_DIR$/044Networkx/javascript/force.py" />
       </list>
     </option>
   </component>
@@ -173,61 +272,31 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="as_Gao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="BGPlay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="027CNNet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="031CAICT-Display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="037Open3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="037Open3D" type="462c0819:PsiDirectoryNode" />
-              <item name="BGPVis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="042CN-BGPMon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="043BGPlayPaper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="044Networkx" type="462c0819:PsiDirectoryNode" />
+              <item name="045Mayavi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="044Networkx" type="462c0819:PsiDirectoryNode" />
-              <item name="3d_drawing" type="462c0819:PsiDirectoryNode" />
+              <item name="045Mayavi" type="462c0819:PsiDirectoryNode" />
+              <item name="mayavi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="045Mayavi" type="462c0819:PsiDirectoryNode" />
+              <item name="mayavi" type="462c0819:PsiDirectoryNode" />
+              <item name="mlab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="045Mayavi" type="462c0819:PsiDirectoryNode" />
+              <item name="tvtk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,19 +311,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\044Networkx" />
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
       <recent name="D:\Code\Crawler4Caida" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
+      <recent name="D:\Code\Crawler4Caida\044Networkx" />
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mayavi2_spring">
+  <component name="RunManager" selected="Python.julia_set">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,7 +355,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="ASlay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="canyon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,17 +363,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mayavi2_spring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chemistry" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,17 +381,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/3d_drawing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/chemistry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="plot_atlas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dragon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,17 +399,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/drawing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/dragon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="plot_directed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flight_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,17 +417,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/drawing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/drawing/plot_directed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/flight_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="testOpen3DVis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="julia_set" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -366,11 +435,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/037Open3D/BGPVis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/julia_set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,19 +447,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.ASlay" />
-      <item itemvalue="Python.mayavi2_spring" />
-      <item itemvalue="Python.testOpen3DVis" />
-      <item itemvalue="Python.plot_atlas" />
-      <item itemvalue="Python.plot_directed" />
+      <item itemvalue="Python.canyon" />
+      <item itemvalue="Python.chemistry" />
+      <item itemvalue="Python.dragon" />
+      <item itemvalue="Python.flight_graph" />
+      <item itemvalue="Python.julia_set" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mayavi2_spring" />
-        <item itemvalue="Python.plot_directed" />
-        <item itemvalue="Python.plot_atlas" />
-        <item itemvalue="Python.testOpen3DVis" />
-        <item itemvalue="Python.ASlay" />
+        <item itemvalue="Python.julia_set" />
+        <item itemvalue="Python.flight_graph" />
+        <item itemvalue="Python.dragon" />
+        <item itemvalue="Python.canyon" />
+        <item itemvalue="Python.chemistry" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +486,9 @@
     <history-entry file="Unittests_in_test_octree_py - 2020.03.14 at 18h 56m 34s.xml">
       <configuration name="Unittests in test_octree.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Doctests_in_plot_antigraph - 2020.06.18 at 17h 07m 10s.xml">
+      <configuration name="Doctests in plot_antigraph" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -431,12 +503,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.1849315" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.16965227" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21155943" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.1395856" />
-      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.22791712" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
       <window_info anchor="bottom" x="0" y="0" width="3844" height="1061" id="Terminal" order="8" sideWeight="0.49736565" weight="0.18102509" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
@@ -449,6 +521,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -487,362 +562,374 @@
           <line>9</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/044Networkx/advanced/plot_heavy_metal_umlaut.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as_en.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/applications/plot_circuits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+        <state relative-caret-position="-231">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_global.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/basic/plot_properties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/Graph_as_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="-132">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/041BGPRelationshipsPaper/active_as.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/basic/plot_read_write.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/D010/error_data/content.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/04-072(01)-nCov20200413.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="241">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/Graph_as_global.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/nx_agraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="165" column="31" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+        <state relative-caret-position="1301">
+          <caret line="249" column="14" lean-forward="true" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/Graph_as_global_update.py">
+    <entry file="file://C:/Python37/Lib/site-packages/pygraphviz/agraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="154" column="30" lean-forward="true" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/firefox/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/chrome/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="238" column="34" lean-forward="true" selection-start-line="238" selection-start-column="34" selection-end-line="238" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/snapshot_selenium/snapshot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/render/snapshot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/021Folium/demo_folium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/options/charts_options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="427" selection-start-line="427" selection-end-line="427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/options/global_options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="260" column="42" selection-start-line="260" selection-start-column="42" selection-end-line="260" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1123">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="991" column="6" selection-start-line="991" selection-start-column="6" selection-end-line="991" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/options/series_options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pyecharts/charts/basic_charts/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9320">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/Graph_as_cn_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="278">
-            <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/draw_as_core_cn_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/028forceAtlas2/forceatlas2_new2d_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="427" lean-forward="true" selection-start-line="427" selection-end-line="427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/027CNNet/as_map_cn_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3850">
-          <caret line="176" column="76" selection-start-line="176" selection-start-column="76" selection-end-line="176" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/042CN-BGPMon/bird_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1274">
-          <caret line="53" selection-start-line="53" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1501" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="6" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/0_display_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3608">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="e#481#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#1500#1511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="202">
-          <caret line="82" column="28" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/algorithms/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_directed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#206#230#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="206" column="58" lean-forward="true" selection-start-line="206" selection-start-column="58" selection-end-line="206" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="-98">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_circular_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_degree_histogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_degree_rank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_directed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_edge_colormap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_ego_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_four_grids.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_giant_component.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_chess_masters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_house_with_colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_knuth_miles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_labels_and_colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_lanl_routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_node_colormap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_random_geometric_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_sampson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_simple_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_spectral_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_unix_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_weighted_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/dot_atlas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_degree_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_football.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_karate_club.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_napoleon_russian_campaign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_roget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/generators/classic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/javascript/force/force.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034">
+          <caret column="206" lean-forward="true" selection-start-column="44" selection-end-column="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/javascript/force/force.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/javascript/force.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/jit/plot_rgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_write_dotfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/subclass/plot_antigraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/subclass/plot_printgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" selection-start-line="14" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_attributes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/bunny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/036PCL/learn_pcl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding>
-            <element signature="e#309#329#0" expanded="true" />
+            <element signature="e#116#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/ivtk_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        <state relative-caret-position="264">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/boy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
-            <element signature="e#383#394#0" expanded="true" />
-            <element signature="e#3868#3886#0" />
+            <element signature="e#419#462#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon_decimation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding>
-            <element signature="e#34#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/chemistry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
         </state>
       </provider>
     </entry>
