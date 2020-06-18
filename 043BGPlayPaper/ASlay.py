@@ -360,6 +360,7 @@ def draw_2d(G_2d, pos, graph_name, is_draw=True, is_show=False):
 
         save_path = "../000LocalData/BGPlay/" + graph_name + ".png"
         plt.savefig(save_path, dpi=200, facecolor='black')
+        print("绘图成功:", save_path)
         if is_show:  # 判断是否需要show
             fig.set_facecolor('black')
             plt.show()
@@ -431,7 +432,7 @@ def my_layout_ani():
 if __name__ == "__main__":
     time_start = time.time()
     # 使用networkx随机生成无标度网络
-    G = networkx.random_geometric_graph(1000, 0.01, dim=2)
+    G = networkx.random_geometric_graph(800, 0.1, dim=2)
     print("=>原始图信息输出")
     print("G Nodes:", G.nodes)
     print("G Nodes Count:", G.number_of_nodes())
@@ -451,6 +452,6 @@ if __name__ == "__main__":
     time_layout_end = time.time()
     print("G layout time consuming:", (time_layout_end - time_layout_start), "S")
     draw_2d(G, layout_2d, "new_draw_2d_layout", is_show=False)
-    # my_layout_ani()  # 绘制2D网络动态布局的animation动画
+    my_layout_ani()  # 绘制2D网络动态布局的animation动画
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
