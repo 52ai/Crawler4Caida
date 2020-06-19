@@ -19,6 +19,7 @@ What you should get:
 
 from mayavi.core.api import registry, SourceMetadata, PipelineInfo
 
+
 def zzz_reader(fname, engine):
     """Reader for .zzz files.
 
