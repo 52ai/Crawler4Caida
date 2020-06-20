@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" beforeDir="false" afterPath="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045Mayavi/mayavi/mayavi_jupyter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mayavi_jupyter.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/protein.py" beforeDir="false" afterPath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/protein.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045Mayavi/mayavi/standalone.py" beforeDir="false" afterPath="$PROJECT_DIR$/045Mayavi/mayavi/standalone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045Mayavi/mayavi/zzz_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/045Mayavi/mayavi/zzz_reader.py" afterDir="false" />
-    </list>
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +16,14 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4852185">
+    <splitter split-orientation="horizontal" split-proportion="0.3714653">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="gain_as2ip.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="110">
-                  <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+                  <caret line="92" selection-start-line="92" selection-end-line="92" />
                   <folding>
                     <element signature="e#101#112#0" expanded="true" />
                     <element signature="e#1447#2229#0" />
@@ -45,8 +35,8 @@
           <file leaf-file-name="7_external_as_analysis_global.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="138" column="46" lean-forward="true" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+                <state relative-caret-position="359">
+                  <caret line="138" column="46" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -63,8 +53,8 @@
           <file leaf-file-name="gain_as2ip_quantity.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
-                  <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+                <state relative-caret-position="114">
+                  <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
                   <folding>
                     <element signature="e#119#130#0" expanded="true" />
                   </folding>
@@ -449,16 +439,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.18018967" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.24209379" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.35223556" />
-      <window_info active="true" anchor="bottom" x="311" y="108" width="1098" height="914" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.32715377" />
+      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.2693566" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.19934641" />
+      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.1995638" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -858,7 +847,7 @@
     <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#101#112#0" expanded="true" />
             <element signature="e#1447#2229#0" />
@@ -868,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="138" column="46" lean-forward="true" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+        <state relative-caret-position="359">
+          <caret line="138" column="46" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -882,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+        <state relative-caret-position="114">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
             <element signature="e#119#130#0" expanded="true" />
           </folding>
