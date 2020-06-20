@@ -40,6 +40,7 @@ def zzz_reader(fname, engine):
     src = VTKDataSource(data=r.output)
     return src
 
+
 zzz_reader_info = SourceMetadata(
     id            = "ZZZReader",
     factory = 'zzz_reader.zzz_reader',

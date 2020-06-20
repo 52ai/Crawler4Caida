@@ -45,7 +45,7 @@ if __name__ == "__main__":
     points = []
     points_list = []
     temp_list = []
-    for i in range(0, 10000):
+    for i in range(0, 60000):
         theta = random.uniform(0, 2*np.pi)
         delta = random.uniform(0, 2*np.pi)
         # r = random.uniform(0, 100)

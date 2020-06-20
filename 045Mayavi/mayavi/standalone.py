@@ -45,6 +45,7 @@ def main():
     e.add_module(Streamline())
     return e, ui
 
+
 if __name__ == '__main__':
     # When main returns the ui to go out of scope and be gc'd causing the view
     # to disappear with qt4.
