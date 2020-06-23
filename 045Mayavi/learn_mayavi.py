@@ -126,6 +126,54 @@ def mayavi_points3d():
     mlab.show()
 
 
+def mayavi_quiver3d():
+    """
+    绘制mayavi quiver3d图
+    :return:
+    """
+    x, y, z = np.mgrid[-0:3:0.6, -0:3:0.6, 0:3:0.3]
+    print(x, y, z)
+    r = np.sqrt(x**2 + y**2 + z**4)
+    u = y * np.sin(r)/(r + 0.001)
+    v = -x * np.sin(r) / (r + 0.001)
+    w = np.zeros_like(r)
+    mlab.quiver3d(x, y, z, u, v, w)
+    mlab.colorbar()
+    mlab.show()
+
+
+def mayavi_anim():
+    """
+    绘制mayavi 动画
+    :return:
+    :return:
+    """
+    @mlab.animate(delay=200)  # 设置延时时间为200ms， 默认为500ms
+    def my_anim():
+        x, y = np.mgrid[0:3:1, 0:3:1]
+        print(x, y)
+        s = mlab.surf(x, y, np.asarray(x * 0.1, 'd'))
+        for i in range(1000):
+            s.mlab_source.scalars = np.asarray(x*0.1*(i+1), 'd')
+            yield
+    my_anim()
+    mlab.show()
+
+
+def mayavi_flow():
+    """
+    绘制mayavi flow图
+    :return:
+    """
+    x, y, z = np.mgrid[-4:4:40j, -4:4:40j, 0:4:20j]
+    r = np.sqrt(x ** 2 + y ** 2 + z ** 2 + 0.1)
+    u = y * np.sin(r) / r
+    v = -x * np.sin(r) / r
+    w = np.ones_like(z) * 0.05
+    mlab.flow(u, v, w)
+    mlab.show()
+
+
 if __name__ == "__main__":
     time_start = time.time()  # 记录程序启动的时间
     # mayavi_barchart()
@@ -135,6 +183,9 @@ if __name__ == "__main__":
     # mayavi_mesh()
     # mayavi_surf()
     # mayavi_plot3d()
-    mayavi_points3d()
+    # mayavi_points3d()
+    # mayavi_quiver3d()
+    # mayavi_anim()
+    mayavi_flow()
     time_end = time.time()  # 记录程序结束的时间
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

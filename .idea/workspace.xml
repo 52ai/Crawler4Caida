@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/044Networkx/advanced/edgelist.utf-8" beforeDir="false" afterPath="$PROJECT_DIR$/044Networkx/advanced/edgelist.utf-8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" beforeDir="false" afterPath="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/MRbrain.tar.gz" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,42 +22,20 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.28978008">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="gain_as2ip_quantity.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1237">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="learn_mayavi.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/045Mayavi/learn_mayavi.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="learn_mayavi.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/045Mayavi/learn_mayavi.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="439">
-                  <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-                  <folding>
-                    <element signature="e#130#156#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8932">
+              <caret line="502" selection-start-line="502" selection-end-line="502" />
+              <folding>
+                <element signature="e#125#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,7 +138,6 @@
         <option value="$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" />
         <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
-        <option value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
         <option value="$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py" />
         <option value="$PROJECT_DIR$/044Networkx/javascript/force.py" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -171,6 +150,7 @@
         <option value="$PROJECT_DIR$/023RUNet/gain_as2ip.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py" />
         <option value="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" />
+        <option value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
       </list>
     </option>
   </component>
@@ -185,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,34 +176,18 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="030CAICT-AtlasToolkit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
-              <item name="as_Gao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="031CAICT-Display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="045Mayavi" type="462c0819:PsiDirectoryNode" />
+              <item name="030CAICT-AtlasToolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,19 +196,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
-      <recent name="D:\Code\Crawler4Caida\038OPNet" />
-      <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
-      <recent name="D:\Code\Crawler4Caida" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\045Mayavi" />
       <recent name="D:\Code\Crawler4Caida\044Networkx" />
       <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
       <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
+      <recent name="D:\Code\Crawler4Caida\038OPNet" />
+      <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
+      <recent name="D:\Code\Crawler4Caida" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.learn_mayavi">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,7 +240,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="canyon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,17 +248,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="chemistry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mayavi2_spring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,17 +266,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/3d_drawing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/chemistry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="gain_as2ip_quantity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plot_printgraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,17 +284,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/subclass" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/subclass/plot_printgraph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="learn_mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plot_pygraphviz_attributes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,17 +302,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/pygraphviz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_attributes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lorenz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plot_pygraphviz_draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,11 +320,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/pygraphviz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/mayavi/mlab/lorenz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_draw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.canyon" />
-      <item itemvalue="Python.chemistry" />
-      <item itemvalue="Python.lorenz" />
-      <item itemvalue="Python.gain_as2ip_quantity" />
-      <item itemvalue="Python.learn_mayavi" />
+      <item itemvalue="Python.plot_pygraphviz_attributes" />
+      <item itemvalue="Python.plot_pygraphviz_draw" />
+      <item itemvalue="Python.plot_printgraph" />
+      <item itemvalue="Python.mayavi2_spring" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.learn_mayavi" />
-        <item itemvalue="Python.gain_as2ip_quantity" />
-        <item itemvalue="Python.lorenz" />
-        <item itemvalue="Python.chemistry" />
-        <item itemvalue="Python.canyon" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.mayavi2_spring" />
+        <item itemvalue="Python.plot_printgraph" />
+        <item itemvalue="Python.plot_pygraphviz_draw" />
+        <item itemvalue="Python.plot_pygraphviz_attributes" />
       </list>
     </recent_temporary>
   </component>
@@ -421,18 +386,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.18545838" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.16649105" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
+      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17339149" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.35223556" />
-      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.22682661" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.17339149" />
-      <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
+      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.24645583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
+      <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -482,382 +446,353 @@
           <line>9</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/044Networkx/advanced/plot_heavy_metal_umlaut.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/adjust_cropping_extents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/compute_in_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="69" lean-forward="true" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/mlab_visual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/qt_embedding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/wx_embedding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/explorer/explorer3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1864">
-          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/explorer/explorer_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/magnetic_field.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/spherical_harmonics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/surface_from_irregular_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/tvtk_in_mayavi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/wigner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/explorer/explorer3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/data_interaction/select_red_balls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1229">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/data_interaction/pick_on_surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/data_interaction/normal_flipping_stl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/contour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2464">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/delaunay_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3481">
+          <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/glyph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/image_cursor_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/magnetic_field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/mlab_3D_to_2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3784">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/multi_block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/numeric_source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/polydata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/probe_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/scatter_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="-371">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/streamline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/actor_editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/animated_texture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/array_animation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/ivtk_example.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/off_screen.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/structured_grid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="-1911">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/scene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/scene_editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/flight_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2389">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/tiny_mesh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/texture_glyph.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/structured_points2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="12" column="84" lean-forward="true" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/volume_slicer.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/structured_points3d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/interactive/lorenz_ui.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/surf_regular_mlab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+        <state relative-caret-position="220">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mayavi_jupyter.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/protein.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/plotting_many_lines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/zzz_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/user_mayavi.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/tvtk_segmentation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/standalone.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/advanced_visualization/unstructured_grid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="286">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/037Open3D/examples/Python/Basic/clustering.py">
+    <entry file="file://C:/Python37/Lib/site-packages/mayavi-4.7.2.dev0-py3.7-win-amd64.egg/mayavi/tools/animator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="287">
+          <caret line="132" column="72" lean-forward="true" selection-start-line="132" selection-start-column="72" selection-end-line="132" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/nongui.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/networkx/drawing/layout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="-4685">
+          <caret line="349" column="4" selection-start-line="349" selection-start-column="4" selection-end-line="349" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py">
+    <entry file="file://C:/Python37/Lib/site-packages/mayavi-4.7.2.dev0-py3.7-win-amd64.egg/mayavi/tools/modules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="89">
+          <caret line="443" column="68" lean-forward="true" selection-start-line="443" selection-start-column="68" selection-end-line="443" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/tvtk/dscene.py">
+    <entry file="file://C:/Python37/Lib/site-packages/mayavi-4.7.2.dev0-py3.7-win-amd64.egg/mayavi/tools/pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/atomic_orbital.py">
+    <entry file="file://C:/Python37/Lib/site-packages/mayavi-4.7.2.dev0-py3.7-win-amd64.egg/mayavi/tools/filters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-3583">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/lorenz.py">
+    <entry file="file://$PROJECT_DIR$/045Mayavi/learn_mayavi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="3982">
+          <caret line="181" column="21" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/chemistry.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/advanced/plot_eigenvalues.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="218">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/canyon.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/advanced/plot_heavy_metal_umlaut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/algorithms/plot_rcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/applications/plot_circuits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/boy.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_ego_graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/dot_atlas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/_struct.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_karate_club.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="181" column="8" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
+        <state relative-caret-position="352">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/builtins.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="479" column="4" selection-start-line="479" selection-start-column="4" selection-end-line="479" selection-end-column="4" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_write_dotfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="242">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_attributes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/gain_as2ip.py">
+    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_draw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#101#112#0" expanded="true" />
-            <element signature="e#1447#2229#0" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/subclass/plot_printgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1237">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="201">
+          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/numpy/random/__init__.py">
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="145" column="7" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1055577769/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="1990" column="23" lean-forward="true" selection-start-line="1990" selection-start-column="23" selection-end-line="1990" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/mayavi-4.7.2.dev0-py3.7-win-amd64.egg/mayavi/tools/decorations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="175" column="4" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/045Mayavi/learn_mayavi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="8932">
+          <caret line="502" selection-start-line="502" selection-end-line="502" />
           <folding>
-            <element signature="e#130#156#0" expanded="true" />
+            <element signature="e#125#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
