@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044Networkx/advanced/edgelist.utf-8" beforeDir="false" afterPath="$PROJECT_DIR$/044Networkx/advanced/edgelist.utf-8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" beforeDir="false" afterPath="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045Mayavi/mayavi/mlab/MRbrain.tar.gz" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +19,76 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8932">
-              <caret line="502" selection-start-line="502" selection-end-line="502" />
-              <folding>
-                <element signature="e#125#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.41910332">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="ASlay.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <folding>
+                    <element signature="e#383#394#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Global_BGP_lay.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-752">
+                  <caret line="195" column="17" lean-forward="true" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ASlay_cn.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ASlay_cn.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="61">
+                  <caret line="481" lean-forward="true" selection-start-line="481" selection-end-line="481" />
+                  <folding>
+                    <element signature="e#132#143#0" expanded="true" />
+                    <element signature="e#344#539#0" />
+                    <element signature="e#570#689#0" />
+                    <element signature="e#758#1024#0" />
+                    <element signature="e#1089#1500#0" />
+                    <element signature="e#1735#2032#0" />
+                    <element signature="e#2100#2355#0" />
+                    <element signature="e#2434#2955#0" />
+                    <element signature="e#3010#3133#0" />
+                    <element signature="e#3223#3500#0" />
+                    <element signature="e#4910#5219#0" />
+                    <element signature="e#5322#5543#0" />
+                    <element signature="e#5613#8601#0" />
+                    <element signature="e#8698#9258#0" />
+                    <element signature="e#9330#11035#0" />
+                    <element signature="e#11063#12843#0" />
+                    <element signature="e#12875#13267#0" />
+                    <element signature="e#13292#14590#0" />
+                    <element signature="e#14333#14507#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,14 +99,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>9304</find>
       <find>58511</find>
       <find>4134|58511</find>
       <find>139203</find>
       <find>data_source_cn</find>
       <find>data_source</find>
       <find>temp_list</find>
-      <find>中国</find>
       <find />
       <find>land</find>
       <find>65541</find>
@@ -76,6 +127,8 @@
       <find>G</find>
       <find>graph</find>
       <find>泰国</find>
+      <find>中国</find>
+      <find>中国（大陆）</find>
     </findStrings>
     <replaceStrings>
       <replace>group_top</replace>
@@ -100,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/as_map_global.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/en_draw/active_as.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/en_draw/as_map_global.py" />
         <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/draw_as_core_v10_en.py" />
@@ -137,7 +189,6 @@
         <option value="$PROJECT_DIR$/031CAICT-Display/5_all_as_rel.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" />
-        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
         <option value="$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py" />
         <option value="$PROJECT_DIR$/044Networkx/javascript/force.py" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -151,10 +202,12 @@
         <option value="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py" />
         <option value="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" />
         <option value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -184,6 +237,21 @@
               <item name="030CAICT-AtlasToolkit" type="462c0819:PsiDirectoryNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="043BGPlayPaper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="044Networkx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="045Mayavi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,19 +264,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
-      <recent name="D:\Code\Crawler4Caida\044Networkx" />
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
       <recent name="D:\Code\Crawler4Caida" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
+      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
+      <recent name="D:\Code\Crawler4Caida\044Networkx" />
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\D010" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.plot_circular_tree">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,6 +307,24 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="ASlay_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
@@ -276,6 +362,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="plot_circular_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/drawing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/drawing/plot_circular_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="plot_printgraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,57 +398,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="plot_pygraphviz_attributes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/pygraphviz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_attributes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="plot_pygraphviz_draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/pygraphviz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_draw.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.plot_pygraphviz_attributes" />
-      <item itemvalue="Python.plot_pygraphviz_draw" />
       <item itemvalue="Python.plot_printgraph" />
       <item itemvalue="Python.mayavi2_spring" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.ASlay_cn" />
+      <item itemvalue="Python.plot_circular_tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.plot_circular_tree" />
+        <item itemvalue="Python.ASlay_cn" />
         <item itemvalue="Python.mayavi2_spring" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.plot_printgraph" />
-        <item itemvalue="Python.plot_pygraphviz_draw" />
-        <item itemvalue="Python.plot_pygraphviz_attributes" />
       </list>
     </recent_temporary>
   </component>
@@ -387,14 +455,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.16649105" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.18914647" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15594329" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
-      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.1908397" />
+      <window_info anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" weight="0.2431843" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17339149" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.35223556" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.24645583" />
+      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.21046892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,13 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/spherical_harmonics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/045Mayavi/mayavi/mlab/surface_from_irregular_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-327">
@@ -773,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -787,12 +841,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#34#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8932">
+        <state relative-caret-position="-8174">
           <caret line="502" selection-start-line="502" selection-end-line="502" />
           <folding>
             <element signature="e#125#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#383#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="195" column="17" lean-forward="true" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="481" lean-forward="true" selection-start-line="481" selection-end-line="481" />
+          <folding>
+            <element signature="e#132#143#0" expanded="true" />
+            <element signature="e#344#539#0" />
+            <element signature="e#570#689#0" />
+            <element signature="e#758#1024#0" />
+            <element signature="e#1089#1500#0" />
+            <element signature="e#1735#2032#0" />
+            <element signature="e#2100#2355#0" />
+            <element signature="e#2434#2955#0" />
+            <element signature="e#3010#3133#0" />
+            <element signature="e#3223#3500#0" />
+            <element signature="e#4910#5219#0" />
+            <element signature="e#5322#5543#0" />
+            <element signature="e#5613#8601#0" />
+            <element signature="e#8698#9258#0" />
+            <element signature="e#9330#11035#0" />
+            <element signature="e#11063#12843#0" />
+            <element signature="e#12875#13267#0" />
+            <element signature="e#13292#14590#0" />
+            <element signature="e#14333#14507#0" />
           </folding>
         </state>
       </provider>
