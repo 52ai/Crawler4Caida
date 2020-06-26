@@ -347,7 +347,7 @@ def draw_2d(G_2d, pos, graph_name, is_draw=True, is_show=False):
         ax.set_ylabel('Y', color="white")
         ax.grid(b=False)  # 去除栅栏
 
-        ax.set_title("Force 2D", size=20, color="white")
+        ax.set_title("ASlay 2D", size=20, color="white")
         ax.set_facecolor('black')
         plt.axis('off')
 
@@ -375,7 +375,7 @@ def my_layout_ani():
         初始化画布
         :return:
         """
-        ax.set_title("Force 2D", size=20, color="white")
+        ax.set_title("ASlay 2D", size=20, color="white")
         ax.set_facecolor('black')
         ax.grid(b=False)  # 去除栅栏
         plt.axis('off')
@@ -386,7 +386,7 @@ def my_layout_ani():
         :return:
         """
         ax.clear()
-        ax.set_title("Force 2D", size=20, color="white")
+        ax.set_title("ASlay 2D", size=20, color="white")
         ax.set_facecolor('black')
         ax.grid(b=False)  # 去除栅栏
         plt.axis('off')
@@ -414,8 +414,8 @@ def my_layout_ani():
             x_line = []
             y_line = []
 
-    line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=100, interval=50, blit=False)
-    line_ani.save('../000LocalData/BGPlay/new_draw_2d_layout_ani.gif', writer="imagemagick",
+    line_ani = animation.FuncAnimation(fig, update, init_func=init, frames=50, interval=50, blit=False)
+    line_ani.save('../000LocalData/BGPlay/as_draw_2d_layout_ani.gif', writer="imagemagick",
                   savefig_kwargs={'facecolor': 'black'}, dpi=100)
     # line_ani.save('../000LocalData/BGPlay/new_draw_2d_layout_ani.mp4', writer="ffmpeg",
     #               savefig_kwargs={'facecolor': 'black'}, dpi=360)
@@ -443,15 +443,15 @@ def gain_as_cn():
     :return as_list:
     :return as_links:
     """
+    print("- - - - - - - -获取AS互联相关信息- - - - - - - - ")
     en2cn_country = gain_country_info()
     time_str = "2019"  # 存储需要统计年份信息
     file_in = '..\\000LocalData\\as_map\\as_core_map_data_new' + time_str + '1001.csv'
     bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\" + time_str + "1001.as-rel.txt"
-
     # 统计互联点
     as_info = []  # 存储需要绘制的as信息
     as_list = []  # 存储as list
-    country_group = ["中国（大陆）"]
+    country_group = ["中国（大陆）", "越南", "新加坡", "印度"]
     file_in_read = open(file_in, 'r', encoding='utf-8')
     for line in file_in_read.readlines():
         line = line.strip().split("|")
@@ -475,37 +475,91 @@ def gain_as_cn():
             continue
         line = line.strip().split('|')
         if line[0] in as_list and line[1] in as_list:
-            as_links.append([line[0], line[1]])
+            as_links.append((line[0], line[1]))
     print("绘图AS关系数量统计:", len(as_links))
     return as_list, as_links
 
 
+def generating_graph(as_list, as_links):
+    """
+    根据AS列表和AS间的互联关系构建Graph
+    :param as_list:
+    :param as_links:
+    :return as_graph:
+    """
+    # print(as_list)
+    # print(as_links)
+    print("- - - - - - - -构建AS无向图G- - - - - - - - ")
+    as_graph = networkx.Graph()  # 新建一个空的无向图as_graph
+    as_graph.add_nodes_from(as_list)
+    as_graph.add_edges_from(as_links)
+    return as_graph
+
+
+def analyzing_graph(as_graph):
+    """
+    对图进行相关分析
+    :param as_graph:
+    :return:
+    """
+    print("G Nodes:", as_graph.number_of_nodes())
+    print("G Edges:", as_graph.number_of_edges())
+    print("- - - - - - - -已构建的图分析- - - - - - - - ")
+    # print(sorted(d for n, d in as_graph.degree()))
+    # print(list(networkx.connected_components(as_graph)))
+    # print(networkx.clustering(as_graph))
+
+
+def drawing_graph(as_graph):
+    """
+    采用networkx原生绘图功能（大概率是matplotlib包）对Graph进行可视化
+    实时证明networks的绘图功能并不是很好
+    没有自主实现的力引导布局算法+Echarts前端输出(或Matplotlib)的可视化组合好
+    :param as_graph: 
+    :return: 
+    """
+    print("- - - - - - - -已构建的图可视化- - - - - - - - ")
+    options = {
+        'node_color': 'black',
+        'node_size': 4,
+        'edge_color': 'black',
+        'width': 0.1,
+    }
+    networkx.draw_random(as_graph, **options)
+    plt.show()
+
+
 if __name__ == "__main__":
     time_start = time.time()
+    # 构建AS图
+    my_as_list, my_as_links = gain_as_cn()
+    my_as_graph = generating_graph(my_as_list, my_as_links)
+    # analyzing_graph(my_as_graph)
+    # drawing_graph(my_as_graph)
+
     # 使用networkx随机生成无标度网络
     # G = networkx.random_geometric_graph(800, 0.1, dim=2)
-    # print("=>原始图信息输出")
-    # print("G Nodes:", G.nodes)
-    # print("G Nodes Count:", G.number_of_nodes())
-    # print("G Edges Count:", G.number_of_edges())
-    # pos = {i: (random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
-    # # print(pos)
-    # draw_2d(G, pos, 'new_draw_2d', is_show=False)  # 绘制随时生成的原始布局
-    #
-    # # 记录起始数据
-    # temp_list = list()
-    # temp_list.append(G)
-    # temp_list.append(pos)
-    # ANIMATION_LIST.append(temp_list)
-    #
-    # time_layout_start = time.time()
-    # layout_2d = aslay_networkx_layout(G, pos, niter=100)  # 2d版的aslay算法
-    # time_layout_end = time.time()
-    # print("G layout time consuming:", (time_layout_end - time_layout_start), "S")
-    # draw_2d(G, layout_2d, "new_draw_2d_layout", is_show=False)
-    # my_layout_ani()  # 绘制2D网络动态布局的animation动画
-    my_as_list, my_as_links = gain_as_cn()
-    # print(my_as_list)
-    # print(my_as_links)
+    G = my_as_graph
+    print("=>原始图信息输出")
+    print("G Nodes:", G.nodes)
+    print("G Nodes Count:", G.number_of_nodes())
+    print("G Edges Count:", G.number_of_edges())
+    pos = {i: (random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
+    # print(pos)
+    draw_2d(G, pos, 'as_draw_2d', is_show=False)  # 绘制随机生成的原始布局
+
+    # 记录起始数据
+    temp_list = list()
+    temp_list.append(G)
+    temp_list.append(pos)
+    ANIMATION_LIST.append(temp_list)
+
+    time_layout_start = time.time()
+    layout_2d = aslay_networkx_layout(G, pos, niter=50)  # 2d版的aslay算法
+    time_layout_end = time.time()
+    print("G layout time consuming:", (time_layout_end - time_layout_start), "S")
+    # print(layout_2d)
+    draw_2d(G, layout_2d, "as_draw_2d_layout", is_show=False)
+    my_layout_ani()  # 绘制2D网络动态布局的animation动画
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
