@@ -122,6 +122,7 @@ def mayavi_points3d():
     s = np.sin(t)
     # 参数s是设置每个点的大小(scalar), mode可选
     mlab.points3d(np.cos(t), np.sin(3*t), np.cos(5*t), s, mode='sphere', line_width=1)
+    print(np.cos(t))
     mlab.colorbar()
     mlab.show()
 

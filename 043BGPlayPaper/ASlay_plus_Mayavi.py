@@ -10,6 +10,9 @@ ASlay算法三维坐标已可导出，Matplotlib和echarts均不支持大规模�
 
 """
 import time
+import mayavi.mlab as mlab
+import numpy as np
+import random
 
 
 def read_as_graph(graph_nodes_file, graph_edges_file):
@@ -42,8 +45,30 @@ def mayavi_draw(graph_nodes, graph_edges):
     :param graph_edges:
     :return:
     """
-    print(graph_nodes)
-    print(graph_edges)
+    # print(graph_nodes)
+    # print(graph_edges)
+    x_list = []
+    y_list = []
+    z_list = []
+    s_list = []
+    c_list = []
+    for node_item in graph_nodes:
+        x_list.append(float(node_item[1]))
+        y_list.append(float(node_item[2]))
+        z_list.append(float(node_item[3]))
+        s_list.append(np.log(int(node_item[0])))
+        if node_item[4] == 'red':
+            c_list.append((1, 0, 0))
+        elif node_item[4] == 'green':
+            c_list.append((0, 1, 0))
+        elif node_item[4] == 'blue':
+            c_list.append((0, 0, 1))
+
+    print(x_list)
+    # mlab.figure(bgcolor=(0, 0, 0))
+    mlab.points3d(x_list, y_list, z_list, s_list, mode='point', line_width=1)
+    # mlab.colorbar()
+    mlab.show()
 
 
 if __name__ == "__main__":
