@@ -325,10 +325,14 @@ def draw_2d(G_2d, pos, graph_name, is_draw=True, is_show=False):
         fig, ax = plt.subplots(1, 1, figsize=(10, 8))
         # 2D绘点
         for node_key in pos.keys():
+            # 获取Graph Nodes的颜色恶属性
+            # print(networkx.get_node_attributes(G_2d, 'color')[node_key])
+            node_color = networkx.get_node_attributes(G_2d, 'color')[node_key]
+            node_size = networkx.get_node_attributes(G_2d, 'size')[node_key]
             xs = pos[node_key][0]
             ys = pos[node_key][1]
-            ax.scatter(xs, ys, c='white', marker='o', s=10)
-        # 3D绘线
+            ax.scatter(xs, ys, c=node_color, marker='o', s=node_size)
+        # 2D绘线
         x_line = []
         y_line = []
         for line in G_2d.edges():
@@ -396,10 +400,14 @@ def my_layout_ani():
         pos = data_draw[i][1]
         # 2D绘点
         for node_key in pos.keys():
+            # 获取Graph Nodes的颜色恶属性
+            # print(networkx.get_node_attributes(G_2d, 'color')[node_key])
+            node_color = networkx.get_node_attributes(G_2d, 'color')[node_key]
+            node_size = networkx.get_node_attributes(G_2d, 'size')[node_key]
             xs = pos[node_key][0]
             ys = pos[node_key][1]
-            ax.scatter(xs, ys, c='white', marker='o', s=10)
-        # 3D绘线
+            ax.scatter(xs, ys, c=node_color, marker='o', s=node_size)
+        # 2D绘线
         x_line = []
         y_line = []
         for line in G_2d.edges():
@@ -451,7 +459,8 @@ def gain_as_cn():
     # 统计互联点
     as_info = []  # 存储需要绘制的as信息
     as_list = []  # 存储as list
-    country_group = ["中国（大陆）", "越南", "新加坡", "印度"]
+    country_group = ["中国（大陆）", "日本", "韩国"]
+    country_group_dict = {}  # 存储各国的as_list
     file_in_read = open(file_in, 'r', encoding='utf-8')
     for line in file_in_read.readlines():
         line = line.strip().split("|")
@@ -465,8 +474,10 @@ def gain_as_cn():
         if country_cn in country_group:
             as_info.append(line)
             as_list.append(line[0])
-    print("绘图AS网络数量统计:", len(as_list))
+            country_group_dict.setdefault(country_cn, []).append(line[0])
 
+    print("绘图AS网络数量统计:", len(as_list))
+    # print(country_group_dict)
     # 统计互联边
     as_links = []
     bgp_file_read = open(bgp_file, 'r', encoding='utf-8')
@@ -477,22 +488,29 @@ def gain_as_cn():
         if line[0] in as_list and line[1] in as_list:
             as_links.append((line[0], line[1]))
     print("绘图AS关系数量统计:", len(as_links))
-    return as_list, as_links
+    return as_list, as_links, country_group_dict
 
 
-def generating_graph(as_list, as_links):
+def generating_graph(country_as_dict, as_links):
     """
     根据AS列表和AS间的互联关系构建Graph
-    :param as_list:
+    :param country_as_dict:
     :param as_links:
     :return as_graph:
     """
-    # print(as_list)
-    # print(as_links)
     print("- - - - - - - -构建AS无向图G- - - - - - - - ")
     as_graph = networkx.Graph()  # 新建一个空的无向图as_graph
-    as_graph.add_nodes_from(as_list)
+    # as_graph.add_nodes_from(as_list)
+    color_list = ['red', 'green', 'blue', 'yellow']
+    color_cnt = 0
+    for key in country_as_dict.keys():
+        as_graph.add_nodes_from(country_as_dict[key],
+                                color=color_list[color_cnt % len(country_as_dict.keys())],
+                                size=10,
+                                weight=0.4)
+        color_cnt += 1
     as_graph.add_edges_from(as_links)
+    # print(networkx.get_node_attributes(as_graph, 'color'))
     return as_graph
 
 
@@ -532,8 +550,8 @@ def drawing_graph(as_graph):
 if __name__ == "__main__":
     time_start = time.time()
     # 构建AS图
-    my_as_list, my_as_links = gain_as_cn()
-    my_as_graph = generating_graph(my_as_list, my_as_links)
+    my_as_list, my_as_links, my_country_as_dict = gain_as_cn()
+    my_as_graph = generating_graph(my_country_as_dict, my_as_links)
     # analyzing_graph(my_as_graph)
     # drawing_graph(my_as_graph)
 
@@ -541,7 +559,7 @@ if __name__ == "__main__":
     # G = networkx.random_geometric_graph(800, 0.1, dim=2)
     G = my_as_graph
     print("=>原始图信息输出")
-    print("G Nodes:", G.nodes)
+    # print("G Nodes:", G.nodes)
     print("G Nodes Count:", G.number_of_nodes())
     print("G Edges Count:", G.number_of_edges())
     pos = {i: (random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典

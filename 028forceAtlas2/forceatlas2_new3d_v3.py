@@ -61,7 +61,7 @@ def linRepulsion(n1, n2, coefficient=0):
     if distance2 > 0:
         factor = coefficient * n1.mass * n2.mass / distance2  # 计算斥力因子
         """
-        根据斥力因子计算两点新的位置坐标（x1, y1, z1）、(x2, y2, z1)
+        根据斥力因子计算两点新的位置坐标（x1, y1, z1）、(x2, y2, z2)
         """
         n1.dx += xDist * factor
         n1.dy += yDist * factor
@@ -95,7 +95,7 @@ def strongGravity(n, g, coefficient=0):
     yDist = n.y
     zDist = n.z
 
-    if xDist != 0 and yDist != 0 and zDist !=0:
+    if xDist != 0 and yDist != 0 and zDist != 0:
         factor = coefficient * n.mass * g  # 计算强重力因子，重力的大小不随点离圆心距离的变大而变小
         """
         根据强重力因子更新点的坐标(x, y, z)

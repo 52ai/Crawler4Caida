@@ -13,7 +13,7 @@ from mayavi import mlab
 # H=nx.krackhardt_kite_graph()
 # H=nx.Graph();H.add_edge('a','b');H.add_edge('a','c');H.add_edge('a','d')
 # H=nx.grid_2d_graph(4,5)
-H = nx.cycle_graph(42)
+H = nx.cycle_graph(1000)
 
 # reorder nodes from 0,len(G)-1
 G = nx.convert_node_labels_to_integers(H)
@@ -36,6 +36,6 @@ pts = mlab.points3d(
 )
 
 pts.mlab_source.dataset.lines = np.array(list(G.edges()))
-tube = mlab.pipeline.tube(pts, tube_radius=0.001)
+tube = mlab.pipeline.tube(pts, tube_radius=0.000001)
 mlab.pipeline.surface(tube, color=(0.8, 0.8, 0.8))
 mlab.show()

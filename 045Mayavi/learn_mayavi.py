@@ -183,9 +183,9 @@ if __name__ == "__main__":
     # mayavi_mesh()
     # mayavi_surf()
     # mayavi_plot3d()
-    # mayavi_points3d()
+    mayavi_points3d()
     # mayavi_quiver3d()
     # mayavi_anim()
-    mayavi_flow()
+    # mayavi_flow()
     time_end = time.time()  # 记录程序结束的时间
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
