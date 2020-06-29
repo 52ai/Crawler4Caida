@@ -523,7 +523,9 @@ def gain_as_cn():
     # 统计互联点
     as_info = []  # 存储需要绘制的as信息
     as_list = []  # 存储as list
-    country_group = ["中国（大陆）", "日本", "韩国"]
+    # country_group = ["中国（大陆）", "日本", "韩国", "中国（香港）", "中国（台湾）", "印度", "越南", "新加坡"]
+    # country_group = ["中国（大陆）", "日本", "韩国"]
+    country_group = []
     country_group_dict = {}  # 存储各国的as_list
     file_in_read = open(file_in, 'r', encoding='utf-8')
     for line in file_in_read.readlines():
@@ -535,7 +537,7 @@ def gain_as_cn():
             print(e)
             continue
         # print(country_cn)
-        if country_cn in country_group:
+        if country_cn not in country_group:
             as_info.append(line)
             as_list.append(line[0])
             country_group_dict.setdefault(country_cn, []).append(line[0])
@@ -565,11 +567,17 @@ def generating_graph(country_as_dict, as_links):
     print("- - - - - - - -构建AS无向图G- - - - - - - - ")
     as_graph = networkx.Graph()  # 新建一个空的无向图as_graph
     # as_graph.add_nodes_from(as_list)
-    color_list = ['red', 'green', 'blue', 'yellow']
+    color_list_source = [[255, 0, 0], [0, 255, 0], [0, 0, 255], [25, 202, 173],
+                         [209, 186, 116], [244, 96, 108], [255, 69, 0], [70, 130, 180]]
+    color_list = list()
+    for item in color_list_source:
+        color_list.append((item[0]/255, item[1]/255, item[2]/255))
+
     color_cnt = 0
     for key in country_as_dict.keys():
+        print(key, color_list[color_cnt % len(color_list)])
         as_graph.add_nodes_from(country_as_dict[key],
-                                color=color_list[color_cnt % len(country_as_dict.keys())],
+                                color=color_list[color_cnt % len(color_list)],
                                 size=10,
                                 weight=0.4)
         color_cnt += 1
@@ -651,7 +659,7 @@ def write_to_csv(res_list, des_path):
     print("write file <%s> ..." % des_path)
     csv_file = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csv_file, delimiter=",")
+        writer = csv.writer(csv_file, delimiter="|")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
@@ -678,7 +686,7 @@ if __name__ == "__main__":
     print("G Edges Count:", G.number_of_edges())
     pos = {i: (random.random(), random.random(), random.random()) for i in G.nodes()}  # 生成一个具有位置信息的字典
     # print(pos)
-    draw_3d(G, pos, 'as_draw_3d', is_show=False)  # 绘制随机生成的原始布局
+    # draw_3d(G, pos, 'as_draw_3d', is_show=False)  # 绘制随机生成的原始布局
 
     # 记录起始数据
     temp_list = list()
@@ -691,8 +699,33 @@ if __name__ == "__main__":
     time_layout_end = time.time()
     print("G layout time consuming:", (time_layout_end - time_layout_start), "S")
     # print(layout_3d)
-    draw_3d(G, layout_3d, "as_draw_3d_layout", is_show=False)
+    # draw_3d(G, layout_3d, "as_draw_3d_layout", is_show=False)
     save_graph_info(G, layout_3d, "as_graph_3d")
-    my_layout_ani()  # 绘制3D网络动态布局的animation动画
+    # my_layout_ani()  # 绘制3D网络动态布局的animation动画
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
+
+"""
+- - - - - - - -获取AS互联相关信息- - - - - -
+绘图AS网络数量统计: 1869
+绘图AS关系数量统计: 3322
+- - - - - - - -构建AS无向图G- - - - - - - - 
+日本 (1, 0, 0)
+韩国 (0, 1, 0)
+中国（大陆） (0, 0, 1)
+- - - - - - - - - - - - - - - - - - - - - - 
+
+- - - - - - - -获取AS互联相关信息- - - - - - - - 
+绘图AS网络数量统计: 4857
+绘图AS关系数量统计: 9760
+- - - - - - - -构建AS无向图G- - - - - - - - 
+日本 (1.0, 0.0, 0.0)
+韩国 (0.0, 1.0, 0.0)
+中国（台湾） (0.0, 0.0, 1.0)
+新加坡 (0.09803921568627451, 0.792156862745098, 0.6784313725490196)
+中国（香港） (0.8196078431372549, 0.7294117647058823, 0.4549019607843137)
+印度 (0.9568627450980393, 0.3764705882352941, 0.4235294117647059)
+中国（大陆） (1.0, 0.27058823529411763, 0.0)
+越南 (0.27450980392156865, 0.5098039215686274, 0.7058823529411765)
+
+"""

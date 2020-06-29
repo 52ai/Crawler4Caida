@@ -29,13 +29,27 @@ def read_as_graph(graph_nodes_file, graph_edges_file):
     graph_edges_file_read = open(graph_edges_file, 'r', encoding='utf-8')
 
     for line in graph_nodes_file_read.readlines():
-        line = line.strip().split(',')
+        line = line.strip().split('|')
         graph_nodes_list.append(line)
     for line in graph_edges_file_read.readlines():
-        line = line.strip().split(',')
+        line = line.strip().split('|')
         graph_edges_list.append(line)
 
     return graph_nodes_list, graph_edges_list
+
+
+def str2list(color_str):
+    """
+    将字符串转为list
+    :param color_str:
+    :return:
+    """
+    # print(color_str)
+    str_list = color_str.strip(")").strip("(").split(",")
+    re_list = list()
+    for item in str_list:
+        re_list.append(float(item))
+    return re_list
 
 
 def mayavi_draw(graph_nodes, graph_edges):
@@ -45,6 +59,7 @@ def mayavi_draw(graph_nodes, graph_edges):
     :param graph_edges:
     :return:
     """
+    mlab.figure(bgcolor=(0, 0, 0))
     # print(graph_nodes)
     # print(graph_edges)
     x_list = []
@@ -52,21 +67,24 @@ def mayavi_draw(graph_nodes, graph_edges):
     z_list = []
     s_list = []
     c_list = []
+    color_flag = graph_nodes[0][4]
     for node_item in graph_nodes:
+        if color_flag != node_item[4]:
+            mlab.points3d(x_list, y_list, z_list, s_list, color=tuple(str2list(color_flag)), scale_factor=0.5, resolution=8)
+            x_list = []
+            y_list = []
+            z_list = []
+            s_list = []
+            c_list = []
+            color_flag = node_item[4]
+            continue
         x_list.append(float(node_item[1]))
         y_list.append(float(node_item[2]))
         z_list.append(float(node_item[3]))
         s_list.append(np.log(int(node_item[0]) + 1))
-        if node_item[4] == 'red':
-            c_list.append(1)
-        elif node_item[4] == 'green':
-            c_list.append(2)
-        elif node_item[4] == 'blue':
-            c_list.append(3)
-
-    mlab.figure(bgcolor=(0, 0, 0))
-    mlab.points3d(x_list, y_list, z_list, s_list, line_width=1, scale_factor=0.5, resolution=8)
-    mlab.colorbar()
+        c_list.append(node_item[4])
+    mlab.points3d(x_list, y_list, z_list, s_list, color=tuple(str2list(color_flag)), scale_factor=0.5, resolution=8)
+    # mlab.colorbar()
     mlab.show()
 
 
