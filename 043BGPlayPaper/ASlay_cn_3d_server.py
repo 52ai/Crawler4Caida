@@ -242,6 +242,7 @@ def aslay(
         edges.append(edge)
 
     # 主循环开始(3D)
+    print("主循环开始（3D）")
     iter_cnt = 1
     for _i in range(0, niter):
         iter_time_start = time.time()
@@ -376,9 +377,9 @@ def generating_graph(country_as_dict, as_links):
     print("- - - - - - - -构建AS无向图G- - - - - - - - ")
     as_graph = networkx.Graph()  # 新建一个空的无向图as_graph
     # as_graph.add_nodes_from(as_list)
-    color_list_source = [[255, 0, 0], [0, 255, 0], [0, 0, 255],
-                         [238, 96, 149], [214, 96, 227], [96, 150, 108],
-                         [182, 96, 141], [254, 147, 112]]
+    color_list_source = [[255, 0, 0], [255, 128, 0], [255, 255, 0],
+                         [0, 255, 0], [0, 255, 255], [0, 0, 255],
+                         [128, 0, 255]]
     color_list = list()
     for item in color_list_source:
         color_list.append((item[0]/255, item[1]/255, item[2]/255))
@@ -497,7 +498,7 @@ def gain_as_cn(country_group, file_in, bgp_file, geo_file):
 if __name__ == "__main__":
     time_start = time.time()
     # 构建AS图
-    my_country_group = ["中国（大陆）", "日本", "韩国", "中国（香港）", "中国（台湾）", "印度", "新加坡", "德国"]
+    my_country_group = ["中国（大陆）", "日本", "韩国", "中国（香港）", "中国（台湾）", "新加坡", "德国"]
     my_file_in = '../000LocalData/as_map/as_core_map_data_new20191001.csv'
     my_bgp_file = '../000LocalData/as_relationships/serial-1/20191001.as-rel.txt'
     my_geo_file = '../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv'
@@ -523,16 +524,14 @@ if __name__ == "__main__":
 
 """
 - - - - - - - -获取AS互联相关信息- - - - - - - - 
-绘图AS网络数量统计: 6525
-绘图AS关系数量统计: 14045
+绘图AS网络数量统计: 4773
+绘图AS关系数量统计: 11053
 - - - - - - - -构建AS无向图G- - - - - - - - 
-日本 255 0 0
-德国 0 255 0
-韩国 0 0 255
-中国（台湾） 238 96 149
-新加坡 214 96 227
-中国（香港） 96 150 108
-印度 182 96 141
-中国（大陆） 254 147 112
-
+日本 255 0 0 红
+德国 255 128 0 橙
+韩国 255 255 0 黄
+中国（台湾） 0 255 0 绿
+新加坡 0 255 255 青
+中国（香港） 0 0 255 蓝
+中国（大陆） 128 0 255 紫
 """

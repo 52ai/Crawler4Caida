@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_edges_7c.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_nodes_7c.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/01-admin-2020091437.json" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/01-admin-2020091437.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/01.json" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/01.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/02.json" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/02.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/03.csv" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/03.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/041.csv" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/041.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/042.csv" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/042.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/05.csv" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/05.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/samples/06.csv" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/06.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/01-admin-2020091437.json" beforeDir="false" afterPath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/01-admin-2020091437.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/samples/01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/02-wayne-2020063034.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/03-wayne-2020063035.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/041-wayne-2020063042.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/042-wayne-2020063043.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/05-wayne-2020062523.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/upload/06-wayne-2020063041.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" beforeDir="false" afterPath="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_edges.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_nodes.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +34,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.27740356">
+    <splitter split-orientation="horizontal" split-proportion="0.28120893">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Global_BGP_lay.py" pinned="false" current-in-tab="false">
@@ -88,8 +93,29 @@
           <file leaf-file-name="GeoLite2-Country-Locations-zh-CN.csv" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
               <provider selected="true" editor-type-id="csv-text-editor">
-                <state relative-caret-position="88">
-                  <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+                <state relative-caret-position="-66">
+                  <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="as_core_map_v4.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v4.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="160" selection-start-line="160" selection-end-line="160" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="214">
+                  <caret line="761" column="40" selection-start-line="761" selection-start-column="16" selection-end-line="761" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#125#134#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -127,8 +153,8 @@
           <file leaf-file-name="ASlay_cn_3d_server.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="213">
-                  <caret line="523" column="3" selection-start-line="523" selection-start-column="3" selection-end-line="523" selection-end-column="3" />
+                <state relative-caret-position="90">
+                  <caret line="516" column="35" lean-forward="true" selection-start-line="516" selection-start-column="35" selection-end-line="516" selection-end-column="35" />
                   <folding>
                     <element signature="e#264#275#0" expanded="true" />
                     <element signature="e#541#818#0" />
@@ -140,20 +166,24 @@
                     <element signature="e#3044#3528#0" />
                     <element signature="e#3587#3710#0" />
                     <element signature="e#3804#4081#0" />
-                    <element signature="e#10307#10867#0" />
+                    <element signature="e#5601#6111#0" />
+                    <element signature="e#5863#5989#0" />
+                    <element signature="e#6016#6087#0" />
+                    <element signature="e#6214#6435#0" />
                     <element signature="e#15516#15908#0" />
                     <element signature="e#19599#20647#0" />
                     <element signature="e#20692#21125#0" />
+                    <element signature="e#13954#15356#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ASlay_plus_Mayavi.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ASlay_plus_Mayavi.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="88" selection-start-line="88" selection-end-line="88" />
+                <state relative-caret-position="412">
+                  <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
                   <folding>
                     <element signature="e#180#191#0" expanded="true" />
                   </folding>
@@ -161,20 +191,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_last_v1.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main_last_v1.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4338" />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="atlas_main_web.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="atlas_main_web.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+                <state relative-caret-position="-467">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
                   <folding>
-                    <element signature="e#125#134#0" expanded="true" />
+                    <element signature="e#537#546#0" expanded="true" />
+                    <element signature="e#552#1474#0" />
+                    <element signature="e#1522#2667#0" />
+                    <element signature="e#2705#3672#0" />
+                    <element signature="e#3712#5200#0" />
+                    <element signature="e#5240#6829#0" />
+                    <element signature="e#6875#7542#0" />
+                    <element signature="e#7589#8484#0" />
+                    <element signature="e#8736#10013#0" />
+                    <element signature="e#8784#8908#0" />
                   </folding>
                 </state>
               </provider>
@@ -311,9 +343,9 @@
         <option value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
         <option value="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" />
         <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d.py" />
-        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
-        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" />
         <option value="$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" />
+        <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
       </list>
     </option>
   </component>
@@ -356,7 +388,7 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="015BGPAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="018Scatter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
@@ -493,6 +525,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="atlas_main_web" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="learn_mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -511,39 +561,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mayavi2_spring" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/044Networkx/3d_drawing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
-      <item itemvalue="Python.mayavi2_spring" />
       <item itemvalue="Python.ASlay_cn_3d" />
       <item itemvalue="Python.learn_mayavi" />
       <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.ASlay_cn_3d_server" />
+      <item itemvalue="Python.atlas_main_web" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.ASlay_cn_3d_server" />
+        <item itemvalue="Python.atlas_main_web" />
         <item itemvalue="Python.ASlay_cn_3d" />
         <item itemvalue="Python.learn_mayavi" />
-        <item itemvalue="Python.mayavi2_spring" />
       </list>
     </recent_temporary>
   </component>
@@ -587,14 +619,14 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.13962065" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.19810326" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24645583" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.1908397" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.35223556" />
-      <window_info anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.16684842" />
+      <window_info anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.2082879" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.2606325" />
+      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.20719738" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -651,20 +683,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/044Networkx/advanced/plot_heavy_metal_umlaut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/algorithms/plot_rcm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/044Networkx/applications/plot_circuits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -931,16 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_edges.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_nodes.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="2002">
-          <caret line="91" column="82" lean-forward="true" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/044Networkx/3d_drawing/mayavi2_spring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -951,10 +959,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#93#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_nodes_7c.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="609">
+          <caret line="91" column="77" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/as_graph_3d_edges_7c.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/draw_as_core_v4(cn).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/018Scatter/as_core_map_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="761" column="40" selection-start-line="761" selection-start-column="16" selection-end-line="761" selection-end-column="40" />
+          <folding>
+            <element signature="e#125#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main_last_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4338" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="88">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state relative-caret-position="-66">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -970,10 +1025,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#537#546#0" expanded="true" />
+            <element signature="e#552#1474#0" />
+            <element signature="e#1522#2667#0" />
+            <element signature="e#2705#3672#0" />
+            <element signature="e#3712#5200#0" />
+            <element signature="e#5240#6829#0" />
+            <element signature="e#6875#7542#0" />
+            <element signature="e#7589#8484#0" />
+            <element signature="e#8736#10013#0" />
+            <element signature="e#8784#8908#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="523" column="3" selection-start-line="523" selection-start-column="3" selection-end-line="523" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="516" column="35" lean-forward="true" selection-start-line="516" selection-start-column="35" selection-end-line="516" selection-end-column="35" />
           <folding>
             <element signature="e#264#275#0" expanded="true" />
             <element signature="e#541#818#0" />
@@ -985,52 +1059,24 @@
             <element signature="e#3044#3528#0" />
             <element signature="e#3587#3710#0" />
             <element signature="e#3804#4081#0" />
-            <element signature="e#10307#10867#0" />
+            <element signature="e#5601#6111#0" />
+            <element signature="e#5863#5989#0" />
+            <element signature="e#6016#6087#0" />
+            <element signature="e#6214#6435#0" />
             <element signature="e#15516#15908#0" />
             <element signature="e#19599#20647#0" />
             <element signature="e#20692#21125#0" />
+            <element signature="e#13954#15356#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="502" selection-start-line="502" selection-end-line="502" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="412">
+          <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
           <folding>
             <element signature="e#180#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/simple_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#93#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/main_last_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4338" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#125#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
