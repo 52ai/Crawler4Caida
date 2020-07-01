@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,16 +19,28 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45354524">
+    <splitter split-orientation="horizontal" split-proportion="0.3734719">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="gain_website_info.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="gain_website_info.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="387">
+                  <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
                   <folding>
                     <element signature="e#125#155#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crawler4kcaict.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-103">
+                  <caret line="149" column="30" lean-forward="true" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#105#135#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -46,8 +58,11 @@
           <file leaf-file-name="zeronet_crawler.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="200">
+                  <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#297#327#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -215,6 +230,11 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="024KnowlegeData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="046DarkNetProject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -257,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ASlay_plus_Mayavi">
+  <component name="RunManager" selected="Python.zeronet_crawler">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,7 +366,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="learn_mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="zeronet_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,11 +374,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/046DarkNetProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,18 +387,18 @@
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
       <item itemvalue="Python.ASlay_cn_3d" />
-      <item itemvalue="Python.learn_mayavi" />
       <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.ASlay_cn_3d_server" />
       <item itemvalue="Python.atlas_main_web" />
+      <item itemvalue="Python.zeronet_crawler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zeronet_crawler" />
         <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.ASlay_cn_3d_server" />
         <item itemvalue="Python.atlas_main_web" />
         <item itemvalue="Python.ASlay_cn_3d" />
-        <item itemvalue="Python.learn_mayavi" />
       </list>
     </recent_temporary>
   </component>
@@ -421,14 +441,14 @@
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.13804004" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.13804004" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24645583" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
-      <window_info anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.17993458" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25845146" />
+      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.24863686" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25736097" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.35223556" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
-      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.20697168" />
+      <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.22028354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3576881" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,13 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/044Networkx/graph/dot_atlas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/044Networkx/graph/plot_karate_club.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -843,18 +856,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="387">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#125#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="149" column="30" lean-forward="true" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+          <folding>
+            <element signature="e#105#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="200">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <element signature="e#297#327#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

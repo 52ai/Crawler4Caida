@@ -4,12 +4,16 @@
       <w>anim</w>
       <w>aslay</w>
       <w>caict</w>
+      <w>iframe</w>
       <w>matlab</w>
       <w>mayavi</w>
       <w>networkx</w>
+      <w>nocomment</w>
+      <w>sitelists</w>
       <w>starcloud</w>
       <w>struct</w>
       <w>wenyan</w>
+      <w>zerosites</w>
     </words>
   </dictionary>
 </component>
