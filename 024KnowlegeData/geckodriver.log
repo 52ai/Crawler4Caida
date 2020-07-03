@@ -5370,3 +5370,11 @@ JavaScript error: http://k.caict.ac.cn/ekp/caict/km/zhaochengguo/kjcg/201110/t20
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1593582326779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofile.Oe1OQ4jScvsx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593582333413	Marionette	INFO	Listening on port 36557
+1593582333633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593582351458	Marionette	INFO	Stopped listening on port 36557
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
