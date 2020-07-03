@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel_customer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024KnowlegeData/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/024KnowlegeData/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/046DarkNetProject/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/046DarkNetProject/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,33 +20,8 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41115198">
+    <splitter split-orientation="horizontal" split-proportion="0.22160149">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="gain_website_info.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="946">
-                  <caret line="43" selection-start-line="43" selection-end-line="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="crawler4kcaict.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-68">
-                  <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#105#135#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="zeronet_crawler.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py">
@@ -62,11 +35,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ASlay_plus_Mayavi.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ASlay_cn_3d_server.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="532" column="16" selection-start-line="532" selection-start-column="16" selection-end-line="532" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="external_as_analysis.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="ASlay_plus_Mayavi.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-396">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="1848">
+                  <caret line="87" selection-start-line="87" selection-end-line="87" />
                   <folding>
                     <element signature="e#180#191#0" expanded="true" />
                   </folding>
@@ -74,11 +61,55 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="2_external_as_rel.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="as_map_caida_20200221_Rank.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/000LocalData/as_cn/as_map_caida_20200221_Rank.csv">
+              <provider selected="true" editor-type-id="csv-text-editor">
+                <state relative-caret-position="94">
+                  <caret line="3619" column="11" selection-start-line="3619" selection-start-column="11" selection-end-line="3619" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="19980201.as-rel.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/serial-1/19980201.as-rel.txt">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="2_external_as_rel_customer.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel_customer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="119" column="18" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#106#117#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="external_as_analysis_v5.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
           <file leaf-file-name="external_as_analysis_v6.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v6.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="28" />
+                <state relative-caret-position="286">
+                  <caret line="45" selection-start-line="45" selection-end-line="45" />
                 </state>
               </provider>
             </entry>
@@ -96,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>withdrawals</find>
-      <find>4134</find>
       <find>俄罗斯</find>
       <find>line[8]</find>
       <find>Node</find>
@@ -126,6 +155,8 @@
       <find>targetSpeed</find>
       <find>maxRise</find>
       <find>G_2d</find>
+      <find>|CN</find>
+      <find>9808</find>
     </findStrings>
     <replaceStrings>
       <replace>lb_m</replace>
@@ -166,9 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" />
-        <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_as_en.py" />
-        <option value="$PROJECT_DIR$/041BGPRelationshipsPaper/bgp_analysis_rel1_en.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/Graph_as_cn.py" />
         <option value="$PROJECT_DIR$/031CAICT-Display/Graph_as_global_update.py" />
         <option value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
@@ -217,11 +245,14 @@
         <option value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" />
         <option value="$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py" />
         <option value="$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py" />
+        <option value="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py" />
+        <option value="$PROJECT_DIR$/000LocalData/as_cn/as_map_caida_20200221_Rank.csv" />
+        <option value="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel_customer.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -231,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,22 +272,36 @@
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="024KnowlegeData" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="000LocalData" type="462c0819:PsiDirectoryNode" />
+              <item name="as_relationships" type="462c0819:PsiDirectoryNode" />
+              <item name="serial-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
+              <item name="023RUNet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
               <item name="043BGPlayPaper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Crawler4Caida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler4Caida" type="462c0819:PsiDirectoryNode" />
-              <item name="046DarkNetProject" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,19 +310,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit" />
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
+      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
+      <recent name="D:\Code\Crawler4Caida\044Networkx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit" />
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
-      <recent name="D:\Code\Crawler4Caida\044Networkx" />
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ASlay_plus_Mayavi">
+  <component name="RunManager" selected="Python.2_external_as_rel_customer">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,7 +354,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="ASlay_cn_3d_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2_external_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,11 +362,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="2_external_as_rel_customer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/2_external_as_rel_customer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,24 +403,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="atlas_main_web" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/030CAICT-AtlasToolkit/atlas_main_web.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,18 +447,18 @@
     <list>
       <item itemvalue="Jupyter Notebook.Crawler4Caida" />
       <item itemvalue="Python.ASlay_plus_Mayavi" />
-      <item itemvalue="Python.ASlay_cn_3d_server" />
-      <item itemvalue="Python.atlas_main_web" />
       <item itemvalue="Python.zeronet_crawler" />
       <item itemvalue="Python.crawler4kcaict" />
+      <item itemvalue="Python.2_external_as_rel_customer" />
+      <item itemvalue="Python.2_external_as_rel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2_external_as_rel_customer" />
+        <item itemvalue="Python.2_external_as_rel" />
         <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.zeronet_crawler" />
         <item itemvalue="Python.crawler4kcaict" />
-        <item itemvalue="Python.ASlay_cn_3d_server" />
-        <item itemvalue="Python.atlas_main_web" />
       </list>
     </recent_temporary>
   </component>
@@ -455,16 +499,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.14014752" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.57879657" visible="true" weight="0.1512118" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24618736" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" weight="0.1908397" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25736097" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.20479302" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.30283225" />
-      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.18627451" />
+      <window_info active="true" anchor="bottom" x="-1545" y="270" width="1242" height="738" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.24400872" />
       <window_info id="Structure" order="0" sideWeight="0.42120343" side_tool="true" weight="0.16438356" />
       <window_info anchor="bottom" x="11" y="437" width="1898" height="166" id="Terminal" order="8" sideWeight="0.49736565" weight="0.21023965" />
       <window_info id="Favorites" order="1" sideWeight="0.41953233" side_tool="true" weight="0.15279241" />
@@ -475,6 +518,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -522,64 +566,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#297#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="e#105#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/046DarkNetProject/zeronet_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#297#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_write_dotfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_attributes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/pygraphviz/plot_pygraphviz_draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/044Networkx/subclass/plot_printgraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/044Networkx/drawing/plot_atlas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
@@ -620,11 +606,6 @@
         <state relative-caret-position="-308">
           <caret line="1050" column="4" selection-start-line="1050" selection-start-column="4" selection-end-line="1050" selection-end-column="4" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/031CAICT-Display/1_internal_as_rel.py">
@@ -807,14 +788,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="-66">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="-66">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -822,13 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="525" column="83" selection-start-line="525" selection-start-column="83" selection-end-line="525" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="522" column="22" selection-start-line="522" selection-start-column="22" selection-end-line="522" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -844,9 +818,16 @@
         <state relative-caret-position="-4884" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/010GainWebsiteInfo/gain_website_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
+        <state relative-caret-position="22">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
@@ -861,29 +842,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v6.py">
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/024KnowlegeData/crawler4kcaict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
+        <state relative-caret-position="1848">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
-            <element signature="e#105#135#0" expanded="true" />
+            <element signature="e#180#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py">
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/7_external_as_analysis_global.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-2777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/4_external_as_analysis_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/043BGPlayPaper/ASlay_cn_3d_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="532" column="16" selection-start-line="532" selection-start-column="16" selection-end-line="532" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/023RUNet/external_as_analysis_v6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_cn/as_map_caida_20200221_Rank.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="94">
+          <caret line="3619" column="11" selection-start-line="3619" selection-start-column="11" selection-end-line="3619" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/000LocalData/as_relationships/serial-1/19980201.as-rel.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/031CAICT-Display/2_external_as_rel_customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="119" column="18" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
           <folding>
-            <element signature="e#180#191#0" expanded="true" />
+            <element signature="e#106#117#0" expanded="true" />
           </folding>
         </state>
       </provider>

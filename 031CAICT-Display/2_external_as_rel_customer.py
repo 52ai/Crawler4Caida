@@ -1,10 +1,11 @@
 # coding:utf-8
 """
-create on Mar 11, 2020 By Wayne YU
+create on July 3, 2020 By Wayne YU
 
 Function:
-
 统计全球各主要国家从1998-2019，国家对外互联关系的变化趋势
+对外互联关系的判断，定义为客户的数量
+
 
 """
 
@@ -87,12 +88,18 @@ def external_as_analysis(country, country_as_info, as2country):
             if line.strip().find("#") == 0:
                 continue
             try:
-                if as2country[str(line.strip().split('|')[0])] == country:
-                    if as2country[str(line.strip().split('|')[1])] != country:
-                        external_cnt += 1
-                else:
-                    if as2country[str(line.strip().split('|')[1])] == country:
-                        external_cnt += 1
+                # if as2country[str(line.strip().split('|')[0])] == country:
+                #     if as2country[str(line.strip().split('|')[1])] != country:
+                #         external_cnt += 1
+                # else:
+                #     if as2country[str(line.strip().split('|')[1])] == country:
+                #         external_cnt += 1
+                # 首先得是transit（-1），然后是A为该国，B为非该国
+                if str(line.strip().split('|')[2]) == "-1":
+                    if as2country[str(line.strip().split('|')[0])] == country:
+                        if as2country[str(line.strip().split('|')[1])] != country:
+                            external_cnt += 1
+
             except Exception as e:
                 pass
 
@@ -104,13 +111,13 @@ def external_as_analysis(country, country_as_info, as2country):
         print(temp_list)
         return_list.append(temp_list)
         temp_list = []
-    save_path = "../000LocalData/caict_display/External_BGP_Rel_" + country + ".csv"
+    save_path = "../000LocalData/caict_display/External_BGP_Rel_" + country + "_customer.csv"
     write_to_csv(return_list, save_path)
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = ["US"]
+    country = ["CN"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     country_as_info, as2country_dict = gain_as2country(as_info_file_in, country)
     for country_item in country:
