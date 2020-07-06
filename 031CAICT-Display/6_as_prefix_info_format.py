@@ -20,7 +20,7 @@ def write_to_csv(res_list, des_path):
     :return: None
     """
     print("write file <%s> ..." % des_path)
-    csv_file = open(des_path, 'w', newline='', encoding='gbk')
+    csv_file = open(des_path, 'w', newline='', encoding='utf-8')
     try:
         writer = csv.writer(csv_file, delimiter=",")
         for i in res_list:
@@ -60,10 +60,14 @@ def extract_info():
     as_list.sort(reverse=True, key=lambda elem: int(elem[1]))  # 降序排列
     for i in range(0, len(as_list)):
         as_name = as_list[i][5]
+        as_org = as_list[i][6]
+        if not as_name:
+            as_org = "/"
         if not as_name:
             as_name = "/"
         result_list.append([i+1, as_list[i][0],
                             as_name,
+                            as_org,
                             as2country_cn[as_list[i][8]].strip("\""),
                             as_list[i][1]])
         # print(result_list[i])
