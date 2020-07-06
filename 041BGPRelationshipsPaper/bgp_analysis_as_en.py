@@ -31,6 +31,27 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker as ticker
 import time
+import csv
+
+
+def write_to_csv(res_list, des_path):
+    """
+    把给定的List，写到指定路径的文件中
+    :param res_list:
+    :param des_path:
+    :return None:
+    """
+    print("write file <%s> ..." % des_path)
+    csvFile = open(des_path, 'w', newline='', encoding='utf-8')
+    try:
+        writer = csv.writer(csvFile, delimiter=",")
+        for i in res_list:
+            writer.writerow(i)
+    except Exception as e:
+        print(e)
+    finally:
+        csvFile.close()
+    print("write finish!")
 
 
 def analysis(open_file, as_analysis):
@@ -75,6 +96,11 @@ def draw(draw_date, data_list, as_analysis):
     :param data_list:
     :return:
     """
+    print(data_list)
+    # 存储绘图数据
+    save_path_data_list = "../000LocalData/Paper_Data/draw_AS" + as_analysis+".csv"
+    write_to_csv(data_list, save_path_data_list)
+
     dt = 1
     # t = np.arange(0, len(draw_date), dt)
     edge_list = []
@@ -119,7 +145,10 @@ def draw(draw_date, data_list, as_analysis):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    plt.savefig("../000LocalData/Paper_Data/draw_AS" + as_analysis+"_en.jpg", dpi=720)
+    save_path_fig = "../000LocalData/Paper_Data/draw_AS" + as_analysis+"_en.svg"
+    plt.savefig(save_path_fig, dpi=600)
+    save_path_fig = "../000LocalData/Paper_Data/draw_AS" + as_analysis+"_en.pdf"
+    plt.savefig(save_path_fig, dpi=600)
     # plt.show()
 
 

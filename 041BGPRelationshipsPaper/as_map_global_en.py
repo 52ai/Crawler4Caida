@@ -44,7 +44,7 @@ def write_to_csv(res_list, des_path):
     print("write file <%s> ..." % des_path)
     csvFile = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile, delimiter="|")
+        writer = csv.writer(csvFile, delimiter=",")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
@@ -179,11 +179,14 @@ def gain_as_info(as_list):
 def draw_bar(data_list):
     """
     对传入的数据进行绘图
-    :param draw_date:
     :param data_list:
     :return:
     """
-    # print(data_list)
+    # 存储绘图数据
+    save_path_data_list = "../000LocalData/Paper_Data/draw_top10as.csv"
+    write_to_csv(data_list, save_path_data_list)
+
+    print(data_list)
     x_list = []
     y_list = []
 
@@ -214,7 +217,12 @@ def draw_bar(data_list):
     # ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    plt.savefig("..\\000LocalData\\Paper_Data\\draw_top10as_en.jpg", dpi=1080)
+    save_path_fig = "..\\000LocalData\\Paper_Data\\draw_top10as_en.svg"
+    plt.savefig(save_path_fig, dpi=600)
+    save_path_fig = "..\\000LocalData\\Paper_Data\\draw_top10as_en.pdf"
+    plt.savefig(save_path_fig, dpi=600)
+    save_path_fig = "..\\000LocalData\\Paper_Data\\draw_top10as_en.eps"
+    plt.savefig(save_path_fig, dpi=600)
 
 
 def get_as_classification_dict():
