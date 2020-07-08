@@ -15,7 +15,6 @@ from pyecharts.charts import Graph
 from pyecharts.globals import ThemeType
 
 
-
 def get_as_classification_dict():
     """
     根据as classification文件内容对AS进行分类，返回分类字典

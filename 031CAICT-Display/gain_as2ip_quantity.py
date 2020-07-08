@@ -5,6 +5,10 @@ Function:
 
 根据as2ip数据，统计每个AS所拥有的v4地址数量和v6地址数量（实际路由通告的监测数据）
 
+V2：新增统计每个AS所拥有的v4 prefix和v6 prefix
+路由条目主要涉及到的是路由表的规模，从已有的信息来看，全球v4 prefix数量大概80多万条，具体情况看实际统计结果。
+
+
 """
 import time
 import csv
@@ -61,6 +65,10 @@ def gain_as2ip_quantity():
         print("AS%s" % line[0])
         v4_seg_cnt = 0  # 统计该AS v4地址段的IP地址数
         v6_seg_cnt = 0  # 统计该AS v6地址段的IP地址数
+
+        v4_prefix_num = 0  # 统计该AS v4前缀数量
+        v6_prefix_num = 0  # 统计该AS v6前缀数量
+
         for item in prefix_list:
             # print(item.find("/"))
             if item.find("/") == -1:
@@ -72,6 +80,10 @@ def gain_as2ip_quantity():
                 ips = find_ips(ip_seg[0], ip_seg[1])
                 # print(len(ips))
                 v4_seg_cnt += len(ips)
+                """
+                V4 前缀数量统计，直接自增1
+                """
+                v4_prefix_num += 1
             else:
                 # print("V6")
                 """
@@ -81,13 +93,18 @@ def gain_as2ip_quantity():
                 net_len = int(item.split("/")[-1])
                 # print(net_len)
                 v6_seg_cnt += pow(2, (64-net_len))
-        print("V4（%s）, V6(%s)" % (v4_seg_cnt, v6_seg_cnt))
+                """
+                V6前缀数量统计，直接自增1
+                """
+                v6_prefix_num += 1
+
+        print("V4 Prefix(%s), V4（%s）, V6 Prefix(%s), V6(%s)" % (v4_prefix_num, v4_seg_cnt, v6_prefix_num, v6_seg_cnt))
         as_name = "AS"+str(line[0])
-        as2ip_quantity.append([as_name, v4_seg_cnt, v6_seg_cnt])
+        as2ip_quantity.append([as_name, v4_prefix_num, v4_seg_cnt, v6_prefix_num, v6_seg_cnt])
         # if line_cnt > 100:
         #     break
         line_cnt += 1
-    save_path = "../000LocalData/caict_display/as2ip_quantity.csv"
+    save_path = "../000LocalData/caict_display/as2ip_quantity_plus.csv"
     write_to_csv(as2ip_quantity, save_path)
 
 
