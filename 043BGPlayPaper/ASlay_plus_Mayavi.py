@@ -59,8 +59,8 @@ def mayavi_draw(graph_nodes, graph_edges):
     :param graph_edges:
     :return:
     """
-    # mlab.figure(bgcolor=(0, 0, 0))
-    mlab.figure(bgcolor=(1, 1, 1))
+    mlab.figure(bgcolor=(0.168, 0.168, 0.168))
+    # mlab.figure(bgcolor=(1, 1, 1))
     # print(graph_nodes)
     # print(graph_edges)
     x_list = []
