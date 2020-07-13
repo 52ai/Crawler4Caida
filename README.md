@@ -27,6 +27,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 五一假期余额不足，且行且珍惜！---20200504 By Wayne YU<br>
 集中处理下地图基础课题第二篇论文的算法调优工作！--20200610 By Wayne YU<br>
 地图基础课题第一篇论文已于20200616被录用（SCI），近期开始处理地图基础课题第二篇论文输出任务。---20200619 By Wayne YU<br>
+前两天小A的Win10彻底崩了，索性重装，所有环境重配。这是重装后的第一次Git！---20200713 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
