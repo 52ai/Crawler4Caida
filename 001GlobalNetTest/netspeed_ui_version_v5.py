@@ -226,7 +226,7 @@ def main_run(self):
     for item in company_log_list:
         f.write(item)
     f.close()
-    company_log_list.clear() # 清空企业日志列表
+    company_log_list.clear()  # 清空企业日志列表
 
     # 写CMD终端日志输出文件
     # print("=>WRITE log.txt FILE")

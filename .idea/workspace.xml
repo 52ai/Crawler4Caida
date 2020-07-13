@@ -11,8 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v5.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/netspeed_ui_version_v5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003Music163Spiders/163.txt" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/163.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003Music163Spiders/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006Wechat/QR.png" beforeDir="false" afterPath="$PROJECT_DIR$/006Wechat/QR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/checkcode_crop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007Crawler4UniversalService/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007Crawler4UniversalService/screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007Crawler4UniversalService/sharp_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/007Crawler4UniversalService/sharp_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/map_china_render.csv" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/map_china_render.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/map_china_render.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/map_china_render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/map_world_render.csv" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/map_world_render.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/019Echarts/map_world_render.html" beforeDir="false" afterPath="$PROJECT_DIR$/019Echarts/map_world_render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/021Folium/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/021Folium/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +145,7 @@
       <recent name="D:\Code\Crawler4Caida\045Mayavi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.fractal">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,7 +162,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="6_as_prefix_info_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Demo_Geo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/019Echarts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/6_as_prefix_info_format.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019Echarts/Demo_Geo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="active_as" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +191,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/active_as.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Gao2Caida_draw_cn_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bgp_analysis_as_all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +212,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/027CNNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/027CNNet/Gao2Caida_draw_cn_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/bgp_analysis_as_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gain_as2ip_quantity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_folium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/021Folium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/021Folium/demo_folium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fractal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,11 +254,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/022Taichi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/022Taichi/fractal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,19 +268,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6_as_prefix_info_format" />
-      <item itemvalue="Python.ASlay_plus_Mayavi" />
-      <item itemvalue="Python.Gao2Caida_draw_cn_v2" />
-      <item itemvalue="Python.gain_as2ip_quantity" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.bgp_analysis_as_all" />
+      <item itemvalue="Python.active_as" />
+      <item itemvalue="Python.Demo_Geo" />
+      <item itemvalue="Python.demo_folium" />
+      <item itemvalue="Python.fractal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.ASlay_plus_Mayavi" />
-        <item itemvalue="Python.Gao2Caida_draw_cn_v2" />
-        <item itemvalue="Python.gain_as2ip_quantity" />
-        <item itemvalue="Python.6_as_prefix_info_format" />
+        <item itemvalue="Python.fractal" />
+        <item itemvalue="Python.demo_folium" />
+        <item itemvalue="Python.Demo_Geo" />
+        <item itemvalue="Python.active_as" />
+        <item itemvalue="Python.bgp_analysis_as_all" />
       </list>
     </recent_temporary>
   </component>
@@ -307,22 +321,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="216" key="GridCell.Tab.0.bottom" timestamp="1594623336415">
+    <state width="1899" height="254" key="GridCell.Tab.0.bottom" timestamp="1594650461290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594623336415" />
-    <state width="1899" height="216" key="GridCell.Tab.0.center" timestamp="1594623336414">
+    <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
+    <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594650461290" />
+    <state width="1899" height="254" key="GridCell.Tab.0.center" timestamp="1594650461289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="216" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594623336414" />
-    <state width="1899" height="216" key="GridCell.Tab.0.left" timestamp="1594623336414">
+    <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
+    <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594650461289" />
+    <state width="1899" height="254" key="GridCell.Tab.0.left" timestamp="1594650461289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="216" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594623336414" />
-    <state width="1899" height="216" key="GridCell.Tab.0.right" timestamp="1594623336415">
+    <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417304" />
+    <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594650461289" />
+    <state width="1899" height="254" key="GridCell.Tab.0.right" timestamp="1594650461289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="216" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594623336415" />
+    <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
+    <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594650461289" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1594619390606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -32,3 +32,39 @@ JavaScript warning: https://s3.music.126.net/web/s/core_e3ba01ce182714ba883bdd53
 [Child 2540, Chrome_ChildThread] WARNING: pi
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1594636396026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofileuTnxIW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594636403020	Marionette	INFO	Listening on port 60613
+1594636403328	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://s3.music.126.net/web/s/core_cfa60db439485372db5565e955c09d01.js?cfa60db439485372db5565e955c09d01, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_cfa60db439485372db5565e955c09d01.js?cfa60db439485372db5565e955c09d01, line 142: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_cfa60db439485372db5565e955c09d01.js?cfa60db439485372db5565e955c09d01, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_cfa60db439485372db5565e955c09d01.js?cfa60db439485372db5565e955c09d01, line 142: unreachable code after return statement
+1594636415003	Marionette	INFO	Stopped listening on port 60613
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1594636431955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wayne\\AppData\\Local\\Temp\\rust_mozprofileznluIe"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594636437270	Marionette	INFO	Listening on port 55024
+1594636437319	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594636460339	Marionette	INFO	Stopped listening on port 55024
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
