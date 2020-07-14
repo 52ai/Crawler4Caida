@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/031CAICT-Display/draw_as_core_v10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,72 +26,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Node</find>
-      <find>G</find>
-      <find>graph</find>
-      <find>泰国</find>
-      <find>中国</find>
-      <find>中国（大陆）</find>
-      <find>outboundAttractionDistribution</find>
-      <find>linLogMode</find>
-      <find>adjustSizes</find>
-      <find>edgeWeightInfluence</find>
-      <find>jitterTolerance</find>
-      <find>barnesHutOptimize</find>
-      <find>barnesHutTheta</find>
-      <find>scalingRatio</find>
-      <find>strongGravityMode</find>
-      <find>pos</find>
-      <find>speedEfficiency</find>
-      <find>totalSwinging</find>
-      <find>totalEffectiveTraction</find>
-      <find>estimatedOptimalJitterTolerance</find>
-      <find>minJT</find>
-      <find>maxJT</find>
-      <find>minSpeedEfficiency</find>
-      <find>targetSpeed</find>
-      <find>maxRise</find>
-      <find>G_2d</find>
-      <find>|CN</find>
-      <find>9808</find>
-      <find>|DC|</find>
-      <find>4134|</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>lb_m</replace>
-      <replace>ttk.Button(</replace>
-      <replace />
-      <replace>data_source_cn</replace>
-      <replace>temp_list_cn</replace>
-      <replace>Paper_Data</replace>
-      <replace>rib_info_prefix2aspath</replace>
-      <replace>node</replace>
-      <replace>g</replace>
-      <replace>graph</replace>
-      <replace>force_graph</replace>
-      <replace>outbound_attraction_distribution</replace>
-      <replace>lin_log_mode</replace>
-      <replace>adjust_sizes</replace>
-      <replace>edge_weight_influence</replace>
-      <replace>jitter_tolerance</replace>
-      <replace>barneshut_optimize</replace>
-      <replace>barneshut_theta</replace>
-      <replace>scaling_ratio</replace>
-      <replace>strong_gravity_mode</replace>
-      <replace>speed_efficiency</replace>
-      <replace>total_swinging</replace>
-      <replace>total_effective_traction</replace>
-      <replace>estimated_optimal_jitter_tolerance</replace>
-      <replace>min_jt</replace>
-      <replace>max_jt</replace>
-      <replace>min_speed_efficiency</replace>
-      <replace>target_speed</replace>
-      <replace>max_rise</replace>
-      <replace>G_3d</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,10 +47,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/031CAICT-Display" />
     <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
+      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit" />
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
+      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
@@ -123,15 +65,8 @@
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
-      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit" />
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-      <recent name="D:\Code\Crawler4Caida\045Mayavi" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.ASlay_plus_Mayavi">
+  <component name="RunManager" selected="Python.draw_as_core_v10">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,6 +96,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_as_core_v10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/draw_as_core_v10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,41 +188,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="webview_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/032wxPython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/032wxPython/webview_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.ASlay_plus_Mayavi" />
+      <item itemvalue="Python.draw_as_core_v10" />
       <item itemvalue="Python.learn_mayavi" />
       <item itemvalue="Python.ris_live" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.webview_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draw_as_core_v10" />
         <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.learn_mayavi" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.ris_live" />
-        <item itemvalue="Python.webview_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -307,28 +242,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="170" key="GridCell.Tab.0.bottom" timestamp="1594696554352">
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom" timestamp="1594714275197">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594714275197" />
     <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
     <state width="1899" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
-    <state width="1899" height="170" key="GridCell.Tab.0.center" timestamp="1594696554352">
+    <state width="1899" height="245" key="GridCell.Tab.0.center" timestamp="1594714275197">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
+    <state width="1899" height="245" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594714275197" />
     <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
     <state width="1899" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
-    <state width="1899" height="170" key="GridCell.Tab.0.left" timestamp="1594696554352">
+    <state width="1899" height="245" key="GridCell.Tab.0.left" timestamp="1594714275197">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
+    <state width="1899" height="245" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594714275197" />
     <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417304" />
     <state width="1899" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
-    <state width="1899" height="170" key="GridCell.Tab.0.right" timestamp="1594696554352">
+    <state width="1899" height="245" key="GridCell.Tab.0.right" timestamp="1594714275197">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
+    <state width="1899" height="245" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594714275197" />
     <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
     <state width="1899" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1594619390606">
