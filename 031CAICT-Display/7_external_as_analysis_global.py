@@ -11,7 +11,6 @@ Function:
 美国（US），俄罗斯（RU），德国（DE），法国（FR），日本（JP）
 巴西（BR），印度（IN），越南（VN），印尼（ID），泰国（TH）
 
-
 """
 
 import time
