@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Wayne.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +131,7 @@
       <recent name="D:\Code\Crawler4Caida\045Mayavi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.ASlay_plus_Mayavi">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +148,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="hello_touch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/029Torch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/029Torch/hello_touch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="learn_mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/045Mayavi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/045Mayavi/learn_mayavi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,19 +254,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hello_touch" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.webview_demo" />
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
+      <item itemvalue="Python.learn_mayavi" />
       <item itemvalue="Python.ris_live" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.webview_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ASlay_plus_Mayavi" />
+        <item itemvalue="Python.learn_mayavi" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.ris_live" />
         <item itemvalue="Python.webview_demo" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.hello_touch" />
       </list>
     </recent_temporary>
   </component>
@@ -306,26 +307,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="207" key="GridCell.Tab.0.bottom" timestamp="1594652106392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="170" key="GridCell.Tab.0.bottom" timestamp="1594696554352">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
+    <state width="1899" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
     <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594652106392" />
-    <state width="1899" height="207" key="GridCell.Tab.0.center" timestamp="1594652106392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
+    <state width="1899" height="170" key="GridCell.Tab.0.center" timestamp="1594696554352">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
+    <state width="1899" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
     <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594652106392" />
-    <state width="1899" height="207" key="GridCell.Tab.0.left" timestamp="1594652106392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
+    <state width="1899" height="170" key="GridCell.Tab.0.left" timestamp="1594696554352">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
+    <state width="1899" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
     <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417304" />
-    <state width="1899" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594652106392" />
-    <state width="1899" height="207" key="GridCell.Tab.0.right" timestamp="1594652106392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
+    <state width="1899" height="170" key="GridCell.Tab.0.right" timestamp="1594696554352">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
+    <state width="1899" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594696554352" />
     <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594652106392" />
+    <state width="1899" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1594619390606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,9 +347,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619390606" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1594619987388">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1459" y="171" key="SettingsEditor" timestamp="1594697489648">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
+    <state x="-1459" y="171" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594697489648" />
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619987388" />
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594352905052" />
   </component>
