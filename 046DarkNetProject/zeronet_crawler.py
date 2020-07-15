@@ -9,7 +9,7 @@ Function:
 
 一般而言，暗网包含Tor、I2P、ZeroNet三块内容
 Tor暗网用洋葱路由组成匿名网络
-I2P暗网用打算路由组成匿名网络
+I2P暗网用大蒜路由组成匿名网络
 ZeroNet暗网其实是一个区块链落地应用，使用Bitcoin+BitTorrent技术本身不具备匿名，但可通过Tor来匿名
 
 本程序主要实现对ZeroNet进行简单的数据探测分析

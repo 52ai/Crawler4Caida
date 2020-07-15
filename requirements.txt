@@ -35,3 +35,6 @@ xlrd~=1.2.0
 xlwt~=1.3.0
 xlutils~=2.0.0
 pytesseract~=0.3.4
+torch~=1.2.0+cpu
+networkx~=2.4
+websocket~=0.2.1
