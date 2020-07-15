@@ -2,7 +2,7 @@
 >Repository:Crawler4Caida<br>
 >Author:Wayne Yu<br>
 >Date: 19 Oct 2018<br>
->Description:一个致力于用Python提高部门工作自动化水平的程序库！（包括网络数据爬取、办公自动化、辅助研究等）<br>
+>Description:一个致力于用Python提高部门工作自动化水平的程序库！（包括数据采集、办公自动化、辅助研究、图网络、复杂系统、3D可视化等）<br>
 >
 
 一个关于CAIDA网络研究数据爬取的爬虫程序库，包括全球AS、DNS、IPV4/IPV6等。--2018.10.19 By Wayne Yu<br>
@@ -41,7 +41,11 @@ CAIDA（the Center for Applied Internet Data Analysis），中文全称为互联
 3）improve the integrity of the field of Internet science,
 4）inform science, technology, and communications public policies.
 ```
-About CAIDA还有[Annual Report](http://www.caida.org/home/about/annualreports/)、[Program Plan](http://www.caida.org/home/about/progplan/)、[Institutional Review Board（IRB）Approval Process](http://www.caida.org/home/about/irb/) 、[About CAIDA Staff](http://www.caida.org/home/staff/)。
+About CAIDA还有:<br>
+[Annual Report](http://www.caida.org/home/about/annualreports/)、<br>
+[Program Plan](http://www.caida.org/home/about/progplan/)、<br>
+[Institutional Review Board（IRB）Approval Process](http://www.caida.org/home/about/irb/) 、<br>
+[About CAIDA Staff](http://www.caida.org/home/staff/)。<br>
 ## 为什么要建Crawler4Caida开源库
 
 因部门工作内容需要，在研究的过程中会用到CAIDA数据中心中的网络数据，并对其进行一定的处理分析，按需求提取结果。在编写爬虫的过程中发现，虽然每次具体的需求不一，但是抓取数据的思路大同小异。<br>
