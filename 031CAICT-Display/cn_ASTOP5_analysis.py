@@ -124,6 +124,17 @@ def as_rel_anlysis(as_number_list, as_rel_file):
     return as_rel_dict
 
 
+def print_as_set(as_set, as_info_dict):
+    """
+    根据传入的as_set,结合as_info_dict,按特定格式输出
+    若为空集，则还需要进行进行异常处理
+    :param as_set:
+    :param as_info_dict:
+    :return:
+    """
+    pass
+
+
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     # as_list = ["4809", "4134", "132203", "45102", "24429"]
