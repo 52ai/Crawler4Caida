@@ -38,3 +38,6 @@ pytesseract~=0.3.4
 torch~=1.2.0+cpu
 networkx~=2.4
 websocket~=0.2.1
+opencv-python~=4.3.0.36
+wxPython~=4.1.0
+pynput~=1.6.8
