@@ -11,11 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/gesture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/virtual_mouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/data/hand_haar_cascade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/hand_gesture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/hand_haar_cascade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/installation_guide_for pycharm or ubuntu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/sudo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/Hand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/handy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/sample.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/047GR4Aslay/aipbodyanalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/047GR4Aslay/aipbodyanalysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/031CAICT-Display/cn_ASTOP5_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/cn_ASTOP5_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +66,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/000LocalData/as_relationships/serial-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/047GR4Aslay" />
     <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\047GR4Aslay" />
+      <recent name="C:\Python37\Lib\site-packages" />
+      <recent name="D:\Code\Crawler4Caida\047GR4Aslay\handy" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
@@ -60,15 +84,8 @@
       <recent name="D:\Code\Crawler4Caida\038OPNet" />
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\000LocalData\as_relationships\serial-1" />
-      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
-      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
-      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit" />
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.gesture">
+  <component name="RunManager" selected="Python.cn_ASTOP5_analysis">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,48 +101,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-    </configuration>
-    <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aipbodyanalysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/aipbodyanalysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="cn_ASTOP5_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
@@ -148,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gesture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hand_gesture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/gesture.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/hand_gesture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="virtual_mouse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +152,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/virtual_mouse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sudo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/sudo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/047GR4Aslay/handy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/047GR4Aslay/handy/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +208,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ASlay_plus_Mayavi" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.hand_gesture" />
+      <item itemvalue="Python.sudo" />
+      <item itemvalue="Python.screenshot" />
       <item itemvalue="Python.cn_ASTOP5_analysis" />
-      <item itemvalue="Python.aipbodyanalysis" />
-      <item itemvalue="Python.virtual_mouse" />
-      <item itemvalue="Python.gesture" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gesture" />
-        <item itemvalue="Python.virtual_mouse" />
-        <item itemvalue="Python.aipbodyanalysis" />
-        <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.cn_ASTOP5_analysis" />
+        <item itemvalue="Python.sudo" />
+        <item itemvalue="Python.screenshot" />
+        <item itemvalue="Python.hand_gesture" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -244,30 +261,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="203" key="GridCell.Tab.0.bottom" timestamp="1594894968140">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1059" height="730" key="GridCell.Tab.0.bottom" timestamp="1595167038738">
+      <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1899" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594894968140" />
+    <state width="1059" height="730" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
+    <state width="1899" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
     <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
-    <state width="1899" height="203" key="GridCell.Tab.0.center" timestamp="1594894968139">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
+    <state width="1059" height="730" key="GridCell.Tab.0.center" timestamp="1595167038738">
+      <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1899" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594894968139" />
+    <state width="1059" height="730" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
+    <state width="1899" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
     <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
-    <state width="1899" height="203" key="GridCell.Tab.0.left" timestamp="1594894968139">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
+    <state width="1059" height="730" key="GridCell.Tab.0.left" timestamp="1595167038738">
+      <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1899" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594894968139" />
+    <state width="1059" height="730" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
+    <state width="1899" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
     <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417304" />
-    <state width="1899" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
-    <state width="1899" height="203" key="GridCell.Tab.0.right" timestamp="1594894968139">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
+    <state width="1059" height="730" key="GridCell.Tab.0.right" timestamp="1595167038738">
+      <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state width="1899" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594894968139" />
+    <state width="1059" height="730" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
+    <state width="1899" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
     <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594653480551" />
+    <state width="1899" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
     <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1594893693635">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
