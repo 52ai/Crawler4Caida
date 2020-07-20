@@ -11,26 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/data/hand_haar_cascade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/hand_gesture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/hand_haar_cascade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/Hand_Gesture_Recognition-master/installation_guide_for pycharm or ubuntu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/screenshots/screenshot_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/hand-gesture-recognition-master/sudo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/Hand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/handy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/sample.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/047GR4Aslay/handy/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/031CAICT-Display/cn_ASTOP5_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/031CAICT-Display/cn_ASTOP5_analysis.py" afterDir="false" />
     </list>
@@ -261,32 +241,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1059" height="730" key="GridCell.Tab.0.bottom" timestamp="1595167038738">
-      <screen x="-1080" y="0" width="1080" height="1880" />
+    <state width="1899" height="114" key="GridCell.Tab.0.bottom" timestamp="1595212467039">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1059" height="730" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
-    <state width="1899" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
+    <state width="1059" height="730" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
+    <state width="1899" height="114" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1595212467039" />
     <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
     <state width="1899" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
-    <state width="1059" height="730" key="GridCell.Tab.0.center" timestamp="1595167038738">
-      <screen x="-1080" y="0" width="1080" height="1880" />
+    <state width="1899" height="114" key="GridCell.Tab.0.center" timestamp="1595212467038">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1059" height="730" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
-    <state width="1899" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
+    <state width="1059" height="730" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
+    <state width="1899" height="114" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1595212467038" />
     <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
     <state width="1899" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
-    <state width="1059" height="730" key="GridCell.Tab.0.left" timestamp="1595167038738">
-      <screen x="-1080" y="0" width="1080" height="1880" />
+    <state width="1899" height="114" key="GridCell.Tab.0.left" timestamp="1595212467038">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1059" height="730" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
-    <state width="1899" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
+    <state width="1059" height="730" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
+    <state width="1899" height="114" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1595212467038" />
     <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417304" />
     <state width="1899" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
-    <state width="1059" height="730" key="GridCell.Tab.0.right" timestamp="1595167038738">
-      <screen x="-1080" y="0" width="1080" height="1880" />
+    <state width="1899" height="114" key="GridCell.Tab.0.right" timestamp="1595212467039">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1059" height="730" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595167038738" />
-    <state width="1899" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1594895163121" />
+    <state width="1059" height="730" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
+    <state width="1899" height="114" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1595212467039" />
     <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
     <state width="1899" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594906370834" />
     <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1594893693635">

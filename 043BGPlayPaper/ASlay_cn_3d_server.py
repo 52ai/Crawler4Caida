@@ -287,7 +287,7 @@ def aslay(
         # 优化抖动的限度（大网大抖动，小网小抖动，研究表明）
         estimated_optimal_jitter_tolerance = .05 * sqrt(len(nodes))
         min_jt = sqrt(estimated_optimal_jitter_tolerance)
-        max_jt = 10
+        max_jt = 10.0
         jt = jitter_tolerance * max(min_jt, min(max_jt, estimated_optimal_jitter_tolerance * total_effective_traction /
                                                 (len(nodes) * len(nodes))))
 
