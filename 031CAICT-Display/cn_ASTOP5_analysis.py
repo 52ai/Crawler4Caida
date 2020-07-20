@@ -124,12 +124,27 @@ def as_rel_anlysis(as_number_list, as_rel_file):
     return as_rel_dict
 
 
-def print_as_set(as_set, as_info_dict):
+def gain_as_core_map_dict(as_core_map_file):
+    """
+    根据AS Core Map File获取每个AS号的信息
+    :param as_core_map_file:
+    :return as_core_map_dict:
+    """
+    as_core_map_dict = {}
+    file_read = open(as_core_map_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split('|')
+        as_core_map_dict[line[0]] = line[1:]
+    return as_core_map_dict
+
+
+def print_as_set(as_set, as_info_dict, as_core_map_dict):
     """
     根据传入的as_set,结合as_info_dict,按特定格式输出
     若为空集，则还需要进行进行异常处理
     :param as_set:
     :param as_info_dict:
+    :param as_core_map_dict:
     :return:
     """
     # pass
@@ -137,21 +152,35 @@ def print_as_set(as_set, as_info_dict):
     if len(as_set) == 0:
         print("None")
     else:
+        main_isp_cnt = 0
         for item in as_set:
             try:
-                print(item, ":", as_info_dict[item])
+                if int(as_core_map_dict[item][2]) > 3:
+                    tye_flag = "ISP"
+                    main_isp_cnt += 1
+                else:
+                    tye_flag = "Not-ISP(Possible)"
+                print(item, ":", as_info_dict[item], tye_flag)
             except Exception as e:
                 print(item, ":[暂无记录]")
+        print("\nISP Count:", main_isp_cnt)
+        print("Not-ISP(Possible) Count:", len(as_set) - main_isp_cnt)
+        print("- - -  - - - - - - - - - - - - - - - - - - - -")
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     # as_list = ["4809", "4134", "132203", "45102", "24429"]
     # as_list = ["4809", "4134", "4837", "9929", "9808"]
-    as_list = ["4809", "4837"]
+    as_list = ["4809", "4134"]
     my_as_rel_file = "../000LocalData/as_relationships/serial-1/20200701.as-rel.txt"
     my_as_info_file = "../000LocalData/as_Gao/asn_info.txt"
     my_country_map_cn = "../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv"
+    my_as_core_map_file = "../000LocalData/as_map/as_core_map_data_new20200701.csv"
+
+    my_as_core_map_dict = gain_as_core_map_dict(my_as_core_map_file)
+    # print(my_as_core_map_dict)
+
     my_as_info_dict = as_info_anlysis(my_as_info_file, my_country_map_cn)
     my_as_rel_dict = as_rel_anlysis(as_list, my_as_rel_file)
     # print(len(my_as_rel_dict["4809"][0]), len(my_as_rel_dict["4809"][1]), len(my_as_rel_dict["4809"][2]))
@@ -160,7 +189,7 @@ if __name__ == "__main__":
     print("TOP AS Group:", as_list)
     for i in range(0, len(as_list)):
         for j in range(i+1, len(as_list)):
-            print("- - - - - -  - - - - - - - -")
+            print("= = =  = = = = = = = = = = = = = = = = = = = = = = = = = =")
             print("AS%s VS AS%s" % (as_list[i], as_list[j]))
             as_i_peer = len(my_as_rel_dict[as_list[i]][0])
             as_i_customer = len(my_as_rel_dict[as_list[i]][1])
@@ -180,6 +209,7 @@ if __name__ == "__main__":
 
             print("AS%s Info:%s" % (as_list[i], my_as_info_dict[as_list[i]]))
             print("AS%s Info:%s" % (as_list[j], my_as_info_dict[as_list[j]]))
+            print("= = =  = = = = = = = = = = = = = = = = = = = = = = = = = =")
 
             print("\n互联关系数量对比")
             print("All Count:", len(as_i_set), "VS", len(as_j_set))
@@ -188,71 +218,73 @@ if __name__ == "__main__":
             print("Transit Provider AS Count:", as_i_provider, "VS", as_j_provider)
             # print(as_i_set)
             # print(as_j_set)
+            print("= = =  = = = = = = = = = = = = = = = = = = = = = = = = = =")
+
 
             print("\n所有互联AS列表集合运算")
             intersection_as_list = as_i_set.intersection(as_j_set)
-            print("All-Intersection AS List(%s):" % (len(intersection_as_list)))
+            print("\nAll-Intersection AS List(%s):" % (len(intersection_as_list)))
             # print(intersection_as_list)
-            print_as_set(intersection_as_list, my_as_info_dict)
+            print_as_set(intersection_as_list, my_as_info_dict, my_as_core_map_dict)
 
             left_difference_as_list = as_i_set.difference(as_j_set)
-            print("All-Left Difference AS List(%s):" % (len(left_difference_as_list)))
+            print("\nAll-Left Difference AS List(%s):" % (len(left_difference_as_list)))
             # print(left_difference_as_list)
-            print_as_set(left_difference_as_list, my_as_info_dict)
+            print_as_set(left_difference_as_list, my_as_info_dict, my_as_core_map_dict)
 
             right_difference_as_list = as_j_set.difference(as_i_set)
-            print("All-Right Difference AS List(%s):" % (len(right_difference_as_list)))
+            print("\nAll-Right Difference AS List(%s):" % (len(right_difference_as_list)))
             # print(right_difference_as_list)
-            print_as_set(right_difference_as_list, my_as_info_dict)
+            print_as_set(right_difference_as_list, my_as_info_dict, my_as_core_map_dict)
 
             print("\n对等AS列表集合运算")
             as_i_set_peer = set(my_as_rel_dict[as_list[i]][0])
             as_j_set_peer = set(my_as_rel_dict[as_list[j]][0])
 
             intersection_as_list_peer = as_i_set_peer.intersection(as_j_set_peer)
-            print("Peer-Intersection AS List(%s):" % (len(intersection_as_list_peer)))
+            print("\nPeer-Intersection AS List(%s):" % (len(intersection_as_list_peer)))
             # print(intersection_as_list_peer)
-            print_as_set(intersection_as_list_peer, my_as_info_dict)
+            print_as_set(intersection_as_list_peer, my_as_info_dict, my_as_core_map_dict)
 
             left_difference_as_list_peer = as_i_set_peer.difference(as_j_set_peer)
-            print("Peer-Left Difference AS List(%s):" % (len(left_difference_as_list_peer)))
-            print_as_set(left_difference_as_list_peer, my_as_info_dict)
+            print("\nPeer-Left Difference AS List(%s):" % (len(left_difference_as_list_peer)))
+            print_as_set(left_difference_as_list_peer, my_as_info_dict, my_as_core_map_dict)
 
             right_difference_as_list_peer = as_j_set_peer.difference(as_i_set_peer)
-            print("Peer-Right Difference AS List(%s):" % (len(right_difference_as_list_peer)))
-            print_as_set(right_difference_as_list_peer, my_as_info_dict)
+            print("\nPeer-Right Difference AS List(%s):" % (len(right_difference_as_list_peer)))
+            print_as_set(right_difference_as_list_peer, my_as_info_dict, my_as_core_map_dict)
 
             print("\n客户AS列表集合运算")
             as_i_set_customer = set(my_as_rel_dict[as_list[i]][1])
             as_j_set_customer = set(my_as_rel_dict[as_list[j]][1])
 
             intersection_as_list_customer = as_i_set_customer.intersection(as_j_set_customer)
-            print("Customer-Intersection AS List(%s):" % (len(intersection_as_list_customer)))
-            print_as_set(intersection_as_list_customer, my_as_info_dict)
+            print("\nCustomer-Intersection AS List(%s):" % (len(intersection_as_list_customer)))
+            print_as_set(intersection_as_list_customer, my_as_info_dict, my_as_core_map_dict)
 
             left_difference_as_list_customer = as_i_set_customer.difference(as_j_set_customer)
-            print("Customer-Left Difference AS List(%s):" % (len(left_difference_as_list_customer)))
-            print_as_set(left_difference_as_list_customer, my_as_info_dict)
+            print("\nCustomer-Left Difference AS List(%s):" % (len(left_difference_as_list_customer)))
+            print_as_set(left_difference_as_list_customer, my_as_info_dict, my_as_core_map_dict)
 
             right_difference_as_list_customer = as_j_set_customer.difference(as_i_set_customer)
-            print("Customer-Right Difference AS List(%s):" % (len(right_difference_as_list_customer)))
-            print_as_set(right_difference_as_list_customer, my_as_info_dict)
+            print("\nCustomer-Right Difference AS List(%s):" % (len(right_difference_as_list_customer)))
+            print_as_set(right_difference_as_list_customer, my_as_info_dict, my_as_core_map_dict)
 
             print("\n提供商AS列表集合运算")
             as_i_set_provider = set(my_as_rel_dict[as_list[i]][2])
             as_j_set_provider = set(my_as_rel_dict[as_list[j]][2])
 
             intersection_as_list_provider = as_i_set_provider.intersection(as_j_set_provider)
-            print("Provider-Intersection AS List(%s):" % (len(intersection_as_list_provider)))
-            print_as_set(intersection_as_list_provider, my_as_info_dict)
+            print("\nProvider-Intersection AS List(%s):" % (len(intersection_as_list_provider)))
+            print_as_set(intersection_as_list_provider, my_as_info_dict, my_as_core_map_dict)
 
             left_difference_as_list_provider = as_i_set_provider.difference(as_j_set_provider)
-            print("Provider-Left Difference AS List(%s):" % (len(left_difference_as_list_provider)))
-            print_as_set(left_difference_as_list_provider, my_as_info_dict)
+            print("\nProvider-Left Difference AS List(%s):" % (len(left_difference_as_list_provider)))
+            print_as_set(left_difference_as_list_provider, my_as_info_dict, my_as_core_map_dict)
 
             right_difference_as_list_provider = as_j_set_provider.difference(as_i_set_provider)
-            print("Provider-Right Difference AS List(%s):" % (len(right_difference_as_list_provider)))
-            print_as_set(right_difference_as_list_provider, my_as_info_dict)
+            print("\nProvider-Right Difference AS List(%s):" % (len(right_difference_as_list_provider)))
+            print_as_set(right_difference_as_list_provider, my_as_info_dict, my_as_core_map_dict)
 
     time_end = time.time()  # 记录结束的时间
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
