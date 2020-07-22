@@ -198,7 +198,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     # as_list = ["4809", "4134", "132203", "45102", "24429"]
     # as_list = ["4809", "4134", "4837", "9929", "9808"]
-    as_list = ["4809", "4134", "701", "6939", "174", "3356"]
+    as_list = ["4809", "4134", "701", "6939", "174", "3356", "15169"]
     my_as_rel_file = "../000LocalData/as_relationships/serial-1/20200701.as-rel.txt"
     my_as_info_file = "../000LocalData/as_Gao/asn_info.txt"
     my_country_map_cn = "../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv"
@@ -322,3 +322,4 @@ if __name__ == "__main__":
 
     time_end = time.time()  # 记录结束的时间
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
+
