@@ -5,6 +5,7 @@ Function:
 
 Using the RIS Live WebSocket interface
 
+Require 'websocket-client'
 
 """
 import json

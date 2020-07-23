@@ -55,6 +55,7 @@ def gain_rrc_update(aim_rrc, time_interval):
         # print(parsed["type"], parsed["data"])
         timestamp = parsed["data"]["timestamp"]
         if parsed["data"]["type"] == "UPDATE":
+            print(parsed["data"])
             message_update_cnt += 1
             if "withdrawals" in parsed["data"].keys():
                 # print("withdraw")
@@ -67,7 +68,7 @@ def gain_rrc_update(aim_rrc, time_interval):
                 for item in parsed["data"]["announcements"]:
                     for prefix_item in item['prefixes']:
                         message_info_announcement.append([timestamp, prefix_item, as_path])
-                        print([timestamp, prefix_item, as_path])
+                        # print([timestamp, prefix_item, as_path])
         else:
             pass
         time_now = time.time()
@@ -81,6 +82,6 @@ def gain_rrc_update(aim_rrc, time_interval):
 
 
 if __name__ == "__main__":
-    aim_rrc = ""  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
-    time_interval = 30  # 设置抓取的时间
+    aim_rrc = "rrc00"  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
+    time_interval = 60  # 设置抓取的时间
     gain_rrc_update(aim_rrc, time_interval)
