@@ -62,5 +62,5 @@ def animate_network(i):
 
 
 ani = animation.FuncAnimation(fig=fig, func=animate_network, frames=30, init_func=init_network, interval=100, blit=False, )
-ani.save('../000LocalData/networkx_graph/basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+# ani.save('../000LocalData/networkx_graph/basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 plt.show()
