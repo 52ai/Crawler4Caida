@@ -13,7 +13,7 @@ CN网络选择三家主要网络作为实验对象
 3）中国移动，58453(移动国际公司)
 
 U网络选择为
-Verizon，701、702、703
+Verizon，701、702、703、2828、11486、23148、7046、15133、14551
 HE，6939
 NTT-US，2914
 TATA-US，6453
@@ -126,8 +126,13 @@ def reach_analysis(cn_as, us_as, five_as):
     print("CN网络到全球可达性(r0):", len(reach_as)/len(set(global_as)))
 
     print("=>全球互联网网络拓扑图（剔除U-AS-Group）")
+    print("输入剔除的网络个数:", len(us_as))
+    remove_cnt = 0  # 记录剔除的网络个数
     for as_item in us_as:
-        global_as_graph.remove_node(as_item)
+        if as_item in global_as_graph.nodes():
+            global_as_graph.remove_node(as_item)
+            remove_cnt += 1
+    print("实际剔除的网络个数:", remove_cnt)
 
     print("拓扑图节点数量:", global_as_graph.number_of_nodes())
     print("拓扑图连边数量:", global_as_graph.number_of_edges())
@@ -149,7 +154,11 @@ def reach_analysis(cn_as, us_as, five_as):
 
     print("=>全球互联网网络拓扑图（剔除Five-AS-Group）")
     for as_item in five_as:
-        global_as_graph.remove_node(as_item)
+        if as_item in global_as_graph.nodes():
+            global_as_graph.remove_node(as_item)
+            remove_cnt += 1
+    print("输入剔除的网络个数:", (len(us_as)+len(five_as)))
+    print("累计剔除的网络个数:", remove_cnt)
 
     print("拓扑图节点数量:", global_as_graph.number_of_nodes())
     print("拓扑图连边数量:", global_as_graph.number_of_edges())
