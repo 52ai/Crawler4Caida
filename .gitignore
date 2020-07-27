@@ -1,4 +1,5 @@
 # can ignore all directories and files in a directory
 000LocalData/*
 013Countries_ASNs/data/*
+.idea/workspace.xml
 
