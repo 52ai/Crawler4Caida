@@ -29,6 +29,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 地图基础课题第一篇论文已于20200616被录用（SCI），近期开始处理地图基础课题第二篇论文输出任务。---20200619 By Wayne YU<br>
 前两天小A的Win10彻底崩了，索性重装，所有环境重配。这是重装后的第一次Git！---20200713 By Wenyan YU<br>
 在云端的人工智能可以有无限可能！---20200716 By Wenyan YU<br>
+科学研究和实际应用总会有一定差距，要学会如何去平衡二者。---20200727 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
@@ -37,10 +38,10 @@ CAIDA（the Center for Applied Internet Data Analysis），中文全称为互联
 
 **CAIDA的使命**<br>
 ```
-1）provide macroscopic insights into Internet infrastructure, behavior, usage, and evolution,
-2）foster a collaborative environment in which data can be acquired, analyzed, and (as appropriate) shared,
-3）improve the integrity of the field of Internet science,
-4）inform science, technology, and communications public policies.
+1）为全球互联网基础设施、行为、使用和演化提供宏观视角，
+2）建立一个可以获取、分析以及共享数据的写作平台，
+3）提高互联网科学的整体性，
+4）为科学、技术以及通信公共政策提供信息。
 ```
 About CAIDA还有:<br>
 [Annual Report](http://www.caida.org/home/about/annualreports/)、<br>
