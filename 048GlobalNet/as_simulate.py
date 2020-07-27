@@ -5,14 +5,14 @@ Email: ieeflsyu@outlook.com
 
 Function:
 互联网之所以能发展到今天这个规模，正是因为它的开放和自由（OPEN&FREE）
-该程序仅从学术研究的角度来讨论，US和FiveEye网络对CN网络全球可达性的影响
+该程序仅从学术研究的角度来讨论，U和Five网络对CN网络全球可达性的影响
 CN网络选择三家主要网络作为实验对象
 
 1）中国电信，4134（163网）、4809（CN2网）
 2）中国联通，4837（169网）、9929（IP承载A网）
 3）中国移动，58453(移动国际公司)
 
-US网络选择为
+U网络选择为
 Verizon，701、702、703
 HE，6939
 NTT-US，2914
@@ -26,7 +26,7 @@ Zayo，6461
 CenturyLink，209
 PCCW-GlOBAL，3491
 
-FiveEye网络选择为
+Five网络选择为
 UK-Vodafone，1273、9500
 UK-British Telecommunications，5400
 AU-Telstra，4637
@@ -125,7 +125,7 @@ def reach_analysis(cn_as, us_as, five_as):
     print("CN网络到全球不可达AS的数量：", len(not_reach_as))
     print("CN网络到全球可达性(r0):", len(reach_as)/len(set(global_as)))
 
-    print("=>全球互联网网络拓扑图（剔除US-AS-Group）")
+    print("=>全球互联网网络拓扑图（剔除U-AS-Group）")
     for as_item in us_as:
         global_as_graph.remove_node(as_item)
 
@@ -147,7 +147,7 @@ def reach_analysis(cn_as, us_as, five_as):
     print("CN网络到全球不可达AS的数量：", len(not_reach_as))
     print("CN网络到全球可达性(r1):", len(reach_as)/len(set(global_as)))
 
-    print("=>全球互联网网络拓扑图（剔除FiveEye-AS-Group）")
+    print("=>全球互联网网络拓扑图（剔除Five-AS-Group）")
     for as_item in five_as:
         global_as_graph.remove_node(as_item)
 
