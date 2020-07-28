@@ -1,11 +1,13 @@
 # coding:utf-8
 """
-Create on June 17, 2020 By Wayne YU. Using Python 3.7
+Create on July 28, 2020 By Wayne YU. Using Python 3.7
 Email: ieeflsyu@outlook.com
 
 Function:
-新版的重点网络界面需要重新梳理一些数据，这部分数据注重现状
-主要包括ASN，排名，国别及其网络的IP规模
+
+V2:
+在第一个版本的基础上，新增高总数据的版本，仅有AS号和汉化的国家
+
 """
 
 import time
@@ -51,27 +53,12 @@ def extract_info():
     result_list = []  # 存储所需的信息
     as_list = []  # 存取AS全部的原始信息
     as2country_cn = gain_country_info()
-    file_in = "../000LocalData/as_map/as_core_map_data_new20200701.csv"
+    file_in = "../000LocalData/as_Gao/asn_info.txt"
     file_in_read = open(file_in, 'r', encoding='utf-8')
     for line in file_in_read.readlines():
-        line = line.strip().split("|")
-        print(line)
-        as_list.append(line)
-    as_list.sort(reverse=True, key=lambda elem: int(elem[1]))  # 降序排列
-    for i in range(0, len(as_list)):
-        as_name = as_list[i][5]
-        as_org = as_list[i][6]
-        if not as_name:
-            as_org = "/"
-        if not as_name:
-            as_name = "/"
-        result_list.append([i+1, as_list[i][0],
-                            as_name,
-                            as_org,
-                            as2country_cn[as_list[i][8]].strip("\""),
-                            as_list[i][1]])
-        # print(result_list[i])
-    save_path = "../000LocalData/caict_display/as_info_format.csv"
+        line = line.strip().split("\t")
+        print(line[1].split(","))
+    save_path = "../000LocalData/caict_display/as_info_format_Gao.csv"
     write_to_csv(result_list, save_path)
 
 

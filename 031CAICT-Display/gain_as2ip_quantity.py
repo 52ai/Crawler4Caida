@@ -56,7 +56,7 @@ def gain_as2ip_quantity():
     :return:
     """
     as2ip_quantity = []  # 存储AS号，v4地址数量，v6地址数量（/64）
-    as2ip_file = "..\\000LocalData\\as_Gao\\asn2ip.txt"
+    as2ip_file = "..\\000LocalData\\as_Gao\\asn2ip20200728.txt"
     as2ip_file_read = open(as2ip_file, 'r')
     line_cnt = 0
     for line in as2ip_file_read.readlines():
