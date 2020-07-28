@@ -43,14 +43,54 @@ def write_to_csv(res_list, des_path):
     print("write finish!")
 
 
+def gain_country_info():
+    """
+    根据国家的缩写，翻译为中文
+    :return country_info_dict:
+    """
+    geo_file = '../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv'
+    country_info_dict = {}
+    file_read = open(geo_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(',')
+        # print(line)
+        country_info_dict[line[4]] = line[5]
+    return country_info_dict
+
+
+def extract_as_info():
+    """
+    根据asn_info文件，提取as info 信息
+    :return:
+    """
+    as2country_cn = gain_country_info()
+    # file_in = "../000LocalData/as_map/as_core_map_data_new20200701.csv"
+    # file_in_read = open(file_in, 'r', encoding='utf-8')
+    # as2country_dict = {}  # 存储as号和国家对应关系的字典
+    # for line in file_in_read.readlines():
+    #     line = line.strip().split("|")
+    #     # print(as2country_cn[line[1].split(",")[-1].strip()])
+    #     as2country_dict[line[0]] = as2country_cn[line[8]].strip("\"")
+    file_in = "../000LocalData/as_Gao/asn_info.txt"
+    file_in_read = open(file_in, 'r', encoding='utf-8')
+    as2country_dict = {}  # 存储as号和国家对应关系的字典
+    for line in file_in_read.readlines():
+        line = line.strip().split("\t")
+        # print(as2country_cn[line[1].split(",")[-1].strip()])
+        as2country_dict[line[0]] = as2country_cn[line[1].split(",")[-1].strip()].strip("\"")
+    return as2country_dict
+
+
 def gain_as_ip_num(as_list):
     """
     根据传入的as_list，以as2ip_quantity_plus.csv作为输入，统计总的ip量
     :param as_list:
     :return global_ip_num:
     :return global_ip_prefix:
-    :return has_info_cnt:
+    :return has_ip_info_cnt:
+    :return has_country_info)_cnt:
     """
+    as2country_dict = extract_as_info()  # 存储as2country的中文信息
     # print("IP量统计AS计数:", len(as_list))
     global_ip_num, global_ip_prefix = 0, 0
     as2ip_num_dict = {}
@@ -59,13 +99,23 @@ def gain_as_ip_num(as_list):
     for line in file_read.readlines():
         line = line.strip().split(",")
         as2ip_num_dict[line[0].strip("AS")] = [line[1], line[2], line[3], line[4]]
-    has_info_cnt = 0
+    has_ip_info_cnt = 0  # 存储存在IP通告信息统计
+    has_country_info_cnt = 0  # 存储存在国家信息统计
+    rank_country_ip_num_dict = {}  # 存储每个国家通道IP量的统计
     for item_as in as_list:
         if item_as in as2ip_num_dict.keys():
             global_ip_num += int(as2ip_num_dict[item_as][1])
             global_ip_prefix += int(as2ip_num_dict[item_as][0])
-            has_info_cnt += 1
-    return global_ip_num, global_ip_prefix, has_info_cnt
+            has_ip_info_cnt += 1
+            if item_as in as2country_dict.keys():
+                # print(as2country_dict[item_as])
+                if as2country_dict[item_as] in rank_country_ip_num_dict.keys():
+                    rank_country_ip_num_dict[as2country_dict[item_as]] += int(as2ip_num_dict[item_as][1])
+                else:
+                    rank_country_ip_num_dict[as2country_dict[item_as]] = int(as2ip_num_dict[item_as][1])
+                has_country_info_cnt += 1
+    # print(rank_country_ip_num_dict)
+    return global_ip_num, global_ip_prefix, has_ip_info_cnt, has_country_info_cnt, rank_country_ip_num_dict
 
 
 def reach_analysis(cn_as, us_as, five_as):
@@ -127,12 +177,18 @@ def reach_analysis(cn_as, us_as, five_as):
     print("CN网络到全球可达AS的数量：", len(reach_as))
     print("CN网络到全球不可达AS的数量：", len(not_reach_as))
     print("CN网络到全球可达性(r0):", len(reach_as)/len(set(global_as)))
-    global_ip_num, global_ip_prefix, has_info_cnt = gain_as_ip_num(reach_as)
-    print("地址统计has_info校验：", has_info_cnt)
+    global_ip_num, global_ip_prefix, has_ip_info_cnt, has_country_info_cnt, country_ip_dict = gain_as_ip_num(reach_as)
+    cn_ip_num = country_ip_dict["中国（大陆）"]
+    print("地址统计has_info(IP)校验：", has_ip_info_cnt)
+    print("地址统计has_info(Country)校验：", has_country_info_cnt)
     print("CN网络到全球可达前缀数量:", global_ip_prefix)
-    print("CN网络到全球可达IP地址数量规模:", global_ip_num)
+    print("CN网络到全球可达IP地址数量规模:", (global_ip_num-cn_ip_num))
+    original_global_ip_prefix = global_ip_prefix
+    original_global_ip_num = global_ip_num - cn_ip_num  # 中国到全球，应该把中国地址刨去
+    print("CN网络到全球前缀可达性(r0):", global_ip_prefix/original_global_ip_prefix)
+    print("CN网络到全球IPv4地址可达性(r0):", (global_ip_num-cn_ip_num)/original_global_ip_num)
 
-    print("=>全球互联网网络拓扑图（剔除U-AS-Group）")
+    print("\n=>全球互联网网络拓扑图（剔除U-AS-Group）")
     print("输入剔除的网络个数:", len(us_as))
     remove_cnt = 0  # 记录剔除的网络个数
     for as_item in us_as:
@@ -157,12 +213,15 @@ def reach_analysis(cn_as, us_as, five_as):
     print("CN网络到全球可达AS的数量：", len(reach_as))
     print("CN网络到全球不可达AS的数量：", len(not_reach_as))
     print("CN网络到全球可达性(r1):", len(reach_as)/len(set(global_as)))
-    global_ip_num, global_ip_prefix, has_info_cnt = gain_as_ip_num(reach_as)
-    print("地址统计has_info校验：", has_info_cnt)
-    print("CN网络到全球可达前缀数量:", global_ip_prefix)
-    print("CN网络到全球可达IP地址数量规模:", global_ip_num)
+    global_ip_num, global_ip_prefix, has_ip_info_cnt, has_country_info_cnt, country_ip_dict = gain_as_ip_num(reach_as)
+    print("地址统计has_info(IP)校验：", has_ip_info_cnt)
+    print("地址统计has_info(Country)校验：", has_country_info_cnt)
+    # print("CN网络到全球可达前缀数量:", global_ip_prefix)
+    print("CN网络到全球可达IP地址数量规模:", (global_ip_num-cn_ip_num))
+    # print("CN网络到全球前缀可达性(r1):", global_ip_prefix/original_global_ip_prefix)
+    print("CN网络到全球IPv4地址可达性(r1):", (global_ip_num-cn_ip_num)/original_global_ip_num)
 
-    print("=>全球互联网网络拓扑图（剔除Five-AS-Group）")
+    print("\n=>全球互联网网络拓扑图（剔除Five-AS-Group）")
     for as_item in five_as:
         if as_item in global_as_graph.nodes():
             global_as_graph.remove_node(as_item)
@@ -186,10 +245,13 @@ def reach_analysis(cn_as, us_as, five_as):
     print("CN网络到全球可达AS的数量：", len(reach_as))
     print("CN网络到全球不可达AS的数量：", len(not_reach_as))
     print("CN网络到全球可达性(r2):", len(reach_as)/len(set(global_as)))
-    global_ip_num, global_ip_prefix, has_info_cnt = gain_as_ip_num(reach_as)
-    print("地址统计has_info校验：", has_info_cnt)
-    print("CN网络到全球可达前缀数量:", global_ip_prefix)
-    print("CN网络到全球可达IP地址数量规模:", global_ip_num)
+    global_ip_num, global_ip_prefix, has_ip_info_cnt, has_country_info_cnt, country_ip_dict = gain_as_ip_num(reach_as)
+    print("地址统计has_info(IP)校验：", has_ip_info_cnt)
+    print("地址统计has_info(Country)校验：", has_country_info_cnt)
+    # print("CN网络到全球可达前缀数量:", global_ip_prefix)
+    print("CN网络到全球可达IP地址数量规模:", (global_ip_num-cn_ip_num))
+    # print("CN网络到全球前缀可达性(r2):", global_ip_prefix/original_global_ip_prefix)
+    print("CN网络到全球IPv4地址可达性(r2):", (global_ip_num-cn_ip_num)/original_global_ip_num)
 
 
 if __name__ == "__main__":

@@ -51,13 +51,13 @@ def gain_country_info():
 
 def extract_info():
     result_list = []  # 存储所需的信息
-    as_list = []  # 存取AS全部的原始信息
     as2country_cn = gain_country_info()
     file_in = "../000LocalData/as_Gao/asn_info.txt"
     file_in_read = open(file_in, 'r', encoding='utf-8')
     for line in file_in_read.readlines():
         line = line.strip().split("\t")
-        print(line[1].split(","))
+        # print(as2country_cn[line[1].split(",")[-1].strip()])
+        result_list.append([line[0], as2country_cn[line[1].split(",")[-1].strip()].strip("\"")])
     save_path = "../000LocalData/caict_display/as_info_format_Gao.csv"
     write_to_csv(result_list, save_path)
 
