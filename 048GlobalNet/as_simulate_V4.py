@@ -276,21 +276,23 @@ def gain_u_five_as_group():
     print("five_as_group len:", len(five_as_group))
     u_as_group.sort(reverse=True, key=lambda elem: int(elem[3]))
     u_as_group_re = []  # 存储返回的TOP ISP AS列表
-    for item in u_as_group[0:1000]:
+    for item in u_as_group[0:200]:
         u_as_group_re.append(item[0])
-        print(item)
+        # print(item)
 
     five_as_group.sort(reverse=True, key=lambda elem: int(elem[3]))
     five_as_group_re = []  # 存储返回的TOP ISP AS列表
-    for item in five_as_group[0:2000]:
+    for item in five_as_group[0:100]:
         five_as_group_re.append(item[0])
-        print(item)
+        # print(item)
     return u_as_group_re, five_as_group_re
 
 
 if __name__ == "__main__":
     cn_as_group = ["4134", "4809", "4837", "9929", "58453"]
     my_u_as_group, my_five_as_group = gain_u_five_as_group()
+    # print("u_as_group:", my_u_as_group)
+    # print("five_as_group:", my_five_as_group)
     time_start = time.time()  # 记录启动的时间
     reach_analysis(cn_as_group, my_u_as_group, my_five_as_group)
     time_end = time.time()  # 记录结束的时间
