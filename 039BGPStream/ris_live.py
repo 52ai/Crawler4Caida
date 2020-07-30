@@ -29,3 +29,4 @@ ws.send(json.dumps({
 for data in ws:
     parsed = json.loads(data)
     print(parsed["type"], parsed["data"])
+
