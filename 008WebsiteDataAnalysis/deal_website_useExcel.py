@@ -14,7 +14,7 @@ def deal_domain_str(domain):
     遍历self_top_domain，匹配domain，是否存在该顶级域
     如果存在则返回
     :param domain:
-    :return: re_domain
+    :return re_domain:
     """
     re_domain = []
     if domain is None:  # 如果domain 为空，则直接返回空
