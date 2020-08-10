@@ -24,9 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,11 +199,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.as_simulate_V3" />
       <item itemvalue="Python.as_simulate_V4" />
-      <item itemvalue="Python.ris_live" />
-      <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.gain_ip_quantity_radb" />
+      <item itemvalue="Python.ris_live" />
     </list>
     <recent_temporary>
       <list>
