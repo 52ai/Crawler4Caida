@@ -25,9 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/048GlobalNet/chinanet_rib_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/008WebsiteDataAnalysis/deal_website_useExcel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <recent name="D:\Code\Crawler4Caida\034VideoScreen\misaki" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chinanet_rib_analysis">
+  <component name="RunManager" selected="Python.live_data_gain">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,27 +108,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="as_simulate_V4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/048GlobalNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/048GlobalNet/as_simulate_V4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,6 +158,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="live_data_gain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/042CN-BGPMon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ris_live" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,19 +201,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.as_simulate_V4" />
       <item itemvalue="Python.ris_live" />
       <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.gain_ip_quantity_radb" />
       <item itemvalue="Python.chinanet_rib_analysis" />
+      <item itemvalue="Python.live_data_gain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.live_data_gain" />
         <item itemvalue="Python.chinanet_rib_analysis" />
         <item itemvalue="Python.gain_ip_quantity_radb" />
         <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.ris_live" />
-        <item itemvalue="Python.as_simulate_V4" />
       </list>
     </recent_temporary>
   </component>
@@ -258,61 +256,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1597053449202">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="506" key="GridCell.Tab.0.bottom" timestamp="1597126646544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596949616294" />
-    <state width="1899" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597053449202" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620228" />
     <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595487352412" />
-    <state width="1899" height="321" key="GridCell.Tab.0.center" timestamp="1597053449202">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="506" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597126646544" />
+    <state width="1899" height="506" key="GridCell.Tab.0.center" timestamp="1597126646544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="182" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596949616293" />
-    <state width="1899" height="321" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597053449202" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620228" />
     <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="366" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595487352412" />
-    <state width="1899" height="321" key="GridCell.Tab.0.left" timestamp="1597053449202">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="506" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597126646544" />
+    <state width="1899" height="506" key="GridCell.Tab.0.left" timestamp="1597126646544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761683" />
     <state width="1059" height="730" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="182" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596949616292" />
-    <state width="1899" height="321" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597053449202" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620228" />
     <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417304" />
-    <state width="1899" height="366" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595487352411" />
-    <state width="1899" height="321" key="GridCell.Tab.0.right" timestamp="1597053449202">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1899" height="506" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597126646544" />
+    <state width="1899" height="506" key="GridCell.Tab.0.right" timestamp="1597126646544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="182" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596949616294" />
-    <state width="1899" height="321" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597053449202" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620228" />
     <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594638417305" />
-    <state width="1899" height="366" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595487352412" />
-    <state width="1899" height="276" key="GridCell.Tab.1.bottom" timestamp="1597048863168">
+    <state width="1899" height="506" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597126646544" />
+    <state width="1899" height="276" key="GridCell.Tab.1.bottom" timestamp="1597055620217">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597048863168" />
+    <state width="1899" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620217" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619390606" />
-    <state width="1899" height="276" key="GridCell.Tab.1.center" timestamp="1597048863168">
+    <state width="1899" height="276" key="GridCell.Tab.1.center" timestamp="1597055620217">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597048863168" />
+    <state width="1899" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620217" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619390606" />
-    <state width="1899" height="276" key="GridCell.Tab.1.left" timestamp="1597048863168">
+    <state width="1899" height="276" key="GridCell.Tab.1.left" timestamp="1597055620217">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597048863168" />
+    <state width="1899" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620217" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619390606" />
-    <state width="1899" height="276" key="GridCell.Tab.1.right" timestamp="1597048863168">
+    <state width="1899" height="276" key="GridCell.Tab.1.right" timestamp="1597055620217">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597048863168" />
+    <state width="1899" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1597055620217" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619390606" />
     <state x="-1110" y="243" key="RollbackChangesDialog" timestamp="1595485689117">
       <screen x="-1920" y="4" width="1920" height="1040" />
