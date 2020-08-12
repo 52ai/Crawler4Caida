@@ -73,7 +73,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     valid_cnt = 0  # 记录有效记录数
     ip_num_cnt = 0  # 根据前缀统计IP规模，用32减去网络号的长度，大约为2的N次方个地址
     prefix_u_cnt = 0  # 记录最优路由第一跳为U国的前缀数量
-    ip_num_u_cnt = 0  # 记录最优路由第一跳为U过的IP地址数量
+    ip_num_u_cnt = 0  # 记录最优路由第一跳为U国的IP地址数量
     for line in rib_file_read.readlines():
         line = line.strip().split(",")
         line_cnt += 1
