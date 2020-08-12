@@ -6,7 +6,7 @@ Email: ieeflsyu@outlook.com
 Function:
 
 按照Chinanet rib的分析思路，分析Chinaunicom rib
-chinaunicom rib的数据格式相对简单些
+chinaunicom rib的数据格式相对简单些(在实际处理的时候，发现大量的不规范现象)
 
 """
 import time
