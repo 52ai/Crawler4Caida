@@ -104,6 +104,23 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     print("最优路由第一跳为U国的IP地址数量(V4):%s, 占比(%.6f)" % (ip_num_u_cnt, ip_num_u_cnt/ip_num_cnt))
 
 
+def gain_u_as_group():
+    """
+    根据All AS CSV文件，获取u as group
+    :return re_list:
+    """
+    re_list = []  # 存储返回的list
+    all_as_file = "../000LocalData/as_simulate/电信-所有企业.CSV"
+    all_as_file_read = open(all_as_file, 'r')
+    for line in all_as_file_read.readlines():
+        line = line.strip().split(",")
+        as_item = line[-1].strip("AS")
+        # print(as_item)
+        re_list.append(as_item)
+    # print(len(re_list))
+    return re_list
+
+
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # us_as_group = ["9265", "8110", "8109", "8108", "8107", "8106", "7882", "7421", "7308", "7210",
@@ -189,10 +206,13 @@ if __name__ == "__main__":
     #                "12179", "600", "11796", "16905", "14265", "12042", "306"]
     # my_rib_file = "../000LocalData/as_simulate/v4-route.xlsx"
     # convert_excel2csv(my_rib_file)
-    us_as_group = ["3356", "1239", "701", "174", "6939",
-                   "6453", "2914", "6461", "7018", "7922",
-                   "3491", "3549", "2828", "703", "2687",
-                   "6421", "32098", "11164 "]
+    # us_as_group = ["3356", "1239", "701", "174", "6939",
+    #                "6453", "2914", "6461", "7018", "7922",
+    #                "3491", "3549", "2828", "703", "2687",
+    #                "6421", "32098", "11164 "]
+
+    us_as_group = gain_u_as_group()
+    # print(gain_u_as_group())
     my_rib_file = "../000LocalData/as_simulate/v4-route.csv"
     chinanet_rib_analysis(my_rib_file, us_as_group)
     time_end = time.time()  # 记录结束时间

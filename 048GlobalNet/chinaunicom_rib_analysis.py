@@ -69,8 +69,25 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     print("无效记录数:", invalid_cnt)
     print("有效记录数:", valid_cnt)
     print("总的IP规模(v4):", ip_num_cnt)
-    print("最优路由第一跳为U国的前缀数量:%s, 占比(%s)" % (prefix_u_cnt, prefix_u_cnt / valid_cnt))
-    print("最优路由第一跳为U国的IP地址数量(V4):%s, 占比(%s)" % (ip_num_u_cnt, ip_num_u_cnt / ip_num_cnt))
+    print("最优路由第一跳为U国的前缀数量:%s, 占比(%.6f)" % (prefix_u_cnt, prefix_u_cnt / valid_cnt))
+    print("最优路由第一跳为U国的IP地址数量(V4):%s, 占比(%.6f)" % (ip_num_u_cnt, ip_num_u_cnt / ip_num_cnt))
+
+
+def gain_u_as_group():
+    """
+    根据All AS CSV文件，获取u as group
+    :return re_list:
+    """
+    re_list = []  # 存储返回的list
+    all_as_file = "../000LocalData/as_simulate/联通-所有企业.CSV"
+    all_as_file_read = open(all_as_file, 'r')
+    for line in all_as_file_read.readlines():
+        line = line.strip().split(",")
+        as_item = line[-1].strip("AS")
+        # print(as_item)
+        re_list.append(as_item)
+    # print(len(re_list))
+    return re_list
 
 
 if __name__ == "__main__":
@@ -156,9 +173,10 @@ if __name__ == "__main__":
     #                "27552", "19151", "7342", "13876", "22911", "6181", "10912", "19271", "11317", "4181", "36236",
     #                "36086", "5056", "7725",
     #                "12179", "600", "11796", "16905", "14265", "12042", "306"]
-    us_as_group = ["3356", "1239", "701", "174", "6939",
-                   "6453", "2914", "6461", "7018", "7922",
-                   "3491", "3549", "2828", "703"]
+    # us_as_group = ["3356", "1239", "701", "174", "6939",
+    #                "6453", "2914", "6461", "7018", "7922",
+    #                "3491", "3549", "2828", "703"]
+    us_as_group = gain_u_as_group()
     my_rib_file = "../000LocalData/as_simulate/Chinaunicom RIB.txt"
     chinaunicom_rib_analysis(my_rib_file, us_as_group)
     time_end = time.time()  # 记录结束时间
