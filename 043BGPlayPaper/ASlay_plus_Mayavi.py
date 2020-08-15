@@ -92,10 +92,10 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # my_graph_nodes_file = '../000LocalData/BGPlay/as_graph_3d_nodes_copy_8.csv'
     # my_graph_edges_file = '../000LocalData/BGPlay/as_graph_3d_edges_copy_8.csv'
-    my_graph_nodes_file = './as_graph_3d_nodes_7c.csv'
-    my_graph_edges_file = './as_graph_3d_edges_7c.csv'
-    # my_graph_nodes_file = '../000LocalData/BGPlay/as_graph_3d_nodes_all.csv'
-    # my_graph_edges_file = '../000LocalData/BGPlay/as_graph_3d_edges_all.csv'
+    # my_graph_nodes_file = './as_graph_3d_nodes_7c.csv'
+    # my_graph_edges_file = './as_graph_3d_edges_7c.csv'
+    my_graph_nodes_file = '../000LocalData/BGPlay/as_graph_3d_nodes_all.csv'
+    my_graph_edges_file = '../000LocalData/BGPlay/as_graph_3d_edges_all.csv'
     my_graph_nodes, my_graph_edges = read_as_graph(my_graph_nodes_file, my_graph_edges_file)
     mayavi_draw(my_graph_nodes, my_graph_edges)
     time_end = time.time()  # 记录结束时间

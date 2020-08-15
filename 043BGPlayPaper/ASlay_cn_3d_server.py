@@ -394,7 +394,7 @@ def generating_graph(country_as_dict, as_links):
                                 weight=0.4)
         color_cnt += 1
     as_graph.add_edges_from(as_links)
-    # print(networkx.get_node_attributes(as_graph, 'color'))
+    print(networkx.get_node_attributes(as_graph, 'color'))
     return as_graph
 
 
