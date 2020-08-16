@@ -71,6 +71,8 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     ip_num_u_cnt_anywhere = 0  # 记录最优路由任意一跳含U过的IP地址数量
     direct_networks_list = []  # 存储该ISP直联网络的列表
     direct_networks_u_list = []  # 存储该ISP直联属于U国的网络列表
+    direct_networks_c_list = []  # 存储该ISP直联属于C国的网络列表
+
     global_reachable_as_list = []  # 存储总的全球可达网络的AS列表
     reachable_as_list_first = []  # 存储第一层次可达的AS列表
     reachable_as_list_second = []  # 存储第二层次可达的AS列表
@@ -95,7 +97,6 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
                 ip_prefix = line[0].strip().split("/")
                 # print(ip_prefix)
                 as_path = line[1].strip().split("   ")[-1].split(" ")
-                # print(as_path[1:])
             except Exception as e:
                 # print(e)
                 pass
@@ -109,9 +110,23 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
             ip_num_cnt += pow(2, (32-net_len))
             first_hop_as = as_path[1]
             last_hop_as = as_path[-1]
+            last_hop_as = last_hop_as.strip("{").strip("}")
+
+            if last_hop_as.find(",") != -1:
+                # print(last_hop_as)
+                last_hop_as = last_hop_as.split(",")[0]
+            if last_hop_as.find(".") != -1:
+                # print(as_path)
+                # print(last_hop_as)
+                left_point = last_hop_as.split(".")[0]
+                right_point = last_hop_as.split(".")[1]
+                last_hop_as = str(int(left_point) * 65536 + int(right_point))
+                # print(last_hop_as)
+
             if first_hop_as in u_as_group:
                 prefix_u_cnt += 1
                 ip_num_u_cnt += pow(2, (32-net_len))
+
             if first_hop_as not in u_as_group:
                 # 如果某AS网有一个前缀可达，则该AS网可达
                 reachable_as_list_first.append(last_hop_as)
@@ -130,6 +145,8 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
                 if as2country[first_hop_as] == "US":
                     # print(as2country[first_hop_as])
                     direct_networks_u_list.append(first_hop_as)  # 存储直联网络为U国的网络
+                elif as2country[first_hop_as] == "CN":
+                    direct_networks_c_list.append(first_hop_as)  # 存储直联网络为C国的网络
             except Exception as e:
                 # print(e)
                 pass
@@ -140,6 +157,7 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
         #     break
     direct_networks_list = list(set(direct_networks_list))
     direct_networks_u_list = list(set(direct_networks_u_list))
+    direct_networks_c_list = list(set(direct_networks_c_list))
 
     global_reachable_as_list = list(set(global_reachable_as_list))
     reachable_as_list_first = list(set(reachable_as_list_first))
@@ -180,6 +198,7 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
 
     print("\n该ISP直联网络的数量:", len(direct_networks_list))
     print("该ISP直联网络中为U国的数量:", len(direct_networks_u_list))
+    print("该ISP直联网络中为C国的数量:", len(direct_networks_c_list))
 
 
 def gain_u_as_group():

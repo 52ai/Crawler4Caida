@@ -109,6 +109,8 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     ip_num_u_cnt_anywhere = 0  # 记录最优路由任意一跳含U过的IP地址数量
     direct_networks_list = []  # 存储该ISP直联网络的列表
     direct_networks_u_list = []  # 存储该ISP直联属于U国的网络列表
+    direct_networks_c_list = []  # 存储该ISP直联属于C国的网络列表
+
     global_reachable_as_list = []  # 存储总的全球可达网络的AS列表
     reachable_as_list_first = []  # 存储第一层次可达的AS列表
     reachable_as_list_second = []  # 存储第二层次可达的AS列表
@@ -156,6 +158,8 @@ def chinanet_rib_analysis(rib_file, u_as_group):
             if as2country[first_hop_as] == "US":
                 # print(as2country[first_hop_as])
                 direct_networks_u_list.append(first_hop_as)  # 存储直联网络为U国的网络
+            elif as2country[first_hop_as] == "CN":
+                direct_networks_c_list.append(first_hop_as)  # 存储直联网络为C国的网络
         except Exception as e:
             # print(e)
             pass
@@ -164,6 +168,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     # print(len(direct_networks_u_list))
     direct_networks_list = list(set(direct_networks_list))
     direct_networks_u_list = list(set(direct_networks_u_list))
+    direct_networks_c_list = list(set(direct_networks_c_list))
 
     global_reachable_as_list = list(set(global_reachable_as_list))
     reachable_as_list_first = list(set(reachable_as_list_first))
@@ -204,6 +209,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
 
     print("\n该ISP直联网络的数量:", len(direct_networks_list))
     print("该ISP直联网络中为U国的数量:", len(direct_networks_u_list))
+    print("该ISP直联网络中为C国的数量:", len(direct_networks_c_list))
 
 
 def gain_u_as_group():

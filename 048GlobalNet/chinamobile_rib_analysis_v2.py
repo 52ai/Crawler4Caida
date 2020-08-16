@@ -45,9 +45,12 @@ def extract_as_info():
     file_in = "../000LocalData/as_Gao/asn_info.txt"
     file_in_read = open(file_in, 'r', encoding='utf-8')
     as2country_dict = {}  # 存储as号和国家对应关系的字典
+    country_list = []
     for line in file_in_read.readlines():
         line = line.strip().split("\t")
         as2country_dict[line[0]] = line[1].split(",")[-1].strip()
+        country_list.append(line[1].split(",")[-1].strip())
+    print(len(list(set(country_list))))
     return as2country_dict
 
 
@@ -71,6 +74,7 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
     ip_num_u_cnt_anywhere = 0  # 记录最优路由任意一跳含U过的IP地址数量
     direct_networks_list = []  # 存储该ISP直联网络的列表
     direct_networks_u_list = []  # 存储该ISP直联属于U国的网络列表
+    direct_networks_c_list = []  # 存储该ISP直联属于C国的网络列表
     global_reachable_as_list = []  # 存储总的全球可达网络的AS列表
     reachable_as_list_first = []  # 存储第一层次可达的AS列表
     reachable_as_list_second = []  # 存储第二层次可达的AS列表
@@ -115,6 +119,8 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
                 if as2country[first_hop_as] == "US":
                     # print(as2country[first_hop_as])
                     direct_networks_u_list.append(first_hop_as)  # 存储直联网络为U国的网络
+                elif as2country[first_hop_as] == "CN":
+                    direct_networks_c_list.append(first_hop_as)  # 存储直联网络为C国的网络
             except Exception as e:
                 # print(e)
                 pass
@@ -125,6 +131,7 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
 
     direct_networks_list = list(set(direct_networks_list))
     direct_networks_u_list = list(set(direct_networks_u_list))
+    direct_networks_c_list = list(set(direct_networks_c_list))
 
     global_reachable_as_list = list(set(global_reachable_as_list))
     reachable_as_list_first = list(set(reachable_as_list_first))
@@ -146,6 +153,15 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
     save_path = "../000LocalData/as_simulate/可达（移动）_2.txt"
     write_to_csv(temp_list, save_path)
 
+    # 统计可达国家
+    reach_country_list = []
+    for item in global_reachable_as_list:
+        try:
+            reach_country_list.append(as2country[item])
+        except Exception as e:
+            print(e)
+    print(len(list(set(reach_country_list))))
+
     print("RIB文件总的行数:", line_cnt)
     print("无效记录数:", invalid_cnt)
     print("有效记录数:", valid_cnt)
@@ -166,6 +182,7 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
 
     print("\n该ISP直联网络的数量:", len(direct_networks_list))
     print("该ISP直联网络中为U国的数量:", len(direct_networks_u_list))
+    print("该ISP直联网络中为C国的数量:", len(direct_networks_c_list))
 
 
 def gain_u_as_group():
