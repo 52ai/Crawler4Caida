@@ -50,7 +50,7 @@ def extract_as_info():
         line = line.strip().split("\t")
         as2country_dict[line[0]] = line[1].split(",")[-1].strip()
         country_list.append(line[1].split(",")[-1].strip())
-    print(len(list(set(country_list))))
+    # print(len(list(set(country_list))))
     return as2country_dict
 
 
@@ -104,13 +104,26 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
             if first_hop_as not in u_as_group:
                 # 如果某AS网有一个前缀可达，则该AS网可达
                 reachable_as_list_first.append(last_hop_as.strip("{").strip("}"))
-            intersection_hop_set = set(as_path).intersection(set(u_as_group))
+
+            # intersection_hop_set = set(as_path).intersection(set(u_as_group))
+
+            u_flag = 0  # 是否路径是否含U国AS
+            for item in as_path:
+                try:
+                    item = item.strip("{").strip("}")
+                    if as2country[item] == "US":
+                        u_flag = 1
+                        break
+                except Exception as e:
+                    # print(as_path)
+                    pass
+
             # print(intersection_hop_set)
-            if len(intersection_hop_set) != 0:
+            if u_flag == 1:
                 # print(intersection_hop_set)
                 prefix_u_cnt_anywhere += 1
                 ip_num_u_cnt_anywhere += pow(2, (32 - net_len))
-            if len(intersection_hop_set) == 0:
+            if u_flag == 0:
                 # 如果某AS网有一个前缀可达，则该AS网可达
                 reachable_as_list_second.append(last_hop_as.strip("{").strip("}"))
             direct_networks_list.append(first_hop_as)  # 存储直联网络AS
@@ -150,6 +163,12 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
     temp_list.clear()
     for item in reachable_as_list_second:
         temp_list.append([item])
+        try:
+            if as2country[item] == "US":
+                print(item)
+                pass
+        except Exception as e:
+            pass
     save_path = "../000LocalData/as_simulate/可达（移动）_2.txt"
     write_to_csv(temp_list, save_path)
 
@@ -159,8 +178,9 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
         try:
             reach_country_list.append(as2country[item])
         except Exception as e:
-            print(e)
-    print(len(list(set(reach_country_list))))
+            # print(e)
+            pass
+    # print(len(list(set(reach_country_list))))
 
     print("RIB文件总的行数:", line_cnt)
     print("无效记录数:", invalid_cnt)

@@ -80,7 +80,7 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
         line = line.strip()
         line_cnt += 1
         if line.find("/") != -1:
-            line = line.strip("*").strip(">").strip("i").strip("?").strip()
+            line = line.strip("*").strip(">").strip("i").strip("?").strip("e").strip()
             line = line.split(" 219")
             if len(line) == 1:
                 line = line[0].split(" 202")
@@ -130,13 +130,38 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
             if first_hop_as not in u_as_group:
                 # 如果某AS网有一个前缀可达，则该AS网可达
                 reachable_as_list_first.append(last_hop_as)
-            intersection_hop_set = set(as_path).intersection(set(u_as_group))
+
+            # intersection_hop_set = set(as_path).intersection(set(u_as_group))
+
+            u_flag = 0  # 是否路径是否含U国AS
+            for item in as_path[1:]:
+                try:
+                    item = item.strip("{").strip("}")
+                    if item.find(",") != -1:
+                        # print(last_hop_as)
+                        item = item.split(",")[0]
+                    if item.find(".") != -1:
+                        # print(as_path)
+                        left_point = item.split(".")[0]
+                        right_point = item.split(".")[1]
+                        item = str(int(left_point) * 65536 + int(right_point))
+                        # print(item)
+                    if item == "0":
+                        continue
+                    if as2country[item] == "US":
+                        u_flag = 1
+                        break
+                except Exception as e:
+                    print(as_path[1:])
+                    print(item)
+                    pass
+
             # print(intersection_hop_set)
-            if len(intersection_hop_set) != 0:
+            if u_flag == 1:
                 # print(intersection_hop_set)
                 prefix_u_cnt_anywhere += 1
                 ip_num_u_cnt_anywhere += pow(2, (32 - net_len))
-            if len(intersection_hop_set) == 0:
+            if u_flag == 0:
                 # 如果某AS网有一个前缀可达，则该AS网可达
                 reachable_as_list_second.append(last_hop_as)
             direct_networks_list.append(first_hop_as)  # 存储直联网络AS
@@ -176,6 +201,12 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     temp_list.clear()
     for item in reachable_as_list_second:
         temp_list.append([item])
+        try:
+            if as2country[item] == "US":
+                print(item)
+                pass
+        except Exception as e:
+            pass
     save_path = "../000LocalData/as_simulate/可达（联通）_2.txt"
     write_to_csv(temp_list, save_path)
 

@@ -143,13 +143,35 @@ def chinanet_rib_analysis(rib_file, u_as_group):
         if first_hop_as not in u_as_group:
             # 如果某AS网有一个前缀可达，则该AS网可达
             reachable_as_list_first.append(last_hop_as.strip("{").strip("}"))
-        intersection_hop_set = set(as_path_as).intersection(set(u_as_group))
+        # try:
+        #     if as2country[first_hop_as] != "US":
+        #         # 如果某AS网有一个前缀可达，则该AS网可达
+        #         reachable_as_list_first.append(last_hop_as.strip("{").strip("}"))
+        # except Exception as e:
+        #     # print(e)
+        #     pass
+
+        # intersection_hop_set = set(as_path_as).intersection(set(u_as_group))
+
+        # print(as_path_as)
+        u_flag = 0  # 是否路径是否含U国AS
+        for item in as_path_as:
+            try:
+                item = item.strip("{").strip("}")
+                if as2country[item] == "US":
+                    u_flag = 1
+                    break
+            except Exception as e:
+                # print(as_path_as)
+                pass
+
         # print(intersection_hop_set)
-        if len(intersection_hop_set) != 0:
+        if u_flag == 1:
+            # 如果路径含U国AS
             # print(intersection_hop_set)
             prefix_u_cnt_anywhere += 1
             ip_num_u_cnt_anywhere += pow(2, (32-net_len))
-        if len(intersection_hop_set) == 0:
+        if u_flag == 0:
             # 如果某AS网有一个前缀可达，则该AS网可达
             reachable_as_list_second.append(last_hop_as.strip("{").strip("}"))
         direct_networks_list.append(first_hop_as)  # 存储直联网络AS
@@ -182,11 +204,23 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     temp_list.clear()
     for item in reachable_as_list_first:
         temp_list.append([item])
+        try:
+            if as2country[item] == "US":
+                # print(item)
+                pass
+        except Exception as e:
+            pass
     save_path = "../000LocalData/as_simulate/可达（电信）_1.txt"
     write_to_csv(temp_list, save_path)
     temp_list.clear()
     for item in reachable_as_list_second:
         temp_list.append([item])
+        try:
+            if as2country[item] == "US":
+                print(item)
+                pass
+        except Exception as e:
+            pass
     save_path = "../000LocalData/as_simulate/可达（电信）_2.txt"
     write_to_csv(temp_list, save_path)
 
