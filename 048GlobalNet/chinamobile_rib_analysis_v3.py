@@ -4,16 +4,17 @@ create on Aug 18, 2020 By Wenyan YU
 Email: ieeflsyu@outlook.com
 
 Function:
+按照Chinanet rib的分析思路，分析Chinamobile rib
+chinamobile rib的数据是三家里最规范的
 
-按照Chinanet rib的分析思路，分析Chinaunicom rib
-chinaunicom rib的数据格式相对简单些(在实际处理的时候，发现大量的不规范现象)
 
 V2:
+按照chinanet rib V2版本的分析思路，分析chinaunicom rib
 
-按照chinanet rib v2版本的分析思路，分析chinaunicom rib
 
 V3:
-分阶段统计AS中IP规模
+分阶段统计AS中的IP规模
+
 
 """
 import time
@@ -48,9 +49,12 @@ def extract_as_info():
     file_in = "../000LocalData/as_Gao/asn_info.txt"
     file_in_read = open(file_in, 'r', encoding='utf-8')
     as2country_dict = {}  # 存储as号和国家对应关系的字典
+    country_list = []
     for line in file_in_read.readlines():
         line = line.strip().split("\t")
         as2country_dict[line[0]] = line[1].split(",")[-1].strip()
+        country_list.append(line[1].split(",")[-1].strip())
+    # print(len(list(set(country_list))))
     return as2country_dict
 
 
@@ -70,9 +74,9 @@ def gain_country_cn():
     return country_info_dict
 
 
-def chinaunicom_rib_analysis(rib_file, u_as_group):
+def chinamobile_rib_analysis(rib_file, u_as_group):
     """
-    根据转入的rib txt信息，统计其最优路由第一跳为U国的占比
+    根据传入的rib csv信息，统计其最优路由第一跳为U国的占比
     :param rib_file:
     :param u_as_group:
     :return:
@@ -92,7 +96,6 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     direct_networks_list = []  # 存储该ISP直联网络的列表
     direct_networks_u_list = []  # 存储该ISP直联属于U国的网络列表
     direct_networks_c_list = []  # 存储该ISP直联属于C国的网络列表
-
     global_reachable_as_list = []  # 存储总的全球可达网络的AS列表
     reachable_as_list_first = []  # 存储第一层次可达的AS列表
     reachable_as_list_second = []  # 存储第二层次可达的AS列表
@@ -109,49 +112,22 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
         line = line.strip()
         line_cnt += 1
         if line.find("/") != -1:
-            line = line.strip("*").strip(">").strip("i").strip("?").strip("e").strip()
-            line = line.split(" 219")
-            if len(line) == 1:
-                line = line[0].split(" 202")
-            if len(line) == 1:
-                line = line[0].split(" 218")
-            if len(line) == 1:
-                line = line[0].split(" 10")
-            if len(line) == 1:
-                line = line[0].split(" 220")
-            # print(line)
-            as_path = []
-            ip_prefix = []
-            try:
-                ip_prefix = line[0].strip().split("/")
-                # print(ip_prefix)
-                as_path = line[1].strip().split("   ")[-1].split(" ")
-            except Exception as e:
-                # print(e)
-                pass
-
-            if len(as_path) == 1:
+            line = line.split(",")
+            ip_prefix = line[0].strip().split("/")
+            as_path = line[1].strip("\"").strip().split(" ")
+            if len(as_path) <= 1:
                 invalid_cnt += 1
                 continue
-            # print(ip_prefix[-1], as_path[1])
-            valid_cnt += 1
             net_len = int(ip_prefix[-1])
             ip_num_cnt += pow(2, (32-net_len))
             first_hop_as = as_path[1]
-            last_hop_as = as_path[-1]
-            last_hop_as = last_hop_as.strip("{").strip("}")
-
-            if last_hop_as.find(",") != -1:
-                # print(last_hop_as)
-                last_hop_as = last_hop_as.split(",")[0]
-            if last_hop_as.find(".") != -1:
-                # print(as_path)
-                # print(last_hop_as)
-                left_point = last_hop_as.split(".")[0]
-                right_point = last_hop_as.split(".")[1]
-                last_hop_as = str(int(left_point) * 65536 + int(right_point))
-                # print(last_hop_as)
-
+            # if as_path[0] != "58453":
+            #     print(line)
+            #     print(as_path)
+            # print(line)
+            # print(net_len, first_hop_as)
+            valid_cnt += 1
+            last_hop_as = as_path[-1].strip("{").strip("}")
             # 第0阶段操作
             # 存储AS的可达IP规模信息
             if last_hop_as in as_reach_dict_0.keys():
@@ -163,7 +139,6 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
             if first_hop_as in u_as_group:
                 prefix_u_cnt += 1
                 ip_num_u_cnt += pow(2, (32-net_len))
-
                 if last_hop_as in as_reach_dict_1.keys():
                     as_reach_dict_1[last_hop_as] += 0
                 else:
@@ -179,30 +154,19 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
                     as_reach_dict_1[last_hop_as] = pow(2, (32 - net_len))
 
             u_flag = 0  # 是否路径是否含U国AS
-            for item in as_path[1:]:
+            for item in as_path:
                 try:
                     item = item.strip("{").strip("}")
-                    if item.find(",") != -1:
-                        # print(last_hop_as)
-                        item = item.split(",")[0]
-                    if item.find(".") != -1:
-                        # print(as_path)
-                        left_point = item.split(".")[0]
-                        right_point = item.split(".")[1]
-                        item = str(int(left_point) * 65536 + int(right_point))
-                        # print(item)
-                    if item == "0":
-                        continue
                     if as2country[item] == "US":
                         u_flag = 1
                         break
                 except Exception as e:
-                    print(as_path[1:])
-                    print(item)
+                    # print(as_path)
                     pass
 
             # 第2阶段判断
             if u_flag == 1:
+                # print(intersection_hop_set)
                 prefix_u_cnt_anywhere += 1
                 ip_num_u_cnt_anywhere += pow(2, (32 - net_len))
                 if last_hop_as in as_reach_dict_2.keys():
@@ -213,7 +177,6 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
             if u_flag == 0:
                 # 如果某AS网有一个前缀可达，则该AS网可达
                 reachable_as_list_second.append(last_hop_as)
-                # 存储AS的可达IP规模信息
                 if last_hop_as in as_reach_dict_2.keys():
                     as_reach_dict_2[last_hop_as] += pow(2, (32 - net_len))
                 else:
@@ -232,9 +195,9 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
                 pass
         else:
             invalid_cnt += 1
-
         # if line_cnt > 10:
         #     break
+
     direct_networks_list = list(set(direct_networks_list))
     direct_networks_u_list = list(set(direct_networks_u_list))
     direct_networks_c_list = list(set(direct_networks_c_list))
@@ -246,12 +209,12 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     # temp_list = list()
     # for item in global_reachable_as_list:
     #     temp_list.append([item])
-    # save_path = "../000LocalData/as_simulate/可达（联通）_0.txt"
+    # save_path = "../000LocalData/as_simulate/可达（移动）_0.txt"
     # write_to_csv(temp_list, save_path)
     # temp_list.clear()
     # for item in reachable_as_list_first:
     #     temp_list.append([item])
-    # save_path = "../000LocalData/as_simulate/可达（联通）_1.txt"
+    # save_path = "../000LocalData/as_simulate/可达（移动）_1.txt"
     # write_to_csv(temp_list, save_path)
     # temp_list.clear()
     # for item in reachable_as_list_second:
@@ -262,8 +225,18 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     #             pass
     #     except Exception as e:
     #         pass
-    # save_path = "../000LocalData/as_simulate/可达（联通）_2.txt"
+    # save_path = "../000LocalData/as_simulate/可达（移动）_2.txt"
     # write_to_csv(temp_list, save_path)
+
+    # 统计可达国家
+    reach_country_list = []
+    for item in global_reachable_as_list:
+        try:
+            reach_country_list.append(as2country[item])
+        except Exception as e:
+            # print(e)
+            pass
+    # print(len(list(set(reach_country_list))))
 
     print("RIB文件总的行数:", line_cnt)
     print("无效记录数:", invalid_cnt)
@@ -271,6 +244,7 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     print("总的IP规模(v4):", ip_num_cnt)
     print("最优路由第一跳为U国的前缀数量:%s, 占比(%.6f)" % (prefix_u_cnt, prefix_u_cnt / valid_cnt))
     print("最优路由第一跳为U国的IP地址数量(V4):%s, 占比(%.6f)" % (ip_num_u_cnt, ip_num_u_cnt / ip_num_cnt))
+
     print("最优路由任意一跳含U国的前缀数量:%s, 占比(%.6f)" % (prefix_u_cnt_anywhere, prefix_u_cnt_anywhere / valid_cnt))
     print("最优路由任意一跳含U国的IP地址数量(V4):%s, 占比(%.6f)" % (ip_num_u_cnt_anywhere, ip_num_u_cnt_anywhere / ip_num_cnt))
 
@@ -278,8 +252,8 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
     reach_first = len(reachable_as_list_first)
     reach_second = len(reachable_as_list_second)
     print("\n该ISP可达的全球AS网络数量:", all_reach)
-    print("第一层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f)" % (reach_first, reach_first/all_reach))
-    print("第二层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f)" % (reach_second, reach_second/all_reach))
+    print("第一层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f)" % (reach_first, reach_first / all_reach))
+    print("第二层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f)" % (reach_second, reach_second / all_reach))
     print("注：某AS网络只要有一个前缀可达，则该AS网络可达")
 
     print("\n该ISP直联网络的数量:", len(direct_networks_list))
@@ -302,7 +276,7 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
                                   "/",
                                   as_reach_dict_0[key], as_reach_dict_1[key], as_reach_dict_2[key]])
     as_reach_info.sort(reverse=False, key=lambda elem: int(elem[0]))
-    save_path = "../000LocalData/as_simulate/as_reach_info(联通).csv"
+    save_path = "../000LocalData/as_simulate/as_reach_info(移动).csv"
     write_to_csv(as_reach_info, save_path)
 
     # 统计国家的可达IP规模表
@@ -332,13 +306,13 @@ def chinaunicom_rib_analysis(rib_file, u_as_group):
                                        country_reach_0[key],
                                        country_reach_1[key],
                                        country_reach_2[key],
-                                       1 - country_reach_0[key] / country_reach_0[key],
-                                       1 - country_reach_1[key] / country_reach_0[key],
-                                       1 - country_reach_2[key] / country_reach_0[key]])
+                                       1-country_reach_0[key]/country_reach_0[key],
+                                       1-country_reach_1[key]/country_reach_0[key],
+                                       1-country_reach_2[key]/country_reach_0[key]])
         except Exception as e:
             print(e)
     country_reach_info.sort(reverse=True, key=lambda elem: elem[7])
-    save_path = "../000LocalData/as_simulate/country_reach_info(联通).csv"
+    save_path = "../000LocalData/as_simulate/country_reach_info(移动).csv"
     write_to_csv(country_reach_info, save_path)
 
 
@@ -348,7 +322,7 @@ def gain_u_as_group():
     :return re_list:
     """
     re_list = []  # 存储返回的list
-    all_as_file = "../000LocalData/as_simulate/联通-所有企业.CSV"
+    all_as_file = "../000LocalData/as_simulate/移动-所有企业.CSV"
     all_as_file_read = open(all_as_file, 'r')
     for line in all_as_file_read.readlines():
         line = line.strip().split(",")
@@ -362,9 +336,7 @@ def gain_u_as_group():
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     us_as_group = gain_u_as_group()
-    my_rib_file = "../000LocalData/as_simulate/Chinaunicom RIB.txt"
-    chinaunicom_rib_analysis(my_rib_file, us_as_group)
+    my_rib_file = "../000LocalData/as_simulate/国际路由0812_chinamobile.CSV"
+    chinamobile_rib_analysis(my_rib_file, us_as_group)
     time_end = time.time()  # 记录结束时间
     print("\nScripts Finish, Time Consuming:", (time_end - time_start), "S")
-
-

@@ -116,6 +116,10 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     as_reach_dict_1 = dict()  # 存储1阶段的as可达IP规模表
     as_reach_dict_2 = dict()  # 存储2阶段的as可达IP规模表
 
+    country_reach_0 = dict()  # 存储0阶段的国家可达IP规模表
+    country_reach_1 = dict()  # 存储1阶段的国家可达IP规模表
+    country_reach_2 = dict()  # 存储2阶段的国家可达IP规模表
+
     for line in rib_file_read.readlines():
         line = line.strip().split(",")
         line_cnt += 1
@@ -305,6 +309,42 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     as_reach_info.sort(reverse=False, key=lambda elem: int(elem[0]))
     save_path = "../000LocalData/as_simulate/as_reach_info(电信).csv"
     write_to_csv(as_reach_info, save_path)
+
+    # 统计国家的可达IP规模表
+    for item in as_reach_info:
+        # 0阶段国家可达IP规模表
+        if item[1] in country_reach_0.keys():
+            country_reach_0[item[1]] += int(item[4])
+        else:
+            country_reach_0[item[1]] = int(item[4])
+        # 1阶段国家可达IP规模表
+        if item[1] in country_reach_1.keys():
+            country_reach_1[item[1]] += int(item[5])
+        else:
+            country_reach_1[item[1]] = int(item[5])
+
+        # 2阶段国家可达IP规模表
+        if item[1] in country_reach_2.keys():
+            country_reach_2[item[1]] += int(item[6])
+        else:
+            country_reach_2[item[1]] = int(item[6])
+    country_reach_info = []
+    for key in country_reach_0.keys():
+        try:
+            country_reach_info.append([key,
+                                       country_info_dict[key][0].strip("\""),
+                                       country_info_dict[key][1].strip("\""),
+                                       country_reach_0[key],
+                                       country_reach_1[key],
+                                       country_reach_2[key],
+                                       1-country_reach_0[key]/country_reach_0[key],
+                                       1-country_reach_1[key]/country_reach_0[key],
+                                       1-country_reach_2[key]/country_reach_0[key]])
+        except Exception as e:
+            print(e)
+    country_reach_info.sort(reverse=True, key=lambda elem: elem[7])
+    save_path = "../000LocalData/as_simulate/country_reach_info(电信).csv"
+    write_to_csv(country_reach_info, save_path)
 
 
 def gain_u_as_group():
