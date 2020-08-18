@@ -27,12 +27,10 @@ V2:
 
 V3:
 只统计chinanet 两个层次操作后，全球各个国家受影响的占比
-
+新增统计各个AS号分阶段的可达IP规模
 
 
 """
-
-import openpyxl
 import time
 import csv
 
@@ -55,29 +53,6 @@ def write_to_csv(res_list, des_path):
     finally:
         csvFile.close()
     print("write finish!")
-
-
-def convert_excel2csv(rib_file):
-    """
-    将Excel数据转换为csv数据，加快处理速度
-    :param rib_file:
-    :return:
-    """
-    print(rib_file)
-    rib_csv_list = []
-    work_book = openpyxl.load_workbook(rib_file)
-    for work_sheet in work_book.worksheets:
-        row_cnt = 0
-        for row in work_sheet.rows:
-            temp_list = []
-            for cell in row[0:2]:
-                print(cell.value, end="")
-                temp_list.append(cell.value)
-            rib_csv_list.append(temp_list)
-            print()
-            row_cnt += 1
-    save_path = "../000LocalData/as_simulate/v4-route.csv"
-    write_to_csv(rib_csv_list, save_path)
 
 
 def extract_as_info():
@@ -137,6 +112,10 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     reachable_as_list_first = []  # 存储第一层次可达的AS列表
     reachable_as_list_second = []  # 存储第二层次可达的AS列表
 
+    as_reach_dict_0 = dict()  # 存储0阶段的as可达IP规模表
+    as_reach_dict_1 = dict()  # 存储1阶段的as可达IP规模表
+    as_reach_dict_2 = dict()  # 存储2阶段的as可达IP规模表
+
     for line in rib_file_read.readlines():
         line = line.strip().split(",")
         line_cnt += 1
@@ -157,48 +136,67 @@ def chinanet_rib_analysis(rib_file, u_as_group):
         as_path_as = line[1].strip().split(" ")
         # print(as_path_as)
         first_hop_as = as_path_as[0]
-        last_hop_as = as_path_as[-1]
+        last_hop_as = as_path_as[-1].strip("{").strip("}")
+        # 第0阶段操作
+        # 存储AS的可达IP规模信息
+        if last_hop_as in as_reach_dict_0.keys():
+            as_reach_dict_0[last_hop_as] += pow(2, (32-net_len))
+        else:
+            as_reach_dict_0[last_hop_as] = pow(2, (32-net_len))
+
+        # 第1阶段判断
         if first_hop_as in u_as_group:
             # print(first_hop_as)
             prefix_u_cnt += 1
             ip_num_u_cnt += pow(2, (32-net_len))
+
+            if last_hop_as in as_reach_dict_1.keys():
+                as_reach_dict_1[last_hop_as] += 0
+            else:
+                as_reach_dict_1[last_hop_as] = 0
+
         if first_hop_as not in u_as_group:
             # 如果某AS网有一个前缀可达，则该AS网可达
-            reachable_as_list_first.append(last_hop_as.strip("{").strip("}"))
-        # try:
-        #     if as2country[first_hop_as] != "US":
-        #         # 如果某AS网有一个前缀可达，则该AS网可达
-        #         reachable_as_list_first.append(last_hop_as.strip("{").strip("}"))
-        # except Exception as e:
-        #     # print(e)
-        #     pass
-
-        # intersection_hop_set = set(as_path_as).intersection(set(u_as_group))
-
-        # print(as_path_as)
+            reachable_as_list_first.append(last_hop_as)
+            # 存储AS的可达IP规模信息
+            if last_hop_as in as_reach_dict_1.keys():
+                as_reach_dict_1[last_hop_as] += pow(2, (32-net_len))
+            else:
+                as_reach_dict_1[last_hop_as] = pow(2, (32-net_len))
 
         u_flag = 0  # 是否路径是否含U国AS
         for item in as_path_as:
             try:
-                item = item.strip("{").strip("}")
-                if as2country[item] == "US":
-                    u_flag = 1
-                    break
+                item = item.strip("{").strip("}").strip("\"")
+                if len(item) != 0:
+                    if as2country[item] == "US":
+                        u_flag = 1
+                        break
             except Exception as e:
                 # print(as_path_as)
                 pass
-
-        # print(intersection_hop_set)
+        # 第2阶段判断
         if u_flag == 1:
             # 如果路径含U国AS
             # print(intersection_hop_set)
             prefix_u_cnt_anywhere += 1
             ip_num_u_cnt_anywhere += pow(2, (32-net_len))
+            if last_hop_as in as_reach_dict_2.keys():
+                as_reach_dict_2[last_hop_as] += 0
+            else:
+                as_reach_dict_2[last_hop_as] = 0
+
         if u_flag == 0:
             # 如果某AS网有一个前缀可达，则该AS网可达
-            reachable_as_list_second.append(last_hop_as.strip("{").strip("}"))
+            reachable_as_list_second.append(last_hop_as)
+            # 存储AS的可达IP规模信息
+            if last_hop_as in as_reach_dict_2.keys():
+                as_reach_dict_2[last_hop_as] += pow(2, (32-net_len))
+            else:
+                as_reach_dict_2[last_hop_as] = pow(2, (32-net_len))
+
         direct_networks_list.append(first_hop_as)  # 存储直联网络AS
-        global_reachable_as_list.append(last_hop_as.strip("{").strip("}"))  # 存储该条可达前缀所属的AS网络
+        global_reachable_as_list.append(last_hop_as)  # 存储该条可达前缀所属的AS网络
         try:
             if as2country[first_hop_as] == "US":
                 # print(as2country[first_hop_as])
@@ -230,39 +228,41 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     
     """
 
-    temp_list = list()
-    for item in global_reachable_as_list:
-        temp_list.append([item])
-        try:
-            # print(country_info_dict[as2country[item]])
-            country_info = country_info_dict[as2country[item]]
-            # print(country_info[0])
-        except Exception as e:
-            print(item)
-    save_path = "../000LocalData/as_simulate/可达（电信）_0.txt"
-    write_to_csv(temp_list, save_path)
-    temp_list.clear()
-    for item in reachable_as_list_first:
-        temp_list.append([item])
-        try:
-            if as2country[item] == "US":
-                # print(item)
-                pass
-        except Exception as e:
-            pass
-    save_path = "../000LocalData/as_simulate/可达（电信）_1.txt"
-    write_to_csv(temp_list, save_path)
-    temp_list.clear()
-    for item in reachable_as_list_second:
-        temp_list.append([item])
-        try:
-            if as2country[item] == "US":
-                print(item)
-                pass
-        except Exception as e:
-            pass
-    save_path = "../000LocalData/as_simulate/可达（电信）_2.txt"
-    write_to_csv(temp_list, save_path)
+    # temp_list = list()
+    # for item in global_reachable_as_list:
+    #     temp_list.append([item])
+    #     try:
+    #         # print(country_info_dict[as2country[item]])
+    #         country_info = country_info_dict[as2country[item]]
+    #         # print(country_info[0])
+    #     except Exception as e:
+    #         # print(item)
+    #         pass
+    #
+    # save_path = "../000LocalData/as_simulate/可达（电信）_0.txt"
+    # write_to_csv(temp_list, save_path)
+    # temp_list.clear()
+    # for item in reachable_as_list_first:
+    #     temp_list.append([item])
+    #     try:
+    #         if as2country[item] == "US":
+    #             # print(item)
+    #             pass
+    #     except Exception as e:
+    #         pass
+    # save_path = "../000LocalData/as_simulate/可达（电信）_1.txt"
+    # write_to_csv(temp_list, save_path)
+    # temp_list.clear()
+    # for item in reachable_as_list_second:
+    #     temp_list.append([item])
+    #     try:
+    #         if as2country[item] == "US":
+    #             print(item)
+    #             pass
+    #     except Exception as e:
+    #         pass
+    # save_path = "../000LocalData/as_simulate/可达（电信）_2.txt"
+    # write_to_csv(temp_list, save_path)
 
     print("Excel总的行数:", line_cnt)
     print("无效记录数:", invalid_cnt)
@@ -276,14 +276,35 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     all_reach = len(global_reachable_as_list)
     reach_first = len(reachable_as_list_first)
     reach_second = len(reachable_as_list_second)
-    print("\n该ISP可达的全球AS网络数量:", all_reach)
-    print("第一层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f)" % (reach_first, reach_first/all_reach))
-    print("第二层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f)" % (reach_second, reach_second/all_reach))
+    print("\n该ISP可达的全球AS网络数量%s %s:" % (all_reach, len(as_reach_dict_0)))
+    print("第一层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f), %s" % (reach_first, reach_first/all_reach, len(as_reach_dict_1)))
+    print("第二层次操作后，该ISP全球可达的AS网络数量:%s, 占比(%.6f), %s" % (reach_second, reach_second/all_reach, len(as_reach_dict_2)))
     print("注：某AS网络只要有一个前缀可达，则该AS网络可达")
 
     print("\n该ISP直联网络的数量:", len(direct_networks_list))
     print("该ISP直联网络中为U国的数量:", len(direct_networks_u_list))
     print("该ISP直联网络中为C国的数量:", len(direct_networks_c_list))
+
+    # print(as_reach_dict_0)
+
+    as_reach_info = []
+    for key in as_reach_dict_0.keys():
+        try:
+            as_reach_info.append([key,
+                                  as2country[key],
+                                  country_info_dict[as2country[key]][0].strip("\""),
+                                  country_info_dict[as2country[key]][1].strip("\""),
+                                  as_reach_dict_0[key], as_reach_dict_1[key], as_reach_dict_2[key]])
+        except Exception as e:
+            print(key)
+            as_reach_info.append([key,
+                                  "/",
+                                  "/",
+                                  "/",
+                                  as_reach_dict_0[key], as_reach_dict_1[key], as_reach_dict_2[key]])
+    as_reach_info.sort(reverse=False, key=lambda elem: int(elem[0]))
+    save_path = "../000LocalData/as_simulate/as_reach_info(电信).csv"
+    write_to_csv(as_reach_info, save_path)
 
 
 def gain_u_as_group():
