@@ -230,6 +230,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     分大洲，非洲、亚洲、欧洲、大洋洲、南美洲、北美洲
     分方向，东盟、一带、一路、G20、OECD
     
+    
     """
 
     # temp_list = list()
@@ -364,13 +365,33 @@ def gain_u_as_group():
     return re_list
 
 
+def gain_country_group():
+    """
+    获取国家组团信息
+    :return:
+    """
+    country_group_dict = dict()  # 存储各个组织的国家列表
+    country_group_file = "../000LocalData/as_geo/international_organization.csv"
+    country_group_file_read = open(country_group_file, 'r')
+    for line in country_group_file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        if line[0] in country_group_dict.keys():
+            country_group_dict[line[0]].append(line[2])
+        else:
+            country_group_dict[line[0]] = [line[2]]
+    print(country_group_dict)
+    return country_group_dict
+
+
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     us_as_group = gain_u_as_group()
     # print(gain_u_as_group())
     my_rib_file = "../000LocalData/as_simulate/v4-route.csv"
-    chinanet_rib_analysis(my_rib_file, us_as_group)
+    # chinanet_rib_analysis(my_rib_file, us_as_group)
     # gain_country_cn()
+    gain_country_group()
     time_end = time.time()  # 记录结束时间
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
