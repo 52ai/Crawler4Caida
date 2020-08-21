@@ -108,6 +108,15 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
     country_reach_1 = dict()  # 存储1阶段的国家可达IP规模表
     country_reach_2 = dict()  # 存储2阶段的国家可达IP规模表
 
+    none_u_c_ip_num_0 = 0  # 统计0阶段非U和C的IP地址
+    none_u_c_ip_num_1 = 0  # 统计1阶段非U和C的IP地址
+
+    ip_num_u_0 = 0  # 统计0阶段U国IP地址量
+    ip_num_c_0 = 0  # 统计0阶段C国IP地址量
+
+    ip_num_u_1 = 0  # 统计1阶段U国IP地址量
+    ip_num_c_1 = 0  # 统计1阶段C国IP地址量
+
     for line in rib_file_read.readlines():
         line = line.strip()
         line_cnt += 1
@@ -139,6 +148,12 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
             if first_hop_as in u_as_group:
                 prefix_u_cnt += 1
                 ip_num_u_cnt += pow(2, (32-net_len))
+                try:
+                    if (as2country[last_hop_as] != "US") and (as2country[last_hop_as] != "CN"):
+                        none_u_c_ip_num_1 += pow(2, (32 - net_len))
+                except Exception as e:
+                    pass
+
                 if last_hop_as in as_reach_dict_1.keys():
                     as_reach_dict_1[last_hop_as] += 0
                 else:
@@ -152,6 +167,14 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
                     as_reach_dict_1[last_hop_as] += pow(2, (32 - net_len))
                 else:
                     as_reach_dict_1[last_hop_as] = pow(2, (32 - net_len))
+
+                try:
+                    if as2country[last_hop_as] == "US":
+                        ip_num_u_1 += pow(2, (32 - net_len))
+                    elif as2country[last_hop_as] == "CN":
+                        ip_num_c_1 += pow(2, (32 - net_len))
+                except Exception as e:
+                    pass
 
             u_flag = 0  # 是否路径是否含U国AS
             for item in as_path:
@@ -193,6 +216,19 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
             except Exception as e:
                 # print(e)
                 pass
+
+            try:
+                if as2country[last_hop_as] == "US":
+                    ip_num_u_0 += pow(2, (32 - net_len))
+                elif as2country[last_hop_as] == "CN":
+                    ip_num_c_0 += pow(2, (32 - net_len))
+                if (as2country[last_hop_as] != "US") and (as2country[last_hop_as] != "CN"):
+                    none_u_c_ip_num_0 += pow(2, (32 - net_len))
+            except Exception as e:
+                # print(e)
+                none_u_c_ip_num_0 += pow(2, (32 - net_len))
+                pass
+
         else:
             invalid_cnt += 1
         # if line_cnt > 10:
@@ -205,28 +241,6 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
     global_reachable_as_list = list(set(global_reachable_as_list))
     reachable_as_list_first = list(set(reachable_as_list_first))
     reachable_as_list_second = list(set(reachable_as_list_second))
-
-    # temp_list = list()
-    # for item in global_reachable_as_list:
-    #     temp_list.append([item])
-    # save_path = "../000LocalData/as_simulate/可达（移动）_0.txt"
-    # write_to_csv(temp_list, save_path)
-    # temp_list.clear()
-    # for item in reachable_as_list_first:
-    #     temp_list.append([item])
-    # save_path = "../000LocalData/as_simulate/可达（移动）_1.txt"
-    # write_to_csv(temp_list, save_path)
-    # temp_list.clear()
-    # for item in reachable_as_list_second:
-    #     temp_list.append([item])
-    #     try:
-    #         if as2country[item] == "US":
-    #             print(item)
-    #             pass
-    #     except Exception as e:
-    #         pass
-    # save_path = "../000LocalData/as_simulate/可达（移动）_2.txt"
-    # write_to_csv(temp_list, save_path)
 
     # 统计可达国家
     reach_country_list = []
@@ -259,6 +273,14 @@ def chinamobile_rib_analysis(rib_file, u_as_group):
     print("\n该ISP直联网络的数量:", len(direct_networks_list))
     print("该ISP直联网络中为U国的数量:", len(direct_networks_u_list))
     print("该ISP直联网络中为C国的数量:", len(direct_networks_c_list))
+
+    print("\n0阶段，U国通告IP地址量:", ip_num_u_0)
+    print("1阶段，U国可达IP地址量:", ip_num_u_1)
+    print("0阶段，C国通告IP地址量:", ip_num_c_0)
+    print("1阶段，C国可达IP地址量:", ip_num_c_1)
+
+    print("\n第一层次操作后，非U&C 不可达IP规模（%s）占非U&C 原始IP规模(%s)比例：%.6f\n"
+          % (none_u_c_ip_num_1, none_u_c_ip_num_0, none_u_c_ip_num_1/none_u_c_ip_num_0))
 
     as_reach_info = []
     for key in as_reach_dict_0.keys():

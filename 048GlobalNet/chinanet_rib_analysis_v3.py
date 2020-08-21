@@ -120,6 +120,15 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     country_reach_1 = dict()  # 存储1阶段的国家可达IP规模表
     country_reach_2 = dict()  # 存储2阶段的国家可达IP规模表
 
+    none_u_c_ip_num_0 = 0  # 统计0阶段非U和C的IP地址
+    none_u_c_ip_num_1 = 0  # 统计1阶段非U和C的IP地址
+
+    ip_num_u_0 = 0  # 统计0阶段U国IP地址量
+    ip_num_c_0 = 0  # 统计0阶段C国IP地址量
+
+    ip_num_u_1 = 0  # 统计1阶段U国IP地址量
+    ip_num_c_1 = 0  # 统计1阶段C国IP地址量
+
     for line in rib_file_read.readlines():
         line = line.strip().split(",")
         line_cnt += 1
@@ -153,6 +162,11 @@ def chinanet_rib_analysis(rib_file, u_as_group):
             # print(first_hop_as)
             prefix_u_cnt += 1
             ip_num_u_cnt += pow(2, (32-net_len))
+            try:
+                if (as2country[last_hop_as] != "US") and (as2country[last_hop_as] != "CN"):
+                    none_u_c_ip_num_1 += pow(2, (32-net_len))
+            except Exception as e:
+                pass
 
             if last_hop_as in as_reach_dict_1.keys():
                 as_reach_dict_1[last_hop_as] += 0
@@ -167,6 +181,14 @@ def chinanet_rib_analysis(rib_file, u_as_group):
                 as_reach_dict_1[last_hop_as] += pow(2, (32-net_len))
             else:
                 as_reach_dict_1[last_hop_as] = pow(2, (32-net_len))
+
+            try:
+                if as2country[last_hop_as] == "US":
+                    ip_num_u_1 += pow(2, (32 - net_len))
+                elif as2country[last_hop_as] == "CN":
+                    ip_num_c_1 += pow(2, (32 - net_len))
+            except Exception as e:
+                pass
 
         u_flag = 0  # 是否路径是否含U国AS
         for item in as_path_as:
@@ -211,6 +233,18 @@ def chinanet_rib_analysis(rib_file, u_as_group):
             # print(e)
             pass
 
+        try:
+            if as2country[last_hop_as] == "US":
+                ip_num_u_0 += pow(2, (32 - net_len))
+            elif as2country[last_hop_as] == "CN":
+                ip_num_c_0 += pow(2, (32 - net_len))
+            if (as2country[last_hop_as] != "US") and (as2country[last_hop_as] != "CN"):
+                none_u_c_ip_num_0 += pow(2, (32 - net_len))
+        except Exception as e:
+            # print(e)
+            none_u_c_ip_num_0 += pow(2, (32 - net_len))
+            pass
+
     # print(len(direct_networks_list))
     # print(len(direct_networks_u_list))
     direct_networks_list = list(set(direct_networks_list))
@@ -233,42 +267,6 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     
     """
 
-    # temp_list = list()
-    # for item in global_reachable_as_list:
-    #     temp_list.append([item])
-    #     try:
-    #         # print(country_info_dict[as2country[item]])
-    #         country_info = country_info_dict[as2country[item]]
-    #         # print(country_info[0])
-    #     except Exception as e:
-    #         # print(item)
-    #         pass
-    #
-    # save_path = "../000LocalData/as_simulate/可达（电信）_0.txt"
-    # write_to_csv(temp_list, save_path)
-    # temp_list.clear()
-    # for item in reachable_as_list_first:
-    #     temp_list.append([item])
-    #     try:
-    #         if as2country[item] == "US":
-    #             # print(item)
-    #             pass
-    #     except Exception as e:
-    #         pass
-    # save_path = "../000LocalData/as_simulate/可达（电信）_1.txt"
-    # write_to_csv(temp_list, save_path)
-    # temp_list.clear()
-    # for item in reachable_as_list_second:
-    #     temp_list.append([item])
-    #     try:
-    #         if as2country[item] == "US":
-    #             print(item)
-    #             pass
-    #     except Exception as e:
-    #         pass
-    # save_path = "../000LocalData/as_simulate/可达（电信）_2.txt"
-    # write_to_csv(temp_list, save_path)
-
     print("Excel总的行数:", line_cnt)
     print("无效记录数:", invalid_cnt)
     print("有效记录数:", valid_cnt)
@@ -290,6 +288,21 @@ def chinanet_rib_analysis(rib_file, u_as_group):
     print("该ISP直联网络中为U国的数量:", len(direct_networks_u_list))
     print("该ISP直联网络中为C国的数量:", len(direct_networks_c_list))
 
+    print("\n0阶段，U国通告IP地址量:", ip_num_u_0)
+    print("1阶段，U国可达IP地址量:", ip_num_u_1)
+    print("0阶段，C国通告IP地址量:", ip_num_c_0)
+    print("1阶段，C国可达IP地址量:", ip_num_c_1)
+
+    print("\n第一层次操作后，非U&C 不可达IP规模（%s）占非U&C 原始IP规模(%s)比例：%.6f\n"
+          % (none_u_c_ip_num_1, none_u_c_ip_num_0, none_u_c_ip_num_1/none_u_c_ip_num_0))
+
+    # print(u_as_group)
+    # print(direct_networks_u_list)
+    # direct_networks_u_set = set(direct_networks_u_list)
+    # u_as_group_set = set(u_as_group)
+    # print(len(u_as_group_set))
+    # print(direct_networks_u_set.difference(u_as_group_set))
+
     # print(as_reach_dict_0)
 
     as_reach_info = []
@@ -301,7 +314,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
                                   country_info_dict[as2country[key]][1].strip("\""),
                                   as_reach_dict_0[key], as_reach_dict_1[key], as_reach_dict_2[key]])
         except Exception as e:
-            print(key)
+            # print(key)
             as_reach_info.append([key,
                                   "/",
                                   "/",
@@ -318,6 +331,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
             country_reach_0[item[1]] += int(item[4])
         else:
             country_reach_0[item[1]] = int(item[4])
+
         # 1阶段国家可达IP规模表
         if item[1] in country_reach_1.keys():
             country_reach_1[item[1]] += int(item[5])
@@ -329,6 +343,7 @@ def chinanet_rib_analysis(rib_file, u_as_group):
             country_reach_2[item[1]] += int(item[6])
         else:
             country_reach_2[item[1]] = int(item[6])
+
     country_reach_info = []
     for key in country_reach_0.keys():
         try:
@@ -342,7 +357,9 @@ def chinanet_rib_analysis(rib_file, u_as_group):
                                        1-country_reach_1[key]/country_reach_0[key],
                                        1-country_reach_2[key]/country_reach_0[key]])
         except Exception as e:
-            print(e)
+            # 某些AS在whois中没有相关信息
+            # print(e)
+            pass
     country_reach_info.sort(reverse=True, key=lambda elem: elem[7])
     save_path = "../000LocalData/as_simulate/country_reach_info(电信).csv"
     write_to_csv(country_reach_info, save_path)
@@ -386,12 +403,23 @@ def gain_country_group():
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    us_as_group = gain_u_as_group()
+    # us_as_group = gain_u_as_group()
+    us_as_group = ['12008', '14537', '32590', '2687', '2686',
+                   '54600', '8075', '714', '2828', '11164',
+                   '6939', '20940', '13786', '3356', '45102',
+                   '4385', '22769', '26484', '40065', '2914',
+                   '3491', '21928', '7342', '6453', '174',
+                   '11158', '36678', '22773', '19551', '19809',
+                   '63199', '7922', '32782', '6421', '7018',
+                   '40676', '32098', '7843', '46844', '62587',
+                   '1351', '13335', '21859', '1820', '16815',
+                   '703', '16509', '701', '112', '6461',
+                   '30132', '32097', '15169', '14340', '20150']
     # print(gain_u_as_group())
     my_rib_file = "../000LocalData/as_simulate/v4-route.csv"
-    # chinanet_rib_analysis(my_rib_file, us_as_group)
+    chinanet_rib_analysis(my_rib_file, us_as_group)
     # gain_country_cn()
-    gain_country_group()
+    # gain_country_group()
     time_end = time.time()  # 记录结束时间
     print("\n=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
