@@ -26,9 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/048GlobalNet/chinamobile_rib_analysis_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/048GlobalNet/chinamobile_rib_analysis_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/048GlobalNet/chinanet_rib_analysis_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/048GlobalNet/chinanet_rib_analysis_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/048GlobalNet/chinaunicom_rib_analysis_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/048GlobalNet/chinaunicom_rib_analysis_v3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,11 +201,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.chinamobile_rib_analysis_v3" />
       <item itemvalue="Python.chinanet_rib_analysis_v3" />
       <item itemvalue="Python.chinaunicom_rib_analysis_v3" />
-      <item itemvalue="Python.search" />
+      <item itemvalue="Python.chinamobile_rib_analysis_v3" />
       <item itemvalue="Python.zeronet_crawler" />
+      <item itemvalue="Python.search" />
     </list>
     <recent_temporary>
       <list>
