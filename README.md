@@ -30,6 +30,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 前两天小A的Win10彻底崩了，索性重装，所有环境重配。这是重装后的第一次Git！---20200713 By Wenyan YU<br>
 在云端的人工智能可以有无限可能！---20200716 By Wenyan YU<br>
 科学研究和实际应用总会有一定差距，要学会如何去平衡二者。---20200727 By Wenyan YU<br>
+生活之事不如意十之八九，明白自己想要的是什么，莫要成为情绪的奴隶。---20200823 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
