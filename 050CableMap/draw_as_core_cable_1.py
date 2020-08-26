@@ -221,6 +221,8 @@ def draw_polar_map():
             cn_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
             del c_color_list[-1]
             c_color_list.append([float(100.0 / 256), float(200.0 / 256), float(100.0 / 256)])
+            # del area_list[-1]
+            # area_list.append(12)
 
         if landing_point[key][2] == "United States":
             us_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
