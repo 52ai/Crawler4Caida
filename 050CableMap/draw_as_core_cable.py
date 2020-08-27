@@ -110,12 +110,13 @@ def gain_format_data():
             if landing_point_dict[row_list[4]][0] < min_arg_value:
                 min_arg_value = landing_point_dict[row_list[4]][0]
 
-    print("登陆海缆数量统计:%s" % (len(landing_point_dict.keys())))
+    print("海缆登陆站数量统计:%s" % (len(landing_point_dict.keys())))
     print("登陆点中容量映射值最大值为:%s" % max_arg_value)
     print("登陆点中容量映射值最小值为:%s" % min_arg_value)
     # print(landing_point_dict)
     print("根据容量映射最大值，按照 radius = 1 - log((ARGS(Point)+1) / (MAX_ARGS + 1))，计算极径")
     for key in landing_point_dict.keys():
+        # landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
         landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
 
     # print(landing_point_dict)
@@ -168,23 +169,27 @@ def draw_polar_map():
     plt.figure(figsize=(9, 5))
     ax = plt.subplot(111, projection='polar')
     ax.set_ylim(0.0, max_radius + 2)  # 设置极坐标半径radius的最大刻度
+    ax.set_alpha(1)
+    ax.set_facecolor('none')
     # ####绘图参数生成##########
     area_list = []
     lw_list = []
     c_color_list = []
-    z_order_list = []
     max_key = []  # 记录全球TOP节点
     cn_key = []  # 记录中国TOP节点
     cn_all_as = []  # 存储所有中国的登陆点
     us_all_as = []  # 存储所有美国的登陆点
+    hk_all_as = []  # 存储所有香港的登陆点
     global_all_as = []  # 所有世界所有的登陆点
+
+    point_cnt = 0
+    cn_index_list = []  # 存储在打点列表中cn的下标
 
     for key in landing_point.keys():
         if landing_point[key][0] < max_radius * 0.2:
             area_list.append(12)
             lw_list.append(0.1)
             c_color_list.append([float(200 / 256), float(100 / 256), float(100 / 256)])
-            z_order_list.append(2)
             max_key.append(key)  # 记录最牛逼的几个点的坐标
             if landing_point[key][2] == "China":
                 cn_key.append(key)
@@ -192,21 +197,19 @@ def draw_polar_map():
             area_list.append(8)
             lw_list.append(0.1)
             c_color_list.append([float(224.0 / 256), float(200.0 / 256), float(41.0 / 256)])
-            z_order_list.append(2)
             if landing_point[key][2] == "China":
                 cn_key.append(key)
         elif landing_point[key][0] < max_radius * 0.6:
             area_list.append(3)
             lw_list.append(0.1)
             c_color_list.append([float(100 / 256), float(100 / 256), float(200 / 256)])
-            z_order_list.append(2)
             if landing_point[key][2] == "China":
                 cn_key.append(key)
         else:
             area_list.append(2)
             lw_list.append(0.1)
             c_color_list.append([float(256 / 256), float(256 / 256), float(256 / 256)])
-            z_order_list.append(1)
+
         # 如果该点为中国，则改变其填充颜色,改变其Marker，并存储
         if landing_point[key][2] == "China":
             cn_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
@@ -214,17 +217,24 @@ def draw_polar_map():
             c_color_list.append([float(100.0 / 256), float(200.0 / 256), float(100.0 / 256)])
             # del area_list[-1]
             # area_list.append(12)
+            cn_index_list.append(point_cnt)
 
         if landing_point[key][2] == "United States":
             us_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
             del c_color_list[-1]
             c_color_list.append([float(255.0 / 256), float(0.0 / 256), float(255.0 / 256)])
 
+        if landing_point[key][2] == "China(HK)":
+            hk_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
+            del c_color_list[-1]
+            c_color_list.append([float(29.0 / 256), float(113.0 / 256), float(244 / 256)])
+
         # 存储实世界所有AS号
         global_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
+        point_cnt += 1
     area = area_list
-    print("CN all AS Length:", len(cn_all_as))
-    print("Global All AS Length:", len(global_all_as))
+    print("CN All Landing Point Count:", len(cn_all_as))
+    print("Global All Landing Point Count:", len(global_all_as))
     # ###########################画线################################
     edges_cnt = 0
     for item in rel_info:
@@ -262,6 +272,7 @@ def draw_polar_map():
                 zorder=z_order_value, )
         edges_cnt += 1
     # ######################## 打点######################################
+
     ax.scatter(angle_list, radius_list,
                c=c_color_list,
                edgecolors=[0, 0, 0],
@@ -271,6 +282,29 @@ def draw_polar_map():
                cmap='hsv',
                alpha=0.9,
                zorder=7)
+
+    angle_list_cn = []
+    radius_list_cn = []
+    c_color_list_cn = []
+    lw_list_cn = []
+    area_cn = []
+    for index in cn_index_list:
+        angle_list_cn.append(angle_list[index])
+        radius_list_cn.append(radius_list[index])
+        c_color_list_cn.append(c_color_list[index])
+        lw_list_cn.append(lw_list[index])
+        area_cn.append(area[index])
+
+    ax.scatter(angle_list_cn, radius_list_cn,
+               c=c_color_list_cn,
+               edgecolors=[0, 0, 0],
+               marker="s",
+               lw=lw_list_cn,
+               s=area_cn,
+               cmap='hsv',
+               alpha=0.9,
+               zorder=7)
+
     # ########################绘制外围辅助性图标##########################
     # 画个内圆
     circle_theta = np.arange(0, 2 * np.pi, 0.01)
@@ -334,6 +368,9 @@ def draw_polar_map():
     circle_theta = np.arange(float(280 / 360) * 2 * np.pi, float(320 / 360) * 2 * np.pi, 0.01)
     circle_radius = [max_radius + 0.4] * len(circle_theta)
     ax.plot(circle_theta, circle_radius, color="#f2c41d", linewidth=3)
+
+    # 绘制圆心
+    ax.scatter(0.0, 0.0, c="#ffffff", marker='+', lw=0.2, s=6)
 
     # 绘制经度刻度
     # circle_radius = np.arange(max_radius+0.5, max_radius+0.9, 0.01)
@@ -488,7 +525,7 @@ def draw_polar_map():
     """
     全球TOP点
     """
-    save_path = "../000LocalData/CableMap/TopLandingPoint20Global.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20Global_0.csv"
     print("\nGlobal LandingPoint Rank(TOP20):")
     # 给全球TOP5的AS点做标记
     global_all_as.sort(reverse=False, key=lambda elem: elem[1])
@@ -510,7 +547,7 @@ def draw_polar_map():
             'color': 'black',
             'size': 2
             }
-    save_path = "../000LocalData/CableMap/TopLandingPoint20China.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20China_0.csv"
     print("\nChina LandingPoint Rank(TOP20):")
     # 给全国TOP5的AS点做标记
     cn_all_as.sort(reverse=False, key=lambda elem: elem[1])
@@ -533,9 +570,9 @@ def draw_polar_map():
             'color': 'black',
             'size': 2
             }
-    save_path = "../000LocalData/CableMap/TopLandingPoint20US.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20US_0.csv"
     print("\nUS LandingPoint Rank(TOP20):")
-    # 给US TOP5的AS点做标记
+    # 给US TOP2的AS点做标记
     us_all_as.sort(reverse=False, key=lambda elem: elem[1])
     flag_cnt = 1
     for item_as in us_all_as[0:20]:
@@ -547,11 +584,35 @@ def draw_polar_map():
         flag_cnt += 1
     write_to_csv(us_all_as[0:20], save_path)
 
+    """
+    香港TOP点
+    """
+    font = {'family': 'sans-serif',
+            'style': 'italic',
+            'weight': 'normal',
+            'color': 'black',
+            'size': 2
+            }
+    save_path = "../000LocalData/CableMap/TopLandingPoint20HK_0.csv"
+    print("\nHK LandingPoint Rank(TOP20):")
+    # 给HK TOP5的AS点做标记
+    hk_all_as.sort(reverse=False, key=lambda elem: elem[1])
+    flag_cnt = 1
+    for item_as in hk_all_as[0:20]:
+        print(item_as, coordinate_dic[item_as[0]])
+        if flag_cnt <= 2:
+            point_angle = coordinate_dic[item_as[0]][0]
+            point_radius = coordinate_dic[item_as[0]][1]
+            ax.text(point_angle, point_radius, str(flag_cnt), fontdict=font, ha='center', va='center', zorder=7)
+        flag_cnt += 1
+    write_to_csv(hk_all_as[0:20], save_path)
+
     print("连通度最高的AS号半径：", landing_point[min_key])
 
     plt.axis('off')
-    save_fig_name = "../000LocalData/CableMap/as_core_map_scatter_cable.jpg"
+    save_fig_name = "../000LocalData/CableMap/as_core_map_scatter_cable_0.jpg"
     plt.savefig(save_fig_name, dpi=1080, facecolor='#202d62')
+    # plt.savefig(save_fig_name, dpi=1080, facecolor='#ffffff')
     # plt.savefig(save_fig_name, dpi=1080, transparent=True)  # 设置背景色为透明
     plt.close()
     return [item_cnt, edges_cnt]
@@ -559,6 +620,6 @@ def draw_polar_map():
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录程序启动的时间
-    draw_polar_map()
+    print(draw_polar_map())
     time_end = time.time()  # 记录程序结束的时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

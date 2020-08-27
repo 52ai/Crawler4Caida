@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on Aug 26, 2020 By Wenyan YU
+create on Aug 27, 2020 By Wenyan YU
 Email: ieeflsyu@outlook.com
 
 Function:
@@ -9,20 +9,25 @@ Function:
 数据输入为子飞输出的Excel文件“cable_info.xlsx”
 
 
-
-
 第一阶段，在原始阶段基础上，把C国所有在建海缆全部剔除，重新绘制极图
+southeast-asia-japan-cable-2-sjc2
+hainan-hong-kong-submarine-cable-system
 
-'bay-to-bay-express-btobe-cable-system', （第一阶段断）
-'hong-kong-americas-hka'（第一阶段断）
-'pacific-light-cable-network-plcn', （第一阶段断）
+第二阶段，在第一阶段基础上，断3条，C-U, H-U的缆，重新绘制极图
 
+asia-america-gateway-aag-cable-system
+new-cross-pacific-ncp-cable-system
+trans-pacific-express-tpe-cable-system
 
-'hainan-hong-kong-submarine-cable-system',
-'southeast-asia-japan-cable-2-sjc2',
+凡涉及这三条缆，在按年份加乘容量系数时，系数减半（不全断，但又要表现出影响）
 
-'hong-kong-guam-hk-g',
-'h2-cable',
+第三阶段，在第二阶段基础上，极端情况下，C和H所有涉U的全断
+faster
+japan-u-s-cable-network-jus
+new-cross-pacific-ncp-cable-system
+pacific-crossing-1-pc-1
+tata-tgn-pacific
+trans-pacific-express-tpe-cable-system
 
 """
 
@@ -56,8 +61,15 @@ def write_to_csv(res_list, des_path):
 def gain_format_data():
     """
     根据cable_info.xlsx
-    :return:
+    :return landing_point_dict, cable_rel_list:
     """
+
+    """
+    二阶段，C-U,H-U的缆
+    """
+    cable_u_h = ["asia-america-gateway-aag-cable-system",
+                 "new-cross-pacific-ncp-cable-system",
+                 "trans-pacific-express-tpe-cable-system"]
 
     """
     获取年份和容量对应的数据
@@ -69,15 +81,24 @@ def gain_format_data():
         line = line.strip().split(",")
         # print(line)
         capacity_dict[line[0]] = line[1]
-    print(capacity_dict)
+    # print(capacity_dict)
     cable_file = "../000LocalData/CableMap/cable_info.xlsx"
     print(cable_file)
     work_book = openpyxl.load_workbook(cable_file)
     cable_info_sheet = work_book.worksheets[0]
     cable_rel_sheet = work_book.worksheets[1]
 
+    """
+    三阶段，首先要找出所有涉U的缆列表
+    """
+    cable_u = ["asia-america-gateway-aag-cable-system",
+               "new-cross-pacific-ncp-cable-system",
+               "trans-pacific-express-tpe-cable-system"]
     cable_1 = []  # 存储1阶段要断的缆
+    cable_2 = []  # 存储2阶段要断的缆
+    cable_3 = []  # 存储3阶段要断的缆
     landing_cn_list = []  # 存储中国所有的登陆点数据
+    landing_hk_list = []  # 存储中国香港所有的登陆点数据
     """"
     统计登陆点信息
     """
@@ -97,19 +118,9 @@ def gain_format_data():
         if row_list[5] == "China":
             landing_cn_list.append(row_list[4])
 
-        # print(row_list)
-        # if row_list[2] != "n.a.":
-        #     if row_list[2] >= 2020 and row_list[5] == "China":
-        #         # 满足第一阶段条件，则不统计
-        #         print(row_list[0], row_list[2], row_list[4],  row_list[3])
-        #         cable_1.append(row_list[0])
-        #         continue
-        #
-        #     if row_list[2] >= 2020 and row_list[5] == "China(HK)":
-        #         # 满足第一阶段条件，则不统计
-        #         print(row_list[0], row_list[2], row_list[4],  row_list[3])
-        #         cable_1.append(row_list[0])
-        #         continue
+        if row_list[5] == "China(HK)":
+            landing_hk_list.append(row_list[4])
+
         cable_1 = ["bay-to-bay-express-btobe-cable-system",
                    "hong-kong-americas-hka",
                    "pacific-light-cable-network-plcn"]
@@ -119,6 +130,14 @@ def gain_format_data():
                 arg_value = 0.0
             if row_list[5] == "United States":
                 arg_value = 0.5 * arg_value
+
+        if row_list[0] in cable_u_h:
+            cable_2.append(row_list[0])
+            if row_list[5] == "China" or row_list[5] == "China(HK)":
+                arg_value = 0.0
+            if row_list[5] == "United States":
+                arg_value = 0.5 * arg_value
+
         angle = 0.0
         lon = float(row_list[8])  # 存储当前登陆点的经度信息，用于计算极坐标图的角度
         if lon >= 0.0:
@@ -141,7 +160,9 @@ def gain_format_data():
             if landing_point_dict[row_list[4]][0] < min_arg_value:
                 min_arg_value = landing_point_dict[row_list[4]][0]
 
-    print("第一阶段：", list(set(cable_1)))
+    print("第一阶段要断的缆:", list(set(cable_1)))
+    print("第二阶段要断的缆:", list(set(cable_2)))
+    print("第三阶段要断的缆:", list(set(cable_3)))
     print("海缆登陆站数量统计:%s" % (len(landing_point_dict.keys())))
     print("登陆点中容量映射值最大值为:%s" % max_arg_value)
     print("登陆点中容量映射值最小值为:%s" % min_arg_value)
@@ -154,7 +175,6 @@ def gain_format_data():
     """
     统计登陆点海缆互联信息
     """
-    print(landing_cn_list)
     cable_rel_list = list()  # 统计登陆点之间海缆互联关系
     rows_cnt = 1  # 行计数，初始化为1
     for row in cable_rel_sheet.rows:
@@ -172,6 +192,13 @@ def gain_format_data():
             #     print(row_list)
             #     continue
             if row_list[1] in landing_cn_list or row_list[2] in landing_cn_list:
+                print(row_list)
+                continue
+        if row_list[0] in cable_1 or row_list[0] in cable_2:
+            if row_list[1] in landing_cn_list or row_list[2] in landing_cn_list:
+                print(row_list)
+                continue
+            if row_list[1] in landing_hk_list or row_list[2] in landing_hk_list:
                 print(row_list)
                 continue
 
@@ -570,7 +597,7 @@ def draw_polar_map():
     """
     全球TOP点
     """
-    save_path = "../000LocalData/CableMap/TopLandingPoint20Global_1.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20Global_3.csv"
     print("\nGlobal LandingPoint Rank(TOP20):")
     # 给全球TOP5的AS点做标记
     global_all_as.sort(reverse=False, key=lambda elem: elem[1])
@@ -592,7 +619,7 @@ def draw_polar_map():
             'color': 'black',
             'size': 2
             }
-    save_path = "../000LocalData/CableMap/TopLandingPoint20China_1.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20China_3.csv"
     print("\nChina LandingPoint Rank(TOP20):")
     # 给全国TOP5的AS点做标记
     cn_all_as.sort(reverse=False, key=lambda elem: elem[1])
@@ -615,7 +642,7 @@ def draw_polar_map():
             'color': 'black',
             'size': 2
             }
-    save_path = "../000LocalData/CableMap/TopLandingPoint20US_1.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20US_3.csv"
     print("\nUS LandingPoint Rank(TOP20):")
     # 给US TOP5的AS点做标记
     us_all_as.sort(reverse=False, key=lambda elem: elem[1])
@@ -655,7 +682,7 @@ def draw_polar_map():
     print("连通度最高的AS号半径：", landing_point[min_key])
 
     plt.axis('off')
-    save_fig_name = "../000LocalData/CableMap/as_core_map_scatter_cable_1.jpg"
+    save_fig_name = "../000LocalData/CableMap/as_core_map_scatter_cable_3.jpg"
     plt.savefig(save_fig_name, dpi=1080, facecolor='#202d62')
     # plt.savefig(save_fig_name, dpi=1080, transparent=True)  # 设置背景色为透明
     plt.close()
