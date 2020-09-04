@@ -8,6 +8,12 @@ Function:
 由于RIPE网站没有JS防爬措施，直接用requests库即可
 
 
+在进行直接爬取实验后，时间效率非常之低，仅爬取下载链接就需要好仅两天时间（1个节点2个小时左右）
+因此可以尝试使用并行化爬取策略
+搞完之后，直接扔给服务器
+
+在完成历史数据的爬取后，可以写个脚本用于实时监控当前最新Update报文MRT文件，便于后面做实时的全球BGP路由监测
+
 """
 from bs4 import BeautifulSoup
 import time
@@ -112,7 +118,7 @@ if __name__ == "__main__":
                 "http://data.ris.ripe.net/rrc22/",
                 "http://data.ris.ripe.net/rrc23/",
                 "http://data.ris.ripe.net/rrc24/"]
-    for item in rrc_list[0:1]:
+    for item in rrc_list[24:]:
         try:
             gain_rrc_info(item)
         except Exception as e:
