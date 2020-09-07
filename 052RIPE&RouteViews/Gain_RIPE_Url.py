@@ -93,7 +93,7 @@ def gain_download_list(page_url):
                 all_download_link.append([url_str_list[-1]])  # 保存所有的下载链接
                 # print(url_str_list[-1])
     print("当月所有文件记录:", len(url_str_list))
-    print(all_download_link)
+    # print(all_download_link)
 
 
 if __name__ == "__main__":
@@ -128,7 +128,7 @@ if __name__ == "__main__":
             gain_rrc_info(item)
         except Exception as e:
             print(e)
-    save_path = "all_download_links.csv"
+    save_path = "all_download_links_ripe.csv"
     write_to_csv(all_download_link, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

@@ -638,7 +638,7 @@ def draw_polar_map():
             'color': 'black',
             'size': 2
             }
-    save_path = "../000LocalData/CableMap/TopLandingPoint20HK_0.csv"
+    save_path = "../000LocalData/CableMap/TopLandingPoint20HK_1.csv"
     print("\nHK LandingPoint Rank(TOP20):")
     # 给HK TOP5的AS点做标记
     hk_all_as.sort(reverse=False, key=lambda elem: elem[1])

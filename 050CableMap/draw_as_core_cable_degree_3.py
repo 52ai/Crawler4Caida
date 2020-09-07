@@ -212,6 +212,7 @@ def draw_polar_map():
     cn_key = []  # 记录中国TOP节点
     cn_all_as = []  # 存储所有中国的登陆点
     us_all_as = []  # 存储所有美国的登陆点
+    hk_all_as = []  # 存储所有香港的登陆点
     global_all_as = []  # 所有世界所有的登陆点
 
     point_cnt = 0
@@ -263,6 +264,11 @@ def draw_polar_map():
                               landing_point[key][3]])
             del c_color_list[-1]
             c_color_list.append([float(255.0 / 256), float(0.0 / 256), float(255.0 / 256)])
+
+        if landing_point[key][2] == "China(HK)":
+            hk_all_as.append([key, landing_point[key][0], landing_point[key][1], landing_point[key][2]])
+            del c_color_list[-1]
+            c_color_list.append([float(29.0 / 256), float(113.0 / 256), float(244 / 256)])
 
         # 存储实世界所有AS号
         global_all_as.append([key,
@@ -619,6 +625,29 @@ def draw_polar_map():
             ax.text(point_angle, point_radius, str(flag_cnt), fontdict=font, ha='center', va='center', zorder=7)
         flag_cnt += 1
     write_to_csv(us_all_as[0:20], save_path)
+
+    """
+    香港TOP点
+    """
+    font = {'family': 'sans-serif',
+            'style': 'italic',
+            'weight': 'normal',
+            'color': 'black',
+            'size': 2
+            }
+    save_path = "../000LocalData/CableMap/TopLandingPoint20HK(degree)_3.csv"
+    print("\nHK LandingPoint Rank(TOP20):")
+    # 给HK TOP5的AS点做标记
+    hk_all_as.sort(reverse=False, key=lambda elem: elem[1])
+    flag_cnt = 1
+    for item_as in hk_all_as[0:20]:
+        print(item_as, coordinate_dic[item_as[0]])
+        if flag_cnt <= 2:
+            point_angle = coordinate_dic[item_as[0]][0]
+            point_radius = coordinate_dic[item_as[0]][1]
+            ax.text(point_angle, point_radius, str(flag_cnt), fontdict=font, ha='center', va='center', zorder=7)
+        flag_cnt += 1
+    write_to_csv(hk_all_as[0:20], save_path)
 
     print("连通度最高的AS号半径：", landing_point[min_key])
 

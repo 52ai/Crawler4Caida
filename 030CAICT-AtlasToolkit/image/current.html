@@ -2,17 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>世界地图<04-072(01)-nCov20200414></title>
+    <title>词汇云图<5g_cloud></title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
-        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/shine.js"></script>
 
 </head>
 <body>
-    <div id="44dee8867e3e493c83a976e131e708d3" class="chart-container" style="width:1900px; height:900px;"></div>
+    <div id="927e99641b2248ff9030810ec912dd5c" class="chart-container" style="width:1900px; height:900px;"></div>
     <script>
-        var chart_44dee8867e3e493c83a976e131e708d3 = echarts.init(
-            document.getElementById('44dee8867e3e493c83a976e131e708d3'), 'light', {renderer: 'canvas'});
-        var option_44dee8867e3e493c83a976e131e708d3 = {
+        var chart_927e99641b2248ff9030810ec912dd5c = echarts.init(
+            document.getElementById('927e99641b2248ff9030810ec912dd5c'), 'shine', {renderer: 'canvas'});
+        var option_927e99641b2248ff9030810ec912dd5c = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -23,780 +24,475 @@
     "animationDelayUpdate": 0,
     "series": [
         {
-            "type": "map",
-            "name": "\u8be5\u56fd\u5bb6\uff08\u5730\u533a\uff09\u7d2f\u8ba1\u786e\u8bca\u75c5\u4f8b",
-            "label": {
-                "show": false,
-                "position": "top",
-                "margin": 8
-            },
-            "mapType": "world",
+            "type": "wordCloud",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                10,
+                200
+            ],
             "data": [
                 {
-                    "name": "United States",
-                    "value": "582607"
-                },
-                {
-                    "name": "Spain",
-                    "value": "169496"
-                },
-                {
-                    "name": "Italy",
-                    "value": "159516"
-                },
-                {
-                    "name": "Germany",
-                    "value": "130072"
-                },
-                {
-                    "name": "France",
-                    "value": "98076"
-                },
-                {
-                    "name": "United Kingdom",
-                    "value": "88621"
-                },
-                {
-                    "name": "China",
-                    "value": "83696"
-                },
-                {
-                    "name": "Iran",
-                    "value": "73303"
-                },
-                {
-                    "name": "Turkey",
-                    "value": "61049"
-                },
-                {
-                    "name": "Belgium",
-                    "value": "30789"
-                },
-                {
-                    "name": "Netherlands",
-                    "value": "26551"
-                },
-                {
-                    "name": "Switzerland",
-                    "value": "25688"
-                },
-                {
-                    "name": "Canada",
-                    "value": "25681"
-                },
-                {
-                    "name": "Brazil",
-                    "value": "22169"
-                },
-                {
-                    "name": "Russia",
-                    "value": "18328"
-                },
-                {
-                    "name": "Portugal",
-                    "value": "16934"
-                },
-                {
-                    "name": "Austria",
-                    "value": "13999"
-                },
-                {
-                    "name": "Israel",
-                    "value": "11586"
-                },
-                {
-                    "name": "Sweden",
-                    "value": "10948"
-                },
-                {
-                    "name": "Ireland",
-                    "value": "10647"
-                },
-                {
-                    "name": "Korea",
-                    "value": "10564"
-                },
-                {
-                    "name": "India",
-                    "value": "10363"
-                },
-                {
-                    "name": "Japan",
-                    "value": "7693"
-                },
-                {
-                    "name": "Chile",
-                    "value": "7525"
-                },
-                {
-                    "name": "Peru",
-                    "value": "7519"
-                },
-                {
-                    "name": "Ecuador",
-                    "value": "7466"
-                },
-                {
-                    "name": "Poland",
-                    "value": "6934"
-                },
-                {
-                    "name": "Romania",
-                    "value": "6633"
-                },
-                {
-                    "name": "Norway",
-                    "value": "6547"
-                },
-                {
-                    "name": "Australia",
-                    "value": "6359"
-                },
-                {
-                    "name": "Denmark",
-                    "value": "6318"
-                },
-                {
-                    "name": "Czech Republic",
-                    "value": "6022"
-                },
-                {
-                    "name": "Pakistan",
-                    "value": "5374"
-                },
-                {
-                    "name": "Mexico",
-                    "value": "5014"
-                },
-                {
-                    "name": "Saudi Arabia",
-                    "value": "4934"
-                },
-                {
-                    "name": "Philippines",
-                    "value": "4932"
-                },
-                {
-                    "name": "Malaysia",
-                    "value": "4817"
-                },
-                {
-                    "name": "United Arab Emirates",
-                    "value": "4521"
-                },
-                {
-                    "name": "Indonesia",
-                    "value": "4241"
-                },
-                {
-                    "name": "Republic of Serbia",
-                    "value": "4054"
-                },
-                {
-                    "name": "Luxembourg",
-                    "value": "3292"
-                },
-                {
-                    "name": "Panama",
-                    "value": "3234"
-                },
-                {
-                    "name": "Qatar",
-                    "value": "3231"
-                },
-                {
-                    "name": "Ukraine",
-                    "value": "3102"
-                },
-                {
-                    "name": "Finland",
-                    "value": "3064"
-                },
-                {
-                    "name": "Dominican Republic",
-                    "value": "2967"
-                },
-                {
-                    "name": "Singapore",
-                    "value": "2918"
-                },
-                {
-                    "name": "Colombia",
-                    "value": "2776"
-                },
-                {
-                    "name": "Thailand",
-                    "value": "2579"
-                },
-                {
-                    "name": "Belarus",
-                    "value": "2578"
-                },
-                {
-                    "name": "Argentina",
-                    "value": "2277"
-                },
-                {
-                    "name": "South Africa",
-                    "value": "2272"
-                },
-                {
-                    "name": "Egypt",
-                    "value": "2190"
-                },
-                {
-                    "name": "Greece",
-                    "value": "2145"
-                },
-                {
-                    "name": "Algeria",
-                    "value": "1914"
-                },
-                {
-                    "name": "Morocco",
-                    "value": "1763"
-                },
-                {
-                    "name": "Moldova",
-                    "value": "1712"
-                },
-                {
-                    "name": "Iceland",
-                    "value": "1711"
-                },
-                {
-                    "name": "Croatia",
-                    "value": "1660"
-                },
-                {
-                    "name": "Hungary",
-                    "value": "1458"
-                },
-                {
-                    "name": "Iraq",
-                    "value": "1378"
-                },
-                {
-                    "name": "Bahrain",
-                    "value": "1348"
-                },
-                {
-                    "name": "Estonia",
-                    "value": "1332"
-                },
-                {
-                    "name": "Kuwait",
-                    "value": "1300"
-                },
-                {
-                    "name": "Slovenia",
-                    "value": "1212"
-                },
-                {
-                    "name": "Azerbaijan",
-                    "value": "1148"
-                },
-                {
-                    "name": "New Zealand",
-                    "value": "1072"
-                },
-                {
-                    "name": "Lithuania",
-                    "value": "1062"
-                },
-                {
-                    "name": "Bosnia and Herzegovina",
-                    "value": "1046"
-                },
-                {
-                    "name": "Armenia",
-                    "value": "1039"
-                },
-                {
-                    "name": "Uzbekistan",
-                    "value": "998"
-                },
-                {
-                    "name": "Kazakhstan",
-                    "value": "979"
-                },
-                {
-                    "name": "Puerto Rico",
-                    "value": "897"
-                },
-                {
-                    "name": "North Macedonia",
-                    "value": "854"
-                },
-                {
-                    "name": "Cameroon",
-                    "value": "848"
-                },
-                {
-                    "name": "Bangladesh",
-                    "value": "803"
-                },
-                {
-                    "name": "Slovakia",
-                    "value": "769"
-                },
-                {
-                    "name": "Oman",
-                    "value": "727"
-                },
-                {
-                    "name": "Tunisia",
-                    "value": "726"
-                },
-                {
-                    "name": "Diamond Princess Cruise Ship",
-                    "value": "712"
-                },
-                {
-                    "name": "Bulgaria",
-                    "value": "685"
-                },
-                {
-                    "name": "Cuba",
-                    "value": "669"
-                },
-                {
-                    "name": "Afghanistan",
-                    "value": "665"
-                },
-                {
-                    "name": "Latvia",
-                    "value": "653"
-                },
-                {
-                    "name": "Andorra",
-                    "value": "646"
-                },
-                {
-                    "name": "Cyprus",
-                    "value": "633"
-                },
-                {
-                    "name": "Lebanon",
-                    "value": "632"
-                },
-                {
-                    "name": "Ivory Coast",
-                    "value": "626"
-                },
-                {
-                    "name": "Costa Rica",
-                    "value": "577"
-                },
-                {
-                    "name": "Ghana",
-                    "value": "566"
-                },
-                {
-                    "name": "Niger",
-                    "value": "548"
-                },
-                {
-                    "name": "Burkina Faso",
-                    "value": "515"
-                },
-                {
-                    "name": "Uruguay",
-                    "value": "512"
-                },
-                {
-                    "name": "Albania",
-                    "value": "467"
-                },
-                {
-                    "name": "Honduras",
-                    "value": "393"
-                },
-                {
-                    "name": "Jordan",
-                    "value": "391"
-                },
-                {
-                    "name": "Reunion",
-                    "value": "389"
-                },
-                {
-                    "name": "Malta",
-                    "value": "384"
-                },
-                {
-                    "name": "San Marino",
-                    "value": "356"
-                },
-                {
-                    "name": "Nigeria",
-                    "value": "343"
-                },
-                {
-                    "name": "Mauritius",
-                    "value": "324"
-                },
-                {
-                    "name": "Guinea",
-                    "value": "319"
-                },
-                {
-                    "name": "Bolivia",
-                    "value": "300"
-                },
-                {
-                    "name": "Djibouti",
-                    "value": "298"
-                },
-                {
-                    "name": "Senegal",
-                    "value": "291"
-                },
-                {
-                    "name": "Palestine",
-                    "value": "274"
-                },
-                {
-                    "name": "Georgia",
-                    "value": "266"
-                },
-                {
-                    "name": "Vietnam",
-                    "value": "265"
-                },
-                {
-                    "name": "Democratic Republic of the Congo",
-                    "value": "235"
-                },
-                {
-                    "name": "Isle of Man",
-                    "value": "226"
-                },
-                {
-                    "name": "SriLanka",
-                    "value": "214"
-                },
-                {
-                    "name": "Guernsey",
-                    "value": "209"
-                },
-                {
-                    "name": "Kenya",
-                    "value": "208"
-                },
-                {
-                    "name": "Bailiwick of Jersey",
-                    "value": "198"
-                },
-                {
-                    "name": "Faroe",
-                    "value": "184"
-                },
-                {
-                    "name": "Venezuela",
-                    "value": "171"
-                },
-                {
-                    "name": "Martinique",
-                    "value": "156"
-                },
-                {
-                    "name": "Guatemala",
-                    "value": "153"
-                },
-                {
-                    "name": "Brunei",
-                    "value": "136"
-                },
-                {
-                    "name": "Paraguay",
-                    "value": "134"
-                },
-                {
-                    "name": "Guam",
-                    "value": "133"
-                },
-                {
-                    "name": "Gibraltar",
-                    "value": "129"
-                },
-                {
-                    "name": "Republic of Rwanda",
-                    "value": "126"
-                },
-                {
-                    "name": "El Salvador",
-                    "value": "125"
-                },
-                {
-                    "name": "Mali",
-                    "value": "123"
-                },
-                {
-                    "name": "Kampuchea (Cambodia )",
-                    "value": "122"
-                },
-                {
-                    "name": "Trinidad and Tobago",
-                    "value": "112"
-                },
-                {
-                    "name": "Madagascar",
-                    "value": "106"
-                },
-                {
-                    "name": "Monaco",
-                    "value": "93"
-                },
-                {
-                    "name": "French Guiana",
-                    "value": "86"
-                },
-                {
-                    "name": "Liechtenstein",
-                    "value": "80"
-                },
-                {
-                    "name": "Togo",
-                    "value": "77"
-                },
-                {
-                    "name": "Gabon",
-                    "value": "75"
-                },
-                {
-                    "name": "Ethiopia",
-                    "value": "74"
-                },
-                {
-                    "name": "Jamaica",
-                    "value": "69"
-                },
-                {
-                    "name": "Barbados",
-                    "value": "68"
-                },
-                {
-                    "name": "Liberia",
-                    "value": "59"
-                },
-                {
-                    "name": "Uganda",
-                    "value": "54"
-                },
-                {
-                    "name": "Burma",
-                    "value": "53"
-                },
-                {
-                    "name": "French Polynesia",
-                    "value": "53"
-                },
-                {
-                    "name": "Cayman Is",
-                    "value": "53"
-                },
-                {
-                    "name": "Tanzania",
-                    "value": "46"
-                },
-                {
-                    "name": "Guyana",
-                    "value": "45"
-                },
-                {
-                    "name": "Bahamas",
-                    "value": "42"
-                },
-                {
-                    "name": "Benin",
-                    "value": "35"
-                },
-                {
-                    "name": "Sint Maarten",
-                    "value": "33"
-                },
-                {
-                    "name": "Haiti",
-                    "value": "31"
-                },
-                {
-                    "name": "Mongolia",
-                    "value": "30"
-                },
-                {
-                    "name": "Sudan",
-                    "value": "29"
-                },
-                {
-                    "name": "Libya",
-                    "value": "26"
-                },
-                {
-                    "name": "Somali",
-                    "value": "25"
-                },
-                {
-                    "name": "Syria",
-                    "value": "25"
-                },
-                {
-                    "name": "Antigua and Barbuda",
-                    "value": "21"
-                },
-                {
-                    "name": "The Republic of Equatorial Guinea",
-                    "value": "21"
-                },
-                {
-                    "name": "Mozambique",
-                    "value": "21"
-                },
-                {
-                    "name": "Grand Princess",
-                    "value": "21"
-                },
-                {
-                    "name": "Maldives",
-                    "value": "20"
-                },
-                {
-                    "name": "United Kingdom of Great Britain and Ireland",
-                    "value": "20"
-                },
-                {
-                    "name": "United Kingdom",
-                    "value": "20"
-                },
-                {
-                    "name": "Laos",
-                    "value": "19"
-                },
-                {
-                    "name": "Angola",
-                    "value": "19"
-                },
-                {
-                    "name": "Chad",
-                    "value": "18"
-                },
-                {
-                    "name": "Malawi",
-                    "value": "16"
-                },
-                {
-                    "name": "Fiji",
-                    "value": "16"
-                },
-                {
-                    "name": "Namibia",
-                    "value": "16"
-                },
-                {
-                    "name": "Swaziland",
-                    "value": "15"
-                },
-                {
-                    "name": "St.Lucia",
-                    "value": "15"
-                },
-                {
-                    "name": "Nepal",
-                    "value": "14"
-                },
-                {
-                    "name": "Zimbabwe",
-                    "value": "14"
-                },
-                {
-                    "name": "Belize",
-                    "value": "13"
-                },
-                {
-                    "name": "Botswana",
-                    "value": "13"
-                },
-                {
-                    "name": "Saint Vincent and the Grenadines",
-                    "value": "12"
-                },
-                {
-                    "name": "Central African Republic",
-                    "value": "11"
-                },
-                {
-                    "name": "Seychelles",
-                    "value": "11"
-                },
-                {
-                    "name": "Suriname",
-                    "value": "10"
-                },
-                {
-                    "name": "Sierra Leone",
-                    "value": "10"
-                },
-                {
-                    "name": "Gambia",
-                    "value": "9"
-                },
-                {
-                    "name": "Nicaragua",
-                    "value": "9"
-                },
-                {
-                    "name": "Status Civitatis Vaticanae",
-                    "value": "8"
-                },
-                {
-                    "name": "The Islamic Republic of Mauritania",
-                    "value": "7"
-                },
-                {
-                    "name": "Reunion Island",
-                    "value": "6"
-                },
-                {
-                    "name": "Kingdom of Bhutan",
-                    "value": "5"
-                },
-                {
-                    "name": "Sao Tome and Principe",
-                    "value": "4"
-                },
-                {
-                    "name": "Saint Barthelemy",
-                    "value": "3"
-                },
-                {
-                    "name": "Papua New Guinea",
-                    "value": "2"
-                },
-                {
-                    "name": "Northern Ireland",
-                    "value": "1"
+                    "name": "5G",
+                    "value": "43",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,126,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d4b\u8bd5\u7814\u7a76",
+                    "value": "7",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,133,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ec8\u7aef",
+                    "value": "5",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,20,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5168",
+                    "value": "3",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,66,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u4e1a",
+                    "value": "2",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,21,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u4e1a\u53d1\u5c55",
+                    "value": "2",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,160,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53d1\u5c55\u8d8b\u52bf",
+                    "value": "2",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,159,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u82af\u7247",
+                    "value": "2",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,10,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5173\u952e/\u91cd\u5927\u95ee\u9898",
+                    "value": "2",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,130,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b56\u7565\u7814\u7a76",
+                    "value": "2",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(25,95,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d4b\u8bd5",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,141,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u878d\u5408",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,71,62)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e94\u7528",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,115,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53d1\u5c55\u8def\u5f84",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,116,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u76d1\u7ba1",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,26,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u865a\u62df\u73b0\u5b9e",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,8,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u77ed\u677f\u5668\u4ef6",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,9,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u77e5\u8bc6\u4ea7\u6743",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,102,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1\u8bbe\u5907",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,91,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u7a0b",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,13,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65b0\u4e1a\u6001",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,62,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6a21\u578b",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,58,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u57fa\u7ad9",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,36,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9632\u96f7",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,6,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba4\u8bc1",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,143,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "B5G",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,15,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65e0\u4eba\u673a\u6280\u672f",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,156,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bb8\u53ef\u653f\u7b56",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,83,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9891\u7387",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,84,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u91d1\u878d",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(141,136,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5168\u6280\u672f",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,148,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,123,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bbe\u5907\u8ba4\u8bc1",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,113,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "MIMO\u6027\u80fd",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,44,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7535\u78c1\u517c\u5bb9",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,130,11)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65b0\u80fd\u6e90",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,27,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bbd\u5e26",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,102,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f71\u54cd\u7814\u7a76",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,48,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u56fe",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,97,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a7\u5236\u5668",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,95,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5168\u7b97\u6cd5",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,135,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9891\u8c31",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,138,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u4e1a\u7814\u7a76",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,106,160)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u67b6\u6784",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,55,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4eba\u4f53\u7535\u78c1\u5242\u91cf",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,75,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bc4\u4f30",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,104,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6beb\u7c73\u6ce2",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,31,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u4e1a\u5e03\u5c40",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,141,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ddf\u8e2a\u7814\u7a76",
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,118,45)"
+                        }
+                    }
+                },
+                {
+                    "value": "1",
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,44,12)"
+                        }
+                    }
                 }
-            ],
-            "roam": true,
-            "zoom": 1.1,
-            "showLegendSymbol": false,
-            "emphasis": {},
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
+            ]
         }
     ],
     "legend": [
         {
-            "data": [
-                "\u8be5\u56fd\u5bb6\uff08\u5730\u533a\uff09\u7d2f\u8ba1\u786e\u8bca\u75c5\u4f8b"
-            ],
-            "selected": {
-                "\u8be5\u56fd\u5bb6\uff08\u5730\u533a\uff09\u7d2f\u8ba1\u786e\u8bca\u75c5\u4f8b": true
-            },
+            "data": [],
+            "selected": {},
             "show": true,
             "padding": 5,
             "itemGap": 10,
@@ -818,72 +514,13 @@
     },
     "title": [
         {
-            "text": "\u4e16\u754c\u5730\u56fe<04-072(01)-nCov20200414>",
+            "text": "\u8bcd\u6c47\u4e91\u56fe<5g_cloud>",
             "padding": 5,
             "itemGap": 10
         }
-    ],
-    "visualMap": {
-        "show": true,
-        "type": "piecewise",
-        "min": 0,
-        "max": 100,
-        "textStyle": {
-            "fontSize": 20
-        },
-        "inRange": {
-            "color": [
-                "#50a3ba",
-                "#eac763",
-                "#d94e5d"
-            ]
-        },
-        "calculable": true,
-        "splitNumber": 5,
-        "orient": "vertical",
-        "showLabel": true,
-        "itemWidth": 45,
-        "itemHeight": 30,
-        "pieces": [
-            {
-                "max": 99,
-                "min": 1,
-                "label": "1-99",
-                "color": "#FFEBCD"
-            },
-            {
-                "max": 999,
-                "min": 100,
-                "label": "100-999",
-                "color": "#F5DEB3"
-            },
-            {
-                "max": 4999,
-                "min": 1000,
-                "label": "1000-4999",
-                "color": "#F4A460"
-            },
-            {
-                "max": 9999,
-                "min": 5000,
-                "label": "5000-9999",
-                "color": "#FA8072"
-            },
-            {
-                "max": 99999,
-                "min": 10000,
-                "label": "10000-99999",
-                "color": "#ee2c0f"
-            },
-            {
-                "min": 100000,
-                "label": "\u2265100000",
-                "color": "#5B5B5B"
-            }
-        ]
-    }
+    ]
 };
-        chart_44dee8867e3e493c83a976e131e708d3.setOption(option_44dee8867e3e493c83a976e131e708d3);
+        chart_927e99641b2248ff9030810ec912dd5c.setOption(option_927e99641b2248ff9030810ec912dd5c);
     </script>
 </body>
 </html>

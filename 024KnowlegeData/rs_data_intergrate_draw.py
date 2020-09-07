@@ -84,6 +84,7 @@ def data_intergrate_draw(res_auto_file_path, res_manual_file_path, des_file_path
         for cell in row[5:]:
             if str(cell.value) != "None":
                 key_words_str = key_words_str + str(cell.value).strip() + "、"
+        print(key_words_str)
         key_words_str = key_words_str[0:-1]
         temp_list.append(key_words_str)
         res_manual_list.append(temp_list)
