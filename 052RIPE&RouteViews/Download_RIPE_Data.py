@@ -9,6 +9,7 @@ Function:
 import wget
 import time
 import os
+import urllib.request
 
 download_links_ripe = "all_download_links_ripe.csv"
 
@@ -25,7 +26,7 @@ def download_file(file_url):
     rrc_flag = file_url_split[3]
     time_flag = file_url_split[4]
     file_flag = file_url_split[5]
-    dir_path = "./" + rrc_flag + "/" + time_flag + "/"
+    dir_path = "./ripe/" + rrc_flag + "/" + time_flag + "/"
     file_path = dir_path + file_flag
     print(file_path)
 
@@ -33,6 +34,7 @@ def download_file(file_url):
         os.makedirs(dir_path)
     try:
         wget.download(file_url, file_path)
+        # urllib.request.urlretrieve(file_url, file_path)
     except Exception as e:
         print(e)
 

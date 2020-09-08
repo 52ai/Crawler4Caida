@@ -177,6 +177,26 @@ def external_as_analysis(country, as2country, as_list, org_name):
         external_as_list = list(set(external_as_list))
         print("All External Edges Count:", external_cnt)
         print("All External AS Count(Abroad):", len(list(set(external_country_as))))
+        external_country_as_country = {}  # 统计三家运营商直联国际网络数量的国家分布
+        external_country_as_us = []  # 存储美国AS网络
+        for item_as in list(set(external_country_as)):
+            # print(as2country[item_as])
+            if as2country[item_as] == "US":
+                external_country_as_us.append(item_as)
+
+            if as2country[item_as] not in external_country_as_country.keys():
+                external_country_as_country[as2country[item_as]] = 1
+            else:
+                external_country_as_country[as2country[item_as]] += 1
+        # 将字典转化为列表
+        external_country_as_country_list = []  # 存储三家运营商直联国际网络数量的国家分布
+        for key in external_country_as_country.keys():
+            external_country_as_country_list.append([key, external_country_as_country[key]])
+        external_country_as_country_list.sort(reverse=True, key=lambda elem: elem[1])
+        # print(external_country_as_country_list)
+        print("All External AS Count(Abroad(US)):", external_country_as_country["US"])
+        # print(external_country_as_us)
+
         print("All External AS Count(Internal):", len(external_as_list))
         # print(external_as_rank_list)
         print("All External Country Count:", len(list(set(external_country_list))))
@@ -274,8 +294,8 @@ def draw_bar(rank_list, country, orgname):
 if __name__ == "__main__":
     China_Telecom_AS_list = ['4134', '4809']  # 存储中国电信AS网络
     China_Unicom_AS_list = ['4837', '9929']  # 存储中国联通AS网络
-    China_Mobile_AS_list = ['9808']  # 存储中国移动AS网络
-    China_All_AS_list = ['4134', '4809', '4837', '9929', '9808']
+    China_Mobile_AS_list = ['9808', '58453']  # 存储中国移动AS网络
+    China_All_AS_list = ['4134', '4809', '4837', '9929', '9808', '58453']
 
     time_start = time.time()  # 记录启动时间
     country = "CN"

@@ -119,6 +119,14 @@ def gain_format_data():
         # landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
         landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
 
+        """
+        搞一个分阶函数，让中间圈往外变化小一些，中间圈往内变化大一些
+        """
+        if landing_point_dict[key][0] < (max_arg_value * 0.5):
+            pass
+        else:
+            pass
+
     # print(landing_point_dict)
     """
     统计登陆点海缆互联信息
