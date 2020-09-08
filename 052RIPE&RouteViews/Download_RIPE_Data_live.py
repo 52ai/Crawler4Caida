@@ -14,6 +14,7 @@ import wget
 import time
 import os
 import threading
+import datetime
 
 
 def download_file(file_url):
@@ -22,13 +23,17 @@ def download_file(file_url):
     :param file_url:
     :return:
     """
-    print(file_url)
+    # print(file_url)
     file_url_split = file_url.split("/")
-    print(file_url_split)
+    # print(file_url_split)
     rrc_flag = file_url_split[3]
     file_flag = file_url_split[4]
     dir_path = "./ripe/live_data/" + rrc_flag + "/"
-    file_path = dir_path + file_flag
+    datetime_local = datetime.datetime.fromtimestamp(time.time())
+    datetime_utc = (datetime_local - datetime.timedelta(hours=8))
+    time_str = datetime_utc.strftime("%Y%m%d.%H%M")
+    # print(time.time())
+    file_path = dir_path + time_str + "-" + file_flag
     print(file_path)
 
     if not os.path.exists(dir_path):
@@ -45,9 +50,11 @@ def download_file_live(rrc):
     :param rrc:
     :return:
     """
-    print(rrc)
+    # print(rrc)
     rrc_latest_update_url = "http://data.ris.ripe.net/" + rrc + "/latest-update.gz"
-    download_file(rrc_latest_update_url)
+    while True:
+        download_file(rrc_latest_update_url)
+        time.sleep(60*5)  # 休眠5分钟
 
 
 if __name__ == "__main__":
