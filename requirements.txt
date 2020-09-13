@@ -52,3 +52,5 @@ mss~=6.0.0
 sklearn~=0.0
 scikit-learn~=0.23.1
 wget~=3.2
+dpkt~=1.9.3
+mrtparse~=1.8

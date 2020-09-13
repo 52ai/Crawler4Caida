@@ -32,17 +32,18 @@ def download_file(file_url):
 
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
-    try:
-        wget.download(file_url, file_path)
-        # urllib.request.urlretrieve(file_url, file_path)
-    except Exception as e:
-        print(e)
+
+    wget.download(file_url, file_path)
+    # urllib.request.urlretrieve(file_url, file_path)
 
 
 if __name__ == "__main__":
     time_start = time.time()
     download_links_ripe_read = open(download_links_ripe, "r", encoding='utf-8')
-    for url_item in download_links_ripe_read.readlines():
-        download_file(url_item.strip())
+    for url_item in download_links_ripe_read.readlines()[8426:]:
+        try:
+            download_file(url_item.strip())
+        except Exception as e:
+            print(e)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
