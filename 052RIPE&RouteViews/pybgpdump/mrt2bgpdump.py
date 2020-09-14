@@ -9,8 +9,6 @@ Function:
 支持的MRT格式类型，TABLE_DUMP、TABLE_DUMP_V2、BGP4MP、BGP4MP_ET
 
 """
-
-
 import sys
 import argparse
 import copy
@@ -105,14 +103,14 @@ class BgpDump:
             d = datetime.utcfromtimestamp(d).\
                 strftime('%m/%d/%y %H:%M:%S')
 
-        if self.pkt_num == True:
+        if self.pkt_num:
             d = '%d|%s' % (self.num, d)
 
         if self.flag == 'B' or self.flag == 'A':
             self.output.write('%s|%s|%s|%s|%s|%s|%s|%s' % (
                 self.type, d, self.flag, self.peer_ip, self.peer_as, prefix,
                 self.merge_as_path(), self.origin))
-            if self.verbose == True:
+            if self.verbose:
                 self.output.write('|%s|%d|%d|%s|%s|%s|\n' % (
                     next_hop, self.local_pref, self.med, self.comm,
                     self.atomic_aggr, self.merge_aggr()))
@@ -284,7 +282,7 @@ def main():
     mrt_updates = "../../000LocalData/BGPData/updates.20200809.0420.gz"
     args_str = [mrt_updates, '-M']
     args = parse_args(args_str)
-    print(args)
+    # print(args)
     d = Reader(args.path_to_file)
     count = 0
     for m in d:
@@ -302,4 +300,7 @@ def main():
 
 
 if __name__ == '__main__':
+    time_start = time.time()
     main()
+    time_end = time.time()
+    print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
