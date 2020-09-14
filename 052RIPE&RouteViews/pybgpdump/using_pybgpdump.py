@@ -9,3 +9,10 @@ Function:
 
 from mrtparse import *
 
+
+mrt_updates = "../../000LocalData/BGPData/updates.20200809.0420.gz"
+d = Reader(mrt_updates)
+
+m = d.next()
+for m in d:
+    print(m.mrt.bgp.peer_as)
