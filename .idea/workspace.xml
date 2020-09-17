@@ -26,9 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/052RIPE&amp;RouteViews/Download_RIPE_Data_live_V3.py" beforeDir="false" afterPath="$PROJECT_DIR$/052RIPE&amp;RouteViews/Download_RIPE_Data_live_V3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/052RIPE&amp;RouteViews/RRC节点数据.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/052RIPE&amp;RouteViews/RRC节点数据.xlsx" afterDir="false" />
     </list>
+    <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +228,7 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
       <changelist id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
+      <changelist id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
       <created>1557467017917</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -359,10 +360,10 @@
     <state x="-1459" y="171" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1595309990874" />
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619987388" />
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594352905052" />
-    <state x="-1114" y="437" key="VCS.ChangelistChooser" timestamp="1600244767214">
+    <state x="-1114" y="437" key="VCS.ChangelistChooser" timestamp="1600305584419">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1114" y="437" key="VCS.ChangelistChooser/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600244767214" />
+    <state x="-1114" y="437" key="VCS.ChangelistChooser/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600305584419" />
     <state x="-1749" y="140" width="835" height="804" key="find.popup" timestamp="1598440762046">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
