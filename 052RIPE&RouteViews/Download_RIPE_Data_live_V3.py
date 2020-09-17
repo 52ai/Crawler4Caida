@@ -57,7 +57,7 @@ def download_file(file_url):
     # print(file_url_split)
     rrc_flag = file_url_split[3]
     file_flag = file_url_split[5]
-    dir_path = "../000LocalData/BGPData//ripe/live_data/" + rrc_flag + "/"
+    dir_path = "../000LocalData/BGPData/ripe/live_data/" + rrc_flag + "/"
     file_path = dir_path + file_flag
     print(file_path)
 
