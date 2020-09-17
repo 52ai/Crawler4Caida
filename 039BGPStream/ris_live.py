@@ -23,7 +23,7 @@ def gain_live_data():
 
     params = {
         "moreSpecific": True,
-        "host": "rrc03",
+        "host": "",
         "socketOptions": {
             "includeRaw": True
         }

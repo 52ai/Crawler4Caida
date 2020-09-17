@@ -13,6 +13,9 @@ V2:
 拿到更提前5分钟的数据，其latest-update.gz，要把文件夹中的数据晚5分钟
 此外，加入递归下载以处理网络不稳定的情况
 
+V3:
+处理了requests请求错误异常
+
 """
 
 import wget
@@ -54,17 +57,13 @@ def download_file(file_url):
     # print(file_url_split)
     rrc_flag = file_url_split[3]
     file_flag = file_url_split[5]
-    dir_path = "./ripe/live_data/" + rrc_flag + "/"
+    dir_path = "../000LocalData/BGPData//ripe/live_data/" + rrc_flag + "/"
     file_path = dir_path + file_flag
     print(file_path)
 
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
-    try:
-        wget.download(file_url, file_path)
-    except Exception as e:
-        download_file(file_url)
-        print(e)
+    wget.download(file_url, file_path)
 
 
 def download_file_live(rrc):
@@ -74,12 +73,15 @@ def download_file_live(rrc):
     :return:
     """
     while True:
-        datetime_local = datetime.datetime.fromtimestamp(time.time())
-        datetime_utc = (datetime_local - datetime.timedelta(hours=8))
-        time_str = datetime_utc.strftime("%Y.%m")
-        rrc_latest_month_url = "http://data.ris.ripe.net/" + rrc + "/" + time_str + "/"
-        rrc_latest_update_url = gain_latest_update_url(rrc_latest_month_url)
-        download_file(rrc_latest_update_url)
+        try:
+            datetime_local = datetime.datetime.fromtimestamp(time.time())
+            datetime_utc = (datetime_local - datetime.timedelta(hours=8))
+            time_str = datetime_utc.strftime("%Y.%m")  # 获取当前的年、月字符串
+            rrc_latest_month_url = "http://data.ris.ripe.net/" + rrc + "/" + time_str + "/"  # 拼接月份文件夹
+            rrc_latest_update_url = gain_latest_update_url(rrc_latest_month_url)  # 获取最新连接
+            download_file(rrc_latest_update_url)
+        except Exception as e:
+            print("Download Error:", e)
         time.sleep(5*60)  # 休眠5分钟
 
 

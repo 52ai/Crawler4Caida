@@ -279,9 +279,9 @@ class BgpDump:
 
 
 def main():
-    # mrt_updates = "../../000LocalData/BGPData/updates.20200809.0420.gz"
-    mrt_updates = "../../000LocalData/BGPData/bview.20080831.1559.gz"
-    args_str = [mrt_updates, '-M', '-O', 'output.txt']
+    mrt_updates = "../../000LocalData/BGPData/updates.20200809.0420.gz"
+    # mrt_updates = "../../000LocalData/BGPData/bview.20080831.1559.gz"
+    args_str = [mrt_updates, '-M', '-O', '../../000LocalData/BGPData/output.txt']
     args = parse_args(args_str)
     # print(args)
     d = Reader(args.path_to_file)
