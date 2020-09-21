@@ -115,6 +115,7 @@ if __name__ == "__main__":
                 "rrc15", "rrc16", "rrc17", "rrc18", "rrc19",
                 "rrc20", "rrc21", "rrc22", "rrc23", "rrc24",
                 "rrc25", "rrc26", "rrc27", "rrc28"]
+    # rrc_list = ["rrc26"]
     """
     采用多线程，监控25个节点，每隔5分钟爬取一次最新的Update报文
     """

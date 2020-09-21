@@ -26,8 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/052RIPE&amp;RouteViews/Download_RouteViews_live.py" beforeDir="false" afterPath="$PROJECT_DIR$/052RIPE&amp;RouteViews/Download_RouteViews_live.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/052RIPE&amp;RouteViews/pybgpdump/mrt2bgpdump.py" beforeDir="false" afterPath="$PROJECT_DIR$/052RIPE&amp;RouteViews/pybgpdump/mrt2bgpdump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/053PaddlePaddle/pre_task_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/053PaddlePaddle/pre_task_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/053PaddlePaddle/pre_task_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/053PaddlePaddle/pre_task_02.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -54,6 +58,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1eTfk4jnNlfnTNoKG0FZVnH4Hgq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,13 +73,6 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\pybgpdump" />
-      <recent name="D:\Code\Crawler4Caida" />
-      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
-      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData" />
@@ -82,8 +80,15 @@
       <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\pybgpdump" />
       <recent name="D:\Code\Crawler4Caida\024KnowlegeData" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\pybgpdump" />
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
+      <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Download_RouteViews_live">
+  <component name="RunManager" selected="Python.ASlay_plus_Mayavi">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +105,27 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
+    <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Download_RIPE_Data_live_V3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,27 +139,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/052RIPE&amp;RouteViews/Download_RIPE_Data_live_V3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Download_RIPE_Data_live_V3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/052RIPE&amp;RouteViews" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\Download_RIPE_Data_live_V3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ris_live" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pre_task_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +197,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039BGPStream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/053PaddlePaddle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/053PaddlePaddle/pre_task_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ris_live" />
-      <item itemvalue="Python.mrt2bgpdump" />
-      <item itemvalue="Python.Download_RIPE_Data_live_V3" />
       <item itemvalue="Python.Download_RIPE_Data_live_V3 (1)" />
       <item itemvalue="Python.Download_RouteViews_live" />
+      <item itemvalue="Python.pre_task_01" />
+      <item itemvalue="Python.mrt2bgpdump" />
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Download_RouteViews_live" />
-        <item itemvalue="Python.Download_RIPE_Data_live_V3 (1)" />
-        <item itemvalue="Python.ris_live" />
-        <item itemvalue="Python.Download_RIPE_Data_live_V3" />
+        <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.mrt2bgpdump" />
+        <item itemvalue="Python.Download_RouteViews_live" />
+        <item itemvalue="Python.pre_task_01" />
+        <item itemvalue="Python.Download_RIPE_Data_live_V3 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -283,50 +288,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="405" key="GridCell.Tab.0.bottom" timestamp="1600650034306">
+    <state width="1899" height="135" key="GridCell.Tab.0.bottom" timestamp="1600676927682">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600013111233" />
     <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600650034306" />
+    <state width="1899" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600676927682" />
     <state width="1899" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599809213213" />
     <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
     <state width="1882" height="448" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958044" />
     <state width="1899" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600069807741" />
-    <state width="1899" height="405" key="GridCell.Tab.0.center" timestamp="1600650034306">
+    <state width="1899" height="135" key="GridCell.Tab.0.center" timestamp="1600676927681">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="353" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600013111233" />
     <state width="1899" height="227" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="405" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600650034306" />
+    <state width="1899" height="135" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600676927681" />
     <state width="1899" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599809213213" />
     <state width="1899" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
     <state width="1882" height="448" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
     <state width="1899" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600069807741" />
-    <state width="1899" height="405" key="GridCell.Tab.0.left" timestamp="1600650034305">
+    <state width="1899" height="135" key="GridCell.Tab.0.left" timestamp="1600676927681">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761683" />
     <state width="1059" height="730" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="353" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600013111232" />
     <state width="1899" height="227" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="405" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600650034305" />
+    <state width="1899" height="135" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600676927681" />
     <state width="1899" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599809213213" />
     <state width="1899" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464137" />
     <state width="1882" height="448" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
     <state width="1899" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600069807740" />
-    <state width="1899" height="405" key="GridCell.Tab.0.right" timestamp="1600650034306">
+    <state width="1899" height="135" key="GridCell.Tab.0.right" timestamp="1600676927682">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="353" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600013111233" />
     <state width="1899" height="227" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="405" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600650034306" />
+    <state width="1899" height="135" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600676927682" />
     <state width="1899" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599809213213" />
     <state width="1899" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
     <state width="1882" height="448" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
@@ -370,11 +375,11 @@
     </state>
     <state x="-1258" y="118" width="596" height="804" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597764380662" />
     <state x="-1749" y="140" width="835" height="804" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598440762046" />
-    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1600304625456">
+    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1600664124656">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600010079306" />
-    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600304625456" />
+    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600664124656" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598492317316" />
   </component>
   <component name="masterDetails">
