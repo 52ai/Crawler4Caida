@@ -83,7 +83,8 @@ def download_file(file_url, rrc):
     print(file_path)
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
-    wget.download(file_url, file_path)
+    if not os.path.exists(file_path):
+        wget.download(file_url, file_path)
 
 
 def download_file_live(rrc):
@@ -102,7 +103,7 @@ def download_file_live(rrc):
             download_file(rrc_latest_update_url, rrc)
         except Exception as e:
             print("Download Error:", e)
-        time.sleep(15*60)  # 休眠15分钟
+        time.sleep(5*60)  # 休眠5分钟
 
 
 if __name__ == "__main__":
