@@ -89,12 +89,12 @@ if __name__ == "__main__":
     time_start = time.time()
     # RIPE历史数据 rrc17无效，其余均有效
     # RIPE实时数据 rrc02、rrc08、rrc09无效，其余均有效
-    rrc_list = ["rrc00", "rrc01", "rrc03", "rrc04",
-                "rrc05", "rrc06", "rrc07",
-                "rrc10", "rrc11", "rrc12", "rrc13", "rrc14",
-                "rrc15", "rrc16", "rrc18", "rrc19",
-                "rrc20", "rrc21", "rrc22", "rrc23", "rrc24"]
-    # rrc_list = ["rrc03"]
+    # rrc_list = ["rrc00", "rrc01", "rrc03", "rrc04",
+    #             "rrc05", "rrc06", "rrc07",
+    #             "rrc10", "rrc11", "rrc12", "rrc13", "rrc14",
+    #             "rrc15", "rrc16", "rrc18", "rrc19",
+    #             "rrc20", "rrc21", "rrc22", "rrc23", "rrc24"]
+    rrc_list = ["rrc00"]
     """
     采用多线程，监控25个节点，每隔5分钟爬取一次最新的Update报文
     """
