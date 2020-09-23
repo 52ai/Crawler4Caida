@@ -53,7 +53,7 @@ def gain_latest_update_url(page_url):
     :param page_url:
     :return latest_update_url:
     """
-    print(page_url)
+    # print(page_url)
     page_html = requests.get(page_url)
     bs_obj = BeautifulSoup(page_html.text, "html5lib")
     time.sleep(1)
@@ -74,9 +74,9 @@ def download_file(file_url, rrc):
     :param rrc:
     :return:
     """
-    print(file_url)
+    # print(file_url)
     file_url_split = file_url.split("/")
-    print(file_url_split)
+    # print(file_url_split)
     file_flag = file_url_split[-1]
     dir_path = "../000LocalData/BGPData/route-views/live_data/" + rrc + "/"
     file_path = dir_path + file_flag

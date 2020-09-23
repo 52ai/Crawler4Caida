@@ -52,7 +52,7 @@ def download_file(file_url):
     :param file_url:
     :return:
     """
-    print(file_url)
+    # print(file_url)
     file_url_split = file_url.split("/")
     # print(file_url_split)
     rrc_flag = file_url_split[3]
