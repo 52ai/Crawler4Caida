@@ -26,7 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/043BGPlayPaper/Global_BGP_lay_V2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -207,11 +206,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.CN-BGPMon" />
       <item itemvalue="Python.Download_RIPE_Data_live_V3" />
       <item itemvalue="Python.Download_RouteViews_live" />
       <item itemvalue="Python.extractPeeringDB_v2" />
-      <item itemvalue="Python.ASlay_plus_Mayavi" />
     </list>
     <recent_temporary>
       <list>
