@@ -26,7 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/Nets_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/ipdb_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/loss_rate.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/raw_data_excel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/time_delay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/模板文件.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity_cn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -64,26 +73,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/043BGPlayPaper/echarts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets" />
+      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest" />
+      <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper\echarts" />
+      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
       <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\pybgpdump" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
       <recent name="D:\Code\Crawler4Caida\041BGPRelationshipsPaper" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\Paper_Data" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper\echarts" />
-      <recent name="D:\Code\Crawler4Caida\043BGPlayPaper" />
-      <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews" />
-      <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData" />
-      <recent name="D:\Code\Crawler4Caida\023RUNet" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.netspeed_ui_version_v5">
+  <component name="RunManager" selected="Python.Nets_run">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +109,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="Gain_Js" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Nets_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper/echarts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/echarts/Gain_Js.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/Nets_run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Generate_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gain_as2ip_quantity_cn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper/echarts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/031CAICT-Display" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/echarts/Generate_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/031CAICT-Display/gain_as2ip_quantity_cn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extractPeeringDB_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ipdb_sample (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +159,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/016IXPAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/016IXPAnalysis/extractPeeringDB_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/ipdb_sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ipdb_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\ipdb_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,41 +214,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ris_live" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039BGPStream" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.extractPeeringDB_v2" />
-      <item itemvalue="Python.Generate_json" />
-      <item itemvalue="Python.Gain_Js" />
-      <item itemvalue="Python.ris_live" />
+      <item itemvalue="Python.Nets_run" />
+      <item itemvalue="Python.gain_as2ip_quantity_cn" />
+      <item itemvalue="Python.ipdb_sample (1)" />
+      <item itemvalue="Python.ipdb_sample" />
       <item itemvalue="Python.netspeed_ui_version_v5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Nets_run" />
+        <item itemvalue="Python.ipdb_sample (1)" />
+        <item itemvalue="Python.ipdb_sample" />
         <item itemvalue="Python.netspeed_ui_version_v5" />
-        <item itemvalue="Python.ris_live" />
-        <item itemvalue="Python.Generate_json" />
-        <item itemvalue="Python.Gain_Js" />
-        <item itemvalue="Python.extractPeeringDB_v2" />
+        <item itemvalue="Python.gain_as2ip_quantity_cn" />
       </list>
     </recent_temporary>
   </component>
@@ -278,60 +287,65 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1334" y="202" key="#Inspections/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600078068880" />
-    <state x="-1078" y="385" key="#Notifications" timestamp="1596160818323">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="-1078" y="381" key="#Notifications" timestamp="1602428387498">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="842" y="381" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683911911" />
+    <state x="-1078" y="381" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602428387498" />
     <state x="-1078" y="385" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1596160818323" />
     <state x="842" y="381" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619372719" />
+    <state x="-1268" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602578450086">
+      <screen x="-1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="-1268" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602578450086" />
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl" timestamp="1594619985430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="223" width="440" height="575" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594619985430" />
-    <state width="1899" height="171" key="GridCell.Tab.0.bottom" timestamp="1602329141852">
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1602584036768">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601110183412" />
     <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602329141852" />
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602584036768" />
     <state width="1773" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155401" />
     <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
     <state width="1882" height="448" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958044" />
     <state width="1899" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600069807741" />
-    <state width="1899" height="171" key="GridCell.Tab.0.center" timestamp="1602329141851">
+    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1602584036768">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="192" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601110183412" />
     <state width="1899" height="227" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="171" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602329141851" />
+    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602584036768" />
     <state width="1773" height="194" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155400" />
     <state width="1899" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
     <state width="1882" height="448" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
     <state width="1899" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600069807741" />
-    <state width="1899" height="171" key="GridCell.Tab.0.left" timestamp="1602329141851">
+    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1602584036768">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761683" />
     <state width="1059" height="730" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="192" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601110183412" />
     <state width="1899" height="227" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="171" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602329141851" />
+    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602584036768" />
     <state width="1773" height="194" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155400" />
     <state width="1899" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464137" />
     <state width="1882" height="448" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
     <state width="1899" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600069807740" />
-    <state width="1899" height="171" key="GridCell.Tab.0.right" timestamp="1602329141852">
+    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1602584036768">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="478" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595683761684" />
     <state width="1059" height="730" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1595168474451" />
     <state width="1899" height="192" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601110183412" />
     <state width="1899" height="227" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="171" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602329141852" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602584036768" />
     <state width="1773" height="194" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155401" />
     <state width="1899" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
     <state width="1882" height="448" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
@@ -376,11 +390,11 @@
     </state>
     <state x="-1258" y="118" width="596" height="804" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597764380662" />
     <state x="-1749" y="140" width="835" height="804" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598440762046" />
-    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1600664124656">
+    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602569534734">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600010079306" />
-    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600664124656" />
+    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602569534734" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598492317316" />
   </component>
   <component name="XDebuggerManager">
