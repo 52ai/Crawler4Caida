@@ -1,7 +1,7 @@
 # coding:utf-8
 """
 create on Oct 13, 2020 by Wenyan YU
-FUnction:
+Function:
 国际互联网数据专用通道测速软件全面升级
 版本V6：主要在V5版本基础之上，优化软件启动方式、新增定制化报告输出功能
 
@@ -445,7 +445,7 @@ if __name__ == "__main__":
     # 读取ip_info
     ip_info_excel_path = "./raw_data_excel.xlsx"
     ip_info = read_ip_info(ip_info_excel_path)
-    print(ip_info)
+    # print(ip_info)
     # 创建一个top level的根窗口，并把他作为参数实例化APP对象
     root = tk.Tk()
     root.title("Nets Tools-V6.0(By Wenyan YU)")
