@@ -25,18 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/Nets_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/Nets_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/ipdb_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/ipdb_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/loss_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/loss_rate.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/time_delay.csv" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/time_delay.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/使用说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/001GlobalNetTest/ywyscripts_Nets/使用说明.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/050CableMap/cable_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/050CableMap/cable_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/050CableMap/draw_as_core_cable.py" beforeDir="false" afterPath="$PROJECT_DIR$/050CableMap/draw_as_core_cable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/050CableMap/draw_as_core_cable_degree.py" beforeDir="false" afterPath="$PROJECT_DIR$/050CableMap/draw_as_core_cable_degree.py" afterDir="false" />
-    </list>
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -398,11 +387,11 @@
     </state>
     <state x="-1258" y="118" width="596" height="804" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597764380662" />
     <state x="-1749" y="140" width="835" height="804" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598440762046" />
-    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602569534734">
+    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602748558293">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600010079306" />
-    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602569534734" />
+    <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602748558293" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598492317316" />
   </component>
   <component name="XDebuggerManager">
