@@ -18,6 +18,7 @@ import threading
 import time
 import re
 import csv
+import os
 
 import requests
 import pandas as pd
@@ -283,20 +284,23 @@ class App:
         self.ip_public = re.findall('\d+.\d+.\d+.\d+', req.text)[0]
         self.ip_isp = "查无"  # 获取运营商信息
 
+        # 设置测试结果目录
+        self.result_dir = "./result"
+
         # 用三个LabelFrame将TopView分为三个区
         # 部区域
-        group_top = LabelFrame(root, text="INPUT", padx=5, pady=5)
+        group_top = LabelFrame(root, text="参数设置", padx=5, pady=5)
         group_top.grid(row=0, column=0, sticky=W)
         Label(group_top, text="City：").grid(row=0, column=0, sticky=W, padx=10, pady=5)
         Label(group_top, text="Company：").grid(row=1, column=0, sticky=W, padx=10, pady=5)
         Label(group_top, text="Thread：").grid(row=2, column=0, sticky=W, padx=10, pady=5)
         Label(group_top, text="Ping：").grid(row=3, column=0, sticky=W, padx=10, pady=5)
 
-        self.btn_run = Button(group_top, text="Run", width=10, command=self.app_run)
+        self.btn_run = Button(group_top, text="运行", width=10, command=self.app_run)
         self.btn_run.grid(row=4, column=0, sticky=W, padx=10, pady=5)
-        self.btn_stop = Button(group_top, text="Sop", width=10, command=self.stop)
+        self.btn_stop = Button(group_top, text="暂停", width=10, command=self.stop)
         self.btn_stop.grid(row=4, column=1, sticky=E, padx=10, pady=5)
-        self.btn_exit = Button(group_top, text="Exit", width=10, command=self.sys_exit)
+        self.btn_exit = Button(group_top, text="退出", width=10, command=self.sys_exit)
         self.btn_exit.grid(row=4, column=2, sticky=W, padx=10, pady=5)
 
         v1 = StringVar(group_top, value="北京")
@@ -310,7 +314,7 @@ class App:
 
         comvalue_ping = StringVar()
         self.c_ping = ttk.Combobox(group_top, textvariable=comvalue_ping, width=10)
-        self.c_ping["values"] = ("1", "10", "50", "100", "200")
+        self.c_ping["values"] = ("1", "10", "100", "200")
         self.c_ping.current(1)
 
         self.e1.grid(row=0, column=1, sticky=W, padx=10, pady=5)
@@ -322,23 +326,26 @@ class App:
         # print(self.c_ping.get())
 
         # 中部区域
-        group_middle = LabelFrame(root, text="OUTPUT", padx=5, pady=5)
+        group_middle = LabelFrame(root, text="测试输出", padx=5, pady=5)
         group_middle.grid(row=1, column=0, sticky=W)
 
         sb_m = Scrollbar(group_middle)
         sb_m.pack(side=RIGHT, fill=Y)
-        self.lb_m = Listbox(group_middle, yscrollcommand=sb_m.set, width=60, height=25)
+        self.lb_m = Listbox(group_middle, yscrollcommand=sb_m.set, width=60, height=10)
         self.lb_m.pack(side=LEFT, fill=BOTH)
         sb_m.config(command=self.lb_m.yview)
 
         # 底部区域
-        group_bottom = LabelFrame(root, text="MANAGER", padx=5, pady=5)
+        group_bottom = LabelFrame(root, text="其他功能", padx=5, pady=5)
         group_bottom.grid(row=3, column=0, sticky=W)
 
-        self.btn_ip_test = Button(group_bottom, text="IP_List_Test", width=10, command=self.ip_test)
+        self.btn_ip_test = Button(group_bottom, text="连通测试", width=10, command=self.ip_test)
         self.btn_ip_test.grid(row=0, column=0, sticky=W, padx=10, pady=5)
-        self.btn_report = Button(group_bottom, text="Report", width=10, command=self.report)
+        self.btn_report = Button(group_bottom, text="测试报告", width=10, command=self.report)
         self.btn_report.grid(row=0, column=1, sticky=E, padx=10, pady=5)
+        self.btn_result = Button(group_bottom, text="测试结果", width=10, command=self.result)
+        self.btn_result.grid(row=0, column=2, sticky=E, padx=10, pady=5)
+
 
         # 显示进度条
         self.tv = ttk.Progressbar(root, orient='horizontal', length=455, mode='determinate', value=0)
@@ -411,6 +418,10 @@ class App:
     def report(self):
         tk.messagebox.showinfo("提示", "需根据个性化需求定制报表生成功能！")
 
+    def result(self):
+        print("Event:查看测试结果")
+        os.startfile(os.path.abspath(self.result_dir))
+
 
 def read_ip_info(file_path):
     """
@@ -422,7 +433,7 @@ def read_ip_info(file_path):
     # print(data['监测点名称'])
     # print(data['IP'])
     ip_info_dic = {}
-    for i in range(0,len(data['监测点名称'])):
+    for i in range(0, len(data['监测点名称'])):
         # print(data["监测点名称"][i].split("_")[0])
         location = data["监测点名称"][i].split("_")[0]
         if location not in ip_info_dic:
@@ -449,7 +460,7 @@ if __name__ == "__main__":
     # 创建一个top level的根窗口，并把他作为参数实例化APP对象
     root = tk.Tk()
     root.title("Nets Tools-V6.0(By Wenyan YU)")
-    root.minsize(400, 800)  # 设置最小尺寸
+    root.minsize(400, 400)  # 设置最小尺寸
     app = App(root)
     # 开始主事件循环
     root.mainloop()

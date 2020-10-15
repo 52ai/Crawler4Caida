@@ -13,7 +13,7 @@
 
 # 软件使用步骤
 
-第一步，配置Python3.7环境，并安装requests、pandas、ipdb第三方库。
+第一步，配置Python3.7环境，并安装requests、pandas、ipip-ipdb、xlrd第三方库。
 第二步，点击run.bat批处理脚本直接运行程序。
 
 
