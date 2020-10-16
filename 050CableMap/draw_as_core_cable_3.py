@@ -9,25 +9,11 @@ Function:
 数据输入为子飞输出的Excel文件“cable_info.xlsx”
 
 
-第一阶段，在原始阶段基础上，把C国所有在建海缆全部剔除，重新绘制极图
-southeast-asia-japan-cable-2-sjc2
-hainan-hong-kong-submarine-cable-system
-
-第二阶段，在第一阶段基础上，断3条，C-U, H-U的缆，重新绘制极图
-
-asia-america-gateway-aag-cable-system
-new-cross-pacific-ncp-cable-system
-trans-pacific-express-tpe-cable-system
-
-凡涉及这三条缆，在按年份加乘容量系数时，系数减半（不全断，但又要表现出影响）
-
-第三阶段，在第二阶段基础上，极端情况下，C和H所有涉U的全断
-faster
-japan-u-s-cable-network-jus
-new-cross-pacific-ncp-cable-system
-pacific-crossing-1-pc-1
-tata-tgn-pacific
-trans-pacific-express-tpe-cable-system
+第三阶段，在第一阶段基础上，极端情况下，C和H所有涉U的全断
+重度断中美、港美（3条）
+"asia-america-gateway-aag-cable-system",
+"new-cross-pacific-ncp-cable-system",
+"trans-pacific-express-tpe-cable-system"
 
 """
 
