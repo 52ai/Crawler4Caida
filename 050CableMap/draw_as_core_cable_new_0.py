@@ -17,6 +17,10 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
+import math
+
+x_list = []  # 存储x值
+LOG_A = 1.5  # 存储log底数
 
 
 def write_to_csv(res_list, des_path):
@@ -37,6 +41,50 @@ def write_to_csv(res_list, des_path):
     finally:
         csvFile.close()
     print("write finish!")
+
+
+def compute_2_point_distance(x0, y0, k, b):
+    """
+    求某点关于y=kx+b直线的对称点
+    :param x0:
+    :param y0:
+    :param k:
+    :param b:
+    :return x1,x2:
+    """
+    x1 = ((1-k*k)*x0 + 2*k*y0 - 2*k*b) / (1+k*k)
+    y1 = (2*k*x0 + (k*k-1)*y0+2*b) / (1+k*k)
+    return x1, y1
+
+
+def f1(x, max_value):
+    """
+    原函数
+    :param x:
+    :param max_value:
+    :return:
+    """
+    log_args = (x+1)/(max_value+1)
+    return 1 - math.log(log_args, np.e)
+
+
+def radius_fun(x, max_value, min_value):
+    """
+    半径生成函数
+    根据传入的x值，和max_value、min_value值，确定x的半径
+    :param x:
+    :param max_value:
+    :param min_value:
+    :return radius:
+    """
+    x_list.append(x)
+    # radius = 1 - math.log((x + 1)/(max_value + 1), np.e)
+    x0 = x
+    y0 = f1(x0, max_value)
+    k = (f1(min_value, max_value) - 1) / (min_value - max_value)
+    b = 1 - k * max_value
+    x1, y1 = compute_2_point_distance(x0, y0, k, b)
+    return y1
 
 
 def gain_format_data():
@@ -119,15 +167,7 @@ def gain_format_data():
     print("根据容量映射最大值，按照 radius = 1 - log((ARGS(Point)+1) / (MAX_ARGS + 1))，计算极径")
     for key in landing_point_dict.keys():
         # landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
-        landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
-
-        """
-        搞一个分阶函数，让中间圈往外变化小一些，中间圈往内变化大一些
-        """
-        if landing_point_dict[key][0] < (max_arg_value * 0.5):
-            pass
-        else:
-            pass
+        landing_point_dict[key][0] = radius_fun(landing_point_dict[key][0], max_arg_value, min_arg_value)  # 半径生成函数
 
     # print(landing_point_dict)
     """
@@ -408,6 +448,7 @@ def draw_polar_map():
                 'size': 4
                 }
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+
         text_theta = 0.0
         text_radius = max_radius + 1
         ax.text(text_theta, text_radius, "伦敦, 英国", fontdict=font, ha='left', va='center', rotation=0)
@@ -631,5 +672,70 @@ def draw_polar_map():
 if __name__ == "__main__":
     time_start = time.time()  # 记录程序启动的时间
     print(draw_polar_map())
+    x_list = sorted(x_list)
+    n_list = []
+    for i in range(1, len(x_list)+1):
+        n_list.append(i)
+
+    plt.figure()
+    plt.plot(n_list, x_list, 'r')
+    plt.xlabel("N(Point)")
+    plt.ylabel("Args(Point)")
+    # plt.show()
+    plt.close()
+
+    y_list = []
+    # for i in x_list:
+    #     y_list.append((1-np.log((i+1)/(max(x_list)+1))))
+    #     # y_list.append(f1(i, max(x_list)))
+
+    # y_list_10 = []
+    # for i in x_list:
+    #     args = (i+1)/(max(x_list)+1)
+    #     y_list_10.append((1-math.log(args, 10)))
+    #
+    # y_list_1plus = []
+    # for i in x_list:
+    #     args = (i+1)/(max(x_list)+1)
+    #     y_list_1plus.append((1-math.log(args, LOG_A)))
+
+    x_list_new = []  # 存储新函数的x值
+    y_list_new = []  # 存储新函数的y值
+
+    x_list_line = []  # 存储直线的x值
+    y_list_line = []  # 存储直线的y值
+
+    for i in x_list:
+        x0 = i
+        y0 = f1(x0, max(x_list))
+
+        k = (f1(min(x_list), max(x_list)) - 1) / (min(x_list) - max(x_list))
+        b = 1-k*max(x_list)
+
+        y_list.append(y0)
+
+        x1, y1 = compute_2_point_distance(x0, y0, k, b)
+        x_list_new.append(x1)
+        y_list_new.append(y1)
+
+        x_list_line.append(x0)
+        y_list_line.append(k*x0 + b)
+
+    print(x_list)
+    print(x_list_new)
+
+    plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
+    plt.figure()
+    plt.plot(x_list, y_list, 'g', label='1-np.log((x+1)/(max(x_list)+1))')
+    # plt.plot(x_list, y_list_10, 'g', label='1-log10((x+1)/(max(x_list)+1))')
+    # plt.plot(x_list, y_list_1plus, 'b', label='1-log1plus((x+1)/(max(x_list)+1))')
+    plt.plot(x_list_new, y_list_new, 'r', label='new function')
+    plt.plot(x_list_line, y_list_line, 'b', label="line")
+    plt.xlabel("x")
+    plt.ylabel("y")
+    plt.legend()
+    plt.show()
+    plt.close()
+
     time_end = time.time()  # 记录程序结束的时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

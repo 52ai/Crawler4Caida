@@ -23,6 +23,10 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
+import math
+
+
+LOG_A = 1.5   # 存储log底数
 
 
 def write_to_csv(res_list, des_path):
@@ -43,6 +47,49 @@ def write_to_csv(res_list, des_path):
     finally:
         csvFile.close()
     print("write finish!")
+
+
+def compute_2_point_distance(x0, y0, k, b):
+    """
+    求某点关于y=kx+b直线的对称点
+    :param x0:
+    :param y0:
+    :param k:
+    :param b:
+    :return x1,x2:
+    """
+    x1 = ((1-k*k)*x0 + 2*k*y0 - 2*k*b) / (1+k*k)
+    y1 = (2*k*x0 + (k*k-1)*y0+2*b) / (1+k*k)
+    return x1, y1
+
+
+def f1(x, max_value):
+    """
+    原函数
+    :param x:
+    :param max_value:
+    :return:
+    """
+    log_args = (x+1)/(max_value+1)
+    return 1 - math.log(log_args, np.e)
+
+
+def radius_fun(x, max_value, min_value):
+    """
+    半径生成函数
+    根据传入的x值，和max_value、min_value值，确定x的半径
+    :param x:
+    :param max_value:
+    :param min_value:
+    :return radius:
+    """
+    # radius = 1 - math.log((x + 1)/(max_value + 1), np.e)
+    x0 = x
+    y0 = f1(x0, max_value)
+    k = (f1(min_value, max_value) - 1) / (min_value - max_value)
+    b = 1 - k * max_value
+    x1, y1 = compute_2_point_distance(x0, y0, k, b)
+    return y1
 
 
 def gain_format_data():
@@ -140,7 +187,8 @@ def gain_format_data():
     # print(landing_point_dict)
     print("根据容量映射最大值，按照 radius = 1 - log((ARGS(Point)+1) / (MAX_ARGS + 1))，计算极径")
     for key in landing_point_dict.keys():
-        landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
+        # landing_point_dict[key][0] = 1 - np.log((landing_point_dict[key][0] + 1)/(max_arg_value + 1))
+        landing_point_dict[key][0] = radius_fun(landing_point_dict[key][0], max_arg_value, min_arg_value)  # 半径生成函数
 
     # print(landing_point_dict)
     """
