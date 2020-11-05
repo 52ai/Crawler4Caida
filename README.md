@@ -34,6 +34,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 如汪滔之于大疆一般，用心去打磨一款极致的技术产品。---20200824 By Wenyan YU<br>
 当用力之时，就尽管去用力，莫要以为轻松的就能过好这一生。---20200913 By Wenyan YU<br>
 尽快完成地图基础课题第二篇论文输出任务吧。---20200923 By Wenyan YU<br>
+没有所谓最好的状态，人生的每一天都需珍惜，努力前行，不负韶华。---20201105 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
