@@ -27,6 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030CAICT-AtlasToolkit/samples/download/01-admin-2020091437.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/054NNIXP/as_potential.py" beforeDir="false" afterPath="$PROJECT_DIR$/054NNIXP/as_potential.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -68,13 +71,6 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\000LocalData" />
-      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
-      <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\pybgpdump" />
-      <recent name="D:\Code\Crawler4Caida" />
-      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\050CableMap" />
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets" />
@@ -82,8 +78,15 @@
       <recent name="D:\Code\Crawler4Caida\031CAICT-Display" />
       <recent name="D:\Code\Crawler4Caida\043BGPlayPaper\echarts" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\000LocalData" />
+      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
+      <recent name="D:\Code\Crawler4Caida\052RIPE&amp;RouteViews\pybgpdump" />
+      <recent name="D:\Code\Crawler4Caida" />
+      <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.as_potential">
+  <component name="RunManager" selected="Python.as_potential (1)">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +103,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="as_potential" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/054HZIXP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/054HZIXP/as_potential.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="draw_as_core_cable_degree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonCrawlerDXYArea" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/050CableMap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/040Covid2019" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/050CableMap/draw_as_core_cable_degree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/040Covid2019/JsonCrawlerDXYArea.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="draw_as_core_cable_new_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonCrawlerGithub2Local" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/050CableMap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/040Covid2019" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/050CableMap/draw_as_core_cable_new_0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/040Covid2019/JsonCrawlerGithub2Local.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="draw_as_core_cable_new_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="as_potential (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/050CableMap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/054NNIXP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/050CableMap/draw_as_core_cable_new_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/054NNIXP/as_potential.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ris_live" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +195,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039BGPStream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/030CAICT-AtlasToolkit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/030CAICT-AtlasToolkit/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +209,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.as_potential" />
-      <item itemvalue="Python.draw_as_core_cable_degree" />
-      <item itemvalue="Python.draw_as_core_cable_new_0" />
-      <item itemvalue="Python.draw_as_core_cable_new_1" />
-      <item itemvalue="Python.ris_live" />
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
+      <item itemvalue="Python.JsonCrawlerDXYArea" />
+      <item itemvalue="Python.JsonCrawlerGithub2Local" />
+      <item itemvalue="Python.as_potential (1)" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.as_potential" />
-        <item itemvalue="Python.ris_live" />
-        <item itemvalue="Python.draw_as_core_cable_new_1" />
-        <item itemvalue="Python.draw_as_core_cable_new_0" />
-        <item itemvalue="Python.draw_as_core_cable_degree" />
+        <item itemvalue="Python.as_potential (1)" />
+        <item itemvalue="Python.ASlay_plus_Mayavi" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.JsonCrawlerGithub2Local" />
+        <item itemvalue="Python.JsonCrawlerDXYArea" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +285,6 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1078" y="381" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602428387498" />
-    <state x="-1078" y="385" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1596160818323" />
     <state x="-1506" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602751899795">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
@@ -291,78 +293,66 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1268" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1602578450086" />
-    <state width="1882" height="281" key="GridCell.Tab.0.bottom" timestamp="1604588231864">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="166" key="GridCell.Tab.0.bottom" timestamp="1607048389572">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1603351270591" />
-    <state width="1773" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155401" />
+    <state width="1899" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1607048389572" />
+    <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1605005154861" />
     <state width="1899" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602731377161" />
     <state width="1899" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602728769428" />
-    <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
-    <state width="1882" height="448" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958044" />
-    <state width="1882" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604588231864" />
-    <state width="1882" height="281" key="GridCell.Tab.0.center" timestamp="1604588231864">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604898636499" />
+    <state width="1899" height="166" key="GridCell.Tab.0.center" timestamp="1607048389572">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="227" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="160" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1603351270591" />
-    <state width="1773" height="194" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155400" />
+    <state width="1899" height="166" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1607048389572" />
+    <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1605005154860" />
     <state width="1899" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602731377161" />
     <state width="1899" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602728769427" />
-    <state width="1899" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
-    <state width="1882" height="448" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
-    <state width="1882" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604588231864" />
-    <state width="1882" height="281" key="GridCell.Tab.0.left" timestamp="1604588231864">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604898636498" />
+    <state width="1899" height="166" key="GridCell.Tab.0.left" timestamp="1607048389571">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="227" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="160" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1603351270590" />
-    <state width="1773" height="194" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155400" />
+    <state width="1899" height="166" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1607048389571" />
+    <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1605005154860" />
     <state width="1899" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602731377160" />
     <state width="1899" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602728769427" />
-    <state width="1899" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464137" />
-    <state width="1882" height="448" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
-    <state width="1882" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604588231864" />
-    <state width="1882" height="281" key="GridCell.Tab.0.right" timestamp="1604588231864">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604898636498" />
+    <state width="1899" height="166" key="GridCell.Tab.0.right" timestamp="1607048389572">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="227" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599407333810" />
-    <state width="1899" height="160" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1603351270591" />
-    <state width="1773" height="194" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1601370155401" />
+    <state width="1899" height="166" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1607048389572" />
+    <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1605005154860" />
     <state width="1899" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602731377161" />
     <state width="1899" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602728769427" />
-    <state width="1899" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3840.1040@0.0.1920.1040" timestamp="1597460464138" />
-    <state width="1882" height="448" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3840.1040@1920.0.3840.1040" timestamp="1597458958043" />
-    <state width="1882" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604588231864" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604898636498" />
     <state width="1899" height="430" key="GridCell.Tab.1.bottom" timestamp="1603124873242">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600330516004" />
-    <state width="1899" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1597905621172" />
     <state width="1899" height="430" key="GridCell.Tab.1.center" timestamp="1603124873242">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="299" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600330516004" />
-    <state width="1899" height="299" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1597905621172" />
     <state width="1899" height="430" key="GridCell.Tab.1.left" timestamp="1603124873242">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="299" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600330516004" />
-    <state width="1899" height="299" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1597905621172" />
     <state width="1899" height="430" key="GridCell.Tab.1.right" timestamp="1603124873242">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="430" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603124873242" />
     <state width="1899" height="299" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1600330516004" />
-    <state width="1899" height="299" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1597905621172" />
     <state x="-1459" y="171" key="SettingsEditor" timestamp="1602751994512">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
@@ -379,7 +369,6 @@
     <state x="-1749" y="140" width="835" height="804" key="find.popup" timestamp="1598440762046">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1258" y="118" width="596" height="804" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597764380662" />
     <state x="-1749" y="140" width="835" height="804" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598440762046" />
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602748558293">
       <screen x="-1920" y="4" width="1920" height="1040" />
