@@ -66,7 +66,7 @@ def analysis(as_list):
     :return rel_as_list:
     """
     rel_as_list = []
-    as_rel_file = "../000LocalData/as_relationships/serial-1/20200701.as-rel.txt"
+    as_rel_file = "../000LocalData/as_relationships/serial-1/20201101.as-rel.txt"
     file_read = open(as_rel_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         if line.strip().find("#") == 0:
@@ -83,12 +83,16 @@ def analysis(as_list):
 
 if __name__ == "__main__":
     time_start = time.time()
-    as_group = ["56041", "58461", "17621", "24400", "4811", "4812", "24400"]
+    # as_group = ["56041", "58461", "17621", "24400", "4811", "4812", "24400"]
+    as_group = ["140720", "140717", "140716", "140303", "140301",
+                "140300", "140293", "140290", "23650", "137697",
+                "139584", "137699", "137689", "134770", "134769"]
     potential_as = analysis(as_group)
     print("LEN OF POTENTIAL AS:", len(potential_as))
+    # print(potential_as)
     as2info = gain_as2country()
     potential_as_list_info = []  # 存储潜在的AS信息
-    save_file_path = "./potential_as.csv"
+    save_file_path = "./potential_as_jiangsu.csv"
     for item in potential_as:
         try:
             if as2info[item[0]][1] == "CN":
