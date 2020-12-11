@@ -132,6 +132,58 @@ def gain_as_info(asn_core_map_list):
     return asn_core_map_list
 
 
+def global_rel(as_list, as_rel):
+    """
+    根据as list以及as rel,获取全球TOP AS网络的互联关系及向下钻取的数据
+    :param as_list:
+    :param as_rel:
+    :return none:
+    """
+    global_top_as = as_list[0:30]
+    # print(global_top_as)
+    top_as_group = []  # 存储top as 集合
+    for as_item in global_top_as:
+        top_as_group.append(as_item[0])
+    print(top_as_group)
+    as_rel_list = []  # 存储top网络间及其下钻的互联关系
+    file_read = open(as_rel, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        if line.strip().find("#") == 0:
+            continue
+        line = line.strip().split("|")
+        # print(line[0], line[1])
+        if (line[0] in top_as_group) or (line[1] in top_as_group):
+            # print(line)
+            as_rel_list.append(line)
+    print("TOP AS Count(Global):", len(global_top_as))
+    print("TOP AS Rel Count(Global):", len(as_rel_list))
+
+
+def cn_rel(as_list, as_rel):
+    """
+    根据as list以及as rel，获取全国TOP AS网络的互联关系及向下钻取的数据
+    :param as_list:
+    :param as_rel:
+    :return none:
+    """
+    cn_top_as = as_list[0:30]
+    # print(cn_top_as)
+    top_as_group = []  # 存储top as 集合
+    for as_item in cn_top_as:
+        top_as_group.append(as_item[0])
+    print(top_as_group)
+    as_rel_list = []  # 存储top网络及其下钻的互联关系
+    file_read = open(as_rel, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        if line.strip().find("#") == 0:
+            continue
+        line = line.strip().split("|")
+        if (line[0] in top_as_group) or (line[1] in top_as_group):
+            as_rel_list.append(line)
+    print("TOP AS Count(CN):", len(cn_top_as))
+    print("TOP AS Rel Count(CN):", len(as_rel_list))
+
+
 if __name__ == "__main__":
     time_start = time.time()
     as_rel_file = "../000LocalData/as_relationships/serial-1/20201101.as-rel.txt"
@@ -153,5 +205,15 @@ if __name__ == "__main__":
     # print(as_core_map_data[0:1000])
     save_path = '..\\000LocalData\\BGPMonitor\\as_core_map_data.csv'
     write_to_csv(as_core_map_data, save_path)
+    # 获取中国的AS网络画像
+    as_core_map_data_cn = []  # 存储中国的AS网络画像
+    for item in as_core_map_data:
+        if item[-1] == "CN":
+            as_core_map_data_cn.append(item)
+    save_path = '..\\000LocalData\\BGPMonitor\\as_core_map_data_cn.csv'
+    write_to_csv(as_core_map_data_cn, save_path)
+    global_rel(as_core_map_data, as_rel_file)
+    cn_rel(as_core_map_data_cn, as_rel_file)
+
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
