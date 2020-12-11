@@ -57,3 +57,5 @@ mrtparse~=1.8
 Flask~=1.1.2
 typeguard~=2.9.1
 tqdm~=4.49.0
+jieba~=0.42.1
+wordcloud~=1.8.1
