@@ -157,6 +157,10 @@ def global_rel(as_list, as_rel):
             as_rel_list.append(line)
     print("TOP AS Count(Global):", len(global_top_as))
     print("TOP AS Rel Count(Global):", len(as_rel_list))
+    file_path = '..\\000LocalData\\BGPMonitor\\global_top_as.csv'
+    write_to_csv(global_top_as, file_path)
+    file_path = '..\\000LocalData\\BGPMonitor\\global_as_rel_list.csv'
+    write_to_csv(as_rel_list, file_path)
 
 
 def cn_rel(as_list, as_rel):
@@ -182,6 +186,10 @@ def cn_rel(as_list, as_rel):
             as_rel_list.append(line)
     print("TOP AS Count(CN):", len(cn_top_as))
     print("TOP AS Rel Count(CN):", len(as_rel_list))
+    file_path = '..\\000LocalData\\BGPMonitor\\cn_top_as.csv'
+    write_to_csv(cn_top_as, file_path)
+    file_path = '..\\000LocalData\\BGPMonitor\\cn_as_rel_list.csv'
+    write_to_csv(as_rel_list, file_path)
 
 
 if __name__ == "__main__":
