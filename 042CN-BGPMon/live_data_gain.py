@@ -82,6 +82,6 @@ def gain_rrc_update(aim_rrc, time_interval):
 
 
 if __name__ == "__main__":
-    aim_rrc = "rrc24"  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
+    aim_rrc = ""  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
     time_interval = 60  # 设置抓取的时间
     gain_rrc_update(aim_rrc, time_interval)
