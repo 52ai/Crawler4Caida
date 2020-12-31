@@ -39,6 +39,8 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 再苦再累，静下来心来，好好面对，追寻内心的选择。---20201206 By Wenyan YU<br>
 静下来，慢下来，立即行动。---20201208 By Wenyan YU<br>
 技术的精进一定是在解决实际问题中体现价值。---20201210 By Wenyan YU<br>
+2020年最后一天了，要加油呀，既不可妄自尊大，也不可妄自菲薄。---20201231 By Wenyan YU<br>
+
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
