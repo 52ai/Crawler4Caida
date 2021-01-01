@@ -80,17 +80,27 @@ def gain_multistage_url(site_url):
         对获取到的原始二级链接做如下处理：
         由于网站页面采用selenium的无头浏览器动态加载完毕，所有资源均为加载完后的静态资源，避免对每个网站的JS代码进行繁琐的分析
         处理逻辑1：仅取页面内的超链
-        处理逻辑2："./XXX"以及"/XXXX"的内链，按照入口站点地址进行拼接（注意：在获取三级内链时，需要重定向之后的站点地址）
+        处理逻辑2："./XXX"以及"/XXXX"的内链，按照入口站点地址主域名进行拼接（注意：在获取三级内链时，需要重定向之后的站点地址）
         处理逻辑3：根据站点的地址，提取主域，按照主域去提取内链。（同时剔除了外链和无效链接）
         """
         if url_str.find("./") == 0:
             # 找到的"./XXXX"形式的内链,按照站点地址进行拼接
-            url_str = site_url + url_str.strip("./")
-
-        if url_str.find("http") == -1 and url_str.find("script") == -1:
-            # 找到"/XXXX"形式的内链
-            url_str = site_url + url_str[1:]
+            url_str = "http://" + urlparse(site_url).netloc + "/" + url_str.strip().strip("./")
             print(url_str)
+
+        if url_str.find("http") == -1 and url_str.find(":") == -1 and url_str.find("..") == -1:
+            if url_str.find("/") == -1:
+                # 找到"XXX"形式的内链
+                url_str = "http://" + urlparse(site_url).netloc + "/" + url_str.strip()
+                print(url_str)
+            elif url_str.find("//") == -1:
+                # 找到"/XXXX"形式的内链
+                url_str = "http://" + urlparse(site_url).netloc + "/" + url_str.strip()[1:]
+                print(url_str)
+            else:
+                # 找到"//XXX"形式的绝对链接
+                url_str = "http:" + url_str
+                print(url_str)
 
         if url_str.find(domain_name) != -1:
             # 判断是否为内链，若是则输出
@@ -109,24 +119,30 @@ def gain_multistage_url(site_url):
     for item in stage2url_list_inner:
         try:
             # 设置最长等待时间
-            driver.set_page_load_timeout(3)
-            driver.set_script_timeout(3)
+            driver.set_page_load_timeout(2)
+            driver.set_script_timeout(2)
             print("当前访问二级链：", item)
             driver.get(item)
-            time.sleep(2)  # 延迟加载，等待页面加载完毕
-            redirect_url = driver.current_url
-            print("实际访问二级链：", redirect_url)
-            stage2_domain_name = urlparse(redirect_url).netloc.strip("www.")
-            print("域名模式：", stage2_domain_name)
+            time.sleep(1)  # 延迟加载，等待页面加载完毕
         except Exception as e:
             print("访问二级链超时：", e)
             driver.execute_script('window.stop()')
+
+        try:
             redirect_url = driver.current_url
             print("实际访问二级链：", redirect_url)
             stage2_domain_name = urlparse(redirect_url).netloc.strip("www.")
             print("域名模式：", stage2_domain_name)
+            # print(urlparse(redirect_url))
+            """
+            需要匹配出当前url的绝对目录
+            """
+            if redirect_url.split("/")[-1].find("."):
+                abs_dir = redirect_url[0:redirect_url.rfind("/")]
+            else:
+                abs_dir = redirect_url
+            print("当前绝对目录:", abs_dir)
 
-        try:
             page_html = driver.page_source
             bs_obj = BeautifulSoup(page_html, "html5lib")
             site_lists = bs_obj.findAll("a")
@@ -139,15 +155,24 @@ def gain_multistage_url(site_url):
                 except Exception as e:
                     print("href提取失败:", e)
                     continue
-
                 if url_str.find("./") == 0:
                     # 找到的"./XXXX"形式的内链,按照站点地址进行拼接
-                    url_str = redirect_url + url_str.strip("./")
-
-                if url_str.find("http") == -1 and url_str.find("script") == -1:
-                    # 找到"/XXXX"形式的内链
-                    url_str = redirect_url + url_str[1:]
+                    url_str = abs_dir + "/" + url_str.strip().strip("./")
                     print(url_str)
+
+                if url_str.find("http") == -1 and url_str.find(":") == -1 and url_str.find("..") == -1:
+                    if url_str.find("/") == -1:
+                        # 找到"XXXX"形式的内链
+                        url_str = abs_dir + "/" + url_str.strip()
+                        print(url_str)
+                    elif url_str.find("//") == -1:
+                        # 找到"/XXXX"形式的内链
+                        url_str = "http://" + urlparse(redirect_url).netloc + "/" + url_str.strip()[1:]
+                        print(url_str)
+                    else:
+                        # 找到"//XXX"形式的绝对链接
+                        url_str = "http:" + url_str
+                        print(url_str)
 
                 if url_str.find(domain_name) != -1:
                     # 判断是否为内链，若是则输出
@@ -176,8 +201,9 @@ if __name__ == "__main__":
     """
     读取网站列表
     """
+    fail_log = []  # 存储失败日志
     site_list = []  # 存储读取的网站列表
-    sites_file = "../000LocalData/IPv6UrlCrawler/cqsites"
+    sites_file = "../000LocalData/IPv6UrlCrawler/cqsites_v2"
     file_in = open(sites_file, "r", encoding="utf-8")
     for line in file_in.readlines():
         site_list.append(line.strip())
@@ -187,10 +213,23 @@ if __name__ == "__main__":
     print("- - - - - - - - - - - - 站点内链爬取程序- - - - - - - - - - - - - -")
     print("程序启动时间：", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
     for site_item in site_list:
-        result_url_list = gain_multistage_url(site_item)
+        result_url_list = []
+        try:
+            result_url_list = gain_multistage_url(site_item)
+        except Exception as e:
+            print("站点链接抓取失败，", e)
+            fail_log.append(["站点链接抓取失败，", e])
+
+        if len(result_url_list) == 0:
+            try:
+                result_url_list = gain_multistage_url(site_item)
+            except Exception as e:
+                print("站点链接抓取失败，", e)
+                fail_log.append(["站点链接抓取失败，", e])
         # print(result_url_list)
         site_item_str = site_item.replace(".", "")
         save_path = "../000LocalData/IPv6UrlCrawler/" + site_item_str + ".csv"
         write_to_csv(result_url_list, save_path, ["stage2link", "stage3link"])
+    print("Fail Log:", fail_log)
     time_end = time.time()  # 记录程序的结束时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
