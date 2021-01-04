@@ -181,6 +181,9 @@ if __name__ == "__main__":
             driver = webdriver.Firefox()
             driver.maximize_window()
             result_url_list = gain_website_url(site_item)
+            # 关闭浏览器
+            driver.quit()
+            time_end = time.time()  # 记录程序的结束时间
         except Exception as e:
             fail_log.append(["站点链接抓取失败,", e])
 
@@ -190,6 +193,9 @@ if __name__ == "__main__":
                 driver = webdriver.Firefox()
                 driver.maximize_window()
                 result_url_list = gain_website_url(site_item)
+                # 关闭浏览器
+                driver.quit()
+                time_end = time.time()  # 记录程序的结束时间
             except Exception as e:
                 print("站点链接抓取失败，", e)
                 fail_log.append(["站点链接抓取失败，", e])
@@ -199,10 +205,6 @@ if __name__ == "__main__":
         save_path = "../000LocalData/IPv6UrlCrawler/" + site_item_str + ".csv"
         write_to_csv(result_url_list, save_path, ["stage2link", "stage3link"])
     print("Fail Log:", fail_log)
-
-    # 关闭浏览器
-    driver.quit()
-    time_end = time.time()  # 记录程序的结束时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
 
