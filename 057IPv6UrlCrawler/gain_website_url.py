@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-Create on Dec 31, 2019 By Wayne
+Create on Dec 31, 2020 By Wayne YU
 
 程序功能：
 获取给定网站的二级链接以及三级链接
@@ -203,7 +203,7 @@ if __name__ == "__main__":
     """
     fail_log = []  # 存储失败日志
     site_list = []  # 存储读取的网站列表
-    sites_file = "../000LocalData/IPv6UrlCrawler/cqsites_v2"
+    sites_file = "../000LocalData/IPv6UrlCrawler/cqsites"
     file_in = open(sites_file, "r", encoding="utf-8")
     for line in file_in.readlines():
         site_list.append(line.strip())
