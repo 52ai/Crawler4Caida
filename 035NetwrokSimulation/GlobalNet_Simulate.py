@@ -23,7 +23,6 @@ Function:
 3）P2C + P2P
 4）P2P + C2P
 
-
 """
 
 import time
@@ -32,26 +31,45 @@ import csv
 
 
 log_file = []  # 存储所有的日志文件
+path_file = []  # 存储全部的网络路径及国家路径
 
 
-def write_to_csv(res_list, des_path):
+def write_to_csv(res_list, des_path, title_list):
     """
     把给定的List，写到指定路径的文件中
     :param res_list:
     :param des_path:
+    :param title_list:
     :return: None
     """
     print("write file <%s> ..." % des_path)
-    csvFile = open(des_path, 'w', newline='', encoding='gbk')
+    csv_file = open(des_path, 'w', newline='', encoding='gbk')
     try:
-        writer = csv.writer(csvFile, delimiter=",")
+        writer = csv.writer(csv_file, delimiter=",")
+        writer.writerow(title_list)
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
         print(e)
     finally:
-        csvFile.close()
+        csv_file.close()
     print("write finish!")
+
+
+def gain_as2country():
+    """
+    根据as info file信息获取AS对应的国家
+    :return as2country:
+    """
+    as2country = {}  # 存储as号到info的映射关系
+    as_info_file = '../000LocalData/as_Gao/asn_info.txt'
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split("\t")
+        as_number = line[0]
+        as_country = line[1].strip().split(",")[-1].strip()
+        as2country[as_number] = as_country
+    return as2country
 
 
 def gain_all_paths(sour_as, des_as, max_as_path):
@@ -82,7 +100,7 @@ def gain_all_paths(sour_as, des_as, max_as_path):
     print("=>全球互联网网络拓扑图（原始）")
     print("拓扑图节点数量:", global_as_graph.number_of_nodes())
     print("拓扑图连边数量:", global_as_graph.number_of_edges())
-    print("测试图连边权值:(%s,%s)(%s)" % (sour_as, des_as, global_as_graph.edges[sour_as, des_as]['rel']))
+    # print("测试图连边权值:(%s,%s)(%s)" % (sour_as, des_as, global_as_graph.edges[sour_as, des_as]['rel']))
     # print("计算源(AS%s)目AS(AS%s)之间不相交的节点路径: " % (sour_as, des_as))
     # paths = []
     # for item in list(nx.node_disjoint_paths(global_as_graph, sour_as, des_as)):
@@ -90,13 +108,36 @@ def gain_all_paths(sour_as, des_as, max_as_path):
     #     paths.append(item)
     # print("路径数量:", len(paths))
     print("=>计算源(AS%s)目AS(AS%s)之间Simple节点路径" % (sour_as, des_as))
+    log_file.append(["=>计算源(AS%s)目AS(AS%s)之间Simple节点路径" % (sour_as, des_as)])
     print("最大路径长度限定为:", max_as_path)
+    log_file.append(["最大路径长度限定为:", max_as_path])
+    log_file.append(["- - - -  - - - - - - - - - - - - - -  -"])
     paths = []
     for item in list(nx.all_simple_paths(global_as_graph, sour_as, des_as, cutoff=max_as_path)):
         # print(item)
         paths.append(item)
+    valid_paths = gain_valid_paths(global_as_graph, paths)
     print("全部路径数量:", len(paths))
-    print("有效路径数量:", len(gain_valid_paths(global_as_graph, paths)))
+    log_file.append(["全部路径数量:", len(paths)])
+    print("有效路径数量:", len(valid_paths))
+    log_file.append(["有效路径数量:", len(valid_paths)])
+    """
+    将有效网络路径转换为国家路径
+    输出总路径数，符合商业关系规则路径数，原始AS-PATH详细数据，以国家替代ASN的路径详细数据
+    """
+    as2country = gain_as2country()
+    for path_item in valid_paths:
+        # print(path_item)
+        country_path = []  # 存储国家路径
+        for item in path_item:
+            try:
+                country_path.append(as2country[item])
+            except Exception:
+                country_path.append("ZZ")  # 该AS缺失信息，定义为ZZ
+        # print(country_path)
+        path_item.extend(country_path)
+        print(path_item)
+        path_file.append(path_item)
 
 
 def gain_valid_paths(as_graph, all_paths):
@@ -144,9 +185,22 @@ def gain_valid_paths(as_graph, all_paths):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    gain_all_paths("4134", "3356", 3)
-    save_path = "log.csv"
-    write_to_csv(log_file, save_path)
+    as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
+    max_hop = 4
+    for as_pair_item in as_pair:
+        gain_all_paths(as_pair_item[0], as_pair_item[1], max_hop)
+        """
+        将结果持久化为本地文件
+        """
+        file_name_str = "AS"+as_pair_item[0] + "_" + "AS" + as_pair_item[1] + "_" + str(max_hop)
+        log_save_path = "../000LocalData/GlobalNetSimulate/log_" + file_name_str + ".csv"
+        write_to_csv(log_file, log_save_path, ["# 输出log信息"])
+        log_file = []  # 清空log
+
+        path_save_path = "../000LocalData/GlobalNetSimulate/path_" + file_name_str + ".csv"
+        write_to_csv(path_file, path_save_path, ["# AS PATH + COUNTRY PATH"])
+        path_file = []  # 清空path
+
     time_end = time.time()  # 记录结束的时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
