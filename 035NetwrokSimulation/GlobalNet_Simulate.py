@@ -31,7 +31,8 @@ import csv
 
 
 log_file = []  # 存储所有的日志文件
-path_file = []  # 存储全部的网络路径及国家路径
+path_file = []  # 存储全部的网络路径
+path_country_file = []  # 存储国家路径
 
 
 def write_to_csv(res_list, des_path, title_list):
@@ -72,7 +73,7 @@ def gain_as2country():
     return as2country
 
 
-def gain_all_paths(sour_as, des_as, max_as_path):
+def gain_all_paths(sour_as, des_as, max_as_path=None):
     """
     根据传入的源目as对，输出所有可能的路径
     :param sour_as:
@@ -116,11 +117,10 @@ def gain_all_paths(sour_as, des_as, max_as_path):
     for item in list(nx.all_simple_paths(global_as_graph, sour_as, des_as, cutoff=max_as_path)):
         # print(item)
         paths.append(item)
+    # for item in list(nx.node_disjoint_paths(global_as_graph, sour_as, des_as)):
+    #     # print(item)
+    #     paths.append(item)
     valid_paths = gain_valid_paths(global_as_graph, paths)
-    print("全部路径数量:", len(paths))
-    log_file.append(["全部路径数量:", len(paths)])
-    print("有效路径数量:", len(valid_paths))
-    log_file.append(["有效路径数量:", len(valid_paths)])
     """
     将有效网络路径转换为国家路径
     输出总路径数，符合商业关系规则路径数，原始AS-PATH详细数据，以国家替代ASN的路径详细数据
@@ -134,10 +134,18 @@ def gain_all_paths(sour_as, des_as, max_as_path):
                 country_path.append(as2country[item])
             except Exception:
                 country_path.append("ZZ")  # 该AS缺失信息，定义为ZZ
-        # print(country_path)
-        path_item.extend(country_path)
+        print(country_path)
+        if country_path not in path_country_file:
+            path_country_file.append(country_path)
         print(path_item)
         path_file.append(path_item)
+
+    print("全部路径数量:", len(paths))
+    log_file.append(["全部路径数量:", len(paths)])
+    print("有效网络路径数量:", len(valid_paths))
+    log_file.append(["有效网络路径数量:", len(valid_paths)])
+    print("有效国家路径数量:", len(path_country_file))
+    log_file.append(["有效国家路径数量:", len(path_country_file)])
 
 
 def gain_valid_paths(as_graph, all_paths):
@@ -155,16 +163,16 @@ def gain_valid_paths(as_graph, all_paths):
     type_rel = [['P2C', "C2P"], ['P2P', "P2P"], ['P2C', "P2P"], ['P2P', "C2P"]]
     for path_item in all_paths:
         # print(path_item)
-        log_file.append([path_item])
+        # log_file.append([path_item])
         path_type = []  # 存储链路的商业关系
         for i in range(len(path_item)-1):
             s = path_item[i]
             t = path_item[i+1]
             # print(s, t, as_graph.edges[s, t]['rel'])
-            log_file.append([s, t, as_graph.edges[s, t]['rel']])
+            # log_file.append([s, t, as_graph.edges[s, t]['rel']])
             path_type.append(as_graph.edges[s, t]['rel'])
         # print(path_type)
-        log_file.append([path_type])
+        # log_file.append([path_type])
         flag = True  # 默认路径为有效
         for i in range(len(path_type)-1):
             if [path_type[i], path_type[i+1]] in type_rel:
@@ -174,18 +182,20 @@ def gain_valid_paths(as_graph, all_paths):
         if flag is True:
             valid_paths.append(path_item)
             # print("This Path is Valid!")
-            log_file.append(["This Path is Valid!"])
+            # log_file.append(["This Path is Valid!"])
         else:
-            log_file.append(["This Path is Invalid!"])
+            # log_file.append(["This Path is Invalid!"])
             # print("This Path is Invalid!")
-        log_file.append(["- - - -  - - - - - - - - - - - - - -  -"])
+            pass
+        # log_file.append(["- - - -  - - - - - - - - - - - - - -  -"])
 
     return valid_paths
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
+    # as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
+    as_pair = [["174", "701"]]
     max_hop = 4
     for as_pair_item in as_pair:
         gain_all_paths(as_pair_item[0], as_pair_item[1], max_hop)
@@ -198,8 +208,12 @@ if __name__ == "__main__":
         log_file = []  # 清空log
 
         path_save_path = "../000LocalData/GlobalNetSimulate/path_" + file_name_str + ".csv"
-        write_to_csv(path_file, path_save_path, ["# AS PATH + COUNTRY PATH"])
+        write_to_csv(path_file, path_save_path, ["# AS PATH"])
         path_file = []  # 清空path
+
+        path_country_save_path = "../000LocalData/GlobalNetSimulate/path_country_" + file_name_str + ".csv"
+        write_to_csv(path_country_file, path_country_save_path, ["# COUNTRY PATH"])
+        path_country_file = []  # 清空path
 
     time_end = time.time()  # 记录结束的时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

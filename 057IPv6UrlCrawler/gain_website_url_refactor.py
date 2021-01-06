@@ -10,6 +10,10 @@ create on Jan 4, 2021 By Wayne YU
 """
 
 from selenium import webdriver
+# 实现无可视化界面
+from selenium.webdriver.firefox.options import Options
+# 实现规避检测
+from selenium.webdriver import FirefoxOptions
 import time
 from bs4 import BeautifulSoup
 import csv
@@ -66,7 +70,7 @@ def gain_inner_url(page_url):
     处理逻辑3：根据站点地址，提取主域，按照主域去提取内链。（同时剔除了外链和无效链接）
     """
     driver.get(page_url)
-    time.sleep(2)  # 延迟加载，等待页面加载完毕
+    time.sleep(1)  # 延迟加载，等待页面加载完毕
     page_html = driver.page_source
     bs_obj = BeautifulSoup(page_html, "html5lib")
     all_url_list = bs_obj.findAll("a")  # 存储全部的原始超链
@@ -98,7 +102,7 @@ def gain_inner_url(page_url):
 
         if url_str.find(domain_name) != -1 and url_str.find("script:") == -1:
             # 判断是否为内链，且不是script脚本，若是则输出
-            print(url_str)
+            # print(url_str)
             inner_url_list.append(url_str)
         else:
             outer_url_list.append(url_str)
@@ -108,12 +112,13 @@ def gain_inner_url(page_url):
 
 def gain_website_url(site_url):
     """
-
     :param site_url:
     :return multistage_url_list:
     """
     multistage_url_list = []  # 存储多级链接
-    site_url = "http://" + site_url + "/"
+    site_url = "http://" + site_url
+    driver.get(site_url)
+    site_url = driver.current_url
     domain_name = urlparse(site_url).netloc.strip("www.")
     print("站点地址:", site_url, "域名模式:", domain_name)
     site2_lists, stage2url_list_inner, stage2url_list_outer = gain_inner_url(site_url)
@@ -128,11 +133,11 @@ def gain_website_url(site_url):
     for item in stage2url_list_inner:
         try:
             # 设置最长等待时间
-            driver.set_page_load_timeout(3)
-            driver.set_script_timeout(3)
+            driver.set_page_load_timeout(2)
+            driver.set_script_timeout(2)
             print("当前访问二级链：", item)
             driver.get(item)
-            time.sleep(2)  # 延迟加载，等待页面加载完毕
+            time.sleep(1)  # 延迟加载，等待页面加载完毕
         except Exception as e:
             print("访问二级链超时：", e)
             driver.execute_script('window.stop()')
@@ -164,7 +169,7 @@ if __name__ == "__main__":
     """
     fail_log = []  # 存储失败日志
     site_list = []  # 存储读取的网站列表
-    sites_file = "../000LocalData/IPv6UrlCrawler/cqsites"
+    sites_file = "../000LocalData/IPv6UrlCrawler/cqsites_v4"
     file_in = open(sites_file, "r", encoding="utf-8")
     for line in file_in.readlines():
         site_list.append(line.strip())
@@ -173,12 +178,16 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录程序的启动时间
     print("- - - - - - - - - - - - 站点内链爬取程序- - - - - - - - - - - - - -")
     print("程序启动时间：", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+    # 实现无可视化界面
+    firefox_options = Options()
+    firefox_options.add_argument('--headless')
+    firefox_options.add_argument('--disable-gpu')
 
     for site_item in site_list:
         result_url_list = []
         try:
             # 启动浏览器
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(options=firefox_options)
             driver.maximize_window()
             result_url_list = gain_website_url(site_item)
             # 关闭浏览器
@@ -190,7 +199,7 @@ if __name__ == "__main__":
         if len(result_url_list) == 0:
             try:
                 # 启动浏览器
-                driver = webdriver.Firefox()
+                driver = webdriver.Firefox(options=firefox_options)
                 driver.maximize_window()
                 result_url_list = gain_website_url(site_item)
                 # 关闭浏览器
