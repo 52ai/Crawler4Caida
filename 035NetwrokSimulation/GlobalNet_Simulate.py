@@ -91,7 +91,7 @@ def gain_all_paths(sour_as, des_as, max_as_path=None):
         as_1 = str(line.strip().split('|')[1])
         as_rel = str(line.strip().split('|')[2])
         # 根据边构建全球互联网网络拓扑图
-        if as_rel == 0:
+        if as_rel == "0":
             global_as_graph.add_edge(as_0, as_1, rel="P2P")
             global_as_graph.add_edge(as_1, as_0, rel="P2P")
         else:
@@ -160,7 +160,7 @@ def gain_valid_paths(as_graph, all_paths):
     为方便先暴力搜索，拿到有效路径
     判断规则：无谷理论（一旦出现山谷，则判定为无效路径；否则为有效路径）
     """
-    type_rel = [['P2C', "C2P"], ['P2P', "P2P"], ['P2C', "P2P"], ['P2P', "C2P"]]
+    type_rel = [["P2C", "C2P"], ["P2P", "P2P"], ["P2C", "P2P"], ["P2P", "C2P"]]
     for path_item in all_paths:
         # print(path_item)
         # log_file.append([path_item])
@@ -169,10 +169,10 @@ def gain_valid_paths(as_graph, all_paths):
             s = path_item[i]
             t = path_item[i+1]
             # print(s, t, as_graph.edges[s, t]['rel'])
-            # log_file.append([s, t, as_graph.edges[s, t]['rel']])
+            log_file.append([s, t, as_graph.edges[s, t]['rel']])
             path_type.append(as_graph.edges[s, t]['rel'])
         # print(path_type)
-        # log_file.append([path_type])
+        log_file.append([path_type])
         flag = True  # 默认路径为有效
         for i in range(len(path_type)-1):
             if [path_type[i], path_type[i+1]] in type_rel:
@@ -182,9 +182,9 @@ def gain_valid_paths(as_graph, all_paths):
         if flag is True:
             valid_paths.append(path_item)
             # print("This Path is Valid!")
-            # log_file.append(["This Path is Valid!"])
+            log_file.append(["This Path is Valid!"])
         else:
-            # log_file.append(["This Path is Invalid!"])
+            log_file.append(["This Path is Invalid!"])
             # print("This Path is Invalid!")
             pass
         # log_file.append(["- - - -  - - - - - - - - - - - - - -  -"])
@@ -194,8 +194,8 @@ def gain_valid_paths(as_graph, all_paths):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    # as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
-    as_pair = [["174", "701"]]
+    as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
+    # as_pair = [["4134", "2906"]]
     max_hop = 4
     for as_pair_item in as_pair:
         gain_all_paths(as_pair_item[0], as_pair_item[1], max_hop)

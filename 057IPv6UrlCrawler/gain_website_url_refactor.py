@@ -70,7 +70,7 @@ def gain_inner_url(page_url):
     处理逻辑3：根据站点地址，提取主域，按照主域去提取内链。（同时剔除了外链和无效链接）
     """
     driver.get(page_url)
-    time.sleep(1)  # 延迟加载，等待页面加载完毕
+    time.sleep(2)  # 延迟加载，等待页面加载完毕
     page_html = driver.page_source
     bs_obj = BeautifulSoup(page_html, "html5lib")
     all_url_list = bs_obj.findAll("a")  # 存储全部的原始超链
@@ -117,6 +117,7 @@ def gain_website_url(site_url):
     """
     multistage_url_list = []  # 存储多级链接
     site_url = "http://" + site_url
+    # 设置最长等待时间
     driver.get(site_url)
     site_url = driver.current_url
     domain_name = urlparse(site_url).netloc.strip("www.")
@@ -187,7 +188,7 @@ if __name__ == "__main__":
         result_url_list = []
         try:
             # 启动浏览器
-            driver = webdriver.Firefox(options=firefox_options)
+            driver = webdriver.Firefox()
             driver.maximize_window()
             result_url_list = gain_website_url(site_item)
             # 关闭浏览器
@@ -199,7 +200,7 @@ if __name__ == "__main__":
         if len(result_url_list) == 0:
             try:
                 # 启动浏览器
-                driver = webdriver.Firefox(options=firefox_options)
+                driver = webdriver.Firefox()
                 driver.maximize_window()
                 result_url_list = gain_website_url(site_item)
                 # 关闭浏览器
@@ -217,5 +218,10 @@ if __name__ == "__main__":
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
 
-
+"""
+bug1) 当前访问二级链： mailto:president@swu.edu.cn, 需对邮箱的连接做处理
+bug2) 相对目录案例
+https://www.cqxyfl.com/index.htm
+href="index!loadMenu.action?preid=560001&id=2c9a808672e400070172e40320780004"
+"""
 
