@@ -196,7 +196,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
     # as_pair = [["4134", "2906"]]
-    max_hop = 5
+    max_hop = 3
     for as_pair_item in as_pair:
         gain_all_paths(as_pair_item[0], as_pair_item[1], max_hop)
         """
