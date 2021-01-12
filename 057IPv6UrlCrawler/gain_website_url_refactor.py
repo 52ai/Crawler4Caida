@@ -188,7 +188,7 @@ if __name__ == "__main__":
         result_url_list = []
         try:
             # 启动浏览器
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(options=firefox_options)
             driver.maximize_window()
             result_url_list = gain_website_url(site_item)
             # 关闭浏览器
@@ -200,7 +200,7 @@ if __name__ == "__main__":
         if len(result_url_list) == 0:
             try:
                 # 启动浏览器
-                driver = webdriver.Firefox()
+                driver = webdriver.Firefox(options=firefox_options)
                 driver.maximize_window()
                 result_url_list = gain_website_url(site_item)
                 # 关闭浏览器
@@ -217,11 +217,9 @@ if __name__ == "__main__":
     print("Fail Log:", fail_log)
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
-
 """
 bug1) 当前访问二级链： mailto:president@swu.edu.cn, 需对邮箱的连接做处理
 bug2) 相对目录案例
 https://www.cqxyfl.com/index.htm
 href="index!loadMenu.action?preid=560001&id=2c9a808672e400070172e40320780004"
 """
-

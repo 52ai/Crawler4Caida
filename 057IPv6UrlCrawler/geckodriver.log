@@ -15253,3 +15253,28 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: Inv
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1610436659395	geckodriver	INFO	Listening on 127.0.0.1:59354
+1610436662469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileClTkTK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610436664554	Marionette	INFO	Listening on port 59364
+1610436664586	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8448, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+[Child 8448, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1610436674286	Marionette	INFO	Stopped listening on port 59361610436677262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilewugUNN"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610436679279	Marionette	INFO	Listening on port 51413
+1610436679379	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1610436694720	Marionette	INFO	Stopped listening on port 51413
+1610436950897	geckodriver	INFO	Listening on 127.0.0.1:51701
+1610436953943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileQSbTDd"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610436955236	Marionette	INFO	Listening on port 51730
+1610436955520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610436965247	geckodriver	INFO	Listening on 127.0.0.1:51912
