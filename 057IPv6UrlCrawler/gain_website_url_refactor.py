@@ -70,7 +70,7 @@ def gain_inner_url(page_url):
     处理逻辑3：根据站点地址，提取主域，按照主域去提取内链。（同时剔除了外链和无效链接）
     """
     driver.get(page_url)
-    time.sleep(2)  # 延迟加载，等待页面加载完毕
+    time.sleep(1)  # 延迟加载，等待页面加载完毕
     page_html = driver.page_source
     bs_obj = BeautifulSoup(page_html, "html5lib")
     all_url_list = bs_obj.findAll("a")  # 存储全部的原始超链
@@ -91,14 +91,20 @@ def gain_inner_url(page_url):
             # 找到”//XXX“形式的绝对链接
             url_str = "http:" + url_str
             # print(url_str)
-        if url_str.startswith("/"):
+        elif url_str.startswith("/"):
             # 找到“/XXXX”形式的绝对路径内链
             url_str = "http://" + urlparse(page_url).netloc + url_str
             # print(url_str)
-        if url_str.startswith("./"):
+        elif url_str.startswith("./"):
             # 找到“./XXX”形式的相对路径内链
             url_str = abs_dir + "/" + url_str.strip("./")
             # print(url_str)
+        elif url_str.find("/")  == -1:
+            # 找到 "XXXX"形式的相对路径内链
+            url_str = abs_dir + "/" + url_str
+        elif url_str.find("//") == -1 and url_str.find("/") != -1:
+            # 找到 "XXX/XXX/XXX"形式的相对路径内链
+            url_str = abs_dir + "/" + url_str
 
         if url_str.find(domain_name) != -1 and url_str.find("script:") == -1:
             # 判断是否为内链，且不是script脚本，若是则输出
@@ -188,7 +194,8 @@ if __name__ == "__main__":
         result_url_list = []
         try:
             # 启动浏览器
-            driver = webdriver.Firefox(options=firefox_options)
+            # driver = webdriver.Firefox(options=firefox_options)
+            driver = webdriver.Firefox()
             driver.maximize_window()
             result_url_list = gain_website_url(site_item)
             # 关闭浏览器
@@ -200,7 +207,8 @@ if __name__ == "__main__":
         if len(result_url_list) == 0:
             try:
                 # 启动浏览器
-                driver = webdriver.Firefox(options=firefox_options)
+                # driver = webdriver.Firefox(options=firefox_options)
+                driver = webdriver.Firefox()
                 driver.maximize_window()
                 result_url_list = gain_website_url(site_item)
                 # 关闭浏览器
@@ -222,4 +230,19 @@ bug1) 当前访问二级链： mailto:president@swu.edu.cn, 需对邮箱的连�
 bug2) 相对目录案例
 https://www.cqxyfl.com/index.htm
 href="index!loadMenu.action?preid=560001&id=2c9a808672e400070172e40320780004"
+
+http://jdgc.cqgmy.cn/
+href="info/1004/2217.htm"
+
+内链样式提取:
+
+href="http://www.cqcivc.edu.cn/xwzx2020/15512.html"
+href="info/1004/2217.htm"
+href="index!loadMenu.action?preid=560001&id=2c9a808672e400070172e40320780004"
+……
+
+"./XXXX"、"XXXX/XXXX/"、"XXXX"
+"/XXXXX"
+"//"
+
 """

@@ -15277,15 +15277,17 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1610436955236	Marionette	INFO	Listening on port 51730
 1610436955520	Marionette	WARN	TLS certificate errors will be ignored for this session
-1610436965247	geckodriver	INFO	Listening on 127.0.0.1:51912
+Exiting due to channel error.
+Listening on 127.0.0.1:51912
 1610437029163	geckodriver	INFO	Listening on 127.0.0.1:52011
 1610437032204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileVf5GCb"
 *** You are running in headless mode.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1610437033534	Marionette	INFO	Listening on port 52032
 1610437033802	Marionette	WARN	TLS certificate errors will be ignored for this session
-1610437055163	geckodriver	INFO	Listening on 127.0.0.1:55972
-1610437058200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilesnDoYb"
+Exiting due to channel error.
+Exiting due to channel error.
+10437058200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilesnDoYb"
 *** You are running in headless mode.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1610437059511	Marionette	INFO	Listening on port 55981
@@ -15310,8 +15312,8 @@ DOMException
     - NOT_SUPPORTED_ERR = 9
     - NO_DATA_ALLOWED_ERR = 6
     - NO_MODIFICATION_ALLOWED_ERR = 7
-    - QUOTA_EXCEEDED_ERR = 22
-    - SECURITY_ERR = 18
+    - QUOTA_EXCEEExiting due to channel error.
+R = 18
     - SYNTAX_ERR = 12
     - TIMEOUT_ERR = 23
     - TYPE_MISMATCH_ERR = 17
@@ -15330,14 +15332,927 @@ DOMException
     - stack = 
   - prototype Error
   - prototype Object
-ette	INFO	Listening on port 61467
-1610437170389	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+be ignored for this session
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-1610437602204	geckodriver	INFO	Listening on 127.0.0.1:64706
-1610437605255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileLHzjfB"
+Exiting due to channel error.
+Exiting due to channel error.
+10437605255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileLHzjfB"
 *** You are running in headless mode.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1610437606861	Marionette	INFO	Listening on port 64716
 1610437607347	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+10439270346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileSdy9Eq"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610439271905	Marionette	INFO	Listening on port 54222
+1610439271953	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+[Child 28276, MediaDecoderStateMachine #1] WARNING: Decoder=13b5ac92400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 28276, MediaDecoderStateMachine #1] WARNING: Decoder=13b5ac92400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+1610439448281	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+Listening on 127.0.0.1:64643
+1610441862860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileywgyO8"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610441864472	Marionette	INFO	Listening on port 64653
+1610441864976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1610441869518	Marionette	INFO	Stopped listening on port 64653
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1610441870152	geckodriver	INFO	Listening on 127.0.0.1:64696
+1610441873190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileTu30tB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610441874553	Marionette	INFO	Listening on port 64752
+1610441874785	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1610441879331	Marionette	INFO	Stopped listening on port 64752
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 30396, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1610442454399	geckodriver	INFO	Listening on 127.0.0.1:50713
+1610442457458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilefAXbKW"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610442459694	Marionette	INFO	Listening on port 50725
+1610442460195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.cqxyfl.com/portal/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.cqxyfl.com/portal/js/aboutUs/aboutUs.js, line 33: ReferenceError: id is not defined
+JavaScript error: https://www.cqxyfl.com/portal/js/aboutUs/aboutUs.js, line 33: ReferenceError: id is not defined
+JavaScript error: https://www.cqxyfl.com/portal/js/aboutUs/aboutUs.js, line 33: ReferenceError: id is not defined
+JavaScript error: https://www.cqxyfl.com/portal/js/aboutUs/aboutUs.js, line 33: ReferenceError: id is not defined
+JavaScript error: https://www.cqxyfl.com/portal/js/business/business.js, line 33: ReferenceError: id is not defined
+JavaScript error: https://www.cqxyfl.com/portal/js/business/business.js, line 33: ReferenceError: id is not defined
+1610442562327	Marionette	INFO	Stopped listening on port 50725
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610442666148	geckodriver	INFO	Listening on 127.0.0.1:50973
+1610442669183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofile8nKGsX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610442671306	Marionette	INFO	Listening on port 51020
+1610442671401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610442675356	geckodriver	INFO	Listening on 127.0.0.1:51082
+1610442678414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileGi0dJI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610442680550	Marionette	INFO	Listening on port 51091
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1610442682307	Marionette	INFO	Stopped listening on port 51091
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+l) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610442675464	Marionette	INFO	Stopped listening on port 51020
+1610442690690	geckodriver	INFO	Listening on 127.0.0.1:51207
+1610442693737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileJYmIY1"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610442695901	Marionette	INFO	Listening on port 51219
+1610442695966	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://big5.www.gov.cn/gate/big5/www.gov.cn/govweb/xhtml/2016gov/public/pic20181229/2018scrollImg.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://big5.www.gov.cn/gate/big5/www.gov.cn/govweb/xhtml/2016gov/public/pic20181229/2018scrollImg.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: https://tousu.www.gov.cn/dc/index.htm, line 32: ReferenceError: eruda is not defined
+JavaScript error: https://ysp.www.gov.cn/013582404bd78ad3c016b8fffefe6a9a/allmobilize.min.js, line 4: NS_ERROR_FAILURE: 
+1610442983776	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610442992696	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610442993332	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610442994399	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610442995711	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+1610443001870	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery.qrcode.js, line 4: TypeError: document.getElementById(...) is null
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery.qrcode.js, line 4: TypeError: document.getElementById(...) is null
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610443062339	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610443062834	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610443064349	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610443065105	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript error: http://gjzwfw.www.gov.cn/fwmh/login/userLogin.do, line 264: ReferenceError: ajax is not defined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: http://gjzwfw.www.gov.cn/fwmh/resources/fwmh/js/jquery.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: https://tousu.www.gov.cn/dc/index.htm, line 32: ReferenceError: eruda is not defined
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610443653423	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610443654379	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript warning: http://gjzwfw.www.gov.cn/images/598/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/images/598/jquery.js, line 170: unreachable code after return statement
+JavaScript error: http://gjzwfw.www.gov.cn/fwmh/resources/fwmh/bwfw/js/bwfw.js, line 169: TypeError: result is null
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610443655469	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610443655896	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript warning: http://gjzwfw.www.gov.cn/images/598/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/images/598/jquery.js, line 170: unreachable code after return statement
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript warning: https://xcx.www.gov.cn/robot/web/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://bmfw.www.gov.cn/gszjxwqymlcx/images/jquery.js, line 1: SecurityError: Permission denied to access property "nodeName" on cross-origin object
+JavaScript error: https://static.122.gov.cn/V1.21.0/plat/static/zwdj/js/public_1.js, line 2: ReferenceError: $ is not defined
+JavaScript error: https://static.122.gov.cn/V1.21.0/plat/static/zwdj/js/jquery.date_input.pack_1.js, line 271: ReferenceError: jQuery is not defined
+JavaScript error: https://static.122.gov.cn/V1.21.0/plat/static/zwdj/js/search_option_1.js, line 2: ReferenceError: $ is not defined
+JavaScript error: https://gab.122.gov.cn/views/zwdj/drvscore.html, line 103: ReferenceError: $ is not defined
+JavaScript error: https://static.122.gov.cn/V1.21.0/plat/static/jsthird/require.js, line 8: Error: Script error for: js/mdlzwdj
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript warning: http://bmfw.www.gov.cn/scjgzjspaqcjgbjgcx/js/main.js, line 24: unreachable code after return statement
+JavaScript warning: http://bmfw.www.gov.cn/scjgzjspaqcjgbjgcx/js/main.js, line 24: unreachable code after return statement
+JavaScript error: http://bmfw.www.gov.cn/scjgzjspaqcjgbjgcx/js/jquery.js line 4 > srcScript, line 3: SecurityError: Permission denied to access property "getComputedStyle" on cross-origin object
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://stat.www.gov.cn/webdig.js?z=1 line 9664 > srcScript line 1 > eval, line 1: NS_ERROR_FAILURE: 
+JavaScript error: http://stat.www.gov.cn/webdig.js?z=1 line 9664 > srcScript line 1 > eval, line 1: NS_ERROR_FAILURE: 
+JavaScript error: http://stat.www.gov.cn/webdig.js?z=1 line 9664 > srcScript line 1 > eval, line 1: NS_ERROR_FAILURE: 
+JavaScript error: http://stat.www.gov.cn/webdig.js?z=1 line 9664 > srcScript line 1 > eval, line 1: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 6150: TypeError: elem.ownerDocument.defaultView is null
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 358: TypeError: obj is undefined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 358: TypeError: obj is undefined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 358: TypeError: obj is undefined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 358: TypeError: obj is undefined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 358: TypeError: obj is undefined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 225: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 225: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 225: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 452: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: https://tousu.www.gov.cn/dc/index.htm, line 32: ReferenceError: eruda is not defined
+1610443898895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610444079521	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610444180943	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610444872051	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872129	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872213	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872316	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872444	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872552	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872644	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872797	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444872895	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610444994115	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445023777	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445023869	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445023945	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024029	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024088	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024168	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024245	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024324	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024385	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024483	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024605	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024685	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024776	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445024861	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445025013	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445246730	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445246802	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445246882	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445246991	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247043	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247100	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247185	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247238	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247303	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247386	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247463	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247517	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247602	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247691	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247853	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1610445247941	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A015D,name=PContent::Msg_CommitWindowContextTransaction) Closed channel: cannot send/recv
+
+1610500040259	geckodriver	INFO	Listening on 127.0.0.1:58220
+1610500043314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileiMuKxv"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610500045430	Marionette	INFO	Listening on port 58229
+1610500045549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gov.cn/govweb/xhtml/libs/jQuery/jquery-e.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 14368, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1610500048543	Marionette	INFO	Stopped listening on port 58229
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610500098421	geckodriver	INFO	Listening on 127.0.0.1:56058
+1610500101468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilemCk5pz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610500103572	Marionette	INFO	Listening on port 56069
+1610500103694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://big5.www.gov.cn/gate/big5/www.gov.cn/govweb/xhtml/2016gov/public/pic20181229/2018scrollImg.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://ysp.www.gov.cn/013582404bd78ad3c016b8fffefe6a9a/allmobilize.min.js, line 4: NS_ERROR_FAILURE: 
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+1610500246204	Marionette	INFO	Stopped listening on port 56069
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610500248527	geckodriver	INFO	Listening on 127.0.0.1:63440
+1610500251581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileVlBoWy"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610500253738	Marionette	INFO	Listening on port 63448
+1610500253794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://big5.www.gov.cn/gate/big5/www.gov.cn/govweb/xhtml/2016gov/public/pic20181229/2018scrollImg.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://big5.www.gov.cn/gate/big5/www.gov.cn/govweb/xhtml/2016gov/public/pic20181229/2018scrollImg.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript warning: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/placeholder.js, line 73: TypeError: $(...).iePlaceholder is not a function
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: https://tousu.www.gov.cn/dc/index.htm, line 32: ReferenceError: eruda is not defined
+JavaScript error: https://ysp.www.gov.cn/013582404bd78ad3c016b8fffefe6a9a/allmobilize.min.js, line 4: NS_ERROR_FAILURE: 
+1610500508490	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610500517929	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript error: http://gjzwfw.www.gov.cn/fwmh/login/userLogin.do, line 264: ReferenceError: ajax is not defined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery.qrcode.js, line 4: TypeError: document.getElementById(...) is null
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/js/jquery.qrcode.js, line 4: TypeError: document.getElementById(...) is null
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610500581489	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610500582406	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 1: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://gjzwfw.www.gov.cn/module/jslib/jquery/jquery.js, line 170: unreachable code after return statement
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610500583497	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.gov.cn/govweb/xhtml/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: https://www.gov.cn/govweb/xhtml/2019zhuanti/20200419submitpage/agent.html, line 13: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: http://www.gov.cn/zhengce/index.htm, line 1399: TypeError: version[1] is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/govweb/xhtml/2019zhuanti/20200619govInformationDisclosure/js/20190820policyLibrarySearchResultPage.js, line 173: TypeError: $.cookie is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: http://www.gov.cn/hudong/xzlwh.htm, line 934: TypeError: $(...).flexslider is not a function
+JavaScript error: https://tousu.www.gov.cn/dc/index.htm, line 32: ReferenceError: eruda is not defined
+JavaScript error: http://gjzwfw.www.gov.cn/script/0/1807251115441333.js, line 313: TypeError: $.cookie is not a function
+1610501082028	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://www.gov.cn/govweb/xhtml/2016gov/fuwu/201900809policeService/js/fwCommentdialog.js, line 5: ReferenceError: $ is not defined
+JavaScript error: http://bmfw.www.gov.cn/zcdwpt/source/PC/js/jquery-3.4.1.js, line 2: SecurityError: Permission denied to access property "jQuery3410490314769768668171" on cross-origin object
+JavaScript warning: https://xcx.www.gov.cn/robot/web/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://xcx.www.gov.cn/robot/web/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://t1.chei.com.cn/common/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://t1.chei.com.cn/common/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://t1.chei.com.cn/common/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://t1.chei.com.cn/common/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://static.122.gov.cn/V1.21.0/plat/static/jsthird/require.js, line 8: Error: Script error for: base
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: http://bmfw.www.gov.cn/scjgzjspaqcjgbjgcx/js/main.js, line 24: unreachable code after return statement
+JavaScript warning: http://bmfw.www.gov.cn/scjgzjspaqcjgbjgcx/js/main.js, line 24: unreachable code after return statement
+JavaScript error: http://bmfw.www.gov.cn/scjgzjspaqcjgbjgcx/js/jquery.js line 4 > srcScript, line 3: SecurityError: Permission denied to access property "getComputedStyle" on cross-origin object
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/jquery-1.11.3.js, line 358: TypeError: obj is undefined
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js line 9664 > srcScript, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: http://spcx.www.gov.cn/ZFW-AccessPlatform/sjcx/js/echarts.min.js, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+JavaScript error: http://www.gov.cn/govweb/xhtml/js/gov_mhsl046.js, line 83: TypeError: $(...).offset() is undefined
+1610501297465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610501566699	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+[Child 10916, MediaDecoderStateMachine #1] WARNING: Decoder=2c483894000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 10916, MediaDecoderStateMachine #1] WARNING: Decoder=2c483894000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 10916, MediaDecoderStateMachine #1] WARNING: Decoder=2c483bbc800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 10916, MediaDecoderStateMachine #1] WARNING: Decoder=2c483bbc800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 10916, MediaDecoderStateMachine #1] WARNING: Decoder=2c4f59e8c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 10916, MediaDecoderStateMachine #1] WARNING: Decoder=2c4f59e8c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+1610505125822	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1610505125822	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://t1.chei.com.cn/common/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://t1.chei.com.cn/common/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://bmfw.www.gov.cn/gszjxwqymlcx/images/jquery.js, line 1: SecurityError: Permission denied to access property "nodeName" on cross-origin object
+1610505350759	Marionette	INFO	Stopped listening on port 63448
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
