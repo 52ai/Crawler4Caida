@@ -54,4 +54,4 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     gain_cn_as_info()
     time_end = time.time()  # 记录结束的时间
-    print("=>Scripts Finish, Time Consuming:", (time_end - time_end), "S")
+    print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
