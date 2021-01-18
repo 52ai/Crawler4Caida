@@ -23,6 +23,15 @@ Function:
 3）P2C + P2P
 4）P2P + C2P
 
+
+V2: 
+Create on Jan 18, 2021 By Wenyan YU
+
+Function:
+
+在V1的基础上，对国家路径进行处理，找到，最优路径1条，次优路径1条，非U地区N条，非five地区N条
+
+
 """
 
 import time
@@ -169,10 +178,10 @@ def gain_valid_paths(as_graph, all_paths):
             s = path_item[i]
             t = path_item[i+1]
             # print(s, t, as_graph.edges[s, t]['rel'])
-            log_file.append([s, t, as_graph.edges[s, t]['rel']])
+            # log_file.append([s, t, as_graph.edges[s, t]['rel']])
             path_type.append(as_graph.edges[s, t]['rel'])
         # print(path_type)
-        log_file.append([path_type])
+        # log_file.append([path_type])
         flag = True  # 默认路径为有效
         for i in range(len(path_type)-1):
             if [path_type[i], path_type[i+1]] in type_rel:
@@ -182,9 +191,9 @@ def gain_valid_paths(as_graph, all_paths):
         if flag is True:
             valid_paths.append(path_item)
             # print("This Path is Valid!")
-            log_file.append(["This Path is Valid!"])
+            # log_file.append(["This Path is Valid!"])
         else:
-            log_file.append(["This Path is Invalid!"])
+            # log_file.append(["This Path is Invalid!"])
             # print("This Path is Invalid!")
             pass
         # log_file.append(["- - - -  - - - - - - - - - - - - - -  -"])
@@ -196,7 +205,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     as_pair = [["9808", "1273"], ["4134", "2906"], ["4837", "3320"]]
     # as_pair = [["4134", "2906"]]
-    max_hop = 3
+    max_hop = 4
     for as_pair_item in as_pair:
         gain_all_paths(as_pair_item[0], as_pair_item[1], max_hop)
         """
@@ -212,6 +221,49 @@ if __name__ == "__main__":
         path_file = []  # 清空path
 
         path_country_save_path = "../000LocalData/GlobalNetSimulate/path_country_" + file_name_str + ".csv"
+        """
+        对国家路径进行处理，
+        1）先按照path长度进行排序，找到最短路径，选为最优路径，置为1
+        2）选取除最优路径外，排第二的路径为次优路径，置为2
+        3）其余路径中选取Path中含u，置为3；选取不含u但含five_u的路径置为4
+        4）剩余路径置为5
+
+        five国家缩写为，US、GB、AU、CA、NZ
+
+        """
+        # print(path_country_file)
+        u_country = ["US"]
+        five_u_country = ["GB", "AU", "CA", "NZ"]
+        path_country_file.sort(reverse=False, key=lambda i: len(i))  # 按照跳数进行排序
+        cnt = 0
+        for item_path in path_country_file:
+            if cnt == 0:
+                item_path.append(1)
+            elif cnt == 1:
+                item_path.append(2)
+            else:
+                is_flag_u = False
+                is_flag_five_u = False
+                for item in item_path:
+                    if item in u_country:
+                        is_flag_u = True
+                        break
+                
+                for item in item_path:
+                    if item in five_u_country:
+                        is_flag_five_u = True
+                        break
+                if is_flag_u:
+                    item_path.append(3)
+                else:
+                    if is_flag_five_u:
+                        item_path.append(4)
+                    else:
+                        item_path.append(5)
+
+            print(item_path)
+            cnt += 1
+
         write_to_csv(path_country_file, path_country_save_path, ["# COUNTRY PATH"])
         path_country_file = []  # 清空path
 
