@@ -70,7 +70,8 @@ def gain_geo():
     """
     根据AS Whois信息，获取经纬度信息
     """
-    as_info_file = 'D:/Code/Crawler4Caida/000LocalData/as_Gao/asn_info.txt'
+    result_list = []  # 存储结果列表
+    as_info_file = 'D:/Code/Crawler4Caida/000LocalData/as_Gao/asn_info_copy.txt'
     file_read = open(as_info_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("\t")
@@ -85,7 +86,12 @@ def gain_geo():
         print(as_number, as_desrc_key)
         as_geo = gain_geo_from_googlemap(as_desrc_key)
         print(as_number, as_geo)
+        temp_line = [as_number, as_desrc, as_country]
+        temp_line.extend(as_geo)
+        result_list.append(temp_line)
 
+    save_path = "D:/Code/Crawler4Caida/058ASWhois/asns_google.csv"
+    write_to_csv(result_list, save_path, ["# Whois Google Geo"])
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
