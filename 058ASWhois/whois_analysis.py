@@ -40,7 +40,7 @@ def whois_analysis():
     并将其与Google地图结合
     """
     aswhois_file = "d:/code/Crawler4Caida/000LocalData/ASWhois/aswhois.txt"
-    file_read = open(aswhois_file, 'r', encoding='utf-8')
+    file_read = open(aswhois_file, 'r', encoding='ANSI')
     block_flag = True  # 标记每一个AS请求块
     block_cnt = 0  # AS请求块计数
     for line in file_read.readlines():
@@ -64,7 +64,7 @@ def whois_analysis():
         if block_flag == False and (not line.startswith("========")):
             continue
 
-        if block_cnt > 2000:
+        if block_cnt > 10:
             break
 
 
