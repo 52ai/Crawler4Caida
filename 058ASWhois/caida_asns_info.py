@@ -97,6 +97,14 @@ def gain_asns_info():
     write_to_csv(result_list, save_path, ["# Whois Geo"])
 
 
+def count_org_info():
+    """
+    统计as info中，机构及其所包含的自治域网络数量
+    为缩短网页请求的总时间，在根据whois信息抓取Geo时，可以按照机构的列表进行
+    """
+    pass
+
+
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录程序启动的时间
