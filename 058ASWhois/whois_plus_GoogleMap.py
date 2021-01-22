@@ -82,8 +82,8 @@ def gain_geo_from_googlemap(desrc_str):
     geo_str = geo_str.strip().strip("@").split(",")
     if len(geo_str) == 3:
         # print(geo_str[0], geo_str[1])
-        geo.append(geo_str[0])
-        geo.append(geo_str[1])
+        geo.append(geo_str[0])  # 维度
+        geo.append(geo_str[1])  # 经度
     print(current_url)
     return geo
 
@@ -143,6 +143,8 @@ if __name__ == "__main__":
     driver = webdriver.Firefox(options=firefox_options)
     # driver = webdriver.Firefox()
     driver.maximize_window()
+    site_url = "https://www.google.com.hk/maps/"
+    driver.get(site_url)
     gain_geo()
     # 关闭浏览器
     driver.quit()

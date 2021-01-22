@@ -82,8 +82,8 @@ def gain_geo_from_googlemap(desrc_str):
     geo_str = geo_str.strip().strip("@").split(",")
     if len(geo_str) == 3:
         # print(geo_str[0], geo_str[1])
-        geo.append(geo_str[0])
-        geo.append(geo_str[1])
+        geo.append(geo_str[1])  # 经度
+        geo.append(geo_str[0])  # 维度
     print(current_url)
     return geo
 
@@ -94,7 +94,7 @@ def gain_geo():
     """
     country2str = gain_countryinfo()  # 获取国家全称
     # print(country2str)
-    as_info_file = 'D:/Code/Crawler4Caida/058ASWhois/asns.csv'
+    as_info_file = 'D:/Code/Crawler4Caida/058ASWhois/asns_copy.csv'
     file_read = open(as_info_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         if line.startswith("#"):
