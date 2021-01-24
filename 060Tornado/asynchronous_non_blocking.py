@@ -24,9 +24,12 @@ def job(id):
     """
     定义要干的事
     """
-    # url = 'http://www.baidu.com/'
+    # url = 'https://www.baidu.com/'
     # resp = requests.get(url)
     # print(resp.text)
+    # file_write = 'D:/Code/Crawler4Caida/060Tornado/write_txt.txt'
+    # with open(file_write, 'a', encoding="utf-8") as f:
+    #     f.write(resp.text)
     time.sleep(3)
     print("job:", id, ", finish!")
 
@@ -36,9 +39,9 @@ async def runner():
     任务分发到异步非阻塞模型（Tornado）中
     """
     loop = IOLoop.current()
-    exctutor = ThreadPoolExecutor(8000)
+    exctutor = ThreadPoolExecutor(1000)
     # 此处开始任务分派
-    for job_id in range(8000):
+    for job_id in range(1000):
         loop.run_in_executor(exctutor, job, job_id)
     
     print('This will be excuted before loop finished.')
@@ -49,7 +52,6 @@ if __name__ == '__main__':
     IOLoop.current().run_sync(runner)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
-
 
 
 

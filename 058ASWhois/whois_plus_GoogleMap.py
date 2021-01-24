@@ -116,7 +116,6 @@ def gain_geo():
             as_geo = gain_geo_from_googlemap(as_desrc_key)
         except Exception as e:
             print(e)
-            driver.refresh()  # 刷新下浏览器
             as_geo = []
         # print(as_number, as_geo)
         print("AS", as_number, as_desrc, as_country, as_geo)
