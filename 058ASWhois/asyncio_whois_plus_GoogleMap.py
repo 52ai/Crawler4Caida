@@ -41,7 +41,7 @@ def write_to_csv(res_list, des_path, title_list):
     print("write file <%s>.." % des_path)
     csv_file = open(des_path, "w", newline='', encoding='gbk')
     try:
-        writer = csv.writer(csv_file, delimiter=',', quotechar='"')
+        writer = csv.writer(csv_file, delimiter=',')
         writer.writerow(title_list)
         for i in res_list:
             writer.writerow(i)
@@ -74,8 +74,8 @@ def gain_geo_from_googlemap(desrc_str, key, driver):
     :return geo:
     """
     # 设置最长等待时间
-    driver.set_page_load_timeout(4)
-    driver.set_script_timeout(4)
+    driver.set_page_load_timeout(10)
+    driver.set_script_timeout(10)
     geo = []  # 存储经纬度信息
     site_url = "https://www.google.com.hk/maps/"
     driver.get(site_url)
@@ -85,7 +85,7 @@ def gain_geo_from_googlemap(desrc_str, key, driver):
     time.sleep(0.001)
     submit_btn = driver.find_element_by_id("searchbox-searchbutton")
     submit_btn.click()
-    time.sleep(3)
+    time.sleep(5)
     current_url = driver.current_url
     # if current_url.find("/place/") != -1:
     patt = re.compile(r'[@].+[/]')
@@ -100,8 +100,8 @@ def gain_geo_from_googlemap(desrc_str, key, driver):
     log_line = []
     log_line.append(key)
     log_line.extend(geo)
-    with open("D:/Code/Crawler4Caida/058ASWhois/asyncio_log.csv", "a", newline='', encoding='utf-8') as csv_file:
-        writer = csv.writer(csv_file, delimiter=',', quotechar='"')
+    with open("D:/Code/Crawler4Caida/058ASWhois/asyncio_log_redo.csv", "a", newline='', encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file, delimiter=',')
         writer.writerow(log_line) 
 
 
@@ -137,15 +137,36 @@ def gain_geo():
     as_info_file = 'D:/Code/Crawler4Caida/058ASWhois/asns_copy.csv'
     file_read = open(as_info_file, 'r', encoding='utf-8')
     """
-    为方便每一次，尽量减少重复爬取，每次都需读取asyncio_asns_google_all.csv
+    为方便每一次，尽量减少重复爬取，每次都需读取asyncio_log.csv
     剔除已经抓取的记录
     """
+    # 读asyncio log
     done_geo_file = 'D:/Code/Crawler4Caida/058ASWhois/asyncio_log.csv'
     done_org_list = []  # 存储已经抓取的org_list 
     with open(done_geo_file, 'r', encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")
-            done_org_list.append(line[0])
+            if len(line) == 3:
+                done_org_list.append(line)
+
+    # 写asyncio log redo
+    done_geo_file_redo = 'D:/Code/Crawler4Caida/058ASWhois/asyncio_log_redo.csv'
+    with open(done_geo_file_redo, "a", newline='', encoding='utf-8') as f:
+        for line in done_org_list:
+            writer = csv.writer(f, delimiter=',')
+            writer.writerow(line)
+    
+    # 读asyncio log redo
+    done_geo_file_redo = 'D:/Code/Crawler4Caida/058ASWhois/asyncio_log_redo.csv'
+    done_org_list_redo = []  # 存储已经抓取的org_list 
+    with open(done_geo_file_redo, 'r', encoding="utf-8") as f:
+        for line in f.readlines():
+            line = line.strip().split(",")
+            done_org_list_redo.append(line[0])
+
+    print("已抓取机构信息总记录数:", len(done_org_list_redo))
+    done_org_list = list(set(done_org_list_redo))
+    print("去重之后的机构信息总记录数", len(done_org_list_redo))
 
     org_list = []  # 存储org信息
     for line in file_read.readlines():
