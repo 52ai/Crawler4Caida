@@ -50,8 +50,8 @@ def count_fre_list(word_list):
     return re_list
 
 
-# 读词
-text = open("test_project.txt", 'r', encoding='utf-8').read()
+# 读词 D:\Code\Crawler4Caida\056WordCloud\test_project.txt
+text = open("D:/Code/Crawler4Caida/056WordCloud/test_project.txt", 'r', encoding='utf-8').read()
 # print(text)
 text = text.strip("\n")
 text = re.sub("[()（）\"，。、”.“〇！；]", "", text)
@@ -70,10 +70,10 @@ cut_text = jieba.lcut(text)
 
 
 # 绘图
-background = Image.open("fu.jpg")
+background = Image.open("D:/Code/Crawler4Caida/056WordCloud/fu.jpg")
 graph = np.array(background)
 
-stop_words = set(open('cn_stopwords.txt', encoding="utf-8").read().split("\n"))
+stop_words = set(open('D:/Code/Crawler4Caida/056WordCloud/cn_stopwords.txt', encoding="utf-8").read().split("\n"))
 # print(stop_words)
 
 wc = wordcloud.WordCloud(
@@ -91,9 +91,9 @@ wc = wordcloud.WordCloud(
 
 # wc.generate(result)
 wc.fit_words(count_fre_dict(cut_text))
-wc.to_file('result_project.png')  # 图片显示的名字
+wc.to_file('D:/Code/Crawler4Caida/056WordCloud/result_project.png')  # 图片显示的名字
 plt.subplots(figsize=(12, 8))
 plt.imshow(wc)
 plt.axis('off')  # 关闭坐标
-plt.savefig("result_project_2016.png", dpi=600, facecolor='white')
+plt.savefig("D:/Code/Crawler4Caida/056WordCloud/result_project_2020.png", dpi=600, facecolor='white')
 # plt.show()
