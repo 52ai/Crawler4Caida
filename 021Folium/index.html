@@ -7,6 +7,8 @@
             L_DISABLE_3D = false;
         </script>
     
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -16,14 +18,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_59746036c9324659b78d915069f9f781 {
+                #map_8526768ffa7142afa7859ddd65aa2692 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_59746036c9324659b78d915069f9f781" ></div>
+            <div class="folium-map" id="map_8526768ffa7142afa7859ddd65aa2692" ></div>
         
 </body>
 <script>    
     
-            var map_59746036c9324659b78d915069f9f781 = L.map(
-                "map_59746036c9324659b78d915069f9f781",
+            var map_8526768ffa7142afa7859ddd65aa2692 = L.map(
+                "map_8526768ffa7142afa7859ddd65aa2692",
                 {
-                    center: [39.0, 116.0],
+                    center: [39.9213364, 116.3527165],
                     crs: L.CRS.EPSG3857,
-                    zoom: 13,
+                    zoom: 12,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -55,32 +55,32 @@
 
         
     
-            var tile_layer_a94cd8430be240899d7c8ecbab4526a9 = L.tileLayer(
+            var tile_layer_0dbeef26218b44ed895bc757f362c506 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_59746036c9324659b78d915069f9f781);
+            ).addTo(map_8526768ffa7142afa7859ddd65aa2692);
         
     
-            var marker_fa2817fb2fe645869b9f1e6c3098dcad = L.marker(
-                [39.3288, 116.6625],
+            var marker_942bff48fc0940cc8bfc2d9051a4adf0 = L.marker(
+                [30.5441635964541, 114.153920782153],
                 {}
-            ).addTo(map_59746036c9324659b78d915069f9f781);
+            ).addTo(map_8526768ffa7142afa7859ddd65aa2692);
         
     
-        var popup_cba114c50af44f38af6e4ef325f08055 = L.popup({"maxWidth": "100%"});
+        var popup_7e86b1ecba49404f9b7d0be234694330 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b9cc2edf3abc44d7a613553a73d720d2 = $(`<div id="html_b9cc2edf3abc44d7a613553a73d720d2" style="width: 100.0%; height: 100.0%;"><i>Mt. Hood Meadows</i></div>`)[0];
-            popup_cba114c50af44f38af6e4ef325f08055.setContent(html_b9cc2edf3abc44d7a613553a73d720d2);
+            var html_2ecbfdf8b1e34294a79ae243b535e4df = $(`<div id="html_2ecbfdf8b1e34294a79ae243b535e4df" style="width: 100.0%; height: 100.0%;"><i>AS4134</i></div>`)[0];
+            popup_7e86b1ecba49404f9b7d0be234694330.setContent(html_2ecbfdf8b1e34294a79ae243b535e4df);
         
 
-        marker_fa2817fb2fe645869b9f1e6c3098dcad.bindPopup(popup_cba114c50af44f38af6e4ef325f08055)
+        marker_942bff48fc0940cc8bfc2d9051a4adf0.bindPopup(popup_7e86b1ecba49404f9b7d0be234694330)
         ;
 
         
     
     
-            marker_fa2817fb2fe645869b9f1e6c3098dcad.bindTooltip(
+            marker_942bff48fc0940cc8bfc2d9051a4adf0.bindTooltip(
                 `<div>
                      Click me!
                  </div>`,
@@ -88,26 +88,26 @@
             );
         
     
-            var marker_2e4f129cae0241ea98b4221feac87053 = L.marker(
-                [39.3288, 116.1125],
+            var marker_1772fa7cb09f48138e659f17f87425dc = L.marker(
+                [39.8959270178956, 116.418913155767],
                 {}
-            ).addTo(map_59746036c9324659b78d915069f9f781);
+            ).addTo(map_8526768ffa7142afa7859ddd65aa2692);
         
     
-        var popup_d7112cdcebc748a8b32fe155c3a17383 = L.popup({"maxWidth": "100%"});
+        var popup_d1ccd7c96e3d4ae49a39a397299cec5e = L.popup({"maxWidth": "100%"});
 
         
-            var html_572ca1bc8a91453699f7292e682737e8 = $(`<div id="html_572ca1bc8a91453699f7292e682737e8" style="width: 100.0%; height: 100.0%;"><b>Timberline Lodge</b></div>`)[0];
-            popup_d7112cdcebc748a8b32fe155c3a17383.setContent(html_572ca1bc8a91453699f7292e682737e8);
+            var html_4b13e7f9d5d84be99b0595c8f9d93aef = $(`<div id="html_4b13e7f9d5d84be99b0595c8f9d93aef" style="width: 100.0%; height: 100.0%;"><b>AS4847</b></div>`)[0];
+            popup_d1ccd7c96e3d4ae49a39a397299cec5e.setContent(html_4b13e7f9d5d84be99b0595c8f9d93aef);
         
 
-        marker_2e4f129cae0241ea98b4221feac87053.bindPopup(popup_d7112cdcebc748a8b32fe155c3a17383)
+        marker_1772fa7cb09f48138e659f17f87425dc.bindPopup(popup_d1ccd7c96e3d4ae49a39a397299cec5e)
         ;
 
         
     
     
-            marker_2e4f129cae0241ea98b4221feac87053.bindTooltip(
+            marker_1772fa7cb09f48138e659f17f87425dc.bindTooltip(
                 `<div>
                      Click me!
                  </div>`,

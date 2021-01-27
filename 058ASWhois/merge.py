@@ -32,6 +32,7 @@ with open(asyncio_log_file, 'r', encoding='utf-8') as f:
 ans_copy_file = 'D:/Code/Crawler4Caida/000LocalData/ASWhois/asns_copy.csv'
 with open(ans_copy_file, 'r', encoding='utf-8') as f:
     for line in f.readlines():
+        line_str = line
         line = line.strip().split(",")
         try:
             org_name = line[1].split(" - ")[-1]
@@ -42,6 +43,14 @@ with open(ans_copy_file, 'r', encoding='utf-8') as f:
         if len(line) > 3:
             temp_line = line
             temp_line.append("SOURCE-C")
+            asns_geo_all_list.append(temp_line)
+        elif line_str.find("Reserved AS") != -1:
+            temp_line = line
+            temp_line.append("SOURCE-RESERVED")
+            asns_geo_all_list.append(temp_line)
+        elif line_str.find("Unallocated AS") != -1:
+            temp_line = line
+            temp_line.append("SOURCE-UNALLOCATED")
             asns_geo_all_list.append(temp_line)
         elif org_name in org_geo_dict.keys():
             temp_line = line
@@ -62,7 +71,9 @@ with open(asns_geo_all_file, 'w', newline='', encoding='utf-8') as f:
 
         
             
+"""
+共整理出全167602个AS网络信息
+包括69101(CAIDA爬取) + 26587(Google爬取) + 65511(保留) + 2717(未分配) + 3686(未获取到Geo)
 
-
-
+"""
 

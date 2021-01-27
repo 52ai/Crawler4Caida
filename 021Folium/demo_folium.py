@@ -7,14 +7,18 @@ Function:
 """
 
 import folium
+import pandas as pd
 
+cdata = pd.read_csv('https://cocl.us/sanfran_crime_dataset')
+print(cdata.head())
+# m = folium.Map(location=[30.5441635964541, 114.153920782153], zoom_start=13, tiles="Stamen Terrain")
 
-m = folium.Map(location=[39, 116], zoom_start=13)
+m = folium.Map(location=[39.9213364, 116.3527165], zoom_start=12)
 
 tooltip = 'Click me!'
 
-folium.Marker([39.3288, 116.6625], popup='<i>Mt. Hood Meadows</i>', tooltip=tooltip).add_to(m)
-folium.Marker([39.3288, 116.1125], popup='<b>Timberline Lodge</b>', tooltip=tooltip).add_to(m)
+folium.Marker([30.5441635964541, 114.153920782153], popup='<i>AS4134</i>', tooltip=tooltip).add_to(m)
+folium.Marker([39.8959270178956, 116.418913155767], popup='<b>AS4847</b>', tooltip=tooltip).add_to(m)
 
-m.save('index.html')
+m.save('D:/Code/Crawler4Caida/021Folium/index.html')
 
