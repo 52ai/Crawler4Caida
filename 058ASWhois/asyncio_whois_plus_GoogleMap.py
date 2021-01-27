@@ -74,8 +74,8 @@ def gain_geo_from_googlemap(desrc_str, key, driver):
     :return geo:
     """
     # 设置最长等待时间
-    driver.set_page_load_timeout(10)
-    driver.set_script_timeout(10)
+    driver.set_page_load_timeout(8)
+    driver.set_script_timeout(8)
     geo = []  # 存储经纬度信息
     site_url = "https://www.google.com.hk/maps/"
     driver.get(site_url)
@@ -85,7 +85,7 @@ def gain_geo_from_googlemap(desrc_str, key, driver):
     time.sleep(0.001)
     submit_btn = driver.find_element_by_id("searchbox-searchbutton")
     submit_btn.click()
-    time.sleep(5)
+    time.sleep(4)
     current_url = driver.current_url
     # if current_url.find("/place/") != -1:
     patt = re.compile(r'[@].+[/]')
