@@ -70,6 +70,7 @@ with open(asns_geo_all_file, 'w', newline='', encoding='utf-8') as f:
         writer.writerow(item)
 
         
+
             
 """
 共整理出全167602个AS网络信息
