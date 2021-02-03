@@ -17,7 +17,7 @@ asns_geo_all_list = []  # 存储全部的AS Geo信息
 
 
 # 读取asyncio_log.csv中机构的经纬度信息
-asyncio_log_file =  'D:/Code/Crawler4Caida/000LocalData/ASWhois/asyncio_log.csv'
+asyncio_log_file = 'D:/Code/Crawler4Caida/000LocalData/ASWhois/asyncio_log.csv'
 org_geo_dict = {}  # 存储机构的经纬度信息
 with open(asyncio_log_file, 'r', encoding='utf-8') as f:
     for line in f.readlines():
@@ -69,12 +69,9 @@ with open(asns_geo_all_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f, delimiter=',')
         writer.writerow(item)
 
-        
-
             
 """
 共整理出全167602个AS网络信息
 包括69101(CAIDA爬取) + 26587(Google爬取) + 65511(保留) + 2717(未分配) + 3686(未获取到Geo)
-
 """
 
