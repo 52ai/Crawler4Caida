@@ -60,7 +60,7 @@ data = cdata.iloc[0:limit, :]
 from folium import plugins
 
 # let's start again with a clean copy of the map of San Francisco
-san_map = folium.Map(location = [latitude, longitude], zoom_start = 12)
+san_map = folium.Map(location=[latitude, longitude], zoom_start=12)
 
 # instantiate a mark cluster object for the incidents in the dataframe
 incidents = plugins.MarkerCluster().add_to(san_map)
