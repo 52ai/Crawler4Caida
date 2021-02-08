@@ -46,7 +46,6 @@ data = cdata.iloc[0:limit, :]
 # san_map.add_child(incidents)
 
 
-
 # # add pop-up text to each marker on the map
 # latitudes = list(data.Y)
 # longitudes = list(data.X)
@@ -57,8 +56,6 @@ data = cdata.iloc[0:limit, :]
     
 # # add incidents to map
 # san_map.add_child(incidents)
-
-
 
 from folium import plugins
 
@@ -80,7 +77,6 @@ for lat, lng, label, in zip(data.Y, data.X, cdata.Category):
 san_map.add_child(incidents)
 
 
-
 # from folium.plugins import HeatMap
 
 # # let's start again with a clean copy of the map of San Francisco
@@ -91,7 +87,6 @@ san_map.add_child(incidents)
 
 # # add incidents to map
 # HeatMap(heatdata).add_to(san_map)
-
 
 
 # m = folium.Map(location=[30.5441635964541, 114.153920782153], zoom_start=13, tiles="Stamen Terrain")
