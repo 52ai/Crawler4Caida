@@ -113,7 +113,7 @@ def external_as_analysis(country, as2country):
         print(temp_list)
         return_list.append(temp_list)
         temp_list = []
-    save_path = "../000LocalData/caict_display/All_BGP_Rel_" + country + ".csv"
+    save_path = "../000LocalData/caict_display/All_Rel/All_BGP_Rel_" + country + ".csv"
     write_to_csv(return_list, save_path)
 
 
@@ -121,7 +121,10 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # country = ["US", "BR", "RU", "DE", "GB", "AU", "PL", "IN", "UA", "CA",
     #            "FR", "ID", "CN", "NL", "RO", "IT", "ES", "AR", "HK", "BD", "CH", "KR", "JP", "SE", "BG"]
-    country = ["US", "DE", "JP", "KR", "BR", "IN", "RU", "ZA", "SG", "MY", "ID", "VN"]
+    # country = ["US", "DE", "JP", "KR", "BR", "IN", "RU", "ZA", "SG", "MY", "ID", "VN"]
+    country = ["CN", "US", "DE", "JP", "KR",
+               "BR", "IN", "RU", "ZA", "SG",
+               "MY", "ID", "VN", "FR", "TH"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     as2country_dict = gain_as2country(as_info_file_in)
     for country_item in country:

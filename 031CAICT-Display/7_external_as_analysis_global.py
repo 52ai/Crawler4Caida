@@ -45,7 +45,7 @@ def gain_country_info():
     """
     geo_file = '../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv'
     country_info_dict = {}
-    file_read = open(geo_file, 'r', encoding='utf-8')
+    file_read = open(geo_file, 'r', encoding='gbk')
     for line in file_read.readlines():
         line = line.strip().split(',')
         # print(line)
@@ -142,9 +142,9 @@ def external_as_analysis(target_country, as2country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country_list = ["CN",
-                    "US", "RU", "DE", "FR", "JP",
-                    "BR", "IN", "VN", "ID", "TH"]
+    country_list = ["CN", "US", "DE", "JP", "KR",
+                    "BR", "IN", "RU", "ZA", "SG",
+                    "MY", "ID", "VN", "FR", "TH"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     for country in country_list:
         as2country_dict = gain_as2country(as_info_file_in, country)
