@@ -197,5 +197,4 @@ if __name__ == "__main__":
 ..\000LocalData\as_relationships\serial-1\20200201.as-rel.txt
 活跃的AS号数量： 67612
 没有信息的asn号个数: 2738
-
 """
