@@ -225,6 +225,7 @@ if __name__ == "__main__":
     print("Fail Log:", fail_log)
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 
+
 """
 bug1) 当前访问二级链： mailto:president@swu.edu.cn, 需对邮箱的连接做处理
 bug2) 相对目录案例
