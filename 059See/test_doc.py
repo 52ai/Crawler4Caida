@@ -74,6 +74,12 @@ def gen_doc_file(doc_file_path):
     hdr_cells[0].text = u'股票名称'
     hdr_cells[1].text = u'上市交易所'
     hdr_cells[2].text = u'上市板块'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
 
     # 遍历表格
     for item in temp_list:

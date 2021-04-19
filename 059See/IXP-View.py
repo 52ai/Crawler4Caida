@@ -237,4 +237,4 @@ if __name__ == "__main__":
     time_start = time.time()
     generate_global_ixp_report()
     time_end = time.time()
-    print("=>Scripts Finish, Time Consuming:",(time_end - time_start), "S")
+    print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
