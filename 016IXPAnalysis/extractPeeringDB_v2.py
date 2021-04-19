@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on May 29, 2002 By Wenyan YU
+create on May 29, 2020 By Wenyan YU
 Function：
 
 缘起新型互联网交换中心，感谢PeeringDB给了面试数据分析的基础，时间过去已近三年

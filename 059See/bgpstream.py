@@ -45,7 +45,7 @@ def crawler():
     driver.maximize_window()
     site_url = "https://bgpstream.com/"
     driver.get(site_url)
-
+    print(driver.page_source)
     # 关闭浏览器
     driver.quit()
 

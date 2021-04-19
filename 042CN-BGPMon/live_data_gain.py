@@ -27,7 +27,8 @@ import time
 def gain_rrc_update(aim_rrc, time_interval):
     """
     根据传入的rrc，实时获取采集器更新的UPDATE报文，Add和withdraw报文
-    :param rrc:
+    :param aim_rrc:
+    :param time_interval:
     :return:
     """
     ws = websocket.WebSocket()
@@ -82,6 +83,6 @@ def gain_rrc_update(aim_rrc, time_interval):
 
 
 if __name__ == "__main__":
-    aim_rrc = ""  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
-    time_interval = 60  # 设置抓取的时间
-    gain_rrc_update(aim_rrc, time_interval)
+    aim_rrc_main = ""  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
+    time_interval_main = 60  # 设置抓取的时间
+    gain_rrc_update(aim_rrc_main, time_interval_main)
