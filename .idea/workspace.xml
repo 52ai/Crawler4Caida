@@ -26,12 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/061Plotly/plotly_plus_dash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/061Plotly/test_plotly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/059See/IXP-View.py" beforeDir="false" afterPath="$PROJECT_DIR$/059See/IXP-View.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/059See/test.docx" beforeDir="false" afterPath="$PROJECT_DIR$/059See/test.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/059See/test_doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/059See/test_doc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/061Plotly/test_plotly.py" beforeDir="false" afterPath="$PROJECT_DIR$/061Plotly/test_plotly.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -100,7 +98,7 @@
       <recent name="D:\Code\Crawler4Caida\030CAICT-AtlasToolkit\samples\samples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_plotly">
+  <component name="RunManager" selected="Python.IXP-View">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,10 +229,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_plotly" />
-        <item itemvalue="Python.plotly_plus_dash" />
         <item itemvalue="Python.IXP-View" />
         <item itemvalue="Python.test_doc" />
+        <item itemvalue="Python.test_plotly" />
+        <item itemvalue="Python.plotly_plus_dash" />
         <item itemvalue="Python.active_as_cn" />
       </list>
     </recent_temporary>

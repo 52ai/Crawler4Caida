@@ -60,13 +60,21 @@ from urllib.request import urlopen
 import json
 from datetime import *
 import time
+from docx import Document
+from docx.shared import Inches
+
+import plotly.express as px
+import random
+import numpy as np
 
 
-def generate_global_ixp_report():
+def generate_global_ixp_report(doc_file_path):
     """
-    基于PEERING DB数据一键生成当前时间【全球互联网交换中心数据分析报告（PEERING DB）】
+    基于PEERING DB数据一键生成当前时间【全球互联网交换中心数据分析报告】
+    :param doc_file_path:
     :return:
     """
+    print(doc_file_path)
     html = urlopen(r'https://www.peeringdb.com/api/ix')
     html_json = json.loads(html.read())
     # print(html_json)
@@ -130,111 +138,246 @@ def generate_global_ixp_report():
         else:
             ipv6_off_cnt += 1
 
-    print("- - - - - - -0)全球互联网交换中心数据分析报告（PEERING DB）- ")
-    print("报告生成时间：", datetime.now())
-    print("基础数据来源：https://www.peeringdb.com/")
-    print("- - - - - - -1)当前时间全球IXP总数统计- - - - - - - - - - - -")
-    print("Global IXP Count:", len(html_json['data']))
-    print("- - - - - - -2)全球IXP发展趋势- - - - - - - - - - - -")
+    # 新建一个文档
+    document = Document()
+    document.add_heading("- - - - - - -0)全球互联网交换中心数据分析报告- - ", level=1)
+    temp_str = "报告生成时间：", str(datetime.now())
+    document.add_paragraph(temp_str)
+    document.add_paragraph("基础数据来源：https://www.peeringdb.com/")
+    document.add_heading("- - - - - - -1)当前时间全球IXP总数统计- - - - - - - - - - - -", level=1)
+    temp_str = "截止目前，全球共有", str(len(html_json['data'])), "个互联网交换中心"
+    document.add_paragraph(temp_str)
+    document.add_heading("- - - - - - -2)全球IXP发展趋势- - - - - - - - - - - -", level=1)
     ixp_cnt_year_list = []  # 存储统计列表
     for key in ixp_cnt_year.keys():
         ixp_cnt_year_list.append([key, ixp_cnt_year[key]])
     ixp_cnt_year_list.sort(key=lambda elem: int(elem[0]))
-    # print(ixp_cnt_year_list)
-    print("全球互联网自2010年至今，每年新增的IXP数量:")
-    for item in ixp_cnt_year_list:
-        print(item[0], "年新增IXP数量(个):", item[1])
-    print("全球互联网自2010年至今，每年总计的IXP数量:")
+    # document.add_paragraph(ixp_cnt_year_list)
+    # document.add_paragraph("全球互联网自2010年至今，每年新增的IXP数量:")
+    # for item in ixp_cnt_year_list:
+    #     temp_str = str(item[0]), "年新增IXP数量(个):", str(item[1])
+    #     document.add_paragraph(temp_str)
+
+    document.add_paragraph("全球互联网自2010年至今，每年总计的IXP数量:")
+    years = []
+    nums = []
     total_ixp = 0
     for item in ixp_cnt_year_list:
         total_ixp += int(item[1])
-        print(item[0], "年总计IXP数量(个):", total_ixp)
-    print("- - - - - - -3)全球IXP信息按国家（地区）维度统计- - - - - - - - - - - -")
+        # temp_str = str(item[0]), "年总计IXP数量(个):", str(total_ixp)
+        # document.add_paragraph(temp_str)
+        years.append(int(item[0]))
+        nums.append(total_ixp)
+
+    # print(ixp_cnt_year_list)
+    fig = px.bar(x=years, y=nums, labels={'x': '年份', 'y': '全球IXP数量'})
+    fig.write_image("bar_figure.png", engine="kaleido")
+    document.add_picture('bar_figure.png', width=Inches(5.0))
+
+    document.add_heading("- - - - - - -3)全球IXP信息按国家（地区）维度统计- - - - - - - - - - - -", level=1)
     country_dict_list = []  # 存储统计列表
     for key in country_dict.keys():
         country_dict_list.append([key, country_dict[key]])
     country_dict_list.sort(reverse=True, key=lambda elem: int(elem[1]))
-    # print(country_dict_list)
-    print("全球范围内共有", len(country_dict_list), "个国家（地区）部署了IXP")
-    print("按IXP数量降序排名，TOP 20信息如下：")
+    # document.add_paragraph(country_dict_list)
+    temp_str = "全球范围内共有", str(len(country_dict_list)), "个国家（地区）部署了IXP"
+    document.add_paragraph(temp_str)
+    document.add_paragraph("按IXP数量降序排名，TOP 20信息如下：")
+    table = document.add_table(rows=1, cols=2, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'国家'
+    hdr_cells[1].text = u'IXP数量'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+
     for item in country_dict_list[0:20]:
-        print(item[0], ":", item[1])
-    print("- - - - - - -4)全球IXP信息按大洲维度统计- - - - - - - - - - - -")
+        # temp_str = str(item[0]), ":", str(item[1])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = str(item[0])
+        row_cells[1].text = str(item[1])
+
+    document.add_heading("- - - - - - -4)全球IXP信息按大洲维度统计- - - - - - - - - - - -", level=1)
     region_dict_list = []  # 存储统计列表
     for key in region_dict.keys():
         region_dict_list.append([key, region_dict[key]])
     region_dict_list.sort(reverse=True, key=lambda elem: int(elem[1]))
-    print("按照IXP数量降序排名，各大洲IXP数量分布如下：")
+    document.add_paragraph("按照IXP数量降序排名，各大洲IXP数量分布如下：")
     for item in region_dict_list:
-        print(item[0], ":", item[1])
-    print("- - - - - - -5)我国IXP发展具体情况- - - - - - - - - - - -")
-    print("我国大陆地区CN的IXP数量:", len(ixp_cn), "，其详细信息如下：")
+        temp_str = str(item[0]), ":", str(item[1])
+        document.add_paragraph(temp_str)
+
+    document.add_heading("- - - - - - -5)我国IXP发展具体情况- - - - - - - - - - - -", level=1)
+    temp_str = "我国大陆地区CN的IXP数量:", str(len(ixp_cn)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=4, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+
     for item in ixp_cn:
-        print(item[0], ",", item[1], ",", item[2], ",", item[3])
-    print("我国香港地区HK的IXP数量:", len(ixp_hk), "其详细信息如下：")
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+
+    temp_str = "我国香港地区HK的IXP数量:", str(len(ixp_hk)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=4, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+
     for item in ixp_hk:
-        print(item[0], ",", item[1], ",", item[2], ",", item[3])
-    print("我国台湾地区TW的IXP数量:", len(ixp_tw), "其详细信息如下：")
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+
+    temp_str = "我国台湾地区TW的IXP数量:", str(len(ixp_tw)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=4, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+
     for item in ixp_tw:
-        print(item[0], ",", item[1], ",", item[2], ",", item[3])
-    print("- - - - - - -6)全球IXP的IPV6支持情况- - - - - - - - - - - -")
-    print("已支持IPV6的IXP数量：", ipv6_on_cnt)
-    print("未支持IPV6的IXP数量：", ipv6_off_cnt)
-    print("- - - - - - -7)案例1：阿姆斯特丹交换中心（AMS-IX）数据统计分析- - - - - -")
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+
+    document.add_heading("- - - - - - -6)全球IXP的IPV6支持情况- - - - - - - - - - - -", level=1)
+    temp_str = "已支持IPV6的IXP数量：", str(ipv6_on_cnt)
+    document.add_paragraph(temp_str)
+    temp_str = "未支持IPV6的IXP数量：", str(ipv6_off_cnt)
+    document.add_paragraph(temp_str)
+
+    document.add_heading("- - - - - - -7)案例1：阿姆斯特丹交换中心（AMS-IX）数据统计分析- - - - ", level=1)
     html = urlopen(r'https://peeringdb.com/api/ix/26')
     html_json = json.loads(html.read())
-    # print(html_json['data'][0])
+    # document.add_paragraph(html_json['data'][0])
     ix_data = html_json['data'][0]
-    print("IXP名称(简称):", ix_data['name'])
-    print("IXP名称(全称):", ix_data['name_long'])
-    print("IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent'])
-    print("是否支持IPV6:", ix_data['proto_ipv6'])
-    print("官方网站:", ix_data['website'])
-    print("该IXP流量信息展示页面:", ix_data['url_stats'])
-    print("该IXP接入网络数量:", ix_data['net_count'])
-    print("该IXP网络基础设施点:")
+    temp_str = "IXP名称(简称):", str(ix_data['name'])
+    document.add_paragraph(temp_str)
+    temp_str = "IXP名称(全称):", str(ix_data['name_long'])
+    document.add_paragraph(temp_str)
+    temp_str = "IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent']
+    document.add_paragraph(temp_str)
+    temp_str = "是否支持IPV6:", str(ix_data['proto_ipv6'])
+    document.add_paragraph(temp_str)
+    temp_str = "官方网站:", ix_data['website']
+    document.add_paragraph(temp_str)
+    temp_str = "该IXP流量信息展示页面:", ix_data['url_stats']
+    document.add_paragraph(temp_str)
+    temp_str = "该IXP接入网络数量:", str(ix_data['net_count'])
+    document.add_paragraph(temp_str)
+    document.add_paragraph("该IXP网络基础设施点:")
     item_cnt = 1
     for item in ix_data['fac_set']:
-        print(item_cnt, "> ", item['name'], ", ", item['city'], ", ", item['country'])
+        temp_str = str(item_cnt), "> ", item['name'], ", ", item['city'], ", ", item['country']
+        document.add_paragraph(temp_str)
         item_cnt += 1
-    print("- - - - - - -8)案例2：香港交换中心（HK-IX）数据统计分析- - - - - -")
+
+    document.add_heading("- - - - - - -8)案例2：香港交换中心（HK-IX）数据统计分析- - ", level=1)
     html = urlopen(r'https://peeringdb.com/api/ix/42')
     html_json = json.loads(html.read())
-    # print(html_json['data'][0])
+    # document.add_paragraph(html_json['data'][0])
     ix_data = html_json['data'][0]
-    print("IXP名称(简称):", ix_data['name'])
-    print("IXP名称(全称):", ix_data['name_long'])
-    print("IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent'])
-    print("是否支持IPV6:", ix_data['proto_ipv6'])
-    print("官方网站:", ix_data['website'])
-    print("该IXP流量信息展示页面:", ix_data['url_stats'])
-    print("该IXP接入网络数量:", ix_data['net_count'])
-    print("该IXP网络基础设施点:")
+    temp_str = "IXP名称(简称):", str(ix_data['name'])
+    document.add_paragraph(temp_str)
+    temp_str = "IXP名称(全称):", str(ix_data['name_long'])
+    document.add_paragraph(temp_str)
+    temp_str = "IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent']
+    document.add_paragraph(temp_str)
+    temp_str = "是否支持IPV6:", str(ix_data['proto_ipv6'])
+    document.add_paragraph(temp_str)
+    temp_str = "官方网站:", ix_data['website']
+    document.add_paragraph(temp_str)
+    temp_str = "该IXP流量信息展示页面:", ix_data['url_stats']
+    document.add_paragraph(temp_str)
+    temp_str = "该IXP接入网络数量:", str(ix_data['net_count'])
+    document.add_paragraph(temp_str)
+    document.add_paragraph("该IXP网络基础设施点:")
     item_cnt = 1
     for item in ix_data['fac_set']:
-        print(item_cnt, "> ", item['name'], ", ", item['city'], ", ", item['country'])
+        temp_str = str(item_cnt), "> ", item['name'], ", ", item['city'], ", ", item['country']
+        document.add_paragraph(temp_str)
         item_cnt += 1
-    print("- - - - - - -9)案例3：莫斯科交换中心（MSK-IX Moscow）数据统计分析- - - - - -")
+
+    document.add_heading("- - - - - - -9)案例3：莫斯科交换中心（MSK-IX Moscow）数据统计分析- -", level=1)
     html = urlopen(r'https://peeringdb.com/api/ix/100')
     html_json = json.loads(html.read())
-    # print(html_json['data'][0])
+    # document.add_paragraph(html_json['data'][0])
     ix_data = html_json['data'][0]
-    print("IXP名称(简称):", ix_data['name'])
-    print("IXP名称(全称):", ix_data['name_long'])
-    print("IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent'])
-    print("是否支持IPV6:", ix_data['proto_ipv6'])
-    print("官方网站:", ix_data['website'])
-    print("该IXP流量信息展示页面:", ix_data['url_stats'])
-    print("该IXP接入网络数量:", ix_data['net_count'])
-    print("该IXP网络基础设施点:")
+    temp_str = "IXP名称(简称):", str(ix_data['name'])
+    document.add_paragraph(temp_str)
+    temp_str = "IXP名称(全称):", str(ix_data['name_long'])
+    document.add_paragraph(temp_str)
+    temp_str = "IXP所在城市及国家:", ix_data['city'], ", ", ix_data['country'], ", ", ix_data['region_continent']
+    document.add_paragraph(temp_str)
+    temp_str = "是否支持IPV6:", str(ix_data['proto_ipv6'])
+    document.add_paragraph(temp_str)
+    temp_str = "官方网站:", ix_data['website']
+    document.add_paragraph(temp_str)
+    temp_str = "该IXP流量信息展示页面:", ix_data['url_stats']
+    document.add_paragraph(temp_str)
+    temp_str = "该IXP接入网络数量:", str(ix_data['net_count'])
+    document.add_paragraph(temp_str)
+    document.add_paragraph("该IXP网络基础设施点:")
     item_cnt = 1
     for item in ix_data['fac_set']:
-        print(item_cnt, "> ", item['name'], ", ", item['city'], ", ", item['country'])
+        temp_str = str(item_cnt), "> ", item['name'], ", ", item['city'], ", ", item['country']
+        document.add_paragraph(temp_str)
         item_cnt += 1
+
+    document.add_page_break()
+    document.save(doc_file_path)
 
 
 if __name__ == "__main__":
     time_start = time.time()
-    generate_global_ixp_report()
+    generate_global_ixp_report(r'./ixp-view.docx')
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

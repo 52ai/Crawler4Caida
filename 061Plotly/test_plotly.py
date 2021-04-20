@@ -75,8 +75,6 @@ def bar_figure():
     fig.write_image("bar_figure.png", engine="kaleido")
 
 
-
-
 if __name__ == "__main__":
     # first_figure()
     bar_figure()
