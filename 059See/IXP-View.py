@@ -85,6 +85,10 @@ def generate_global_ixp_report(doc_file_path):
     ixp_cn = []  # 中国大陆的IXP
     ixp_hk = []  # 香港地区
     ixp_tw = []  # 台湾地区
+    ixp_us = []  # 美国
+    ixp_de = []  # 德国
+    ixp_br = []  # 巴西
+    ixp_ca = []  # 加拿大
 
     ipv6_on_cnt = 0  # 统计支撑ipv6的交换中心
     ipv6_off_cnt = 0  # 统计不支持ipv6的交换中心
@@ -132,6 +136,43 @@ def generate_global_ixp_report(doc_file_path):
             temp.append(item['website'])
             temp.append(item['name_long'])
             ixp_tw.append(temp)
+
+        temp = []
+        if item['country'] == 'US':
+            temp.append(item['name'])
+            temp.append(item['created'])
+            temp.append(item['website'])
+            temp.append(item['name_long'])
+            temp.append(item['city'])
+            ixp_us.append(temp)
+
+        temp = []
+        if item['country'] == 'DE':
+            temp.append(item['name'])
+            temp.append(item['created'])
+            temp.append(item['website'])
+            temp.append(item['name_long'])
+            temp.append(item['city'])
+            ixp_de.append(temp)
+
+        temp = []
+        if item['country'] == 'BR':
+            temp.append(item['name'])
+            temp.append(item['created'])
+            temp.append(item['website'])
+            temp.append(item['name_long'])
+            temp.append(item['city'])
+            ixp_br.append(temp)
+
+        temp = []
+        if item['country'] == 'CA':
+            temp.append(item['name'])
+            temp.append(item['created'])
+            temp.append(item['website'])
+            temp.append(item['name_long'])
+            temp.append(item['city'])
+            ixp_ca.append(temp)
+
         # print(item['proto_ipv6'])
         if item['proto_ipv6']:
             ipv6_on_cnt += 1
@@ -164,8 +205,8 @@ def generate_global_ixp_report(doc_file_path):
     total_ixp = 0
     for item in ixp_cnt_year_list:
         total_ixp += int(item[1])
-        # temp_str = str(item[0]), "年总计IXP数量(个):", str(total_ixp)
-        # document.add_paragraph(temp_str)
+        temp_str = str(item[0]), "年总计IXP数量(个):", str(total_ixp)
+        document.add_paragraph(temp_str)
         years.append(int(item[0]))
         nums.append(total_ixp)
 
@@ -287,6 +328,126 @@ def generate_global_ixp_report(doc_file_path):
         row_cells[1].text = item[1]
         row_cells[2].text = item[2]
         row_cells[3].text = item[3]
+
+    temp_str = "美国的IXP数量:", str(len(ixp_us)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=5, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    hdr_cells[4].text = u'城市'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[4].paragraphs[0].runs[0]
+    run.font.bold = True
+
+    for item in ixp_us:
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+        row_cells[4].text = item[4]
+
+    temp_str = "德国的IXP数量:", str(len(ixp_de)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=5, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    hdr_cells[4].text = u'城市'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[4].paragraphs[0].runs[0]
+    run.font.bold = True
+
+    for item in ixp_de:
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+        row_cells[4].text = item[4]
+
+    temp_str = "巴西的IXP数量:", str(len(ixp_br)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=5, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    hdr_cells[4].text = u'城市'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[4].paragraphs[0].runs[0]
+    run.font.bold = True
+
+    for item in ixp_br:
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+        row_cells[4].text = item[4]
+
+    temp_str = "加拿大的IXP数量:", str(len(ixp_ca)), "，其详细信息如下："
+    document.add_paragraph(temp_str)
+    table = document.add_table(rows=1, cols=5, style='Table Grid')
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = u'名称'
+    hdr_cells[1].text = u'更新时间'
+    hdr_cells[2].text = u'官网网址'
+    hdr_cells[3].text = u'备注信息'
+    hdr_cells[4].text = u'城市'
+    run = hdr_cells[0].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[1].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[2].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[3].paragraphs[0].runs[0]
+    run.font.bold = True
+    run = hdr_cells[4].paragraphs[0].runs[0]
+    run.font.bold = True
+
+    for item in ixp_ca:
+        # temp_str = str(item[0]), ",", str(item[1]), ",", str(item[2]), ",", str(item[3])
+        # document.add_paragraph(temp_str)
+        row_cells = table.add_row().cells
+        row_cells[0].text = item[0]
+        row_cells[1].text = item[1]
+        row_cells[2].text = item[2]
+        row_cells[3].text = item[3]
+        row_cells[4].text = item[4]
 
     document.add_heading("- - - - - - -6)全球IXP的IPV6支持情况- - - - - - - - - - - -", level=1)
     temp_str = "已支持IPV6的IXP数量：", str(ipv6_on_cnt)
