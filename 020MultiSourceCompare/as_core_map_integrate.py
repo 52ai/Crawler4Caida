@@ -144,7 +144,7 @@ if __name__ == "__main__":
         list_temp = []
     # print(as_core_map_data)
     as_core_map_data = gain_as_info(as_core_map_data)
-    as_core_map_data.sort(reverse=True, key=lambda elem:elem[1])
+    as_core_map_data.sort(reverse=True, key=lambda elem: elem[1])
     # print(as_core_map_data)
     # # 存储as_core_map_data文件
     save_path = '..\\000LocalData\\as_compare\\as_core_map_data_integrate_' + date_string + '_rank.csv'
