@@ -55,6 +55,14 @@ Function：
 
 以上所有数据均可实时统计，可基于PeeringDB的数据一键生产当前时间【全球互联网交换中心的数据分析报告（PEERING DB）】
 
+20210521 PEERING DB API研究
+查询某个网络接入交换中心的数据，如Google 15169网的net_id 为433
+API：https://www.peeringdb.com/api/netixlan?net_id=433
+
+查询某个网络私有互联设施的数据，如Google 15169网的net_id 为433
+API：https://www.peeringdb.com/api/netfac?net_id=433
+
+
 """
 from urllib.request import urlopen
 import json
