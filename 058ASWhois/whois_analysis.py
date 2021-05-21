@@ -48,7 +48,7 @@ def whois_analysis():
         if line.startswith("======="):
             print("-------Block Counter:%d---------" %(block_cnt + 1 ))
             block_flag = True
-            block_cnt += 1 # 块计数自加1       
+            block_cnt += 1  # 块计数自加1
         
         if line.startswith("ASNumber:") \
         or line.startswith("ASName:") \

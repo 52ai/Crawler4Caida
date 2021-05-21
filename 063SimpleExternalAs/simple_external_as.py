@@ -9,7 +9,6 @@ Function:
 为了简化只需要统计每个AS的AS Name，all_relationships, external_relationships, external_country, country
 
 """
-import os
 import time
 import csv
 
@@ -146,6 +145,7 @@ def gain_simple_external_as(asn_list, open_file):
 
     print("异常数量:", len(except_item))
 
+    print(as_rel_dict['45102'])
     result_list = []  # 存储全球结果列表
     result_list_cn = []  # 存储中国结果列表
     for key in as_rel_dict.keys():
