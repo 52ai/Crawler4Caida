@@ -63,3 +63,7 @@ lxml~=4.6.3
 jsonlines~=2.0.0
 tornado~=6.1
 graphqlclient~=0.2.4
+plotly~=4.14.3
+dash~=1.20.0
+QtPy~=1.9.0
+IPy~=1.1
