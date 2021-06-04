@@ -192,8 +192,67 @@ def rib_analysis_table_dump2(asn, rib_list):
     print("即商业关系推断算法，需结合空间和时间维度数据")
     print("- - - - -4)我国国际路由分析- - - ")
     print("此处是我国互联网流量流向模型的关键")
+    direct_as2prefix_dict = {}  # 存储直联as网络的prefix
+    for line in rib_list:
+        line_prefix = line[0]
+        if line[1].find("{") == -1:
+            line_as_path = line[1].split(" ")
+        else:
+            line_as_path = line[1].split(" ")[0:-1]
+        # print(line_prefix, line_as_path)
+        if len(line_as_path) == 1:
+            pass
+        else:
+            direct_as = line_as_path[1]
+            # print(direct_as, line_prefix)
+            if direct_as not in direct_as2prefix_dict.keys():
+                direct_as2prefix_dict[direct_as] = [line_prefix]
+            else:
+                direct_as2prefix_dict[direct_as].append(line_prefix)
+    print("Direct AS Key数量：", len(direct_as2prefix_dict.keys()))
+    direct_country_as_dict = {}  # 以国家作为key，统计直联网络数量、prefix数量及IP地址数量
+    except_as = []  # 存储没有信息的AS列表
+    for item_as in direct_as2prefix_dict.keys():
+        item_as_country = "ZZ"
+        try:
+            item_as_country = as2country[item_as]
+        except Exception as e:
+            except_as.append(e)  # 记录没有信息的AS列表
+        if item_as_country not in direct_country_as_dict.keys():
+            direct_country_as_dict[item_as_country] = direct_as2prefix_dict[item_as]
+        else:
+            direct_country_as_dict[item_as_country].extend(direct_as2prefix_dict[item_as])
+    print("国家key数量:", len(direct_country_as_dict.keys()))
+    print("Except AS 记录数量：", len(except_as))
+    # print(direct_as2prefix_dict["141771"])
+    direct_country_ip_num = []  # 存储直联国家前缀及IP规模
+    ipv4_prefix_sum_all = 0
+    ipv4_num_all = 0
+    for country_item in direct_country_as_dict.keys():
+        if country_item == "CN":
+            continue
+        ipv4_prefix_sum = 0
+        ipv4_num = 0
+        for prefix_item in direct_country_as_dict[country_item]:
+            ipv4_prefix_sum += 1
+            ipv4_num += len(IP(prefix_item))
+        ipv4_prefix_sum_all += ipv4_prefix_sum
+        ipv4_num_all += ipv4_num
+        direct_country_ip_num.append([country_item, country2name[country_item], ipv4_prefix_sum, ipv4_num])
+    direct_country_ip_num.sort(reverse=True, key=lambda elem: elem[3])
+    """
+    参考Tele的数据，CN2002年国际互联带宽为47398G,其中HK为33829G
+    
+    """
+    for item in direct_country_ip_num:
+        temp_item = []
+        temp_item.extend(item)
+        temp_item.append(item[-1]/ipv4_num_all)
+        temp_item.append((item[-1]/ipv4_num_all) * (47398-33829))
+        print(temp_item)
     print("- - - - -5)网络仿真实验- - - ")
     print("即国际网络仿真模型")
+    print("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =")
 
 
 def rib_analysis():
@@ -244,6 +303,8 @@ def rib_analysis():
     针对每个RIB开展研究，以电信4134为例    
     """
     rib_analysis_table_dump2("4134", rib_dict["4134"])
+    # rib_analysis_table_dump2("4837", rib_dict["4837"])
+    # rib_analysis_table_dump2("9808", rib_dict["9808"])
 
 
 if __name__ == "__main__":
