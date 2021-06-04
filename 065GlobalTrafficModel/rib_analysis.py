@@ -24,7 +24,7 @@ def write_to_csv(res_list, des_path):
     :param des_path:
     :return: None
     """
-    print("write file <%s> ..." % des_path)
+    # print("write file <%s> ..." % des_path)
     csv_file = open(des_path, 'w', newline='', encoding='gbk')
     try:
         writer = csv.writer(csv_file, delimiter=",")
@@ -34,7 +34,7 @@ def write_to_csv(res_list, des_path):
         print(e)
     finally:
         csv_file.close()
-    print("write finish!")
+    # print("write finish!")
 
 
 def gain_as2country():
@@ -244,12 +244,16 @@ def rib_analysis_table_dump2(asn, rib_list):
     参考Tele的数据，CN2002年国际互联带宽为47398G,其中HK为33829G
     
     """
+    cap_direct_cn = []  # 存储CN分方向的带宽
     for item in direct_country_ip_num:
         temp_item = []
         temp_item.extend(item)
         temp_item.append(item[-1]/ipv4_num_all)
         temp_item.append((item[-1]/ipv4_num_all) * (47398-33829))
         print(temp_item)
+        cap_direct_cn.append(temp_item)
+    save_cap_path = "../000LocalData/global_traffic_model/cap_cn.csv"
+    write_to_csv(cap_direct_cn, save_cap_path)
     print("- - - - -5)网络仿真实验- - - ")
     print("即国际网络仿真模型")
     print("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =")
