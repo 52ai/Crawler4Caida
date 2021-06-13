@@ -46,7 +46,7 @@ def poly_fitting_predict(x, y):
     for i in range(0, len(x)):
         x[i] = int(x[i])
     for i in range(0, len(y)):
-        y[i] = float(y[i])/1000000
+        y[i] = int(y[i])
 
     print(x), print(y)
     res = np.polyfit(x, y, 2)  # 使用多项式进行拟合
@@ -55,28 +55,28 @@ def poly_fitting_predict(x, y):
     x1 = x
     res_y = p(x1)
     x2 = []  # 存储时间
-    for i in range(2021, 2025):
+    for i in range(2021, 2026):
         x2.append(int(i))
     predict_y = p(x2)
     print("x2:", x2)
     print("predict_y:", predict_y)
 
-    plt.figure(figsize=(12, 8))
-    # 设置刻度字体大小
-    plt.xticks(fontsize=20)
-    plt.yticks(fontsize=20)
-    plot1 = plt.plot(x, y, '*', label='original values', color='black')
-    plot2 = plt.plot(x1, res_y, '--', label='polyfit values', color='black')
-    plot3 = plt.plot(x2, predict_y, '-', label='predict values', color='black')
-    # 设置坐标标签字体大小
-    plt.ylabel('Bandwidth(Tbps)', fontsize=24)
-    plt.xlabel('Time(Year)', fontsize=24)
-    # 设置图例字体大小
-    plt.legend(loc=4, fontsize=20)
-    plt.title('Country Bandwidth Predict', fontsize=24)
-    plt.savefig('Poply_fitting.png')
-    plt.show()
-    return x2, predict_y
+    # plt.figure(figsize=(12, 8))
+    # # 设置刻度字体大小
+    # plt.xticks(fontsize=20)
+    # plt.yticks(fontsize=20)
+    # plot1 = plt.plot(x, y, '*', label='original values', color='black')
+    # plot2 = plt.plot(x1, res_y, '--', label='polyfit values', color='black')
+    # plot3 = plt.plot(x2, predict_y, '-', label='predict values', color='black')
+    # # 设置坐标标签字体大小
+    # plt.ylabel('Bandwidth(Tbps)', fontsize=24)
+    # plt.xlabel('Time(Year)', fontsize=24)
+    # # 设置图例字体大小
+    # plt.legend(loc=4, fontsize=20)
+    # plt.title('Country Bandwidth Predict', fontsize=24)
+    # plt.savefig('Poply_fitting.png')
+    # # plt.show()
+    return predict_y
 
 
 def capacity_predict():
@@ -96,7 +96,22 @@ def capacity_predict():
         country_capacity_dict[line[0]] = line[1:]
     # print(country_capacity_dict["时间"])
     # print(country_capacity_dict["China"])
-    print(poly_fitting_predict(country_capacity_dict["时间"], country_capacity_dict["China"]))
+    # print(poly_fitting_predict(country_capacity_dict["时间"], country_capacity_dict["China"]))
+    result_list = []  # 存储预测结果
+    for key in country_capacity_dict.keys():
+        if key == "时间":
+            continue
+        try:
+            predict_value = poly_fitting_predict(country_capacity_dict["时间"], country_capacity_dict[key])
+        except Exception as e:
+            print(e, key, country_capacity_dict[key])
+
+        temp_list = [key]
+        temp_list.extend(country_capacity_dict[key])
+        temp_list.extend(predict_value)
+        result_list.append(temp_list)
+    save_predict_value = "../000LocalData/global_traffic_model/cap_countries_predict.csv"
+    write_to_csv(result_list, save_predict_value)
 
 
 if __name__ == "__main__":

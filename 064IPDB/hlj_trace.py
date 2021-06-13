@@ -61,9 +61,20 @@ def deal():
                  [])
 
 
+def once_query():
+    """
+    查询一次IP地址
+    :return:
+    """
+    db = City("../000LocalData/ipdb/caict_full.ipdb")
+    print("ipdb.build.time:", db.build_time())
+    print(db.find("37.111.32.171", "CN"))
+
+
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    deal()
+    # deal()
+    once_query()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
 
 
