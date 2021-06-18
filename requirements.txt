@@ -6,7 +6,7 @@ idna==2.10
 pipreqs==0.4.10
 requests==2.24.0
 six==1.15.0
-urllib3==1.25.9
+urllib3==1.26.5
 yarg==0.1.9
 
 numpy~=1.19.0
@@ -14,7 +14,7 @@ matplotlib~=3.2.2
 pyecharts~=1.6.1
 itchat~=1.2.32
 wxpy~=0.3.9.8
-Pillow~=8.1.1
+Pillow~=8.2.0
 folium~=0.11.0
 apptools~=4.5.0
 traits~=6.2.0

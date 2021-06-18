@@ -43,6 +43,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 逐步适应VSCODE的编程环境，2021年要试着和自己和解。---20210112 By Wenyan YU<br>
 重回Pycharm怀抱，写Python感觉还是PyCharm来的舒服，VSCODE用着还是不习惯。---20210222 By Wenyan YU<br>
 知海拾荒，始于网络而不止于网络。---20210402 By Wenyan YU <br>
+拖延是焦虑的根源，而行动是治疗焦虑的良药，兴趣是人生持续向前的原动力。---20210618 By Wenyan YU <br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
