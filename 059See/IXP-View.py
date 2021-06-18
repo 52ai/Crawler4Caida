@@ -258,7 +258,7 @@ def generate_global_ixp_report(doc_file_path):
         temp_str = str(item[0]), ":", str(item[1])
         document.add_paragraph(temp_str)
 
-    document.add_heading("- - - - - - -5)我国IXP发展具体情况- - - - - - - - - - - -", level=1)
+    document.add_heading("- - - - - - -5)我国及主要国家（地区）IXP发展具体情况- - - - - - - - - - - -", level=1)
     temp_str = "我国大陆地区CN的IXP数量:", str(len(ixp_cn)), "，其详细信息如下："
     document.add_paragraph(temp_str)
     table = document.add_table(rows=1, cols=4, style='Table Grid')
