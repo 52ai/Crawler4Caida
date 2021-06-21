@@ -72,8 +72,6 @@ from docx import Document
 from docx.shared import Inches
 
 import plotly.express as px
-import random
-import numpy as np
 
 
 def generate_global_ixp_report(doc_file_path):

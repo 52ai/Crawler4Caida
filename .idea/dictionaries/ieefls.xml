@@ -2,6 +2,11 @@
   <dictionary name="ieefls">
     <words>
       <w>birdmrt</w>
+      <w>caida</w>
+      <w>equinix</w>
+      <w>kaleido</w>
+      <w>opnet</w>
+      <w>unicast</w>
     </words>
   </dictionary>
 </component>
