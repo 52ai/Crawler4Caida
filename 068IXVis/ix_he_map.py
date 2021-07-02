@@ -1,11 +1,11 @@
-# coding: utf-8
+# coding:utf-8
 """
-create on Jan 20, 2021 By Wenyan YU
+create on Jun 2, 2021 By Wenyan YU
 Email: ieeflsyu@outlook.com
 
 Function:
 
-根据AS的whois信息，结合Google Map获取经纬度信息
+HE的数据没有交换中心的经纬度信息，好在通过城市和国家，结合Google Map可以拿到IXP的经纬度的信息
 
 """
 import csv
@@ -13,10 +13,7 @@ import time
 # 实现无可视化界面
 from selenium.webdriver.firefox.options import Options
 # 实现规避检测
-from selenium.webdriver import FirefoxOptions
-
 from selenium import webdriver
-from bs4 import BeautifulSoup
 import re
 
 
@@ -40,21 +37,6 @@ def write_to_csv(res_list, des_path, title_list):
     finally:
         csv_file.close()
     print("write finish!")
-
-
-def gain_countryinfo():
-    """
-    根据Geo-Country-Locations-en.csv，获取国家全称
-    """
-    country2str = {}
-    country_file = "D:/Code/Crawler4Caida/000LocalData/as_geo/GeoLite2-Country-Locations-en.csv"
-    with open(country_file, 'r', encoding='utf-8') as f:
-        for line in f.readlines():
-            line = line.strip().split(",")
-            country = line[4]
-            country_str = line[5].strip('"')
-            country2str[country] = country_str
-    return country2str
 
 
 def gain_geo_from_googlemap(desrc_str):
@@ -91,47 +73,30 @@ def gain_geo_from_googlemap(desrc_str):
 
 def gain_geo():
     """
-    根据AS Whois信息，获取经纬度信息
+    根据ix he数据，获取经纬度信息
+    :return:
     """
-    country2str = gain_countryinfo()  # 获取国家全称
-    # print(country2str)
-    result_list = []  # 存储结果列表
-    as_info_file = 'D:/Code/Crawler4Caida/000LocalData/as_Gao/asn_info_copy.txt'
-    file_read = open(as_info_file, 'r', encoding='utf-8')
+    ix_he_file = "./ix_he.CSV"
+    file_read = open(ix_he_file, 'r')
     for line in file_read.readlines():
-        line = line.strip().split("\t")
+        line = line.strip().split(",")
         # print(line)
-        as_number = line[0]
-        as_country = line[1].strip().split(",")[-1].strip()
-        as_desrc = line[1].strip().split(",")[0:-1]
-        as_desrc = ' '.join(as_desrc)
-        as_desrc = as_desrc.strip()
-        try:
-            as_desrc_key = as_desrc.split(" - ")[-1] + "," + country2str[as_country]
-        except Exception as e:
-            print(e)
-            as_desrc_key = as_desrc.split(" - ")[-1] + "," + as_country
-        # print(as_number, as_desrc, as_country)
-        # print(as_number, as_desrc_key)
-        try:
-            as_geo = gain_geo_from_googlemap(as_desrc_key)
-        except Exception as e:
-            print(e)
-            as_geo = []
-        # print(as_number, as_geo)
-        print("AS", as_number, as_desrc, as_country, as_geo)
-        temp_line = [as_number, as_desrc, as_country]
-        temp_line.extend(as_geo)
-        result_list.append(temp_line)
-        """
-        将每次获取到的经纬度信息，实时写入到文件中，以防止丢失
-        """
-        with open("D:/Code/Crawler4Caida/058ASWhois/asns_google.csv", "a", newline='', encoding='utf-8') as csv_file:
-            writer = csv.writer(csv_file, delimiter=',', quotechar='"')
-            writer.writerow(temp_line)
+        search_key = line[2] + "," + line[3]
+        # print(search_key)
 
-    # save_path = "D:/Code/Crawler4Caida/058ASWhois/asns_google.csv"
-    # write_to_csv(result_list, save_path, ["# Whois Google Geo"])
+        try:
+            ix_geo = gain_geo_from_googlemap(search_key)
+        except Exception as e:
+            print(e)
+            ix_geo = []
+        print(ix_geo)
+        line.extend(ix_geo)
+        """
+         将每次获取到的经纬度信息，实时写入到文件中，以防止丢失
+         """
+        with open("ix_he_geo.csv", "a", newline='') as csv_file:
+            writer = csv.writer(csv_file, delimiter=',', quotechar='"')
+            writer.writerow(line)
 
 
 if __name__ == "__main__":
@@ -151,3 +116,5 @@ if __name__ == "__main__":
     driver.quit()
     time_end = time.time()  # 记录结束的时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
+
+

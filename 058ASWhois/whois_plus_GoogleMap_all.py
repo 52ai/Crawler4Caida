@@ -19,6 +19,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
 
+
 def write_to_csv(res_list, des_path, title_list):
     """
     把给定的List，写到指定路径文件中
