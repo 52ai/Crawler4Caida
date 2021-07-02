@@ -45,6 +45,61 @@ Function：
 
 以上所有数据均可实时统计，可基于PeeringDB的数据一键生产当前时间【全球互联网交换中心的数据分析报告（PEERING DB）】
 
+ix的详细信息：
+{"id": 26,
+"org_id": 2634,
+"org": {"id": 2634,
+        "name": "Amsterdam Internet Exchange BV",
+        "aka": "",
+        "name_long": "",
+        "website": "http://www.ams-ix.net/",
+        "notes": "",
+        "net_set": [3363, 4277, 6471, 14259, 14260],
+        "fac_set": [],
+        "ix_set": [26, 366, 577, 935, 944, 1623],
+        "address1": "Frederiksplein 42",
+        "address2": "",
+        "city": "Amsterdam",
+        "country": "NL",
+        "state": "Noord Holland",
+        "zipcode": "1017XN",
+        "floor": "",
+        "suite": "",
+        "latitude": null,
+        "longitude": null,
+        "created": "2010-08-11T15:40:42Z",
+        "updated": "2020-02-19T04:08:04Z",
+        "status": "ok"},
+"name": "AMS-IX",
+"aka": "",
+"name_long": "Amsterdam Internet Exchange",
+"city": "Amsterdam",
+"country": "NL",
+"region_continent": "Europe",
+"media": "Ethernet",
+"notes": "",
+"proto_unicast": true,
+"proto_multicast": false,
+"proto_ipv6": true,
+"website": "http://www.ams-ix.net/",
+"url_stats": "https://www.ams-ix.net/statistics/",
+"tech_email": "noc@ams-ix.net",
+"tech_phone": "+31205141717",
+"policy_email": "info@ams-ix.net",
+"policy_phone": "+31203058999",
+"fac_set": [...],
+"ixlan_set": [...],
+"net_count": 820,
+"fac_count": 25,
+"ixf_net_count": 0,
+"ixf_last_import": null,
+"service_level": "Not Disclosed",
+"terms": "Not Disclosed",
+"created": "2010-07-29T00:00:00Z",
+"updated": "2020-01-22T04:24:06Z",
+"status": "ok"}]
+
+
 """
 from urllib.request import urlopen
 import json
@@ -227,4 +282,4 @@ if __name__ == "__main__":
     time_start = time.time()
     generate_global_ixp_report()
     time_end = time.time()
-    print("=>Scripts Finish, Time Consuming:",(time_end - time_start), "S")
+    print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

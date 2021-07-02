@@ -76,7 +76,7 @@ def draw(x_list, y_list, save_name):
     fig, ax = plt.subplots(1, 1, figsize=(30.0, 10.8))
     plt.xticks(rotation=90)
     tick_spacing = 4
-    title_string = "Global Active AS Graph(1998-2019) "
+    title_string = "Global Active AS Graph(1998-2021) "
     ax.set_title(title_string)
     ax.plot(x_list, y_list)
     ax.set_xlabel('Date')

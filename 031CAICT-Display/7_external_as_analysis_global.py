@@ -86,17 +86,23 @@ def external_as_analysis(target_country, as2country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path:
+    for path_item in file_path[-1:]:
         print(path_item)
         # 遍历一次文件，获取该国出口AS的数量
         file_read = open(path_item, 'r', encoding='utf-8')
         external_cnt = 0  # 存储该国出口连边的数量
         external_as_list = []  # 存储出口AS
+        country_as_list = []  # 存储该国的活跃AS号
         external_country_list = []  # 存储该国出口方向的国家
         for line in file_read.readlines():
             if line.strip().find("#") == 0:
                 continue
             try:
+                if as2country[str(line.strip().split('|')[0])] == target_country:
+                    country_as_list.append(str(line.strip().split('|')[0]))  # 统计该国活跃as网络数量
+                if as2country[str(line.strip().split('|')[1])] == target_country:
+                    country_as_list.append(str(line.strip().split('|')[1]))  # 统计该国活跃as网络数量
+
                 if as2country[str(line.strip().split('|')[0])] == target_country:
                     if as2country[str(line.strip().split('|')[1])] != target_country:
                         external_cnt += 1
@@ -111,6 +117,7 @@ def external_as_analysis(target_country, as2country):
                 # print(e)
                 pass
         external_as_list = list(set(external_as_list))
+        print("Country Active AS Count:", len(list(set(country_as_list))))
         print("External Edges Count:", external_cnt)
         print("External AS Count:", len(external_as_list))
         print("External Country Count:", len(list(set(external_country_list))))
@@ -142,9 +149,10 @@ def external_as_analysis(target_country, as2country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country_list = ["CN", "US", "DE", "JP", "KR",
-                    "BR", "IN", "RU", "ZA", "SG",
-                    "MY", "ID", "VN", "FR", "TH"]
+    # country_list = ["CN", "US", "DE", "JP", "KR",
+    #                 "BR", "IN", "RU", "ZA", "SG",
+    #                 "MY", "ID", "VN", "FR", "TH"]
+    country_list = ["CA"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     for country in country_list:
         as2country_dict = gain_as2country(as_info_file_in, country)

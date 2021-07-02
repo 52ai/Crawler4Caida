@@ -102,9 +102,10 @@ def analysis(open_file, country_str):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country_list = ["CN", "US", "DE", "JP", "KR",
-                    "BR", "IN", "RU", "ZA", "SG",
-                    "MY", "ID", "VN", "FR", "TH"]
+    # country_list = ["CN", "US", "DE", "JP", "KR",
+    #                 "BR", "IN", "RU", "ZA", "SG",
+    #                 "MY", "ID", "VN", "FR", "TH"]
+    country_list = ["CA"]
     for country_item in country_list:
         active_as = []  # 记录活跃的as号
         file_path = []

@@ -183,11 +183,13 @@ def rib_analysis_table_dump2(asn, rib_list):
 
     global_prefix = 0
     global_ipv4_num = 0
+    global_ipv4_num_list = []  # 存储去重的ipv4地址
     for as_key in as2prefix_dict.keys():
         for prefix_item in as2prefix_dict[as_key]:
             global_prefix += 1
             global_ipv4_num += len(IP(prefix_item))
-    print("全球 IPv4前缀规模:%s, IPv4地址数量:%s" % (global_prefix, global_ipv4_num))
+
+    print("全球 IPv4前缀规模:%s, IPv4地址数量:%s, IPv4地址数量（去重）:%s" % (global_prefix, global_ipv4_num, len(global_ipv4_num_list)))
     print("- - - - -3)AS网络间的互联关系分析- - - ")
     print("即商业关系推断算法，需结合空间和时间维度数据")
     print("- - - - -4)我国国际路由分析- - - ")
