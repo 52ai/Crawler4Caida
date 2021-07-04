@@ -31,7 +31,8 @@ JavaScript warning: https://www.google.com.hk/maps/_/js/k=maps.m.zh_CN.b8egncUgw
 * Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileCcVKUa"
+Exiting due to channel error.
+--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileCcVKUa"
 *** You are running in headless mode.
 1625215850421	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileCcVKUa\\search.json.mozlz4", (void 0)))
