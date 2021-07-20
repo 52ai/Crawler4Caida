@@ -63,6 +63,7 @@ def write_to_csv(res_list, des_path):
 def gain_as2info_pdb():
     """
     根据pdb的数据获取as 2 info的信息
+    https://www.peeringdb.com/api/net
     :return as2info:
     """
     with open("../000LocalData/IXVis/net.json") as json_file:
@@ -81,6 +82,7 @@ def gain_as2info_pdb():
 def gain_ix2info_pdb():
     """
     根据pdb的数据获取ix 2 info的信息
+    https://www.peeringdb.com/api/ix
     :return ix2info:
     """
     with open("../000LocalData/IXVis/ix.json") as json_file:
