@@ -85,4 +85,3 @@ print(type(hjson))
 with open("../000LocalData/as_echarts/as_rel20001001.json", "w") as f:
     json.dump(hjson, f)
     print("write json file complete!")
-

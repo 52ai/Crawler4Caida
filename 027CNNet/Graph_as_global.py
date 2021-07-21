@@ -77,7 +77,7 @@ def read_as_links(file_name, as_list):
     """
     根据传入的as_rel和cn_as信息，读取as_links
     :param file_name:
-    :param cn_as:
+    :param as_list:
     :return as_links:
     """
     as_links = []

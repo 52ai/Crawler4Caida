@@ -232,18 +232,25 @@ def generate_draw_json():
         node_name = "AS" + str(item[1]) + "-" + str(item[2])
         node_list.append(node_name)
         try:
-            node_size = np.sqrt(int(weight_dic_as[node_name]))
+            node_size = np.sqrt(int(weight_dic_as[node_name])) + 2
         except Exception as e:
             print(e)
             node_size = 2
         temp_dict["name"] = node_name
         temp_dict["symbolSize"] = node_size
+        temp_dict["symbol"] = "circle"
         temp_dict["draggable"] = "False"
         temp_dict["value"] = "<AS" + str(item[1]) + ">" + str(item[2])
         temp_dict["category"] = "AS"
 
-        if int(weight_dic_as[node_name]) > 2500:
+        if int(weight_dic_as[node_name]) > 190:
             temp_dict_normal["show"] = "True"
+            temp_dict_normal["color"] = "yellow"
+            temp_dict_normal["font_size"] = 8
+            temp_dict_normal["font_style"] = "oblique"
+            temp_dict_normal["font_weight"] = "bold"
+            temp_dict_normal["rotate"] = 45
+            temp_dict_normal["margin"] = 0  # 刻度标签与轴线之间的距离
             temp_dict_label["normal"] = temp_dict_normal
             temp_dict["label"] = temp_dict_label
             node_info.append(temp_dict)
@@ -260,17 +267,18 @@ def generate_draw_json():
         node_name = "IX" + str(item[0]) + "-" + str(item[1])
         node_list.append(node_name)
         try:
-            node_size = np.sqrt(int(weight_dic_ix[node_name]))
+            node_size = np.sqrt(int(weight_dic_ix[node_name])) + 4.8
         except Exception as e:
             print(e)
-            node_size = 2
+            node_size = 4.8
         temp_dict["name"] = node_name
         temp_dict["symbolSize"] = node_size
+        temp_dict["symbol"] = "rect"
         temp_dict["draggable"] = "False"
         temp_dict["value"] = "<IX>" + str(item[1])
         temp_dict["category"] = "IX"
 
-        if int(weight_dic_ix[node_name]) > 8000:
+        if int(weight_dic_ix[node_name]) > 420:
             temp_dict_normal["show"] = "True"
             temp_dict_label["normal"] = temp_dict_normal
             temp_dict["label"] = temp_dict_label
@@ -324,27 +332,39 @@ def draw_rel(title_name) -> Graph:
 
     title_name = title_name + "[Nodes:" + str(len(node_info)) + " Links:" + str(len(links)) + "]"
     c = (
-        Graph(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_name, theme=ThemeType.DARK))
+        Graph(init_opts=opts.InitOpts(width="1900px",
+                                      height="900px",
+                                      page_title=title_name,
+                                      theme=ThemeType.DARK))
         .add(
-            "",
+            "Circle is AS, and rectangle is IX.",
             node_info,
             links,
             categories_info,
-            # layout="circular",
-            is_rotate_label=True,
+            is_selected=True,  # 是否选中图例
+            is_focusnode=False,  # 是否在鼠标移动到节点的时候突出显示节点及节点的边和邻接节点
+            is_roam=True,  # 是否开启鼠标缩放和平移漫游
+            is_draggable=False,  # 节点是否可拖拽
+            is_rotate_label=False,  # 是否旋转标签
+            layout="force",  # 图布局模式，none(使用xy坐标)，circular, force
+            # symbol="rect",  # Echarts提供的标记包括circle, rect, roundRect, triangle, diamond, pin ,arrow
+            edge_length=50,  # 节点之间距离
             gravity=0.2,
             repulsion=50,
-            linestyle_opts=opts.LineStyleOpts(width=0.1, opacity=0.8, color='source', curve=0),
+            linestyle_opts=opts.LineStyleOpts(width=0.2, opacity=0.8, color='source', curve=0.2),
             label_opts=opts.LabelOpts(is_show=False),
+            tooltip_opts=opts.TooltipOpts(is_show=True)
         )
         .set_global_opts(
-            title_opts=opts.TitleOpts(title=title_name, title_textstyle_opts=opts.TextStyleOpts(color="#fff"), pos_left="2%"),
+            title_opts=opts.TitleOpts(title=title_name,
+                                      title_textstyle_opts=opts.TextStyleOpts(color="#fff"),
+                                      pos_left="2%"),
             legend_opts=opts.LegendOpts(
                 orient="vertical",
                 pos_left="2%",
                 pos_top="5%",
-                pos_bottom="5"
-                # textstyle_opts=opts.TextStyleOpts(color="#fff")
+                pos_bottom="5",
+                textstyle_opts=opts.TextStyleOpts(color="#fff")
             )
         )
     )
