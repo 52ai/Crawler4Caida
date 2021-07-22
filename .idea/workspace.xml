@@ -29,8 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" beforeDir="false" afterPath="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/068IXVis/ix_rel_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/068IXVis/ix_rel_v2.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -68,6 +68,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/031CAICT-Display/country_Provider.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/035NetwrokSimulation/GlobalNet_Simulate_V2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/068IXVis/ix_rel_v2.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1eTfk4jnNlfnTNoKG0FZVnH4Hgq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

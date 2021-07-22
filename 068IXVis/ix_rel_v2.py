@@ -25,14 +25,14 @@ V2:
 
 
 """
-from urllib.request import urlopen
+# from urllib.request import urlopen
 import json
-from datetime import *
+# from datetime import *
 import time
 import csv
 
 from pyecharts import options as opts
-from pyecharts.charts import Graph, Page
+from pyecharts.charts import Graph
 from pyecharts.globals import ThemeType
 import numpy as np
 
@@ -378,6 +378,3 @@ if __name__ == "__main__":
     opt_title_name = "Graph-全球IX星云图可视化"
     draw_rel(opt_title_name).render("../000LocalData/IXVis/global_ix_new.html")
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
-
-
-
