@@ -100,4 +100,3 @@ if __name__ == "__main__":
     mayavi_draw(my_graph_nodes, my_graph_edges)
     time_end = time.time()  # 记录结束时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
-

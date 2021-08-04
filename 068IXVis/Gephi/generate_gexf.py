@@ -17,7 +17,7 @@ ix_as_rel_file = "../../000LocalData/IXVis/ix_as_rel.csv"
 ix_as_gephi_file = "../../000LocalData/IXVis/ix_as.gexf"
 
 
-def write_to_csv(res_list, des_path, title=[]):
+def write_to_csv(res_list, des_path, title):
     """
     把给定的List，写到指定路径的文件中
     :param res_list:
