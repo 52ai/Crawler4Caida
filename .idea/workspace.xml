@@ -223,11 +223,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ix_rel_v2" />
-      <item itemvalue="Python.testOpen3DVis" />
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
       <item itemvalue="Python.active_as_cn" />
       <item itemvalue="Python.generate_gexf" />
-      <item itemvalue="Python.ASlay_plus_Mayavi" />
+      <item itemvalue="Python.ix_rel_v2" />
+      <item itemvalue="Python.testOpen3DVis" />
     </list>
     <recent_temporary>
       <list>
