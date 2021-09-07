@@ -13,7 +13,8 @@ import os
 import time
 
 
-KEY_WORDS = ["内部"]  # 存储需要检索的关键词
+KEY_WORDS = {"秘密": "秘&密", "内部": "内&部"}  # 存储需要检索的关键词
+log_file = "log.log"
 
 
 def search_file(root_dir):
@@ -33,7 +34,7 @@ def search_file(root_dir):
             # print(file_type)
 
             if file_type == ".txt":
-                print(file_path)
+                # print(file_path)
                 file_analysis_txt(file_path)
 
             if file_type in file_dict.keys():
@@ -43,9 +44,9 @@ def search_file(root_dir):
 
             file_path_list.append(file_path)
     print("该路径中检索到的所有文件记录：", len(file_path_list))
-    for key in file_dict.keys():
-        if len(key) < 10:
-            print("该路径中%s文件类型的数量为%s个" % (key, len(file_dict[key])))
+    # for key in file_dict.keys():
+    #     if len(key) < 10:
+    #         print("该路径中%s文件类型的数量为%s个" % (key, len(file_dict[key])))
 
 
 def file_analysis_txt(aim_file):
@@ -55,22 +56,40 @@ def file_analysis_txt(aim_file):
     :return:
     """
     try:
-        file_read = open(aim_file, 'r', encoding='gbk')
+        file_read = open(aim_file, 'r', encoding='utf-8')
 
         temp_line_list = []  # 存储检索到的行信息
 
         for line in file_read.readlines():
-            for keyword in KEY_WORDS:
+            for keyword in KEY_WORDS.keys():
                 if line.find(keyword) != -1:
                     # print(line)
                     temp_line_list.append(line)
 
         if len(temp_line_list) != 0:
+            aim_file = aim_file.replace("/", "\\")
             print(aim_file)
-            print(temp_line_list)
+            # print(temp_line_list)
+            rep_txt = ""  # 存储替换后的内容
+            with open(aim_file, 'r', encoding="utf-8") as f_read:
+                contents = f_read.read()
+                # print(contents)
+                """
+                rep_txt = contents.replace("秘密", "秘&密")
+                """
+                for keyword in KEY_WORDS.keys():
+                    print(keyword, KEY_WORDS[keyword])
+                    rep_txt = contents.replace(keyword, KEY_WORDS[keyword])
+                print(rep_txt[0:100])
+            print("修改文件")
+            with open(aim_file, 'w', encoding="utf-8") as f_write:
+                f_write.write(rep_txt)
 
     except Exception as e:
-        print(e)
+        # print(e)
+        with open(log_file, "a", encoding="utf-8") as f:
+            f.write(str(e))
+            f.write("\n")
 
 
 if __name__ == "__main__":
