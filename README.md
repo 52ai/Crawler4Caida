@@ -37,8 +37,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 没有所谓最好的状态，人生的每一天都需珍惜，努力前行，不负韶华。---20201105 By Wenyan YU<br>
 临近年关，2020即将结束，发生了太多太多事，有点想哭。---20201204 By Wenyan YU<br>
 再苦再累，静下来心来，好好面对，追寻内心的选择。---20201206 By Wenyan YU<br>
-静下来，慢下来，立即行动。---20201208 By Wenyan YU<br>
-技术的精进一定是在解决实际问题中体现价值。---20201210 By Wenyan YU<br>
+静下来，慢下来，立即行动。---20201208 By Wenyan YU<br>技术的精进一定是在解决实际问题中体现价值。---20201210 By Wenyan YU<br>
 2020年最后一天了，要加油呀，既不可妄自尊大，也不可妄自菲薄。---20201231 By Wenyan YU<br>
 逐步适应VSCODE的编程环境，2021年要试着和自己和解。---20210112 By Wenyan YU<br>
 重回Pycharm怀抱，写Python感觉还是PyCharm来的舒服，VSCODE用着还是不习惯。---20210222 By Wenyan YU<br>
@@ -47,6 +46,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 天下难事，必作于易；天下大事，必作于细。莫要好高骛远，踏实前行为好！---20210718 By Wenyan YU <br>
 起承转合，锻炼结构性思维，写作其实并不难。---20210720 By Wenyan YU<br>
 坚持真理、坚守理想，践行初心、担当使命，不怕牺牲、英勇斗争，对党忠诚、不负人民。---20210903 By Wenyan YU<br>
+人生意义在于不断的选择，拒绝完美，拒绝拖延，崇尚科学。 ---20210913 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>

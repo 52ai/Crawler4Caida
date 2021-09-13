@@ -13,7 +13,7 @@ import os
 import time
 
 
-KEY_WORDS = {"秘密": "秘&密", "内部": "内&部"}  # 存储需要检索的关键词
+KEY_WORDS = {"秘&密": "秘密", "内&部": "内部"}  # 存储需要检索的关键词
 log_file = "log.log"
 
 
