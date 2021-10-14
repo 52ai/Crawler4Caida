@@ -29,13 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/TLDs_crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/ix_rel_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/064IPDB/hlj_trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/064IPDB/hlj_trace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/TLDs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/TLDs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/global_ix_root_servers.html" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/global_ix_root_servers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/ix_rel_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/ix_rel_v3.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -229,11 +225,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.search" />
       <item itemvalue="Python.TLDs_crawler" />
       <item itemvalue="Python.hlj_trace" />
-      <item itemvalue="Python.ix_rel_v3" />
       <item itemvalue="Python.ix_rel_v3 (1)" />
+      <item itemvalue="Python.ix_rel_v3" />
+      <item itemvalue="Python.search" />
     </list>
     <recent_temporary>
       <list>

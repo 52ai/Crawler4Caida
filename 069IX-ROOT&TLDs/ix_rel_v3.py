@@ -228,7 +228,7 @@ def generate_ix_rel():
     print("AS记录数(处理后):", len(as_list_new))
     print("IX记录数(处理后):", len(ix_list_new))
 
-    return ix_list_new, as_list_new, ix_as_rel_new, weight_dic_ix, weight_dic_as
+    return ix_list, as_list, ix_as_rel_new, weight_dic_ix, weight_dic_as
 
 
 def generate_draw_json():
@@ -264,7 +264,7 @@ def generate_draw_json():
         temp_dict["value"] = "<AS" + str(item[1]) + ">" + str(item[2])
         temp_dict["category"] = "AS"
 
-        if int(weight_dic_as[node_name]) > 2:
+        if int(weight_dic_as[node_name]) > 180:
             temp_dict_normal["show"] = "True"
             temp_dict_normal["color"] = "yellow"
             temp_dict_normal["font_size"] = 8
@@ -288,13 +288,13 @@ def generate_draw_json():
         node_name = "IX" + str(item[0]) + "-" + str(item[1])
         node_list.append(node_name)
         try:
-            node_size = np.sqrt(int(weight_dic_ix[node_name])/10) + 4.8
+            node_size = np.sqrt(int(weight_dic_ix[node_name])) + 4.8
         except Exception as e:
             print(e)
             node_size = 4.8
         temp_dict["name"] = node_name
         temp_dict["symbolSize"] = node_size
-        temp_dict["symbol"] = "rect"
+        temp_dict["symbol"] = "circle"
         temp_dict["draggable"] = "False"
         temp_dict["value"] = "<IX>" + str(item[1])
         temp_dict["category"] = "IX"
@@ -370,9 +370,9 @@ def draw_rel(title_name) -> Graph:
             layout="force",  # 图布局模式，none(使用xy坐标)，circular, force
             # symbol="rect",  # Echarts提供的标记包括circle, rect, roundRect, triangle, diamond, pin ,arrow
             edge_length=50,  # 节点之间距离
-            gravity=0.2,
+            gravity=0.1,
             repulsion=50,
-            linestyle_opts=opts.LineStyleOpts(width=0.2, opacity=0.8, color='source', curve=0.2),
+            linestyle_opts=opts.LineStyleOpts(width=0.4, opacity=0.8, color='source', curve=0.2),
             label_opts=opts.LabelOpts(is_show=False),
             tooltip_opts=opts.TooltipOpts(is_show=True)
         )
