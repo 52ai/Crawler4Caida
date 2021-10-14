@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Graph-全球IX-ROOT&TLDs 星云图可视化[Nodes:127 Links:150]</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="05100f5c3f15403990312f038c35f63e" class="chart-container" style="width:1900px; height:900px;"></div>
+    <script>
+        var chart_05100f5c3f15403990312f038c35f63e = echarts.init(
+            document.getElementById('05100f5c3f15403990312f038c35f63e'), 'dark', {renderer: 'canvas'});
+        var option_05100f5c3f15403990312f038c35f63e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "graph",
+            "name": "Circle is AS, and rectangle is IX.",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 50,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "width": 0.2,
+                "opacity": 0.8,
+                "curveness": 0.2,
+                "type": "solid",
+                "color": "source"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": false,
+            "data": [
+                {
+                    "name": "AS20144-l.root-servers.net",
+                    "symbolSize": 6.58257569495584,
+                    "symbol": "circle",
+                    "draggable": "False",
+                    "value": "<AS20144>l.root-servers.net",
+                    "category": "AS",
+                    "label": {
+                        "normal": {
+                            "show": "True",
+                            "color": "yellow",
+                            "font_size": 8,
+                            "font_style": "oblique",
+                            "font_weight": "bold",
+                            "rotate": 45,
+                            "margin": 0
+                        }
+                    }
+                },
+                {
+                    "name": "AS7500-M-ROOT DNS Server",
+                    "symbolSize": 6.0,
+                    "symbol": "circle",
+                    "draggable": "False",
+                    "value": "<AS7500>M-ROOT DNS Server",
+                    "category": "AS",
+                    "label": {
+                        "normal": {
+                            "show": "True",
+                            "color": "yellow",
+                            "font_size": 8,
+                            "font_style": "oblique",
+                            "font_weight": "bold",
+                            "rotate": 45,
+                            "margin": 0
+                        }
+                    }
+                },
+                {
+                    "name": "AS25152-RIPE NCC K-Root Operations",
+                    "symbolSize": 8.164414002968975,
+                    "symbol": "circle",
+                    "draggable": "False",
+                    "value": "<AS25152>RIPE NCC K-Root Operations",
+                    "category": "AS",
+                    "label": {
+                        "normal": {
+                            "show": "True",
+                            "color": "yellow",
+                            "font_size": 8,
+                            "font_style": "oblique",
+                            "font_weight": "bold",
+                            "rotate": 45,
+                            "margin": 0
+                        }
+                    }
+                },
+                {
+                    "name": "AS26415-VeriSign Global Registry Services",
+                    "symbolSize": 10.426149773176359,
+                    "symbol": "circle",
+                    "draggable": "False",
+                    "value": "<AS26415>VeriSign Global Registry Services",
+                    "category": "AS",
+                    "label": {
+                        "normal": {
+                            "show": "True",
+                            "color": "yellow",
+                            "font_size": 8,
+                            "font_style": "oblique",
+                            "font_weight": "bold",
+                            "rotate": 45,
+                            "margin": 0
+                        }
+                    }
+                },
+                {
+                    "name": "AS394353-ISI B-ROOT",
+                    "symbolSize": 4.0,
+                    "symbol": "circle",
+                    "draggable": "False",
+                    "value": "<AS394353>ISI B-ROOT",
+                    "category": "AS",
+                    "label": {
+                        "normal": {
+                            "show": "True",
+                            "color": "yellow",
+                            "font_size": 8,
+                            "font_style": "oblique",
+                            "font_weight": "bold",
+                            "rotate": 45,
+                            "margin": 0
+                        }
+                    }
+                },
+                {
+                    "name": "IX64-NL-ix",
+                    "symbolSize": 10.98869937870632,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NL-ix",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX121-Namex Rome IXP",
+                    "symbolSize": 8.176388603226826,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Namex Rome IXP",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX31-DE-CIX Frankfurt",
+                    "symbolSize": 14.567292357659824,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>DE-CIX Frankfurt",
+                    "category": "IX",
+                    "label": {
+                        "normal": {
+                            "show": "True"
+                        }
+                    }
+                },
+                {
+                    "name": "IX87-BCIX",
+                    "symbolSize": 8.220526275297413,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>BCIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX71-NIX.CZ",
+                    "symbolSize": 8.514835124201342,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NIX.CZ",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX60-SwissIX",
+                    "symbolSize": 9.41519230368573,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SwissIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX17-Equinix Miami",
+                    "symbolSize": 8.7496835316263,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Miami",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX18-LINX LON1",
+                    "symbolSize": 13.788882021697692,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LINX LON1",
+                    "category": "IX",
+                    "label": {
+                        "normal": {
+                            "show": "True"
+                        }
+                    }
+                },
+                {
+                    "name": "IX22-Digital Realty Atlanta",
+                    "symbolSize": 8.7496835316263,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Digital Realty Atlanta",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX30-JPIX TOKYO",
+                    "symbolSize": 9.606245936279166,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>JPIX TOKYO",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX167-Equinix Tokyo",
+                    "symbolSize": 8.116624790355399,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Tokyo",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX63-ESPANIX Madrid Lower LAN",
+                    "symbolSize": 8.487817782917155,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>ESPANIX Madrid Lower LAN",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX264-Equinix Warsaw",
+                    "symbolSize": 9.030839160261236,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Warsaw",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX435-IXLeeds",
+                    "symbolSize": 6.443167672515498,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IXLeeds",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1-Equinix Ashburn",
+                    "symbolSize": 10.579273310719955,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Ashburn",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX53-LONAP",
+                    "symbolSize": 9.553945729601885,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LONAP",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX52-KINX",
+                    "symbolSize": 7.574887385102322,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>KINX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX359-France-IX Paris",
+                    "symbolSize": 11.06099033699941,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>France-IX Paris",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX703-MBIX",
+                    "symbolSize": 6.616590212458495,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MBIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX564-JPIX OSAKA",
+                    "symbolSize": 7.680972058177586,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>JPIX OSAKA",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX592-NAPAfrica IX Johannesburg",
+                    "symbolSize": 11.349809157525126,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NAPAfrica IX Johannesburg",
+                    "category": "IX",
+                    "label": {
+                        "normal": {
+                            "show": "True"
+                        }
+                    }
+                },
+                {
+                    "name": "IX35-MIX-IT",
+                    "symbolSize": 10.430275304103699,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MIX-IT",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX26-AMS-IX",
+                    "symbolSize": 13.871934744033382,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>AMS-IX",
+                    "category": "IX",
+                    "label": {
+                        "normal": {
+                            "show": "True"
+                        }
+                    }
+                },
+                {
+                    "name": "IX833-TPAIX",
+                    "symbolSize": 6.283239697419132,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>TPAIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX429-SGIX",
+                    "symbolSize": 8.711521443121589,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SGIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX935-AMS-IX BA",
+                    "symbolSize": 6.50293863659264,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>AMS-IX BA",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1002-RVA-IX",
+                    "symbolSize": 5.940175425099138,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>RVA-IX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX239-ChIX",
+                    "symbolSize": 7.249489742783178,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>ChIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX699-NetIX",
+                    "symbolSize": 7.732575659723036,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NetIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX375-OpenIXP / NiCE",
+                    "symbolSize": 10.19444158370447,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>OpenIXP / NiCE",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX50-VIX",
+                    "symbolSize": 8.50135110466435,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>VIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX481-THINX Warsaw",
+                    "symbolSize": 7.628427124746191,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>THINX Warsaw",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX171-IX.br (PTT.br) S\u00e3o Paulo",
+                    "symbolSize": 16.508970919769165,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) S\u00e3o Paulo",
+                    "category": "IX",
+                    "label": {
+                        "normal": {
+                            "show": "True"
+                        }
+                    }
+                },
+                {
+                    "name": "IX779-MegaIX Melbourne",
+                    "symbolSize": 8.391656999213595,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MegaIX Melbourne",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX780-MegaIX Sydney",
+                    "symbolSize": 9.647679857416328,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MegaIX Sydney",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX781-MegaIX Brisbane",
+                    "symbolSize": 7.7664793948382655,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MegaIX Brisbane",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX361-TIX Tanzania - Dar es Salaam",
+                    "symbolSize": 6.38113883008419,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>TIX Tanzania - Dar es Salaam",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX158-Equinix Singapore",
+                    "symbolSize": 10.758187643906492,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Singapore",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX597-NAPAfrica IX Cape Town",
+                    "symbolSize": 9.39347363114234,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NAPAfrica IX Cape Town",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX173-IX.br (PTT.br) Porto Alegre",
+                    "symbolSize": 8.935214625627067,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Porto Alegre",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX823-TPIX-TW",
+                    "symbolSize": 7.464582518894845,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>TPIX-TW",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1025-BKNIX",
+                    "symbolSize": 6.67082869338697,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>BKNIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1262-INEX Cork",
+                    "symbolSize": 6.024744871391588,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>INEX Cork",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX984-MegaIX Auckland",
+                    "symbolSize": 7.646049894151542,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MegaIX Auckland",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX95-JPNAP Tokyo",
+                    "symbolSize": 9.042640687119285,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>JPNAP Tokyo",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX906-HFXIX",
+                    "symbolSize": 6.064911064067352,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>HFXIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX777-LINX NoVA",
+                    "symbolSize": 7.058317958127242,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LINX NoVA",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1235-MegaIX Perth",
+                    "symbolSize": 7.0803508501982755,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MegaIX Perth",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX145-JPNAP Osaka",
+                    "symbolSize": 7.483281572999747,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>JPNAP Osaka",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX62-CATNIX",
+                    "symbolSize": 6.897617696340303,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>CATNIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX72-GigaPIX - LAN 1",
+                    "symbolSize": 6.873644135332771,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>GigaPIX - LAN 1",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX710-IX.br (PTT.br) Fortaleza",
+                    "symbolSize": 10.072570530585626,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Fortaleza",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX174-IX.br (PTT.br) Curitiba",
+                    "symbolSize": 8.191164991562633,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Curitiba",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX297-LU-CIX",
+                    "symbolSize": 7.4457513110645905,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LU-CIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX299-NIX.SK",
+                    "symbolSize": 6.9447610589527216,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NIX.SK",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX270-InterLAN",
+                    "symbolSize": 7.816620625799671,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>InterLAN",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX745-LINX Scotland",
+                    "symbolSize": 6.697366596101027,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LINX Scotland",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX178-IX.br (PTT.br) Bras\u00edlia",
+                    "symbolSize": 7.464582518894845,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Bras\u00edlia",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX100-MSK-IX Moscow",
+                    "symbolSize": 10.349774770204643,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MSK-IX Moscow",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX832-DE-CIX Mumbai",
+                    "symbolSize": 10.791660871578097,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>DE-CIX Mumbai",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1514-PIT Santiago - PIT Chile",
+                    "symbolSize": 8.43318042491699,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>PIT Santiago - PIT Chile",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX576-IX Australia (Brisbane QLD)",
+                    "symbolSize": 7.483281572999747,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX Australia (Brisbane QLD)",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX21-IX Australia (Perth WA)",
+                    "symbolSize": 7.66356421265527,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX Australia (Perth WA)",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2088-PhillyIX",
+                    "symbolSize": 6.178404875209022,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>PhillyIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX177-IX.br (PTT.br) Rio de Janeiro",
+                    "symbolSize": 10.613776741499453,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Rio de Janeiro",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX249-KCIX",
+                    "symbolSize": 7.882207001484488,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>KCIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX83-NIX1",
+                    "symbolSize": 7.2289915602982235,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NIX1",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX129-JINX",
+                    "symbolSize": 8.264101615137754,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>JINX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2102-MMIX",
+                    "symbolSize": 6.064911064067352,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MMIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX655-GigaNET Kiev",
+                    "symbolSize": 8.774921382870358,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>GigaNET Kiev",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX255-Equinix Paris",
+                    "symbolSize": 9.967204273105526,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Paris",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX321-LINX LON2",
+                    "symbolSize": 10.579273310719955,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LINX LON2",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX115-TOP-IX",
+                    "symbolSize": 8.02490309931942,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>TOP-IX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX155-SFMIX",
+                    "symbolSize": 7.680972058177586,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SFMIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX424-SOX Serbia",
+                    "symbolSize": 6.588854381999831,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SOX Serbia",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX488-IXPN Lagos",
+                    "symbolSize": 7.0803508501982755,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IXPN Lagos",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX33-CIXP",
+                    "symbolSize": 6.921320343559643,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>CIXP",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1207-IX-Denver",
+                    "symbolSize": 7.289979919597746,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX-Denver",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX204-Any2East",
+                    "symbolSize": 6.41245154965971,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Any2East",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX363-SUPRnet",
+                    "symbolSize": 6.214213562373095,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SUPRnet",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX34-SFINX",
+                    "symbolSize": 6.8,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SFINX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX967-DjIX",
+                    "symbolSize": 5.895445115010332,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>DjIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX236-KIXP - Nairobi",
+                    "symbolSize": 6.824845673131659,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>KIXP - Nairobi",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX543-Rheintal IX",
+                    "symbolSize": 6.443167672515498,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Rheintal IX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX639-YYCIX",
+                    "symbolSize": 7.349509756796392,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>YYCIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX92-DIX-IE",
+                    "symbolSize": 6.214213562373095,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>DIX-IE",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX377-AAIX",
+                    "symbolSize": 5.940175425099138,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>AAIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX181-CABASE-BUE - IX Argentina (Buenos Aires)",
+                    "symbolSize": 8.02490309931942,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>CABASE-BUE - IX Argentina (Buenos Aires)",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1007-angonix",
+                    "symbolSize": 6.283239697419132,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>angonix",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1032-RINEX",
+                    "symbolSize": 5.8,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>RINEX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1067-CABASE-COR - IX Argentina (Cordoba)",
+                    "symbolSize": 6.443167672515498,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>CABASE-COR - IX Argentina (Cordoba)",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX228-RIX",
+                    "symbolSize": 6.31657508881031,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>RIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX526-LIXP",
+                    "symbolSize": 6.283239697419132,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LIXP",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1354-Beirut IX",
+                    "symbolSize": 6.064911064067352,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Beirut IX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX393-IIX Israel",
+                    "symbolSize": 5.8,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IIX Israel",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1991-PIT Arica - PIT Chile",
+                    "symbolSize": 5.694427190999916,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>PIT Arica - PIT Chile",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2355-btIX",
+                    "symbolSize": 5.848808848170151,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>btIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2497-KazNIX",
+                    "symbolSize": 5.694427190999916,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>KazNIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX347-GR-IX",
+                    "symbolSize": 7.03606797749979,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>GR-IX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX303-CIX",
+                    "symbolSize": 6.643908891458578,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>CIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2299-SAIX Saudi Arabia",
+                    "symbolSize": 5.983215956619923,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SAIX Saudi Arabia",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX364-SMILE-IXP",
+                    "symbolSize": 6.41245154965971,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>SMILE-IXP",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2680-Peru IX (PIT Peru sac) - Lima",
+                    "symbolSize": 6.921320343559643,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Peru IX (PIT Peru sac) - Lima",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX98-FICIX 2 (Helsinki)",
+                    "symbolSize": 6.749358868961792,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>FICIX 2 (Helsinki)",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2005-BALT-IX",
+                    "symbolSize": 6.643908891458578,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>BALT-IX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2163-FCIX",
+                    "symbolSize": 8.131666249791536,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>FCIX",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX2031-Equinix Amsterdam",
+                    "symbolSize": 7.2083189157584595,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>Equinix Amsterdam",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX368-GigaPIX - Oporto",
+                    "symbolSize": 5.247213595499958,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>GigaPIX - Oporto",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX253-NAP.EC - UIO",
+                    "symbolSize": 6.10384048104053,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NAP.EC - UIO",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX415-IX.br (PTT.br) Campinas",
+                    "symbolSize": 6.588854381999831,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Campinas",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX711-IX.br (PTT.br) Bel\u00e9m",
+                    "symbolSize": 6.473320053068151,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Bel\u00e9m",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX556-IX.br (PTT.br) Salvador",
+                    "symbolSize": 7.12379000772445,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Salvador",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX175-IX.br (PTT.br) Florian\u00f3polis",
+                    "symbolSize": 7.2289915602982235,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Florian\u00f3polis",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX176-IX.br (PTT.br) Belo Horizonte",
+                    "symbolSize": 7.013594362117866,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Belo Horizonte",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX314-IX.br (PTT.br) Londrina",
+                    "symbolSize": 6.50293863659264,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Londrina",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX708-IX.br (PTT.br) Natal",
+                    "symbolSize": 6.473320053068151,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) Natal",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX638-IX.br (PTT.br) S\u00e3o Jos\u00e9 dos Campos",
+                    "symbolSize": 5.8,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>IX.br (PTT.br) S\u00e3o Jos\u00e9 dos Campos",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX234-NSPIXP3",
+                    "symbolSize": 5.247213595499958,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>NSPIXP3",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX223-MSK-IX Novosibirsk",
+                    "symbolSize": 6.41245154965971,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>MSK-IX Novosibirsk",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX1772-VNIX-HN",
+                    "symbolSize": 5.347722557505166,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>VNIX-HN",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX492-FICIX 3 (Oulu)",
+                    "symbolSize": 5.574596669241483,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>FICIX 3 (Oulu)",
+                    "category": "IX"
+                },
+                {
+                    "name": "IX77-LIX",
+                    "symbolSize": 5.116227766016838,
+                    "symbol": "rect",
+                    "draggable": "False",
+                    "value": "<IX>LIX",
+                    "category": "IX"
+                }
+            ],
+            "categories": [
+                {
+                    "name": "AS"
+                },
+                {
+                    "name": "IX"
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "IX255-Equinix Paris",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX368-GigaPIX - Oporto",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX253-NAP.EC - UIO",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX71-NIX.CZ",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX171-IX.br (PTT.br) S\u00e3o Paulo",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX415-IX.br (PTT.br) Campinas",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX424-SOX Serbia",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX711-IX.br (PTT.br) Bel\u00e9m",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX556-IX.br (PTT.br) Salvador",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX173-IX.br (PTT.br) Porto Alegre",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX174-IX.br (PTT.br) Curitiba",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX175-IX.br (PTT.br) Florian\u00f3polis",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX176-IX.br (PTT.br) Belo Horizonte",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX177-IX.br (PTT.br) Rio de Janeiro",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX178-IX.br (PTT.br) Bras\u00edlia",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX314-IX.br (PTT.br) Londrina",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX708-IX.br (PTT.br) Natal",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX710-IX.br (PTT.br) Fortaleza",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX638-IX.br (PTT.br) S\u00e3o Jos\u00e9 dos Campos",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX204-Any2East",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX158-Equinix Singapore",
+                    "target": "AS20144-l.root-servers.net"
+                },
+                {
+                    "source": "IX564-JPIX OSAKA",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX64-NL-ix",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX34-SFINX",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX234-NSPIXP3",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX145-JPNAP Osaka",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX52-KINX",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX255-Equinix Paris",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX92-DIX-IE",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX30-JPIX TOKYO",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX95-JPNAP Tokyo",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX359-France-IX Paris",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX935-AMS-IX BA",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX155-SFMIX",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX2163-FCIX",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX781-MegaIX Brisbane",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX576-IX Australia (Brisbane QLD)",
+                    "target": "AS7500-M-ROOT DNS Server"
+                },
+                {
+                    "source": "IX35-MIX-IT",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX228-RIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX17-Equinix Miami",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX18-LINX LON1",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX95-JPNAP Tokyo",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX92-DIX-IE",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX31-DE-CIX Frankfurt",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX321-LINX LON2",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX347-GR-IX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX359-France-IX Paris",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX26-AMS-IX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX223-MSK-IX Novosibirsk",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX33-CIXP",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX60-SwissIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX639-YYCIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX1262-INEX Cork",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX64-NL-ix",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX2299-SAIX Saudi Arabia",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX543-Rheintal IX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX50-VIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX2355-btIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX1514-PIT Santiago - PIT Chile",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX63-ESPANIX Madrid Lower LAN",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX53-LONAP",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX832-DE-CIX Mumbai",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX129-JINX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX2497-KazNIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX526-LIXP",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX297-LU-CIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX2102-MMIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX481-THINX Warsaw",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX270-InterLAN",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX823-TPIX-TW",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX1002-RVA-IX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX363-SUPRnet",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX699-NetIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX87-BCIX",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX1772-VNIX-HN",
+                    "target": "AS25152-RIPE NCC K-Root Operations"
+                },
+                {
+                    "source": "IX377-AAIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1025-BKNIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX181-CABASE-BUE - IX Argentina (Buenos Aires)",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1067-CABASE-COR - IX Argentina (Cordoba)",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX62-CATNIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX303-CIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX239-ChIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX22-Digital Realty Atlanta",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX967-DjIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX347-GR-IX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX72-GigaPIX - LAN 1",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX393-IIX Israel",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX435-IXLeeds",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX488-IXPN Lagos",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX745-LINX Scotland",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX270-InterLAN",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX77-LIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX297-LU-CIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX703-MBIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX35-MIX-IT",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX100-MSK-IX Moscow",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX780-MegaIX Sydney",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX832-DE-CIX Mumbai",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX597-NAPAfrica IX Cape Town",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX592-NAPAfrica IX Johannesburg",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX83-NIX1",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX71-NIX.CZ",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX299-NIX.SK",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX121-Namex Rome IXP",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1514-PIT Santiago - PIT Chile",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX264-Equinix Warsaw",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1032-RINEX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX228-RIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX155-SFMIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX424-SOX Serbia",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX60-SwissIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX361-TIX Tanzania - Dar es Salaam",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX115-TOP-IX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1007-angonix",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX492-FICIX 3 (Oulu)",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX429-SGIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX639-YYCIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1002-RVA-IX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX777-LINX NoVA",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX375-OpenIXP / NiCE",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX249-KCIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX833-TPAIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX906-HFXIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX52-KINX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1207-IX-Denver",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX364-SMILE-IXP",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX167-Equinix Tokyo",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX63-ESPANIX Madrid Lower LAN",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX655-GigaNET Kiev",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX699-NetIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX236-KIXP - Nairobi",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX2088-PhillyIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX87-BCIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1354-Beirut IX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX984-MegaIX Auckland",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1235-MegaIX Perth",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX779-MegaIX Melbourne",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX781-MegaIX Brisbane",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX50-VIX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX363-SUPRnet",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX98-FICIX 2 (Helsinki)",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX359-France-IX Paris",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX2005-BALT-IX",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX171-IX.br (PTT.br) S\u00e3o Paulo",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX21-IX Australia (Perth WA)",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX2680-Peru IX (PIT Peru sac) - Lima",
+                    "target": "AS26415-VeriSign Global Registry Services"
+                },
+                {
+                    "source": "IX1991-PIT Arica - PIT Chile",
+                    "target": "AS394353-ISI B-ROOT"
+                },
+                {
+                    "source": "IX2031-Equinix Amsterdam",
+                    "target": "AS394353-ISI B-ROOT"
+                },
+                {
+                    "source": "IX1-Equinix Ashburn",
+                    "target": "AS394353-ISI B-ROOT"
+                },
+                {
+                    "source": "IX158-Equinix Singapore",
+                    "target": "AS394353-ISI B-ROOT"
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "AS",
+                "IX"
+            ],
+            "selected": {
+                "AS": true,
+                "IX": true
+            },
+            "show": true,
+            "left": "2%",
+            "top": "5%",
+            "bottom": "5",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "color": "#fff"
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Graph-\u5168\u7403IX-ROOT&TLDs \u661f\u4e91\u56fe\u53ef\u89c6\u5316[Nodes:127 Links:150]",
+            "left": "2%",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#fff"
+            }
+        }
+    ]
+};
+        chart_05100f5c3f15403990312f038c35f63e.setOption(option_05100f5c3f15403990312f038c35f63e);
+    </script>
+</body>
+</html>

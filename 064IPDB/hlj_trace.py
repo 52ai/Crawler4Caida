@@ -68,7 +68,7 @@ def once_query():
     """
     db = City("../000LocalData/ipdb/caict_full.ipdb")
     print("ipdb.build.time:", db.build_time())
-    print(db.find("37.111.32.171", "CN"))
+    print(db.find("156.154.158.2", "CN"))
 
 
 if __name__ == "__main__":

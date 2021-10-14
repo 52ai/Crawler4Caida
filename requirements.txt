@@ -63,3 +63,4 @@ imageio~=2.9.0
 ujson~=4.0.2
 taichi~=0.7.25
 mayavi~=4.7.1+vtk82
+ipinfo~=4.2.1
