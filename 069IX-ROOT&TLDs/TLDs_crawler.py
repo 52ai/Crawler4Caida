@@ -85,9 +85,13 @@ def obtain_tlds_list(page_url):
         tld_detail_url = "https://www.iana.org" + tr_item_all[0].find("a").attrs['href']
         tld_type = tr_item_all[1].get_text()
         tld_manager = str(tr_item_all[2].get_text())
-        print(tld_name, tld_type, tld_manager.strip(", "), tld_detail_url)
+        tld_manager = tld_manager.replace(".", "")
+        tld_manager = tld_manager.replace(",", " ")
+        tld_manager = tld_manager.strip()
 
-        if tld_manager.find("Not assigned") != -1 or tld_manager.find("Retired") != -1:
+        if tld_manager.find("Not assigned") != -1 \
+                or tld_manager.find("Retired") != -1 \
+                or tld_manager.find("Internet Assigned Numbers Authority") != -1:
             # 该TLD未分配，直接略过
             continue
         """
@@ -130,6 +134,7 @@ def obtain_tlds_list(page_url):
                 print("Error Again：", ns_ip_e)
 
         finally:
+            print(tld_name, tld_type, tld_manager, tld_detail_url)
             tlds_list.append([tld_name, tld_type, tld_manager, ns_ip, ns_as])
             with open("tlds_result_rt.csv", "a", newline='', encoding='utf-8') as f:
                 writer = csv.writer(f, delimiter=",", quotechar='"')

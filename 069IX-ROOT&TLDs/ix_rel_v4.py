@@ -33,6 +33,10 @@ V3: 20211014
 
 画两张图：IX-RootServers Vis、IX-TLDs Vis
 
+V4: 20211015
+在V3的版本中，绘制了13个根域名服务器接入IX的关系，本版本主要是要绘制根服务器和全部顶级域（1400多个）的图
+
+
 """
 # from urllib.request import urlopen
 import json
@@ -116,11 +120,30 @@ def gain_ix2info_pdb():
     return ix2info
 
 
+def gain_tlds_as():
+    """
+    根据爬取的数据，获取tlds as信息
+    :return tlds_as_list:
+    """
+    tlds_as_list = []  # 存储tlds as列表
+    with open("TLDs_AS.csv", "r", encoding="utf-8") as f:
+        for line in f.readlines():
+            item = line.strip().strip("AS")
+            if item is not None:
+                if item not in tlds_as_list:
+                    tlds_as_list.append(item)
+    return tlds_as_list
+
+
 def generate_ix_rel():
     """
     基于PEERING DB数据抽取ix和net的对应关系
     :return:
     """
+    tlds_as = gain_tlds_as()
+    print("顶级域所属网络数量（去重后）：", len(tlds_as))
+    print(tlds_as)
+
     # as2country, as2info = gain_as2country()
     as2info = gain_as2info_pdb()
     ix2info = gain_ix2info_pdb()
@@ -168,7 +191,7 @@ def generate_ix_rel():
     for item in ix_as_rel:
         ix_str = "IX" + str(item[0]) + "-" + str(item[2])
         as_str = "AS" + str(item[3]) + "-" + str(item[5])
-        if str(item[3]) in rs_as:
+        if str(item[3]) in rs_as or str(item[3]) in tlds_as:
             # 如果这对关系中as是根服务器as，则记录该关系
             print(ix_str, "- - - ", as_str)
             ix_as_rel_new.append([ix_str, as_str])
@@ -185,10 +208,8 @@ def generate_ix_rel():
         if as_str not in weight_dic_as.keys():
             weight_dic_as[as_str] = 1
         else:
-            if str(item[3]) in rs_as:
+            if str(item[3]) in rs_as or str(item[3]) in tlds_as:
                 weight_dic_as[as_str] += 1
-
-
 
     """
     补全ix_list和as_list
@@ -208,7 +229,7 @@ def generate_ix_rel():
 
     as_list_new = []
     for item in as_list:
-        if str(item[1]) in rs_as:
+        if str(item[1]) in rs_as or str(item[1]) in tlds_as:
             as_str = "AS" + str(item[1]) + "-" + str(item[2])
             try:
                 as_str_degree = weight_dic_as[as_str]
@@ -235,7 +256,7 @@ def generate_ix_rel():
     print("AS记录数(处理后):", len(as_list_new))
     print("IX记录数(处理后):", len(ix_list_new))
 
-    return ix_list, as_list, ix_as_rel_new, weight_dic_ix, weight_dic_as
+    return ix_list, as_list_new, ix_as_rel_new, weight_dic_ix, weight_dic_as
 
 
 def generate_draw_json():
@@ -271,7 +292,7 @@ def generate_draw_json():
         temp_dict["value"] = "<AS" + str(item[1]) + ">" + str(item[2])
         temp_dict["category"] = "AS"
 
-        if int(weight_dic_as[node_name]) > 1:
+        if int(weight_dic_as[node_name]) > 40:
             temp_dict_normal["show"] = "True"
             temp_dict_normal["color"] = "yellow"
             temp_dict_normal["font_size"] = 8
@@ -370,16 +391,16 @@ def draw_rel(title_name) -> Graph:
             links,
             categories_info,
             is_selected=True,  # 是否选中图例
-            is_focusnode=False,  # 是否在鼠标移动到节点的时候突出显示节点及节点的边和邻接节点
+            is_focusnode=True,  # 是否在鼠标移动到节点的时候突出显示节点及节点的边和邻接节点
             is_roam=True,  # 是否开启鼠标缩放和平移漫游
             is_draggable=False,  # 节点是否可拖拽
-            is_rotate_label=False,  # 是否旋转标签
+            is_rotate_label=True,  # 是否旋转标签
             layout="force",  # 图布局模式，none(使用xy坐标)，circular, force
             # symbol="rect",  # Echarts提供的标记包括circle, rect, roundRect, triangle, diamond, pin ,arrow
-            edge_length=50,  # 节点之间距离
-            gravity=0.1,
+            edge_length=80,  # 节点之间距离
+            gravity=0.2,
             repulsion=50,
-            linestyle_opts=opts.LineStyleOpts(width=0.4, opacity=0.8, color='source', curve=0.2),
+            linestyle_opts=opts.LineStyleOpts(width=0.2, opacity=0.8, color='source', curve=0.2),
             label_opts=opts.LabelOpts(is_show=False),
             tooltip_opts=opts.TooltipOpts(is_show=True)
         )
@@ -404,5 +425,5 @@ if __name__ == "__main__":
     # generate_ix_rel()
     # generate_draw_json()
     opt_title_name = "Graph-全球IX-ROOT&TLDs 星云图可视化"
-    draw_rel(opt_title_name).render("global_ix_root_servers.html")
+    draw_rel(opt_title_name).render("global_ix_tlds.html")
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
