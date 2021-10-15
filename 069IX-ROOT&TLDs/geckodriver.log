@@ -562,3 +562,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1634272165942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634288472352	geckodriver	INFO	Listening on 127.0.0.1:65345
+1634288475418	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilemFWyb1"
+1634288475874	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilemFWyb1\\search.json.mozlz4", (void 0)))
+1634288477905	Marionette	INFO	Listening on port 65361
+1634288478179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.iana.org/domains/root/db, line 14521: ReferenceError: $ is not defined

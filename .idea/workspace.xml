@@ -29,15 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/TLDs_AS.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/ix_rel_v4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/070IX-Paper/ix_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/TLDs_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/TLDs_crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/global_ix_root_servers.html" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/global_ix_root_servers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/ix_rel_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/ix_rel_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/tlds_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/tlds_result.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/tlds_result_rt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/069IX-ROOT&amp;TLDs/tlds_result_rt.csv" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -109,7 +103,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ix_rel_v4">
+  <component name="RunManager" selected="Python.TLDs_crawler">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,8 +234,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ix_rel_v4" />
         <item itemvalue="Python.TLDs_crawler" />
+        <item itemvalue="Python.ix_rel_v4" />
         <item itemvalue="Python.ix_rel_v3 (1)" />
         <item itemvalue="Python.ix_rel_v3" />
         <item itemvalue="Python.hlj_trace" />
