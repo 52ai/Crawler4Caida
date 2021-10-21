@@ -49,7 +49,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 人生意义在于不断的选择，拒绝完美，拒绝拖延，崇尚科学。 ---20210913 By Wenyan YU<br>
 但愿人长久，千里共婵娟，中秋佳节快乐呀！ ---20210921 By Wenyan YU<br>
 只要思想不滑坡，办法总比问题多。 ---20211013 By Wenyan YU<br>
-
+积极主动，轻装上阵，把手头的事情做好做漂亮，做个靠谱的人。 ---20211021 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
