@@ -1,0 +1,914 @@
+1,Equinix Ashburn,Ashburn,US,North America,339,15377340,美国,北美洲
+2,Equinix Chicago,Chicago,US,North America,250,13110124,美国,北美洲
+3,Equinix Dallas,Dallas,US,North America,176,8799200,美国,北美洲
+4,Equinix Los Angeles,Los Angeles,US,North America,95,4237200,美国,北美洲
+5,Equinix San Jose,San Jose,US,North America,212,7542100,美国,北美洲
+7,Equinix Palo Alto,Palo Alto,US,North America,102,2734500,美国,北美洲
+9,Equinix Atlanta,Atlanta,US,North America,24,805000,美国,北美洲
+10,Equinix Vienna (VA),Vienna,US,North America,4,2300,美国,北美洲
+11,Equinix Seattle,Seattle,US,North America,33,1228000,美国,北美洲
+12,Equinix New York,New York,US,North America,126,5365200,美国,北美洲
+13,SIX Seattle,Seattle,US,North America,349,14183900,美国,北美洲
+14,NYIIX,New York,US,North America,228,7198750,美国,北美洲
+17,Equinix Miami,Miami,US,North America,159,5383310,美国,北美洲
+18,LINX LON1,London,GB,Europe,806,27993446,英国,欧洲
+21,IX Australia (Perth WA),Perth,AU,Australia,85,1124324,澳大利亚,大洋洲
+22,Digital Realty Atlanta,Atlanta,US,North America,156,7586200,美国,北美洲
+23,NYIIX Los Angeles,Los Angeles,US,North America,29,312000,美国,北美洲
+24,TorIX,Toronto,CA,North America,248,7172300,加拿大,北美洲
+26,AMS-IX,Amsterdam,NL,Europe,822,41407451,荷兰,欧洲
+29,Equinix Zurich,Zurich,CH,Europe,49,478100,瑞士,欧洲
+30,JPIX TOKYO,Tokyo,JP,Asia Pacific,232,11048200,日本,亚洲
+31,DE-CIX Frankfurt,Frankfurt,DE,Europe,958,51463700,德国,欧洲
+33,CIXP,Geneva,CH,Europe,43,354200,瑞士,欧洲
+34,SFINX,Paris,FR,Europe,35,106400,法国,欧洲
+35,MIX-IT,Milan,IT,Europe,323,8009694,意大利,欧洲
+41,NYCX,New York,US,North America,3,1300,美国,北美洲
+42,HKIX,Hong Kong,HK,Asia Pacific,269,10683100,中国（香港）,亚洲
+43,TWIX,Taipei,TW,Asia Pacific,23,281024,中国（台湾）,亚洲
+48,INEX LAN1,Dublin,IE,Europe,98,3200100,爱尔兰,欧洲
+50,VIX,Vienna,AT,Europe,139,6051700,奥地利,欧洲
+52,KINX,Seoul,KR,Asia Pacific,80,3131100,韩国,亚洲
+53,LONAP,London,GB,Europe,229,5692224,英国,欧洲
+55,BiX,Budapest,HU,Europe,60,2326500,匈牙利,欧洲
+59,BNIX,Brussels,BE,Europe,62,2193524,比利时,欧洲
+60,SwissIX,Zurich,CH,Europe,216,3649800,瑞士,欧洲
+62,CATNIX,Barcelona,ES,Europe,44,411100,西班牙,欧洲
+63,ESPANIX Madrid Lower LAN,Madrid,ES,Europe,136,3864024,西班牙,欧洲
+64,NL-ix,Amsterdam,NL,Europe,387,15582250,荷兰,欧洲
+69,LyonIX,Lyon,FR,Europe,74,953500,法国,欧洲
+70,Netnod Stockholm GREEN -- MTU1500,Stockholm,SE,Europe,164,5140100,瑞典,欧洲
+71,NIX.CZ,Prague,CZ,Europe,138,7608000,捷克共和国,欧洲
+72,GigaPIX - LAN 1,Lisbon,PT,Europe,46,778024,葡萄牙,欧洲
+73,ECIX-MUC,Munich,DE,Europe,45,1118710,德国,欧洲
+74,DE-CIX Hamburg,Hamburg,DE,Europe,171,2004600,德国,欧洲
+76,GN-IX,Groningen,NL,Europe,3,11100,荷兰,欧洲
+77,LIX,Luxemburg,LU,Europe,1,1000,卢森堡,欧洲
+78,DIX,Copenhagen,DK,Europe,34,493100,丹麦,欧洲
+82,Pacific Wave,West Coast,US,North America,13,2802000,美国,北美洲
+83,NIX1,Oslo,NO,Europe,57,1019000,挪威,欧洲
+84,SIX.SK,Bratislava,SK,Europe,40,1993000,斯洛伐克共和国,欧洲
+85,NDIX,Enschede / Münster,NL,Europe,18,94100,荷兰,欧洲
+87,BCIX,Berlin,DE,Europe,120,3996200,德国,欧洲
+88,IAIX,Hong Kong,HK,Asia Pacific,14,118100,中国（香港）,亚洲
+89,MadIX,Madison,US,North America,15,123500,美国,北美洲
+91,ECIX-DUS,Duesseldorf,DE,Europe,117,3441325,德国,欧洲
+92,DIX-IE,Tokyo,JP,Asia Pacific,21,69520,日本,亚洲
+93,SOX,Singapore,SG,Asia Pacific,18,123000,新加坡,亚洲
+94,Equinix Sydney,Sydney,AU,Australia,214,4771900,澳大利亚,大洋洲
+95,JPNAP Tokyo,Tokyo,JP,Asia Pacific,183,13685100,日本,亚洲
+97,APE,Auckland,NZ,Australia,39,275200,新西兰,大洋洲
+98,FICIX 2 (Helsinki),Helsinki,FI,Europe,41,1465000,芬兰,欧洲
+100,MSK-IX Moscow,Moscow,RU,Europe,316,9724288,俄罗斯,欧洲
+105,PIPE Networks Sydney,"Sydney, NSW",AU,Australia,26,142800,澳大利亚,大洋洲
+107,MSK-IX Saint-Petersburg,St.Petersburg,RU,Europe,64,1733500,俄罗斯,欧洲
+110,PIPE Networks Brisbane,Brisbane,AU,Australia,10,25400,澳大利亚,大洋洲
+111,PIPE Networks Melbourne,Melbourne,AU,Australia,6,42000,澳大利亚,大洋洲
+112,PIPE Networks Adelaide,Adelaide,AU,Australia,3,21000,澳大利亚,大洋洲
+113,PIPE Networks Canberra,Canberra,AU,Australia,0,0,澳大利亚,大洋洲
+114,PIPE Networks Hobart,Hobart,AU,Australia,1,100,澳大利亚,大洋洲
+115,TOP-IX,Turin,IT,Europe,102,911024,意大利,欧洲
+119,Equinix São Paulo,São Paulo,BR,South America,158,4819240,巴西,南美洲
+121,Namex Rome IXP,Rome,IT,Europe,121,1635540,意大利,欧洲
+123,KleyReX,Frankfurt,DE,Europe,357,1101950,德国,欧洲
+125,Equinix Hong Kong,Hong Kong,HK,Asia Pacific,180,9416000,中国（香港）,亚洲
+126,BBIX Tokyo,Tokyo,JP,Asia Pacific,248,14948000,日本,亚洲
+127,Oregon Internet Exchange (OIX),"Eugene, Oregon",US,North America,2,1000,美国,北美洲
+128,SOLIX,Stockholm,SE,Europe,50,461100,瑞典,欧洲
+129,JINX,Johannesburg,ZA,Africa,123,2088624,南非,非洲
+135,N-IX,Nürnberg,DE,Europe,24,231000,德国,欧洲
+141,TampaIX,Tampa,US,North America,1,1000,美国,北美洲
+142,Any2West,Los Angeles and Silicon Valley,US,North America,273,9173800,美国,北美洲
+145,JPNAP Osaka,Osaka,JP,Asia Pacific,73,6877000,日本,亚洲
+146,GIX Gothenburg,Gothenburg,SE,Europe,1,1000,瑞典,欧洲
+151,BigApe,New York,US,North America,3,22000,美国,北美洲
+154,BAYANTEL,Quezon City,PH,Asia Pacific,3,3100,菲律宾,亚洲
+155,SFMIX,San Francisco,US,North America,85,1693000,美国,北美洲
+158,Equinix Singapore,Singapore,SG,Asia Pacific,371,22708100,新加坡,亚洲
+165,NWAX,Portland,US,North America,97,1941000,美国,北美洲
+167,Equinix Tokyo,Tokyo,JP,Asia Pacific,112,5445000,日本,亚洲
+170,OCIX Duesseldorf,Duesseldorf,DE,Europe,3,22000,德国,欧洲
+171,IX.br (PTT.br) São Paulo,São Paulo/SP,BR,South America,1415,63221268,巴西,南美洲
+172,STHIX - Stockholm,Stockholm,SE,Europe,105,1866400,瑞典,欧洲
+173,IX.br (PTT.br) Porto Alegre,Porto Alegre/RS,BR,South America,177,2780538,巴西,南美洲
+174,IX.br (PTT.br) Curitiba,Curitiba,BR,South America,125,1598885,巴西,南美洲
+175,IX.br (PTT.br) Florianópolis,Florianópolis/SC,BR,South America,65,389288,巴西,南美洲
+176,IX.br (PTT.br) Belo Horizonte,Belo Horizonte/MG,BR,South America,50,479000,巴西,南美洲
+177,IX.br (PTT.br) Rio de Janeiro,Rio de Janeiro/RJ,BR,South America,347,14361654,巴西,南美洲
+178,IX.br (PTT.br) Brasília,Brasília/DF,BR,South America,76,923532,巴西,南美洲
+181,CABASE-BUE - IX Argentina (Buenos Aires),Buenos Aires,AR,South America,109,2259540,阿根廷,南美洲
+184,UA-IX,Kiev,UA,Europe,120,2386000,乌克兰,欧洲
+189,HIX,Honoloulu,US,North America,1,1000,美国,北美洲
+190,TLLIX,Tallinn,EE,Europe,10,20100,爱沙尼亚,欧洲
+192,Netnod Gothenburg -- MTU1500,Gothenburg,SE,Europe,16,200000,瑞典,欧洲
+193,Netnod Copenhagen GREEN -- MTU9K,Malmo / Copenhagen,DK,Europe,57,1439100,丹麦,欧洲
+194,Netnod Sundsvall -- MTU1500,Sundsvall / Gavle,SE,Europe,15,197000,瑞典,欧洲
+196,PIX Montreal,Montreal,CA,North America,0,0,加拿大,北美洲
+197,PIX Toronto,Toronto,CA,North America,3,12000,加拿大,北美洲
+198,NIXI Delhi,Delhi,IN,Asia Pacific,22,128124,印度,亚洲
+199,YRIX,"Billings, MT",US,North America,1,100,美国,北美洲
+204,Any2East,"Washington DC, Reston, Boston, New York",US,North America,26,461000,美国,北美洲
+205,Any2Miami,Miami,US,North America,0,0,美国,北美洲
+209,ECIX-BER,Berlin,DE,Europe,54,1053900,德国,欧洲
+210,IIX-Jakarta,Jakarta,ID,Asia Pacific,296,1914264,印度尼西亚,亚洲
+212,Stuttgart-IX,Stuttgart,DE,Europe,27,478024,德国,欧洲
+217,TaipeiGigaPoP,Taipei/Taiwan,TW,Asia Pacific,0,0,中国（台湾）,亚洲
+223,MSK-IX Novosibirsk,Novosibirsk,RU,Asia Pacific,27,248600,俄罗斯,欧洲
+224,NIXI Mumbai,Mumbai,IN,Asia Pacific,46,396324,印度,亚洲
+225,Thailand IX (TH-IX),Bangkok,TH,Asia Pacific,37,1023450,泰国,亚洲
+226,Any2Chicago,Chicago,US,North America,9,112000,美国,北美洲
+228,RIX,Reykjavik,IS,Europe,23,268000,冰岛,欧洲
+230,POZIX,Poznan,PL,Europe,25,329010,波兰,欧洲
+231,MalmIX Malmo / IXOR,Malmö,SE,Europe,10,55000,瑞典,欧洲
+234,NSPIXP3,Osaka,JP,Asia Pacific,2,2000,日本,亚洲
+235,NIXI Chennai,Chennai,IN,Asia Pacific,30,154588,印度,亚洲
+236,KIXP - Nairobi,Nairobi,KE,Africa,44,314124,肯尼亚,非洲
+239,ChIX,Chicago,US,North America,59,1126000,美国,北美洲
+240,MINAP Milan,Milan,IT,Europe,72,1696000,意大利,欧洲
+241,npIX PTS,Kathmandu,NP,Asia Pacific,25,65400,尼泊尔,亚洲
+248,DE-CIX Munich,Munich,DE,Europe,175,1922600,德国,欧洲
+249,KCIX,Kansas City,US,North America,98,2106000,美国,北美洲
+250,MyIX,Kuala Lumpur,MY,Asia Pacific,107,2599851,马来西亚,亚洲
+252,NAP Colombia,Bogota,CO,South America,15,1041340,哥伦比亚,南美洲
+253,NAP.EC - UIO,Quito/UIO,EC,South America,17,476000,厄瓜多尔,南美洲
+254,Any2Denver,Denver,US,North America,67,2287000,美国,北美洲
+255,Equinix Paris,Paris,FR,Europe,267,4075172,法国,欧洲
+256,Digital Realty Phoenix,Phoenix,US,North America,8,54000,美国,北美洲
+257,Netnod Lulea -- MTU9K,Lulea,SE,Europe,5,113000,瑞典,欧洲
+258,Norrnod,Umea,SE,Europe,2,11000,瑞典,欧洲
+260,OCIX,Philipsburg,SX,South America,5,14000,圣马丁岛,北美洲
+262,SISPA,Swaziland,SZ,Africa,1,100,斯威士兰,非洲
+264,Equinix Warsaw,Warsaw,PL,Europe,183,5679100,波兰,欧洲
+267,DRF IX,Honolulu,US,North America,23,229200,美国,北美洲
+270,InterLAN,"Bucharest, Arad, Cluj-Napoca, Constanta, Craiova, Iasi, Suceava, Timisoara",RO,Europe,94,1495400,罗马尼亚,欧洲
+273,TIX,Florence,IT,Europe,16,13534,意大利,欧洲
+274,CAIX,Cairo,EG,Middle East,4,4000,埃及,非洲
+275,BY-IX,Minsk,BY,Europe,3,12000,白俄罗斯,欧洲
+287,Crimea-IX,Simferopol,UA,Europe,6,60000,乌克兰,欧洲
+288,ACTIX,"Canberra, ACT",AU,Australia,3,1200,澳大利亚,大洋洲
+291,ECIX-HAM,Hamburg,DE,Europe,60,1181500,德国,欧洲
+297,LU-CIX,Luxembourg,LU,Europe,71,1698950,卢森堡,欧洲
+298,NIX2,Oslo,NO,Europe,12,120000,挪威,欧洲
+299,NIX.SK,Bratislava,SK,Europe,46,1013000,斯洛伐克共和国,欧洲
+301,RoNIX,Bucharest,RO,Europe,38,733000,罗马尼亚,欧洲
+303,CIX,Zagreb,HR,Europe,35,414220,克罗地亚,欧洲
+311,VSIX,Padova,IT,Europe,40,361100,意大利,欧洲
+313,R_iX,Rotterdam,NL,Europe,17,188000,荷兰,欧洲
+314,IX.br (PTT.br) Londrina,Londrina/PR,BR,South America,29,251400,巴西,南美洲
+316,ExWest,Galway,IE,Europe,2,20000,爱尔兰,欧洲
+317,GIX,Makati City,PH,Asia Pacific,10,91100,菲律宾,亚洲
+319,SIX SI,Ljubljana,SI,Europe,19,652000,斯洛文尼亚,欧洲
+321,LINX LON2,London,GB,Europe,332,6613640,英国,欧洲
+322,Digital Realty Dallas,Dallas,US,North America,11,184000,美国,北美洲
+325,Digital Realty New York,New York/New Jersey,US,North America,69,1970000,美国,北美洲
+326,B-IX,Sofia,BG,Europe,35,1925000,保加利亚,欧洲
+327,DTEL-IX,Kiev,UA,Europe,152,5355096,乌克兰,欧洲
+328,TREX,Tampere,FI,Europe,22,149400,芬兰,欧洲
+331,BIX.BG,Sofia,BG,Europe,81,3203500,保加利亚,欧洲
+334,KAZ-IX,Almaty,KZ,Asia Pacific,6,4000,哈萨克斯坦,亚洲
+336,TOUIX,Toulouse,FR,Europe,11,11000,法国,欧洲
+340,ULN-IX,Ulyanovsk,RU,Europe,6,13124,俄罗斯,欧洲
+344,CINX,Cape Town,ZA,Africa,67,1288100,南非,非洲
+347,GR-IX::Athens,Athens,GR,Europe,50,2527172,希腊,欧洲
+348,WIX-NZ,Wellington,NZ,Australia,30,88604,新西兰,大洋洲
+349,CHIX-NZ,Christchurch,NZ,Australia,1,1000,新西兰,大洋洲
+350,MSK-IX Ekaterinburg,Ekaterinburg,RU,Asia Pacific,29,359500,俄罗斯,欧洲
+355,QIX,Montreal,CA,North America,68,1912000,加拿大,北美洲
+358,DATAIX,"Frankfurt, Stockholm, Helsinki, Amsterdam, St.Petersburg, Moscow, Ekaterinburg, Ufa, Novosibirsk, Omsk , Kiev, Kharkov, Odessa, Samara, Chelyabinsk",RU,Europe,287,14324136,俄罗斯,欧洲
+359,France-IX Paris,Paris,FR,Europe,376,9607582,法国,欧洲
+361,TIX Tanzania - Dar es Salaam,Dar es Salaam,TZ,Africa,27,120000,坦桑尼亚,非洲
+363,SUPRnet,Saint George,US,North America,20,120000,美国,北美洲
+364,SMILE-IXP,Riga,LV,Europe,26,386000,拉脱维亚,欧洲
+366,AMS-IX Caribbean,Curacao,CW,South America,10,56000,库拉索,北美洲
+368,GigaPIX - Oporto,Oporto,PT,Europe,2,3000,葡萄牙,欧洲
+372,Balcan-IX,Bucharest,RO,Europe,33,609000,罗马尼亚,欧洲
+373,Equinix Toronto,Toronto,CA,North America,15,315100,加拿大,北美洲
+375,OpenIXP / NiCE,Indonesia,ID,Asia Pacific,317,2058948,印度尼西亚,亚洲
+377,AAIX,Klagenfurt,AT,Europe,14,226000,奥地利,欧洲
+378,MSK-IX Vladivostok,Vladivostok,RU,Asia Pacific,9,25100,俄罗斯,欧洲
+379,MSK-IX Samara,Samara,RU,Europe,10,163500,俄罗斯,欧洲
+380,MSK-IX Rostov-on-Don,Rostov-on-Don,RU,Europe,16,165500,俄罗斯,欧洲
+381,REUNIX,"Saint-Denis, La Reunion",RE,Africa,6,9000,留尼汪,非洲
+383,LIX-LV,Riga,LV,Europe,8,39000,拉脱维亚,欧洲
+387,INEX LAN2,Dublin,IE,Europe,61,1811000,爱尔兰,欧洲
+392,MD-IX,Chisinau,MD,Europe,11,122000,摩尔多瓦共和国,欧洲
+393,IIX Israel,Petach Tikva,IL,Middle East,10,504000,以色列,亚洲
+398,MSK-IX Kazan,Kazan,RU,Europe,6,32100,俄罗斯,欧洲
+400,LIPTAM,Vilnius,LT,Europe,6,65000,立陶宛,欧洲
+410,FR-IX,Paris,FR,Europe,3,3000,法国,欧洲
+415,IX.br (PTT.br) Campinas,Campinas/SP,BR,South America,32,374024,巴西,南美洲
+421,Angola IXP,Luanda,AO,Africa,12,79000,安哥拉,非洲
+422,UIXP Communications House,Kampala,UG,Africa,15,52124,乌干达,非洲
+424,SOX Serbia,Belgrade/Serbia,RS,Europe,32,1178000,塞尔维亚,欧洲
+428,NASA-AIX,"Mountain View, CA",US,North America,2,22000,美国,北美洲
+429,SGIX,Singapore,SG,Asia Pacific,159,5456600,新加坡,亚洲
+430,GraX,Graz,AT,Europe,4,13000,奥地利,欧洲
+435,IXLeeds,Leeds / Western Yorkshire,GB,Europe,26,206100,英国,欧洲
+446,MICE,"Minneapolis, MN",US,North America,121,5612010,美国,北美洲
+452,BIX Jakarta,Jakarta,ID,Asia Pacific,58,747264,印度尼西亚,亚洲
+453,FIXO,Oslo,NO,Europe,44,234000,挪威,欧洲
+463,GU-IX,Guam,GU,Asia Pacific,1,10000,关岛,大洋洲
+469,Matrix Cable Internet Exchange (MCIX),Jakarta,ID,Asia Pacific,33,88200,印度尼西亚,亚洲
+474,EPIX.Warszawa-KIX,Warsaw,PL,Europe,314,3888180,波兰,欧洲
+476,AZIX,Phoenix,US,North America,2,21000,美国,北美洲
+477,CBIX,Brno,CZ,Europe,1,1000,捷克共和国,欧洲
+481,THINX Warsaw,Warsaw,PL,Europe,74,2665000,波兰,欧洲
+482,TPIX Warsaw,Warsaw,PL,Europe,122,3084550,波兰,欧洲
+487,CyIX,Nicosia / Cyprus,CY,Europe,3,40000,塞浦路斯,欧洲
+488,IXPN Lagos,Lagos,NG,Africa,54,611292,尼日利亚,非洲
+491,EPIX.Katowice,Katowice/Silesia,PL,Europe,401,4080014,波兰,欧洲
+492,FICIX 3 (Oulu),Oulu,FI,Europe,7,52000,芬兰,欧洲
+496,BNIIX,Buffalo,US,North America,3,12000,美国,北美洲
+499,MKE-IX,Milwaukee,US,North America,11,64100,美国,北美洲
+506,GTIIX,Toronto,CA,North America,4,4000,加拿大,北美洲
+512,PIRIX,St.Petersburg,RU,Europe,15,135000,俄罗斯,欧洲
+513,IX Australia (Melbourne VIC),Melbourne,AU,Australia,105,1845000,澳大利亚,大洋洲
+514,COIX,Bend,US,North America,5,33000,美国,北美洲
+524,CePIX.pl,Mogilno,PL,Europe,1,1000,波兰,欧洲
+526,LIXP,Vilnius,LT,Europe,22,216000,立陶宛,欧洲
+528,MOZIX,Maputo,MZ,Africa,17,43124,莫桑比克,非洲
+529,KRS-IX,Krasnoyarsk,RU,Europe,8,84000,俄罗斯,欧洲
+538,RTIX,Tallinn,EE,Europe,28,252200,爱沙尼亚,欧洲
+542,Litix,Vilnius,LT,Europe,19,385000,立陶宛,欧洲
+543,Rheintal IX,Eschen,LI,Europe,29,129100,列支敦士登,欧洲
+556,IX.br (PTT.br) Salvador,Salvador/BA,BR,South America,56,620928,巴西,南美洲
+558,IX.br (PTT.br) Caxias do Sul,Caxias do Sul/RS,BR,South America,9,55000,巴西,南美洲
+559,SIX.SK Košice,Košice,SK,Europe,3,3000,斯洛伐克共和国,欧洲
+563,JXIX,Jacksonville,US,North America,14,134000,美国,北美洲
+564,JPIX OSAKA,Osaka,JP,Asia Pacific,86,5945000,日本,亚洲
+565,Boston Internet Exchange,"Boston, Massachusetts",US,North America,53,935000,美国,北美洲
+566,PNIX,Palmerston North,NZ,Australia,1,100,新西兰,大洋洲
+573,HIX Haiti,Port-au-Prince,HT,South America,5,14700,海地,北美洲
+575,IX.br (PTT.br) Goiânia,Goiânia/GO,BR,South America,22,143270,巴西,南美洲
+576,IX Australia (Brisbane QLD),Brisbane,AU,Australia,75,1099000,澳大利亚,大洋洲
+577,AMS-IX Hong Kong,Hong Kong,HK,Asia Pacific,50,682400,中国（香港）,亚洲
+580,MSK-IX Stavropol,Stavropol,RU,Europe,2,1100,俄罗斯,欧洲
+582,BIX Bergen,Bergen,NO,Europe,3,3000,挪威,欧洲
+583,LINX Manchester,Manchester,GB,Europe,117,2511300,英国,欧洲
+587,UAE-IX,Dubai,AE,Middle East,72,1647200,阿拉伯联合酋长国,亚洲
+592,NAPAfrica IX Johannesburg,Johannesburg,ZA,Africa,448,11831842,南非,非洲
+597,NAPAfrica IX Cape Town,Cape Town,ZA,Africa,221,4277172,南非,非洲
+598,NIXI Hyderabad,Hyderabad,IN,Asia Pacific,3,21000,印度,亚洲
+602,Echigo-IX,Niigata,JP,Asia Pacific,3,13000,日本,亚洲
+603,IX.br (PTT.br) Campina Grande,Campina Grande/PB,BR,South America,37,293300,巴西,南美洲
+606,C2IX,Jakarta,ID,Asia Pacific,7,41000,印度尼西亚,亚洲
+607,MIX MNDC,Ulaanbaatar,MN,Asia Pacific,5,24000,蒙古,亚洲
+610,DINX,Durban,ZA,Africa,71,557024,南非,非洲
+615,LuIXP,Lusaka,ZM,Africa,2,2000,赞比亚,非洲
+624,TP-IX,Duluth,US,North America,2,11000,美国,北美洲
+626,IIX-Surabaya,Surabaya,ID,Asia Pacific,24,23000,印度尼西亚,亚洲
+627,SNAP,Atlanta,US,North America,23,221100,美国,北美洲
+628,KINIX,Kinshasa,CD,Africa,14,1097000,扎伊尔,非洲
+633,Sea-IX,Krasnodar,RU,Europe,15,103450,俄罗斯,欧洲
+635,OMSK-IX,Omsk,RU,Europe,3,30000,俄罗斯,欧洲
+638,IX.br (PTT.br) São José dos Campos,Sao José dos Campos/SP,BR,South America,10,58000,巴西,南美洲
+639,YYCIX,Calgary,CA,North America,65,769200,加拿大,北美洲
+640,GCIIX,Chicago,US,North America,1,1000,美国,北美洲
+655,GigaNET Kiev,Kiev,UA,Europe,165,7178048,乌克兰,欧洲
+662,Phoenix-IX,Phoenix,US,North America,61,940000,美国,北美洲
+672,CyrusOne IX Dallas,Dallas,US,North America,4,60000,美国,北美洲
+673,CyrusOne IX Houston,Houston,US,North America,17,282000,美国,北美洲
+674,CyrusOne IX Austin,Austin,US,North America,1,20000,美国,北美洲
+675,CyrusOne IX San Antonio,San Antonio,US,North America,0,0,美国,北美洲
+676,ECIX-FRA,Frankfurt,DE,Europe,104,3964875,德国,欧洲
+683,YAR-IX,Yaroslavl,RU,Europe,0,0,俄罗斯,欧洲
+691,IX Australia (Adelaide SA),Adelaide,AU,Australia,40,348100,澳大利亚,大洋洲
+694,GIXA,Accra,GH,Africa,26,153048,加纳,非洲
+699,NetIX,Sofia,BG,Europe,93,2890100,保加利亚,欧洲
+703,MBIX,"Winnipeg, Manitoba",CA,North America,33,311000,加拿大,北美洲
+705,IX.br (PTT.br) Recife,Recife/PE,BR,South America,72,538448,巴西,南美洲
+706,IX.br (PTT.br) Vitória,Vitória/ES,BR,South America,45,395000,巴西,南美洲
+707,IX.br (PTT.br) Manaus,Manaus/AM,BR,South America,23,252000,巴西,南美洲
+708,IX.br (PTT.br) Natal,Natal/RN,BR,South America,28,233240,巴西,南美洲
+709,IX.br (PTT.br) São José do Rio Preto,São José do Rio Preto/SP,BR,South America,20,142000,巴西,南美洲
+710,IX.br (PTT.br) Fortaleza,Fortaleza/CE,BR,South America,305,11884484,巴西,南美洲
+711,IX.br (PTT.br) Belém,Belém/PA,BR,South America,29,147134,巴西,南美洲
+713,Peering.cz,"Prague, Bratislava, Vienna, Frankfurt",CZ,Europe,128,8107240,捷克共和国,欧洲
+716,IX Australia (Sydney NSW),Sydney,AU,Australia,218,4695200,澳大利亚,大洋洲
+727,MIX-BT,Blantyre,MW,Africa,9,27000,马拉维,非洲
+745,LINX Scotland,Scotland,GB,Europe,35,180200,英国,欧洲
+760,CyrusOne IX Phoenix,Phoenix,US,North America,2,40000,美国,北美洲
+762,DO-IX,Dortmund,DE,Europe,9,370000,德国,欧洲
+766,DN-IX,Donetsk,UA,Europe,2,11000,乌克兰,欧洲
+776,WPGIX,Winnipeg,CA,North America,13,76100,加拿大,北美洲
+777,LINX NoVA,Northern Virginia,US,North America,52,1185100,美国,北美洲
+778,CIX KR,Krakow,PL,Europe,9,72000,波兰,欧洲
+779,MegaIX Melbourne,Melbourne,AU,Australia,125,1919552,澳大利亚,大洋洲
+780,MegaIX Sydney,Sydney,AU,Australia,233,3699350,澳大利亚,大洋洲
+781,MegaIX Brisbane,Brisbane,AU,Australia,86,943204,澳大利亚,大洋洲
+786,BBIX Osaka,Osaka,JP,Asia Pacific,82,4842000,日本,亚洲
+787,BBIX Fukuoka,Fukuoka,JP,Asia Pacific,0,0,日本,亚洲
+790,IX.br (PTT.br) Lajeado,Lajeado/RS,BR,South America,23,209000,巴西,南美洲
+796,BREM-IX,Bremen,DE,Europe,8,72000,德国,欧洲
+804,DE-CIX New York,New York,US,North America,234,6823300,美国,北美洲
+809,OmahaIX,Omaha,US,North America,32,670000,美国,北美洲
+810,CIVIX,Abidjan,CI,Africa,8,7100,象牙海岸,非洲
+815,NNOV-IX,Nizhny Novgorod,RU,Europe,1,10000,俄罗斯,欧洲
+818,IX.br (PTT.br) Maringá,Maringá/PR,BR,South America,37,242502,巴西,南美洲
+822,Sibir-IX,Krasnoyarsk,RU,Europe,9,57100,俄罗斯,欧洲
+823,TPIX-TW,Taipei/Taiwan,TW,Asia Pacific,75,1386100,中国（台湾）,亚洲
+828,RZ-IX,Rzeszow,PL,Europe,11,92000,波兰,欧洲
+829,SLIX - Salt Lake City Internet Exchange,Salt Lake City,US,North America,26,1163000,美国,北美洲
+832,DE-CIX Mumbai,Mumbai,IN,Asia Pacific,382,5111232,印度,亚洲
+833,TPAIX,Tampa,US,North America,21,161000,美国,北美洲
+842,MLIXP,LA PAZ,BO,South America,5,41000,玻利维亚,南美洲
+851,ArmIX,Yerevan,AM,Europe,13,86324,亚美尼亚,亚洲
+854,HTN-IX,Phnom Penh,KH,Asia Pacific,3,3000,柬埔寨,亚洲
+859,IX.br (PTT.br) Cuiabá,Cuiabá/MT,BR,South America,16,71200,巴西,南美洲
+863,VANIX,Vancouver,CA,North America,65,982000,加拿大,北美洲
+864,BR-IX,Brno,CZ,Europe,8,130000,捷克共和国,欧洲
+866,SH-IX,Fujairah,AE,Middle East,24,226000,阿拉伯联合酋长国,亚洲
+867,OCIX Frankfurt,Frankfurt,DE,Europe,3,13000,德国,欧洲
+869,Ohio IX,Ohio,US,North America,30,315000,美国,北美洲
+876,RED-IX,Krasnoyarsk,RU,Europe,14,158100,俄罗斯,欧洲
+880,France-IX Marseille,Marseille,FR,Europe,91,2551224,法国,欧洲
+881,Lillix,Lille/North of France,FR,Europe,26,271000,法国,欧洲
+904,CABASE-LPL - IX Argentina (La Plata),La Plata,AR,South America,19,72588,阿根廷,南美洲
+906,HFXIX,Halifax,CA,North America,15,79000,加拿大,北美洲
+909,BBIX Singapore,Singapore,SG,Asia Pacific,70,2153000,新加坡,亚洲
+911,CABASE-POS - IX Argentina (Posadas),Posadas,AR,South America,11,69000,阿根廷,南美洲
+916,CitranetIX,Yogyakarta,ID,Asia Pacific,31,81600,印度尼西亚,亚洲
+922,IXP Namibia,Windhoek,NA,Africa,5,5000,纳米比亚,非洲
+930,CABASE-NQN - IX Argentina (Neuquen),Neuquén,AR,South America,14,108100,阿根廷,南美洲
+935,AMS-IX BA,"San Francisco, San Jose",US,North America,25,209000,美国,北美洲
+938,TahoeIX,Northern Nevada,US,North America,12,30100,美国,北美洲
+940,TTIX,Barataria,TT,South America,9,17124,特立尼达和多巴哥,北美洲
+944,AMS-IX Chicago,Chicago,US,North America,27,501000,美国,北美洲
+945,CABASE-ROS - IX Argentina (Rosario),Rosario,AR,South America,15,53900,阿根廷,南美洲
+948,Equinix Osaka,Osaka,JP,Asia Pacific,21,1293000,日本,亚洲
+954,FL-IX,Miami,US,North America,134,7172000,美国,北美洲
+957,MiamiIX,"Miami, Florida",US,North America,5,32000,美国,北美洲
+965,MegaIX Singapore,Singapore,SG,Asia Pacific,36,463200,新加坡,亚洲
+967,DjIX,Djibouti,DJ,Africa,12,75002,吉布提,非洲
+969,NAPAfrica IX Durban,Durban,ZA,Africa,103,800024,南非,非洲
+971,VIX.VU,Port Vila,VU,Asia Pacific,3,4000,瓦努阿图,大洋洲
+976,IX Australia (Canberra ACT),Canberra,AU,Australia,5,60000,澳大利亚,大洋洲
+977,AKL-IX (Auckland NZ),Auckland,NZ,Australia,84,2215000,新西兰,大洋洲
+983,UNY-IX,Yogyakarta,ID,Asia Pacific,20,88050,印度尼西亚,亚洲
+984,MegaIX Auckland,Auckland,NZ,Australia,79,974101,新西兰,大洋洲
+985,BDX BTN1,Brighton,GB,Europe,0,0,英国,欧洲
+986,MidWest-IX - Indy,"Indianapolis, Indiana",US,North America,42,383000,美国,北美洲
+993,PIX Palestine,Ramallah,PS,Middle East,4,12010,巴勒斯坦,亚洲
+1002,RVA-IX,Ashland,US,North America,13,134000,美国,北美洲
+1006,DET-IX,Detroit,US,North America,54,2284000,美国,北美洲
+1007,angonix,Luanda,AO,Africa,21,223050,安哥拉,非洲
+1009,Tirol-IX,Innsbruck/Tirol,AT,Europe,11,37100,奥地利,欧洲
+1013,NOVO NIX,Dhaka,BD,Asia Pacific,7,44000,孟加拉,亚洲
+1016,LINX Wales,Cardiff,GB,Europe,13,77100,英国,欧洲
+1017,BENIN-IX,Cotonou,BJ,Africa,5,3124,贝宁,非洲
+1019,AuvernIX,Clermont-Ferrand,FR,Europe,12,67000,法国,欧洲
+1023,CRIX,San Jose,CR,North America,29,329000,哥斯达黎加,北美洲
+1025,BKNIX,Bangkok,TH,Asia Pacific,36,512500,泰国,亚洲
+1026,Equinix Melbourne,Melbourne,AU,Australia,46,1200000,澳大利亚,大洋洲
+1028,Nap Peru,Lima,PE,South America,2,20000,秘鲁,南美洲
+1032,RINEX,Kigali,RW,Africa,11,28110,卢旺达,非洲
+1038,NashIX,Nashville,US,North America,6,51000,美国,北美洲
+1040,NormandIX,Normandy,FR,Europe,1,1000,法国,欧洲
+1042,NAP.EC - GYE,Guayaquil/GYE,EC,South America,10,117000,厄瓜多尔,南美洲
+1046,CGIX,Brazzaville,CG,Africa,2,1000,刚果共和国,非洲
+1054,TransIX Network,Jakarta,ID,Asia Pacific,2,2000,印度尼西亚,亚洲
+1056,MegaIX Sofia,Sofia,BG,Europe,21,230000,保加利亚,欧洲
+1066,CABASE-BHB - IX Argentina (Bahia Blanca),Bahía Blanca,AR,South America,11,37200,阿根廷,南美洲
+1067,CABASE-COR - IX Argentina (Cordoba),Córdoba,AR,South America,27,136592,阿根廷,南美洲
+1068,CABASE-DLC - IX Argentina (Santa Teresita),De La Costa,AR,South America,6,27500,阿根廷,南美洲
+1069,CABASE-MDQ - IX Argentina (Mar del Plata),Mar Del Plata,AR,South America,6,35024,阿根廷,南美洲
+1070,CABASE-MZA - IX Argentina (Mendoza),Mendoza,AR,South America,20,82496,阿根廷,南美洲
+1071,CABASE-PMY - IX Argentina (Puerto Madryn),Puerto Madryn,AR,South America,5,35000,阿根廷,南美洲
+1072,CABASE-SFE - IX Argentina (Santa Fe),Santa Fe,AR,South America,5,21000,阿根廷,南美洲
+1073,SAIX,Salzburg,AT,Europe,16,135000,奥地利,欧洲
+1086,MASS-IX,Boston,US,North America,59,1095424,美国,北美洲
+1088,Global-IX,St.Petersburg,RU,Europe,120,4557000,俄罗斯,欧洲
+1089,T-CIX,Sofia,BG,Europe,13,127000,保加利亚,欧洲
+1094,GE-CIX,Zurich,CH,Europe,0,0,瑞士,欧洲
+1095,IIX Riau,Pekanbaru / Riau,ID,Asia Pacific,2,1100,印度尼西亚,亚洲
+1105,TunIXP,Tunis,TN,Africa,4,4000,突尼斯,非洲
+1117,CyrusOne IX Sterling,Sterling,US,North America,0,0,美国,北美洲
+1123,IXP-HN,Tegucigalpa,HN,South America,5,5024,洪都拉斯,北美洲
+1127,MARTINIX,Fort-de-France,MQ,North America,2,1100,马提尼克群岛,北美洲
+1131,DE-CIX Palermo,Palermo,IT,Europe,21,218200,意大利,欧洲
+1134,Guyanix,Cayenne,GF,South America,3,300,法属圭亚那,南美洲
+1142,CyrusOne IX Chicago,Chicago,US,North America,0,0,美国,北美洲
+1146,ESPANIX Madrid Upper LAN,Madrid,ES,Europe,43,1392000,西班牙,欧洲
+1149,DE-CIX Marseille,Marseille,FR,Europe,93,1108700,法国,欧洲
+1150,DE-CIX Istanbul,Istanbul,TR,Europe,34,1277100,土耳其,亚洲
+1151,CentralIX,Bremen,DE,Europe,3,400040,德国,欧洲
+1154,SFO-IX,"Barnaul, Novosibirsk",RU,Europe,20,428000,俄罗斯,欧洲
+1156,United Peering - UP-IXP,Wuppertal,DE,Europe,3,3000,德国,欧洲
+1160,NIXVAL-ix,Valencia,ES,Europe,11,74024,西班牙,欧洲
+1168,Kherson Traffic Exchange,Kherson,UA,Europe,4,23048,乌克兰,欧洲
+1169,YEGIX,Edmonton,CA,North America,8,64000,加拿大,北美洲
+1171,KIVIX,Chisinau,MD,Europe,13,106500,摩尔多瓦共和国,欧洲
+1172,CHN-IX Beijing,Beijing,CN,Asia Pacific,8,80000,中国（大陆）,亚洲
+1174,MegaIX Seattle,Seattle,US,North America,13,151000,美国,北美洲
+1175,MegaIX Los Angeles,Los Angeles,US,North America,24,197700,美国,北美洲
+1178,MegaIX Ashburn,Ashburn,US,North America,30,408200,美国,北美洲
+1180,MegaIX Dallas,Dallas,US,North America,21,215000,美国,北美洲
+1183,6NGIX,Seoul,KR,Asia Pacific,1,1000,韩国,亚洲
+1187,SYMC-IX BKK1,Bangkok,TH,Asia Pacific,3,22000,泰国,亚洲
+1188,TC-IX,Phnom Penh,KH,Asia Pacific,0,0,柬埔寨,亚洲
+1191,SerinIX IX,Kiev,UA,Europe,1,10000,乌克兰,欧洲
+1201,TIX Tanzania - Arusha (AIXP),Arusha,TZ,Africa,8,8000,坦桑尼亚,非洲
+1207,IX-Denver,Denver,US,North America,63,1326000,美国,北美洲
+1209,CNX,Phnom Penh,KH,Asia Pacific,18,133100,柬埔寨,亚洲
+1210,M-IX,Simferopol,RU,Europe,3,60000,俄罗斯,欧洲
+1212,MGMix Montgomery,Montgomery,US,North America,19,237000,美国,北美洲
+1214,DE-CIX Dusseldorf,Düsseldorf,DE,Europe,207,2060500,德国,欧洲
+1228,CDIX,Jakarta,ID,Asia Pacific,157,607048,印度尼西亚,亚洲
+1229,CODIX,St.Petersburg,RU,Europe,4,22000,俄罗斯,欧洲
+1235,MegaIX Perth,Perth,AU,Australia,50,624504,澳大利亚,大洋洲
+1242,W-IX,Moscow,RU,Europe,64,1513505,俄罗斯,欧洲
+1249,DE-CIX Dallas,Dallas,US,North America,100,3034000,美国,北美洲
+1262,INEX Cork,Cork,IE,Europe,15,108000,爱尔兰,欧洲
+1276,IX.br (PTT.br) Foz do Iguaçu,Foz do Iguaçu/PR,BR,South America,18,126950,巴西,南美洲
+1277,DE-CIX Madrid,Madrid,ES,Europe,166,3539400,西班牙,欧洲
+1284,CHN-IX Guangzhou,Guangzhou,CN,Asia Pacific,1,10000,中国（大陆）,亚洲
+1285,SIX Seattle (Jumbo),Seattle,US,North America,37,1903000,美国,北美洲
+1302,IX Liverpool Titanic,Liverpool,GB,Europe,4,4000,英国,欧洲
+1303,CNIX,Beijing,CN,Asia Pacific,18,1212000,中国（大陆）,亚洲
+1307,MegaIX Toronto,Toronto,CA,North America,9,91500,加拿大,北美洲
+1308,LSIX,The Hague,NL,Europe,58,976000,荷兰,欧洲
+1317,NIXI Kolkata,Kolkata,IN,Asia Pacific,7,5148,印度,亚洲
+1320,Hopus,"Paris, Lyon, Marseille, Geneva, Zurich, Amsterdam, Frankfurt",FR,Europe,38,1425101,法国,欧洲
+1323,Extreme IX Delhi,Delhi,IN,Asia Pacific,142,2960512,印度,亚洲
+1329,Community-IX,"Berlin, Frankfurt",DE,Europe,26,526000,德国,欧洲
+1332,FICIX 1 (Espoo),Espoo,FI,Europe,25,840000,芬兰,欧洲
+1335,MGIX,Antananarivo,MG,Africa,6,6000,马达加斯加,非洲
+1354,Beirut IX,Beirut,LB,Middle East,17,20300,黎巴嫩,亚洲
+1375,CHN-IX Shanghai,Shanghai,CN,Asia Pacific,0,0,中国（大陆）,亚洲
+1387,DataLine-IX,Moscow,RU,Europe,12,136000,俄罗斯,欧洲
+1418,TIX Tromsø,Tromsø,NO,Europe,3,3000,挪威,欧洲
+1419,SIX Stavanger,Stavanger,NO,Europe,6,90000,挪威,欧洲
+1420,TRDIX Trondheim,Trondheim,NO,Europe,5,41000,挪威,欧洲
+1421,BW-IX Karlsruhe,Karlsruhe,DE,Europe,6,51000,德国,欧洲
+1423,WRIX,Wrocław,PL,Europe,14,216000,波兰,欧洲
+1428,GrenoblIX,Grenoble,FR,Europe,1,10000,法国,欧洲
+1449,BBIX Hong Kong,Hong Kong,HK,Asia Pacific,52,1813000,中国（香港）,亚洲
+1464,Equinix Helsinki,Helsinki,FI,Europe,10,182000,芬兰,欧洲
+1468,Asia Smart IX [BBIX Asia],Tokyo,JP,Asia Pacific,1,1000,日本,亚洲
+1480,CABASE-JUN - IX Argentina (Junin),Junin,AR,South America,7,51200,阿根廷,南美洲
+1481,CABASE-SLU - IX Argentina (San Luis),San Luis,AR,South America,3,22000,阿根廷,南美洲
+1482,CABASE-PER - IX Argentina (Pergamino),Pergamino,AR,South America,8,32000,阿根廷,南美洲
+1483,CABASE-TUC - IX Argentina (Tucuman),Tucuman,AR,South America,2,20000,阿根廷,南美洲
+1484,CABASE-NGB - IX Argentina (Pilar),Pilar,AR,South America,8,62200,阿根廷,南美洲
+1485,CABASE-SZP - IX Argentina (Saenz Peña),"Saenz Peña, Chaco",AR,South America,11,31910,阿根廷,南美洲
+1486,CABASE-SLT - IX Argentina (Salta),Salta,AR,South America,4,21100,阿根廷,南美洲
+1487,CABASE-BRC - IX Argentina (Bariloche),Bariloche,AR,South America,7,28000,阿根廷,南美洲
+1488,Vegas-IX,Las Vegas,US,North America,6,61000,美国,北美洲
+1489,Aloha-IX,Kapolei (Oahu),US,North America,6,7000,美国,北美洲
+1490,Richmond-IX,Richmond,US,North America,7,80000,美国,北美洲
+1508,MIXP,Ebene,MU,Africa,12,14000,毛里求斯,非洲
+1514,PIT Santiago - PIT Chile,Santiago,CL,South America,141,5357024,智利,南美洲
+1516,IX.LODZ.PL,Łódź,PL,Europe,13,142024,波兰,欧洲
+1519,MidWest-IX - St. Louis,"St. Louis, MO",US,North America,15,77010,美国,北美洲
+1522,IXpy,San Lorenzo,PY,South America,21,62460,巴拉圭,南美洲
+1533,inet2,"Mowsow, St.Petersburg, Novosibirsk, Ekaterinburg",RU,Europe,4,33000,俄罗斯,欧洲
+1561,PhOpenIX-Manila,Manila,PH,Asia Pacific,35,230300,菲律宾,亚洲
+1574,TIX Tanzania - Mwanza,Mwanza,TZ,Africa,4,4000,坦桑尼亚,非洲
+1577,Kolkata IX,Kolkata,IN,Asia Pacific,16,145024,印度,亚洲
+1582,MegaFon-IX,Moscow,RU,Europe,6,126500,俄罗斯,欧洲
+1623,AMS-IX Mumbai,Mumbai,IN,Asia Pacific,54,693240,印度,亚洲
+1627,Extreme IX Mumbai,Mumbai,IN,Asia Pacific,199,3490136,印度,亚洲
+1628,MegaIX Las Vegas,Las Vegas,US,North America,4,31200,美国,北美洲
+1634,SCL-IX Chile,Santiago,CL,South America,3,30000,智利,南美洲
+1658,npIX JWL,Lalitpur,NP,Asia Pacific,11,38000,尼泊尔,亚洲
+1660,IXP Ecuador - STD,Santo Domingo,EC,South America,4,151024,厄瓜多尔,南美洲
+1663,RIX (RYUKYUIX),"Urasoe,  Naha, Ginoza, Nago, Uruma, Okinawa",JP,Asia Pacific,7,110000,日本,亚洲
+1668,CIX-ATL,Atlanta,US,North America,33,1780000,美国,北美洲
+1669,BAIKAL-IX,Irkutsk,RU,Europe,2,5000,俄罗斯,欧洲
+1670,BreizhIX,Rennes,FR,Europe,14,33000,法国,欧洲
+1679,NNENIX,Portland,US,North America,8,93000,美国,北美洲
+1684,IX.br (PTT.br) Aracaju,Aracaju/SE,BR,South America,27,173000,巴西,南美洲
+1689,NIXI Bangalore,Bangalore,IN,Asia Pacific,1,10000,印度,亚洲
+1690,NIXI Ahmedabad,Ahmedabad,IN,Asia Pacific,0,0,印度,亚洲
+1748,MSK-IX Riga,Riga,LV,Europe,0,0,拉脱维亚,欧洲
+1754,MIXP.me,Podgorica,ME,Europe,2,11000,黑山共和国,欧洲
+1764,CABASE-JUJ - IX Argentina (Jujuy),San Salvador de Jujuy,AR,South America,8,30800,阿根廷,南美洲
+1771,VNIX-HCM,Ho Chi Minh City,VN,Asia Pacific,2,3000,越南,亚洲
+1772,VNIX-HN,Hanoi,VN,Asia Pacific,4,5000,越南,亚洲
+1773,VNIX-DN,Da Nang,VN,Asia Pacific,2,3000,越南,亚洲
+1776,GABIX,Libreville,GA,Africa,7,25000,加蓬,非洲
+1785,Extreme IX Hyderabad,Hyderabad,IN,Asia Pacific,12,298072,印度,亚洲
+1786,Extreme IX Chennai,Chennai,IN,Asia Pacific,71,1067480,印度,亚洲
+1790,GREX,St. George's,GD,North America,13,90000,格林纳达,北美洲
+1794,IX Palmas,Palmas,BR,South America,12,95500,巴西,南美洲
+1798,CABASE-TDL - IX Argentina (Tandil),Tandil,AR,South America,2,20000,阿根廷,南美洲
+1812,Asteroid Amsterdam,Amsterdam,NL,Europe,32,562000,荷兰,欧洲
+1816,A.IX,Beirut,LB,Middle East,14,75320,黎巴嫩,亚洲
+1829,YXEIX,Saskatoon,CA,North America,17,153000,加拿大,北美洲
+1833,IXP Ecuador - MEC,Manta,EC,South America,0,0,厄瓜多尔,南美洲
+1836,HIX-NZ,Hamilton,NZ,Asia Pacific,0,0,新西兰,大洋洲
+1837,DPE,Dunedin,NZ,Asia Pacific,0,0,新西兰,大洋洲
+1842,Speed-IX,Dronten,NL,Europe,193,4518200,荷兰,欧洲
+1847,IX.br (PTT.br) Santa Maria,Santa Maria/RS,BR,South America,9,85000,巴西,南美洲
+1861,CN-IX-SH,ShangHai,CN,Asia Pacific,3,181000,中国（大陆）,亚洲
+1862,CN-IX-BJ,BeiJing,CN,Asia Pacific,1,40000,中国（大陆）,亚洲
+1863,CN-IX-GZ,GuangZhou,CN,Asia Pacific,2,40000,中国（大陆）,亚洲
+1868,STHIX - Gothenburg,Gothenburg,SE,Europe,13,76100,瑞典,欧洲
+1869,STHIX - Copenhagen,Copenhagen,DK,Europe,23,189100,丹麦,欧洲
+1870,IXPN Abuja,Abuja,NG,Africa,6,3200,尼日利亚,非洲
+1886,Cnean,BeiJing,CN,Asia Pacific,1,100000,中国（大陆）,亚洲
+1896,InteRed Panama,Panama,PA,South America,16,97500,巴拿马,北美洲
+1915,PIT Concepcion - PIT Chile,Concepcion,CL,South America,8,16000,智利,南美洲
+1916,PIT Osorno - PIT Chile,Osorno,CL,South America,1,1000,智利,南美洲
+1917,PIT Temuco - PIT Chile,Temuco,CL,South America,5,6000,智利,南美洲
+1919,APLIX,Gdynia,PL,Europe,2,20240,波兰,欧洲
+1923,Equinix Stockholm,Stockholm,SE,Europe,20,691000,瑞典,欧洲
+1925,Equinix Milan,Milan,IT,Europe,21,513000,意大利,欧洲
+1926,Equinix Dublin,Dublin,IE,Europe,16,273000,爱尔兰,欧洲
+1927,Equinix Manchester,Manchester,GB,Europe,21,407000,英国,欧洲
+1933,PCIX,Piacenza,IT,Europe,2,11000,意大利,欧洲
+1958,MESH-IX,Mariupol,UA,Europe,3,40000,乌克兰,欧洲
+1977,CLOUD-IX MSK,Moscow,RU,Europe,52,1543000,俄罗斯,欧洲
+1978,CLOUD-IX SPB,St. Petersburg,RU,Europe,23,365000,俄罗斯,欧洲
+1979,CLOUD-IX VRJ,Voronezh,RU,Europe,0,0,俄罗斯,欧洲
+1980,CLOUD-IX KHA,Kharkov,UA,Europe,7,280000,乌克兰,欧洲
+1981,CLOUD-IX KIEV,Kiev,UA,Europe,8,410000,乌克兰,欧洲
+1982,CLOUD-IX EKT,Ekaterinburg,RU,Europe,5,46144,俄罗斯,欧洲
+1983,IX.br (PTT.br) João Pessoa,João Pessoa/PB,BR,South America,20,205000,巴西,南美洲
+1984,RomandIX,Lausanne,CH,Europe,17,101000,瑞士,欧洲
+1991,PIT Arica - PIT Chile,Arica,CL,South America,8,28000,智利,南美洲
+1997,Equinix London,London,GB,Europe,62,1821000,英国,欧洲
+1998,Equinix Frankfurt,Frankfurt,DE,Europe,71,1515000,德国,欧洲
+1999,PIT-IX,Pittsburgh,US,North America,17,370000,美国,北美洲
+2004,ANIX,Tirana,AL,Europe,13,69000,阿尔巴尼亚,欧洲
+2005,BALT-IX,Vilnius,LT,Europe,37,519000,立陶宛,欧洲
+2013,Community-IX.ch,Zurich,CH,Europe,19,128100,瑞士,欧洲
+2031,Equinix Amsterdam,Amsterdam,NL,Europe,59,1602000,荷兰,欧洲
+2032,Sacramento-IX,Sacramento,US,North America,6,43000,美国,北美洲
+2035,Eurasia Peering IX,Moscow,RU,Europe,156,2389240,俄罗斯,欧洲
+2036,MEX-IX,McAllen,US,North America,14,591000,美国,北美洲
+2039,CABASE-OGB - IX Argentina (Moreno),Moreno,AR,South America,2,21000,阿根廷,南美洲
+2040,CABASE-RST - IX Argentina (Resistencia),Resistencia,AR,South America,5,35000,阿根廷,南美洲
+2050,GPIEX,Albany,US,North America,3,30000,美国,北美洲
+2051,IF-IX,Ivano-Frankivsk,UA,Europe,7,34000,乌克兰,欧洲
+2062,Bharat IX - Mumbai,Mumbai,IN,Asia Pacific,15,117000,印度,亚洲
+2066,IXP.MX - Mexico City,Mexico City,MX,North America,10,72000,墨西哥,北美洲
+2070,MonctonIX,Moncton,CA,North America,8,46000,加拿大,北美洲
+2078,IX.br (PTT.br) Teresina,Teresina/PI,BR,South America,26,217100,巴西,南美洲
+2084,LocIX Frankfurt,Frankfurt,DE,Europe,217,602600,德国,欧洲
+2086,IX.br (PTT.br) São Luís,São Luís/MA,BR,South America,18,148000,巴西,南美洲
+2088,PhillyIX,Philadelphia,US,North America,20,601000,美国,北美洲
+2093,CABASE-UAQ - IX Argentina (San Juan),San Juan,AR,South America,7,17100,阿根廷,南美洲
+2102,MMIX,Yangon,MM,Asia Pacific,17,146000,缅甸,亚洲
+2116,GOREX,Tumon,GU,Asia Pacific,1,10000,关岛,大洋洲
+2124,CFLIX (Central Florida Internet Exchange),Orlando,US,North America,4,21000,美国,北美洲
+2130,Equinix Madrid,Madrid,ES,Europe,11,362000,西班牙,欧洲
+2131,Equinix Lisbon,Lisbon,PT,Europe,20,208024,葡萄牙,欧洲
+2145,KG-IX Bishkek,Bishkek,KG,Europe,8,44024,吉尔吉斯斯坦,亚洲
+2149,PITER-IX St. Petersburg,St. Petersburg,RU,Europe,135,1975048,俄罗斯,欧洲
+2163,FCIX,Fremont,US,North America,113,855010,美国,北美洲
+2167,Extreme IX Kolkata,Kolkata,IN,Asia Pacific,10,490000,印度,亚洲
+2176,PIT entel,Santiago,CL,South America,3,120000,智利,南美洲
+2182,Equinix Denver,Denver,US,North America,4,70000,美国,北美洲
+2183,Equinix Houston,Houston,US,North America,0,0,美国,北美洲
+2186,Baltimore IX,Baltimore,US,North America,3,12000,美国,北美洲
+2195,AMR-IX,Amaravati,IN,Asia Pacific,9,35048,印度,亚洲
+2207,DV-IX,Chita,RU,Asia Pacific,0,0,俄罗斯,欧洲
+2208,TIX Tanzania - Zanzibar,Zanzibar,TZ,Africa,5,5000,坦桑尼亚,非洲
+2210,ANI-IX Delhi,New Delhi,IN,Asia Pacific,20,190034,印度,亚洲
+2239,BHNIX,Sarajevo,BA,Europe,1,20000,波斯尼亚和黑山共和国,欧洲
+2245,NIXA,Kabul,AF,Asia Pacific,19,38124,阿富汗,亚洲
+2250,KAZ-GOV-IX,Astana,KZ,Asia Pacific,6,62000,哈萨克斯坦,亚洲
+2251,Remki Internet Exchange (RIX),Guntur,IN,Asia Pacific,1,10000,印度,亚洲
+2253,ix.kw,Kuwait City,KW,Middle East,15,234000,科威特,亚洲
+2254,LBIX,Beirut,LB,Middle East,0,0,黎巴嫩,亚洲
+2272,TTIX2,Princes Town,TT,South America,7,43000,特立尼达和多巴哥,北美洲
+2274,EVIX,Fremont,US,North America,209,239555,美国,北美洲
+2276,IXP.mk,Skopje,MK,Europe,3,22048,前南斯拉夫马其顿共和国,欧洲
+2279,DE-CIX Johor Bahru,Johor Bahru,MY,Asia Pacific,2,3000,马来西亚,亚洲
+2286,MidWest-IX - OHIO,"Cleveland, Ohio",US,North America,7,81000,美国,北美洲
+2289,Equinix Bogota,Bogota,CO,South America,18,460000,哥伦比亚,南美洲
+2291,IX.br (PTT.br) Maceió,Maceió/AL,BR,South America,23,200020,巴西,南美洲
+2299,SAIX Saudi Arabia,Riyadh,SA,Middle East,14,620000,沙特阿拉伯,亚洲
+2301,MARIIX,Mangilao,GU,Asia Pacific,6,15000,关岛,大洋洲
+2317,Charlotte-IX,Charlotte,US,North America,3,21000,美国,北美洲
+2318,Dallas-IX,Dallas,US,North America,4,32000,美国,北美洲
+2319,Houston-IX,Houston,US,North America,3,40000,美国,北美洲
+2320,SIXP Sudan,Khartoum,SD,Africa,2,2000,苏丹,非洲
+2332,PNG Neutral IX POM,Port Moresby,PG,Asia Pacific,11,74024,巴布亚新几内亚,大洋洲
+2341,REDIX Chennai,Chennai,IN,Asia Pacific,5,6000,印度,亚洲
+2343,LL-IX,"Haarlem, Katowice, Fremont, Warsaw",RO,Europe,128,232640,罗马尼亚,欧洲
+2345,GetaFIX Manila,Manila,PH,Asia Pacific,34,431000,菲律宾,亚洲
+2353,Puerto Rico Internet Exchange,San Juan,PR,North America,14,411000,波多黎各,北美洲
+2355,btIX,Thimphu,BT,Asia Pacific,12,48000,不丹,亚洲
+2362,KIXP - Mombasa icolo,Mombasa,KE,Africa,10,57000,肯尼亚,非洲
+2365,CHIX-CH,Frauenfeld,CH,Europe,33,131200,瑞士,欧洲
+2368,CABASE-VDM - IX Argentina (Viedma),Viedma,AR,South America,1,10000,阿根廷,南美洲
+2381,"WAF-IX, Lagos",Lagos,NG,Africa,19,140000,尼日利亚,非洲
+2386,GR-IX::Thessaloniki,Thessaloniki,GR,Europe,19,94048,希腊,欧洲
+2387,SJIX,"Saint John, NB",CA,North America,3,40000,加拿大,北美洲
+2388,TGIX,Lomé,TG,Africa,4,4000,多哥,非洲
+2402,SPACE-IX,Moscow,RU,Europe,0,0,俄罗斯,欧洲
+2407,MISPA-IXP,Ulaanbaatar,MN,Asia Pacific,1,0,蒙古,亚洲
+2410,SoIXP,Mogadishu,SO,Africa,0,0,索马里,非洲
+2414,IXPN Kano,Kano,NG,Africa,3,245,尼日利亚,非洲
+2415,IXPN Port Harcourt,Port Harcourt,NG,Africa,0,0,尼日利亚,非洲
+2447,4b42 Internet Exchange Point,Zurich,CH,Europe,177,229524,瑞士,欧洲
+2452,UNM-Exch Canada-West,Vancouver,CA,North America,60,392200,加拿大,北美洲
+2454,CSL Thai-IX Malaysia,Bangkok,TH,Asia Pacific,14,523000,泰国,亚洲
+2457,SR-IX,Bishkek,KG,Asia Pacific,2,10000,吉尔吉斯斯坦,亚洲
+2467,BBIX Thailand,Bangkok,TH,Asia Pacific,15,332000,泰国,亚洲
+2476,JKT-IX,Jakarta,ID,Asia Pacific,183,1868264,印度尼西亚,亚洲
+2486,CMH-IX,Columbus,US,North America,7,71000,美国,北美洲
+2494,CSL Thai-IX Singapore,Bangkok,TH,Asia Pacific,23,903000,泰国,亚洲
+2495,CSL Thai-IX Bangkok,Bangkok,TH,Asia Pacific,19,1133200,泰国,亚洲
+2496,BelgiumIX,"Brussels, Ghent, Leuven, Antwerp",BE,Europe,16,334000,比利时,欧洲
+2497,KazNIX,Semey,KZ,Asia Pacific,8,35000,哈萨克斯坦,亚洲
+2501,LNK-IX,Targoviste,RO,Europe,6,5000,罗马尼亚,欧洲
+2511,MS-IX,Münster,DE,Europe,7,24100,德国,欧洲
+2516,BDIX,Dhaka,BD,Asia Pacific,28,139100,孟加拉,亚洲
+2520,IXP-GUINEE,Conakry,GN,Africa,3,2100,几内亚,非洲
+2522,KRIX(sejong),Seoul,KR,Asia Pacific,10,290000,韩国,亚洲
+2531,DE-CIX Lisbon,Lisbon,PT,Europe,46,347000,葡萄牙,欧洲
+2537,STIX,Bozen/Bolzano,IT,Europe,6,24000,意大利,欧洲
+2541,CAMIX Douala,Douala,CM,Africa,4,13000,喀麦隆,非洲
+2551,Digital Realty Chicago,Chicago,US,North America,9,111000,美国,北美洲
+2552,BDIXP,Bujumbura,BI,Africa,10,27000,布隆迪,非洲
+2553,LVIV-IX,Lviv,UA,Europe,7,101000,乌克兰,欧洲
+2554,CAMIX Yaounde,Yaoundé,CM,Africa,4,4000,喀麦隆,非洲
+2558,NYIIX Philadelphia,Philadelphia,US,North America,4,130000,美国,北美洲
+2563,EdgeIX - Darwin,Darwin,AU,Australia,4,22000,澳大利亚,大洋洲
+2564,iX-OKC,Oklahoma City,US,North America,10,324000,美国,北美洲
+2568,TN-IX,Novokuznetsk,RU,Asia Pacific,4,23000,俄罗斯,欧洲
+2569,NL-ix 2,Amsterdam,NL,Europe,7,2020000,荷兰,欧洲
+2571,SBIX ZRH,Zurich,CH,Europe,26,198000,瑞士,欧洲
+2572,Digital Realty Ashburn,Ashburn,US,North America,7,162000,美国,北美洲
+2584,OGIX,Ottawa Gatineau,CA,North America,5,71000,加拿大,北美洲
+2585,STLIX,"Saint Louis, MO",US,North America,31,402000,美国,北美洲
+2587,DE-CIX Delhi,Delhi,IN,Asia Pacific,50,875528,印度,亚洲
+2588,DE-CIX Chennai,Chennai,IN,Asia Pacific,22,573240,印度,亚洲
+2589,DE-CIX Kolkata,Kolkata,IN,Asia Pacific,7,264000,印度,亚洲
+2601,LocIX Netherlands,Meppel,NL,Europe,33,177100,荷兰,欧洲
+2602,EdgeIX - Hobart,Hobart,AU,Australia,6,51000,澳大利亚,大洋洲
+2611,KM-IX,Khmelnitskiy,UA,Europe,2,20000,乌克兰,欧洲
+2612,SAT-IX (San Antonio),"San Antonio, Texas",US,North America,6,520000,美国,北美洲
+2617,Harare IX,Harare,ZW,Africa,0,0,津巴布韦,非洲
+2622,IIX-Bali,Denpasar,ID,Asia Pacific,26,26000,印度尼西亚,亚洲
+2624,TIX Tanzania - Dodoma,Dodoma,TZ,Africa,4,4000,坦桑尼亚,非洲
+2627,Equinix Perth,Perth,AU,Australia,10,112000,澳大利亚,大洋洲
+2628,JEDIX,Jeddah,SA,Middle East,10,780000,沙特阿拉伯,亚洲
+2631,Manama IX,Manama,BH,Middle East,18,845000,巴林,亚洲
+2633,Equinix Barcelona,Barcelona,ES,Europe,8,141000,西班牙,欧洲
+2641,36C3-YOLOIXP,Leipzig,DE,Europe,6,23100,德国,欧洲
+2658,EdgeIX - Adelaide,Adelaide,AU,Australia,17,190000,澳大利亚,大洋洲
+2663,Gavlix,Gävle,SE,Europe,6,16000,瑞典,欧洲
+2665,MLIX,Bamako,ML,Africa,2,2000,马里,非洲
+2670,BatamIX Jakarta,Jakarta,ID,Asia Pacific,23,105000,印度尼西亚,亚洲
+2672,DACS-IX East,Baltimore,US,North America,6,60000,美国,北美洲
+2675,VarnaIX,Varna,BG,Europe,7,61000,保加利亚,欧洲
+2677,STHIX - Sundsvall,Sundsvall,SE,Europe,5,42000,瑞典,欧洲
+2680,Peru IX (PIT Peru sac) - Lima,Lima,PE,South America,51,1473000,秘鲁,南美洲
+2682,SIXP Gambia,Serekunda,GM,Africa,2,10000,冈比亚,非洲
+2685,Equinix Seoul,Seoul,KR,Asia Pacific,3,212000,韩国,亚洲
+2693,UEPG Internet Exchange,Ponta Grossa/PR,BR,South America,6,30000,巴西,南美洲
+2700,IXP FI HEL,Helsinki,FI,Europe,14,119300,芬兰,欧洲
+2704,IXP UK LON,London,GB,Europe,19,133200,英国,欧洲
+2705,IXP NL DRO,Dronten,NL,Europe,10,126100,荷兰,欧洲
+2706,IXP NUR,Nürnberg,DE,Europe,6,6100,德国,欧洲
+2713,CAS-IX,Casablanca,MA,Africa,3,10000,摩洛哥,非洲
+2714,Community-IX Vienna,Vienna,AT,Europe,1,2000,奥地利,欧洲
+2715,MYNAP,Cyberjaya,MY,Asia Pacific,3,13000,马来西亚,亚洲
+2718,EdgeIX - Perth,Perth,AU,Australia,43,911000,澳大利亚,大洋洲
+2722,LUBIX,Lubumbashi,CD,Africa,8,43100,扎伊尔,非洲
+2726,BrestIX,Brest,FR,Europe,2,2000,法国,欧洲
+2728,IXP LI VAD,Vaduz,LI,Europe,13,119200,列支敦士登,欧洲
+2729,BFIX Ouagadougou,Ouagadougou,BF,Africa,11,60072,布基纳法索,非洲
+2730,LocIX Dusseldorf,Dusseldorf,DE,Europe,83,476000,德国,欧洲
+2732,RO-IX,Bucharest,RO,Europe,2,11000,罗马尼亚,欧洲
+2737,CLOUDXCHANGE - CXC,Denpasar,ID,Asia Pacific,110,389000,印度尼西亚,亚洲
+2741,QCIX,Davenport,US,North America,40,385000,美国,北美洲
+2746,IXP US FRE,Fremont,US,North America,14,128255,美国,北美洲
+2753,VIXP,Balzers,LI,Europe,3,21000,列支敦士登,欧洲
+2756,EdgeIX - Brisbane,Brisbane,AU,Australia,21,400000,澳大利亚,大洋洲
+2761,EdgeIX - Sydney,Sydney,AU,Australia,69,2663000,澳大利亚,大洋洲
+2762,EdgeIX - Melbourne,Melbourne,AU,Australia,30,910000,澳大利亚,大洋洲
+2766,IIX-Jabar,Bandung,ID,Asia Pacific,18,17000,印度尼西亚,亚洲
+2767,IIX-Lampung,Bandar Lampung,ID,Asia Pacific,9,9000,印度尼西亚,亚洲
+2774,IXP SYD,Sydney,AU,Australia,3,2100,澳大利亚,大洋洲
+2775,NIX-BD,Noakhali,BD,Asia Pacific,6,51000,孟加拉,亚洲
+2776,CSIX,Vancouver,CA,North America,12,221000,加拿大,北美洲
+2783,Gig IX Ashburn,Ashburn,US,North America,5,6000,美国,北美洲
+2784,FURB IX,Blumenau,BR,South America,8,12500,巴西,南美洲
+2785,STHIX - Umeå,Umeå,SE,Europe,3,21000,瑞典,欧洲
+2786,AIX-BD,Dhaka,BD,Asia Pacific,28,182000,孟加拉,亚洲
+2787,TR-IX,Istanbul,TR,Europe,11,67000,土耳其,亚洲
+2797,CHC-IX (Christchurch NZ),Christchurch,NZ,Asia Pacific,15,130000,新西兰,大洋洲
+2798,IXP BEA,Beauharnois,CA,North America,1,1000,加拿大,北美洲
+2799,ITI-IX,Tashkent,UZ,Asia Pacific,5,22000,乌兹别克斯坦,亚洲
+2801,LONAP Multicast,London,GB,Europe,0,0,英国,欧洲
+2802,MekongIX,Phnom Penh,KH,Asia Pacific,3,3000,柬埔寨,亚洲
+2804,RO-CIX,Braila,RO,Europe,12,255000,罗马尼亚,欧洲
+2812,NIXI Guwahati,Guwahati,IN,Asia Pacific,0,0,印度,亚洲
+2815,Asteroid Mombasa,Mombasa,KE,Africa,21,129000,肯尼亚,非洲
+2819,QIX Qatar,Doha,QA,Middle East,3,21000,卡塔尔,亚洲
+2822,IX.br (PTT.br) Cascavel,Cascavel/PR,BR,South America,19,157000,巴西,南美洲
+2830,MUS-IX,"Dallas, TX",US,North America,11,1080000,美国,北美洲
+2835,HOUIX,Houston,US,North America,19,361000,美国,北美洲
+2836,SNS-IX,Tashkent,UZ,Asia Pacific,13,381240,乌兹别克斯坦,亚洲
+2840,LINX LON1 Multicast,London,GB,Europe,2,1000,英国,欧洲
+2845,Netnod Stockholm GREEN -- MTU4470,Stockholm,SE,Europe,65,2005000,瑞典,欧洲
+2846,Netnod Stockholm BLUE -- MTU1500,Stockholm,SE,Europe,161,5019110,瑞典,欧洲
+2847,Netnod Stockholm BLUE -- MTU4470,Stockholm,SE,Europe,66,2004400,瑞典,欧洲
+2848,NIX.CZ FENIX,Prague,CZ,Europe,4,620000,捷克共和国,欧洲
+2849,GigaPIX - LAN 2,Lisbon,PT,Europe,16,184024,葡萄牙,欧洲
+2853,FICIX 2 (Helsinki) IPv6 MTU 9000,Helsinki,FI,Europe,7,322000,芬兰,欧洲
+2861,JINX Voice,Johannesburg,ZA,Africa,4,12000,南非,非洲
+2865,Netnod Gothenburg -- MTU4470,Gothenburg,SE,Europe,10,158000,瑞典,欧洲
+2868,Netnod Copenhagen BLUE -- MTU9K,Malmo / Copenhagen,DK,Europe,60,1659100,丹麦,欧洲
+2869,Netnod Sundsvall -- MTU4470,Sundsvall / Gavle,SE,Europe,7,152000,瑞典,欧洲
+2899,CINX Voice,Cape Town,ZA,Africa,0,0,南非,非洲
+2904,FICIX 3 (Oulu) IPv6 MTU 9000,Oulu,FI,Europe,2,20000,芬兰,欧洲
+2915,GigaNET Odessa,Kiev,UA,Europe,9,180000,乌克兰,欧洲
+2916,GigaNET Kharkov,Kharkov,UA,Europe,9,100000,乌克兰,欧洲
+2917,GigaNET Moscow,Moscow,RU,Europe,5,41000,俄罗斯,欧洲
+2918,GigaNET Warsaw,Warsaw,PL,Europe,0,0,波兰,欧洲
+2955,IX Liverpool Mersey,Liverpool,GB,Europe,4,4000,英国,欧洲
+2956,IX Liverpool Internet of Things LAN,Liverpool,GB,Europe,2,110,英国,欧洲
+2957,IX Liverpool GRX Peering Exchange (5G),Liverpool,GB,Europe,2,2000,英国,欧洲
+2963,FICIX 1 (Espoo) IPv6 MTU 9000,Espoo,FI,Europe,5,221000,芬兰,欧洲
+3017,PITER-IX Moscow,Moscow,RU,Europe,175,3613740,俄罗斯,欧洲
+3018,PITER-IX Tallinn,Tallinn,EE,Europe,45,700000,爱沙尼亚,欧洲
+3019,PITER-IX Riga,Riga,LV,Europe,50,801524,拉脱维亚,欧洲
+3069,ARIX,Fremont/Portland/Flagstaff,US,North America,11,103000,美国,北美洲
+3072,Linxdatacenter-IX,Moscow,RU,Europe,5,42000,俄罗斯,欧洲
+3076,MVIX,Amsterdam,NL,Europe,1,1000,荷兰,欧洲
+3079,SUMMIT NIX,Dhaka,BD,Asia Pacific,4,32000,孟加拉,亚洲
+3081,North Carolina Statewide IX,Charlotte,US,North America,4,13000,美国,北美洲
+3085,Fiji-IXP,Suva,FJ,Asia Pacific,3,120000,斐济,大洋洲
+3087,IIX-Jogja,Yogyakarta,ID,Asia Pacific,14,14000,印度尼西亚,亚洲
+3090,SpokaneIX,Spokane,US,North America,9,110000,美国,北美洲
+3091,Navégalo IXPCR,San Jose,CR,South America,0,0,哥斯达黎加,北美洲
+3093,FSIX Shanghai,Shanghai,CN,Asia Pacific,3,11030,中国（大陆）,亚洲
+3096,IX.br (PTT.br) Campo Grande,Campo Grande/MS,BR,South America,15,116000,巴西,南美洲
+3097,TIX Tanzania - Mbeya,Mbeya,TZ,Africa,0,0,坦桑尼亚,非洲
+3098,BFD-IX,Bradford,GB,Europe,46,244255,英国,欧洲
+3105,DACS-IX South,Orlando,US,North America,6,51000,美国,北美洲
+3106,DACS-IX North,New York,US,North America,5,50000,美国,北美洲
+3117,FEZIX,Fez,MA,Africa,3,30000,摩洛哥,非洲
+3118,SBIX DUS,Dusseldorf,DE,Europe,12,245100,德国,欧洲
+3122,PIONIER-IX,"Białystok, Poznań, Wrocław, Szczecin, Opole",PL,Europe,5,12000,波兰,欧洲
+3148,HPT1-IX,honolulu,US,Asia Pacific,1,1000,美国,北美洲
+3149,IXPlay España,Madrid,ES,Europe,39,350000,西班牙,欧洲
+3156,JTIX,Nonthaburi,TH,Asia Pacific,9,942000,泰国,亚洲
+3157,FSIX,Sandefjord,NO,Europe,16,43000,挪威,欧洲
+3159,SudIX,Montpellier,FR,Europe,1,1000,法国,欧洲
+3160,NEO-IX,"Akron, Ohio",US,North America,6,34000,美国,北美洲
+3166,ZXIX Hangzhou (Y),Hangzhou,CN,Asia Pacific,21,47450,中国（大陆）,亚洲
+3168,PS-IX Ramallah,Ramallah,PS,Middle East,17,16000,巴勒斯坦,亚洲
+3169,ROPN-IX,Bucharest,RO,Europe,26,145700,罗马尼亚,欧洲
+3170,DCI-IX,Bekasi,ID,Asia Pacific,21,290000,印度尼西亚,亚洲
+3171,CABASE-CDU - IX Argentina (Concepcion del Uruguay),Concepcion del Uruguay,AR,South America,5,34000,阿根廷,南美洲
+3174,CABASE-RCU - IX Argentina (Rio Cuarto),Rio Cuarto,AR,South America,2,1000,阿根廷,南美洲
+3175,TOHU IX,Guangzhou,CN,Asia Pacific,52,339100,中国（大陆）,亚洲
+3179,48 IX,Phoenix,US,North America,5,60000,美国,北美洲
+3182,GTIX,Guatemala,GT,North America,13,130100,危地马拉,北美洲
+3184,SEECIX,Athens,GR,Europe,13,172480,希腊,欧洲
+3185,BBIX Los Angeles,Los Angeles,US,North America,10,152000,美国,北美洲
+3186,BBIX Dallas,Dallas,US,North America,3,22000,美国,北美洲
+3187,BBIX Chicago,Chicago,US,North America,3,22000,美国,北美洲
+3188,BBIX Miami,Miami,US,North America,1,2000,美国,北美洲
+3189,BBIX London,London,GB,Europe,3,22000,英国,欧洲
+3190,BBIX Amsterdam,Amsterdam,NL,Europe,2,22000,荷兰,欧洲
+3191,BBIX Marseille,Marseille,FR,Europe,3,32000,法国,欧洲
+3192,ManxIX,Douglas,IM,Europe,0,0,曼岛,欧洲
+3195,SpringIX,"Springfield, MO",US,North America,6,61000,美国,北美洲
+3203,InterAUS - Sydney IX,Sydney,AU,Australia,9,114200,澳大利亚,大洋洲
+3204,InterAUS - Melbourne IX,Melbourne,AU,Australia,4,101000,澳大利亚,大洋洲
+3205,InterAUS - Brisbane IX,Brisbane,AU,Australia,3,100000,澳大利亚,大洋洲
+3206,InterAUS - Perth IX,Perth,AU,Australia,4,101000,澳大利亚,大洋洲
+3207,InterAUS - Canberra IX,Canberra,AU,Australia,4,110000,澳大利亚,大洋洲
+3208,InterAUS - Adelaide IX,Adelaide,AU,Australia,4,110000,澳大利亚,大洋洲
+3209,InterAUS - Hobart IX,Hobart,AU,Australia,4,110000,澳大利亚,大洋洲
+3211,STACIX,Frankfurt,DE,Europe,23,140000,德国,欧洲
+3212,Equinix Rio de Janeiro,Rio de Janeiro,BR,South America,8,330000,巴西,南美洲
+3224,BVIX,Road Town,VG,South America,4,4000,英属维京群岛,北美洲
+3226,IX42 LAS,Las Vegas,US,North America,20,17400,美国,北美洲
+3230,IXRR Internet Exchange Roraima,Boa Vista,BR,South America,6,15000,巴西,南美洲
+3232,OpenSwitch-IX,Kolkata,IN,Asia Pacific,37,15650,印度,亚洲
+3233,MoeIX CSX,Changsha,CN,Asia Pacific,8,6150,中国（大陆）,亚洲
+3237,IX42 SG,Singapore,SG,Asia Pacific,9,5450,新加坡,亚洲
+3238,IXP INFOCOM,San José,CR,North America,1,2000,哥斯达黎加,北美洲
+3246,ZXIX Hong Kong (Y),Hong Kong,HK,Asia Pacific,34,53430,中国（香港）,亚洲
+3247,FD-IX - Iowa,Altoona,US,North America,2,20000,美国,北美洲
+3261,IXP.MX Querétaro,Querétaro,MX,North America,2,30000,墨西哥,北美洲
+3262,IXP.MX Tultitlan,Tultitlan,MX,North America,0,0,墨西哥,北美洲
+3264,FD-IX (Texas-IX),Houston,US,North America,5,51000,美国,北美洲
+3266,Equinix Mexico,Mexico City,MX,North America,3,50000,墨西哥,北美洲
+3278,IXBradford,Bradford,GB,Europe,9,90000,英国,欧洲
+3280,KA-NIX,Karlsruhe,DE,Europe,7,91000,德国,欧洲
+3283,THESS-IX,Thessaloniki,GR,Europe,13,139100,希腊,欧洲
+3285,GeekIX Taoyuan (Jumbo),Taoyuan,TW,Asia Pacific,17,163000,中国（台湾）,亚洲
+3286,SBIX FRE,Fremont,US,Europe,4,32000,美国,北美洲
+3288,Grunix,Groningen,NL,Europe,4,31000,荷兰,欧洲
+3290,MIX-IT Palermo,Palermo,IT,Europe,8,71000,意大利,欧洲
+3299,PITER-IX Helsinki,Helsinki,FI,Europe,41,877000,芬兰,欧洲
+3302,PyramIX,Cairo,EG,Africa,43,46800,埃及,非洲
+3312,JumboIX Peru,Lima,PE,South America,17,227000,秘鲁,南美洲
+3321,ICX Delhi,Delhi,IN,Asia Pacific,5,70000,印度,亚洲
+3322,ABQIX,Albuquerque,US,North America,5,21000,美国,北美洲
+3329,IIX-Jateng,Semarang,ID,Asia Pacific,5,5000,印度尼西亚,亚洲
+3333,PIT Bolivia,La Paz,BO,South America,12,171000,玻利维亚,南美洲
+3335,Equinix Muscat,Muscat,OM,Middle East,4,250000,阿曼,亚洲
+3337,BIX Surabaya,"Surabaya, East Java",ID,Asia Pacific,4,112000,印度尼西亚,亚洲
+3338,BIX Malang,"Malang, East Java",ID,Asia Pacific,2,101000,印度尼西亚,亚洲
+3339,BIX Semarang,"Semarang, Central Java",ID,Asia Pacific,1,100000,印度尼西亚,亚洲
+3340,BIX Denpasar 1,"Denpasar, Bali",ID,Asia Pacific,4,223000,印度尼西亚,亚洲
+3341,BIX Denpasar 2,"Denpasar, Bali",ID,Asia Pacific,1,1000,印度尼西亚,亚洲
+3342,IX-DO,Santo Domingo,DO,North America,0,0,多米尼加共和国,北美洲
+3343,Waterloo Internet Exchange,Waterloo,CA,North America,1,5000,加拿大,北美洲
+3348,JPNAP Fukuoka,Fukuoka,JP,Asia Pacific,8,82000,日本,亚洲
+3352,STUIX,Taipei City,TW,Asia Pacific,22,149000,中国（台湾）,亚洲
+3365,BatamIX Batam,Batam,ID,Asia Pacific,4,4000,印度尼西亚,亚洲
+3366,Aqaba IX,Aqaba,JO,Middle East,10,110000,约旦,亚洲
+3373,NCL-IX,Newcastle,GB,Europe,4,52000,英国,欧洲
+3378,DE-CIX Chicago,Chicago,US,North America,11,582000,美国,北美洲
+3379,PCTAIX Luzon,Pasig City,PH,Asia Pacific,3,12000,菲律宾,亚洲
+3384,BéarnIX,Pau,FR,Europe,6,9000,法国,欧洲
+3387,NCJX-Neutral Connect J-Xchange,Jakarta,ID,Asia Pacific,2,30000,印度尼西亚,亚洲
+3393,HamroIX-Amsterdam,Amsterdam,NL,Europe,20,11100,荷兰,欧洲
+3399,RO-IX Vancouver,Vancouver,US,North America,1,1000,美国,北美洲
+3400,OceanIX,Düsseldorf,DE,Europe,3,32000,德国,欧洲
+3401,BFIX Bobo-Dioulasso,Bobo-Dioulasso,BF,Africa,5,42048,布基纳法索,非洲
+3403,NAPAfrica MAPS Johannesburg,Johannesburg,ZA,Africa,6,63240,南非,非洲
+3405,Ruhr-CIX,Ruhr Region,DE,Europe,6,34000,德国,欧洲
+3407,PaducahIX,Paducah,US,North America,3,30000,美国,北美洲
+3408,OCIX-NZ,Auckland,NZ,Australia,8,52200,新西兰,大洋洲
+3409,OCIX-QLD,Brisbane,AU,Australia,8,52200,澳大利亚,大洋洲
+3410,OCIX-NSW,Sydney,AU,Australia,9,52300,澳大利亚,大洋洲
+3411,OCIX-VIC,Melbourne,AU,Australia,8,52200,澳大利亚,大洋洲
+3412,OCIX-WA,Perth,AU,Australia,8,52200,澳大利亚,大洋洲
+3413,OCIX-SA,Adelaide,AU,Australia,7,51200,澳大利亚,大洋洲
+3414,OCIX-APAC,Sydney,AU,Australia,4,40100,澳大利亚,大洋洲
+3416,PITER-IX Kiev,Киев,UA,Europe,46,793000,乌克兰,欧洲
+3417,PNG Neutral IX Lae,Lae,PG,Asia Pacific,2,20000,巴布亚新几内亚,大洋洲
+3418,Peru IX (PIT Peru sac) - Arequipa,Arequipa,PE,South America,14,240000,秘鲁,南美洲
+3422,kremen-IX,Kremenchuk,UA,Europe,2,40000,乌克兰,欧洲
+3424,IXPMOE-ZUH,Zhuhai,CN,Asia Pacific,8,130614,中国（大陆）,亚洲
+3428,TRUE-IX,Bangkok,TH,Asia Pacific,12,2315000,泰国,亚洲
+3430,HamroIX-Rome,Rome,IT,Europe,6,13200,意大利,欧洲
+3431,DE-CIX Singapore,Singapore,SG,Asia Pacific,5,82000,新加坡,亚洲
+3436,Ouest.Network,Nantes,FR,Europe,3,22000,法国,欧洲
+3440,Borneo-IX,Bandar Seri Begawan,BN,Asia Pacific,3,13000,文莱,亚洲
+3445,Raleigh-IX,"Raleigh, NC",US,North America,1,10000,美国,北美洲
+3446,DE-CIX Barcelona,Barcelona,ES,Europe,18,138100,西班牙,欧洲
+3447,GeekIX Taoyuan,Taoyuan,TW,Asia Pacific,0,0,中国（台湾）,亚洲
+3448,Múli IXP,Reykjavik,IS,Europe,2,180000,冰岛,欧洲
+3449,IXSY,Mérida,MX,North America,3,12000,墨西哥,北美洲
+3450,IPNET-IX DELHI,NEW DELHI,IN,Asia Pacific,0,0,印度,亚洲
+3463,SP-iXP Mumbai,Mumbai,IN,Asia Pacific,2,90000,印度,亚洲
+3464,IX42 NYC,New York City,US,North America,2,2000,美国,北美洲
+3465,ISTIX,istanbul,TR,Europe,24,701000,土耳其,亚洲
+3466,Willamette Internet Exchange,Eugene,US,North America,7,61000,美国,北美洲
+3467,KLIX,Dhaka,BD,Asia Pacific,1,10000,孟加拉,亚洲
+3471,Aperture-IX,Hong Kong,HK,Asia Pacific,27,157300,中国（香港）,亚洲
+3472,DE-CIX ASEAN,"Singapore, Kuala Lumpur, Johor Bahru, Brunei",SG,Asia Pacific,42,288100,新加坡,亚洲
+3473,DE-CIX Kuala Lumpur,Kuala Lumpur,MY,Asia Pacific,10,125000,马来西亚,亚洲
+3474,DE-CIX Malaysia,"Kuala Lumpur, Cyberjaya, Johor Bahru",MY,Asia Pacific,6,15100,马来西亚,亚洲
+3475,VIVA-IX,Tekirdag,TR,Europe,6,43000,土耳其,亚洲
+3476,Global Peer Exchange,Washington,US,North America,1,10000,美国,北美洲
+3477,DSIX,Bucharest,RO,Europe,4,120000,罗马尼亚,欧洲
+3478,BGP.Exchange,Global,AQ,North America,26,4703740,南极洲,南极洲
+3480,BTCL IX,Dhaka,BD,Asia Pacific,1,100,孟加拉,亚洲
+3487,PERM-IX,Perm,RU,Europe,1,0,俄罗斯,欧洲
+3495,JinIX,Gianyar,ID,Asia Pacific,3,31000,印度尼西亚,亚洲
+3496,Denver IX,Denver,US,North America,4,51000,美国,北美洲
+3512,Frys-IX,Fryslân,NL,Europe,43,395000,荷兰,欧洲
+3513,ErIX,Rome,IT,Europe,1,1000,意大利,欧洲
+3516,KIXP - Nairobi icolo,Nairobi,KE,Africa,0,0,肯尼亚,非洲
+3523,CABASE-PPN - IX Argentina,Argentina,AR,South America,0,0,阿根廷,南美洲
+3528,SIEX - Southern Internet Exchange,Roma,IT,Europe,12,211000,意大利,欧洲
+3530,SXMIX,SAINT-MARTIN,MF,North America,4,120000,圣马丁,北美洲
+3532,CNI Jakarta,Jakarta,ID,Asia Pacific,13,13000,印度尼西亚,亚洲
+3534,Tehran IX,Tehran,IR,Middle East,0,0,伊朗伊斯兰共和国,亚洲
+3540,OPTIX,Fremont,US,North America,34,2701340,美国,北美洲
+3541,JumboIX Cyprus,Limassol,CY,Middle East,4,11200,塞浦路斯,欧洲
+3543,Wut Exchange,Hangzhou,CN,Asia Pacific,18,55600,中国（大陆）,亚洲
+3548,India Internet Exchange,Indore,IN,Asia Pacific,4,22000,印度,亚洲
+3553,IXP APROSVA Pasaje,Pasaje,EC,South America,1,10000,厄瓜多尔,南美洲
+3557,Peru IX (PIT Peru sac) - Trujillo,Trujillo,PE,South America,4,50000,秘鲁,南美洲
+3558,GetaFIX Cebu,Cebu,PH,Asia Pacific,3,60000,菲律宾,亚洲
+3560,DesMoinesIX,Des Moines,US,North America,2,20000,美国,北美洲
+3561,Douala-IX,Douala,CM,Africa,0,0,喀麦隆,非洲
+3562,1-IX Internet Exchange,Kyiv,UA,Europe,24,910000,乌克兰,欧洲
+3565,Kenya Internet Exchange Point KIXP PAIX Nairobi,Nairobi,KE,Africa,0,0,肯尼亚,非洲
+3568,WLG-IX (Wellington NZ),Wellington,NZ,Australia,10,160000,新西兰,大洋洲
+3570,Free-IX,"Geneva, Zurich, Lugano",CH,Europe,13,61000,瑞士,欧洲
+3572,SaarCix,Saarbrücken,DE,Europe,1,10000,德国,欧洲
+3573,FMIX,"Fargo, ND",US,North America,4,40000,美国,北美洲
+3574,Baoshuo Internet Exchange,Shijiazhuang,CN,Asia Pacific,2,2000,中国（大陆）,亚洲
+3582,IIX-Sumut,Medan,ID,Asia Pacific,1,1000,印度尼西亚,亚洲
+3589,GIX Cebu,Cebu,PH,Asia Pacific,0,0,菲律宾,亚洲
+3594,EPIX.Poznan,Poznan,PL,Europe,4,50000,波兰,欧洲
+3603,ZXIX Wuhan (L),Wuhan,CN,Asia Pacific,13,23000,中国（大陆）,亚洲
+3607,SONIX,Stockholm,SE,Europe,5,450000,瑞典,欧洲
+3612,IX-LGS,Lages,BR,South America,2,20000,巴西,南美洲
+3616,IX.br (PTT.br) Boa Vista,Boa Vista/RR,BR,South America,3,4000,巴西,南美洲
+3626,IXSal,San Salvador,SV,North America,0,0,萨尔瓦多,北美洲
+3633,GOMIX,Goma,CD,Africa,7,62100,扎伊尔,非洲
+3634,Lambda Internet Exchange,Fremont,US,North America,11,39000,美国,北美洲
+3646,IFXVE - Lebrun,Petare,VE,South America,0,0,委内瑞拉,南美洲
+3650,FNIX,Vancouver,CA,North America,3,30000,加拿大,北美洲
+3654,NNIX,Hangzhou,CN,Asia Pacific,0,0,中国（大陆）,亚洲
+3655,VOLGA-IX,Yaroslavl,RU,Europe,1,20000,俄罗斯,欧洲
+3659,GIBIRIX,İstanbul,TR,Europe,3,420000,土耳其,亚洲
+3663,UIXP Raxio,Kampala,UG,Africa,0,0,乌干达,非洲
