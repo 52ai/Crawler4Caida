@@ -180,8 +180,8 @@ def bgp_degree_distribution():
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    # bgp_analysis()  # 1）统计全球BGP互联关系变化趋势
-    bgp_degree_distribution()  # 2） 全球BGP互联关系数据量统计分布图
+    bgp_analysis()  # 1）统计全球BGP互联关系变化趋势
+    # bgp_degree_distribution()  # 2） 全球BGP互联关系数据量统计分布图
     time_end = time.time()  # 记录结束时间
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
 

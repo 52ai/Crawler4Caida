@@ -86,7 +86,7 @@ def external_as_analysis(target_country, as2country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path[-1:]:
+    for path_item in file_path:
         print(path_item)
         # 遍历一次文件，获取该国出口AS的数量
         file_read = open(path_item, 'r', encoding='utf-8')
@@ -149,10 +149,10 @@ def external_as_analysis(target_country, as2country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    # country_list = ["CN", "US", "DE", "JP", "KR",
-    #                 "BR", "IN", "RU", "ZA", "SG",
-    #                 "MY", "ID", "VN", "FR", "TH"]
-    country_list = ["CA"]
+    country_list = ["CN", "US", "DE", "JP", "KR",
+                    "BR", "IN", "RU", "ZA", "SG",
+                    "MY", "ID", "VN", "FR", "TH"]
+    # country_list = ["CA"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     for country in country_list:
         as2country_dict = gain_as2country(as_info_file_in, country)

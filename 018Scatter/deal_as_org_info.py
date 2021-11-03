@@ -127,8 +127,8 @@ def deal_as_org_info(as_org_file, org_info_file, country_geo_file):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    as_org_file_in = "..\\000LocalData\\as_geo\\20190701.as-org2info-asn.txt"
-    org_info_file_in = "..\\000LocalData\\as_geo\\20190701.as-org2info.txt"
+    as_org_file_in = "..\\000LocalData\\as_geo\\20211001.as-org2info-asn.txt"
+    org_info_file_in = "..\\000LocalData\\as_geo\\20211001.as-org2info.txt"
     country_geo_file_in = "..\\000LocalData\\as_geo\\201603.locations.txt"
     as_org_info = deal_as_org_info(as_org_file_in, org_info_file_in, country_geo_file_in)
     # print(as_org_info)
