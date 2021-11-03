@@ -109,8 +109,40 @@ def ix_crawler():
     write_to_csv(ix_list, save_path)
 
     """
-    根据最终的结果做二次分析
+    根据接入带宽新属性做二次分析
+    1、统计全球各个国家所有IX总的接入带宽
+    2、统计全球各大洲所有IX总的接入带宽
     """
+    country_dict_speed = {}  # 国家IX总的接入带宽
+    region_dict_speed = {}  # 大洲IX总的接入带宽
+
+    for item in ix_list:
+        item_country = item[7]
+        item_region = item[8]
+        item_speed = item[6]
+        if item_country not in country_dict_speed.keys():
+            country_dict_speed[item_country] = item_speed
+        else:
+            country_dict_speed[item_country] += item_speed
+
+        if item_region not in region_dict_speed.keys():
+            region_dict_speed[item_region] = item_speed
+        else:
+            region_dict_speed[item_region] += item_speed
+
+    country_list_speed = []
+    region_list_speed = []
+
+    for key in country_dict_speed.keys():
+        country_list_speed.append([key, country_dict_speed[key]])
+
+    for key in region_dict_speed.keys():
+        region_list_speed.append([key, region_dict_speed[key]])
+
+    save_path = "./country_list_speed.csv"
+    write_to_csv(country_list_speed, save_path)
+    save_path = "./region_list_speed.csv"
+    write_to_csv(region_list_speed, save_path)
 
 
 if __name__ == "__main__":
