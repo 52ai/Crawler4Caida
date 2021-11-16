@@ -70,6 +70,8 @@ def rib_analysis():
                 V4的地址数大约为32减去网络号长度，大约为2的N次方个地址
                 """
                 net_len_v4 = int(item.split("/")[-1])
+                if net_len_v4 == 0:
+                    continue
                 v4_num += pow(2, (32-net_len_v4))
                 v4_prefix_num += 1
             else:
@@ -79,6 +81,8 @@ def rib_analysis():
                 由于地址空间巨大，按照/64地址块的数量进行统计
                 """
                 net_len_v6 = int(item.split("/")[-1])
+                if net_len_v6 == 0:
+                    continue
                 v6_num += pow(2, (64-net_len_v6))
                 v6_prefix_num += 1
         as_name = "AS" + str(key)

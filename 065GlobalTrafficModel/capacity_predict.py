@@ -13,7 +13,7 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 
-capacity_file = "../000LocalData/global_traffic_model/gig_cap_countries.csv"
+capacity_file = "../000LocalData/global_traffic_model/cap_region2region_2021.csv"
 
 
 def write_to_csv(res_list, des_path):
@@ -55,7 +55,7 @@ def poly_fitting_predict(x, y):
     x1 = x
     res_y = p(x1)
     x2 = []  # 存储时间
-    for i in range(2021, 2026):
+    for i in range(2022, 2026):
         x2.append(int(i))
     predict_y = p(x2)
     print("x2:", x2)
@@ -110,7 +110,7 @@ def capacity_predict():
         temp_list.extend(country_capacity_dict[key])
         temp_list.extend(predict_value)
         result_list.append(temp_list)
-    save_predict_value = "../000LocalData/global_traffic_model/cap_countries_predict.csv"
+    save_predict_value = "../000LocalData/global_traffic_model/cap_region2region_2021_predict.csv"
     write_to_csv(result_list, save_predict_value)
 
 
