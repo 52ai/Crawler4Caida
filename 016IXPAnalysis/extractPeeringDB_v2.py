@@ -126,6 +126,8 @@ def generate_global_ixp_report():
     ipv6_on_cnt = 0  # 统计支撑ipv6的交换中心
     ipv6_off_cnt = 0  # 统计不支持ipv6的交换中心
 
+    greater_than_500_ix = 0  # 统计接入网络数量大于500的ix数量
+
     for item in html_json['data']:
         # 利用datetime处理时间字符串
         dt_create = datetime.strptime(item['created'], '%Y-%m-%dT%H:%M:%SZ')
@@ -175,11 +177,16 @@ def generate_global_ixp_report():
         else:
             ipv6_off_cnt += 1
 
+        # 统计接入网络数量大于500IXP
+        if int(item['net_count']) > 500:
+            greater_than_500_ix += 1
+
     print("- - - - - - -0)全球互联网交换中心数据分析报告（PEERING DB）- ")
     print("报告生成时间：", datetime.now())
     print("基础数据来源：https://www.peeringdb.com/")
     print("- - - - - - -1)当前时间全球IXP总数统计- - - - - - - - - - - -")
     print("Global IXP Count:", len(html_json['data']))
+    print("Greater than 500 Count:", greater_than_500_ix)
     print("- - - - - - -2)全球IXP发展趋势- - - - - - - - - - - -")
     ixp_cnt_year_list = []  # 存储统计列表
     for key in ixp_cnt_year.keys():

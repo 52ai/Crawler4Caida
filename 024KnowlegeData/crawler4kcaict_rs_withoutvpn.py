@@ -232,7 +232,7 @@ def login_knowledge_factory(page_url):
 
 
 if __name__ == "__main__":
-    web_url = "http://k.caict.ac.cn/ekp/caict/km/zhaochengguo/kjcg/"
+    web_url = "http://k.caict.ac.cn/ekp/caict/km/pub/index.jsp?SiteId=11"
     time_start = time.time()
     # 启动浏览器，开始登陆知识工厂
     driver = webdriver.Firefox()
