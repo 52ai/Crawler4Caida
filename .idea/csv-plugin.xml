@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\074KZ-Net\rib.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
