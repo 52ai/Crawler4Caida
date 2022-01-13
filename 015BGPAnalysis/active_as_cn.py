@@ -84,14 +84,16 @@ def analysis(open_file):
             if as2country[as0] == "CN":
                 as_list.append(as0)
         except Exception as e:
-            print(e)
+            # print(e)
+            pass
 
         try:
             # print(as2country[as1])
             if as2country[as1] == "CN":
                 as_list.append(as1)
         except Exception as e:
-            print(e)
+            # print(e)
+            pass
     as_list = list(set(as_list))  # 先转换为字典，再转化为列表，速度还可以
     as_list.sort(key=lambda i: int(i))
     # print(as_list)
@@ -110,7 +112,7 @@ def draw(x_list, y_list, save_name):
     fig, ax = plt.subplots(1, 1, figsize=(30.0, 10.8))
     plt.xticks(rotation=90)
     tick_spacing = 4
-    title_string = "Global Active AS Graph(1998-2019) "
+    title_string = "CN Active AS Graph(1998-2019) "
     ax.set_title(title_string)
     ax.plot(x_list, y_list)
     ax.set_xlabel('Date')
@@ -142,9 +144,23 @@ if __name__ == "__main__":
         active_as.append(temp_list)
         print(temp_list)
         temp_list = []
-    # print(active_as)
+    print(active_as)
+    """
+    自动化处理，同比增长率
+    """
+    active_as_rate = []
+    for i in range(len(active_as)):
+        print(i)
+        date_string = active_as[i][0]
+        asn_count = active_as[i][1]
+        if i >= 12:
+            asn_rate = round((active_as[i][1]-active_as[i-12][1])/active_as[i-12][1], 3)
+            active_as_rate.append([date_string, asn_count, asn_rate])
     save_path = "./active_as_cn.csv"
     write_to_csv(active_as, save_path)
-    draw(x_list, y_list, "active_as_cn")
+    # draw(x_list, y_list, "active_as_cn")
+    print(active_as_rate)
+    save_path = "./active_as_cn_rate.csv"
+    write_to_csv(active_as_rate, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
