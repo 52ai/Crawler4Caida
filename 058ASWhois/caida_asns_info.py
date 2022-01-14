@@ -104,8 +104,6 @@ def count_org_info():
     """
     pass
 
-
-
 if __name__ == "__main__":
     time_start = time.time()  # 记录程序启动的时间
     gain_asns_info()

@@ -127,7 +127,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     active_as = []  # 记录活跃的as号
     file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-2"):
+    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
@@ -158,7 +158,7 @@ if __name__ == "__main__":
             active_as_rate.append([date_string, asn_count, asn_rate])
     save_path = "./active_as_cn.csv"
     write_to_csv(active_as, save_path)
-    # draw(x_list, y_list, "active_as_cn")
+    draw(x_list, y_list, "active_as_cn")
     print(active_as_rate)
     save_path = "./active_as_cn_rate.csv"
     write_to_csv(active_as_rate, save_path)

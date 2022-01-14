@@ -33,6 +33,8 @@
       <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/058ASWhois/caida_asns_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/058ASWhois/caida_asns_info.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
