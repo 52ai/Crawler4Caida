@@ -48,6 +48,9 @@ import time
 #from gql import gql, Client
 #from gql.transport.requests import RequestsHTTPTransport
 from graphqlclient import GraphQLClient
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 URL = "https://api.asrank.caida.org/v2/graphql"
 verbose = False
