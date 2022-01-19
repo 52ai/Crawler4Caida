@@ -45,8 +45,8 @@ import argparse
 import sys
 import json
 import time
-#from gql import gql, Client
-#from gql.transport.requests import RequestsHTTPTransport
+# from gql import gql, Client
+# from gql.transport.requests import RequestsHTTPTransport
 from graphqlclient import GraphQLClient
 import ssl
 
@@ -58,12 +58,14 @@ PAGE_SIZE = 10000
 decoder = json.JSONDecoder()
 encoder = json.JSONEncoder()
 
-#method to print how to run script
+
+# method to print how to run script
 def print_help():
-    print (sys.argv[0],"-u as-rank.caida.org/api/v1")
-    
+    print(sys.argv[0], "-u as-rank.caida.org/api/v1")
+
+
 ######################################################################
-## Parameters
+# Parameters
 ######################################################################
 parser = argparse.ArgumentParser()
 parser.add_argument("-v", dest="verbose", help="prints out lots of messages", action="store_true")
@@ -76,12 +78,13 @@ parser.add_argument("-u", dest="url", help="API URL (https://api.asrank.caida.or
 parser.add_argument("-d", dest="debug_limit", help="sets the number to download", type=int)
 args = parser.parse_args()
 
+
 ######################################################################
-## Main code
+#Main code
 ######################################################################
 def main():
     did_nothing = True
-    for fname,function in [
+    for fname, function in [
             [args.asns, AsnsQuery], 
             [args.organizations, OrganizationsQuery],
             [args.asnLinks, AsnLinksQuery]
@@ -94,8 +97,9 @@ def main():
         parser.print_help()
         sys.exit()
 
+
 ######################################################################
-## Walks the list until it is empty
+# Walks the list until it is empty
 ######################################################################
 def DownloadList(url, fname, function, debug_limit):
     hasNextPage = True
@@ -130,13 +134,14 @@ def DownloadList(url, fname, function, debug_limit):
             if debug_limit and debug_limit < offset:
                 hasNextPage = False
 
+
 def DownloadQuery(url, query):
     client = GraphQLClient(url)
     return decoder.decode(client.execute(query))
 
 
 ######################################################################
-## Queries
+# Queries
 ######################################################################
 
 def AsnsQuery(first,offset):
@@ -189,6 +194,7 @@ def AsnsQuery(first,offset):
     }""" % (first, offset)
     ]
 
+
 def OrganizationsQuery(first, offset):
     return [
         "organizations",
@@ -232,6 +238,7 @@ def OrganizationsQuery(first, offset):
     }""" % (first,offset)
     ]
 
+
 def AsnLinksQuery(first, offset):
     return [
         "asnLinks",
@@ -258,5 +265,5 @@ def AsnLinksQuery(first, offset):
     }"""  % (first, offset)
     ]
 
-#run the main method
+# run the main method
 main()
