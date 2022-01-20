@@ -29,17 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003Music163Spiders/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/003Music163Spiders/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/dfjrjgjyngovcn.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/gxtyngovcn.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/lswzyngovcn.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/wwwcnyigcom.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/wwwmryutop.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/wwwwsnewscomcn.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/wwwztgovcn.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/geckodriver.log" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -111,7 +101,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cheese">
+  <component name="RunManager" selected="Python.gain_site_v3">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,8 +232,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cheese" />
         <item itemvalue="Python.gain_site_v3" />
+        <item itemvalue="Python.cheese" />
         <item itemvalue="Python.gain_site" />
         <item itemvalue="Python.asrank-download" />
         <item itemvalue="Python.active_as_cn" />
