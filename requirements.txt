@@ -64,3 +64,5 @@ ujson~=4.0.2
 taichi~=0.7.25
 mayavi~=4.7.1+vtk82
 ipinfo~=4.2.1
+streamlit~=1.4.0
+playwright~=1.18.0

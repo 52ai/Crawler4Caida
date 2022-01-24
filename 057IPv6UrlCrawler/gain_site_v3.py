@@ -25,8 +25,8 @@ from urllib.parse import urlparse
 
 
 # 配置全局的路径信息
-sites_file = "../000LocalData/IPv6UrlCrawler/cqsites_20220119/site"
-result_dir = "../000LocalData/IPv6UrlCrawler/cqsites_20220119/"
+sites_file = "../000LocalData/IPv6UrlCrawler/cqsites_20220124/site"
+result_dir = "../000LocalData/IPv6UrlCrawler/cqsites_20220124/"
 
 
 def write_to_csv(res_list, des_path, title_list):
@@ -202,8 +202,8 @@ if __name__ == "__main__":
         result_url_list = []
         try:
             # 启动浏览器
-            driver = webdriver.Firefox(options=firefox_options)
-            # driver = webdriver.Firefox()
+            # driver = webdriver.Firefox(options=firefox_options)
+            driver = webdriver.Firefox()
             driver.maximize_window()
             result_url_list = gain_website_url(site_item)
             # 关闭浏览器
@@ -214,8 +214,8 @@ if __name__ == "__main__":
         if len(result_url_list) == 0:
             try:
                 # 启动浏览器
-                driver = webdriver.Firefox(options=firefox_options)
-                # driver = webdriver.Firefox()
+                # driver = webdriver.Firefox(options=firefox_options)
+                driver = webdriver.Firefox()
                 driver.maximize_window()
                 result_url_list = gain_website_url(site_item)
                 # 关闭浏览器
