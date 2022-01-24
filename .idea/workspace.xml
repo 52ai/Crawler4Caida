@@ -28,7 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="" />
+    <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/076Streamlit/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/requirements.txt" afterDir="false" />
+    </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,16 +82,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/076Streamlit" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\076Streamlit" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler\deploy" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\IPv6UrlCrawler\cqsites_20220119" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler" />
       <recent name="D:\Code\Crawler4Caida\074KZ-Net" />
-      <recent name="D:\Code\Crawler4Caida\024KnowlegeData" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida" />
