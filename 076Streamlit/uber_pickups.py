@@ -307,32 +307,26 @@ if add_select_box == 'MachineEyes':
         st.write("filename:", uploaded_file.name)
         st.write(bytes_data)
 
-    st.write("Using Camera Input")
-    picture = st.camera_input("Take a picture")
-    if picture:
-        st.image(picture)
-
-
-    st.subheader("Media")
-    with st.expander("See Detail"):
-        st.write("image")
-        image = Image.open("D:/Code/Crawler4Caida/076Streamlit/sunrise.png")
-        st.image(image, caption='Sunrise by the mountains')
-
-        st.subheader("audio")
-        audio_file = open('D:/Code/Crawler4Caida/076Streamlit/The Sounds Of Silence.mp3', 'rb')
-        audio_bytes = audio_file.read()
-        st.audio(audio_bytes, format='audio/mp3')
-
-        st.write("video")
-        video_file = open("D:/Code/Crawler4Caida/076Streamlit/star.mp4", "rb")
-        video_bytes = video_file.read()
-        st.video(video_bytes)
-
-
-
-
-
+    # st.write("Using Camera Input")
+    # picture = st.camera_input("Take a picture")
+    # if picture:
+    #     st.image(picture)
+    #
+    # st.subheader("Media")
+    # with st.expander("See Detail"):
+    #     st.write("image")
+    #     image = Image.open("D:/Code/Crawler4Caida/076Streamlit/sunrise.png")
+    #     st.image(image, caption='Sunrise by the mountains')
+    #
+    #     st.subheader("audio")
+    #     audio_file = open('D:/Code/Crawler4Caida/076Streamlit/The Sounds Of Silence.mp3', 'rb')
+    #     audio_bytes = audio_file.read()
+    #     st.audio(audio_bytes, format='audio/mp3')
+    #
+    #     st.write("video")
+    #     video_file = open("D:/Code/Crawler4Caida/076Streamlit/star.mp4", "rb")
+    #     video_bytes = video_file.read()
+    #     st.video(video_bytes)
 
     st.write("columns")
 
