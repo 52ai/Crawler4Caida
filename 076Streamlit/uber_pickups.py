@@ -162,25 +162,25 @@ if add_select_box == 'MachineEyes':
     ax.hist(arr, bins=20)
     st.pyplot(fig)
 
-    st.write("Using 3rd Plotly(Display an interactive Plotly chart)")
+    # st.write("Using 3rd Plotly(Display an interactive Plotly chart)")
+    #
+    # # Add histogram data
+    # x1 = np.random.randn(200) - 2
+    # x2 = np.random.randn(200)
+    # x3 = np.random.randn(200) + 2
+    #
+    # # Group data together
+    # hist_data = [x1, x2, x3]
+    #
+    # group_labels = ['Group 1', 'Group 2', 'Group 3']
+    #
+    # fig = ff.create_distplot(
+    #          hist_data, group_labels, bin_size=[.1, .25, .5])
+    #
+    # # Plot!
+    # st.plotly_chart(fig, use_container_width=True)
 
-    # Add histogram data
-    x1 = np.random.randn(200) - 2
-    x2 = np.random.randn(200)
-    x3 = np.random.randn(200) + 2
-
-    # Group data together
-    hist_data = [x1, x2, x3]
-
-    group_labels = ['Group 1', 'Group 2', 'Group 3']
-
-    fig = ff.create_distplot(
-             hist_data, group_labels, bin_size=[.1, .25, .5])
-
-    # Plot!
-    st.plotly_chart(fig, use_container_width=True)
-
-    st.write("The third party Chart also include Altair, Vega_lite, Bokeh, Pydeck, Graphviz.")
+    st.write("The third party Chart also include Altair, Vega_lite, Plotly, Bokeh, Pydeck, Graphviz.")
 
     st.subheader("Input Widgets")
     st.write("Using Button")
