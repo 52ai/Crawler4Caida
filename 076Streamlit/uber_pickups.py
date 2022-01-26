@@ -16,6 +16,7 @@ import datetime
 from PIL import Image
 import time
 from streamlit_option_menu import option_menu
+import streamlit_authenticator as stauth
 
 st.set_page_config(
      page_title="MachineEyes",
@@ -25,7 +26,7 @@ st.set_page_config(
      menu_items={
          'Get Help': 'http://www.mryu.top/',
          'Report a bug': "http://www.mryu.top/",
-         'About': "Eyes of the Machine Senses Everything of Network."
+         'About': "MachineEyes v1.0. Eyes of the Machine Senses Everything of Network.This app is developed by Wayne YU."
      }
  )
 
@@ -35,9 +36,31 @@ with st.sidebar:
         ["48hours", "Monthly", "Archive", 'Visualization', 'User'],
         icons=['alarm', 'calendar2-month', "list-task", 'graph-up-arrow', 'heart'],
         menu_icon="cast",
-        default_index=1)
+        default_index=0)
 
+# Session Initialization
+if 'authentication_status' not in st.session_state:
+    st.session_state['authentication_status'] = None
+
+
+st.session_state.menu = selected
 st.write("You select %s Menu" % selected)
+st.write("Session:", st.session_state)
+
+names = ['John Smith', 'Rebecca Briggs']
+usernames = ['jsmith', 'rbriggs']
+passwords = ['123', '456']
+hashed_passwords = stauth.hasher(passwords).generate()
+authenticator = stauth.authenticate(names, usernames, hashed_passwords,
+                                    'some_cookie_name', 'some_signature_key', cookie_expiry_days=30)
+name, authentication_status = authenticator.login('login', 'sidebar')
+if authentication_status:
+    st.sidebar.write('Welcome *%s*' % name)
+elif authentication_status is False:
+    st.sidebar.error("Username/password is incorrect")
+elif authentication_status is None:
+    st.sidebar.warning("Please enter your username and password.")
+
 
 if selected == '48hours':
     str_markdown = "##### GoCN 每日新闻（2022-01-04）\n" \
@@ -50,9 +73,9 @@ if selected == '48hours':
                    "- 订阅新闻: http://tinyletter.com/gocn\n" \
                    "- 招聘专区: https://gocn.vip/jobs\n" \
                    "- GoCN 归档: https://gocn.vip/topics/20927"
-
     st.markdown(str_markdown)
 elif selected == "User":
     pass
 else:
     pass
+
