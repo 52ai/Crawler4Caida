@@ -1,10 +1,11 @@
 # coding:utf-8
 """
-create on Jan 24, 2022 By Wenyan YU
+create on Jan 27, 2022 By Wenyan YU
 
 Function:
 
-My first data web app using Streamlit
+Build MachineEyes Architecture
+
 
 """
 import streamlit as st
@@ -52,6 +53,23 @@ with st.sidebar:
 # Session Initialization
 if 'authentication_status' not in st.session_state:
     st.session_state['authentication_status'] = None
+
+
+# Session Mysql Connection
+def init_connection():
+    return mysql.connector.connect(**st.secrets["mysql"])
+
+
+conn = init_connection()
+
+
+# Perform query
+# Uses st.cache to only rerun when the query changes or after 10min
+@st.cache(ttl=600)
+def run_query(query):
+    with conn.cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
 
 
 st.session_state.menu = selected
@@ -215,7 +233,11 @@ if selected == '48hours':
             st.write("Performance")
             st.write("Rate")
 elif selected == "User":
-    pass
+    st.subheader("Test Mysql Connect")
+    rows = run_query("select * from mytable;")
+    # print results.
+    for row in rows:
+        st.write(f"{row[0]} has a :{row[1]}:")
 else:
     pass
 

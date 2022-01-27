@@ -2,4 +2,5 @@
 000LocalData/*
 013Countries_ASNs/data/*
 .idea/workspace.xml
+.streamlit/*
 

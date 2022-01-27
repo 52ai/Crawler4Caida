@@ -29,6 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/076Streamlit/machine_eyes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Crawler4Caida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Crawler4Caida.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/076Streamlit/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/076Streamlit/uber_pickups.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/uber_pickups.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -88,10 +93,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\076Streamlit" />
+      <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler\deploy" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\IPv6UrlCrawler\cqsites_20220119" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler" />
-      <recent name="D:\Code\Crawler4Caida\074KZ-Net" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida" />
