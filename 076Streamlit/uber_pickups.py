@@ -38,6 +38,15 @@ with st.sidebar:
         menu_icon="cast",
         default_index=0)
 
+    st.sidebar.markdown("---")
+    st.sidebar.markdown(
+        """
+        [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=15 height=15>](https://github.com/52ai)
+         <small> MachineEyes 0.1.0 | Jan 2022</small>""",
+        unsafe_allow_html=True,
+    )
+
+
 # Session Initialization
 if 'authentication_status' not in st.session_state:
     st.session_state['authentication_status'] = None
@@ -61,8 +70,21 @@ elif authentication_status is False:
 elif authentication_status is None:
     st.sidebar.warning("Please enter your username and password.")
 
-
 if selected == '48hours':
+    st.title("**Welcome to MachineEyes 🧪**")
+    st.subheader(
+        """
+        Eyes of the Machine Senses Everything of Network.
+        """
+    )
+
+    st.markdown(
+        """
+    - 🗂️ Choose a dataset
+    - ⚙️ Pick a model and set its hyper-parameters
+    - 📉 Train it and check its performance metrics and decision boundary on train and test data
+    - 🩺 Diagnose possible overitting and experiment with other settings
+    """)
     with st.expander("2022-01-25T09:14:39+00:00", True):
         col1, col2 = st.columns([2, 1])
         with col1:
