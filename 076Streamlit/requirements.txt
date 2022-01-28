@@ -7,3 +7,4 @@ Pillow~=9.0.0
 streamlit-option-menu~=0.2.10
 streamlit-authenticator~=0.1.0
 mysql-connector-python~=8.0.28
+hydralit~=1.0.10

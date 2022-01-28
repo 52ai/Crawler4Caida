@@ -6,7 +6,6 @@ Function:
 
 Build MachineEyes Architecture
 
-
 """
 import streamlit as st
 import pandas as pd
@@ -19,6 +18,7 @@ import time
 from streamlit_option_menu import option_menu
 import streamlit_authenticator as stauth
 import mysql.connector
+
 
 st.set_page_config(
      page_title="MachineEyes",
@@ -57,7 +57,7 @@ if 'authentication_status' not in st.session_state:
 
 # Session Mysql Connection
 def init_connection():
-    return mysql.connector.connect(**st.secrets["mysql"])
+    return mysql.connector.connect(**st.secrets["mysql_vm"])
 
 
 conn = init_connection()
