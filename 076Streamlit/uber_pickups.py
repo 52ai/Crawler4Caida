@@ -58,9 +58,9 @@ st.session_state.menu = selected
 st.write("You select %s Menu" % selected)
 # st.write("Session:", st.session_state)
 
-names = ['John Smith', 'Rebecca Briggs']
-usernames = ['jsmith', 'rbriggs']
-passwords = ['123', '456']
+names = ['John Smith', 'Rebecca Briggs', 'Wayne YU']
+usernames = ['jsmith', 'rbriggs', 'wayne']
+passwords = ['123', '456', '789']
 hashed_passwords = stauth.hasher(passwords).generate()
 authenticator = stauth.authenticate(names, usernames, hashed_passwords,
                                     'some_cookie_name', 'some_signature_key', cookie_expiry_days=30)
@@ -82,10 +82,10 @@ if selected == '48hours':
 
     st.markdown(
         """
-    - create on Feb 8, 2022 By Wenyan YU
+    - create on Feb 8, 2022 By Wayne YU
     - Internet Network Interruption News Crawler
-    - Global Internet network BGP control information
-    - Global Internet network data surface detection
+    - Global Internet network control plane information (BGP)
+    - Global Internet network data plane detection (PING/TRACEROUTE)
     """)
     with st.expander("2022-01-25T09:14:39+00:00", True):
         col1, col2 = st.columns([2, 1])
@@ -94,7 +94,7 @@ if selected == '48hours':
             st.write("Yemen’s internet has been restored after a four-day outage. Internet service has been disrupted as a result of strikes on a telecommunications facility in Hudaydah by a Saudi-led coalition. Yemeni capital SANAA According to local residents, Internet service was restored in Yemen early Tuesday after a four-day outage. After Saudi-led coalition airstrikes targeted a telecommunications [...]")
             st.write("https://infosurhoy.com/news/yemeni-internet-has-been-restored-after-a-four-day-outage/")
         with col2:
-            st.image("https://infosurhoy.com/wp-content/uploads/newsimages1/thumbs_b_c_bb407951ff2ea006e84dbbbbbaaab1ba.jpg")
+            st.image("https://nation.com.pk/digital_images/large/2022-01-25/internet-restored-in-yemen-after-4-day-outage-1643122457-5396.png")
             if st.button('like', key=1):
                 st.write('Great!')
             st.write("BGP Monitor State")
