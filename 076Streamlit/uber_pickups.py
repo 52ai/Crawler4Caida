@@ -82,10 +82,10 @@ if selected == '48hours':
 
     st.markdown(
         """
-    - 🗂️ create on Feb 8, 2022 By Wenyan YU
-    - ⚙  Internet Network Interruption News Craweper
-    - 📉  Global Internet network BGP control information
-    - 🩺 Global Internet network data surface detection
+    - create on Feb 8, 2022 By Wenyan YU
+    - Internet Network Interruption News Crawler
+    - Global Internet network BGP control information
+    - Global Internet network data surface detection
     """)
     with st.expander("2022-01-25T09:14:39+00:00", True):
         col1, col2 = st.columns([2, 1])
