@@ -44,7 +44,7 @@ with st.sidebar:
     st.sidebar.markdown(
         """
         [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=15 height=15>](https://github.com/52ai)
-         <small> MachineEyes 0.1.0 | Jan 2022</small>""",
+         <small> MachineEyes 0.1.0 | Feb 2022</small>""",
         unsafe_allow_html=True,
     )
 
