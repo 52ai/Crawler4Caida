@@ -71,7 +71,7 @@ def gain_inner_url(page_url):
     处理逻辑3：根据站点地址，提取主域，按照主域去提取内链。（同时剔除了外链和无效链接）
     """
     driver.get(page_url)
-    time.sleep(1)  # 延迟加载，等待页面加载完毕
+    time.sleep(5)  # 延迟加载，等待页面加载完毕
     page_html = driver.page_source
     bs_obj = BeautifulSoup(page_html, "html5lib")
     all_url_list = bs_obj.findAll("a")  # 存储全部的原始超链
@@ -140,11 +140,11 @@ def gain_website_url(site_url):
     for item in stage2url_list_inner:
         try:
             # 设置最长等待时间
-            driver.set_page_load_timeout(3)
-            driver.set_script_timeout(3)
+            driver.set_page_load_timeout(5)
+            driver.set_script_timeout(5)
             print("当前访问二级链：", item)
             driver.get(item)
-            time.sleep(2)  # 延迟加载，等待页面加载完毕
+            time.sleep(5)  # 延迟加载，等待页面加载完毕
         except Exception as e:
             print("访问二级链超时：", e)
             driver.execute_script('window.stop()')
