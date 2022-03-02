@@ -514,3 +514,21 @@ JavaScript error: http://www.xsbn.gov.cn/index.dhtml, line 1517: TypeError: $(..
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1646121020409	geckodriver	INFO	Listening on 127.0.0.1:11162
+1646121023498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofiletnSv8i"
+1646121023969	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofiletnSv8i\\search.json.mozlz4", (void 0)))
+1646121025984	Marionette	INFO	Listening on port 11174
+1646121026253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646121089857	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646121185371	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646121848226	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.xsbn.gov.cn/xsbnscjdglj/resource/js/jquery.treeview.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.xsbn.gov.cn/xsbnscjdglj/resource/js/jquery.treeview.js, line 1: SyntaxError: expected expression, got '<'
+1646122706788	Marionette	INFO	Stopped listening on port 11174
+[Parent 22228, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 22228, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 22228, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

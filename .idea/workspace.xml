@@ -29,10 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis_tier1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/gain_site.py" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/gain_site.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/wwwxsbngovcn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/wwwxsbngovcn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/playwright_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/playwright_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-chromium.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-chromium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-firefox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-webkit.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-webkit.png" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -85,16 +90,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/076Streamlit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/077RU&amp;UA" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\077RU&amp;UA" />
       <recent name="D:\Code\Crawler4Caida\076Streamlit" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler\deploy" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\IPv6UrlCrawler\cqsites_20220119" />
-      <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida" />
@@ -104,7 +109,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gain_site">
+  <component name="RunManager" selected="Python.external_as_analysis_tier1">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +126,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="gain_site" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="external_as_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/gain_site.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gain_site_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="external_as_analysis_tier1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/057IPv6UrlCrawler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis_tier1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ix2yiwen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="external_as_analysis_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +176,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/071IX2YiWen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/071IX2YiWen/ix2yiwen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="external_as_analysis_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,41 +231,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playwright_multi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/075Playwright" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/075Playwright/playwright_multi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.gain_site_v3" />
-      <item itemvalue="Python.ix2yiwen" />
       <item itemvalue="Python.playwright_demo" />
-      <item itemvalue="Python.playwright_multi" />
-      <item itemvalue="Python.gain_site" />
+      <item itemvalue="Python.external_as_analysis_v2" />
+      <item itemvalue="Python.external_as_analysis" />
+      <item itemvalue="Python.external_as_analysis_v3" />
+      <item itemvalue="Python.external_as_analysis_tier1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gain_site" />
-        <item itemvalue="Python.ix2yiwen" />
-        <item itemvalue="Python.gain_site_v3" />
+        <item itemvalue="Python.external_as_analysis_tier1" />
+        <item itemvalue="Python.external_as_analysis" />
+        <item itemvalue="Python.external_as_analysis_v3" />
+        <item itemvalue="Python.external_as_analysis_v2" />
         <item itemvalue="Python.playwright_demo" />
-        <item itemvalue="Python.playwright_multi" />
       </list>
     </recent_temporary>
   </component>

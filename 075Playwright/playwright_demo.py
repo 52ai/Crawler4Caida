@@ -20,7 +20,7 @@ with sync_playwright() as p:
         browser = browser_type.launch(headless=False)
         page = browser.new_page()
         page.goto('https://www.baidu.com')
-        # print(page.content())
+        print(page.content())
         page.screenshot(path=f'screenshot-{browser_type.name}.png')
         print(page.title())
         browser.close()
