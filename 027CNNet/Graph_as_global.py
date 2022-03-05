@@ -30,7 +30,7 @@ def read_as_info(file_name):
     file_read = open(file_name, 'r', encoding='utf-8')
     as_list = []
     # 中日韩
-    country_group = ["CN", "JP", "KR"]
+    country_group = ["CN", "RU", "UA"]
     # 中国-东盟10国文莱（BN）、柬埔寨（KH）、印度尼西亚（ID）、老挝（LA）、马来西亚（MY）、缅甸（MM）、菲律宾(PH)、新加坡(SG)、泰国(TH)、越南(VN)
     # country_group = ["CN", "BN", "KH", "ID", "LA", "MY", "MM", "PH", "SG", "TH", "VN"]
 
@@ -102,7 +102,7 @@ def graph_weibo(title_name) -> Graph:
     # bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\20200201.as-rel.txt"
 
     file_in = '..\\000LocalData\\as_cn\\as_map_gao_20200221.csv'
-    bgp_file = "..\\000LocalData\\as_Gao\\as_rel_gao_20200221_dict_up.txt"
+    bgp_file = "..\\000LocalData\\as_relationships\\serial-1\\20220101.as-rel.txt"
     as_info_dict, as_list, categories_dict = read_as_info(file_in)
     print("nodes:", len(as_info_dict))
     print("categories:", len(categories_dict))
@@ -148,5 +148,5 @@ def graph_weibo(title_name) -> Graph:
     return c
 
 
-opt_title_name = "Graph-中日韩AS网络互联关系拓扑图（2020-Gao）"
-graph_weibo(opt_title_name).render("..\\000LocalData\\as_cn\\graph_cjk_gao.html")
+opt_title_name = "Graph-中俄乌AS网络互联关系拓扑图（2022）"
+graph_weibo(opt_title_name).render("..\\000LocalData\\as_cn\\graph_cru_gao.html")

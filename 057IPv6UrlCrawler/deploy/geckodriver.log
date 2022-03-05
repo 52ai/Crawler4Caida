@@ -532,3 +532,115 @@ JavaScript error: https://www.xsbn.gov.cn/xsbnscjdglj/resource/js/jquery.treevie
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1646288098615	geckodriver	INFO	Listening on 127.0.0.1:5691
+1646288101696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileD8zcgP"
+1646288102156	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileD8zcgP\\search.json.mozlz4", (void 0)))
+1646288104237	Marionette	INFO	Listening on port 5718
+1646288104479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1646288113783	Marionette	INFO	Stopped listening on port 5718
+[Parent 22468, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1646288113884	geckodriver	INFO	Listening on 127.0.0.1:5838
+le server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1646288140143	geckodriver	INFO	Listening on 127.0.0.1:11278
+1646288143189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofile6NIW2t"
+1646288143677	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofile6NIW2t\\search.json.mozlz4", (void 0)))
+1646288145961	Marionette	INFO	Listening on port 8276
+1646288146454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646288292820	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646288828473	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646288910619	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646289093878	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.xsbn.gov.cn/xsbnscjdglj/resource/js/jquery.treeview.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.xsbn.gov.cn/xsbnscjdglj/resource/js/jquery.treeview.js, line 1: SyntaxError: expected expression, got '<'
+1646289823530	Marionette	INFO	Stopped listening on port 8276
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646294207478	geckodriver	INFO	Listening on 127.0.0.1:12767
+1646294210564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilee1GTqw"
+1646294211047	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilee1GTqw\\search.json.mozlz4", (void 0)))
+1646294213092	Marionette	INFO	Listening on port 12784
+1646294213304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://www.jhs.gov.cn/130.news.detail.dhtml?news_id=107206, line 256: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.jhs.gov.cn/130.news.detail.dhtml?news_id=107206, line 256: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.jhs.gov.cn/156.news.detail.dhtml?news_id=107223, line 256: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.jhs.gov.cn/156.news.detail.dhtml?news_id=107223, line 256: TypeError: document.getElementById(...) is null
+1646294907847	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646295340724	Marionette	INFO	Stopped listening on port 12784
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646295905912	geckodriver	INFO	Listening on 127.0.0.1:4115
+1646295908945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilelv0Ih3"
+1646295909386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilelv0Ih3\\search.json.mozlz4", (void 0)))
+1646295911554	Marionette	INFO	Listening on port 4129
+1646295911694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1646296246099	Marionette	INFO	Stopped listening on port 4129
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilenMwuzl"
+1646296215637	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilenMwuzl\\search.json.mozlz4", (void 0)))
+1646296217906	Marionette	INFO	Listening on port 12524
+1646296218420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646296245218	Marionette	INFO	Stopped listening on port 12524
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 24252, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 24252, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 24252, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646296259799	geckodriver	INFO	Listening on 127.0.0.1:12714
+1646296262881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofile08O827"
+1646296263351	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofile08O827\\search.json.mozlz4", (void 0)))
+1646296265520	Marionette	INFO	Listening on port 12723
+1646296265654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1646303282740	Marionette	INFO	Stopped listening on port 12723
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+[2022-03-03T10:28:02Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 3, kind: NotFound, message: "系统找不到指定的路径。" })) }
+.ajax.request is not a function
+JavaScript error: https://www.jhs.gov.cn/130.news.detail.dhtml?news_id=107206, line 256: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.jhs.gov.cn/130.news.detail.dhtml?news_id=107206, line 256: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.jhs.gov.cn/156.news.detail.dhtml?news_id=107223, line 256: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.jhs.gov.cn/156.news.detail.dhtml?news_id=107223, line 256: TypeError: document.getElementById(...) is null
+1646297204434	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646297341953	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646297529536	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646297680965	Marionette	INFO	Stopped listening on port 5979
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 22504, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 22504, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 22504, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
