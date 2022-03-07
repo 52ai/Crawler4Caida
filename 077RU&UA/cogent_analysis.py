@@ -31,14 +31,16 @@ def gain_as2country():
     return as2country
 
 
-def rib_analysis():
+def rib_analysis(rib_file):
     """
     分析RIB信息，发现Cogent(AS174)与俄网络的互联关系
+    :param rib_file:
     :return:
     """
     as2country_dic = gain_as2country()
-    print("AS12389's Country:", as2country_dic['12389'])
-    rib_file = "..\\000LocalData\\RU&UA\\z0215.txt"
+    # print("AS12389's Country:", as2country_dic['12389'])
+    result_list = []
+
     file_read = open(rib_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("|")
@@ -54,17 +56,27 @@ def rib_analysis():
                 try:
                     if as_path[i] == "174":
                         if as2country_dic[as_path[i+1]] == "RU":
-                            print(as_path[i], as_path[i+1])
+                            # print(as_path[i], as_path[i+1])
+                            result_list.append([as_path[i], as_path[i+1]])
                     if as_path[i+1] == "174":
                         if as2country_dic[as_path[i]] == "RU":
-                            print(as_path[i], as_path[i+1])
+                            # print(as_path[i], as_path[i+1])
+                            result_list.append([as_path[i], as_path[i + 1]])
                 except Exception as e:
                     # print(e)
                     pass
+    print(rib_file, "路径数量：", len(result_list))
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    rib_analysis()
+    file_path = []
+    for root, dirs, files in os.walk("..\\000LocalData\\RU&UA\\rib"):
+        for file_item in files:
+            file_path.append(os.path.join(root, file_item))
+    print(file_path)
+
+    for path_item in file_path:
+        rib_analysis(path_item)
     time_end = time.time()
-    print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
+    # print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

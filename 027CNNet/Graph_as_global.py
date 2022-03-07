@@ -30,7 +30,7 @@ def read_as_info(file_name):
     file_read = open(file_name, 'r', encoding='utf-8')
     as_list = []
     # 中日韩
-    country_group = ["CN", "RU", "UA"]
+    country_group = ["RU", "UA"]
     # 中国-东盟10国文莱（BN）、柬埔寨（KH）、印度尼西亚（ID）、老挝（LA）、马来西亚（MY）、缅甸（MM）、菲律宾(PH)、新加坡(SG)、泰国(TH)、越南(VN)
     # country_group = ["CN", "BN", "KH", "ID", "LA", "MY", "MM", "PH", "SG", "TH", "VN"]
 
@@ -148,5 +148,5 @@ def graph_weibo(title_name) -> Graph:
     return c
 
 
-opt_title_name = "Graph-中俄乌AS网络互联关系拓扑图（2022）"
-graph_weibo(opt_title_name).render("..\\000LocalData\\as_cn\\graph_cru_gao.html")
+opt_title_name = "Graph-俄乌AS网络互联关系拓扑图（2022）"
+graph_weibo(opt_title_name).render("..\\000LocalData\\as_cn\\graph_ru.html")
