@@ -29,13 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/Tier1_as.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/Tier1_as_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/Tier1_as_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/rib_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/027CNNet/Graph_as_global.py" beforeDir="false" afterPath="$PROJECT_DIR$/027CNNet/Graph_as_global.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/cogent_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/cogent_analysis.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -107,7 +101,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Tier1_as_v3">
+  <component name="RunManager" selected="Python.external_as_analysis_tier1">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,15 +225,15 @@
     </configuration>
     <list>
       <item itemvalue="Python.Tier1_as" />
-      <item itemvalue="Python.rib_analysis (1)" />
       <item itemvalue="Python.Tier1_as_v2" />
-      <item itemvalue="Python.external_as_analysis_tier1" />
       <item itemvalue="Python.Tier1_as_v3" />
+      <item itemvalue="Python.external_as_analysis_tier1" />
+      <item itemvalue="Python.rib_analysis (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Tier1_as_v3" />
         <item itemvalue="Python.external_as_analysis_tier1" />
+        <item itemvalue="Python.Tier1_as_v3" />
         <item itemvalue="Python.Tier1_as_v2" />
         <item itemvalue="Python.Tier1_as" />
         <item itemvalue="Python.rib_analysis (1)" />
