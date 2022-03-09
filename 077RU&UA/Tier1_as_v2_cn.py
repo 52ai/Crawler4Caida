@@ -11,7 +11,6 @@ V2，修改策略
 Tier1断俄罗斯的直联的影响，需要关联分析
 
 
-V3,处理北美的数据
 
 """
 
@@ -75,12 +74,12 @@ def rib_analysis(rib_file):
 
     # tier1_list = ['174']
 
-    tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
 
-    # tier1_list = ['3356', '174', '2914', '6939', '3257',
-    #               '701', '7018', '1239', '3549', '7922',
-    #               '3320', '6830', '5511', '3491', '6762',
-    #               '1299', '12956', '6461']
+    tier1_list = ['3356', '174', '2914', '6939', '3257',
+                  '701', '7018', '1239', '3549', '7922',
+                  '3320', '6830', '5511', '3491', '6762',
+                  '1299', '12956', '6461']
 
     """
     1）统计所有AS网络的路径, 统计所有AS网络的IP地址数量    
@@ -93,7 +92,6 @@ def rib_analysis(rib_file):
     file_read = open(rib_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("|")
-        # print(line)
         v4_prefix = line[5]
         as_path = line[-2].split(" ")
         origin_as = as_path[-1]
@@ -172,12 +170,12 @@ def rib_analysis(rib_file):
         result_list_final.append([asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate)])
         print([asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate)])
 
-    write_to_csv(result_list_final, "..\\000LocalData\\RU&UA\\result_final_v3.txt")
+    write_to_csv(result_list_final, "..\\000LocalData\\RU&UA\\result_final_v2.txt")
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    path_item = "..\\000LocalData\\RU&UA\\rib_beimei\\Gao0305.txt"
+    path_item = "..\\000LocalData\\RU&UA\\rib\\z0224.txt"
     rib_analysis(path_item)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

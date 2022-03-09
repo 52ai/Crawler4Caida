@@ -103,8 +103,8 @@ if __name__ == "__main__":
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
-    print("从中国出发，统计经Cogent去往俄罗斯的路径数量")
-    for path_item in file_path[-3:]:
+    print("从中国出发，统计经某Tier1去往俄罗斯的路径数量")
+    for path_item in file_path[-7:]:
         rib_analysis(path_item)
     time_end = time.time()
     # print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
