@@ -22,6 +22,7 @@ def analysis():
     print(ip_num)
     print("中断前缀去重前IP量:", len(ip_list))
     print("中断前缀去重后IP量:", len(set(ip_list)))
+    print("中断前缀去重后IP量占俄罗斯比例:", len(set(ip_list))/47618142)
 
 
 if __name__ == "__main__":

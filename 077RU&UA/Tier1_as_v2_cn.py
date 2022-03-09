@@ -10,7 +10,11 @@ Function:
 V2，修改策略
 Tier1断俄罗斯的直联的影响，需要关联分析
 
+V2_cn，推广至CN，或其他国家
+1）将RU，推广至CN，即去往全球各网络的路径数量，其中需要经Tier1的路径数量，取一个比例，进而推算每个网络受影响的比例
+2）地址量计算，存在大小段重复统计的问题，可以做一些特殊的处理，先散列成IP，再做去重
 
+结论：分析中国的结论，需要重新搞，这个通过路径的思路也存在问题
 
 """
 
@@ -60,29 +64,27 @@ def gain_as2country():
 
 def rib_analysis(rib_file):
     """
-    分析RIB信息，发现Cogent(AS174)与俄网络的互联关系
+    分析RIB信息，分析经Tier1与其他国家的互联关系
     :param rib_file:
     :return:
     """
     as2country_dic = gain_as2country()
     print("AS12389's Country:", as2country_dic['12389'])
 
-    # tier1_list = ['7018', '3320', '3257', '6830', '3356',
-    #               '2914', '5511', '3491', '1239', '6453',
-    #               '6762', '1299', '12956', '701', '6461',
-    #               '174']
-
     # tier1_list = ['174']
 
-    # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
+    tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
 
-    tier1_list = ['3356', '174', '2914', '6939', '3257',
-                  '701', '7018', '1239', '3549', '7922',
-                  '3320', '6830', '5511', '3491', '6762',
-                  '1299', '12956', '6461']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257',
+    #               '701', '7018', '1239', '3549', '7922',
+    #               '3320', '6830', '5511', '3491', '6762',
+    #               '1299', '12956', '6461']
+
+    analysis_country = "CN"
+    print("Analysis Country:", analysis_country)
 
     """
-    1）统计所有AS网络的路径, 统计所有AS网络的IP地址数量    
+    1）统计到达所有AS网络前缀及其路径
     """
     as_dict = {}
     """
@@ -94,6 +96,8 @@ def rib_analysis(rib_file):
         line = line.strip().split("|")
         v4_prefix = line[5]
         as_path = line[-2].split(" ")
+        if as_path[0] != "4837":
+            continue
         origin_as = as_path[-1]
         # print(origin_as, v4_prefix, as_path)
         if origin_as not in as_dict.keys():
@@ -129,17 +133,17 @@ def rib_analysis(rib_file):
                 v4_prefix_list.append(v4_prefix)
             all_path += 1  # 全部路径数量自增1
             """
-            需要关联Tier1与俄网络的直联关系
+            需要关联Tier1与某国家网络的直联关系
             """
             if set(as_path).intersection(set(tier1_list)):
                 for i in range(0, len(as_path) - 1):
                     try:
                         if as_path[i] in tier1_list:
-                            if as2country_dic[as_path[i+1]] == "RU":
+                            if as2country_dic[as_path[i+1]] == analysis_country:
                                 tier1_path += 1
 
                         if as_path[i+1] in tier1_list:
-                            if as2country_dic[as_path[i]] == "RU":
+                            if as2country_dic[as_path[i]] == analysis_country:
                                 tier1_path += 1
                     except Exception as e:
                         pass
@@ -170,7 +174,7 @@ def rib_analysis(rib_file):
         result_list_final.append([asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate)])
         print([asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate)])
 
-    write_to_csv(result_list_final, "..\\000LocalData\\RU&UA\\result_final_v2.txt")
+    write_to_csv(result_list_final, "..\\000LocalData\\RU&UA\\result_final_v2_cn.txt")
 
 
 if __name__ == "__main__":
