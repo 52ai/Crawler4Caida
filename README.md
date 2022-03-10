@@ -54,6 +54,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 2022年，注定是深刻变革的一年，我应携”正念禅修“之精髓，努力完成人生的漂亮转折。---20220104 By Wenyan YU<br>
 隔几日不编程，生活便少了很多的乐趣，目前的编程还比较零散，2022应当围绕一个网络产品不断的迭代更新。---20220111 By Wenyan YU<br>
 编程有趣，但目前尚缺乏系统性的工具开发和维护。---20220113 By Wenyan YU<br>
+破局之年也勿忘诗意的栖居。---20220310 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
