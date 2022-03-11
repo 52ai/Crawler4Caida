@@ -84,6 +84,7 @@ def external_as_analysis(country, as2country):
         external_cnt = 0  # 存储该国出口连边的数量
         external_as_list = []  # 存储出口AS
         external_country_list = []  # 存储该国出口方向的国家
+        external_as_out_list = []  # 存储与该国互联的国外网络数量
         for line in file_read.readlines():
             if line.strip().find("#") == 0:
                 continue
@@ -93,11 +94,13 @@ def external_as_analysis(country, as2country):
                         external_cnt += 1
                         external_as_list.append(str(line.strip().split('|')[0]))
                         external_country_list.append(as2country[str(line.strip().split('|')[1])])
+                        external_as_out_list.append(str(line.strip().split('|')[1]))
                 else:
                     if as2country[str(line.strip().split('|')[1])] == country:
                         external_cnt += 1
                         external_as_list.append(str(line.strip().split('|')[1]))
                         external_country_list.append(as2country[str(line.strip().split('|')[0])])
+                        external_as_out_list.append(str(line.strip().split('|')[0]))
 
             except Exception as e:
                 pass
@@ -105,6 +108,7 @@ def external_as_analysis(country, as2country):
         print("External Edges Count:", external_cnt)
         print("External AS Count:", len(external_as_list))
         print("External Country Count:", len(list(set(external_country_list))))
+        print("External AS Count other Country:", len(list(set(external_as_out_list))))
 
         # 统计互联国家方向的排名
         external_country_rank = {}
@@ -165,7 +169,8 @@ def draw_bar(rank_list, country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country_to_analysis = ["RU", "KZ", "KG", "TJ", "UZ", "TM", "UA", "CN"]
+    # country_to_analysis = ["RU", "KZ", "KG", "TJ", "UZ", "TM", "UA", "CN"]
+    country_to_analysis = ["RU", "UA", "CN"]
     as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
     as2country_dict = gain_as2country(as_info_file_in)
     for country_item in country_to_analysis:
