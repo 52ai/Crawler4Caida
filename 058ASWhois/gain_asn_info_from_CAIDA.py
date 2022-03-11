@@ -41,7 +41,7 @@ def gain_asn_info():
     根据asns.jsonl获取需要的asn信息
     :return:
     """
-    asns_file = "../035NetwrokSimulation/asrank/asns.jsonl"
+    asns_file = "../000LocalData/as_rank_caida/asns.jsonl"
     asn_info_result = []  # 存储asn基础信息
     with jsonlines.open(asns_file) as file_read:
         for obj in file_read:
