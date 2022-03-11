@@ -265,5 +265,12 @@ def AsnLinksQuery(first, offset):
     }"""  % (first, offset)
     ]
 
+
 # run the main method
 main()
+
+"""
+终端运行命令：
+python asrank-download.py -v -a asns.jsonl -o organizations.jsonl -l asnLinks.jsonl -u https://api.asrank.caida.org/v2/graphql
+python asrank-download.py -v -a asns.jsonl -u https://api.asrank.caida.org/v2/graphql
+"""

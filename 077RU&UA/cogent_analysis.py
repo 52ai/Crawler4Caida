@@ -35,7 +35,7 @@ def write_to_csv(res_list, des_path):
 
 def gain_as2country():
     """
-    获取as对应的国家信息
+    根据Gao asninfo获取as对应的国家信息
     :return as2country:
     """
     as_info_file = '..\\000LocalData\\as_Gao\\asn_info.txt'
@@ -51,6 +51,23 @@ def gain_as2country():
     return as2country
 
 
+def gain_as2country_caida():
+    """
+    根据Caida asninfo获取as对应的国家信息
+    :return as2country:
+    """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
+    as2country = {}  # 存储as号到country的映射关系
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        as_number = line[0]
+        as_country = line[-1]
+        as2country[as_number] = as_country
+    return as2country
+
+
 def rib_analysis(rib_file):
     """
     分析RIB信息，发现Cogent(AS174)与俄网络的互联关系
@@ -62,6 +79,7 @@ def rib_analysis(rib_file):
     by_as = "174"
     aim_country = "RU"
     result_list = []
+    except_asinfo = []  # 存储缺失的asninfo
     file_read = open(rib_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("|")
@@ -90,7 +108,8 @@ def rib_analysis(rib_file):
                             result_list.append(temp_line)
                 except Exception as e:
                     # print(e)
-                    pass
+                    except_asinfo.append(e)
+    # print("ASN缺失信息统计:", len(set(except_asinfo)))
     print("2022"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z"), "路径数量：", len(result_list))
     result_file = "..\\000LocalData\\RU&UA\\as_path_statistic\\"+"result_"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z")+".txt"
     write_to_csv(result_list, result_file)
