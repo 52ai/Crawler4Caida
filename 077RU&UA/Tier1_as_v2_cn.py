@@ -1,7 +1,7 @@
 # coding:utf-8
 
 """
-create on Mar 7, 2020 by Wayne YU
+create on Mar 7, 2022 by Wayne YU
 Function:
 
 从中国、北美出发去往俄罗斯的网络，统计其中经Cogent（即Tier1）中的占的比例，进而分析全球AS网络受影响的比例
