@@ -74,9 +74,9 @@ def rib_analysis(rib_file):
     :param rib_file:
     :return:
     """
-    as2country_dic = gain_as2country()
+    as2country_dic = gain_as2country_caida()
     # print("AS12389's Country:", as2country_dic['12389'])
-    by_as = "174"
+    by_as = "3356"
     aim_country = "RU"
     result_list = []
     except_asinfo = []  # 存储缺失的asninfo
@@ -109,7 +109,7 @@ def rib_analysis(rib_file):
                 except Exception as e:
                     # print(e)
                     except_asinfo.append(e)
-    # print("ASN缺失信息统计:", len(set(except_asinfo)))
+    print("ASN缺失信息统计:", len(set(except_asinfo)))
     print("2022"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z"), "路径数量：", len(result_list))
     result_file = "..\\000LocalData\\RU&UA\\as_path_statistic\\"+"result_"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z")+".txt"
     write_to_csv(result_list, result_file)
@@ -123,7 +123,7 @@ if __name__ == "__main__":
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
     print("从中国出发，统计经某Tier1去往俄罗斯的路径数量")
-    for path_item in file_path[-7:]:
+    for path_item in file_path:
         rib_analysis(path_item)
     time_end = time.time()
     # print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
