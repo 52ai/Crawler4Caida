@@ -56,13 +56,30 @@ def gain_as2country():
     return as2country
 
 
+def gain_as2country_caida():
+    """
+    根据Caida asninfo获取as对应的国家信息
+    :return as2country:
+    """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
+    as2country = {}  # 存储as号到country的映射关系
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        as_number = line[0]
+        as_country = line[-1]
+        as2country[as_number] = as_country
+    return as2country
+
+
 def rib_analysis(rib_file):
     """
     分析RIB信息，发现Cogent(AS174)与俄网络的互联关系
     :param rib_file:
     :return:
     """
-    as2country_dic = gain_as2country()
+    as2country_dic = gain_as2country_caida()
     print("AS12389's Country:", as2country_dic['12389'])
 
     # tier1_list = ['7018', '3320', '3257', '6830', '3356',

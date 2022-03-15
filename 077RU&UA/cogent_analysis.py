@@ -76,7 +76,7 @@ def rib_analysis(rib_file):
     """
     as2country_dic = gain_as2country_caida()
     # print("AS12389's Country:", as2country_dic['12389'])
-    by_as = "8714"
+    by_as = "174"
     aim_country = "RU"
     result_list = []
     except_asinfo = []  # 存储缺失的asninfo

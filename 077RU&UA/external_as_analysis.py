@@ -4,7 +4,7 @@ create on Mar 3, 2022 By Wayne YU
 
 Function:
 
-俄乌战争，网络分析
+俄乌网络分析
 
 俄、乌、中亚六国、中，对外互联情况
 其中乌、中亚六国、中要分析其对外互联中俄的占比
@@ -47,18 +47,35 @@ def write_to_csv(res_list, des_path):
     print("write finish!")
 
 
-def gain_as2country(as_info_file):
+def gain_as2country():
     """
     根据传入的as info file信息获取AS与国家的对应字典
-    :param as_info_file:
     :return as2country:
     """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info.txt'
     as2country = {}  # 存储as号到country的映射关系
     file_read = open(as_info_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("\t")
         as_number = line[0]
         as_country = line[1].strip().split(",")[-1].strip()
+        as2country[as_number] = as_country
+    return as2country
+
+
+def gain_as2country_caida():
+    """
+    根据Caida asninfo获取as对应的国家信息
+    :return as2country:
+    """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
+    as2country = {}  # 存储as号到country的映射关系
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        as_number = line[0]
+        as_country = line[-1]
         as2country[as_number] = as_country
     return as2country
 
@@ -78,6 +95,7 @@ def external_as_analysis(country, as2country):
             file_path.append(os.path.join(root, file_item))
 
     for path_item in file_path[-1:]:
+        except_as_info = []  # 存储缺失信息的AS
         print(path_item)
         # 遍历一次文件，获取该国出口AS的数量
         file_read = open(path_item, 'r', encoding='utf-8')
@@ -101,9 +119,10 @@ def external_as_analysis(country, as2country):
                         external_as_list.append(str(line.strip().split('|')[1]))
                         external_country_list.append(as2country[str(line.strip().split('|')[0])])
                         external_as_out_list.append(str(line.strip().split('|')[0]))
-
             except Exception as e:
-                pass
+                except_as_info.append(e)
+
+        print("缺失信息的AS数量:", len(except_as_info))
         external_as_list = list(set(external_as_list))
         print("External Edges Count:", external_cnt)
         print("External AS Count:", len(external_as_list))
@@ -171,8 +190,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # country_to_analysis = ["RU", "KZ", "KG", "TJ", "UZ", "TM", "UA", "CN"]
     country_to_analysis = ["RU", "UA", "CN"]
-    as_info_file_in = '..\\000LocalData\\as_Gao\\asn_info.txt'
-    as2country_dict = gain_as2country(as_info_file_in)
+    as2country_dict = gain_as2country_caida()
     for country_item in country_to_analysis:
         external_as_analysis(country_item, as2country_dict)
     time_end = time.time()

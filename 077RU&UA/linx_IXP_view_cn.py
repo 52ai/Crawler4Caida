@@ -9,6 +9,10 @@ Function：
 1）俄网络在全球总接了多少个IX，涉及多少个网络（OPEN PEER）,总的带宽，以及占俄国际带宽的比例;
 2）MSK-IX接入成员所属国家，以及带宽的比例统计。
 
+cn版本：
+
+统计中国的网络在IX中的接入带宽
+
 """
 from urllib.request import urlopen
 import json
@@ -85,74 +89,25 @@ def ix_view():
     write_to_csv(net_ix_result, result_file)
     """
     基于net_ix_result统计：
-    1）俄网络在全球总接了多少个IX，涉及多少个网络（OPEN PEER）,总的带宽，以及占俄国际带宽的比例；
-    构建ix_info_dic字典，记录[asn,bandwidth], ....
+    cn 网络在某ix列表中接入带宽的总数
     """
-    ru_as_ix = []  # 记录俄罗斯网络接入的的ix
-    ru_as_ix_bandwidth = 0  # 记录俄罗斯网络接入全球ix总的带宽
-    global_ix_bandwidth = 0  # 记录全球ix接入带宽
-    ix_as_peer_dic = {}  # 统计每个ix中peer网络
-
+    cn_as_ix_bandwidth = 0  # 记录cn网络接入某ix列表的带宽总数
+    group_ix_bandwidth = 0  # 记录某ix列表总的带宽数
+    ix_list = ['26', '944', '935', '1812', '1623', '3774', '577',
+               '18', '321', '777', '1016', '745', '583', '248',
+               '74', '1214', '31', '832', '2587', '2588',
+               '2589', '1131', '1149', '1277', '1150', '2531',
+               '3446', '3431', '1249', '3378', '3473', '804',
+               '3472', '3474', '1002', '2279']
     for item in net_ix_result:
-        ru_as_ix.append(item[0])
-        global_ix_bandwidth += int(item[4])
-        if item[-3] == "RU":
-            ru_as_ix_bandwidth += int(item[4])
-        peer_flag = item[-1]
-        if peer_flag:
-            if item[0] not in ix_as_peer_dic.keys():
-                ix_as_peer_dic[item[0]] = [item[2]]
-            else:
-                ix_as_peer_dic[item[0]].append(item[2])
-    # print(ix_as_peer_dic)
+        print(item)
+        if str(item[0]) in ix_list:
+            group_ix_bandwidth += int(item[4])
+            if item[-3] == "CN":
+                cn_as_ix_bandwidth += int(item[4])
 
-    ru_peer_ix = []  # 存储俄网络在全球的PEER网络
-    for key in ix_as_peer_dic.keys():
-        temp_as_list = ix_as_peer_dic[key]
-        for item_as in temp_as_list:
-            item_as_country = "ZZ"
-            try:
-                item_as_country = as2country_dic[str(item_as)]
-            except Exception as e:
-                except_as_ist.append(e)
-            if item_as_country == "RU":
-                ru_peer_ix.extend(ix_as_peer_dic[key])
-                break
-
-    print("俄网络在全球的PEER网络:", len(set(ru_peer_ix)))
-    print("俄网络在全球总接入ix的数量：", len(set(ru_as_ix)))
-    print("俄网络接入全球ix的总带宽：", ru_as_ix_bandwidth)
-    print("全球网络接入全球ix的总带宽：", global_ix_bandwidth)
-
-    """
-    基于net_ix_result统计：
-    2）MSK-IX接入成员所属国家，以及带宽的比例统计。
-    """
-    country_dic = {}  # 存储莫斯科交换中心总各国国家成员的数量
-
-    ix_count = 0  # 统计莫斯科IX总的接入数量
-    ix_bandwidth = 0  # 统计莫斯科IX总的接入带宽
-    country_list = ["US", "UK", "UA"]  # 存储待统计的欧美国家
-    ix_bandwidth_group = 0  # 统计欧美国家带宽
-    for item in net_ix_result:
-        if item[0] == 100:
-            print(item)
-            country = item[3]
-            asn = item[2]
-            ix_bandwidth += item[-2]
-            if country in country_list:
-                ix_bandwidth_group += item[-2]
-
-            ix_count += 1
-            if country not in country_dic.keys():
-                country_dic[country] = [asn]
-            else:
-                country_dic[country].append(asn)
-    print("接入莫斯科交换中心总的数量:", ix_count)
-    print("接入莫斯科交换中心总的带宽:", ix_bandwidth)
-    print("接入莫斯科交换中心，欧美国家的带宽及其占比：", ix_bandwidth_group, ix_bandwidth_group/ix_bandwidth )
-    for key in country_dic.keys():
-        print(key, len(country_dic[key]))
+    print("Group ix的接入总带宽：", group_ix_bandwidth)
+    print("CN网络接入Group ix的总带宽：", cn_as_ix_bandwidth)
 
 
 if __name__ == "__main__":
