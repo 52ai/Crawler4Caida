@@ -46,7 +46,7 @@ def write_to_csv(res_list, des_path):
 
 def gain_as2country_caida():
     """
-    根据Caida asninfo获取as对应的国家信息
+    根据Caida asn info获取as对应的国家信息
     :return as2country:
     """
     as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
@@ -63,7 +63,7 @@ def gain_as2country_caida():
 
 def ix_view():
     """
-    基于PEERDING DB数据抽取ix和net对应关系，并统计speed信息
+    基于PEERING DB数据抽取ix和net对应关系，并统计speed信息
     结合AS所属国家信息，构建需要统计的数据项
     """
     as2country_dic = gain_as2country_caida()
@@ -103,7 +103,7 @@ def ix_view():
         # print(item)
         if str(item[0]) in ix_list:
             group_ix_bandwidth += int(item[4])
-            if item[-3] == "CN":
+            if item[-3] == "RU":
                 m_as_ix_bandwidth += int(item[4])
                 as_list.append(str(item[2]))
                 print(item)

@@ -29,8 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/linx_IXP_view_ru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/linx_IXP_view_ru.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/linx_IXP_view_ru.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -70,6 +71,9 @@
     <setting file="file://$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/068IXVis/ix_rel_v2.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1eTfk4jnNlfnTNoKG0FZVnH4Hgq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -83,6 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/077RU&amp;UA" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -225,11 +230,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.linx_IXP_view" />
-      <item itemvalue="Python.ws_ix_analysis" />
       <item itemvalue="Python.external_as_analysis" />
+      <item itemvalue="Python.linx_IXP_view" />
       <item itemvalue="Python.linx_IXP_view_cn" />
       <item itemvalue="Python.linx_IXP_view_ru" />
+      <item itemvalue="Python.ws_ix_analysis" />
     </list>
     <recent_temporary>
       <list>
@@ -287,7 +292,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
