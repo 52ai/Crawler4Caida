@@ -14,7 +14,6 @@ Tier1断俄罗斯的直联的影响，需要关联分析
 
 import time
 import csv
-import os
 from IPy import IP
 
 
@@ -50,7 +49,6 @@ def gain_as2country():
         line = line.strip().split("\t")
         # print(line)
         as_number = line[0]
-        as_name = line[1].strip().split(",")[0].strip()
         as_country = line[1].strip().split(",")[-1].strip()
         as2country[as_number] = as_country
     return as2country
@@ -58,7 +56,7 @@ def gain_as2country():
 
 def gain_as2country_caida():
     """
-    根据Caida asninfo获取as对应的国家信息
+    根据Caida asn info获取as对应的国家信息
     :return as2country:
     """
     as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
@@ -79,22 +77,22 @@ def rib_analysis(rib_file):
     :param rib_file:
     :return:
     """
-    as2country_dic = gain_as2country_caida()
+    as2country_dic = gain_as2country()
     print("AS12389's Country:", as2country_dic['12389'])
-
+    except_info_list = []  # 记录异常信息
     # tier1_list = ['7018', '3320', '3257', '6830', '3356',
     #               '2914', '5511', '3491', '1239', '6453',
     #               '6762', '1299', '12956', '701', '6461',
     #               '174']
 
-    # tier1_list = ['174']
+    tier1_list = ['174', '3356']
 
     # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
 
-    tier1_list = ['3356', '174', '2914', '6939', '3257',
-                  '701', '7018', '1239', '3549', '7922',
-                  '3320', '6830', '5511', '3491', '6762',
-                  '1299', '12956', '6461']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257',
+    #               '701', '7018', '1239', '3549', '7922',
+    #               '3320', '6830', '5511', '3491', '6762',
+    #               '1299', '12956', '6461']
 
     """
     1）统计所有AS网络的路径, 统计所有AS网络的IP地址数量    
@@ -134,8 +132,7 @@ def rib_analysis(rib_file):
         try:
             country = as2country_dic[asn]
         except Exception as e:
-            # print(e)
-            pass
+            except_info_list.append(e)
         v4_prefix_list = []  # 存储所有v4前缀，去重后的
         all_path = 0  # 存储所有all_path的数量
         tier1_path = 0  # 存储经过tier1路径的数量
@@ -160,7 +157,7 @@ def rib_analysis(rib_file):
                             if as2country_dic[as_path[i]] == "RU":
                                 tier1_path += 1
                     except Exception as e:
-                        pass
+                        except_info_list.append(e)
 
         result_list.append([asn, country, v4_prefix_list, all_path, tier1_path])
 

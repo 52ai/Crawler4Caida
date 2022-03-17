@@ -35,15 +35,15 @@ def write_to_csv(res_list, des_path):
     :return: None
     """
     print("write file <%s> ..." % des_path)
-    csvFile = open(des_path, 'w', newline='', encoding='utf-8')
+    csv_file = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile, delimiter=",")
+        writer = csv.writer(csv_file, delimiter=",")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
         print(e)
     finally:
-        csvFile.close()
+        csv_file.close()
     print("write finish!")
 
 
@@ -65,7 +65,7 @@ def gain_as2country():
 
 def gain_as2country_caida():
     """
-    根据Caida asninfo获取as对应的国家信息
+    根据Caida asn info获取as对应的国家信息
     :return as2country:
     """
     as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
@@ -182,8 +182,6 @@ def draw_bar(rank_list, country):
         plt.text(x, y + 0.05, '%.0f' % y, ha='center', va='bottom', fontsize=11)
     ax.set_xlabel('Country')
     ax.set_ylabel('Relationships Nums')
-    # plt.grid(True, linestyle=':', color='r', alpha=0.9)
-    # plt.show()
     plt.savefig("..\\000LocalData\\RU&UA\\External_BGP_Rel_" + country + ".jpg")
 
 

@@ -16,11 +16,13 @@ V2_cn，推广至CN，或其他国家
 
 结论：分析中国的结论，需要重新搞，这个通过路径的思路也存在问题
 
+v2_cn_new
+增加大洲的统计维度
+
 """
 
 import time
 import csv
-import os
 from IPy import IP
 
 
@@ -56,10 +58,25 @@ def gain_as2country():
         line = line.strip().split("\t")
         # print(line)
         as_number = line[0]
-        as_name = line[1].strip().split(",")[0].strip()
         as_country = line[1].strip().split(",")[-1].strip()
         as2country[as_number] = as_country
     return as2country
+
+
+def gain_country2continent():
+    """
+    获取国家对应的大洲信息
+    :return country2contient:
+    """
+    location_file = '..\\000LocalData\\as_geo\\GeoLite2-Country-Locations-zh-CN.csv'
+    country2continent = {}  # 存储国家到大洲的映射关系
+    file_read = open(location_file, 'r', encoding='gbk')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        country_code = line[4]
+        continent_code = line[2]
+        country2continent[country_code] = continent_code
+    return country2continent
 
 
 def rib_analysis(rib_file):
@@ -70,18 +87,17 @@ def rib_analysis(rib_file):
     """
     as2country_dic = gain_as2country()
     print("AS12389's Country:", as2country_dic['12389'])
-
+    except_info_list = []  # 记录异常信息
     # tier1_list = ['174']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
+    tier1_list = ['3356', '174', '2914', '6939', '3257',
+                  '701', '7018', '1239', '3549', '7922',
+                  '3320', '6830', '5511', '3491', '6762',
+                  '1299', '12956', '6461']
 
-    tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
-
-    # tier1_list = ['3356', '174', '2914', '6939', '3257',
-    #               '701', '7018', '1239', '3549', '7922',
-    #               '3320', '6830', '5511', '3491', '6762',
-    #               '1299', '12956', '6461']
-
+    country2continent_dic = gain_country2continent()
     analysis_country = "CN"
-    print("Analysis Country:", analysis_country)
+    print("Analysis Country:", analysis_country, ", belong to:", country2continent_dic[analysis_country])
 
     """
     1）统计到达所有AS网络前缀及其路径
@@ -123,8 +139,8 @@ def rib_analysis(rib_file):
         try:
             country = as2country_dic[asn]
         except Exception as e:
-            # print(e)
-            pass
+            except_info_list.append(e)
+
         v4_prefix_list = []  # 存储所有v4前缀，去重后的
         all_path = 0  # 存储所有all_path的数量
         tier1_path = 0  # 存储经过tier1路径的数量
@@ -137,6 +153,8 @@ def rib_analysis(rib_file):
             all_path += 1  # 全部路径数量自增1
             """
             需要关联Tier1与某国家网络的直联关系
+            CN Tier1 CN的特例
+            TABLE_DUMP2|02/24/22 00:02:01|B|219.158.1.209|4837|38.111.220.0/24|4837 174 10111|IGP
             """
             if set(as_path).intersection(set(tier1_list)):
                 for i in range(0, len(as_path) - 1):
@@ -144,12 +162,15 @@ def rib_analysis(rib_file):
                         if as_path[i] in tier1_list:
                             if as2country_dic[as_path[i+1]] == analysis_country:
                                 tier1_path += 1
+                                break  # 找到了就跳出循环，不跳出循环忽悠特侧，如AS_PATH为“CN Tier1 CN”的情况
 
                         if as_path[i+1] in tier1_list:
                             if as2country_dic[as_path[i]] == analysis_country:
                                 tier1_path += 1
+                                break  # 找到了就跳出循环
+
                     except Exception as e:
-                        pass
+                        except_info_list.append(e)
 
         result_list.append([asn, country, v4_prefix_list, all_path, tier1_path])
 
@@ -158,7 +179,7 @@ def rib_analysis(rib_file):
     """
     3）统计所有AS网络的路径中，经Tier1的数量（2）
 
-    asn, country, v4_num, all_path, tier1_path, rate
+    asn, country, v4_num, all_path, tier1_path, rate, continent
 
     """
     result_list_final = []  # 存储最终结果数据
@@ -174,8 +195,14 @@ def rib_analysis(rib_file):
             v4_num += len(IP(v4_prefix))
         # print(v4_num)
         rate = item[4] / item[3]
-        result_list_final.append([asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate)])
-        print([asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate)])
+        contient_code = "ZZ"
+        try:
+            contient_code = country2continent_dic[item[1]]
+        except Exception as e:
+            except_info_list.append(e)
+        temp_line = [asn, item[1], v4_num, item[3], item[4], rate, round(v4_num*rate), contient_code]
+        result_list_final.append(temp_line)
+        print(temp_line)
 
     write_to_csv(result_list_final, "..\\000LocalData\\RU&UA\\result_final_v2_cn.txt")
 
