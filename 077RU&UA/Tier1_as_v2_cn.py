@@ -95,6 +95,9 @@ def rib_analysis(rib_file):
     for line in file_read.readlines():
         line = line.strip().split("|")
         v4_prefix = line[5]
+        if str(v4_prefix).find("0.0.0.0/0") != -1:
+            print(v4_prefix)
+            continue
         as_path = line[-2].split(" ")
         if as_path[0] != "4837":
             continue

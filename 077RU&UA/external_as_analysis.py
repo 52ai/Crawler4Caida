@@ -94,7 +94,7 @@ def external_as_analysis(country, as2country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path[-1:]:
+    for path_item in file_path[-3:-2]:
         except_as_info = []  # 存储缺失信息的AS
         print(path_item)
         # 遍历一次文件，获取该国出口AS的数量
@@ -144,6 +144,7 @@ def external_as_analysis(country, as2country):
             print("All External Edges  （CN）: %s, %f%%" % (external_country_rank["CN"], float(external_country_rank["CN"]/external_cnt) * 100))
         else:
             print("All External Edges  （RU）: %s, %f%%" % (external_country_rank["RU"], float(external_country_rank["RU"]/external_cnt) * 100))
+            print("All External Edges  （US）: %s, %f%%" % (external_country_rank["US"], float(external_country_rank["US"]/external_cnt) * 100))
 
         # 将字典转为列表
         external_country_rank_list = []
@@ -190,7 +191,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # country_to_analysis = ["RU", "KZ", "KG", "TJ", "UZ", "TM", "UA", "CN"]
     country_to_analysis = ["RU", "UA", "CN"]
-    as2country_dict = gain_as2country_caida()
+    as2country_dict = gain_as2country()
     for country_item in country_to_analysis:
         external_as_analysis(country_item, as2country_dict)
     time_end = time.time()

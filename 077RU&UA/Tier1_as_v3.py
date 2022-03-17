@@ -75,12 +75,12 @@ def rib_analysis(rib_file):
 
     # tier1_list = ['174']
 
-    tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
 
-    # tier1_list = ['3356', '174', '2914', '6939', '3257',
-    #               '701', '7018', '1239', '3549', '7922',
-    #               '3320', '6830', '5511', '3491', '6762',
-    #               '1299', '12956', '6461']
+    tier1_list = ['3356', '174', '2914', '6939', '3257',
+                  '701', '7018', '1239', '3549', '7922',
+                  '3320', '6830', '5511', '3491', '6762',
+                  '1299', '12956', '6461']
 
     """
     1）统计所有AS网络的路径, 统计所有AS网络的IP地址数量    
@@ -95,6 +95,9 @@ def rib_analysis(rib_file):
         line = line.strip().split("|")
         # print(line)
         v4_prefix = line[5]
+        if str(v4_prefix).find("0.0.0.0/0") != -1:
+            print(v4_prefix)
+            continue
         as_path = line[-2].split(" ")
         origin_as = as_path[-1]
         # print(origin_as, v4_prefix, as_path)
@@ -111,6 +114,7 @@ def rib_analysis(rib_file):
     
     """
     result_list = []  # 存储结果数据
+    except_info_list = []  # 记录异常信息
     for key in as_dict.keys():
         # print(key, as_dict[key])
         asn = key
@@ -118,15 +122,13 @@ def rib_analysis(rib_file):
         try:
             country = as2country_dic[asn]
         except Exception as e:
-            # print(e)
-            pass
+            except_info_list.append(e)
         v4_prefix_list = []  # 存储所有v4前缀，去重后的
         all_path = 0  # 存储所有all_path的数量
         tier1_path = 0  # 存储经过tier1路径的数量
         for line in as_dict[key]:
             v4_prefix = line[0]
             as_path = line[1]
-
             if v4_prefix not in v4_prefix_list:
                 v4_prefix_list.append(v4_prefix)
             all_path += 1  # 全部路径数量自增1
@@ -144,7 +146,7 @@ def rib_analysis(rib_file):
                             if as2country_dic[as_path[i]] == "RU":
                                 tier1_path += 1
                     except Exception as e:
-                        pass
+                        except_info_list.append(e)
 
         result_list.append([asn, country, v4_prefix_list, all_path, tier1_path])
 
@@ -179,5 +181,4 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     path_item = "..\\000LocalData\\RU&UA\\rib_beimei\\Gao0305.txt"
     rib_analysis(path_item)
-    time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

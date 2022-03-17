@@ -39,7 +39,7 @@ def write_to_csv(res_list, des_path):
 
 def generate_ix_speed():
     """
-    基于PEERDING DB数据抽取ix和net对应关系，并统计speed信息
+    基于PEERING DB数据抽取ix和net对应关系，并统计speed信息
     :return ix_speed_dict:
     """
     html = urlopen(r"https://www.peeringdb.com/api/netixlan")
@@ -78,7 +78,7 @@ def generate_cn_translate():
 
 def ix_crawler():
     """
-    基于PEERDING DB数据抽取全球IX数据
+    基于PEER'ING DB数据抽取全球IX数据
     :return None:
     """
     print("统计时间：", datetime.now())

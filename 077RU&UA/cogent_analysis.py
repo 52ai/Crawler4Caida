@@ -108,7 +108,6 @@ def rib_analysis(rib_file):
                             result_list.append(temp_line)
                 except Exception as e:
                     # print(e)
-
                     except_asinfo.append(e)
     # print("ASN缺失信息统计:", len(set(except_asinfo)))
     print("2022"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z"), "路径数量：", len(result_list))
@@ -124,7 +123,7 @@ if __name__ == "__main__":
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
     print("从中国出发，统计经某Tier1去往俄罗斯的路径数量")
-    for path_item in file_path[-14:]:
+    for path_item in file_path[-16:]:
         rib_analysis(path_item)
     time_end = time.time()
     # print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
