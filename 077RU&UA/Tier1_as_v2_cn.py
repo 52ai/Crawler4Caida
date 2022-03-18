@@ -143,7 +143,7 @@ def rib_analysis(rib_file):
 
         v4_prefix_list = []  # 存储所有v4前缀，去重后的
         all_path = 0  # 存储所有all_path的数量
-        tier1_path = 0  # 存储经过tier1路径的数量
+        tier1_path = 0  # 存储经过tier1路径的数量N
         for line in as_dict[key]:
             v4_prefix = line[0]
             as_path = line[1]
