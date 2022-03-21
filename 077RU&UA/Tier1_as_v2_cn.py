@@ -89,11 +89,11 @@ def rib_analysis(rib_file):
     print("AS12389's Country:", as2country_dic['12389'])
     except_info_list = []  # 记录异常信息
     # tier1_list = ['174']
-    # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
-    tier1_list = ['3356', '174', '2914', '6939', '3257',
-                  '701', '7018', '1239', '3549', '7922',
-                  '3320', '6830', '5511', '3491', '6762',
-                  '1299', '12956', '6461']
+    tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257',
+    #               '701', '7018', '1239', '3549', '7922',
+    #               '3320', '6830', '5511', '3491', '6762',
+    #               '1299', '12956', '6461']
 
     country2continent_dic = gain_country2continent()
     analysis_country = "CN"
@@ -209,7 +209,7 @@ def rib_analysis(rib_file):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    path_item = "..\\000LocalData\\RU&UA\\rib\\z0224.txt"
+    path_item = "..\\000LocalData\\RU&UA\\rib\\z20220224.txt"
     rib_analysis(path_item)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

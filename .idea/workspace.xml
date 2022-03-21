@@ -29,10 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/052RIPE&amp;RouteViews/pybgpdump/using_pybgpdump.py" beforeDir="false" afterPath="$PROJECT_DIR$/052RIPE&amp;RouteViews/pybgpdump/using_pybgpdump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Tier1_as_v2_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Tier1_as_v2_cn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/077RU&amp;UA/cogent_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/cogent_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -108,7 +108,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.using_pybgpdump">
+  <component name="RunManager" selected="Python.Tier1_as_v2_cn">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +125,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="CN-BGPMon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IP_num" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/052RIPE&amp;RouteViews" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/052RIPE&amp;RouteViews/CN-BGPMon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/IP_num.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Download_RIPE_Data_live_V3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tier1_as_v2_cn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/052RIPE&amp;RouteViews" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/052RIPE&amp;RouteViews/Download_RIPE_Data_live_V3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/Tier1_as_v2_cn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mrt2bgpdump" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="external_as_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,11 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/052RIPE&amp;RouteViews/pybgpdump" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/052RIPE&amp;RouteViews/pybgpdump/mrt2bgpdump.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/external_as_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,19 +231,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cogent_analysis" />
-      <item itemvalue="Python.mrt2bgpdump" />
       <item itemvalue="Python.using_pybgpdump" />
-      <item itemvalue="Python.CN-BGPMon" />
-      <item itemvalue="Python.Download_RIPE_Data_live_V3" />
+      <item itemvalue="Python.IP_num" />
+      <item itemvalue="Python.cogent_analysis" />
+      <item itemvalue="Python.external_as_analysis" />
+      <item itemvalue="Python.Tier1_as_v2_cn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.using_pybgpdump" />
-        <item itemvalue="Python.Download_RIPE_Data_live_V3" />
-        <item itemvalue="Python.CN-BGPMon" />
-        <item itemvalue="Python.mrt2bgpdump" />
+        <item itemvalue="Python.Tier1_as_v2_cn" />
         <item itemvalue="Python.cogent_analysis" />
+        <item itemvalue="Python.external_as_analysis" />
+        <item itemvalue="Python.IP_num" />
+        <item itemvalue="Python.using_pybgpdump" />
       </list>
     </recent_temporary>
   </component>

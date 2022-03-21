@@ -138,8 +138,8 @@ def external_as_analysis(country, as2country):
         # print(len(external_country_rank))
 
         # 统计出口AS互联关系中美国、俄罗斯、日本、中国香港的占比
-        if country == "RU":
-            print("All External Edges  （US）: %s, %f%%" % (external_country_rank["US"], float(external_country_rank["US"]/external_cnt) * 100))
+        if country == "US":
+            # print("All External Edges  （US）: %s, %f%%" % (external_country_rank["US"], float(external_country_rank["US"]/external_cnt) * 100))
             print("All External Edges  （UA）: %s, %f%%" % (external_country_rank["UA"], float(external_country_rank["UA"]/external_cnt) * 100))
             print("All External Edges  （CN）: %s, %f%%" % (external_country_rank["CN"], float(external_country_rank["CN"]/external_cnt) * 100))
         else:
@@ -188,7 +188,7 @@ def draw_bar(rank_list, country):
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # country_to_analysis = ["RU", "KZ", "KG", "TJ", "UZ", "TM", "UA", "CN"]
-    country_to_analysis = ["RU", "UA", "CN"]
+    country_to_analysis = ["US", "CN"]
     as2country_dict = gain_as2country()
     for country_item in country_to_analysis:
         external_as_analysis(country_item, as2country_dict)

@@ -5,6 +5,10 @@ create on Mar 5, 2022 By Wayne YU
 Function:
 
 研究发现Cogent中断的事件
+20220321
+找出新增的网络或前缀，分析一下
+左边图，Cogent+Lumen一块，更新第一版数据
+IXP可视化的图
 
 """
 
@@ -76,6 +80,7 @@ def rib_analysis(rib_file):
     as2country_dic = gain_as2country_caida()
     # print("AS12389's Country:", as2country_dic['12389'])
     by_as = "174"
+    # by_as = "3356"
     aim_country = "RU"
     result_list = []
     except_as_info = []  # 存储缺失的asn info
@@ -86,6 +91,11 @@ def rib_analysis(rib_file):
         v4_prefix = line[5]
         # print(v4_prefix)
         as_path = line[-2].split(" ")
+        """
+        20220319,重新收录4134的路由通告，为方便对比，需做处理
+        """
+        if as_path[0] == "4134":
+            continue
         # print(as_path)
         temp_line = [v4_prefix]
         temp_line.extend(as_path)
@@ -109,7 +119,7 @@ def rib_analysis(rib_file):
                     # print(e)
                     except_as_info.append(e)
     # print("ASN缺失信息统计:", len(set(except_as_info)))
-    print("2022"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z"), "路径数量：", len(result_list))
+    print(rib_file.strip().split("\\")[-1].strip(".txt").strip("z"), "路径数量：", len(result_list))
     result_file = "..\\000LocalData\\RU&UA\\as_path_statistic\\"+"result_"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z")+".txt"
     write_to_csv(result_list, result_file)
 
@@ -122,7 +132,7 @@ if __name__ == "__main__":
             file_path.append(os.path.join(root, file_item))
     # print(file_path)
     print("从中国出发，统计经某Tier1去往俄罗斯的路径数量")
-    for path_item in file_path[-16:]:
+    for path_item in file_path:
         rib_analysis(path_item)
     time_end = time.time()
     # print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
