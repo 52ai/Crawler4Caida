@@ -21,21 +21,21 @@ def write_to_csv(res_list, des_path):
     :return: None
     """
     # print("write file <%s> ..." % des_path)
-    csvFile = open(des_path, 'w', newline='', encoding='utf-8')
+    csv_file = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile, delimiter=",")
+        writer = csv.writer(csv_file, delimiter=",")
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
         print(e)
     finally:
-        csvFile.close()
+        csv_file.close()
     # print("write finish!")
 
 
 def gain_as2country():
     """
-    根据Gao asninfo获取as对应的国家信息
+    根据Gao asn info获取as对应的国家信息
     :return as2country:
     """
     as_info_file = '..\\000LocalData\\as_Gao\\asn_info.txt'
@@ -45,7 +45,6 @@ def gain_as2country():
         line = line.strip().split("\t")
         # print(line)
         as_number = line[0]
-        as_name = line[1].strip().split(",")[0].strip()
         as_country = line[1].strip().split(",")[-1].strip()
         as2country[as_number] = as_country
     return as2country
@@ -53,7 +52,7 @@ def gain_as2country():
 
 def gain_as2country_caida():
     """
-    根据Caida asninfo获取as对应的国家信息
+    根据Caida asn info获取as对应的国家信息
     :return as2country:
     """
     as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
@@ -79,7 +78,7 @@ def rib_analysis(rib_file):
     by_as = "174"
     aim_country = "RU"
     result_list = []
-    except_asinfo = []  # 存储缺失的asninfo
+    except_as_info = []  # 存储缺失的asn info
     file_read = open(rib_file, 'r', encoding='utf-8')
     for line in file_read.readlines():
         line = line.strip().split("|")
@@ -108,8 +107,8 @@ def rib_analysis(rib_file):
                             result_list.append(temp_line)
                 except Exception as e:
                     # print(e)
-                    except_asinfo.append(e)
-    # print("ASN缺失信息统计:", len(set(except_asinfo)))
+                    except_as_info.append(e)
+    # print("ASN缺失信息统计:", len(set(except_as_info)))
     print("2022"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z"), "路径数量：", len(result_list))
     result_file = "..\\000LocalData\\RU&UA\\as_path_statistic\\"+"result_"+rib_file.strip().split("\\")[-1].strip(".txt").strip("z")+".txt"
     write_to_csv(result_list, result_file)

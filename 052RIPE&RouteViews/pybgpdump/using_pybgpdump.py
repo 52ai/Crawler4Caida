@@ -15,4 +15,5 @@ d = Reader(mrt_updates)
 
 m = d.next()
 for m in d:
+    print(m.mrt.p)
     print(m.mrt.bgp.peer_as)
