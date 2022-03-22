@@ -63,6 +63,23 @@ def gain_as2country():
     return as2country
 
 
+def gain_as2country_caida():
+    """
+    根据Caida asn info获取as对应的国家信息
+    :return as2country:
+    """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
+    as2country = {}  # 存储as号到country的映射关系
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        as_number = line[0]
+        as_country = line[-1]
+        as2country[as_number] = as_country
+    return as2country
+
+
 def gain_country2continent():
     """
     获取国家对应的大洲信息
@@ -99,6 +116,7 @@ def rib_analysis(rib_file):
     analysis_country = "CN"
     print("Analysis Country:", analysis_country, ", belong to:", country2continent_dic[analysis_country])
 
+    group_path_cnt = 0  # 统计路径中带有group的数量
     """
     1）统计到达所有AS网络前缀及其路径
     """
@@ -115,16 +133,25 @@ def rib_analysis(rib_file):
             print(v4_prefix)
             continue
         as_path = line[-2].split(" ")
-        if as_path[0] != "4837":
-            continue
         origin_as = as_path[-1]
+        origin_as_country = "ZZ"
+        try:
+            origin_as_country = as2country_dic[origin_as]
+        except Exception as e:
+            except_info_list.append(e)
+
+        if set(as_path).intersection(set(tier1_list)) and (origin_as_country != analysis_country):
+            group_path_cnt += 1
+        # if as_path[0] != "4837":
+        #     continue
+
         # print(origin_as, v4_prefix, as_path)
         if origin_as not in as_dict.keys():
             as_dict[origin_as] = [[v4_prefix, as_path]]
         else:
             as_dict[origin_as].append([v4_prefix, as_path])
     print("ORIGIN ASN COUNT:", len(as_dict.keys()))
-
+    print("AS Path has Group Cnt:", group_path_cnt)
     """
     2）统计所有AS网络的路径中，经Tier1的数量（1）
     
@@ -173,7 +200,7 @@ def rib_analysis(rib_file):
                         except_info_list.append(e)
 
         result_list.append([asn, country, v4_prefix_list, all_path, tier1_path])
-
+    print("Except info:", len(except_info_list))
     # print(result_list)
 
     """
