@@ -10,10 +10,34 @@ Function:
 
 基于BGP RIB数据，分析现网可见的IP地址，及其归属情况，通过对全球IP地址进行拆分，然后逐一分析研究
 
+20220323
+实践证明，全球IP的量级还是很大的，尤其是字典去重，重点看看RU和UA的网络就好
+
+LOG：
+20210818
+RU,43423152个IPv4地址在现网通告
+UA，10032384个IPv4地址在现网通告
+
+20220215
+RU,43365040个IPv4地址在现网通告
+UA，10054656个IPv4地址在现网通告
+
+20220225
+RU,43402672个IPv4地址在现网通告
+UA，10050048个IPv4地址在现网通告
+
+20220320
+RU，43269552个IPv4地址在现网通告
+UA，9698304个IPv4地址在现网通告
+
+
 """
 import time
 import csv
 from IPy import IP
+
+data_string = "20210818"
+path_item = '..\\000LocalData\\RU&UA\\rib\\z' + data_string + '.txt'  # 分析RIB数据
 
 
 def write_to_csv(res_list, des_path):
@@ -149,7 +173,7 @@ def rib_analysis(rib_file):
 
         result_list_final.append(temp_line)
         # print(temp_line)
-    save_file = "..\\000LocalData\\CyberspaceMapping\\rib2ip.txt"
+    save_file = "..\\000LocalData\\CyberspaceMapping\\rib2ip" + data_string + ".txt"
     write_to_csv(result_list_final, save_file)
     return result_list_final
 
@@ -159,12 +183,10 @@ def ip_scan():
     根据rib分析的IP数据，构建ip扫描元程序
     :return:
     """
-    path_item = '..\\000LocalData\\RU&UA\\rib\\z20220320.txt'
     rib2ip_list = rib_analysis(path_item)
     """
     根据rib2ip结果数据构建对应国家的网络空间IP资产
     """
-
     aim_country = "RU"
     print("- - - - - - 开展%s的网络IP地址分析- - - - - - - - " % aim_country)
     ip_list = []
@@ -177,7 +199,7 @@ def ip_scan():
     print("%s的IPv4地址规模为:%s" % (aim_country, len(ip_list)))
     ip_list_unique = set(ip_list)
     print("%s的IPv4地址规模为:%s(去重后)" % (aim_country, len(ip_list_unique)))
-    save_file = "..\\000LocalData\\CyberspaceMapping\\"+aim_country+"_ip.txt"
+    save_file = "..\\000LocalData\\CyberspaceMapping\\"+aim_country+"_ip" + data_string + ".txt"
     write_to_csv(ip_list_unique, save_file)
 
     aim_country = "UA"
@@ -192,7 +214,7 @@ def ip_scan():
     print("%s的IPv4地址规模为:%s" % (aim_country, len(ip_list)))
     ip_list_unique = set(ip_list)
     print("%s的IPv4地址规模为:%s(去重后)" % (aim_country, len(ip_list_unique)))
-    save_file = "..\\000LocalData\\CyberspaceMapping\\" + aim_country + "_ip.txt"
+    save_file = "..\\000LocalData\\CyberspaceMapping\\" + aim_country + "_ip" + data_string + ".txt"
     write_to_csv(ip_list_unique, save_file)
 
 

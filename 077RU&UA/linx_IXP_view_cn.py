@@ -19,6 +19,7 @@ import json
 import time
 import csv
 
+except_info_list = []  # 存储异常信息
 
 def write_to_csv(res_list, des_path):
     """
@@ -57,6 +58,31 @@ def gain_as2country_caida():
     return as2country
 
 
+def gain_ix2info_pdb():
+    """
+    根据pdb的数据获取ix 2 info的信息
+    https://www.peeringdb.com/api/ix
+    :return ix2info:
+    """
+    with open("../000LocalData/IXVis/ix.json") as json_file:
+        html_json = json.load(json_file)
+    ix2info = {}  # ix2info的字典
+    for item in html_json['data']:
+        ix_id = item['id']
+        ix_name = item['name']
+        ix_name_long = item['name_long']
+        city = item['city']
+        country = item['country']
+        region = item['region_continent']
+        net_count = item['net_count']
+        fac_count = item['fac_count']
+        if ix_id not in ix2info.keys():
+            ix2info[ix_id] = [ix_name, ix_name_long, city, country, region, net_count, fac_count]
+    # print("IX原始信息记录表：", len(html_json['data']))
+    print("IX信息字典记录：", len(ix2info.keys()))
+    return ix2info
+
+
 def ix_view():
     """
     基于PEERDING DB数据抽取ix和net对应关系，并统计speed信息
@@ -64,8 +90,11 @@ def ix_view():
     """
     as2country_dic = gain_as2country_caida()
     print("AS12389's Country:", as2country_dic['12389'])
-    html = urlopen(r"https://www.peeringdb.com/api/netixlan")
-    html_json = json.loads(html.read())
+    ix2info_dict = gain_ix2info_pdb()
+    # html = urlopen(r"https://www.peeringdb.com/api/netixlan")
+    # html_json = json.loads(html.read())
+    with open("netixlan.json") as json_file:
+        html_json = json.load(json_file)
     net_ix_result = []  # 存储网络接入IX的数据
     except_as_ist = []  # 存储异常的AS列表
     for item in html_json['data']:
@@ -100,14 +129,43 @@ def ix_view():
                '3446', '3431', '1249', '3378', '3473', '804',
                '3472', '3474', '1002', '2279']
     for item in net_ix_result:
-        print(item)
+        # print(item)
         if str(item[0]) in ix_list:
             group_ix_bandwidth += int(item[4])
             if item[-3] == "CN":
                 cn_as_ix_bandwidth += int(item[4])
-
     print("Group ix的接入总带宽：", group_ix_bandwidth)
     print("CN网络接入Group ix的总带宽：", cn_as_ix_bandwidth)
+
+    """
+    基于net_ix_result统计：
+    cn 网络在全球ix列表中接入交换中心以及带宽的总数
+    """
+    cn_as_ix_bandwidth = 0  # 记录cn网络接入某ix列表的带宽总数
+    global_ix_bandwidth = 0  # 记录某ix列表总的带宽数
+    us_ix_bandwidth = 0  # 记录cn网络接入美国的总带宽数
+    global_ix_list = []  # 统计cn网络接入ix的list
+
+    for item in net_ix_result:
+        # print(item)
+        global_ix_bandwidth += int(item[4])
+        if item[-3] == "CN":
+            cn_as_ix_bandwidth += int(item[4])
+            global_ix_list.append(item[0])
+            ix_country = "ZZ"
+            try:
+                ix_country = ix2info_dict[item[0]][3]
+            except Exception as e:
+                except_info_list.append(e)
+            # print(ix_country)
+            if ix_country == "US":
+                print(item)
+                us_ix_bandwidth += int(item[4])
+
+    print("Global ix的接入总带宽：", global_ix_bandwidth)
+    print("CN网络接入Global ix的总带宽：", cn_as_ix_bandwidth)
+    print("CN网络接入US ix的总带宽：", us_ix_bandwidth)
+    print("CN网络接入全球ix的数量：", len(set(global_ix_list)))
 
 
 if __name__ == "__main__":

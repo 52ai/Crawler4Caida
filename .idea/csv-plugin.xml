@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\068IXVis\Gephi\edge_out.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\Gephi\node_out.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\ix_he.CSV">
           <value>
             <Attribute>
