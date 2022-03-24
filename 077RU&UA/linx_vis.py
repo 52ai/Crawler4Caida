@@ -10,6 +10,13 @@ Function:
 思路：
 选取主要的几个IX（LINX、DE-CIX、AMS-IX），构建ix-net的连接关系网络图；
 LINX事件发生后，绘制RU网络受到的影响，初步选择直接接入的网络，后续可以把下游网络也放进去。
+
+启动http服务器，开启本地资源引用
+ $ cd pyecharts-assets
+ $ python -m http.server
+ # Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+ # 默认会在本地 8000 端口启动一个文件服务器
+
 """
 from pyecharts.globals import CurrentConfig
 import json
@@ -18,7 +25,7 @@ import csv
 
 from pyecharts import options as opts
 from pyecharts.charts import Graph
-from pyecharts.globals import ThemeType
+# from pyecharts.globals import ThemeType
 import numpy as np
 from pyecharts.datasets import register_files
 
