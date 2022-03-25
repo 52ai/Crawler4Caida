@@ -85,7 +85,7 @@ def generate_gephi_file():
             node_label = "AS"+line[0]
             node_name = line[1].split(" - ")[0]
             node_org = line[1].split(" - ")[-1]
-            node_label = node_label + "-" + node_name
+            # node_label = node_label + "-" + node_name
             node_country = line[2]
             if node_country != "CN":
                 continue

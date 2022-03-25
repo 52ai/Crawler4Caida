@@ -21,6 +21,7 @@ import csv
 
 except_info_list = []  # 存储异常信息
 
+
 def write_to_csv(res_list, des_path):
     """
     把给定的List，写到指定路径的文件中
