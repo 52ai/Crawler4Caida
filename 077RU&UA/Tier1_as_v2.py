@@ -190,7 +190,7 @@ def rib_analysis(rib_file):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    path_item = "..\\000LocalData\\RU&UA\\rib\\z0224.txt"
+    path_item = "..\\000LocalData\\RU&UA\\rib\\z20220224.txt"
     rib_analysis(path_item)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
