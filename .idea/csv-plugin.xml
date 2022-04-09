@@ -24,6 +24,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_geo\GeoLite2-Country-Locations-zh-CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\018Scatter\abnormal_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\058ASWhois\asn_info_from_caida.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\058ASWhois\asns.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\Gephi\edge_out.csv">
           <value>
             <Attribute>

@@ -52,6 +52,23 @@ def gain_as2country():
     return as2info
 
 
+def gain_as2country_caida():
+    """
+    根据Caida asn info获取as对应的国家信息
+    :return as2country:
+    """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
+    as2country = {}  # 存储as号到country的映射关系
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        as_number = line[0]
+        as_country = line[-1]
+        as2country[as_number] = as_country
+    return as2country
+
+
 def analysis(open_file):
     """
     对数据进行处理
@@ -134,7 +151,7 @@ if __name__ == "__main__":
     temp_list = []
     x_list = []
     y_list = []
-    for path_item in file_path:
+    for path_item in file_path[-36:]:
         # print(analysis(path_item))
         x_date, y_cnt = analysis(path_item)
         temp_list.append(x_date)

@@ -188,7 +188,7 @@ def draw_bar(rank_list, country):
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     # country_to_analysis = ["RU", "KZ", "KG", "TJ", "UZ", "TM", "UA", "CN"]
-    country_to_analysis = ["US", "CN"]
+    country_to_analysis = ["US", "DE", "FR", "CN"]
     as2country_dict = gain_as2country()
     for country_item in country_to_analysis:
         external_as_analysis(country_item, as2country_dict)
