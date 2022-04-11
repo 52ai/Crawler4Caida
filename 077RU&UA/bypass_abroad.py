@@ -49,6 +49,23 @@ def gain_as2country_caida():
     return as2country
 
 
+def gain_as2org_caida():
+    """
+    根据Caida asn info获取as对应的org信息
+    :return as2country:
+    """
+    as_info_file = '..\\000LocalData\\as_Gao\\asn_info_from_caida.csv'
+    as2org_dic = {}  # 存储as号到country的映射关系
+    file_read = open(as_info_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        # print(line)
+        as_number = line[0]
+        as_org = line[2] + "," + line[1]
+        as2org_dic[as_number] = as_org
+    return as2org_dic
+
+
 def rib_analysis(rib_file):
     """
     分析RIB数据，统计两端都是国内，中间有出国的情况
@@ -56,6 +73,7 @@ def rib_analysis(rib_file):
     :return:
     """
     as2country_dic = gain_as2country_caida()
+    as2org_dic = gain_as2org_caida()
     print("AS4134's Country:", as2country_dic['4134'])
     file_read = open(rib_file, 'r', encoding='utf-8')
     all_prefix_num = 0  # 统计国内节点采集到的全部路由条目
@@ -92,8 +110,13 @@ def rib_analysis(rib_file):
                     temp_country = "ZZ"
 
                 if temp_country != "CN" and temp_country != "ZZ":
-                    print(v4_prefix, as_path, temp_country)
-                    bypass_abroad.append([v4_prefix, as_path, temp_country])
+                    right_as_org = "ZZ"
+                    try:
+                        right_as_org = as2org_dic[str(as_path[-1])]
+                    except Exception as e:
+                        except_info_list.append(e)
+                    print(v4_prefix, as_path, temp_country, as_path[-1], right_as_org)
+                    bypass_abroad.append([v4_prefix, as_path, temp_country, as_path[-1], right_as_org])
                     bypass_abroad_prefix_list.append(v4_prefix)
                     break
     print("国内节点采集路由条目总数：", all_prefix_num)
