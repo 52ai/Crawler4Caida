@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\057IPv6UrlCrawler\deploy\wwwmsxfcom.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\058ASWhois\asn_info_from_caida.csv">
           <value>
             <Attribute>

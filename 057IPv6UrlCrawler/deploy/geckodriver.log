@@ -644,3 +644,26 @@ JavaScript error: https://www.jhs.gov.cn/156.news.detail.dhtml?news_id=107223, l
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1649943755767	geckodriver	INFO	Listening on 127.0.0.1:9312
+1649943758813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileJHnCJh"
+1649943759545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileJHnCJh\\search.json.mozlz4", (void 0)))
+1649943761569	Marionette	INFO	Listening on port 9327
+1649943762076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.msxf.com/ line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649944132187	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1649944139399	Marionette	INFO	Stopped listening on port 9327
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1649944300191	geckodriver	INFO	Listening on 127.0.0.1:10828
+1649944303261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileqGTG5x"
+1649944303820	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileqGTG5x\\search.json.mozlz4", (void 0)))
+1649944305997	Marionette	INFO	Listening on port 10839
+1649944306500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.msxf.com/ line 5 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649944683793	Marionette	INFO	Stopped listening on port 10839
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
