@@ -5,7 +5,7 @@ create on Mar 20, 2022 By Wayne YU
 程序功能：
 
 近期收到重庆和云南项目需要大量的网站爬取任务，原先基于windows的Firefox图形界面爬取策略已不再胜任
-需要在服务器端构建虚拟的图形界面爬取去策略
+需要在服务器端构建虚拟的图形界面爬取策略
 
 经研究，可将selenium+firefox，替换为playwright+firefox
 
@@ -21,8 +21,10 @@ playwright install
 3rd Package
 playwright~=1.18.0
 beautifulsoup4~=4.9.3
-urllib3~=1.25.11
+pip37 install beautifulsoup4 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 
+urllib3~=1.25.11
+html5lib~=1.1
 """
 from playwright.sync_api import sync_playwright
 import time
@@ -160,7 +162,7 @@ def gain_website_url(site_url):
         try:
             print("当前访问二级链：", item)
             page.goto(item)
-            time.sleep(1)  # 延迟加载，等待二级页面跳转结束，解决重定向的问题
+            time.sleep(3)  # 延迟加载，等待二级页面跳转结束，解决重定向的问题
         except Exception as e_stage2:
             print("访问二级链超时：", e_stage2)
             # page.evaluate('window.stop()')
