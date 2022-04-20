@@ -19,7 +19,7 @@ with sync_playwright() as p:
     for browser_type in [p.chromium, p.firefox, p.webkit]:
         browser = browser_type.launch(headless=False)
         page = browser.new_page()
-        page.goto('https://www.baidu.com')
+        page.goto('http://www.mryu.top')
         print(page.content())
         page.screenshot(path=f'screenshot-{browser_type.name}.png')
         print(page.title())
@@ -33,7 +33,7 @@ with sync_playwright() as p:
 #     async with async_playwright() as p:
 #         for browser_type in [p.chromium, p.firefox, p.webkit]:
 #             browser = await browser_type.launch(headless=False)
-#             page = await browser.new_page(headless=False)
+#             page = await browser.new_page()
 #             await page.goto('http://www.mryu.top')
 #             await page.screenshot(path=f'screenshot-asyn-{browser_type.name}.png')
 #             print(await page.title())

@@ -667,3 +667,28 @@ JavaScript warning: https://www.msxf.com/ line 5 > eval, line 1: WEBGL_debug_ren
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1650451895744	geckodriver	INFO	Listening on 127.0.0.1:3564
+1650451898298	geckodriver	INFO	Listening on 127.0.0.1:3576
+1650451901321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileYPvBOt"
+1650451901925	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileYPvBOt\\search.json.mozlz4", (void 0)))
+1650451905582	Marionette	INFO	Listening on port 3584
+1650451905634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650451957067	Marionette	INFO	Stopped listening on port 3584
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilejh5hxA"
+1650451933507	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofilejh5hxA\\search.json.mozlz4", (void 0)))
+1650451935919	Marionette	INFO	Listening on port 3666
+1650451936185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650451956125	Marionette	INFO	Stopped listening on port 3666
+1650451976040	geckodriver	INFO	Listening on 127.0.0.1:3735
+1650451979117	geckodriver	INFO	Listening on 127.0.0.1:3744
+1650451982155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileLSYT7F"
+1650451982669	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileLSYT7F\\search.json.mozlz4", (void 0)))
+1650451985177	Marionette	INFO	Listening on port 3753
+1650451985409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650452001543	Marionette	INFO	Stopped listening on port 3753

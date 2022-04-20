@@ -29,8 +29,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/gain_site_s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/site" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/location-iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/location-iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/playwright_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/playwright_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-asyn-chromium.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-asyn-chromium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-asyn-firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-asyn-firefox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-asyn-webkit.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-asyn-webkit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-chromium.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-chromium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-firefox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot-webkit.png" beforeDir="false" afterPath="$PROJECT_DIR$/075Playwright/screenshot-webkit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/075Playwright/screenshot.png" beforeDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -106,7 +120,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gain_site">
+  <component name="RunManager" selected="Python.gain_site_s">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,27 +136,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-    </configuration>
-    <configuration name="bypass_abroad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/bypass_abroad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="gain_site" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
@@ -165,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linx_IXP_view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gain_site_s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/linx_IXP_view.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/gain_site_s.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linx_IXP_view_cn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playwright_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/075Playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/linx_IXP_view_cn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/075Playwright/playwright_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ris_live" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playwright_mobile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,11 +208,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039BGPStream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/075Playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039BGPStream/ris_live.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/075Playwright/playwright_mobile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playwright_multi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/075Playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/075Playwright/playwright_multi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,19 +243,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bypass_abroad" />
-      <item itemvalue="Python.linx_IXP_view_cn" />
-      <item itemvalue="Python.linx_IXP_view" />
-      <item itemvalue="Python.ris_live" />
       <item itemvalue="Python.gain_site" />
+      <item itemvalue="Python.playwright_demo" />
+      <item itemvalue="Python.playwright_mobile" />
+      <item itemvalue="Python.playwright_multi" />
+      <item itemvalue="Python.gain_site_s" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gain_site_s" />
         <item itemvalue="Python.gain_site" />
-        <item itemvalue="Python.ris_live" />
-        <item itemvalue="Python.linx_IXP_view_cn" />
-        <item itemvalue="Python.linx_IXP_view" />
-        <item itemvalue="Python.bypass_abroad" />
+        <item itemvalue="Python.playwright_demo" />
+        <item itemvalue="Python.playwright_multi" />
+        <item itemvalue="Python.playwright_mobile" />
       </list>
     </recent_temporary>
   </component>

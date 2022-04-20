@@ -38,7 +38,42 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\057IPv6UrlCrawler\deploy\wwwjhsgovcn.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy\wwwmryutop.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\057IPv6UrlCrawler\deploy\wwwmsxfcom.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy\wwwxsbngovcn_20220303.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server\wwwmryutop.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server\wwwxsbngovcn.csv">
           <value>
             <Attribute>
               <option name="separator" value=":" />
