@@ -31,6 +31,7 @@ import time
 from bs4 import BeautifulSoup
 import csv
 from urllib.parse import urlparse
+import re
 
 
 def write_to_csv(res_list, des_path, title_list):
@@ -75,6 +76,9 @@ def gain_inner_url(page_url):
         abs_dir = page_url
     print("当前绝对目录:", abs_dir)
 
+    protocol_str = abs_dir.split(":")[0]  # 区分是https协议还是http协议
+    # print(protocol_str)
+
     """
     对获取到的链接做如下处理：
     由于网站页面采用Playwright+Firefox动态加载完毕，所有资源均为加载完后的静态资源，避免对每个网站的JS代码进行繁琐的分析
@@ -84,15 +88,18 @@ def gain_inner_url(page_url):
     """
 
     page.goto(page_url)
-    time.sleep(3)  # 延迟加载，等待页面加载完毕
+    # time.sleep(3) # 延迟加载，等待页面加载完毕
+    page.wait_for_load_state("networkidle")
     page_html = page.content()
     bs_obj = BeautifulSoup(page_html, "html5lib")
     all_url_list = bs_obj.findAll("a")  # 存储全部的原始超链
+    all_url_list = list(set(all_url_list))  # 新增去重功能，降低重复链接的爬取时间
+
     for item in all_url_list:
         try:
             url_str = item.attrs['href']
         except Exception as e_href:
-            print(item, "href提取失败:", e_href)
+            print("无效a标签:", e_href)
             continue
         """
         处理逻辑
@@ -103,11 +110,11 @@ def gain_inner_url(page_url):
 
         if url_str.startswith("//"):
             # 找到”//XXX“形式的绝对链接
-            url_str = "http:" + url_str
+            url_str = protocol_str + ":" + url_str
             # print(url_str)
         elif url_str.startswith("/"):
             # 找到“/XXXX”形式的绝对路径内链
-            url_str = "http://" + urlparse(page_url).netloc + url_str
+            url_str = protocol_str + "://" + urlparse(page_url).netloc + url_str
             # print(url_str)
         elif url_str.startswith("./"):
             # 找到“./XXX”形式的相对路径内链
@@ -136,10 +143,11 @@ def gain_website_url(site_url):
     :return multistage_url_list:
     """
     multistage_url_list = []  # 存储多级链接
-    site_url = "http://" + site_url
     page.goto(site_url)
-    time.sleep(3)  # 延迟加载，等待页面跳转结束，解决重定向的问题
+    # time.sleep(3)  # 延迟加载，等待页面跳转结束，解决重定向的问题
+    page.wait_for_load_state("networkidle")
     site_url = page.url  # 获取跳转之后的网络链接
+    print(site_url)
     domain_name = urlparse(site_url).netloc.strip("www.")
     print("站点地址:", site_url)
     print("域名模式:", domain_name)
@@ -162,7 +170,8 @@ def gain_website_url(site_url):
         try:
             print("当前访问二级链：", item)
             page.goto(item)
-            time.sleep(3)  # 延迟加载，等待二级页面跳转结束，解决重定向的问题
+            # time.sleep(3)  # 延迟加载，等待二级页面跳转结束，解决重定向的问题
+            page.wait_for_load_state("networkidle")
         except Exception as e_stage2:
             print("访问二级链超时：", e_stage2)
             # page.evaluate('window.stop()')
@@ -188,13 +197,18 @@ def gain_website_url(site_url):
     return multistage_url_list
 
 
+def cancel_request(route):
+    # print("request:", request)
+    route.abort()
+
+
 if __name__ == "__main__":
     """
     读取网站列表
     """
     fail_log = []  # 存储失败日志
     site_list = []  # 存储读取的网站列表
-    sites_file = "site"
+    sites_file = "site_test"
     file_in = open(sites_file, "r", encoding="utf-8")
     for line in file_in.readlines():
         site_list.append(line.strip())
@@ -210,28 +224,36 @@ if __name__ == "__main__":
         try:
             with sync_playwright() as p:
                 # 启动浏览器
-                browser = p.firefox.launch(headless=False)
+                browser = p.chromium.launch(headless=True)
                 page = browser.new_page()
-                result_url_list = gain_website_url(site_item)
+                # re_string = r"(\.png)|(\.jpg)"
+                # page.route(re.compile(re_string), cancel_request)
+                site_url_str = "http://" + site_item
+                result_url_list = gain_website_url(site_url_str)
                 # 关闭浏览器
                 browser.close()
-        except Exception as e:
-            fail_log.append(["站点链接抓取失败,", e])
+        except Exception as e_site_fail:
+            print("站点链接抓取失败，", e_site_fail)
+            fail_log.append(["站点链接抓取失败,", e_site_fail])
 
         if len(result_url_list) == 0:
             try:
                 with sync_playwright() as p:
                     # 启动浏览器
-                    browser = p.firefox.launch(headless=False)
+                    browser = p.chromium.launch(headless=True)
                     page = browser.new_page()
-                    result_url_list = gain_website_url(site_item)
+                    # re_string = r"(\.png)|(\.jpg)"
+                    # page.route(re.compile(re_string), cancel_request)
+                    site_url_str = "https://" + site_item
+                    result_url_list = gain_website_url(site_url_str)
                     # 关闭浏览器
                     browser.close()
-            except Exception as e:
-                print("站点链接抓取失败，", e)
-                fail_log.append(["站点链接抓取失败，", e])
+            except Exception as e_site_fail:
+                print("站点链接抓取失败，", e_site_fail)
+                fail_log.append(["站点链接抓取失败，", e_site_fail])
 
         # print(result_url_list)
+
         site_item_str = site_item.replace(".", "")
         save_path = "./" + site_item_str + ".csv"
         write_to_csv(result_url_list, save_path, ["stage2link", "stage3link"])
@@ -263,7 +285,13 @@ href="index!loadMenu.action?preid=560001&id=2c9a808672e400070172e40320780004"
 """
 
 """
+
 爬取实验1(playwright优化前)：www.mryu.top, 754秒，67个二级链接，2904个三级链接
 爬取实验2(playwright全面放开限速等待):www.mryu.top, 91秒，67个二级链接，2904个三级链接
+爬取实验3(做了去重，且限制图片加载):www.mryu.top, 347秒，66个二级链接，1899个三级链接
+爬虫实验4(采用page.wait_for_load_state("networkidle")，即500ms内没有网络连接，秒啊):www.mryu.top,130秒，66个二级链接，1899个三级链接
+
+记录：
+www.cqmg.gov.cn，此网站超级慢,用传统的time.sleep()，是可以的，但会影响其他网站的整体爬取
 
 """

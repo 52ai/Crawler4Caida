@@ -6,6 +6,7 @@
       <w>caida</w>
       <w>contient</w>
       <w>defaultedgetype</w>
+      <w>domcontentloaded</w>
       <w>equinix</w>
       <w>gexf</w>
       <w>ixlan</w>
@@ -14,6 +15,7 @@
       <w>mryu</w>
       <w>mychalk</w>
       <w>netixlan</w>
+      <w>networkidle</w>
       <w>opnet</w>
       <w>preid</w>
       <w>rostelecom</w>

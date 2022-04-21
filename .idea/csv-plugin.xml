@@ -73,6 +73,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server\wwwmsxfcom.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server\wwwpacqgovcn.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\057IPv6UrlCrawler\deploy_server\wwwxsbngovcn.csv">
           <value>
             <Attribute>

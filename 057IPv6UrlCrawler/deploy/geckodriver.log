@@ -692,3 +692,69 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1650451985177	Marionette	INFO	Listening on port 3753
 1650451985409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1650452001543	Marionette	INFO	Stopped listening on port 3753
+1650528864175	geckodriver	INFO	Listening on 127.0.0.1:2227
+1650528866921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileL4GhYj"
+1650528867402	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileL4GhYj\\search.json.mozlz4", (void 0)))
+1650528870532	Marionette	INFO	Listening on port 2239
+1650528870703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650528876901	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/, line 1050: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.cqmg.gov.cn/, line 1050: SyntaxError: expected expression, got '<'
+1650528950853	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1650528960542	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/default.aspx, line 1050: SyntaxError: expected expression, got '<'
+1650528970136	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/default.aspx, line 1050: SyntaxError: expected expression, got '<'
+1650528975783	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=8, line 423: SyntaxError: expected expression, got '<'
+1650528981335	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=8, line 423: SyntaxError: expected expression, got '<'
+1650528986908	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=9, line 511: SyntaxError: expected expression, got '<'
+1650528992432	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=9, line 511: SyntaxError: expected expression, got '<'
+1650528997975	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=10, line 511: SyntaxError: expected expression, got '<'
+1650529003495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=10, line 511: SyntaxError: expected expression, got '<'
+1650529009056	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=11, line 511: SyntaxError: expected expression, got '<'
+1650529014569	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=11, line 511: SyntaxError: expected expression, got '<'
+1650529020141	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=12, line 511: SyntaxError: expected expression, got '<'
+1650529025668	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=12, line 511: SyntaxError: expected expression, got '<'
+1650529031234	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=13, line 511: SyntaxError: expected expression, got '<'
+1650529036767	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=13, line 511: SyntaxError: expected expression, got '<'
+1650529042338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=14, line 511: SyntaxError: expected expression, got '<'
+1650529047847	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=14, line 511: SyntaxError: expected expression, got '<'
+1650529053417	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=15, line 511: SyntaxError: expected expression, got '<'
+1650529058922	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=15, line 511: SyntaxError: expected expression, got '<'
+1650529064484	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=16, line 511: SyntaxError: expected expression, got '<'
+1650529070849	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=16, line 511: SyntaxError: expected expression, got '<'
+1650529076490	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=17, line 511: SyntaxError: expected expression, got '<'
+1650529082037	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=17, line 511: SyntaxError: expected expression, got '<'
+1650529087576	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=18, line 511: SyntaxError: expected expression, got '<'
+1650529093126	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/list.aspx?nodeid=18, line 511: SyntaxError: expected expression, got '<'
+1650529099338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/zsyy.aspx, line 481: SyntaxError: expected expression, got '<'
+1650529105602	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/zsyy.aspx, line 481: SyntaxError: expected expression, got '<'
+1650529111204	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/Detail.aspx?id=3013, line 403: SyntaxError: expected expression, got '<'
+1650529120608	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: http://www.cqmg.gov.cn/Detail.aspx?id=3013, line 403: SyntaxError: expected expression, got '<'
