@@ -25,13 +25,13 @@ pip37 install beautifulsoup4 -i http://mirrors.aliyun.com/pypi/simple/ --trusted
 
 urllib3~=1.25.11
 html5lib~=1.1
+
 """
 from playwright.sync_api import sync_playwright
 import time
 from bs4 import BeautifulSoup
 import csv
 from urllib.parse import urlparse
-import re
 
 
 def write_to_csv(res_list, des_path, title_list):
@@ -144,8 +144,8 @@ def gain_website_url(site_url):
     """
     multistage_url_list = []  # 存储多级链接
     page.goto(site_url)
-    # time.sleep(3)  # 延迟加载，等待页面跳转结束，解决重定向的问题
-    page.wait_for_load_state("networkidle")
+    # time.sleep(10)  # 延迟加载，等待页面跳转结束，解决重定向的问题
+    # page.wait_for_load_state("networkidle")
     site_url = page.url  # 获取跳转之后的网络链接
     print(site_url)
     domain_name = urlparse(site_url).netloc.strip("www.")
@@ -197,11 +197,6 @@ def gain_website_url(site_url):
     return multistage_url_list
 
 
-def cancel_request(route):
-    # print("request:", request)
-    route.abort()
-
-
 if __name__ == "__main__":
     """
     读取网站列表
@@ -224,7 +219,7 @@ if __name__ == "__main__":
         try:
             with sync_playwright() as p:
                 # 启动浏览器
-                browser = p.chromium.launch(headless=True)
+                browser = p.chromium.launch(headless=False)
                 page = browser.new_page()
                 # re_string = r"(\.png)|(\.jpg)"
                 # page.route(re.compile(re_string), cancel_request)
@@ -240,7 +235,7 @@ if __name__ == "__main__":
             try:
                 with sync_playwright() as p:
                     # 启动浏览器
-                    browser = p.chromium.launch(headless=True)
+                    browser = p.chromium.launch(headless=False)
                     page = browser.new_page()
                     # re_string = r"(\.png)|(\.jpg)"
                     # page.route(re.compile(re_string), cancel_request)
