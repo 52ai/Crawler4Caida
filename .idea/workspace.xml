@@ -29,12 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/gain_site_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/gain_site_s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/site_test" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/site_test" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -90,6 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -110,7 +106,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gain_site">
+  <component name="RunManager" selected="Python.gain_site_s">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,8 +237,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gain_site" />
         <item itemvalue="Python.gain_site_s" />
+        <item itemvalue="Python.gain_site" />
         <item itemvalue="Python.gain_site_s_async" />
         <item itemvalue="Python.playwright_demo" />
         <item itemvalue="Python.playwright_multi" />
