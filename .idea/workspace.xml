@@ -29,14 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/079CNNet/cn_external_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/079CNNet/cn_external_analysis_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/079CNNet/cn_external_analysis_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/023RUNet/external_as_analysis_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/037Open3D/BGPVis/my_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy/site" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/gain_site_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/gain_site_s.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/site_test" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/site_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/wwwmryutop.csv" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server/wwwmryutop.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/058ASWhois/gain_asn_info_from_CAIDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/058ASWhois/gain_asn_info_from_CAIDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/079CNNet/cn_external_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/079CNNet/cn_external_analysis.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -94,16 +99,16 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/079CNNet" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\079CNNet" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler\deploy_server" />
       <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
       <recent name="D:\Code\Crawler4Caida\077RU&amp;UA" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\RU&amp;UA" />
-      <recent name="D:\Code\Crawler4Caida\076Streamlit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida" />
@@ -113,7 +118,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cn_external_analysis">
+  <component name="RunManager" selected="Python.cn_external_analysis_v3">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +135,28 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="cn_external_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="active_as_cn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cn_external_analysis_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/079CNNet/cn_external_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/079CNNet/cn_external_analysis_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="deal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cn_external_analysis_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/004NetDataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/079CNNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004NetDataAnalysis/deal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/079CNNet/cn_external_analysis_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="external_as_analysis_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gain_asn_info_from_CAIDA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/023RUNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/058ASWhois" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/023RUNet/external_as_analysis_v4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/058ASWhois/gain_asn_info_from_CAIDA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,41 +240,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testOpen3DVis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/037Open3D/BGPVis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/037Open3D/BGPVis/testOpen3DVis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.gain_site_s" />
-      <item itemvalue="Python.deal" />
-      <item itemvalue="Python.testOpen3DVis" />
-      <item itemvalue="Python.external_as_analysis_v4" />
-      <item itemvalue="Python.cn_external_analysis" />
+      <item itemvalue="Python.cn_external_analysis_v2" />
+      <item itemvalue="Python.cn_external_analysis_v3" />
+      <item itemvalue="Python.gain_asn_info_from_CAIDA" />
+      <item itemvalue="Python.active_as_cn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cn_external_analysis" />
-        <item itemvalue="Python.external_as_analysis_v4" />
-        <item itemvalue="Python.testOpen3DVis" />
+        <item itemvalue="Python.cn_external_analysis_v3" />
+        <item itemvalue="Python.active_as_cn" />
+        <item itemvalue="Python.gain_asn_info_from_CAIDA" />
+        <item itemvalue="Python.cn_external_analysis_v2" />
         <item itemvalue="Python.gain_site_s" />
-        <item itemvalue="Python.deal" />
       </list>
     </recent_temporary>
   </component>

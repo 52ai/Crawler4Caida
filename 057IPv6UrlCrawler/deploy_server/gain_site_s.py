@@ -88,8 +88,8 @@ def gain_inner_url(page_url):
     """
 
     page.goto(page_url)
-    # time.sleep(3) # 延迟加载，等待页面加载完毕
     page.wait_for_load_state("networkidle")
+    # time.sleep(3)  # 延迟加载，等待页面加载完毕
 
     page_html = page.content()
     bs_obj = BeautifulSoup(page_html, "html5lib")
@@ -220,7 +220,7 @@ if __name__ == "__main__":
         try:
             with sync_playwright() as p:
                 # 启动浏览器
-                browser = p.chromium.launch(headless=True)
+                browser = p.chromium.launch(headless=False)
                 page = browser.new_page()
                 # re_string = r"(\.png)|(\.jpg)"
                 # page.route(re.compile(re_string), cancel_request)
@@ -236,7 +236,7 @@ if __name__ == "__main__":
             try:
                 with sync_playwright() as p:
                     # 启动浏览器
-                    browser = p.chromium.launch(headless=True)
+                    browser = p.chromium.launch(headless=False)
                     page = browser.new_page()
                     # re_string = r"(\.png)|(\.jpg)"
                     # page.route(re.compile(re_string), cancel_request)

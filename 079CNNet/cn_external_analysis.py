@@ -153,6 +153,10 @@ def external_as_analysis(aim_country):
                             cu_2abroad_as.append(str(line.strip().split('|')[0]))
                             cu_2abroad_org.append(as2org[str(line.strip().split('|')[0])])
 
+                        # if line.strip().split('|')[1] in cm_as:
+                        #     cm_2abroad_as.append(str(line.strip().split('|')[0]))
+                        #     cm_2abroad_org.append(as2org[str(line.strip().split('|')[0])])
+
             except Exception as e:
                 except_info.append(e)
 

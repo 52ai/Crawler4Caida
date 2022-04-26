@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\015BGPAnalysis\active_as_cn_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\018Scatter\abnormal_data.csv">
           <value>
             <Attribute>

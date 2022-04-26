@@ -57,7 +57,7 @@ def gain_asn_info():
             print(asn, asn_name, asn_org, asn_country)
             asn_info_result.append([asn, asn_name, asn_org, asn_country])
     asn_info_result.sort(reverse=False, key=lambda elem: int(elem[0]))
-    save_file = "asn_info_from_caida.csv"
+    save_file = "../000LocalData/as_Gao/asn_info_from_caida.csv"
     title_line = ["asn", "asn_name", "asn_org", "asn_country"]
     write_to_csv(asn_info_result, save_file, title_line)
 
