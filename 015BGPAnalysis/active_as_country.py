@@ -24,15 +24,15 @@ def write_to_csv(res_list, des_path):
     :return: None
     """
     print("write file <%s> ..." % des_path)
-    csvFile = open(des_path, 'w', newline='', encoding='utf-8')
+    csv_file = open(des_path, 'w', newline='', encoding='utf-8')
     try:
-        writer = csv.writer(csvFile)
+        writer = csv.writer(csv_file)
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
         print(e)
     finally:
-        csvFile.close()
+        csv_file.close()
     print("write finish!")
 
 
@@ -66,6 +66,7 @@ def analysis(open_file, country_str):
     date_str = temp_str.split(".")[0]
     file_read = open(open_file, 'r', encoding='utf-8')
     as_list = []  # 存储当前时间，全部有连接关系的AS
+    except_info = []  # 存储异常记录
     for line in file_read.readlines():
         if line.strip().find("#") == 0:
             continue
@@ -85,18 +86,18 @@ def analysis(open_file, country_str):
             if as2country[as0] == country_str:
                 as_list.append(as0)
         except Exception as e:
-            print(e)
+            except_info.append(e)
 
         try:
             # print(as2country[as1])
             if as2country[as1] == country_str:
                 as_list.append(as1)
         except Exception as e:
-            print(e)
+            except_info.append(e)
+    # print("ASN画像信息缺失:", len(set(except_info)))
+    # print(except_info)
     as_list = list(set(as_list))  # 先转换为字典，再转化为列表，速度还可以
     as_list.sort(key=lambda i: int(i))
-    # print(as_list)
-    # print("Active AS：", len(as_list))
     return date_str, len(as_list)
 
 
@@ -105,7 +106,10 @@ if __name__ == "__main__":
     # country_list = ["CN", "US", "DE", "JP", "KR",
     #                 "BR", "IN", "RU", "ZA", "SG",
     #                 "MY", "ID", "VN", "FR", "TH"]
-    country_list = ["CA"]
+    # country_list = ["CN"]
+    country_list = ["US", "BR", "RU", "AU", "DE",
+                    "FR", "CA", "AR", "GB", "IN",
+                    "JP", "ID", "CN"]
     for country_item in country_list:
         active_as = []  # 记录活跃的as号
         file_path = []
@@ -116,7 +120,7 @@ if __name__ == "__main__":
         temp_list = []
         x_list = []
         y_list = []
-        for path_item in file_path:
+        for path_item in file_path[-1:]:
             # print(analysis(path_item))
             x_date, y_cnt = analysis(path_item, country_item)
             temp_list.append(x_date)
@@ -124,7 +128,8 @@ if __name__ == "__main__":
             temp_list.append(y_cnt)
             y_list.append(y_cnt)
             active_as.append(temp_list)
-            print(temp_list)
+            print(country_item, temp_list)
+            # print(country_item, y_cnt)
             temp_list = []
         # print(active_as)
         save_path = "./active_as_"+country_item+".csv"

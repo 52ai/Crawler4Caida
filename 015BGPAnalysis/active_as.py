@@ -76,7 +76,7 @@ def draw(x_list, y_list, save_name):
     fig, ax = plt.subplots(1, 1, figsize=(30.0, 10.8))
     plt.xticks(rotation=90)
     tick_spacing = 4
-    title_string = "Global Active AS Graph(1998-2021) "
+    title_string = "Global Active AS Graph"
     ax.set_title(title_string)
     ax.plot(x_list, y_list)
     ax.set_xlabel('Date')
@@ -84,7 +84,7 @@ def draw(x_list, y_list, save_name):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     save_fig_name = save_name + ".jpg"
     plt.savefig(save_fig_name, dpi=1000)
-    plt.show()
+    # plt.show()
 
 
 if __name__ == "__main__":
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     temp_list = []
     x_list = []
     y_list = []
-    for path_item in file_path:
+    for path_item in file_path[-60:]:
         # print(analysis(path_item))
         x_date, y_cnt = analysis(path_item)
         temp_list.append(x_date)
