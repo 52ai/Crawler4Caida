@@ -29,8 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/a_bypass_abroad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_country.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -107,7 +107,7 @@
       <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.active_as_country">
+  <component name="RunManager" selected="Python.a_bypass_abroad">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +124,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="active_as" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="a_bypass_abroad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/active_as.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/a_bypass_abroad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,17 +232,17 @@
     <list>
       <item itemvalue="Python.cn_external_analysis_v2" />
       <item itemvalue="Python.cn_external_analysis_v3" />
-      <item itemvalue="Python.active_as" />
       <item itemvalue="Python.ixp_map" />
       <item itemvalue="Python.active_as_country" />
+      <item itemvalue="Python.a_bypass_abroad" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a_bypass_abroad" />
         <item itemvalue="Python.active_as_country" />
         <item itemvalue="Python.ixp_map" />
         <item itemvalue="Python.cn_external_analysis_v3" />
         <item itemvalue="Python.cn_external_analysis_v2" />
-        <item itemvalue="Python.active_as" />
       </list>
     </recent_temporary>
   </component>
