@@ -60,7 +60,7 @@ def analysis(open_file, country_str):
     :return:
     """
     as2country = gain_as2country()  # 获取每个AS的country信息
-    print(open_file)
+    # print(open_file)
     # 处理文件名，提取日期信息
     temp_str = open_file.split('\\')[-1]
     date_str = temp_str.split(".")[0]
@@ -107,9 +107,13 @@ if __name__ == "__main__":
     #                 "BR", "IN", "RU", "ZA", "SG",
     #                 "MY", "ID", "VN", "FR", "TH"]
     # country_list = ["CN"]
-    country_list = ["US", "BR", "RU", "AU", "DE",
-                    "FR", "CA", "AR", "GB", "IN",
-                    "JP", "ID", "CN"]
+    # country_list = ["US", "BR", "RU", "AU", "DE",
+    #                 "FR", "CA", "AR", "GB", "IN",
+    #                 "JP", "ID", "CN"]
+
+    country_list = ["SE", "NL", "UA", "ES", "TH",
+                    "IT", "NZ", "PL"]
+
     for country_item in country_list:
         active_as = []  # 记录活跃的as号
         file_path = []
@@ -128,11 +132,11 @@ if __name__ == "__main__":
             temp_list.append(y_cnt)
             y_list.append(y_cnt)
             active_as.append(temp_list)
-            print(country_item, temp_list)
-            # print(country_item, y_cnt)
+            # print(country_item, temp_list)
+            print(country_item, y_cnt)
             temp_list = []
         # print(active_as)
-        save_path = "./active_as_"+country_item+".csv"
-        write_to_csv(active_as, save_path)
+        # save_path = "./active_as_"+country_item+".csv"
+        # write_to_csv(active_as, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
