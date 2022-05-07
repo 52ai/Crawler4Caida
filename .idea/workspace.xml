@@ -29,10 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/global_as.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/global_as.gexf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -241,9 +239,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tw_as_rel" />
+        <item itemvalue="Python.a_bypass_abroad" />
         <item itemvalue="Python.cn_external_analysis_v3" />
         <item itemvalue="Python.generate_gexf_global_as" />
-        <item itemvalue="Python.a_bypass_abroad" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>

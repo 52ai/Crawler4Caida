@@ -61,7 +61,7 @@ def gain_as2org_caida():
         # print(line)
         as_number = line[0]
         as_org = line[2] + "," + line[1]
-        as2org_dic[as_number] = as_org.split(",")[0]
+        as2org_dic[as_number] = as_org
     return as2org_dic
 
 
@@ -73,16 +73,115 @@ def as_analysis(aim_country):
     """
     as2country = gain_as2country_caida()
     as2org = gain_as2org_caida()
-    print(f"- - - - - - - {aim_country}- - - - - -  - - ")
+    print(f"- - - - - - - {aim_country}国家网络地图统计报告（网络连接）- - - - - -  - - ")
     # 获取1998-2022年全球BGP互联关系的存储文件
     file_path = []
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    except_info = []  # 存储异常信息
     for path_item in file_path[-1:]:
-        print(path_item)
+        print("0.数据统计源：", path_item)
+
+        except_info = []  # 存储异常信息
+        aim_country_as = {}  # 存储目标国家的as网络
+        internal_rel_cnt = 0  # 统计该国内部网络互联关系数量
+        external_as_list = []  # 存储该国对外连接的网络关系数量及网络数量
+
+        file_read = open(path_item, 'r', encoding='utf-8')
+        for line in file_read.readlines():
+            if line.strip().find("#") == 0:
+                continue
+            try:
+                left_as = str(line.strip().split('|')[0])
+                left_as_country = as2country[left_as]
+                left_as_org = as2org[left_as]
+
+                right_as = str(line.strip().split('|')[1])
+                right_as_country = as2country[right_as]
+                right_as_org = as2org[right_as]
+
+                """
+                统计内部网络情况            
+                """
+                if left_as_country == aim_country:
+                    # print(left_as, left_as_country, left_as_org)
+                    if left_as not in aim_country_as.keys():
+                        aim_country_as[left_as] = [left_as_org, left_as_country, 1]
+                    else:
+                        aim_country_as[left_as][-1] += 1
+
+                if right_as_country == aim_country:
+                    # print(right_as, right_as_country, right_as_org)
+                    if right_as not in aim_country_as.keys():
+                        aim_country_as[right_as] = [right_as_org, right_as_country, 1]
+                    else:
+                        aim_country_as[right_as][-1] += 1
+
+                """
+                统计内部网络互联关系
+                """
+                if left_as_country == aim_country and right_as_country == aim_country:
+                    internal_rel_cnt += 1
+                """
+                统计对外互联情况
+                """
+                if left_as_country == aim_country and right_as_country != aim_country:
+                    external_as_list.append(right_as)
+                if left_as_country != aim_country and right_as_country == aim_country:
+                    external_as_list.append(left_as)
+
+            except Exception as e:
+                except_info.append(e)
+
+        print(f"1.{aim_country}活跃自治域网络数量：", len(aim_country_as.keys()))
+        country_as_info_list = []  # 存储目标国家详细的AS列表信息
+        for key in aim_country_as.keys():
+            # print(key, aim_country_as[key])
+            temp_list = ["AS"+key]
+            temp_list.extend(aim_country_as[key])
+            # print(temp_list)
+            country_as_info_list.append(temp_list)
+        """
+        对country_as_info_list列表按互联关系数量排序，再输出
+        """
+        country_as_info_list.sort(reverse=True, key=lambda elem: int(elem[3]))
+        print("2.TOP 10 自治域网络(按照网络互联关系数量维度排名):")
+        for item in country_as_info_list[0:11]:
+            print(item)
+
+        """
+        以国家维度，统计目标国家对外互联关系以及对内互联关系
+        """
+        print(f"3.{aim_country}内部网络互联关系数量:", internal_rel_cnt)
+        print(f"4.{aim_country}与外部{len(set(external_as_list))}个自治域网络，产生了{len(external_as_list)}条互联关系")
+        """
+        统计对外互联涉及的国家情况
+        """
+        external_country_dic = {}  # 统计目标国家与他国的互联网络的数量以及互联关系的数量信息
+        for item in external_as_list:
+            item_country = "ZZ"
+            try:
+                item_country = as2country[str(item)]
+                # print(item, item_country)
+                if item_country not in external_country_dic:
+                    external_country_dic[item_country] = [item]  # 初始化国家字典的as值
+                else:
+                    external_country_dic[item_country].append(item)  # 直接将as网络添加到国家字典的值中
+            except Exception as e:
+                except_info.append(e)
+
+        print(f"5.{aim_country}与全球{len(external_country_dic.keys())}个国家或地区存在网络直联关系")
+        external_country_list = []  # 将对外互联涉及的国家字典转换为列表
+        for item in external_country_dic.keys():
+            external_country_list.append([item,
+                                          len(set(external_country_dic[item])),
+                                          len(external_country_dic[item])])
+
+        external_country_list.sort(reverse=True, key=lambda elem: int(elem[1]))
+        print(f"6.TOP 10 直联国家或地区（按照直联网络数量排名）:")
+        for item in external_country_list[0:11]:
+            print(item)
 
 
 if __name__ == "__main__":
