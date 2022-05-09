@@ -1,6 +1,8 @@
 # coding:utf-8
 """
 create on May 6, 2022 By Wayne YU
+Email:ieeflsyu@outlook.com
+
 Functon:
 
 分析TW地区活跃自治域数量、自治域网络通告的IP地址规模、自治域网络的互联关系情况
@@ -73,7 +75,6 @@ def as_analysis(aim_country):
     """
     as2country = gain_as2country_caida()
     as2org = gain_as2org_caida()
-    print(f"- - - - - - - {aim_country}国家网络地图统计报告（网络连接）- - - - - -  - - ")
     # 获取1998-2022年全球BGP互联关系的存储文件
     file_path = []
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
@@ -81,6 +82,7 @@ def as_analysis(aim_country):
             file_path.append(os.path.join(root, file_item))
 
     for path_item in file_path[-1:]:
+        print(f"- - - - - - - {aim_country}国家网络地图统计报告（网络连接）- - - - - -  - - ")
         print("0.数据统计源：", path_item)
 
         except_info = []  # 存储异常信息
@@ -159,8 +161,14 @@ def as_analysis(aim_country):
         统计对外互联涉及的国家情况
         """
         external_country_dic = {}  # 统计目标国家与他国的互联网络的数量以及互联关系的数量信息
+        external_as_dic = {}  # 统计对外互联网络紧密度
         for item in external_as_list:
-            item_country = "ZZ"
+
+            if item not in external_as_dic.keys():
+                external_as_dic[item] = 1
+            else:
+                external_as_dic[item] += 1
+
             try:
                 item_country = as2country[str(item)]
                 # print(item, item_country)
@@ -170,6 +178,13 @@ def as_analysis(aim_country):
                     external_country_dic[item_country].append(item)  # 直接将as网络添加到国家字典的值中
             except Exception as e:
                 except_info.append(e)
+        """
+        将对外互联网络紧密度字典转为列表，筛选与TW紧密合作的国际网络
+        """
+        external_as_list_rank = []
+        for item in external_as_dic.keys():
+            external_as_list_rank.append([item, external_as_dic[item]])
+        external_as_list_rank.sort(reverse=True, key=lambda elem: int(elem[1]))
 
         print(f"5.{aim_country}与全球{len(external_country_dic.keys())}个国家或地区存在网络直联关系")
         external_country_list = []  # 将对外互联涉及的国家字典转换为列表
@@ -179,9 +194,14 @@ def as_analysis(aim_country):
                                           len(external_country_dic[item])])
 
         external_country_list.sort(reverse=True, key=lambda elem: int(elem[1]))
-        print(f"6.TOP 10 直联国家或地区（按照直联网络数量排名）:")
+        print(f"6.TOP 10 国际直联国家或地区（按照直联网络数量排名）:")
         for item in external_country_list[0:11]:
             print(item)
+
+        print(f"7.TOP 10 国际直联网络：")
+        for item in external_as_list_rank[0:11]:
+            temp_list = ["AS"+item[0], as2org[str(item[0])], as2country[str(item[0])], item[1]]
+            print(temp_list)
 
 
 if __name__ == "__main__":

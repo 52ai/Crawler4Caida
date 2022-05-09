@@ -71,7 +71,7 @@ def ix_view():
     html = urlopen(r"https://www.peeringdb.com/api/netixlan")
     html_json = json.loads(html.read())
     net_ix_result = []  # 存储网络接入IX的数据
-    except_as_ist = []  # 存储异常的AS列表
+    except_as_list = []  # 存储异常的AS列表
     for item in html_json['data']:
         ix_id = item['ix_id']
         ix_name = item['name']
@@ -80,15 +80,15 @@ def ix_view():
         try:
             asn_country = as2country_dic[str(asn)]
         except Exception as e:
-            except_as_ist.append(e)
+            except_as_list.append(e)
         ix_speed = item['speed']
         is_rs_peer = item['is_rs_peer']
         temp_line = [ix_id, ix_name, asn, asn_country, ix_speed, is_rs_peer]
         # print(temp_line)
         net_ix_result.append(temp_line)
     print("已成功统计 %s 个AS-IX的接入关系" % len(net_ix_result))
-    # print("存在AS信息缺失记录数量:", len(except_as_ist))
-    # print(except_as_ist)
+    # print("存在AS信息缺失记录数量:", len(except_as_list))
+    # print(except_as_list)
     result_file = "..\\000LocalData\\RU&UA\\as_ix.csv"
     write_to_csv(net_ix_result, result_file)
     """
