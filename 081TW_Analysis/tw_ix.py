@@ -89,7 +89,7 @@ ix的详细信息：
 
 """
 
-from urllib.request import urlopen
+# from urllib.request import urlopen
 import json
 from datetime import *
 import time
@@ -193,7 +193,6 @@ def ix_analysis(aim_country):
     # html_json = json.loads(html.read())
     with open("../000LocalData/IXVis/netixlan20220509.json") as json_file:
         html_json = json.load(json_file)
-    net_ix_result = []  # 存储网络接入IX的数据
     except_as_list = []  # 存储异常的AS列表
     print("- - - - - - - - - - - - - - - - - - ")
     print("根据目标国家的交换中心ID，进一步研究TOP IX的详细信息")
@@ -244,4 +243,3 @@ if __name__ == "__main__":
     country = "TW"
     ix_analysis(country)
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
-

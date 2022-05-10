@@ -105,8 +105,8 @@ def rib_analysis(rib_file):
     as2country_dic = gain_as2country()
     print("AS12389's Country:", as2country_dic['12389'])
     except_info_list = []  # 记录异常信息
-    # tier1_list = ['174']
-    tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
+    tier1_list = ['174', '6939', '1828']
+    # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
     # tier1_list = ['3356', '174', '2914', '6939', '3257',
     #               '701', '7018', '1239', '3549', '7922',
     #               '3320', '6830', '5511', '3491', '6762',
@@ -189,7 +189,7 @@ def rib_analysis(rib_file):
                         if as_path[i] in tier1_list:
                             if as2country_dic[as_path[i+1]] == analysis_country:
                                 tier1_path += 1
-                                break  # 找到了就跳出循环，不跳出循环忽悠特侧，如AS_PATH为“CN Tier1 CN”的情况
+                                break  # 找到了就跳出循环，不跳出循环会有特侧，如AS_PATH为“CN Tier1 CN”的情况
 
                         if as_path[i+1] in tier1_list:
                             if as2country_dic[as_path[i]] == analysis_country:
@@ -236,7 +236,7 @@ def rib_analysis(rib_file):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    path_item = "..\\000LocalData\\RU&UA\\rib\\z20220224.txt"
+    path_item = "..\\000LocalData\\RU&UA\\rib\\z20220320.txt"
     rib_analysis(path_item)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

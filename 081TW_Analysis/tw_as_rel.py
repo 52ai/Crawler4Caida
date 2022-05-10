@@ -193,10 +193,10 @@ def as_analysis(aim_country):
                                           len(set(external_country_dic[item])),
                                           len(external_country_dic[item])])
 
-        external_country_list.sort(reverse=True, key=lambda elem: int(elem[1]))
+        external_country_list.sort(reverse=True, key=lambda elem: int(elem[2]))
         print(f"6.TOP 10 国际直联国家或地区（按照直联网络数量排名）:")
         for item in external_country_list[0:11]:
-            print(item)
+            print(item, "占比:", item[2]/len(external_as_list))
 
         print(f"7.TOP 10 国际直联网络：")
         for item in external_as_list_rank[0:11]:
