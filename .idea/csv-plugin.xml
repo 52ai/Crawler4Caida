@@ -171,6 +171,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\082FakeIP\announce.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
