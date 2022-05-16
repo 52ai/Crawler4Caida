@@ -1,0 +1,17 @@
+一、环境配置
+playwright仅支持Python3.7以上的版本
+
+1）安装Playwright 1.18.0环境
+pip3 install playwright
+playwright install
+
+2）3rd Package
+playwright~=1.18.0
+beautifulsoup4~=4.9.3
+urllib3~=1.25.11
+html5lib~=1.1
+
+二、程序使用
+
+输入：site
+输出:按照域名模式的.csv 二三级连接结果

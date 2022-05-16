@@ -204,7 +204,7 @@ if __name__ == "__main__":
     """
     fail_log = []  # 存储失败日志
     site_list = []  # 存储读取的网站列表
-    sites_file = "site"
+    sites_file = "site_test"
     file_in = open(sites_file, "r", encoding="utf-8")
     for line in file_in.readlines():
         site_list.append(line.strip())

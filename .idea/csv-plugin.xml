@@ -87,6 +87,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server\wwcqmggovcn.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\057IPv6UrlCrawler\deploy_server\wwwmryutop.csv">
           <value>
             <Attribute>
@@ -172,6 +179,13 @@
           </value>
         </entry>
         <entry key="\082FakeIP\announce.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\082FakeIP\as2country_result.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
