@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\global_traffic_model\cap_cn.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\015BGPAnalysis\active_as.csv">
           <value>
             <Attribute>

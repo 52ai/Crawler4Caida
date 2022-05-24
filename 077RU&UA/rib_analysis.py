@@ -12,7 +12,7 @@ import time
 import csv
 from IPy import IP
 
-rib_file = "..\\000LocalData\\RU&UA\\rib\\z0224.txt"
+rib_file = "..\\000LocalData\\RU&UA\\rib\\z20220320.txt"
 as_info_file = '../000LocalData/as_Gao/asn_info.txt'
 country_info_file = '../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv'
 
