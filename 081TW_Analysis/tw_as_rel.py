@@ -33,6 +33,24 @@ def write_to_csv(res_list, des_path):
     print("write finish!")
 
 
+def gain_country2group():
+    """
+    根据geo信息，输出每个国家对应的Group信息，如欧洲、亚太、一带一路等
+    :return country2group:
+    """
+    country_2_group_file = '..\\000LocalData\\as_geo\\Country-Locations-Group-4wx.csv'
+    country2group_dict = {}  # 存储国家到Group的映射关系
+    file_read = open(country_2_group_file, 'r', encoding='utf-8')
+    for line in file_read.readlines():
+        line = line.strip().split(",")
+        if line[0] == "ID":
+            # print(line)
+            continue
+        if line[4] not in country2group_dict.keys():
+            country2group_dict[line[4]] = line
+    return country2group_dict
+
+
 def gain_as2country_caida():
     """
     根据Caida asn info获取as对应的国家信息
@@ -75,6 +93,8 @@ def as_analysis(aim_country):
     """
     as2country = gain_as2country_caida()
     as2org = gain_as2org_caida()
+    country2group = gain_country2group()
+
     # 获取1998-2022年全球BGP互联关系的存储文件
     file_path = []
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
@@ -195,9 +215,25 @@ def as_analysis(aim_country):
 
         external_country_list.sort(reverse=True, key=lambda elem: int(elem[2]))
         print(f"6.TOP 10 国际直联国家或地区（按照直联网络数量排名）:")
-        for item in external_country_list[0:11]:
-            print(item, "占比:", item[2]/len(external_as_list))
+        direct_rel_country_result = []
+        for item in external_country_list:
+            continent = country2group[str(item[0])][3]
+            country_name = country2group[str(item[0])][5]
+            is_belt_and_road = country2group[str(item[0])][7]
+            is_asia_pacific = country2group[str(item[0])][8]
+            belt_and_road_str = "其他"
+            asia_pacific_str = "其他"
 
+            if is_belt_and_road == "1":
+                belt_and_road_str = "一带一路"
+            if is_asia_pacific == "1":
+                asia_pacific_str = "亚太"
+
+            temp_line = [item[0], country_name, continent, belt_and_road_str, asia_pacific_str, item[1], item[2], round(item[2]/len(external_as_list), 4)]
+            direct_rel_country_result.append(temp_line)
+            print(temp_line)
+        save_file = "direct_rel_country_result.csv"
+        write_to_csv(direct_rel_country_result, save_file)
         print(f"7.TOP 10 国际直联网络：")
         for item in external_as_list_rank[0:11]:
             temp_list = ["AS"+item[0], as2org[str(item[0])], as2country[str(item[0])], item[1]]

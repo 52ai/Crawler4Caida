@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_geo\Country-Locations-Group-4wx.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_geo\GeoLite2-Country-Locations-zh-CN.csv">
           <value>
             <Attribute>
