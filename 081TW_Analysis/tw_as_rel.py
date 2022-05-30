@@ -172,6 +172,8 @@ def as_analysis(aim_country):
         for item in country_as_info_list[0:11]:
             print(item)
 
+        save_file = "country_as_list.csv"
+        write_to_csv(country_as_info_list, save_file)
         """
         以国家维度，统计目标国家对外互联关系以及对内互联关系
         """

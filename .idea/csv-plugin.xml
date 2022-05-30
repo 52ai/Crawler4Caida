@@ -192,6 +192,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\081TW_Analysis\country_as_list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\081TW_Analysis\direct_rel_country_result.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\082FakeIP\announce.csv">
           <value>
             <Attribute>
