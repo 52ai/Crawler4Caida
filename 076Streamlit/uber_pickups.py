@@ -58,19 +58,19 @@ st.session_state.menu = selected
 st.write("You select %s Menu" % selected)
 # st.write("Session:", st.session_state)
 
-names = ['John Smith', 'Rebecca Briggs', 'Wayne YU']
-usernames = ['jsmith', 'rbriggs', 'wayne']
-passwords = ['123', '456', '789']
-hashed_passwords = stauth.hasher(passwords).generate()
-authenticator = stauth.authenticate(names, usernames, hashed_passwords,
-                                    'some_cookie_name', 'some_signature_key', cookie_expiry_days=30)
-name, authentication_status = authenticator.login('login', 'sidebar')
-if authentication_status:
-    st.sidebar.write('Welcome *%s*' % name)
-elif authentication_status is False:
-    st.sidebar.error("Username/password is incorrect")
-elif authentication_status is None:
-    st.sidebar.warning("Please enter your username and password.")
+# names = ['John Smith', 'Rebecca Briggs', 'Wayne YU']
+# usernames = ['jsmith', 'rbriggs', 'wayne']
+# passwords = ['123', '456', '789']
+# hashed_passwords = stauth.hasher(passwords).generate()
+# authenticator = stauth.authenticate(names, usernames, hashed_passwords,
+#                                     'some_cookie_name', 'some_signature_key', cookie_expiry_days=30)
+# name, authentication_status = authenticator.login('login', 'sidebar')
+# if authentication_status:
+#     st.sidebar.write('Welcome *%s*' % name)
+# elif authentication_status is False:
+#     st.sidebar.error("Username/password is incorrect")
+# elif authentication_status is None:
+#     st.sidebar.warning("Please enter your username and password.")
 
 if selected == '48hours':
     st.title("**Welcome to MachineEyes 🧪**")

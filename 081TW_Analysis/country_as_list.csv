@@ -1,607 +1,201 @@
-AS58453,"China Mobile,CMI-INT-HK",CN,658
-AS4809,"China Telecom,CHINATELECOM-CORE-WAN-CN2",CN,299
-AS4134,"China Telecom,CHINANET-BACKBONE",CN,290
-AS132203,"Shenzhen Tencent Computer Systems Company Limited,TENCENT-NET-AP-CN",CN,247
-AS23764,"China Telecom,CTGNet",CN,241
-AS131477,"""Shanghai Huajuan Information Technology Co.,SHHJ-AS",CN,124
-AS4837,"CHINA UNICOM Industrial Internet Backbone,CHINA169-Backbone",CN,117
-AS4808,"China Unicom,CHINA169-BJ",CN,89
-AS4847,"China Networks Inter-Exchange,CNIX-AP",CN,85
-AS55967,"""Beijing Baidu Netcom Science and Technology Co.,Baidu",CN,83
-AS58807,"China Mobile,CMI-INT-AS",CN,66
-AS4538,"China Education and Research Network Center,ERX-CERNET-BKB",CN,65
-AS17621,"China Unicom,CNCGROUP-SH",CN,63
-AS139057,"Baishan Cloud,BAISHAN-CN",CN,58
-AS4812,"China Telecom,CHINANET-SH-AP",CN,56
-AS56048,"China Mobile,CMNET-BEIJING-AP",CN,53
-AS9808,"China Mobile,CHINAMOBILE-CN",CN,50
-AS9929,"CHINA UNICOM Industrial Internet Backbone,CUII",CN,40
-AS24400,"China Mobile,CMNET-V4shanghai-AS-AP",CN,39
-AS9231,"China Mobile,IPEOPLESNET-AS-AP",CN,38
-AS139742,"""Peddie Institute Co.,PEDDIE-AS-AP",CN,37
-AS7497,"Beijing Primezone Technologies Inc.,CSTNET-AS-AP",CN,34
-AS56040,"China Mobile,CMNET-GuangDong-AP",CN,32
-AS58879,"""Beijing CNISP Technology Co.,ANCHNET",CN,31
-AS63631,"""Guangdong Cloudbase Technology Co.,Cloudbase",CN,30
-AS24413,"263 Shanghai Communications Ltd.,Shanghai263",CN,27
-AS133865,"""Beijing IQIYI Science & Technology Co.,IQIYI-AS-AP",CN,26
-AS4842,"Tianhai InfoTech,TH-AS-AP",CN,26
-AS9535,"""Beijing CNISP Technology Co.,ONE-NET-HK",CN,21
-AS137995,"""Shanghai Shuangyu Communication Technology co.,SHUANGYU-AS-AP",CN,21
-AS23724,"China Telecom,CHINANET-IDC-BJ-AP",CN,21
-AS268862,"China Mobile,",CN,19
-AS24545,"China Telecom,HKTEL-AS-AP",CN,19
-AS24133,"21vianet(China) Inc.,CHINA-21VIANET",CN,18
-AS137872,"China Mobile,PEOPLESPHONE-HK",CN,16
-AS45090,"Shenzhen Tencent Computer Systems Company Limited,TENCENT-NET-AP",CN,16
-AS137753,"Beijing Jingdong Shangke Information Technology Co. Ltd.,JD",CN,15
-AS17623,"China Unicom,CNCGROUP-SZ",CN,15
-AS10111,"Zeofast Network,ZEONET-AS-AP",CN,14
-AS24490,"Trans-Eurasia Information Network (TEIN2) - SG,TEIN2-SG-AP",CN,14
-AS24138,"China TieTong Telecommunications Corporation,CTTNET",CN,14
-AS139589,"LSHIY Network Technology Limited,GETONG-AS-AP",CN,13
-AS59045,"""Guangzhou navigation information technology co.,SUNHONGS",CN,13
-AS4811,"China Telecom,CHINANET-SHANGHAI-MAN",CN,13
-AS55990,"Huawei,HWCSNET",CN,13
-AS23911,"China Next Generation Internet Beijing IX,CNGI-BJIX-AS-AP",CN,12
-AS63541,"""Beijing Blue I.T Technologies Co.,CHINACACHE",CN,12
-AS24151,"China Internet Network Infomation Center,CNNIC-CRITICAL-AP",CN,11
-AS146834,"""SiChuan XunYou Network Technologe Limit,XunYou",CN,11
-AS58466,"China Telecom,CT-Guangzhou-IDC",CN,11
-AS59019,"""Beijing Kingsoft Cloud Internet Technology Co.,BJKSCNET",CN,11
-AS136958,"China Unicom,UNICOM-GuangZhou-IDC",CN,11
-AS56041,"China Mobile,CMNET-Zhejiang-AP",CN,11
-AS209141,"China Mobile,CMI-Russia",CN,10
-AS10212,"China Enterprise ICT Solutions Limited,CHINAENTERCOM",CN,10
-AS23848,"""Shenzhen Ping An Communication Technology Co.,PINGANCOM",CN,10
-AS38365,"""Beijing Baidu Netcom Science and Technology Co.,Baidu",CN,10
-AS56046,"China Mobile,CMNET-Jiangsu-AP",CN,10
-AS42962,"Shijiazhuang XuDing Technology Company Ltd,CLE-COMM",CN,10
-AS17428,"21vianet(China) Inc.,CHINA-ABITCOOL",CN,9
-AS38283,"China Telecom,CHINANET-SCIDC-AS-AP",CN,9
-AS59078,"Yunify Technologies Inc.,YUNIFY-NET",CN,9
-AS140633,"BILIBILI HK LIMITED,BILIBILIHKLIMITED-AS-AP",CN,8
-AS58593,"""Shanghai Blue Cloud Technology Co.,BLUECLOUD",CN,8
-AS55992,"Beijing Qihu Technology Company Limited,QIHOO",CN,8
-AS24406,"China Internet Network Infomation Center,CNNIC-CRITICAL-AP",CN,8
-AS24489,"Trans-Eurasia Information Network (TEIN2) - North,TEIN2-NORTH-AP",CN,8
-AS139138,"""Gopay Information Technology Co.,GOPAY",CN,7
-AS9394,"China TieTong Telecommunications Corporation,CTTNET",CN,7
-AS58461,"""No.288,CT-HangZhou-IDC",CN,7
-AS138538,"""Ningbo Nanbian Tuoluo Xinxi Jishu Co.,NANBIAN-VPSORGLOBAL-AS",CN,6
-AS55996,"CYPRESS TELECOM (CHINA) LIMITED,CYPRESSTEL",CN,6
-AS23650,"China Telecom,CHINANET-Jiangsu-Province-IDC",CN,6
-AS45062,"""NetEase Building No.16 Ke Yun Road,Netease-Network",CN,6
-AS45110,"Beijing Tian Wei Xin Tong technology corp. limited.,CBCnet",CN,6
-AS58536,"CONAC (China Organizational Name Administration Center),AP-CONAC-AS-AP",CN,6
-AS137735,"China Construction Bank,CCBNET",CN,6
-AS9809,"""SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,NovaNetwork",CN,6
-AS37965,"Pacnet Business Solutions LTD,CNNIC-PBSL-AP",CN,6
-AS56006,"""Shanghai Pudong Development Bank Co.,SPDB-CN",CN,6
-AS17622,"China Unicom,CNCGROUP-GZ",CN,6
-AS136237,"""Shanghai Shuangyu Communication Technology co.,SSCTC-AS-AP",CN,6
-AS24409,"China Internet Network Infomation Center,CNNIC-CRITICAL-AP",CN,6
-AS137718,"""Beijing Volcano Engine Technology Co.,VOLCANO-ENGINE",CN,6
-AS140107,"xiamen zhongheng Technology Ltd,CITISCLOUD-AS-AP",CN,5
-AS36678,"China Telecom,CTUSA",CN,5
-AS139619,"China Mobile,CMI-MYS-AS-AP",CN,5
-AS58519,"Cloud Computing Corporation,CHINATELECOM-Ctcloud",CN,5
-AS58541,"""Qingdao,CHINATELECOM-SHANDONG-QINGDAO-IDC",CN,5
-AS9814,"""Beijing FibrLINK Networks Co.,FibrLINK",CN,5
-AS24427,"Freecomm Corporation,FREENET",CN,5
-AS45079,"GDS CHANGAN SERVICES Ltd.,GDSNET",CN,5
-AS212237,"Changgong Zhang,PXNET",CN,5
-AS63646,"""Beijing Xiaoju Science and Technology Co.,XJKJ",CN,5
-AS38345,"Internet Domain Name System Beijing Engineering Resrarch Center Ltd.,ZDNS",CN,4
-AS140596,"""SHENZHEN TUTENG NETWORK CO.,STNC-AS-AP",CN,4
-AS59065,"""PayPal Network Information Services (Shanghai) Co.,PAYPALCN",CN,4
-AS63673,"""Shenzhen Ping An Communication Technology Co.,PINGANCOM",CN,4
-AS58563,"China Telecom,CHINATELECOM-Hubei-IDC",CN,4
-AS134774,"China Telecom,ChinaNet-Guangdong-Shenzhen-MAN",CN,4
-AS133111,"""CERNET New Technology Co.,CNT-northChina",CN,4
-AS17964,"""Beijing Dian-Xin-Tong Network Technologies Co.,DXTNET",CN,4
-AS23844,"Beijing Guanghuan Xinwang Digital,BJ-GUANGHUAN-AP",CN,4
-AS24424,"""Beijing Gu Xiang Information Technology Co.,GOOGLECN",CN,4
-AS38375,"""Unit 1801-1806 & 1826-1832,BJGH",CN,4
-AS38381,"""west wing no.157,travelsky",CN,4
-AS55960,"Beijing Guanghuan Xinwang Digital,BJ-GUANGHUAN-AP",CN,4
-AS56013,"SAMSUNG SDS CHINA,SDSC",CN,4
-AS58850,"Bloomberg Financial Information (Beijing) Co Ltd,BBGINETCN",CN,4
-AS55994,"""Shanghai ruisu Network Technology Co.,ANCH-51idc",CN,4
-AS137710,"""Net God Information Technology (Beijing) Co.,Wangshenxinxi",CN,4
-AS9939,"""DYXNET of Shenzhen Communication Co.,DYXNET-CN",CN,4
-AS38057,"""Dell (China) Co.,DellChina",CN,4
-AS9308,"21vianet(China) Inc.,CHINA-ABITCOOL",CN,4
-AS7720,"LSHIY Network Technology Limited,SKYWOLF-AS-AP",CN,4
-AS63959,"HONG KONG SYSCLOUD TECHNOLOGY LIMITED,HKSTL-HK",CN,4
-AS132389,"China Mobile,CMI-INT-AS",CN,4
-AS139888,"LSHIY Network Technology Limited,D430-COM-AS-AP",CN,4
-AS24444,"China Mobile,CMNET-V4shandong-AS-AP",CN,4
-AS24547,"China Mobile,CMNET-V4HEBEI-AS-AP",CN,4
-AS131486,"""Beijing Jingdong 360 Degree E-commerce Co.,JDCOM",CN,4
-AS141425,"China Mobile,CMNET-GUANGDONG-CN",CN,4
-AS38379,"""No.9 Building,MAGINETWORK",CN,4
-AS140096,"""Shanghai Huajuan Information Technology Co.,JINX-AS-AP",CN,4
-AS131574,"""Beijing Cloud Mind Technologies Co.,cloudmind",CN,4
-AS139726,"""Guangdong Yunjie Communication Co.,GYC-AS-AP",CN,4
-AS63648,"""Beijing Xiaoju Science and Technology Co.,XJKJ",CN,3
-AS133952,"Zhengzhou longling technology ltd.,ZLTL-AS-AP",CN,3
-AS135357,"""Shenzhen Katherine Heng Technology Information Co.,SKHT-AS",CN,3
-AS4816,"China Telecom,CHINANET-IDC-GD",CN,3
-AS58542,"""Tianjij,CHINATELECOM-TIANJIN",CN,3
-AS137697,"""CHINATELECOM JiangSu YangZhou IDC networkdescr: YangZhou ,CHINATELECOM-JiangSu-YangZhou-IDC",CN,3
-AS138950,"China Telecom,CHINATELECOM-Jiangsu-Wuxi-International-IDC",CN,3
-AS23910,"China Next Generation Internet CERNET2,CNGI-CERNET2-AS-AP",CN,3
-AS24348,"CERNET2 IX at Tsinghua University,CNGI-BJ-IX2-AS-AP",CN,3
-AS131578,"Beijing Foreign Studies University,BFSUNET",CN,3
-AS136167,"China Telecom,CHINATELECOM-AS-AP",CN,3
-AS137794,"Dahe tianchi (Beijing) network co. LTD,Dahe-network",CN,3
-AS17442,"Internet Service Provider in China,CHINANETCENTER-AP",CN,3
-AS17781,"XINHUA NEWS AGENCY,XHNEWS",CN,3
-AS18245,"China Internet Network Infomation Center,Founderbn",CN,3
-AS24430,"""Jia No.8,Chinapost",CN,3
-AS38358,"""3 Fuxing Road,ICCAST",CN,3
-AS45071,"""No.8 Xing Guang 5th Street,LNSG-CN",CN,3
-AS55468,"China Radio International,CRI",CN,3
-AS55966,"""Post Savings Bank of China Tower A,PSBCNET",CN,3
-AS56012,"LGNET China,LGNET-China",CN,3
-AS56015,"""China Sports Lottery Technology Development Co.,CSLC-NET",CN,3
-AS58811,"CONAC (China Organizational Name Administration Center),AP-CONAC-AS-AP",CN,3
-AS58866,"China Financial Certification Authority,CFCA-NET",CN,3
-AS59074,"""TAIKANG INSURANCE GROUP CO.,TAIKANG-INSURANCE-GROUP",CN,3
-AS63548,"LENOVO (BEIJING) Co.ltd,Lenovo-BeiJing",CN,3
-AS137746,",AS137746",CN,3
-AS137758,"""Industrial and Commercial Bank of China Limited,ICBC-AstroNet",CN,3
-AS9392,"APT MOBILE SATCOM LIMITED,Apsatcom",CN,3
-AS17775,"shanghai science and technology network communication limited company,STN-CN",CN,3
-AS23853,"""Shanghai Data Solution Co.,CNNIC-DSNET-AP",CN,3
-AS55956,"""Magna Automotive Technology and Service(Shanghai)Co.,Magna-Asiapacific",CN,3
-AS59083,"""Shanghai Kuanhui Tech. Co.,KHTech",CN,3
-AS63617,"McKinsey & Consulting Company Inc. Shanghai,McKinsey",CN,3
-AS63641,"""Mega Vantage Information Consulting Co.,MVNET",CN,3
-AS63689,"""Esun Technology(Shanghai) Co.,ESUNNET",CN,3
-AS137806,"WMGS Consulting (Shenzhen) Co.Ltd,Walmart-GS",CN,3
-AS23771,"""SXBCTV ,SXBCTV-AP",CN,3
-AS17430,"""5F Greatwall Bldg.,GWBN",CN,3
-AS17816,"China Unicom,CHINA169-GZ",CN,3
-AS18243,"""5th Floor,Shanghai-EaseNet",CN,3
-AS24139,"Huashu media&Network Limited,WASUHZ",CN,3
-AS131519,"Hisense,Hisense",CN,3
-AS135061,"China Unicom,UNICOM-ShenZhen-IDC",CN,3
-AS138421,"China Unicom,CU-CN-AS",CN,3
-AS140726,"China Unicom,UNICOM-HEFEI-MAN",CN,3
-AS7586,"Cloudfort IT,CLOUDFORTIT-AS-AP",CN,3
-AS132525,"China Mobile,CMNET-HEILONGJIANG-CN",CN,3
-AS135629,"Ningxia West Cloud Data Technology Co.Ltd.,WESTCLOUDDATA",CN,3
-AS56282,"""Beijing Internet Harbor Technology Co.,VClouD",CN,3
-AS38372,"""Room 203,RJNET",CN,3
-AS18257,"""ChangZhou Bitcomm Software Technology Co.,BITCOMM-AS",CN,3
-AS135006,"""Bit Huitong (Beijing) Information Co.,BHICL-AS-AP",CN,3
-AS56019,"""Beijing CNISP Technology Co.,SHUJUJIA",CN,3
-AS139743,"""Shen Zhen Shi Fang Technology Co.,SHENZHENSHIFANGTEC-AS-CN",CN,3
-AS136796,"""Shijiazhuang Xuding Technology Co.,CL-JP-AS",CN,3
-AS136180,"""Beijing Tiantexin Tech. Co.,IPIP-CN",CN,3
-AS59043,"""Guangzhou LanDong Information technology co.,LDNET",CN,3
-AS24149,"Internet Domain Name System Beijing Engineering Resrarch Center Ltd.,ZDNS",CN,2
-AS38564,"NVIDIA,NVIDIA-ASIA-IN-GW-AP",CN,2
-AS38340,"263 Shanghai Communications Ltd.,Shanghai263",CN,2
-AS135363,"""Chongqing Fuxuan Information Technology Co.,CFIT-AS-AP",CN,2
-AS136173,"""Quanzhou Yuntun Network Technology Co.,QYNTCL-AS-AP",CN,2
-AS137785,"""CACloud Services (Shanghai) Co.,Cacloud",CN,2
-AS4835,"China Telecom,CHINANET-IDC-SN",CN,2
-AS9389,"BEIJING SHENZHOU GREATWALL COMMUNICATION,CGWNET",CN,2
-AS17638,"TIANJIN Provincial Net of CT,CHINATELECOM-TJ-AS-AP",CN,2
-AS17799,"Liaoning Provincial Net of CT,CHINATELECOM-LN-AS-AP",CN,2
-AS58540,"""Jinan,CHINATELECOM-SHANDONG-JINAN-IDC",CN,2
-AS131325,"CHINATELECOM JIANGSU province NANTONG MAN network,CHINATELECOM-JIANGSU-NANTONG-MAN",CN,2
-AS133774,"Fuzhou,CHINATELECOM-FUJIAN-FUZHOU-IDC1",CN,2
-AS134419,"Beihai,CHINATELECOM-Guangxi-Beihai-MAN",CN,2
-AS134420,"Chongqing Telecom,CHINATELECOM-Chongqing-IDC",CN,2
-AS134756,"China Telecom,ChinaNet-NANJING-JISHAN-IDC",CN,2
-AS134760,"China Telecom,ChinaNet-Hebei-Shijiazhuang-IDC",CN,2
-AS134761,"China Telecom,CHINANET-NINGXIA-ZHONGWEI-IDC",CN,2
-AS134768,"China Telecom,CHINANET-SHAANXI-CLOUD-BASE",CN,2
-AS134772,"China Telecom,ChinaNet-Guangdong-Dongguan-MAN",CN,2
-AS137686,"China Telecom,CHINATELECOM-HENAN-ZHENGZHOU-IDC",CN,2
-AS137687,"""Luoyang,CHINATELECOM-HENAN-LUOYANG-IDC",CN,2
-AS137691,"""Heilongjiang Province,CHINATELECOM-HEILONGJIANG-IDC",CN,2
-AS137695,"CHINATELECOM Xinjiang Wulumuqi MAN network,CHINATELECOM-XINJIANG-WULUMUQI-MAN",CN,2
-AS137702,"China Telecom,CHINATELECOM-JIANGSU-NANJING-IDC",CN,2
-AS139721,"China Telecom,CHINATELECOM-AnHui-HeFei-MAN",CN,2
-AS140061,"China Telecom,CHINANET-Qinghai-AS-AP",CN,2
-AS140292,"China Telecom,CHINATELECOM-JIANGSU-SUZHOU-5G-NETWORK",CN,2
-AS140330,"China Telecom,CHINATELECOM-FUJIAN-XIAMEN-5G-NETWORK",CN,2
-AS146966,"China Telecom,CHINANET-YANGZHOUNORTH-IDC",CN,2
-AS4789,"NETSLAND Center,CERNAP1-CN",CN,2
-AS9405,"NETSLAND Center,TPS-CN-AS",CN,2
-AS24361,"CERNET2 IX at Southeast University,CNGI-NJ-IX-AS-AP",CN,2
-AS24364,"CERNET2 IX at Shanghai Jiaotong University,CNGI-SH-IX-AS-AP",CN,2
-AS24369,"CERNET2 IX at Northeast University,CNGI-SY-IX-AS-AP",CN,2
-AS133465,"Duke Kunshan University,DKU-AS-AP",CN,2
-AS138371,"China Education and Research Network (CERNET),CNGI-QDA-IX-AS-AP",CN,2
-AS139139,"Shenyang Agricultural University,SYAUNET",CN,2
-AS38834,"NVIDIA,NVIDIA-BANGALORE-AP",CN,2
-AS4611,"CNNIC member,xinhuanet",CN,2
-AS7641,"China Broadcasting TV Net,CHINABTN",CN,2
-AS9803,"""Beijing Jingxun Public Information Technology Co.,JINGXUN",CN,2
-AS9805,"China Internet Network Infomation Center,ENS-PEK",CN,2
-AS9807,"Data Management Centre National Bureau of Statistics of China,GOVSTATS",CN,2
-AS9810,"""Beijing Times Netstar Technology Co.,TNSNET",CN,2
-AS9811,"Development & Research Center of State Council Net.,DRCSCNET",CN,2
-AS18239,"""NO.11 Xi San Huan Zhong Road,CAPNET",CN,2
-AS18241,"State Power Information Net,SPINET",CN,2
-AS24134,"CNLink Network Technology Ltd.,CNNIC-CNLINKNET-AP",CN,2
-AS24147,"""BEIJING CBD TELECOM CO,CBDTELENET",CN,2
-AS24416,"Beijing Primezone Technologies Inc.,CNNIC-PRIMETELECOM-AP",CN,2
-AS37942,"""3rd Floor,SACHNET",CN,2
-AS38027,"""Information Center,MOST-AS-AP",CN,2
-AS38238,"Societe Generale (China) Limited,SG-CHINA-AS",CN,2
-AS38380,"China South Locomotive And Rolling Stock Industry Company,CNNIC-CSRNET-AP",CN,2
-AS45075,"China Central Television,CRI",CN,2
-AS55971,"Chinese Academy of Social Sciences,CASS-NET",CN,2
-AS55982,"""Changhong IT information Products CO.,CHIT",CN,2
-AS56002,"BEIJING MARINE COMMUNICATION AND NAVIGATION CO.,MCNNET",CN,2
-AS56011,"""UNICLOUD TECH CO.,T-UNICLOUD",CN,2
-AS58448,"CONAC (China Organizational Name Administration Center),AP-CONAC-AS-AP",CN,2
-AS59012,"China Grain Reserves Group LTD.Company,SINOGRAIN",CN,2
-AS59029,"""People.Cn CO.,PEOPLENET",CN,2
-AS59067,"""Microsoft Mobile Alliance Internet Services Co.,MMAISNET",CN,2
-AS59073,"Bank of China Limited,BOC",CN,2
-AS63634,"""China Payment & Clearing Network Co.,CPCN",CN,2
-AS139110,"Beijing Jingdong Shangke Information Technology Co. Ltd.,Newcampus1-lenovo",CN,2
-AS139177,"New Oriental Education & Technology Group Ltd.,EDU",CN,2
-AS139178,"Rural Credit Banks Funds Clearing Center,NXY-BJ",CN,2
-AS139189,"""Beijing Yu Jia Heng Tong Communications and Information Co.,YuJiaHengTong",CN,2
-AS38378,"Bosch (China) Investment Ltd.,RBCN-NET",CN,2
-AS9812,"""Oriental Cable Network Co.,CNNIC-CN-COLNET",CN,2
-AS17739,"Shanghai Telecom Haplink Network Co Ltd (Haplink),HAPLINK-CN-AP",CN,2
-AS38342,"""SHANGHAI VSAT NETWORK SYSTEMS CO.,SVCNET",CN,2
-AS45061,"""Shanghai Information Network Co.,SIN",CN,2
-AS55958,"Intel China Ltd,intel-china",CN,2
-AS56000,"""HERBALIFE(SHANGHAI)MANAGEMENT CO.,HERBALIFE-CNDC",CN,2
-AS63570,",AS63570",CN,2
-AS63615,"""GE (China) Co.,GECHINANET",CN,2
-AS137715,"GTJA Securities,GTJANET",CN,2
-AS137767,"Shanghai General Motor Corporation Limited,SGMNET",CN,2
-AS137782,"STATE GRID SHANGHAI MUNICIPAL ELECTRIC POWER COMPANY,SHDCCENTRE",CN,2
-AS139091,"""Shanghai MBN telecommunication technology Co.,SHMBN",CN,2
-AS139179,"""China Pacific Insurance (Group) Co.,CPIC",CN,2
-AS146758,"""ShangHai Sensetime Technology Development Co.,SENSETIME",CN,2
-AS4859,"The State Information Center of P.R.China,CEISTNET-AS-AP",CN,2
-AS9306,"""RongHua Road No.11,CIETNET",CN,2
-AS10206,"China Unicom,CUZW-CN",CN,2
-AS17969,"ChongQing Broadcast & TV Transfer Network Co. Ltd,CNT",CN,2
-AS24137,"""KuanggongLu,HNPCNET",CN,2
-AS24143,"Qingdao Cable TV Network Center,CNNIC-QCN-AP",CN,2
-AS45074,"Data Management Centre National Bureau of Statistics of China,GOVSTATS",CN,2
-AS59009,"QingDao WangXin Telcom Corp. Limited,WXData",CN,2
-AS59010,"""UnionFriend Network information service Co.,UFNET",CN,2
-AS63701,"""Jishi Media Co .,JSMNET",CN,2
-AS131506,"""HEILONGJIANG RADIO & TV NETWORK CO.,LJWL",CN,2
-AS133119,"China Unicom,UNICOM-CN",CN,2
-AS134542,"China Unicom,UNICOM-GUIAN",CN,2
-AS137787,"Beijing Jingdong Shangke Information Technology Co. Ltd.,Newcampus4-lenovo",CN,2
-AS140720,"China Unicom,UNICOM-JSNT-IDC",CN,2
-AS140979,"China Unicom,UNICOM-SHFT-IDC",CN,2
-AS142586,"Ningbo Dahuamao Information Technology Co Ltd,MINESERVER-AS-AP",CN,2
-AS9298,"""Beijing GuanghuanXuntong Digital Technology Co.,GHXTNET",CN,2
-AS17429,"BEIJING GEHUA CATV NETWORK CO.LTD,BGCTVNET",CN,2
-AS18118,"""CITIC Networks Management Co.,CITICNET-CN",CN,2
-AS58862,"""Microsoft (China) Co.,MCCL-CHN",CN,2
-AS59011,"""Beijing Yunlin Network Technology Co.,YLWL",CN,2
-AS63531,"""Beijing BAIWU Technology Co.,bw",CN,2
-AS63590,"Hebei Broadcasting&TV Network,HEBBTN",CN,2
-AS63629,"""Beijing Autohome imformation technology Co.,AUTOHOME",CN,2
-AS136189,"""Opera Software Technology (Beijing) Co.,OPERA-AS-AP",CN,2
-AS63679,"Jiangsu Cloud Ever Information Technology Co. Ltd.,XDCPLUSA",CN,2
-AS136758,"ShenZhen Century-One Limited,SZCO-AS-AP",CN,2
-AS63582,"Chinese Academy of Telecommunication Research,CAICTNET",CN,2
-AS136600,"""Beijing Fengniao Network Technology Co.,FENGNIAO",CN,2
-AS141776,"Ningbo Dahuamao Information Technology Co Ltd,BAOSHUO-AS-AP",CN,2
-AS210320,"Zihan Sun,ZH-Network",CN,2
-AS136160,"""Beijing Shijihulian Yuntong Network Technology Co.,BSYNTCL-AS-AP",CN,2
-AS38341,"China Internet Network Infomation Center,HCENET",CN,2
-AS38370,"China TieTong Telecommunications Corporation,CTTNET",CN,2
-AS136955,"Shang Hai Mu Ji Shang Wu Zi Xun You Xian Gong Si,SHMJSWZXYXGS-CN",CN,2
-AS24445,"China Mobile,CMNET-V4henan-AS-AP",CN,2
-AS38019,"China Mobile,CMNET-V4TIANJIN-AS-AP",CN,2
-AS56042,"China Mobile,CMNET-Shanxi-AP",CN,2
-AS56044,"China Mobile,CMNET-AS-Liaoning",CN,2
-AS58854,"Kaopu Cloud,kaopy",CN,2
-AS63561,"""China Electronics Technology Cyber Security Co.,WESTONE",CN,2
-AS63612,"Shenzhen Qianhai bird cloud computing Co. Ltd.,Xiaoniaoyun",CN,2
-AS134810,"China Mobile,CMNET-JILIN-AS-AP",CN,2
-AS140895,"China Mobile,CMNET-ANHUI-CN",CN,2
-AS17962,"ShenZhen Topway Video Communication Co. Ltd,Topway-Net",CN,2
-AS138029,"""Shen Zhen Hu Lian Xian Feng Technology Co.,TTCL-CN",CN,2
-AS139061,"Societe Generale (China) Limited,SG-CHINA-CN",CN,2
-AS38363,"""Floor 9,HighwayNet",CN,2
-AS63580,"""China Novartis Institutes for Bio-Medical Research Co.,Novartis-CN",CN,2
-AS63603,"GSS China,GSS-Networks",CN,2
-AS45101,"""Wal-mart (China) Investment Co.,Walmart-CN",CN,2
-AS59049,"""Wal-mart (China) Investment Co.,Walmart-CN",CN,2
-AS131558,"""Wal-mart (China) Investment Co.,Walmart-CN",CN,2
-AS137745,",AS137745",CN,2
-AS134417,"Nanjing,CHINATELECOM-Jiangsu-Nanjing-Hexi-IDC",CN,2
-AS135663,"ShenZhen rainbow Computer Network company Limited,GREAT-CN",CN,2
-AS38255,"China Education and Research Network (CERNET),FITI-AS-AP",CN,2
-AS59077,"Shanghai UCloud Information Technology Company Limited,UCLOUD-NET",CN,2
-AS137571,"""Rang Yang Bai Shi Chuang Yun Co.,PESYUN-AS-AP",CN,2
-AS140500,"""Henan Anyun Network Technology Co.,ANYUN-NETWORK-AS-AP",CN,2
-AS23852,"""17/FL,NGNNET",CN,2
-AS59037,"""Hangzhou ZhiYu Network Technology Co.,ZHIYUNET",CN,2
-AS137798,"""5/F,Digital-Guangdong",CN,2
-AS137801,"""AIPO Cloud (Guizhou) Technology Co.,AIPO-CN",CN,2
-AS63678,"Jiangsu Cloud Ever Information Technology Co. Ltd.,XDCPLUSB",CN,2
-AS17633,"Shandong Provincial Net of CT,CHINATELECOM-SD-AS-AP",CN,1
-AS17897,"Heilongjiang Provincial Net of CT,CHINATELECOM-HLJ-AS-AP",CN,1
-AS23839,"""76 # Oil Street of LiaoHe Oilfield,LiaoHe-HuaYu",CN,1
-AS45095,"""3-8-1,AQIDC",CN,1
-AS56005,"""Zhengzhou Fastidc Technology Co.,Fastidc",CN,1
-AS58539,"""Langfang,CHINATELECOM-Hebei-Langfang-IDC",CN,1
-AS58543,"Guangdong,CHINATELECOM-Guangdong-IDC",CN,1
-AS58571,"China Telecom,CHINATELECOM-GUIZHOU",CN,1
-AS58772,"China Telecom,ChinaNet-Fujian-Fuzhou-IDC",CN,1
-AS63835,"Hengyang,CT-HuNan-Changsha-IDC",CN,1
-AS63838,"Hengyang,CT-HuNan-Hengyang-IDC",CN,1
-AS131285,"China Telecom,CHINATELECOM-HUBEI-SHENGJI-5G-NETWORK",CN,1
-AS132147,"China Telecom,CT-SHANXI-MAN",CN,1
-AS132153,"China Telecom,CT-SHANXI-MAN-2",CN,1
-AS133775,"Xiamen,CHINATELECOM-Fujian-Xiamen-IDC1",CN,1
-AS133776,"Quanzhou,CHINATELECOM-Fujian-Quanzhou-IDC1",CN,1
-AS134238,"China Telecom,CT-Jiangxi-IDC",CN,1
-AS134762,"China Telecom,CHINANET-LIAONING-DALIAN-MAN",CN,1
-AS134763,"China Telecom,CT-DongGuan-IDC",CN,1
-AS134764,"China Telecom,CT-FoShan-IDC",CN,1
-AS134765,"China Telecom,CHINANET-YUNNAN-IDC1",CN,1
-AS134766,"China Telecom,CHINANET-YUNNAN-IDC2",CN,1
-AS134769,"China Telecom,ChinaNet-Jiangsu-Changzhou-Liyang-IDC",CN,1
-AS134770,"China Telecom,CHINANET-JIANGSU-SUZHOU-TAIHU-IDC",CN,1
-AS134771,"""WENZHOU,CHINATELECOM-ZHEJIANG-WENZHOU-IDC",CN,1
-AS134773,"China Telecom,ChinaNet-Guangdong-Guangzhou-MAN",CN,1
-AS136188,"""NINGBO,CHINATELECOM-ZHEJIANG-NINGBO-IDC",CN,1
-AS136190,"""JINHUA,CHINATELECOM-ZHEJIANG-JINHUA-IDC",CN,1
-AS136191,"""YICHANG,CHINATELECOM-HUBEI-YICHANG-IDC",CN,1
-AS136192,"""Xiangyang,CHINATELECOM-HUBEI-XIANGYANG-IDC",CN,1
-AS136193,"""Jingzhou,CHINATELECOM-HUBEI-JINGZHOU-IDC",CN,1
-AS136194,"""Huangshi,CHINATELECOM-HUBEI-HUANGSHI-IDC",CN,1
-AS136195,"""Qingdao,CHINATELECOM-QINGDAO-CLOUDBASE",CN,1
-AS136197,"""Xiong'an,CHINATELECOM-HEBEI-XIONGAN",CN,1
-AS136198,"China Telecom,ChinaNet-Guangdong-Yuexi-MAN",CN,1
-AS136200,"China Telecom,ChinaNet-Guangdong-Foshan-MAN",CN,1
-AS137688,"CHINATELECOM Liaoning Benxi MAN,CHINATELECOM-Liaoning-Benxi-MAN",CN,1
-AS137689,"""IOT Jiangsu network,CHINATELECOM-IOT-JIANGSU-Network",CN,1
-AS137690,"""Zaozhuang,CHINATELECOM-SHANDONG-ZAOZHUANG-IDC",CN,1
-AS137692,"""IOT Guangdong network,CHINATELECOM-IOT-GUANGDONG-Network",CN,1
-AS137693,"""CHINATELECOM Guangxi Nanning IDC networkdescr: Nanning ,CHINATELECOM-Guangxi-Nanning-IDC",CN,1
-AS137694,"CHINATELECOM Xinjiang Kezhou MAN network,CHINATELECOM-Xinjiang-Kezhou-MAN",CN,1
-AS137698,"""Haerbing ,CHINATELECOM-HEILONGJIANG-HANAN-IDC",CN,1
-AS137699,"CHINATELECOM Jiangsu Suqian IDC network,CHINATELECOM-Jiangsu-Suqian-IDC",CN,1
-AS138949,"China Telecom,CHINANET-JIANGSU-KUNSHAN-IDC",CN,1
-AS138982,"China Telecom,CHINANET-Hubei-Jiangxia-IDC",CN,1
-AS138991,"China Telecom,CHINATELECOM-GUANGXI-LIUZHOU-IDC",CN,1
-AS139018,"China Telecom,CHINANET-Henan-Luoyang-IDC",CN,1
-AS139201,"China Telecom,CHINANET-Jiangxi-Jiujiang-IDC",CN,1
-AS139203,"China Telecom,CHINANET-Guizhou-Guian-IDC",CN,1
-AS139316,"China Telecom,CHINANET-Hubei-Huanggang-IDC",CN,1
-AS139462,"China Telecom,CHINANET-GY-AS",CN,1
-AS139584,"China Telecom,CHINANET-Jiangsu-Nanjing-MAN",CN,1
-AS139767,"China Telecom,CHINANET-AS-OA",CN,1
-AS139887,"China Telecom,ChinaNet-Yantai-IDC",CN,1
-AS140083,"China Telecom,CHINANET-ANHUI-AS-AP",CN,1
-AS140265,"China Telecom,CHINATELECOM-SiChuan-Chengdu-5G-Network",CN,1
-AS140345,"China Telecom,CHINATELECOM-YUNNAN-SHENGJI-5G-NETWORK",CN,1
-AS140485,"China Telecom,CHINATELECOM-ZHEJIANG-HANGZHOU-5GC-NETWORK",CN,1
-AS140486,"China Telecom,CHINATELECOM-ZHEJIANG-JINHUA-5GC-NETWORK",CN,1
-AS140527,"China Telecom,CHINANET-ANHUI-WUHU-IDC",CN,1
-AS140553,"China Telecom,CHINATELECOM-XINJIANG-SHENGJI-5G-NETWORK",CN,1
-AS140636,"China Telecom,CHINANET-IOT-BEIJING",CN,1
-AS140638,"China Telecom,CHINANET-IOT-SICHUAN",CN,1
-AS140647,"China Telecom,CHINATELECOM-GUIZHOU-SHENGJI-5G-NETWORK",CN,1
-AS140903,"China Telecom,CHINANET-HEBEI-BAODING-MAN",CN,1
-AS141157,"China Telecom,GUANGXI-TELECOM-NANNING-WUXIANGYUANYANG-IDC",CN,1
-AS141679,"China Telecom,CHINATELECOM-IDC-BTHBD-AP",CN,1
-AS141771,"China Telecom,CHINANET-HEBEI-ZHANGJIAKOU-MAN",CN,1
-AS141998,"China Telecom,CHINANET-LANZHOU-IDC",CN,1
-AS142404,"China Telecom,CHINANET-AS-AP",CN,1
-AS142608,"China Telecom,ChinaNet-Anhui-Bengbu-IDC",CN,1
-AS148969,"China Telecom,CHINANET-JIANGXI-LINKONG-IDC",CN,1
-AS149178,"China Telecom,CT-HEFEI-NANGANG-IDC",CN,1
-AS149458,"China Telecom,CHINANET-GANSU-DINGXI-5G-MAN-NETWORK",CN,1
-AS149460,"China Telecom,CHINANET-GANSU-LONGNAN-5G-MAN-NETWORK",CN,1
-AS149461,"China Telecom,CHINANET-GANSU-LINXIA-5G-MAN-NETWORK",CN,1
-AS24349,"CERNET2 IX at Peking University,CNGI-BJ-IX3-AS-AP",CN,1
-AS24350,"CERNET2 IX at Beijing University of Posts and Telecommunications,CNGI-BJ-IX4-AS-AP",CN,1
-AS24352,"CERNET2 IX at Tianjin University,CNGI-TJN-IX-AS-AP",CN,1
-AS24353,"CERNET2 IX at Xi'an Jiaotong University,CNGI-XA-IX-AS-AP",CN,1
-AS24355,"CERNET2 IX at University of Electronic Science and Technology of China,CNGI-CD-IX-AS-AP",CN,1
-AS24356,"CERNET2 IX at Chongqing University,CNGI-CHQ-IX-AS-AP",CN,1
-AS24357,"CERNET2 IX at South China University of Technology,CNGI-GZ-IX-AS-AP",CN,1
-AS24358,"CERNET2 IX at Huazhong University of Science and Technology,CNGI-WH-IX-AS-AP",CN,1
-AS24362,"CERNET2 IX at University of Science and Technology of China,CNGI-HEF-IX-AS-AP",CN,1
-AS24363,"CERNET2 IX at Shandong University,CNGI-JNN-IX-AS-AP",CN,1
-AS24367,"CERNET2 IX at Zhejiang University,CNGI-HZH-IX-AS-AP",CN,1
-AS24370,"CERNET2 IX at Dalian University of Technology,CNGI-DLN-IX-AS-AP",CN,1
-AS24371,"CERNET2 IX at Jilin University,CNGI-CHC-IX-AS-AP",CN,1
-AS24372,"CERNET2 IX at Harbin Institute of Technology,CNGI-HRB-IX-AS-AP",CN,1
-AS134169,"""CERNEWTECH (Beijing) co.,CERNEWTECHRES-AS-CN",CN,1
-AS138369,"China Education and Research Network (CERNET),CNGI-SZH-IX-AS-AP",CN,1
-AS138378,"China Education and Research Network (CERNET),CNGI-KMN-IX-AS-AP",CN,1
-AS138393,"China Education and Research Network (CERNET),CNGI-NAN-IX-AS-AP",CN,1
-AS9802,"21vianet(China) Inc.,CHINA-ABITCOOL",CN,1
-AS9818,"Internet Finance Laboratory,IFLAB",CN,1
-AS37937,"China eGovNet Information Center,eGovNet",CN,1
-AS37970,"""Floor 9,HighwayNet",CN,1
-AS45083,"""Beijing haixunda Communication Co.,HXDNET",CN,1
-AS45084,"""No.98 JianGuo Road,BTV",CN,1
-AS55973,"""Universal Cinema Services Co.,UCSNETCN",CN,1
-AS56003,"""Beijing Century Union Network Technology Co.,JDJT",CN,1
-AS58842,"""Beijing Sheng Hexuan Culture Communication Co.,CX-SHXNET",CN,1
-AS59034,"""BeiJing Wish Network Technology CO.,WISHNET",CN,1
-AS63696,"""China Securities Co.,CSCNET",CN,1
-AS131497,"""Volkswagen (China) Investment Co.,VGC-BeiJing",CN,1
-AS131541,",AS131541",CN,1
-AS137764,"Beijing Youkai Technology Co.Ltd,Youkai",CN,1
-AS139122,"BEIJING MUNICIPAL ADMINISTRATION COMMUNICATION CARD CO..LTD,BMAC",CN,1
-AS58517,"China Telecom,CHINATELECOM-CDMANetwork-BG-Beijing",CN,1
-AS58518,"China Telecom,CHINATELECOM-CDMANetwork-BG-Guangzhou",CN,1
-AS58520,"Nanton,CHINATELECOM-Jiangsu-Nantong-MAN",CN,1
-AS63527,"China Telecom,CTGL-AS",CN,1
-AS63697,"""China Securities Co.,CSCNET",CN,1
-AS131536,"""Shanghai Great Wall Broadband Network Service Co.,SHGWBNNET",CN,1
-AS139108,"""Beckman Coulter Commercial Enterprise(China)Co.,BECKMAN",CN,1
-AS17968,"Daqing zhongji petroleum telecommunication construction limited cpmpany,DQTNET",CN,1
-AS23851,"""CHONGQING CNC BROADBAND NETWORKS CO.,CNNIC-CQCNC-AP",CN,1
-AS24428,"""Beijing Founder Broadband Network Technology Co.,CNNIC-FOUNDERBN-AP",CN,1
-AS45113,"""Shanxi Datong Coal Group Communication Co.,DTcoal",CN,1
-AS58852,"Guizhou provincial radio and television information Network Inc,GZGD",CN,1
-AS59022,"""Kunming Broadcast&TV Network CO.,YNKM-TVNET",CN,1
-AS63565,"""Beijing lian guang tong network technology co.,YHWLM",CN,1
-AS63581,"""GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,GXRTVNET",CN,1
-AS63704,"Guizhou provincial radio and television information Network Inc,GZGD-GY",CN,1
-AS63722,"""Hodo Telecom Co,HODONET",CN,1
-AS131562,"""HUNAN CATV Network Group CO.,HNCATV",CN,1
-AS131577,"""Wuhan Unifiber Communication Co.,unifiband",CN,1
-AS133118,"China Unicom,UNICOM-CN",CN,1
-AS134543,"China Unicom,UNICOM-DongGuan-IDC",CN,1
-AS136959,"China Unicom,UNICOM-FuoShan-IDC",CN,1
-AS137539,"China Unicom,UNICOM-Harbin-IDC",CN,1
-AS137788,"Shanxi Beacon Cloudscape,Beacon",CN,1
-AS139007,"China Unicom,UNICOM-NM-WuLanChaBu-IDC",CN,1
-AS140707,"China Unicom,UNICOM-NXZW-IDC",CN,1
-AS140716,"China Unicom,UNICOM-JSWX-IDC",CN,1
-AS140717,"China Unicom,UNICOM-JSSZ-IDC",CN,1
-AS140886,"China Unicom,UNICOM-GX-IDC",CN,1
-AS7640,"China International Trust & Investment Corporation Management Information Center,CITICNET",CN,1
-AS9801,"""A Building Haibo Masion,KUANCOM",CN,1
-AS38367,"""20/F.,ULICnet",CN,1
-AS45576,"Tsinghua University,CERNET2-TSINGHUA6-AS-AP",CN,1
-AS56292,"""Beijing CNISP Technology Co.,SANXIN",CN,1
-AS59003,"""Tianjin B&T broadband network technology Co.,TJGDKD",CN,1
-AS59050,"""Beijing Cloud-Ark Technology Co.,Cloud-ark",CN,1
-AS59057,"Bei jing yong xin chang lian ke ji you xian gong si,YXCL",CN,1
-AS63598,"Hebei Kun Time Network Technology Co. Ltd.,KunTIME",CN,1
-AS63691,"""Beijing wisdom network technology Co.,HEZHONG",CN,1
-AS137762,"Guosen youyun software system co. LTD.,GUOXINYOUYUN",CN,1
-AS139183,"Thomson Reuters (Beijing) Technology Development Co. Ltd,TRLCNET",CN,1
-AS63583,"Chinese Academy of Telecommunication Research,CAICTNET",CN,1
-AS44218,"China Telecom,CTBY-ASN",CN,1
-AS133194,"Connections Hub Technology (Shanghai) Ltd. Company,CHTLC-AS",CN,1
-AS63555,"Beijing Beilong Yunhai Network Data Technology Corporation,CNBIDCC",CN,1
-AS24495,"gnet Integrated Services Co.,GNET-CN-AP",CN,1
-AS37936,"""15F,SINA",CN,1
-AS136146,"""Beijing 3389 Network Technology Co.,B3NTCL-AS-AP",CN,1
-AS45057,"CHINA TIETONG SHANGHAI,CTTSH",CN,1
-AS45069,"china tietong Shandong net,CNNIC-CTTSDNET-AP",CN,1
-AS9401,"NETSLAND Center,NLC-CN-AS",CN,1
-AS9806,"""Beijing Educational Information Network Service Center Co.,BJENET",CN,1
-AS56047,"China Mobile,CMNET-Hunan-AP",CN,1
-AS59025,"""Beijing Sankuai Cloud Computing Co.,SKBJNET",CN,1
-AS63535,"""Chengdu Wanda Electronic Information Technology Co.,FFAN",CN,1
-AS63727,"Huawei,HWCSNET",CN,1
-AS132510,"China Mobile,ShanXiMCC-IDC",CN,1
-AS138407,"China Mobile,CMNET-GZIDC-CN",CN,1
-AS139080,"China Mobile,CMNET-SCIDC-CN",CN,1
-AS140105,"China Mobile,CMNET-SNIDC-CN-AP",CN,1
-AS18242,"""Chengdu Information Harbor Co.,CDIH",CN,1
-AS17776,"China Enterprise ICT Solutions Limited,CHINAENTERCOM",CN,1
-AS131222,"ShenZhen SouPai Times Network Co. Ltd.,SISTEMA-AS-AP",CN,1
-AS58962,"""SiChuan Century LiXin Financial Management Consulting Co.,SCSJLX-CN",CN,1
-AS18244,"""Stateline Internet Data Center Co.,STIDC",CN,1
-AS24141,"""Shanghai DMT Information Network cor.,DMTNET",CN,1
-AS45073,",AS45073",CN,1
-AS45086,"Shanghai Yovole Networks Inc.,YOVOLE",CN,1
-AS137759,"""MTS SYSTEM (China) Co.,MTSCHINANET",CN,1
-AS17490,"""3/F,ETFiberNet",CN,1
-AS23842,"Shenzhen Information and Network Center,SZINC-AS-AP",CN,1
-AS63690,"""China Dragon Telecom Co.,CDTNET",CN,1
-AS137777,"""Shenzhen dragon brother industrial co.,CDT",CN,1
-AS135671,"Tianhai InfoTech,RBB-AS-AP",CN,1
-AS210041,"Licheng MAO,WALS5H-AS",CN,1
-AS211843,"Nanjing Tiankai Information Technology Co.Ltd.,TIANKAI-AS",CN,1
-AS139799,"""Beijing Dajia Internet Information Technology Co.,BDIITCL-AS-AP",CN,1
-AS136766,"""ROBLOX (SHENZHEN) DIGITAL SCIENCE AND TECHNOLOGY CO.,RBX-AS-AP",CN,1
-AS17966,"China Information Broadcast Network Ltd.Co.,CIBN",CN,1
-AS59023,"""Beijing nine cloud infinite network technology co.,Forest-Eternal",CN,1
-AS24575,"DRAGONLAB,DRAGONLAB-AS-AP",CN,1
-AS139774,"China Education and Research Network (CERNET),CERNET-IVION-AS",CN,1
-AS38346,"CNLink Network Technology Ltd.,HangTian-INFONET-AP",CN,1
-AS45058,"""Golden-Bridge Netcom communication Co.,XMGBNET",CN,1
-AS55976,"Beijing DxConsole Technology Co. Ltd,DxConsole",CN,1
-AS59080,"""Beijing HuaxiaYakue Network Technology Co.,Yakue",CN,1
-AS59089,"NO.18 Building University of Technology,CloudVsp",CN,1
-AS131495,"""Beijing nine cloud infinite network technology co.,Nine-cloud",CN,1
-AS24302,"China Education and Research Network (CERNET),CRIS-CERNET-AS",CN,1
-AS131482,"""Hangzhou Aron Teconology Co.,ARONNET",CN,1
-AS59048,"""Bei Jing Cloud Times Technology Co.,CLOUDTIMES",CN,1
-AS63619,"""Beijing Sankuai Cloud Computing Co.,SKYUNNET",CN,1
-AS139112,"""Shanghai Qnet Networking Technology Co.,QNET",CN,1
-AS139118,"""Shanghai Rugu Info&Tech Co.,RuguInfo",CN,1
-AS146842,"ChinaDataCom Corporation Limited,CDC-SAP-DC-SHA",CN,1
-AS137719,"""Qingdao Weidong Big Data Technology Co.,CERWD",CN,1
-AS24422,"""Huizhan street,HTXX",CN,1
-AS17920,"LSHIY Network Technology Limited,LSHIY-BACKBONE",CN,1
-AS38272,"China Education and Research Network (CERNET),FITI-AS-BKB",CN,1
-AS139220,"China Telecom,CHINANET-Sichuan-Chuanxi-IDC",CN,1
-AS138405,"""Shijiazhuang Xuding Technology Co.,L-KS",CN,1
-AS132591,"Shenzhen Tencent Computer Systems Company Limited,TENCENT-NET-AP-AS",CN,1
-AS142611,"""Shanghai Tujuan Information Technology Co.,STITCL-AS-AP",CN,1
-AS139247,"LSHIY Network Technology Limited,PPPWAW-AS-AP",CN,1
-AS55786,"Mobius Wireless Solutions Ltd,MOBIUS-CN",CN,1
-AS38339,"""CNISP-Union Technology (Beijing) Co.,CNISP-UNION",CN,1
-AS58834,"Guangdong Cable Corporation Limited,GCableNET",CN,1
-AS58859,"""Shenzhen WSUNet Technology Co.,WSUNET",CN,1
-AS59072,"""Shenzhen ESIN Technology Co.,ESINNET",CN,1
-AS63571,"""Shenzhen cyberlink Century Investment Co.,GWLink",CN,1
-AS63630,"""Guangzhou Power Communication Networks CO.,GZPCN",CN,1
-AS63655,"""Huawei Technologies Co.,HWDGNET",CN,1
-AS63695,"""WeiYi Network Technology Co.,WYNETWORK",CN,1
-AS131567,"""Fnetlink International Co.,DOUBLENET",CN,1
-AS131542,",AS131542",CN,1
-AS139115,"Guangtongtianxia Network Technology Limited Company,Guangtongtianxia-IDC",CN,1
-AS139136,"""ZHEJIANG PROVINCE NEW-TYPE INTERNET EXCHANGE POINT CO.,NNIX-HZ",CN,1
-AS139172,"""Hangzhou Woodnn Technology Co.,Woodnn-network",CN,1
-AS55998,"CNLink Network Technology Ltd.,CNLINKNET",CN,1
-AS59033,"""Esun Technology(Shanghai) Co.,ESUNNET",CN,1
-AS131525,"Nanjing Tuniu Technology Co. Ltd.,TOURNET",CN,1
-AS24404,"""CNISP-Union Technology (Beijing) Co.,CNISP-UNION",CN,1
-AS38364,"""RM 1706,LTEL",CN,1
-AS45064,"""BEIJING ZHONGGUANCUN SOFTWARE PARK DEVELOPMENT CO.,ZSPNET",CN,1
-AS55461,"""Beijing CNISP Technology Co.,SUNINFO-MDC",CN,1
-AS55972,"Beijing Sawas Technology Co.LTD.,SawasNet",CN,1
-AS55997,",AS55997",CN,1
-AS58863,"""hijingshan District,ZlNET",CN,1
-AS59008,"Beijing flash newsletter cas telecommunication,shinenet",CN,1
-AS63614,"""A4,QishangOnline",CN,1
-AS131512,"""Beijing Xinchi Technology Co.,CNIX-NETWORKS",CN,1
-AS137747,"""Beijing Chijun Network Advisory Service Co,CHIJUN",CN,1
-AS137761,"ETIIR,ETIIR",CN,1
-AS137804,"China Internet Exchange,CNIX",CN,1
-AS139141,"Yusys Financial Cloud,YUSYS-FINANCIAL-CLOUD",CN,1
-AS139157,"Business-intelligence of Oriental Nations Corporation Ltd.,BONC",CN,1
-AS139182,"""ABC Life Insurance Co.,ABCLIFE-NET",CN,1
-AS146753,"kgzxnet,KGNET",CN,1
-AS136750,"China Mobile,CMI-INT-AS-AP",CN,1
-AS55991,",AS55991",CN,1
-AS139154,"Big Data Center Of Shandong Province,CEGN-SD",CN,1
-AS63549,"""LiaoNing Tulong Science & Technology Co.,TULONGNET",CN,1
-AS146746,"""TaiKang Insurance Group CO.,TAIKANG-INSURANCE-WUHAN",CN,1
-AS55515,"""Beijing CNISP Technology Co.,GOIP-AULA",CN,1
-AS9516,"Zhuhai FuYuanLeYu Technology Limited,SAKURA-AS-AP",CN,1
-AS142111,"Ningbo Dahuamao Information Technology Co Ltd,AIYUN-AS-AP",CN,1
-AS63677,"Jiangsu Cloud Ever Information Technology Co. Ltd.,XDCPLUSB",CN,1
-AS137882,"""Shanghai Huajuan Information Technology Co.,HUAJUAN-ES",CN,1
-AS131524,"""Shanghai pujv Communication Technology co.,SHPJNET",CN,1
-AS63620,"""ShenZhen HuaBo Technology Develop Co.,HUABOtechNET",CN,1
-AS139113,"""Shanghai Felizlink Communication Technology Co.,FelizlinkNet",CN,1
-AS132698,"""Shenzhen Balian Network Technology Co.,SBNTCL-AS-AP",CN,1
-AS139635,"""Hubei Yunwutong Network Technology Co.,HYNTCL-AS-AP",CN,1
-AS139874,"""Wu'an Chihong Network Technology Co.,WCNTCL-AS-AP",CN,1
-AS139908,"""Karamay Hzon Network Technology Development Co.,HZNET-AS-AP",CN,1
-AS132553,"China University of Petroleum (East China),UPC-AS-CN",CN,1
-AS139266,"""Guangzhou Tiansui Information Technology Co.,GTITCL-AS-AP",CN,1
-AS139090,"Wuxi Education Information Management Service Center,WXEIMSC",CN,1
-AS133731,"""Royal Network Technology Co.,TOINTER-AS-AP",CN,1
-AS132225,"China Telecom,CHINATELECOM-QINGHAI-5G-NETWORK",CN,1
-AS140731,"Ningbo Dahuamao Information Technology Co Ltd,TOHU-OP-AP",CN,1
-AS58998,"""Beijing Internet Harbor Technology Co.,VClouD",CN,1
+AS3462,"""Chunghwa Telecom Co.,HINET",TW,253
+AS9505,"""Chunghwa Telecom Co.,TWGATE-AP",TW,156
+AS9924,"""Taiwan Fixed Network,TFN-TW",TW,113
+AS4780,"Digital United Inc.,SEEDNET",TW,93
+AS17408,"""AboveNet Communications Taiwan Co.,ABOVE-AS-AP",TW,88
+AS24167,"Academia Sinica Grid Computing Center,ASGCNet",TW,67
+AS17709,"Asia Pacific Telecom,APT",TW,58
+AS134823,"""Sky Digital Co.,SDCL-AS-AP",TW,45
+AS9680,"""Data Communication Business Group,HINETUSA",TW,38
+AS9264,"Academia Sinica,ASNet",TW,32
+AS7539,"National Applied Research Laboratories,TWAREN-TW",TW,29
+AS10133,"Chief Telecom Inc.,TPIX-AS-TW",TW,27
+AS18046,"DongFong Technology Co. Ltd.,DONGFONG-TW",TW,20
+AS9416,"Hoshin Multimedia Center Inc.,MULTIMEDIA-AS-AP",TW,20
+AS131618,"Carl International Information ltd.,CARL-NET",TW,18
+AS131273,"HiMORE Digital,HIMOREDIGITAL-AS-AP",TW,14
+AS9678,"HostingInside LTD.,HOSTINGINSIDE-INTL",TW,11
+AS24157,"Taiwan Star Telecom Corporation Limited.(Former Vibo Telecom Inc.),VIBO-NET-AS",TW,11
+AS7532,"""DigiCentre Company Limited,DIGICENTRE-TW",TW,9
+AS10135,"EASPNET Inc.,EASPNET-AS-AP",TW,9
+AS7483,"""Skycloud Computing co.,SKYCLOUD-NET",TW,8
+AS131584,"""Taiwan Intelligent Fiber Optic Network Co.,TAIFO-AS-TW",TW,8
+AS7480,"Tsung-Yi Yu,STEVEYI-NETWORK",TW,8
+AS24155,"Asia Pacific Broadband Wireless Communications Inc,APBW-AS-TW",TW,7
+AS136462,"Mootech Asia,MOOTECHASIA-AS-AP",TW,7
+AS38851,"PEGATRON,TNET-NET",TW,7
+AS7656,"SaveCom International Inc.,TWNAP-ADMIN-AS-AP",TW,7
+AS7533,",AS7533",TW,6
+AS131627,"""Peicity Digital Cable Television.,Peicity-AS-TW",TW,6
+AS18182,"Sony Network Taiwan Limited,SONET-TW",TW,6
+AS18422,"Industrial Technology Research Institute,ITRINET-AS-TW",TW,6
+AS38254,"Pang-Wei Tsai,ITLAB-AS-AP",TW,6
+AS131642,"""Pittqiao Network Information Co.,PNI-AS-TW",TW,6
+AS17717,"""Ministry of Education Computer Center Taipei,MOECC-IPV6",TW,5
+AS17809,"VEE TIME CORP.,VEETIME-TW-AP",TW,5
+AS131645,"""KlickKlack Co.,KLICKKLACK-AS-TW",TW,5
+AS1659,"""Education Bureau,ERX-TANET-ASN1",TW,5
+AS18185,"""4F,NTCU-AS-TW",TW,5
+AS7481,"""Data Communication Business Group,TWIX",TW,5
+AS17716,"National Taiwan University,NTU-TW",TW,5
+AS131599,"Wistron Corporation,Wistron",TW,5
+AS133158,"WELL-POWER Tech Corp,WELLPOWER-AS-AP",TW,5
+AS18424,"CM Craft Aesthetic,ASN-CM-CRAFT-AESTHETIC-GLOBAL",TW,5
+AS131636,"""WANIN INTERNATIONAL CO.,WANIN",TW,5
+AS131659,"NETEASE,NETEASE-AS-TW",TW,5
+AS9676,"SaveCom Internation Inc.,SAVECOM-TW",TW,5
+AS131607,"""Digidom CableTV Co.,DCTV-AS-TW",TW,5
+AS131675,"""Beyond Orbit Co.,BEYONDORBIT-AS-TW",TW,5
+AS131149,"""Yuan-Jhen Info.,YUANJHEN-AS-TW",TW,4
+AS131593,"PEGATRON,PEGATRON-NET",TW,4
+AS131634,"MOBA Private Limited Taiwan Branch,MOBATW-AS",TW,4
+AS9916,"""National Chiao Tung University,NCTU-TW",TW,4
+AS18042,"Koos Broadband Telecom,KBT",TW,4
+AS38843,"""PUMO NETWORK DIGITAL TECHNOLOGY CO.,PUMO-NET",TW,4
+AS59268,"QLINKS,QLINKS-AS",TW,4
+AS131677,"""OpenFor Telecommunications Co.,OPENFOR",TW,4
+AS18419,"DaDa Broadband LTD.,DADA-AS-TW",TW,4
+AS38852,"""Fun Finance Technology Co.,HAPPYMONEY-TW",TW,4
+AS7482,"Asia Pacific On-Line Service Inc.,APOL-AS",TW,4
+AS134094,"""SERVERFIELD CO.,SERVERFIELD-AS",TW,4
+AS17416,"""DWINS Digital Service Corp.,DWINS-TW",TW,4
+AS55789,"AsiaPacificNewTechnologies Co. Ltd,IDC-TW",TW,4
+AS17713,"National Sun Yat-sen University,NSYSU-TW",TW,3
+AS24506,"""YAHOO! TAIWAN HOLDINGS LIMITED,YAHOO-TP2",TW,3
+AS131588,"""Financial Information Service Co.,FISC-AS-TW",TW,3
+AS131628,"""Tai-Fu Cloud Co.,taifucloud-as-tw",TW,3
+AS131660,"""Data Communication Business Group,CHTCDN",TW,3
+AS131651,"loongaming,LOONGAMING-AS-TW",TW,3
+AS45346,"WELL-POWER Tech Corp,WELLPOWER-AS-AP",TW,3
+AS9671,"Trade-Van Informaiton Services Co.,TRADEVAN-AS-AP",TW,3
+AS9919,"""New Century InfoComm Tech Co.,NCIC-TW",TW,3
+AS18181,"National Health Research Institutes,NHRINet",TW,3
+AS17415,"Ming Yi Tea Farm,MINGYITEA-AS-TW",TW,3
+AS131668,"Taiwan Digital Streaming Co.,TWDS-AS-TW",TW,3
+AS131597,"""New Changhua Digital Cable TV CO,NCDTV-TW",TW,3
+AS131671,"""FANTASY TECHNOLOGY CO.,FANTASY",TW,3
+AS7649,"SaveCom International Inc.,MAINT-TW-TWNAP",TW,3
+AS18047,"National Tsing-Hua University,NTHU-TW",TW,3
+AS18183,"National Center for Research on Earthquake Engineering,NCREE",TW,3
+AS131644,",AS131644",TW,3
+AS38797,"CNLink,CNLINK-TW-AS-AP",TW,3
+AS131605,"""Inventec Besta CO.,DRCLOUD",TW,3
+AS18041,"Taiwan Digital Streaming Co.,TWDS-TRANSIT-AS-TW",TW,3
+AS135596,"HanStrong Online Services,HANSTECH-AS-HK",TW,3
+AS131658,"""Pittqiao Network Information Co.,GAMESOUL-AS-TW",TW,3
+AS131144,"ASUSTek COMPUTER INC.,ASUS-AS-TW",TW,2
+AS131589,"Foxconn Technology Group,Foxconn-AS-TW",TW,2
+AS17710,"President Information Corp.,PIINET-TW",TW,2
+AS17711,"National Dong Hwa University,NDHU-TW",TW,2
+AS17712,"National Chung Cheng University,CCU-TW",TW,2
+AS18177,"National Cheng Kung University,NCKU-TW",TW,2
+AS18421,"Taishin International Bank,TAISHINBANK-AS-T",TW,2
+AS24235,"Unigate Telecom Inc.,CHIEF-TW-AS-AP",TW,2
+AS38187,"""Gamania Digital Entertainment Co.,DIgicentre-TW",TW,2
+AS131587,"Mega International Commercial Bank,MEGABANK_ASN",TW,2
+AS131655,"NAN YA PLASTICS CORPORATION,nanya-as-1",TW,2
+AS131679,"""Gangu Tech Co.,GANGUTECH-AS-TW",TW,2
+AS131683,"InnoLux Display Corp.,INX-AS01",TW,2
+AS138611,"Cloud Speed Technology Limited Co.,CSTLC-AS-AP",TW,2
+AS142005,"""NC Taiwan Co.,NCTAIWANCOLTD-AS-AP",TW,2
+AS45761,"""Gamania Digital Entertainment Co.,GAMANIA-AS-HK1",TW,2
+AS131619,"Jigentec CO. LTD.,JIGENTEC-NET",TW,2
+AS4783,"SYSTEX CORPORATION,SYSNET-AS1",TW,2
+AS9216,"""Symphox Information Co.,PUNET-AP",TW,2
+AS9922,"New Kaohsiung Broadband LTD.,NKB-AS-TW",TW,2
+AS17420,"""Acer e-Enabling Data Center,ACEREDC-TW",TW,2
+AS18049,"Taiwan Infrastructure Network Technologie,TINP-TW",TW,2
+AS18411,"""EDT Network Services Limited Co,EDTNS-AS-TW",TW,2
+AS38837,"AION TECHNOLOGIES Inc.,GSNET",TW,2
+AS131586,"""New Century InfoComm Tech Co.,NCIC-IDC-TW",TW,2
+AS131595,"Kingston Technology Fareast Corp.,KTCFE-NET",TW,2
+AS18178,"""Pittqiao Network Information Co.,PITTQIAO-AS-TW",TW,2
+AS131657,"""HUANG HR CO.,HUANGHR-AS-TW",TW,2
+AS141742,"Magna Hosting Ltd,MAGNAHOSTINGLTD-AS-AP",TW,2
+AS212358,"WeiXuan Chang,TW-DANNY-AS",TW,2
+AS4845,"Singapore Telecom Taiwan Ltd,SINGTEL-TW",TW,2
+AS18420,"National Central University,NCU-TW",TW,2
+AS18413,"Great Taipei Broadband Company Ltd.,GBTC-TW",TW,2
+AS4781,"""PAGIC.net ,PAGICNET-AS1",TW,2
+AS131143,"Chinatrust Commercial Bank,ChinaTrust-AS-TW",TW,2
+AS131620,"SERVCOMPUTING INC,SERVCOMP-AS-TW",TW,2
+AS135387,"Magna Hosting Ltd,MAGNAHOSTINGLTD-TW",TW,2
+AS24168,"Cloudmax Inc.,CLOUDMAX-AS-TW",TW,2
+AS38853,"""Paramita Digital Ltd.,Paramita-NET",TW,2
+AS131609,"Taiwan Envirotech Development Corp.,TIDC-TW",TW,2
+AS38839,"CSPTEK LTD. CO.,CSPTEK-AS-TW",TW,2
+AS18186,"""QianYun Network Service Co.,QYCLOUD",TW,2
+AS60614,"Tsung-Yi Yu,STEVEYI-NETWORK",TW,2
+AS131678,"DQWLIT,DQWL-AS",TW,2
+AS45504,"Kingspeed Int'l Inc.,KINGSPEED-TW-AP",TW,2
+AS45599,"Equantech Corporation,EQUANTECH-TW-AP",TW,2
+AS131610,"Anson Network Limited (Taiwan),ANSONNET-AS-TW",TW,2
+AS139471,"HWA CENT TELECOMMUNICATIONS LIMITED,HWACENT-AS-AP",TW,2
+AS38845,"National Taiwan Normal University,FJU-AS-TW",TW,1
+AS4782,"""Data Communication Business Group,GSNET",TW,1
+AS10085,"Unigate Telecom Inc.,UNIGATE-OVERSEA-IX-AP",TW,1
+AS17421,"""Data Communication Business Group,EMOME-NET",TW,1
+AS18045,"SinoPac Holdings Corporate Network,SINOPAC",TW,1
+AS24160,"Chi Mei Corporation,ChiMei-AS",TW,1
+AS131621,"Taiwan Network Information Center,TWNIC-NET-AS",TW,1
+AS131626,"""NSS INT'L CO.,NSS-GROUP-AS-TW",TW,1
+AS131632,"""LETSWIN TELECOM CO.,LETSWIN-ASN-1",TW,1
+AS18179,"MiTAC Inc.,E2CENTER-TW",TW,1
+AS135561,"""Ci Yuan Technology Co.,CIYUANTEC-AS-AP",TW,1
+AS7535,"TISNET Technology Inc.,TISNET",TW,1
+AS9674,"""Far EastTone Telecommunication Co.,FET-TW",TW,1
+AS9918,"""KG Telecommunication Co.,KGTNET-TW",TW,1
+AS18426,"National Applied Research Laboratories,STPI-AS-TW",TW,1
+AS139903,"RETN Telecoms Ltd.,RETN-AS-AP",TW,1
+AS131680,"Compal Electronics,COMPAL-AS-TW",TW,1
+AS7478,"Mackay Telecommunication Inc.,MACKAY-AS-AP",TW,1
+AS10126,"""Chunghwa Telecom Co.,CHTI-IP-AP",TW,1
+AS38844,"National Taiwan Normal University,NTNU-TW",TW,1
+AS131653,"""Force Cloud Co.,FORCECLOUD-AS-TPE",TW,1
+AS4662,"GCNet (Reach & Range Inc.),QTCN-ASN1",TW,1
+AS18040,",AS18040",TW,1
+AS18415,"B-WIZ Technology,BWIZ",TW,1
+AS18429,"""Extra-Lan Technologies Co.,EXTRALAN-TW",TW,1
+AS24158,"""Taiwan Mobile Co.,taiwanmobile-as",TW,1
+AS24163,"UNION BROADBAND NETWORK,UBBNET-AS-TW",TW,1
+AS24164,"UNION BROADBAND NETWORK,UBBNET-AS-TW",TW,1
+AS24165,"UNION BROADBAND NETWORK,UBBNET-AS-TW",TW,1
+AS38841,"kbro CO. Ltd.,kbro-AS-TW",TW,1
+AS131148,"Bank Of Taiwan,BOT-AS-TW",TW,1
+AS131635,"MOBA Private Limited Taiwan Branch,AIRPAYTW-AS",TW,1
+AS140958,"""Watch Tower Bible and Tract Society of Pennsylvania,WTBATSOPTB-AS-AP",TW,1
+AS9831,"Unigate Telecom Inc.,UNIGATE-AS-AP",TW,1
+AS17651,"""AboveNet Communications Taiwan Co.,ABOVENET-AS-AP-2",TW,1
+AS131600,"Chief Telecom Inc.,CHIEFANTIDDOS",TW,1
+AS131603,"""Worldstar Network 2F,WSN-TW-NET-AS",TW,1
+AS131606,"Chief Telecom Inc.,CHIEFCLOUDIAAS-A",TW,1
+AS131663,"GIGABYTE,GIGABYTE-AS-TW",TW,1
+AS9311,"HITRON TECHNOLOGY INC.,HITRON-AS-AP",TW,1
+AS24154,"""Asia Pacific Broadband Fixed Lines Co.,APBT-AS-TW",TW,1
+AS131142,"Asia Pacific On-Line Service Inc.,APOL-AS-TW",TW,1
+AS131591,"Ambit Microsystem Corporation,AMBIT-AS-TW",TW,1
+AS131596,"TBC,TBCOM-NET",TW,1
+AS131601,"Dynamic Computing Technology,DCT",TW,1
+AS63893,"""Chang Chun Petrochemical Co.,CCPGP-TW",TW,1
+AS38847,"""Education Bureau,NCHU-AS-TW",TW,1
+AS131150,"""Education Bureau,KH-AS-TW",TW,1
+AS131631,"Sunchi Networks,SCNET-AS-TW",TW,1
+AS131662,"Denpa Ltd.,DENPAIO",TW,1
+AS131667,"""GRONEXT CO.,GRONEXT-AS",TW,1
+AS208137,"Chi-Yuan Chen,LINLEE-AS",TW,1
+AS38854,"Zenlayer,ZENLAYER-AS-TW",TW,1
+AS18428,"Mercycat Network,MERCYCAT-NET",TW,1
+AS131637,"FastCould,FASTCLOUD-NET",TW,1
+AS131164,"Sinotech Int,SINOTECH-TW-AP",TW,1
+AS18043,"GETOP Automatic System Inc.,GETOP-TW",TW,1
+AS141173,"Pang-Wei Tsai,STEVEYI-NETWORK-AS-TW",TW,1
+AS139298,"""Ruifeng Co.,RFLCLOUD",TW,1
+AS38846,"""Wolf Feather Culture Information Co.,WOLF-NET",TW,1
+AS131623,"MOBA Private Limited Taiwan Branch,SPETW-AS",TW,1
+AS38856,"Walks Cloud Inc.,WalksCloud-AS",TW,1
+AS131674,"""OpenFor Telecommunications Co.,OPENRICH",TW,1
+AS139065,"""Apeiro8 Technology Co.,ATCL-AS-AP",TW,1
+AS17502,"Kuang Shih International Ltd. Ltd,KSIL-AS-TW",TW,1
+AS38042,"""Sky Digital Co.,SDCL-AS-AP",TW,1
+AS131639,"Taiwan Intelligent Home Corp.,TIH-TW",TW,1
+AS147035,"Pang-Wei Tsai,CHINGKUO-AS-AP",TW,1
