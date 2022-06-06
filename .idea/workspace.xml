@@ -29,8 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/081TW_Analysis/cn_rib_as_hijack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
