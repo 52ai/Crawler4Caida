@@ -236,12 +236,14 @@ if selected == '48hours':
             st.write("BGP Monitor State")
             st.write("Performance")
             st.write("Rate")
+
 elif selected == "User":
     st.subheader("Test Mysql Connect")
     rows = run_query("select * from mytable;")
     # print results.
     for row in rows:
         st.write(f"{row[0]} has a :{row[1]}:")
+
 else:
     pass
 

@@ -29,8 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/076Streamlit/image/Mayavi_3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/076Streamlit/image/fore_cjk_2020_gao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/076Streamlit/image/fore_cn_2020_gao(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/076Streamlit/image/fore_us_2020_gao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/076Streamlit/image/worldmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/076Streamlit/option_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/076Streamlit/demo_list.md" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/demo_list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/076Streamlit/machine_eyes.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/machine_eyes.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -89,23 +96,23 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/081TW_Analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/076Streamlit/image" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\076Streamlit\image" />
       <recent name="D:\Code\Crawler4Caida\081TW_Analysis" />
       <recent name="D:\Code\Crawler4Caida\079CNNet" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler\deploy_server" />
       <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
-      <recent name="D:\Code\Crawler4Caida\077RU&amp;UA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\076Streamlit" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\069IX-ROOT&amp;TLDs" />
       <recent name="D:\Code\Crawler4Caida\068IXVis\Data" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
-      <recent name="D:\Code\Crawler4Caida\001GlobalNetTest\ywyscripts_Nets\result" />
     </key>
   </component>
   <component name="RunManager" selected="Python.real_time_live_demo">
