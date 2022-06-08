@@ -68,7 +68,7 @@ elif choose == "数据可视化":
         columns=['lat', 'lon'])
 
     if selecte2 == "Echarts":
-        # html.iframe("https://docs.streamlit.io/library/api-reference/charts/st.map")
+        # html.iframe("https://mp.weixin.qq.com/s/5VDGsnpgx8iF90aF7p1yMg")
         st.map(df)
 
     elif selecte2 == "Plotly":
