@@ -118,7 +118,7 @@ class HandControlVolume:
         cap = cv2.VideoCapture(0)
         # 视频分辨率
         resize_w = 1280
-        resize_h = 720
+        resize_h = 960
 
         # 画面显示初始化参数
         rect_percent_text = 0

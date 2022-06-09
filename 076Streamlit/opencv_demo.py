@@ -9,7 +9,7 @@ hands = mpHands.Hands()
 Draw = mp.solutions.drawing_utils
 point_style = Draw.DrawingSpec(color=(0, 0, 255), thickness=5)
 line_style = Draw.DrawingSpec(color=(0, 255, 0), thickness=10)
-time_str = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+time_str = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 
 for x in range(3):
     ret, img = cap.read()
