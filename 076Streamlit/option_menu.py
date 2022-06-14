@@ -16,7 +16,7 @@ sysmenu = '''
 footer {visibility:hidden;}
 '''
 
-st.markdown(sysmenu,unsafe_allow_html=True)
+st.markdown(sysmenu, unsafe_allow_html=True)
 
 with st.sidebar:
     choose = option_menu("GIM", ["介绍", "图片/音乐/视频", "数据可视化", "翻译", "地理", "其他应用"],
