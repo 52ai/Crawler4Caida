@@ -70,3 +70,6 @@ psutil~=5.8.0
 langid~=1.1.6
 PyMySQL~=1.0.2
 mediapipe~=0.8.10
+comtypes~=1.1.11
+pycaw~=20220416
+Django~=3.2.13
