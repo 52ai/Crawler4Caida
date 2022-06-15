@@ -31,10 +31,6 @@
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/076Streamlit/multipage_apps/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/multipage_apps/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/1__Plotting_Demo.py" beforePathEscaped="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/1_📈_Plotting_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/1__Plotting_Demo.py" afterPathEscaped="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/1_📈_Plotting_Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/2__Mapping_Demo.py" beforePathEscaped="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/2_🌍_Mapping_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/2__Mapping_Demo.py" afterPathEscaped="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/2_🌍_Mapping_Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/3__DataFrame_Demo.py" beforePathEscaped="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/3_📊_DataFrame_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/3__DataFrame_Demo.py" afterPathEscaped="$PROJECT_DIR$/076Streamlit/multipage_apps/pages/3_📊_DataFrame_Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/076Streamlit/uber_pickups.py" beforeDir="false" afterPath="$PROJECT_DIR$/076Streamlit/uber_pickups.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />

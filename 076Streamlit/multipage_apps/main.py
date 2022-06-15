@@ -30,7 +30,11 @@ if 'count' not in st.session_state:
 st.info("ET-GIM入口")
 
 # st.session_state['login_status'] = True
-con = pymysql.connect(host="192.168.136.128", user="root", password="111001125", database="pets", charset="utf8")
+pymysql_info_file = "D:/Code/Crawler4Caida/.streamlit/pymysql_info.txt"
+with open(pymysql_info_file, 'r', encoding='utf-8') as f:
+    line = f.readlines()[0]
+    line = line.strip().split(",")
+    con = pymysql.connect(host=line[0], user=line[1], password=line[2], database=line[3], charset="utf8")
 c = con.cursor()
 
 
