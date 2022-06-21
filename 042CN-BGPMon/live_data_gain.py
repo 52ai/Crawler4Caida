@@ -32,7 +32,7 @@ def gain_rrc_update(aim_rrc, time_interval):
     :return:
     """
     ws = websocket.WebSocket()
-    ws.connect("wss://ris-live.ripe.net/v1/ws/?client=py-example-1")
+    ws.connect("ws://ris-live.ripe.net/v1/ws/?client=py-example-1")
 
     params = {
         "moreSpecific": True,
@@ -53,7 +53,7 @@ def gain_rrc_update(aim_rrc, time_interval):
     time_start = time.time()  # 记录BGP更新报文开始获取时间
     for data in ws:
         parsed = json.loads(data)
-        # print(parsed["type"], parsed["data"])
+        print(parsed["type"], parsed["data"])
         timestamp = parsed["data"]["timestamp"]
         if parsed["data"]["type"] == "UPDATE":
             print(parsed["data"])
@@ -83,6 +83,6 @@ def gain_rrc_update(aim_rrc, time_interval):
 
 
 if __name__ == "__main__":
-    aim_rrc_main = ""  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
+    aim_rrc_main = "rrc00"  # 设置获取的BGP报文的采集器(rrc00、rrc01、……、rrc24)
     time_interval_main = 60  # 设置抓取的时间
     gain_rrc_update(aim_rrc_main, time_interval_main)

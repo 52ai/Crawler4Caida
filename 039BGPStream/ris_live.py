@@ -19,7 +19,8 @@ def gain_live_data():
     :return:
     """
     ws = websocket.WebSocket()
-    ws.connect("wss://ris-live.ripe.net/v1/ws/?client=py-example-1")
+
+    ws.connect("ws://ris-live.ripe.net/v1/ws/?client=py-example-1")
 
     params = {
         "moreSpecific": True,
