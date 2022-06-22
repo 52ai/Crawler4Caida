@@ -29,26 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/ET-GIM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/Mayavi_3d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/as_core_map_scatter_intergrate2020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/fore_cjk_2020_gao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/fore_cn_2020_gao(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/fore_us_2020_gao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/worldmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/image/俄乌网络星云图.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/pages/1__PolicyMap.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌍_PolicyMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/pages/2__PhysicalMap.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌍_PhysicalMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/pages/3__LogicalMap.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌍_LogicalMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/pages/4__ApplicationMap.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🌍_ApplicationMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__XLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_😎_XLab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/039BGPStream/ris_live.py" beforeDir="false" afterPath="$PROJECT_DIR$/039BGPStream/ris_live.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" beforeDir="false" afterPath="$PROJECT_DIR$/042CN-BGPMon/live_data_gain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
