@@ -171,6 +171,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\068IXVis\ix.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\ix_geo_develop.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\ix_he.CSV">
           <value>
             <Attribute>
@@ -179,6 +193,13 @@
           </value>
         </entry>
         <entry key="\068IXVis\ix_he_backup.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\ix_he_geo.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
