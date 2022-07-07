@@ -7,18 +7,20 @@ Function:
 
 该程序是ET-GIM项目的入口程序
 
-
 """
+import time
 
 import streamlit as st
 import pymysql
 
 st.set_page_config(
     page_title="ET-GIM",
-    page_icon="👋",
+    page_icon="world_map",
     layout="centered",
+    initial_sidebar_state="auto"
 )
 
+# 去除streamlit的原生标记
 sys_menu = '''
 <style>
 #MainMenu {visibility:hidden;}
@@ -26,11 +28,12 @@ footer {visibility:hidden;}
 '''
 st.markdown(sys_menu, unsafe_allow_html=True)
 
+
 if 'count' not in st.session_state:
     st.session_state.count = 0
     st.session_state.user = "Guest"
 
-
+# 给侧边栏添加APP版本信息
 with st.sidebar:
     st.write("Login:", st.session_state.user)
     st.sidebar.markdown(
@@ -42,11 +45,7 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
 
-
-st.info("ET-GIM入口")
-st.info("请点击下拉框，登录后方可使用该系统")
-
-# st.session_state['login_status'] = True
+# 读取本地Mysql信息
 pymysql_info_file = "D:/Code/Crawler4Caida/.streamlit/pymysql_info.txt"
 with open(pymysql_info_file, 'r', encoding='utf-8') as f:
     line = f.readlines()[0]
@@ -55,6 +54,7 @@ with open(pymysql_info_file, 'r', encoding='utf-8') as f:
 c = con.cursor()
 
 
+# 以下为用户管理的Mysql操作函数，注册、登录、退出
 def create_user_table():
     """
     新建用户表
@@ -93,31 +93,19 @@ choice = st.selectbox("", menu)
 
 if choice == "首页":
 
-    # st.sidebar.success("Select a demo above.")
-    # st.write("Session:", st.session_state)
+    # st.image("./image/fore_cn_2020_gao(1).png", caption="中国自治域网络互联地图(2020)")
+    # st.image("./image/fore_cjk_2020_gao.png", caption="中日韩网络互联关系地图")
+    st.image("./image/canvas2019_top200.png", caption="全球TOP200网络互联关系地图")
 
-    st.image("./image/fore_cn_2020_gao(1).png", caption="中国自治域网络互联地图(2020)")
-    # st.image("./image/fore_us_2020_gao.png", caption="美国自治域网络互联地图")
-
-    st.write("# Welcome to ET-GIM! 👋")
+    st.write("# Welcome to ET-GIM! 😁")
     st.markdown(
         """
         ET-GIM，即工程技术-全球网络地图（Engineering Technology-Global Internet Map）的英文缩写。
-        它脱胎于中国信息通信研究院2022年度的**工程技术课题**。
+        它脱胎于院2022年度的**工程技术课题**。  
         ET-GIM的设计开发理念是 **“快速形成一版最小可用系统”** ，交付至工程技术课题项目组。 
-         
-        ET-GIM系统的主要功能可概括为 **“4+1”**，即4张地图，1个可视化实验项目。  
-        ### ET-GIM System
-        - 网络政策环境地图（Network Policy Environment Map，PolicyMap）：监管、竞合等
-        - 物理网络设施地图（Physical Facilities Map，PhysicalMap）：海陆缆、IXP、IDC等
-        - 逻辑网络连接地图（Logical Connection Map，LogicalMap）：IP、AS、BGP等
-        - 应用基础设施地图（Application Infrastructure Map, ApplicationMap ）：云节点、CDN等
-        - 新型可视化实验探索项目（XLab）：3D、VR/AR等
-        
+        ET-GIM系统的主要功能可概括为 **“4+1”**，即政策层、物理层、逻辑层、应用层4张地图，1项可视化探索。         
         ### 产品受众
-        - 政府部门
-        - 走出去企业
-        - 面向公众用户及相关单位  
+        政府部门、走出去企业、面向公众用户及相关单位  
         ### 产品优点
         - 多层网络地图整合
         - 可自定义数据规则
@@ -156,5 +144,6 @@ elif choice == "注册":
 
 elif choice == "注销":
     st.session_state.count = 0
+    st.session_state.user = "Guest"
     if st.session_state.count == 0:
         st.info("您已成功注销，如果需要，请选择登录按钮继续登录。")
