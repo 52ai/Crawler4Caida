@@ -164,6 +164,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\064IPDB\map_idc_geo.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\Gephi\edge_out.csv">
           <value>
             <Attribute>

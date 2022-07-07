@@ -149,16 +149,16 @@ def map_china(open_file) -> Map:
 
     c = (
         Map(init_opts=opts.InitOpts(width="1900px", height="900px", page_title=title_str, theme=ThemeType.WESTEROS))
-        .add(series_name="该省份累计确诊病例", data_pair=data, maptype="china", is_map_symbol_show=True, zoom=1.1)
+        .add(series_name="该省份开放WEB端口IP地址数量", data_pair=data, maptype="china", is_map_symbol_show=True, zoom=1.1)
         .set_global_opts(
             title_opts=opts.TitleOpts(title=title_str),
             visualmap_opts=opts.VisualMapOpts(
-                pieces=[{"max": 9, "min": 1, 'label': '1-9', 'color': '#FFEBCD'},
-                        {"max": 99, "min": 10, 'label': '10-99', 'color': '#F5DEB3'},
-                        {"max": 499, "min": 100, 'label': '100-499', 'color': '#F4A460'},
-                        {"max": 999, "min": 500, 'label': '500-999', 'color': '#FA8072'},
-                        {"max": 9999, "min": 1000, 'label': '1000-9999', 'color': '#ee2c0f'},
-                        {"min": 10000, 'label': '≥10000', 'color': '#5B5B5B'}],
+                pieces=[{"max": 999, "min": 1, 'label': '1-9', 'color': '#FFEBCD'},
+                        {"max": 9999, "min": 1000, 'label': '10-99', 'color': '#F5DEB3'},
+                        {"max": 49999, "min": 10000, 'label': '100-499', 'color': '#F4A460'},
+                        {"max": 99999, "min": 50000, 'label': '500-999', 'color': '#FA8072'},
+                        {"max": 99999, "min": 100000, 'label': '1000-9999', 'color': '#ee2c0f'},
+                        {"min": 100000, 'label': '≥100000', 'color': '#5B5B5B'}],
                 is_piecewise=True, item_width=45, item_height=30, textstyle_opts=opts.TextStyleOpts(font_size=20)),
         )
     )
