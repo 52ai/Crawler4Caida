@@ -15,6 +15,9 @@ footer {visibility:hidden;}
 '''
 st.markdown(sys_menu, unsafe_allow_html=True)
 
+if 'count' not in st.session_state:
+    st.session_state.count = 0
+    st.session_state.user = "Guest"
 
 # 给侧边栏添加APP版本信息
 with st.sidebar:

@@ -64,10 +64,10 @@ folium.Marker([45.3288, -121.6625], popup="<i>Mt. Hood Meadows</i>").add_to(my_m
 folium_static(my_map)
 
 
+
 st.info("地图标记")
 lon = st.text_input("请输入要标记点的经度", value="121.46819")
 lat = st.text_input("请输入要标记点的纬度", value="31.23374")
-
 m = folium.Map(location=[lat, lon], zoom_start=20, tiles="Stamen Terrain")
 
 tooltip = "我在这里!"

@@ -66,9 +66,9 @@ def once_query():
     查询一次IP地址
     :return:
     """
-    db = City("../000LocalData/ipdb/caict_full.ipdb")
+    db = City("../000LocalData/ipdb/caict_ipv4.ipdb")
     print("ipdb.build.time:", db.build_time())
-    print(db.find("156.154.158.2", "CN"))
+    print(db.find("223.255.207.197", "CN"))
 
 
 if __name__ == "__main__":

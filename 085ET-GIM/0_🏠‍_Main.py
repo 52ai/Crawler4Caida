@@ -8,8 +8,6 @@ Function:
 该程序是ET-GIM项目的入口程序
 
 """
-import time
-
 import streamlit as st
 import pymysql
 
@@ -28,10 +26,13 @@ footer {visibility:hidden;}
 '''
 st.markdown(sys_menu, unsafe_allow_html=True)
 
+# st.write(st.session_state)
+
 
 if 'count' not in st.session_state:
     st.session_state.count = 0
     st.session_state.user = "Guest"
+
 
 # 给侧边栏添加APP版本信息
 with st.sidebar:
