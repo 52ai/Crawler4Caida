@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ngraph.graph": "^20.0.0"
+  }
+}
