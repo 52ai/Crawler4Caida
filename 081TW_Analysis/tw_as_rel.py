@@ -237,9 +237,13 @@ def as_analysis(aim_country):
         save_file = "direct_rel_country_result.csv"
         write_to_csv(direct_rel_country_result, save_file)
         print(f"7.TOP 10 国际直联网络：")
+        external_as_info = []
         for item in external_as_list_rank[0:11]:
             temp_list = ["AS"+item[0], as2org[str(item[0])], as2country[str(item[0])], item[1]]
             print(temp_list)
+            external_as_info.append(temp_list)
+        save_file = "external_as_info.csv"
+        write_to_csv(external_as_info, save_file)
 
 
 if __name__ == "__main__":

@@ -157,14 +157,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\064IPDB\map_idc.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\064IPDB\map_idc_geo.csv">
+        <entry key="\064IPDB\map_idc_geo_result.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -270,6 +263,20 @@
           </value>
         </entry>
         <entry key="\081TW_Analysis\direct_route_country_result.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\081TW_Analysis\external_as_info.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\081TW_Analysis\external_as_info_cn.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
