@@ -61,12 +61,12 @@ def deal():
             temp_info = [aim_ip]
             temp_info.extend(geo_info)
             temp_info.append("443")
-            # print(temp_info)
+            print(temp_info)
             result_list.append(temp_info)
             cnt += 1
             if cnt > 10:
-                # break
-                pass
+                break
+                # pass
 
     print("跑80")
     file_in = "../000LocalData/IPPorts/zmap_20220307101747_80.csv"
@@ -84,12 +84,12 @@ def deal():
             temp_info = [aim_ip]
             temp_info.extend(geo_info)
             temp_info.append("80")
-            # print(temp_info)
+            print(temp_info)
             result_list.append(temp_info)
             cnt += 1
             if cnt > 10:
-                # break
-                pass
+                break
+                # pass
 
     save_path = "./map_idc.csv"
     write_to_csv(result_list, save_path, [])

@@ -75,7 +75,7 @@ def analysis(open_file):
     :param open_file:
     :return:
     """
-    as2country = gain_as2country()  # 获取每个AS的country信息
+    as2country = gain_as2country_caida()  # 获取每个AS的country信息
     print(open_file)
     # 处理文件名，提取日期信息
     temp_str = open_file.split('\\')[-1]
