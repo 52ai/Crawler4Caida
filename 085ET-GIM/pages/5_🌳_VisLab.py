@@ -3,6 +3,7 @@ import numpy as np
 from st_card import st_card
 import pandas as pd
 import pydeck as pdk
+from pydeck.types import String
 import graphviz as graphviz
 
 from bokeh.io import curdoc
@@ -46,9 +47,9 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["3D", "星云图"]
+    menu = ["Demo", "GeoMap", "3D巡航可视化", "星云图"]
     choice = st.selectbox("请选择可视化样式：", menu)
-    if choice == "3D":
+    if choice == "Demo":
         cols = st.columns([.333, .333, .333])
         with cols[0]:
             st_card('Orders', value=1200, delta=-45, delta_description='since last month')
@@ -93,17 +94,17 @@ if st.session_state.count > 0:
             ],
         ))
 
-        st.markdown("### Graphviz")
-        # Create a graphlib graph object
-        graph = graphviz.Digraph()
-        graph.edge('run', 'intr')
-        graph.edge('intr', 'runbl')
-        graph.edge('runbl', 'run')
-        graph.edge('run', 'kernel')
-        graph.edge('kernel', 'zombie')
-        graph.edge('kernel', 'sleep')
-        graph.edge('kernel', 'runmem')
-        st.graphviz_chart(graph)
+        # st.markdown("### Graphviz")
+        # # Create a graphlib graph object
+        # graph = graphviz.Digraph()
+        # graph.edge('run', 'intr')
+        # graph.edge('intr', 'runbl')
+        # graph.edge('runbl', 'run')
+        # graph.edge('run', 'kernel')
+        # graph.edge('kernel', 'zombie')
+        # graph.edge('kernel', 'sleep')
+        # graph.edge('kernel', 'runmem')
+        # st.graphviz_chart(graph)
 
         st.markdown("### Bokeh Chart")
         p = figure(
@@ -150,17 +151,66 @@ if st.session_state.count > 0:
 
         st.bokeh_chart(column(p, div), use_container_width=True)
 
-        st.markdown("### Plotly")
+        # st.markdown("### Plotly")
+        #
+        # df = px.data.iris()
+        # fig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width',
+        #                     color='petal_length', size='petal_length', size_max=18,
+        #                     symbol='species', opacity=0.7)
+        #
+        # # tight layout
+        # fig.update_layout(margin=dict(l=0, r=0, b=0, t=0))
+        #
+        # st.plotly_chart(fig, use_container_width=True)
 
-        df = px.data.iris()
-        fig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width',
-                            color='petal_length', size='petal_length', size_max=18,
-                            symbol='species', opacity=0.7)
+    elif choice == "GeoMap":
+        st.markdown("依托pydeck+mapbox开展，地图系统的研究")
+        DATA_SOURCE = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv'
+        # DATA_SOURCE = 'https://raw.githubusercontent.com/ajduberstein/geo_datasets/master/fortune_500.csv'
 
-        # tight layout
-        fig.update_layout(margin=dict(l=0, r=0, b=0, t=0))
+        layer_hexagon = pdk.Layer(
+            'HexagonLayer',  # `type` positional argument is here
+            DATA_SOURCE,
+            get_position=['lng', 'lat'],
+            auto_highlight=True,
+            elevation_scale=50,
+            pickable=True,
+            elevation_range=[0, 3000],
+            extruded=True,
+            coverage=1)
 
-        st.plotly_chart(fig, use_container_width=True)
+        layer_scatter = pdk.Layer(
+            'ScatterplotLayer',  # Change the `type` positional argument here
+            DATA_SOURCE,
+            get_position=['lng', 'lat'],
+            auto_highlight=True,
+            get_radius=1000,  # Radius is given in meters
+            get_fill_color=[180, 0, 200, 140],  # Set an RGBA value for fill
+            pickable=True)
+
+        layer_heatmap = pdk.Layer(
+            "HeatmapLayer",
+            DATA_SOURCE,
+            opacity=0.9,
+            get_position=["lng", "lat"],
+            # aggregation=String('MEAN'),
+            # get_weight="profit / employees > 0 ? profit / employees : 0"
+            )
+
+        # Set the viewport location
+        view_state = pdk.ViewState(
+            longitude=-1.415,
+            latitude=52.2323,
+            zoom=6,
+            min_zoom=5,
+            max_zoom=15,
+            pitch=40.5,
+            bearing=-27.36)
+
+        # Combined all of it and render a viewport
+        r = pdk.Deck(layers=[layer_heatmap], initial_view_state=view_state)
+        st.pydeck_chart(r)
+
 
 
 else:

@@ -47,7 +47,7 @@ with st.sidebar:
     )
 
 # 读取本地Mysql信息
-pymysql_info_file = "D:/Code/Crawler4Caida/.streamlit/pymysql_info.txt"
+pymysql_info_file = "D:/Code/Crawler4Caida/.streamlit/pymysql_info_Ts.txt"
 with open(pymysql_info_file, 'r', encoding='utf-8') as f:
     line = f.readlines()[0]
     line = line.strip().split(",")
