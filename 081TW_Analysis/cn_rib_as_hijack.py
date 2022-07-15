@@ -139,6 +139,7 @@ def rib_analysis(rib_file):
 
     direct_prefix_num = 0  # 存储直联网络的路由条目
     direct_ip_num = 0  # 存储直联网络IP地址规模
+    direct_ip_num_except_tier1 = 0  # 存储直联网络IP地址规模，剔除18家Tier1
     direct_as_info_result = []  # 存储直联网络信息，含ASN、prefix_num、ip_num
     tier1_list = ['3356', '174', '2914', '6939', '3257',
                   '701', '7018', '1239', '3549', '7922',
