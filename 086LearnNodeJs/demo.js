@@ -44,3 +44,4 @@ var world = g.getNode('world');// return 'word' node
 console.log(world.id, world.data)
 
 // waiting to learn
+
