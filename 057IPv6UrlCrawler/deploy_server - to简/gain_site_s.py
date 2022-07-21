@@ -89,9 +89,10 @@ def gain_inner_url(page_url):
 
     page.goto(page_url)
     page.wait_for_load_state("networkidle")
-    # time.sleep(3)  # 延迟加载，等待页面加载完毕
+    time.sleep(3)  # 延迟加载，等待页面加载完毕
 
     page_html = page.content()
+    print(page_html)
     bs_obj = BeautifulSoup(page_html, "html5lib")
     all_url_list = bs_obj.findAll("a")  # 存储全部的原始超链
     all_url_list = list(set(all_url_list))  # 新增去重功能，降低重复链接的爬取时间
