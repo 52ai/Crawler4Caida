@@ -1,0 +1,47 @@
+{
+  "name": "ngraph.pixel",
+  "version": "2.4.1",
+  "description": "Fast graph renderer based on low level ShaderMaterial from three.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "basic": "browserify demo/basic/index.js > demo/basic/bundle.js",
+    "hover": "browserify demo/hover-only/index.js > demo/hover-only/bundle.js",
+    "background": "browserify demo/background/index.js > demo/background/bundle.js",
+    "colors": "browserify demo/colors/index.js > demo/colors/bundle.js",
+    "config": "browserify demo/config/index.js > demo/config/bundle.js",
+    "edit": "browserify demo/edit/index.js > demo/edit/bundle.js",
+    "start": "npm run basic && npm run background && npm run colors && npm run config && npm run edit"
+  },
+  "keywords": [
+    "graph",
+    "ngraph",
+    "layout",
+    "renderer",
+    "render",
+    "webgl",
+    "particle"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/ngraph.pixel"
+  },
+  "dependencies": {
+    "element-class": "^0.2.0",
+    "insert-css": "^0.2.0",
+    "ngraph.events": "0.0.3",
+    "pixel.layout": "^0.1.1",
+    "three": "^0.73.0",
+    "three.fly": "0.1.6"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "config.pixel": "2.0.0",
+    "edgelegend": "2.0.0",
+    "ngraph.generators": "0.0.18",
+    "query-string": "^1.0.0",
+    "tap": "^5.1.1"
+  }
+}
