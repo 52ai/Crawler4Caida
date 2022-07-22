@@ -1,0 +1,38 @@
+{
+  "name": "element-class",
+  "description": "add and remove classes from dom elements",
+  "author": "Max Ogden <max@maxogden.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxogden/element-class.git"
+  },
+  "version": "0.2.2",
+  "bugs": {
+    "url": "https://github.com/maxogden/element-class/issues"
+  },
+  "homepage": "https://github.com/maxogden/element-class",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}

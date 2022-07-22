@@ -29,8 +29,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pixel_demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/public/fonts/Roboto.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/public/fonts/Roboto0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/LineCollection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/MSDFTextCollection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/PointCollection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/bus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/createGraphScene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/fileDrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/getGraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/loadDroppedGraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -47,7 +80,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/086LearnNodeJs/pm" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -102,14 +135,14 @@
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\graph-start\dist" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\076Streamlit" />
       <recent name="D:\Code\Crawler4Caida\069IX-ROOT&amp;TLDs" />
-      <recent name="D:\Code\Crawler4Caida\068IXVis\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cn_rib_as_hijack">
+  <component name="RunManager" selected="Python.tw_as_rel">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,27 +201,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gain_site_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/057IPv6UrlCrawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="gain_site_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +214,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tw_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/081TW_Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,18 +266,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.gain_site_s" />
-      <item itemvalue="Python.gain_site_v3" />
       <item itemvalue="Python.gain_site_v4" />
       <item itemvalue="Python.yn_scripts" />
       <item itemvalue="Python.cn_rib_as_hijack" />
+      <item itemvalue="Python.tw_as_rel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.cn_rib_as_hijack" />
         <item itemvalue="Python.yn_scripts" />
         <item itemvalue="Python.gain_site_s" />
         <item itemvalue="Python.gain_site_v4" />
-        <item itemvalue="Python.gain_site_v3" />
       </list>
     </recent_temporary>
   </component>

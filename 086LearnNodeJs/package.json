@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "ngraph.graph": "^20.0.0"
+    "ngraph.graph": "^20.0.0",
+    "ngraph.pixel": "^2.4.1",
+    "pixel.layout": "^0.1.2"
   }
 }
