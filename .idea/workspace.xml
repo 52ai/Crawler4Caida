@@ -29,11 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server - to简/gain_site_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server - to简/gain_site_s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server - to简/site_test" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/deploy_server - to简/site_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/057IPv6UrlCrawler/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/057IPv6UrlCrawler/geckodriver.log" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -51,6 +48,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -111,7 +109,7 @@
       <recent name="D:\Code\Crawler4Caida\068IXVis\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yn_scripts">
+  <component name="RunManager" selected="Python.cn_rib_as_hijack">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +126,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="find_as_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cn_rib_as_hijack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,7 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/081TW_Analysis/find_as_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/081TW_Analysis/cn_rib_as_hijack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,19 +232,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.find_as_info" />
       <item itemvalue="Python.gain_site_s" />
       <item itemvalue="Python.gain_site_v3" />
       <item itemvalue="Python.gain_site_v4" />
       <item itemvalue="Python.yn_scripts" />
+      <item itemvalue="Python.cn_rib_as_hijack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cn_rib_as_hijack" />
         <item itemvalue="Python.yn_scripts" />
         <item itemvalue="Python.gain_site_s" />
         <item itemvalue="Python.gain_site_v4" />
         <item itemvalue="Python.gain_site_v3" />
-        <item itemvalue="Python.find_as_info" />
       </list>
     </recent_temporary>
   </component>
