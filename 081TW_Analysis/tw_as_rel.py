@@ -101,7 +101,7 @@ def as_analysis(aim_country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path[-1:]:
+    for path_item in file_path[-4:-3]:
         print(f"- - - - - - - {aim_country}国家网络地图统计报告（网络连接）- - - - - -  - - ")
         print("0.数据统计源：", path_item)
 
@@ -238,9 +238,9 @@ def as_analysis(aim_country):
         write_to_csv(direct_rel_country_result, save_file)
         print(f"7.TOP 10 国际直联网络：")
         external_as_info = []
-        for item in external_as_list_rank[0:11]:
+        for item in external_as_list_rank:
             temp_list = ["AS"+item[0], as2org[str(item[0])], as2country[str(item[0])], item[1]]
-            print(temp_list)
+            # print(temp_list)
             external_as_info.append(temp_list)
         save_file = "external_as_info.csv"
         write_to_csv(external_as_info, save_file)
@@ -248,6 +248,6 @@ def as_analysis(aim_country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    country = "RU"
+    country = "CN"
     as_analysis(country)
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

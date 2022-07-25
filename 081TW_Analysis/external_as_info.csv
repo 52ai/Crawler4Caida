@@ -1,11 +1,1118 @@
-AS41327,"Fiber Telecom S.p.A.,FIBERTELECOM-AS",IT,567
-AS6939,"Hurricane Electric LLC,HURRICANE",US,532
-AS24482,"SG.GS,SGGS-AS-AP",SG,485
-AS9002,"RETN Limited,RETN-AS",GB,462
-AS25091,"IP-Max SA,IP-MAX",CH,435
-AS7713,"Telekomunikasi Indonesia (PT),telkomnet-as-ap",ID,377
-AS41805,"SAWAD LAND for Information Technology Ltd,IQ-SAWADLAND-AS",IQ,349
-AS137409,"GSL Networks Pty LTD,GSLNETWORKS-AS-AP",AU,342
-AS207740,"Youssef Hamed,AMIRGT-AS",EG,307
-AS1299,"Telia Company AB,TWELVE99",SE,257
-AS18106,"Viewqwest Pte Ltd,VIEWQWEST-SG-AP",SG,198
+AS6939,"Hurricane Electric LLC,HURRICANE",US,37
+AS9304,"HGC Global Communications Limited,HUTCHISON-AS-AP",HK,29
+AS7713,"Telekomunikasi Indonesia (PT),telkomnet-as-ap",ID,28
+AS24482,"SG.GS,SGGS-AS-AP",SG,28
+AS54574,"DMIT Cloud Services,DMIT",US,28
+AS132337,"ALPHA NETWORKS SOLUTION PTE. LTD.,ANSPL-AS-AP",SG,27
+AS3491,"""PCCW Global,BTN-ASN",US,26
+AS38001,"NewMedia Express Pte Ltd,NEWMEDIAEXPRESS-AS-AP",SG,26
+AS4826,"Obenetwork AB,VOCUS-BACKBONE-AS",,23
+AS8359,"MTS PJSC,MTS",RU,21
+AS18106,"Viewqwest Pte Ltd,VIEWQWEST-SG-AP",SG,21
+AS23673,"""COGETEL Co.,ONLINE-AS",KH,21
+AS39120,"Convergenze S.p.A.,CONVERGENZE-AS",IT,21
+AS2914,"""NTT America,NTT-LTD-2914",US,18
+AS21859,"Zenlayer Inc,ZEN-ECN",US,18
+AS7660,"Asia Pacific Advanced Network - Japan,APAN-JP",JP,18
+AS37963,"""Alibaba (US) Technology Co.,ALIBABA-CN-NET",US,18
+AS1828,"Unitas Global LLC,UNITAS",US,17
+AS7545,"TPG Internet Pty Ltd,TPG-INTERNET-AP",AU,17
+AS140627,"ONEQODE ASSETS PTY LTD,ONEQODEASSETS-AS-AP",AU,16
+AS63927,"RISE ASIA TECHNOLOGY LIMITED,RISE-HK",HK,16
+AS174,"Cogent Communications,COGENT-174",US,15
+AS20485,"Joint Stock Company TransTeleCom,TRANSTELECOM",RU,14
+AS58511,"ANYCAST HOLDINGS PTY LTD,ANYCAST-GLOBAL-BACKBONE",AU,14
+AS1299,"Telia Company AB,TWELVE99",SE,13
+AS7473,"Singapore Telecommunications (SINGTEL Internet Exchange),SINGTEL-AS-AP",SG,13
+AS41095,"IPTP LTD,IPTP",GB,13
+AS59605,"MENA LEVANT W.L.L,ZAINGP-AS",BH,12
+AS9268,"Over the Wire Pty Ltd,OVERTHEWIRE-AS-AP",AU,12
+AS24516,"Virtutel Pty Ltd,VIRTUTEL-AS-AP",AU,12
+AS38880,"Micron21 Datacentre Pty Ltd,M21-AS-AP",AU,12
+AS63956,"Colocation Australia Pty Ltd,COLO-AS-AP",AU,12
+AS20473,"""The Constant Company,AS-CHOOPA",US,12
+AS6453,"TATA COMMUNICATIONS (AMERICA) INC,AS6453",US,11
+AS199524,"G-Core Labs S.A.,GCORE",LU,11
+AS45352,"IP ServerOne Solutions Sdn Bhd,IPSERVERONE-AS-AP",MY,11
+AS2603,"NORDUnet,NORDUNET",DK,10
+AS3356,"""Level 3 Parent,LEVEL3",US,10
+AS16552,"Tiggee LLC,TIGGEE",US,10
+AS4637,"Telstra International Limited,ASN-TELSTRA-GLOBAL",HK,9
+AS7575,"AARNet,AARNET-AS-AP",AU,9
+AS8220,"COLT Technology Services Group Limited,COLT",GB,9
+AS13786,"""Seabras 1 USA,SEABRAS-1",US,9
+AS9498,"Bharti Airtel Limited,BBIL-AP",IN,9
+AS14061,"""DigitalOcean,DIGITALOCEAN-ASN",US,9
+AS51185,"Onecom Global Communications LTD,ONECOM-AS",GB,9
+AS9902,"NeocomISP Limited,NEOCOMISP-KH-AP",KH,9
+AS58952,"""Frontiir Co.,FRONTIIRCOLTD-MM",MM,9
+AS20764,"CJSC RASCOM,RASCOM-AS",RU,8
+AS4766,"Korea Telecom,KIXS-AS-KR",KR,8
+AS36351,"SoftLayer Technologies Inc.,SOFTLAYER",US,8
+AS137409,"GSL Networks Pty LTD,GSLNETWORKS-AS-AP",AU,8
+AS3216,"""PJSC """"Vimpelcom"""""",SOVAM-AS",RU,7
+AS5713,"Telkom SA Ltd.,SAIX-NET",ZA,7
+AS12956,"TELEFONICA GLOBAL SOLUTIONS SL,Telefonica",ES,7
+AS37640,"Cape Connect Internet,CAPE-CONNECT-AS",ZA,7
+AS50629,"LWLcom GmbH,LWLCOM",DE,7
+AS35598,"Inetcom LLC,INETCOM",RU,7
+AS57695,"""Misaka Network,MISAKA",US,7
+AS61568,"ALOO TELECOM - FSF TECNOLOGIA SA,",BR,7
+AS137443,"Anchnet Asia Limited,ANCHGLOBAL-AS-AP",HK,7
+AS137557,"""International gateway co.,IGCL-AS-AP",TH,7
+AS41805,"SAWAD LAND for Information Technology Ltd,IQ-SAWADLAND-AS",IQ,7
+AS58057,"Securebit AG,SECUREBIT",CH,7
+AS1267,"WIND TRE S.P.A.,ASN-WINDTRE",IT,6
+AS3257,"GTT Communications Inc.,GTT-BACKBONE",US,6
+AS3303,"Swisscom (Schweiz) AG,SWISSCOM",CH,6
+AS3320,"Deutsche Telekom AG,DTAG",DE,6
+AS8426,"Claranet Limited,CLARANET-AS",GB,6
+AS25091,"IP-Max SA,IP-MAX",CH,6
+AS28917,"""Fiord Networks,Fiord-AS",LT,6
+AS35280,"ACORUS NETWORKS SAS,ACORUS",FR,6
+AS39351,"31173 Services AB,ESAB-AS",SE,6
+AS47692,"Nessus GmbH,NESSUS",AT,6
+AS51184,"Fonira Telekom GmbH,FONIRA",AT,6
+AS52320,"""GlobeNet Cabos Submarinos Colombia,",CO,6
+AS55720,"Gigabit Hosting Sdn Bhd,GIGABIT-MY",MY,6
+AS61955,"ColocationIX GmbH,ColocationIX-AS",DE,6
+AS14840,"BR Digital,",BR,6
+AS28186,"ITS TELECOMUNICACOES LTDA,",BR,6
+AS37239,"ICTGlobe Management (Pty) Ltd,ICTGLOBE",ZA,6
+AS37497,"Network Platforms (PTY) LTD,Network-Platforms",ZA,6
+AS47147,"ANEXIA Internetdienstleistungs GmbH,AS-ANX",AT,6
+AS48024,"NEROCLOUD LTD,NEROCLOUD",GB,6
+AS264479,"Turbozone Internet,",BR,6
+AS271253,"LINK BRASIL TELECOMUNICACOES LTDA,",BR,6
+AS12779,"IT.Gate S.p.A.,ITGATE",IT,6
+AS13237,"euNetworks GmbH,LAMBDANET-AS",DE,6
+AS34224,"Neterra Ltd.,NETERRA-AS",BG,6
+AS39122,"Blacknight Internet Solutions Limited,BLACKNIGHT-AS",IE,6
+AS132585,"PCCW IMS Ltd (PCCW Business Internet Access),SIA-HK-AS",HK,6
+AS559,"SWITCH,SWITCH",CH,5
+AS2516,"KDDI CORPORATION,KDDI",JP,5
+AS3214,"xTom GmbH,XTOM",DE,5
+AS3223,"Voxility LLP,VOXILITY",GB,5
+AS20940,"Akamai International B.V.,AKAMAI-ASN1",NL,5
+AS31133,"PJSC MegaFon,MF-MGSM-AS",RU,5
+AS37680,"Cool Ideas Service Provider (Pty) Ltd,COOL-IDEAS",ZA,5
+AS41327,"Fiber Telecom S.p.A.,FIBERTELECOM-AS",IT,5
+AS47957,"Compagnie Industrielle Et Financiere D' Ingenierie Ingenico SA,ING-AS",FR,5
+AS56665,"Proximus Luxembourg S.A.,TANGO-TELINDUS",LU,5
+AS17639,"ComClark Network & Technology Corp,CONVERGE-AS",PH,5
+AS37100,"SEACOM Limited,SEACOM-AS",MU,5
+AS37721,"Virtual Technologies & Solutions,Virtual-Technologies-Solutions-SA",BF,5
+AS45629,"JasTel Network,JASTEL-NETWORK-TH-AP",TH,5
+AS53828,"""NETWORK INNOVATIONS,NITEL",US,5
+AS55329,"Telcotech Ltd,TELCOTECH-KH",KH,5
+AS8447,"A1 Telekom Austria AG,A1TELEKOM-AT",AT,5
+AS8732,"OJSC Comcor,COMCOR-AS",RU,5
+AS12552,"GlobalConnect AB,IPO-EU",SE,5
+AS15547,"netplus.ch SA,NETPLUS",CH,5
+AS15605,"Connesi s.p.a.,CONNESI",IT,5
+AS20811,"Brennercom S.p.A.,BRENNERCOM-AS",IT,5
+AS31019,"Paulus M. Hoogsteder,MEANIE",NL,5
+AS33891,"Core-Backbone GmbH,CORE-BACKBONE",DE,5
+AS34288,"Kantonsschule Zug,AS34288",CH,5
+AS48362,"Stadtwerke Feldkirch,TKSWF-AS",AT,5
+AS49605,"Digital Telecommunication Services S.r.l.,DTS-AS",IT,5
+AS286,"KPN B.V.,KPN",NL,4
+AS293,"ESnet,ESNET",US,4
+AS701,"Verizon Business,UUNET",US,4
+AS1239,"Sprint,SPRINTLINK",US,4
+AS1273,"Vodafone Group PLC,CW",EU,4
+AS1764,"Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH,NEXTLAYER-AS",AT,4
+AS1836,"green.ch AG,GREEN",CH,4
+AS3741,"Dimension Data,IS",ZA,4
+AS3786,"LG DACOM Corporation,LGDACOM",KR,4
+AS4609,"Companhia de Telecomunicacoes de Macau,CTM-MO",MO,4
+AS4657,"Starhub Internet Pte Ltd,STARHUB-INTERNET",SG,4
+AS4788,"""Tmnet,TMNET-AS-AP",MY,4
+AS6461,"Zayo Bandwidth,ZAYO-6461",US,4
+AS6762,"Telecom Italia Sparkle S.p.A.,SEABONE-NET",IT,4
+AS9002,"RETN Limited,RETN-AS",GB,4
+AS9505,"""Chunghwa Telecom Co.,TWGATE-AP",TW,4
+AS12389,"PJSC Rostelecom,ROSTELECOM-AS",RU,4
+AS29467,"LUXNETWORK S.A.,LuxNetwork",LU,4
+AS30844,"Liquid Telecommunications Ltd,LIQUID-AS",GB,4
+AS32653,"eNetworks cc,ENETWORKS",ZA,4
+AS34177,"CELESTE SAS,CELESTE-AS",FR,4
+AS37662,"West Indian Ocean Cable Company,WIOCC-AS",MU,4
+AS40065,"CNSERVERS LLC,CNSERVERS",US,4
+AS41378,"Kirino LLC,KirinoNET",US,4
+AS45899,"Vietnam Posts and Telecommunications (VNPT),VNPT-AS-VN",VN,4
+AS328137,"Web Squad Connect (Pty) Ltd,Web-Squad-Connect-AS",ZA,4
+AS328266,"Atomic (Pty) Ltd,Atomic-AS",ZA,4
+AS4455,"IX Reach Ltd,BSO",GB,4
+AS132825,"MYTEK TRADING PTY LTD,MYTEK-AS-AP",AU,4
+AS10100,"UBS Group AG,UBSGROUPAG-AS-AP",CH,4
+AS4844,"SuperInternet Access Pte Ltd,SUPERINTERNET-AS-AP",SG,4
+AS7195,"EDGEUNO SAS,",CO,4
+AS9318,"SK Broadband Co Ltd,SKB-AS",KR,4
+AS9957,"KINX,KINX-AS",KR,4
+AS18013,"ASLINE LIMITED,ASLINE-AS-AP",HK,4
+AS19996,"CoreSite,ANY2-RS-WEST",US,4
+AS29791,"Internap Holding LLC,VOXEL-DOT-NET",US,4
+AS35710,"weber.digital GmbH,WEBERCLOUD",DE,4
+AS37468,"Angola Cables,ANGOLA-CABLES",AO,4
+AS263237,"PowerHost Telecom SPA,",CL,4
+AS267613,"ELETRONET S.A.,",BR,4
+AS26380,"MasterCard Technologies LLC,MASTER-7-AS",US,4
+AS10099,"China Unicom (Hong Kong) Operations Limited,UNICOM-Global",HK,4
+AS10103,"Hong Kong Broadband Network Ltd,HKBN-AS-AP",HK,4
+AS14537,"Continent 8 LLC,CL-1379-14537",US,4
+AS20932,"Services Industriels de Geneve,SIG-ST",CH,4
+AS31500,"Global Network Management Inc,GLOBALNET-AS",AG,4
+AS34549,"meerfarbig GmbH & Co. KG,MEER-AS",DE,4
+AS34927,"iFog GmbH,iFog-GmbH",CH,4
+AS39737,"Net Vision Telecom SRL,Prime-Telecom-AS",RO,4
+AS59890,"Kabel-TV Lampert GmbH & Co KG,Kabel-TV-Lampert",AT,4
+AS328832,"Network Platforms (PTY) LTD,Network-Platforms-International",ZA,4
+AS398465,"""Rackdog,RACKDOG-LLC",US,4
+AS59318,"S.I Group,SINET-KH",KH,4
+AS42,"WoodyNet,WOODYNET-1",US,3
+AS553,"Universitaet Stuttgart,BELWUE",DE,3
+AS714,"Apple Inc.,APPLE-ENGINEERING",US,3
+AS1916,"Rede Nacional de Ensino e Pesquisa,",BR,3
+AS2119,"Telenor Norge AS,TELENOR-NEXTEL",NO,3
+AS2497,"Internet Initiative Japan Inc.,IIJ",JP,3
+AS2906,"Netflix Streaming Services Inc.,AS-SSI",US,3
+AS3462,"""Chunghwa Telecom Co.,HINET",TW,3
+AS4780,"Digital United Inc.,SEEDNET",TW,3
+AS7018,"""AT&T Services,ATT-INTERNET4",US,3
+AS7738,"Telemar Norte Leste S.A.,",BR,3
+AS8218,"Zayo France SAS,NEO-ASN",FR,3
+AS9269,"Hong Kong Broadband Network Ltd,HKBN-AS-AP",HK,3
+AS15830,"TELECITYGROUP INTERNATIONAL LIMITED,Equinix",GB,3
+AS17444,"HKBN Enterprise Solutions Limited,HKBNESL-AS-AP",HK,3
+AS18001,"Dialog Axiata Plc,DIALOG-AS",LK,3
+AS19551,"Incapsula Inc,INCAPSULA",US,3
+AS21412,"""UAB """"Cgates"""""",CGATES-AS",LT,3
+AS29075,"IELO-LIAZO SERVICES SAS,IELO",FR,3
+AS30990,"DJIBOUTI TELECOM S.A.,ADJIB-AS",DJ,3
+AS31025,"GHOSTnet GmbH,IAG-AS",DE,3
+AS34019,"Hivane,HIVANE",FR,3
+AS37168,"Cell C (Pty) Ltd,CELL-C",ZA,3
+AS42708,"GleSYS AB,PORTLANE",SE,3
+AS58779,"i4HK Limited,I4HKLIMITED-AS",HK,3
+AS133613,"MTel telecommunication company ltd.,MTEL-AS",MO,3
+AS198385,"AlpineDC SA,AlpineDC",CH,3
+AS4608,"Asia Pacific Network Information Centre,APNIC-SERVICES",AU,3
+AS4641,"The Hong Kong Internet Exchange Limited,HKIX-AS-AP",HK,3
+AS4800,"Network Access Provider and Internet Service Provider,LINTASARTA-AS-AP",ID,3
+AS15412,"Reliance Globalcom Limited,FLAG-AS",GB,3
+AS28634,"Life Tecnologia Ltda.,",BR,3
+AS35753,"Integrated Telecom Co. Ltd,ITC",SA,3
+AS38082,"""True International Gateway Co.,IIT-TIG-AS-AP",TH,3
+AS42473,"ANEXIA Internetdienstleistungs GmbH,AS-ANEXIA",AT,3
+AS45474,"NEXUSGUARD LIMITED,NEXUSGUARD-AS-AP",HK,3
+AS52863,"UPX TECHNOLOGIES,",BR,3
+AS54600,"PEG TECH INC,PEGTECHINC",US,3
+AS63928,"Freecomm Hong Kong Limited,FREECOMM-AS-AP",HK,3
+AS134176,"Rainbow network limited,RAIBOW-AS-AP",HK,3
+AS134548,"DingFeng XinHui(HongKong) Technology Limited,DXTL-HK",HK,3
+AS136907,"HUAWEI INTERNATIONAL PTE. LTD.,HWCLOUDS-AS-AP",SG,3
+AS138195,"MOACK.Co.LTD,MOACKCOLTD-AS-AP",KR,3
+AS263152,"MIGO TELECOM,",BR,3
+AS327960,"PC Maniacs (Pty) Ltd,PC-MANIACS",ZA,3
+AS327983,"Interworks Wireless Solutions,Interworks-Wireless-Solutions",ZA,3
+AS328320,"Kurlec Wireless (PTY) Ltd,Kurlec-AS",ZA,3
+AS328512,"Backspace Technologies (Pty) Ltd,Backspace-Technologies",ZA,3
+AS38136,"Akari Networks Limited,AKARI-NETWORKS-AS-AP",HK,3
+AS6233,"xTom,XTOM",US,3
+AS7489,"HostUS Solutions LLC,HOSTUS-GLOBAL-AS",US,3
+AS20965,"GEANT Vereniging,GEANT",NL,3
+AS8075,"Microsoft Corporation,MICROSOFT-CORP-MSN-AS-BLOCK",US,3
+AS8492,"""""""OBIT"""" Ltd."",OBIT-AS",RU,3
+AS12470,"Globe Development GmbH,AS12470",DE,3
+AS13335,"""Cloudflare,CLOUDFLARENET",US,3
+AS19151,"""BroadbandONE,BBO-1",US,3
+AS23815,"""Japan Internet Exchange Co.,JPIX-RS",JP,3
+AS24961,"myLoc managed IT AG,MYLOC-AS",DE,3
+AS25220,"equada network GmbH,GLOBALNOC-AS",DE,3
+AS29140,"Hostserver GmbH,HOSTSERVER-AS",DE,3
+AS34854,"Staclar Carrier Ltd.,STACLAR-CARRIER",DE,3
+AS41695,"VOSTRON Limited,VOSTRON-AS",GB,3
+AS41811,"CONVERGENCE (GROUP NETWORKS) LIMITED,CONVERGENCE-GROUP",GB,3
+AS45250,"Vocom International Telecommunication Inc.,VOCOM-AP-AS",US,3
+AS47787,"EDGOO NETWORKS UNIPESSOAL LDA,EDGOO",PT,3
+AS48166,"FORTEX CJSC,FORTEX-AS",RU,3
+AS48919,"UACITY Ltd.,UA-CITY-AS",UA,3
+AS50877,"Airbeam S.r.l.,AIRBEAM-AS",IT,3
+AS58299,"Openfactory GmbH,OPENFACTORY-AS",CH,3
+AS31713,"Gateway Communications,GWCOMMS-MPLS",BE,3
+AS40676,"Psychz Networks,AS40676",US,3
+AS47441,"""TRUNK MOBILE,TRUNKM",US,3
+AS53667,"FranTech Solutions,PONYNET",US,3
+AS136933,"GIGABIT SOLUTION LIMITED,GIGABITBANK-AS-AP",HK,3
+AS60068,"Datacamp Limited,CDN77",GB,3
+AS137969,"HONG KONG BRIDGE INFO-TECH LIMITED,HKBIL-AS-AP",HK,3
+AS680,"Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.,DFN",DE,2
+AS852,"TELUS Communications Inc.,ASN852",CA,2
+AS1103,"SURF B.V.,SURFNET-NL",NL,2
+AS1221,"Telstra Corporation Limited,ASN-TELSTRA",AU,2
+AS1280,"""Internet Systems Consortium,ISC-AS-1280",US,2
+AS1798,"State of Oregon,OREGON",US,2
+AS2018,"TENET (The UNINET Project),TENET-1",ZA,2
+AS2518,"BIGLOBE Inc.,BIGLOBE",JP,2
+AS2895,"OOO FREEnet Group,FREE-NET-AS",RU,2
+AS3130,"RGnet OU,RGNET-SEA",EE,2
+AS3267,"""Federal State Institution """"Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences"""""",RUNNET",RU,2
+AS3292,"TDC A/S,TDC",DK,2
+AS4230,"CLARO S.A.,",BR,2
+AS4648,"Spark New Zealand Trading Limited,SPARK-NZ",NZ,2
+AS5511,"Orange S.A.,Opentransit",FR,2
+AS6667,"Elisa Oyj,EUNET-FINLAND",FI,2
+AS6830,"Liberty Global B.V.,LibertyGlobal",NL,2
+AS7552,"Viettel Group,VIETEL-AS-AP",VN,2
+AS7922,"""Comcast Cable Communications,COMCAST-7922",US,2
+AS8560,"IONOS SE,IONOS-AS",DE,2
+AS9381,"HKBN Enterprise Solutions HK Limited,HKBNES-AS-AP",HK,2
+AS9924,"""Taiwan Fixed Network,TFN-TW",TW,2
+AS13030,"Init7 (Switzerland) Ltd.,INIT7",CH,2
+AS17408,"""AboveNet Communications Taiwan Co.,ABOVE-AS-AP",TW,2
+AS17676,"Softbank BB Corp.,GIGAINFRA",JP,2
+AS18403,"FPT Telecom Company,FPT-AS-AP",VN,2
+AS21320,"GEANT Vereniging,GEANT_IAS_VRF",NL,2
+AS33763,"Internet Technologies Namibia,Paratus-Telecom",NA,2
+AS36868,"Rogers Capital Technology Services Ltd,EIS",MU,2
+AS36874,"Cybersmart,Cybersmart",ZA,2
+AS36916,"X-DSL Networking Solutions,X-DSL-NET1",ZA,2
+AS37153,"Xneelo (Pty) Ltd,xneelo",ZA,2
+AS37315,"Cipherwave,CipherWave",ZA,2
+AS41157,"Oxymium SARL,OXYMIUM",FR,2
+AS45753,"Netsec Limited,NETSEC-HK",HK,2
+AS50628,"ALWAYS ON SAS,Leonix-Telecom",FR,2
+AS55355,"HGC Global Communications Limited,ISP-AS-AP",HK,2
+AS59689,"Keyade SASU,KEYADE-AS",FR,2
+AS64050,"BGP Consultancy Pte Ltd,BCPL-SG",SG,2
+AS64313,"Corporate / Direct Member IDNIC,NAPINFO-AS-ID",ID,2
+AS142135,"TELEGLOBAL COMMUNICATION SERVICES LIMITED,SZKF-AS-AP",HK,2
+AS142616,"""Misaka Network,MNI-AS-AP",US,2
+AS327782,"Metrofibre Networx,METROFIBRE-NETWORX",ZA,2
+AS327907,"Session Telecoms(PTY) Ltd,Paw-Paw-Wireless",ZA,2
+AS4515,"PCCW IMS Limited,ERX-STAR",HK,2
+AS133475,"New York University,NEWYORKUNIVERSITY-AS-SHANGHAI",US,2
+AS4755,"Tata Communications Limited,TATACOMM-AS",IN,2
+AS4773,"M1 LIMITED,MOBILEONELTD-AS-AP",SG,2
+AS4775,"""Globe Telecom (GMCR,GLOBE-TELECOM-AS",PH,2
+AS6412,"""KEMS Block-A,KW",EU,2
+AS9299,"Philippine Long Distance Telephone Co.,IPG-AS-AP",PH,2
+AS15399,"Wananchi Group (Kenya) Limited,WANANCHI-KE",KE,2
+AS15802,"Emirates Integrated Telecommunications Company PJSC,DU-AS1",AE,2
+AS15808,"ACCESSKENYA GROUP LTD is an ISP serving,ACCESSKENYA-KE",KE,2
+AS22548,"Núcleo de Inf. e Coord. do Ponto BR - NIC.BR,",BR,2
+AS23106,"AMERICAN TOWER DO BRASIL-COMUNICAÇÂO MULTIMÍDIA LT,",BR,2
+AS23752,"Nepal Telecommunications Corporation,NPTELECOM-NP-AS",NP,2
+AS24373,"""ADC GROUP CO.,ADC-AS-AP",HK,2
+AS24429,"""Alibaba (US) Technology Co.,Taobao",US,2
+AS25818,"cmcnetworks,CMCNETWORKS",ZA,2
+AS26615,"TIM S/A,",BR,2
+AS28329,"G8 NETWORKS LTDA,",BR,2
+AS28571,"UNIVERSIDADE DE SAO PAULO,",BR,2
+AS33771,"Safaricom Limited,SAFARICOM-LIMITED",KE,2
+AS35908,"Krypt Technologies,VPLSNET",US,2
+AS38195,"SUPERLOOP (AUSTRALIA) PTY LTD,SUPERLOOP-AS-AP",AU,2
+AS38623,"""VIETTEL (CAMBODIA) PTE.,VIETTELCAMBODIA-AS-AP",KH,2
+AS45147,"Corporate / Direct Member IDNIC,NAPINFO-TRANSIT-AS-AP",ID,2
+AS45430,"ADVANCED WIRELESS NETWORK COMPANY LIMITED,SBN-AWN-IIG-AS-AP",TH,2
+AS52814,"INTERNET PLAY LTDA,",BR,2
+AS52873,"Softdados Telecomunicações,",BR,2
+AS53070,"T-Systems do Brasil Ltda.,",BR,2
+AS55799,"TechAvenue Sdn Bhd,IPTELECOM-AP",MY,2
+AS58500,"PT JEMBATAN CITRA NUSANTARA,CITRANET-AS-ID",ID,2
+AS61292,"BLIX GROUP AS,BLXGRP",NO,2
+AS61595,"TELIC TECHNOLOGIES,",BR,2
+AS64021,"Hong Kong Business Telecom Limited,Network-Transit",HK,2
+AS131274,"Cypress Telecom Limited,CYPRESSTEL-HK",HK,2
+AS131941,"""Entsu Co.,ENTSU-NET",JP,2
+AS132602,"Bangladesh Submarine Cable Company Limited (BSCCL),BANGLADESH-AS-AP",BD,2
+AS132839,"""POWER LINE (HK) CO.,POWERLINE-AS-AP",HK,2
+AS134963,"Alibaba.com Singapore E-Commerce Private Limited,ASEPL-AS-AP",SG,2
+AS136038,"HDTIDC LIMITED,HDTIDCCLOUD-AS-AP",HK,2
+AS139646,"""HONG KONG Megalayer Technology Co.,HKMTC-AS-AP",HK,2
+AS140224,"""STARCLOUD GLOBAL PTE.,SGPL-AS-AP",SG,2
+AS263047,"Speednet Provedor de Acesso a Internet Ltda,",BR,2
+AS263508,"SIMNET TELECOMUNICACOES LTDA,",BR,2
+AS394695,"PDR,PUBLIC-DOMAIN-REGISTRY",US,2
+AS399606,"""Imaging Bay,IMAGINGBAY",US,2
+AS13778,"Johnson & Johnson,JOHNSON-AND-JOHNSON",US,2
+AS35163,"Procter & Gamble Service GmbH,BRAUN-AS",DE,2
+AS40526,"""Gap,THE-GAP-INC",US,2
+AS48075,"S.W.I.F.T. SC,SWIFTASN",BE,2
+AS9873,"Lao Telecommunication Co Ltd,TELECOM-LA-AS-AP",LA,2
+AS19174,"China Unicom (Americas) Operations Ltd,AS19174",US,2
+AS7474,"SingTel Optus Pty Ltd,OPTUSCOM-AS01-AU",AU,2
+AS8298,"Pim van Pelt,IPNG",CH,2
+AS8455,"Schuberg Philis B.V.,ATOM86-AS",NL,2
+AS8674,"Netnod AB,NETNOD-IX",SE,2
+AS8758,"Iway AG,IWAY",CH,2
+AS8966,"Emirates Telecommunications Corporation,Etisalat-AS",AE,2
+AS9312,"xTom Hong Kong Limited,XTOM",HK,2
+AS9584,"Diyixian.com Limited,GENESIS-AP",HK,2
+AS9658,"""Eastern Telecommunications Philippines,ETPI-IDS-AS-AP",PH,2
+AS9729,"iAdvantage Limited,IS-AP",HK,2
+AS11537,"Internet2,INTERNET2-RESEARCH-EDU",US,2
+AS12637,"SEEWEB s.r.l.,SEEWEB",IT,2
+AS12859,"BIT BV,NL-BIT",NL,2
+AS13414,"Twitter Inc.,TWITTER",US,2
+AS14630,"""Invesco Group Services,INVESCO",US,2
+AS15169,"Google LLC,GOOGLE",US,2
+AS16265,"LeaseWeb Network B.V.,LEASEWEB-NETWORK",NL,2
+AS16347,"ADISTA SAS,RMI-FITECH",FR,2
+AS16735,"ALGAR TELECOM S/A,",BR,2
+AS24331,"eBay Inc.,EBAY-ASIA-AS",US,2
+AS135577,"SAP Asia Pte Ltd,SAP_DC_SHA",SG,2
+AS18978,"Enzu Inc,ENZUINC-US",US,2
+AS19653,"CTS Communications Corp,CTSTELECOM",US,2
+AS20562,"Broadband Hosting B.V,OPEN-PEERING-AS",NL,2
+AS22697,"Roblox,ROBLOX-PRODUCTION",US,2
+AS23089,"Hotwire Communications,HOTWIRE-COMMUNICATIONS",US,2
+AS24492,"WiCAM Corporation Ltd.,IIT-WICAM-AS-AP",KH,2
+AS25160,"Vorboss Limited,VORBOSS_AS",GB,2
+AS35360,"Frederic Gargula,GARGUNET",CH,2
+AS37989,"eSys Technologies Pte Ltd,DCS1-02-AS-AP",SG,2
+AS44684,"Mythic Beasts Ltd,MYTHIC",GB,2
+AS47582,"ANSON NETWORK LIMITED,ansonnet-as-uk",GB,2
+AS49697,"Joey Julian Koenig,Joey-Network",DE,2
+AS51999,"WhiteHat Inc.,WHITEHAT",US,2
+AS53587,"""AZURE TECHNOLOGY CO.,AZT",US,2
+AS59378,"ADN International Gateway Limited,AIG-BD",BD,2
+AS60501,"Sirius Technology SRL,SIRIUSTEC-IT",IT,2
+AS64475,"Freifunk Frankfurt am Main e.V.,FREIFUNK-FRANKFURT",DE,2
+AS132721,"PING GLOBAL LIMITED,PING-GLOBAL-AS",HK,2
+AS133201,"ABCDE GROUP COMPANY LIMITED,COMING-AS",HK,2
+AS134428,"""Brother Internet Technology Co.,BITC-AS-AP",HK,2
+AS134684,"NetConn Services Ltd,NSL-AS-AP",SC,2
+AS138968,"rainbow network limited,RAINBOWIDC-AS-AP",JP,2
+AS139811,"""ANLIAN NETWORK TECHNOLOGY CO.,ANLIANNETWORK-AS-AP",HK,2
+AS140570,"Hong Kong Beecloud System Technology Services Limited,HKBCS-AS-AP",HK,2
+AS141190,"Jindun Technology PTE. Ltd.,JTPL-AS-AP",SG,2
+AS199938,"Netzwerge GmbH,NETZWERGE",DE,2
+AS205112,"PHILUNET GmbH,PHILUNET",DE,2
+AS206313,"Freifunk Nordwest e.V.,FFNW-AS",DE,2
+AS206356,"Freifunk Essen e.V.,Freifunk-Essen",DE,2
+AS208770,"Greacon Limited,im-greacon",IM,2
+AS209102,"Alfa Service s.r.l.,ALFASERVICE",IT,2
+AS210312,"Antonios A. Chariton,DNET",GR,2
+AS213151,"Christian Elsen,CHRISELSEN",DE,2
+AS24287,"National Institute of Informatics,TEIN2-JP",JP,2
+AS61317,"IPXO UK LIMITED,ASDETUK",GB,2
+AS134196,"Cloudie Limited,ANYUN-INTERNET-TECHNOLOGY-HK-CO-LIMITED",HK,2
+AS24724,"Atman Sp. z o.o.,ATMAN-Foreign-AS",PL,2
+AS29838,"""Atlantic Metro Communications II,AMC",US,2
+AS32167,"LSHIY LLC,LSHIY",US,2
+AS32787,"""Akamai Technologies,PROLEXIC-TECHNOLOGIES-DDOS-MITIGATION-NETWORK",US,2
+AS32934,"""Facebook,FACEBOOK",US,2
+AS35661,"VIRTUA SYSTEMS SAS,VIRTUA-SYSTEMS",FR,2
+AS35916,"MULTACOM CORPORATION,MULTA-ASN1",US,2
+AS36236,"""NetActuate,NETACTUATE",US,2
+AS38040,"TOT Public Company Limited,GLOBAL-TRANSIT-TOT-IIG-TH",TH,2
+AS39386,"Saudi Telecom Company JSC,STC-IGW-AS",SA,2
+AS41722,"Miran Ltd.,MIRAN-AS",RU,2
+AS35145,"iDea Leaper Innovation Inc.,Nyatwork",CA,2
+AS49544,"i3D.net B.V,i3Dnet",NL,2
+AS55933,"Cloudie Limited,CLOUDIE-AS-AP",HK,2
+AS57976,"""Blizzard Entertainment,BLIZZARD",US,2
+AS62240,"Clouvider Limited,Clouvider",GB,2
+AS62887,"""WhiteSky Communications,WHITESKY-COMMUNICATIONS",US,2
+AS63199,"""CDS Global Cloud Co.,CDSC-AS1",US,2
+AS63920,"VostroNet,VOSTRO-AS-AP",AU,2
+AS135895,"CENTORRINO Technologies Pty Ltd,CT-AS",AU,2
+AS136557,"Host Universal Pty Ltd,HOST-AS-AP",AU,2
+AS206264,"Amarutu Technology Ltd,AMARUTU-TECHNOLOGY",SC,2
+AS210937,"Xiufeng Guo,Showfom",DE,2
+AS131314,"China Broadband Communications (Hong Kong) Company Limited,CBCCOM-AS-AP",HK,2
+AS207351,"Transroute Telecom LTD,TRANSROUTE-2",RU,2
+AS140595,"YunJie Communication HK Company Limited,YCHKL-AS-AP",HK,2
+AS147001,"LightNetwork Computing Limited,LANDUPS-AS-AP",HK,2
+AS198949,"DC PROTECTION LTD,VS-AS",IL,2
+AS702,"Verizon Business,UUNET",US,1
+AS703,"Verizon Business,UUNET",US,1
+AS786,"Jisc Services Limited,JANET",GB,1
+AS812,"Rogers Communications Canada Inc.,ROGERS-COMMUNICATIONS",CA,1
+AS1257,"Tele2 Sverige AB,SWIPNET",EU,1
+AS1403,"EBOX,EBOX",CA,1
+AS1820,"WNET TELECOM USA Corp.,WNET",US,1
+AS1921,"nic.at GmbH,NICAT",AT,1
+AS2027,"MilkyWan,MilkyWan",FR,1
+AS2134,"""Santander Global Technology,GSVNET-AS",ES,1
+AS2381,"WiscNet,WISCNET1-AS",US,1
+AS2613,"Willem van Gulik,VAN_GULIK",CH,1
+AS2647,"Societe Internationale de Telecommunications Aeronautiques,SITA",BE,1
+AS2686,"""AT&T Global Network Services,ATGS-MMD-AS",US,1
+AS2687,"""AT&T Global Network Services,ATGS-MMD-AS",US,1
+AS3170,"Etheroute Ltd,VELOXSERV",GB,1
+AS3300,"British Telecommunications PLC,BT",GB,1
+AS3327,"CITIC Telecom CPC Netherlands B.V.,CITIC",NL,1
+AS3399,"Obenetwork AB,OBE-NET",SE,1
+AS3549,"""Level 3 Parent,LVLT-3549",US,1
+AS3580,"Planet Access Networks,PLANET",US,1
+AS3605,"""Kuentos Communications,ERX-KUENTOS-AS",GU,1
+AS3662,"Joint Universities Computer Centre Limited,HARNET",HK,1
+AS4004,"Sprint International,GLOBAL-SPLK",US,1
+AS4058,"CITIC Telecom International CPC Limited,CITICTEL-CPC-AS4058",HK,1
+AS4804,"SingTel Optus Pty Ltd,MPX-AS",AU,1
+AS6083,"Posix Systems (Pty) Ltd,POSIX-AFRICA",ZA,1
+AS6421,"TATA COMMUNICATIONS (AMERICA) INC,AS6421",US,1
+AS7843,"Charter Communications Inc,TWC-7843-BB",US,1
+AS11164,"Internet2,INTERNET2-I2PX",US,1
+AS11845,"Vox Telecom Ltd,Vox-Telecom",ZA,1
+AS12874,"Fastweb SpA,FASTWEB",IT,1
+AS14340,"""Salesforce.com,SALESFORCE",US,1
+AS17888,"Singapore Telecom Hong Kong Ltd,SINGTEL-HK",HK,1
+AS29222,"Infomaniak Network SA,Infomaniak-AS",CH,1
+AS30132,"""Internet Systems Consortium,ISC-F-AS",US,1
+AS30999,"EMTEL LIMITED,EMTEL-AS-AP",MU,1
+AS32437,"Webdev CC T/A Cybertek,edgeconnect-legacy",ZA,1
+AS36994,"Vodacom,Vodacom-VB",ZA,1
+AS37157,"Benwest Internet Services ta Imagine IPS,IMAGINE",ZA,1
+AS37236,"Reflex Solutions,Reflex-Solutions",ZA,1
+AS37356,"Huge Networks (Pty) Ltd,Huge-Networks",ZA,1
+AS55547,"WoodsDale Ventures INC,WOODSNET-PH",PH,1
+AS55701,"PT. Usaha Adisanggoro,ASNET-AS-ID",ID,1
+AS58655,"SkyTel Communications Limited,SKYTEL6-BD",BD,1
+AS138881,"PT INDONESIA TRANS NETWORK,TRANSNET-AS-ID",ID,1
+AS327813,"VIDOLU Group Pty Ltd-Web4Africa,Web4Africa",ZA,1
+AS327831,"Djibouti Data Center SARL,Djibouti-Data-Center",DJ,1
+AS327979,"DIAMATRIX C.C,DIAMATRIX",ZA,1
+AS328112,"Linux Based Systems Design SA (Pty) Ltd,Linux-Based-Systems-Design-AS",ZA,1
+AS328366,"FIRSTNET TECHNOLOGY SERVICES (PTY) LTD,FirstnetTechnology-AS",ZA,1
+AS4258,"Accretive Networks,ATG-4258",US,1
+AS4651,"CAT Telecom Public Company Limited,THAI-GATEWAY",TH,1
+AS4713,"NTT Communications Corporation,OCN",JP,1
+AS4739,"iiNet Limited,INTERNODE-AS",AU,1
+AS4760,"PCCW IMS Limited,HKTIMS-AP",HK,1
+AS4761,"PT. INDOSAT Tbk,INDOSAT-INP-AP",ID,1
+AS4764,"Wideband Networks Pty Ltd,WIDEBAND-AS-AP",AU,1
+AS7632,"Linknet-IDX ASN,Linknet-Exchange-AS-ID",ID,1
+AS8222,"noris network AG,NORIS",DE,1
+AS9293,"HKNet Co. Ltd.,HKNet-vIPNet",HK,1
+AS9583,"Sify Limited,SIFY-AS-IN",IN,1
+AS10217,"PT. NTT Indonesia,NTT-NET-ID-AS",ID,1
+AS11432,"Telium Telecomunicações Ltda,",BR,1
+AS11751,"INSTITUTO CYBER DE ENSINO E PESQUISA,",BR,1
+AS12850,"IRIDEOS S.P.A.,ASN-ENTER",IT,1
+AS13445,"Cisco Webex LLC,13445",US,1
+AS17910,"PT. Tigatra Infokom,TIGAKOM-AS-ID",ID,1
+AS21887,"Fiber Logic Inc.,FIBER-LOGIC",CA,1
+AS22177,"Transit do Brasil S/A,",BR,1
+AS23881,"UDomain Web Hosting Company Limited,UDOMAIN-AS-AP",HK,1
+AS23947,"PT.Mora Telematika Indonesia,MORATELINDONAP-AS-ID",ID,1
+AS24077,"Telekom Malaysia (Hong Kong) Ltd.,TMHK-Transit-AS-HK-AP",HK,1
+AS24337,"Sky Telecom State Company,SKYTelecom-AS-AP",LA,1
+AS24835,"Vodafone Data,RAYA-AS",EG,1
+AS25820,"IT7 Networks Inc,IT7NET",CA,1
+AS28140,"Maxiweb Internet Provider,",BR,1
+AS28610,"DEBIAN SIGNAL COMUNICAÇÃO MULTIMIDIA LTDA ME,",BR,1
+AS30997,"Ghana Internet Exchange Association,GIXA-AS",GH,1
+AS35104,"Jusan Mobile JSC,KTC-AS",KZ,1
+AS37282,"Mainone Cable Company,MAINONE",NG,1
+AS37395,"Abari Communications,ABARI",BW,1
+AS38475,"China Construction Bank (Asia) Corporation Limited,CCBASIA-ISG-HK-AP",HK,1
+AS45652,"""VPLS,VPLS",US,1
+AS45668,"AIMS Data Centre Sdn. Bhd.,AIMS-MY-NET",MY,1
+AS45796,"""United Information Highway Co.,UIH-BBCONNECT-AS-AP",TH,1
+AS48200,"Opteamax GmbH,OPTEAMAX-AS",DE,1
+AS48728,"Vodafone Qatar Q.S.C.,vodafoneqatar",QA,1
+AS51375,"STC BAHRAIN B.S.C CLOSED,VIVABH",BH,1
+AS52551,"SAMM Sociedade de Atividades em Multimidia LTDA,",BR,1
+AS52593,"Monte Alto Net Ltda,",BR,1
+AS52818,"CD ONE CORPORATION DO BRASIL LTDA,",BR,1
+AS52827,"ERSC BANDA LARGA,",BR,1
+AS52944,"MEGALINK TELECOMUNICACOES LTDA ME,",BR,1
+AS52987,"Fybernet Teleinformatica Ltda,",BR,1
+AS53483,"""ReSource Pro,RSP",US,1
+AS55303,"""Eagle Sky Co.,EAGLENET-AP",BZ,1
+AS55480,"I-Services Network Solution Ltd,ISERVICES-HK",HK,1
+AS55805,"MobiCom Corporation,MOBICOM-AS-MN",MN,1
+AS59349,"GMO-Z.COM PTE. LTD.,GMO-Z-COM",SG,1
+AS60821,"Kyriba SAS,Kyriba-EU",FR,1
+AS61648,"PLAYIP TELECOM LTDA.,",BR,1
+AS61792,"IPNET TELECOMUNICACOES LTDA,",BR,1
+AS61802,"E2Network Telecom Brasil Ltda.,",BR,1
+AS61810,"Webfibra Telecomunicações Eireli ME,",BR,1
+AS61928,"ALEXANDRE BISPO COMUNICAÇÃO ME,",BR,1
+AS61948,"INFOMAC TELECOMUNICAÇÕES LTDA,",BR,1
+AS62587,"QFISP LLC,ANT-CLOUD",US,1
+AS63889,"Cloud Iv Limited,CLOUDIVLIMITED-AS",HK,1
+AS64049,"Reliance Jio Infocomm Pte.Ltd,RJIPL-SG",SG,1
+AS64315,"PT. MITRA VISIONER PRATAMA,IDNIC-CLOUD-INDO-AS-ID",ID,1
+AS132168,"""ESUN TECHNOLOGY INTERNATIONAL CO.,ESUNHK-AS-AP",HK,1
+AS132418,"Outscale SAS,OUTSCALE-AP",FR,1
+AS133748,"Coretel Networks (International) Pte Ltd,CORETELNET-AS-AP",SG,1
+AS133840,"PT Jala Lintas Media,JLMNET-AS-ID",ID,1
+AS135059,"""Lao Asia Pacific Satellite Co.,LAPSCL-AS-AP",LA,1
+AS135300,"""Myanmar Broadband Telecom Co.,MBTCL-AS-AP",MM,1
+AS135330,"Adcdata.com,ADCDATACOM-AS-AP",HK,1
+AS135386,"LinkChina Telecom Global Limited.,LTG-AS-AP",HK,1
+AS135607,"Infinivan Incorporated,INFINIVAN-AS-AP",PH,1
+AS136168,"Campana MYTHIC Co. Ltd.,CAMPANA-AS-AP",MM,1
+AS136202,"Freepoint Commodities Singapore Pte. Ltd.,FCSPL-AS-AP",SG,1
+AS136209,"Begonia Network Limited,BN-AS-KR",HK,1
+AS136800,"Sun Network (Hong Kong) Limited,SUNHK-DATA-AS-AP",HK,1
+AS137993,"Kingviews Adamas Systems Limited,KVHK-AS-AP",HK,1
+AS138152,"YISU CLOUD LTD,YISUCLOUDLTD-HK",HK,1
+AS138322,"Afghan Wireless Communication Company,AWCC-AS-AP",AF,1
+AS138648,"ASLINE LIMITED,ASLINE-AS-AP",HK,1
+AS138840,"PT Parsaoran Global Datatrans,HSP-NAP-AS-ID",ID,1
+AS139327,"""HONG KONG EVERGRANDE ENTERPRISE GROUP CO.,HKEEGCL-AS-AP",HK,1
+AS202081,"GOG sp. z o.o,GOG",PL,1
+AS206086,"Raynet SAS,RAYNET-AS",FR,1
+AS208800,"G42 CLOUD TECHNOLOGY L.L.C.,eoscloud",AE,1
+AS211392,"DREAM CLOUD INNOVATION LIMITED,softbank",GB,1
+AS262463,"TELECOM CORDEIROPOLIS LTDA - ME,",BR,1
+AS262546,"NetCintra Telecomunicações Ltda.,",BR,1
+AS262811,"Mendex Networks,",BR,1
+AS263483,"DIRECT LAN TELECOMUNICAÇÕES SOROCABA LTDA,",BR,1
+AS263656,"BRSULNET TELECOM LTDA,",BR,1
+AS263998,"SIM Telecom,",BR,1
+AS264323,"OXMAN TECNOLOGIA LTDA,",BR,1
+AS264425,"VASTELECOM E INFORMATICA LTDA ME,",BR,1
+AS264543,"MEGA CONEXAO TELECOM LTDA,",BR,1
+AS264570,"RIOTEL TELECOMUNICAÇÕES LESTE- RTL,",BR,1
+AS265075,"Evolution IP Telefonia e Informática ltda,",BR,1
+AS265475,"MUVNET TELECOM,",BR,1
+AS266059,"HOSANNA PROV. DE SERV. DE INTERNET LTDA,",BR,1
+AS266492,"FLASH SERVICOS EM FIBRA OPTICA LTDA - ME,",BR,1
+AS266625,"WCA TELECOM,",BR,1
+AS266967,"Tera Fiber Telecomunicações Ltda,",BR,1
+AS267055,"N.C Sat Mais Veloz Ltda,",BR,1
+AS267286,"DJG PROVEDOR E SERVICOS DE TELECOMUNICACOES,",BR,1
+AS267294,"geracao real banda larga eireli,",BR,1
+AS268175,"AIRMAR TELECOM,",BR,1
+AS268202,"F R BRAGA INFORMATICA ME,",BR,1
+AS268221,"Fiber Banda Larga Servicos e Telecomunicacoes LTDA,",BR,1
+AS268225,"MegaNet Telecom,",BR,1
+AS268288,"JUPITTER TELECOM PROVEDOR LTDA ME,",BR,1
+AS268387,"EXPRESSO FIBRA OPTICA LTDA,",BR,1
+AS268607,"BCM SERVICOS DE COMUNICACAO E MULTIMIDIA LTDA,",BR,1
+AS268793,"Restarty Tech Internet,",BR,1
+AS268834,"CARRARO TELECOM LTDA ME,",BR,1
+AS269177,"PLG TELECOMUNICACOES LTDA,",BR,1
+AS269315,"CLACI FABER PARIZOTTO EIRELI - ME,",BR,1
+AS269628,"Matheus dos santos,",BR,1
+AS269670,"VIACLIP INTERNET E TELECOMUNICAÇÕES LTDA,",BR,1
+AS269673,"LIBERCOM TECNOLOGIA EM COMUNICACAO LTDA - ME,",BR,1
+AS270685,"SUMER NET SERVICOS DE TELECOMUNICACOES LTDA,",BR,1
+AS270771,"CIRO FERREIRA DA CUNHA SIQUEIRA - CONDOMIWEB - ME,",BR,1
+AS271022,"ISONIX FIBRA,",BR,1
+AS271380,"GLOBAL CONECTA TELECOM EIRELI,",BR,1
+AS271412,"FR Sousa Telecomunicações LTDA - ME,",BR,1
+AS272243,"Vpm Serviços de Comunicação Multimidia,",BR,1
+AS328543,"Sun Network Company Limited,sun-asn",SC,1
+AS328580,"O'Play Digital Services Limited,Oplay-Digital-Services",NG,1
+AS328608,"Africa on Cloud,Africa-on-Cloud-AS",ZA,1
+AS328808,"DUMATEL AFRICA LIMITED,DUMATEL-AS",KE,1
+AS328820,"TF TELECOMS,TF-Telecom-AS",ZA,1
+AS328842,"ProData Africa Limited,Prodata-AS",GH,1
+AS393294,"Megatel Netcom Corporation,MEGATEL-NETCOM",US,1
+AS395291,"""Snapchat,SC-CORE",US,1
+AS109,"""Cisco Systems,CISCOSYSTEMS",US,1
+AS4249,"Eli Lilly and Company,LILLY-AS",US,1
+AS20478,"General Mills,GENMILLS",US,1
+AS32528,"ROSS PRODUCTS DIVISION,ABBOTT-LABS-2",US,1
+AS32097,"""WholeSale Internet,WII",US,1
+AS45560,"Top Global,TOPNET-IPT-AS-AP",KR,1
+AS134544,"Cenbong Int'l Holdings Limited,CENBONGT-AS-AP",HK,1
+AS41255,"Alanyhq Networks Limited,Alanyhq-Networks-AS",GB,1
+AS209306,"Soha Jin,SOHANET",FR,1
+AS4927,"Impulse Internet Services,IMPU",US,1
+AS5400,"British Telecommunications PLC,BT",GB,1
+AS5607,"Sky UK Limited,BSKYB-BROADBAND-AS",GB,1
+AS5631,"Luminet Data Limited,LUMINET",GB,1
+AS6057,"Administracion Nacional de Telecomunicaciones,",UY,1
+AS6079,"RCN,RCN-AS",US,1
+AS6082,"""IPiFony Systems,IPIFONY-AS",US,1
+AS6315,"""XMission,XMISSION",US,1
+AS6327,"Shaw Communications Inc.,SHAW",CA,1
+AS6661,"POST Luxembourg,EPT-LU",LU,1
+AS6697,"Republican Unitary Telecommunication Enterprise Beltelecom,BELPAK-AS",BY,1
+AS6774,"Belgacom International Carrier Services SA,ASN-BICS",BE,1
+AS7029,"Windstream Communications LLC,WINDSTREAM",US,1
+AS7160,"Oracle Corporation,NETDYNAMICS",US,1
+AS7342,"VeriSign Infrastructure & Operations,VERISIGN-AS",US,1
+AS7468,"Superhub Ltd.,CYBEREC-AS-AP",HK,1
+AS9264,"Academia Sinica,ASNet",TW,1
+AS7522,"""STNet,STCN",JP,1
+AS7670,"""Energia Communications,CTNET",JP,1
+AS7679,"""QTnet,QTNET",JP,1
+AS8100,"QuadraNet Enterprises LLC,ASN-QUADRANET-GLOBAL",US,1
+AS8308,"NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA INSTYTUT BADAWCZY,NASK-COMMERCIAL",PL,1
+AS8468,"Cityfibre Limited,ENTANET",GB,1
+AS8513,"SkyVision Global Networks Ltd,SKYVISION",BM,1
+AS8544,"Primetel PLC,NSP-INTL",CY,1
+AS8551,"Bezeq International-Ltd,BEZEQ-INTERNATIONAL-AS",IL,1
+AS8553,"Avensys Networks Ltd,AVENSYS",GB,1
+AS8657,"MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.,MEO-INTERNACIONAL",PT,1
+AS8680,"Sure (Guernsey) Limited,SURE-International-Limited",GB,1
+AS8708,"RCS & RDS SA,RCS-RDS",RO,1
+AS8757,"""NSFOCUS,NSFOCUS",US,1
+AS8763,"DENIC eG,DENIC-AS",DE,1
+AS8849,"Melbikomas UAB,MELBICOM-EU-AS",LT,1
+AS8851,"GCI Network Solutions Limited,EDGE",GB,1
+AS8881,"1&1 Versatel Deutschland GmbH,VERSATEL",DE,1
+AS8896,"XFIBER AS,XFIBER-AS",NO,1
+AS9009,"M247 Ltd,M247",GB,1
+AS9044,"BSE Software GmbH,SOLNET",CH,1
+AS9116,"Partner Communications Ltd.,GOLDENLINES-ASN",IL,1
+AS9129,"MTN SA,KE-NET2000",ZA,1
+AS9145,"EWE TEL GmbH,EWETEL",DE,1
+AS9266,"Fiveways International Limited,FIVEWAYS-HK",HK,1
+AS9270,"National Infomation Society Agency,APAN-KR-AS",KR,1
+AS9416,"Hoshin Multimedia Center Inc.,MULTIMEDIA-AS-AP",TW,1
+AS9500,"Vodafone New Zealand Limited,VODAFONE-TRANSIT-AS",NZ,1
+AS141174,"INTELLIGENT CONNECTION LIMITED,INTELLIGENT-AS-AP",HK,1
+AS9821,"Advanced Science and Technology Institute,DOST-PH-AP",PH,1
+AS9833,"""Blinkload Technology Co.,BLINKLOAD-AS-AP",HK,1
+AS140591,"""HK TESUCH GLOBAL CO.,TESUCH-AS-AP",HK,1
+AS9930,"TT DOTCOM SDN BHD,TTNET-MY",MY,1
+AS10076,"""Mongolian Technical University,ASN-ERDEMNET",MN,1
+AS10118,"HGC Global Communications Limited,HTCL-IAS-HK-AP",HK,1
+AS10122,"BIGO TECHNOLOGY PTE. LTD.,BIGO-AS-AP",SG,1
+AS10241,"""Options & Choices,OCI",US,1
+AS10310,"Oath Holdings Inc.,YAHOO-1",US,1
+AS10429,"TELEFÔNICA BRASIL S.A,",BR,1
+AS10474,"Dimension Data,OPTINET",ZA,1
+AS11039,"The George Washington University,GWU",US,1
+AS11071,"""InfoWest,IW-ASN-11071",US,1
+AS11170,"Roller Network LLC,ROLLERNETWORK",US,1
+AS12440,"Hughes Network Systems GmbH,AS12440",DE,1
+AS12455,"Kenyan Post & Telecommunications Company / Telkom Kenya Ltd,JAMBONET",KE,1
+AS12491,"Gilat Telecom Ltd.,IPPLANET-AS",IL,1
+AS12576,"EE Limited,EE",GB,1
+AS12684,"SES ASTRA S.A.,SES-LUX-AS",LU,1
+AS12714,"Net By Net Holding LLC,TI-AS",RU,1
+AS12876,"ONLINE S.A.S.,AS12876",FR,1
+AS13101,"TNG Stadtnetz GmbH,TNG-AS",DE,1
+AS13122,"Manx Telecom Trading Ltd,MANX-AS",GB,1
+AS13150,"CATO NETWORKS LTD,CATON",IL,1
+AS13208,"Newtel Limited,NEWTELSOLUTIONS-AS",JE,1
+AS13285,"TalkTalk Communications Limited,OPALTELECOM-AS",GB,1
+AS13984,"SD Data Center,SD-DATA-CENTER",US,1
+AS14115,"ABSA (Amalgamated Banks of South Africa),AMALGAMATED-BSA",ZA,1
+AS14907,"Wikimedia Foundation Inc.,WIKIMEDIA",US,1
+AS15133,"Verizon Business,EDGECAST",US,1
+AS15557,"SFR SA,LDCOMNET",FR,1
+AS15606,"NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA INSTYTUT BADAWCZY,NASK-DNS-ANYCAST",PL,1
+AS15654,"Civica UK Ltd.,COMINO",GB,1
+AS15704,"XTRA TELECOM S.A.,AS15704",ES,1
+AS16164,"Sohonet Limited,SOHONET-AS",GB,1
+AS16276,"OVH SAS,OVH",FR,1
+AS16509,"""Amazon.com,AMAZON-02",US,1
+AS16553,"""Equinix,EQUINIX-EC-MI",US,1
+AS16637,"MTN SA,MTNNS-AS",ZA,1
+AS16815,"""LogMeIn,GOTO-PRIMARY-AS",US,1
+AS17072,"TOTAL PLAY TELECOMUNICACIONES SA DE CV,",MX,1
+AS17511,"OPTAGE Inc.,OPTAGE",JP,1
+AS17547,"M1 NET LTD,M1NET-SG-AP",SG,1
+AS17579,"KISTI,KREONET2-AS-KR",KR,1
+AS17660,"Bhutan Telecom Ltd,DRUKNET-AS",BT,1
+AS17709,"Asia Pacific Telecom,APT",TW,1
+AS18007,"Institute of Technology Bandung,INHERENT-AS-ID-AP",ID,1
+AS18059,"Departemen Energi dan Sumber Daya Mineral,DTPNET-AS-AP",ID,1
+AS18283,"Fureai Channel Inc.,CCV",JP,1
+AS18450,"""WebNX,WEBNX",US,1
+AS18881,"TELEFÔNICA BRASIL S.A,",BR,1
+AS19711,"SWAZILAND PTC,SWAZINET",SZ,1
+AS19754,"""The Fusion Network,FNL-33-19754",US,1
+AS20080,"Florida International University,AMPATH",US,1
+AS20766,"""Association """"Gitoyen"""""",GITOYEN-MAIN-AS",FR,1
+AS21267,"Wavenet Limited,WAVENET-AS",GB,1
+AS21928,"""T-Mobile USA,T-MOBILE-AS21928",US,1
+AS22356,"Durand do Brasil Ltda,",BR,1
+AS22388,"Indiana University,TRANSPAC",US,1
+AS22652,"Fibrenoire Inc.,FIBRENOIRE-INTERNET",CA,1
+AS22724,"PUNTONET S.A.,",EC,1
+AS22822,"""Limelight Networks,LLNW",US,1
+AS23114,"Critical Hub Networks,CRITICALHUBNET",PR,1
+AS23314,"Summit Broadband,ORLANDOTELCO",US,1
+AS23316,"""Bel Air Internet,BAI-IP-SERVICES",US,1
+AS23367,"""Adaptive Data Networks,AS-ADN",US,1
+AS23470,"ReliableSite.Net LLC,RELIABLESITE",US,1
+AS23473,"PAVLOV MEDIA INC,PAVLOVMEDIA",US,1
+AS23655,"Two Degrees Mobile Limited,TWODEGREES-NZ-AS",NZ,1
+AS10358,"ANCENT GROUP LIMITED,ANCENT-HK-AS",HK,1
+AS12387,"TON Total optical Networks AG,TON",CH,1
+AS17990,"Globalnet Communication Ltd,GLOBALNETHK-AP",HK,1
+AS23678,"MyKRIS ASIA Sdn Bhd,MYKRIS-AS-MY",MY,1
+AS23749,"hkcolo limited,GLOBAL-TRANSIT-AS-HKCOLO-AP",HK,1
+AS24182,"Global Information Services (Asia Pacific) Limited,INTERPUBLIC-AS-GISAP-AS",HK,1
+AS28716,"Reti Telematiche Italiane S.p.A. (Retelit S.p.A.),RETELIT-AS",IT,1
+AS28792,"Public Internet Ltd,PUBLIC-INTERNET",GB,1
+AS31742,"Sota Solutions Ltd.,SOTACONNECT",GB,1
+AS35266,"EX Networks Limited,EXN-AS",GB,1
+AS38008,"Aperture Science Limited,APERTURE-AS-AP",HK,1
+AS38277,"CommuniLink,CLINK-AS-AP",HK,1
+AS45157,"Mercantile Communications Pvt Ltd,MERCANTILE-INTERNATIONAL-TRANSIT-AS-AP",NP,1
+AS45259,"BRUHAAS,BRUHAAS-BN",BN,1
+AS45452,"SABRE ASIA PACIFIC PTE. LTD,SABRE-AS-AP",SG,1
+AS45485,"CargoSmart Limited,CARGOSMARTNET-AS-AP",HK,1
+AS48858,"LLC Milecom,Milecom-as",RU,1
+AS50300,"CustodianDC Limited,CUSTDC",GB,1
+AS50304,"Blix Solutions AS,BLIX",NO,1
+AS59214,"Winspeed Group International Limited,WGIL-AS-AP",HK,1
+AS62167,"Tismi BV,Tismi",NL,1
+AS131207,"S.I Group,SINET-KH",KH,1
+AS132883,"Hong Kong San Ai Net Int'l Limited,TOPWAY-AS-AP",HK,1
+AS133380,"Layerstack Limited,LAYER-AS",HK,1
+AS134366,"Cloud Computing HK Limited,CCHL-AS-AP",HK,1
+AS134518,"RETN (Hong Kong) Limited,RETN-AS-AP",HK,1
+AS134696,"""HENGTIAN NETWORK TECHNOLOGY CO.,HNTCL-HK",HK,1
+AS135026,"ThinkDream Technology Limited,THINKDREAM-AS-AP",HK,1
+AS135423,"Total Information Management Corporation,TIM-GNS-AS-AP",PH,1
+AS137930,"Doo Technology Limited,DOOTECH-AS-AP",HK,1
+AS140547,"""Hong Kong Cloud Union Information Technology Co.,CLOUDUNION-AS-AP",HK,1
+AS207044,"Enet Telecommunications Networks Limited,ENET-AS",IE,1
+AS207841,"Inferno Communications Ltd,INFERNO",GB,1
+AS23855,"SingAREN,SINGAREN-GIX-AS-AP",SG,1
+AS23944,"Sky Cable Corporation,SKYBB-AS-AP",PH,1
+AS23596,"Korea Internet Security Agency,EDNSKR-KR",KR,1
+AS31529,"DENIC eG,DENIC-ANYCAST-AS",DE,1
+AS55439,"Internet Systems Consortium,ISC-PEK2",US,1
+AS24167,"Academia Sinica Grid Computing Center,ASGCNet",TW,1
+AS24175,"National Agency for Scientific and Technological Information,VINAREN-AS-AP",VN,1
+AS24441,"""CityLink Corporation,CITYLINK-AS-KH",KH,1
+AS137207,"Joint Universities Computer Centre Limited,JUCC-AS-AP",HK,1
+AS24475,"Office of Info.Tech. Admin. for Educational Development,THAIREN-TRANSIT-AS-AP",TH,1
+AS24514,"Multimedia Development Corporation,MYREN-MY",MY,1
+AS45773,"HEC,HECPERN-AS-PK",PK,1
+AS138933,"""University of Computer Studies,UCSY-AS-AP",MM,1
+AS139588,"Institute of Technology of Cambodia,ITC-CAM-AS-AP",KH,1
+AS24916,"OrbitalNet Ltd,ORBITAL-ASN",GB,1
+AS24940,"Hetzner Online GmbH,HETZNER-AS",DE,1
+AS25198,"NETACTION TELECOM SRL-D,ZetServers",RO,1
+AS25369,"Hydra Communications Ltd,BANDWIDTH-AS",GB,1
+AS25394,"MK Netzdienste GmbH & Co. KG,MK-NETZDIENSTE-AS",DE,1
+AS25460,"The Networking People (TNP) Limited,TNP-AS",GB,1
+AS25577,"CloudCoCo Connect Limited,C4L-AS",GB,1
+AS25885,"""OPAQ Networks,FORTINET",US,1
+AS27630,"XFERNET,AS-XFERNET",US,1
+AS27781,"SMITCOMS N.V.,",SX,1
+AS28007,"Gold Data C.A.,",VE,1
+AS28283,"Adylnet Telecom,",BR,1
+AS28338,"Net Botanic Internet Inteligente SA,",BR,1
+AS28604,"Globo Comunicação e Participaçoes SA,",BR,1
+AS28663,"FLYS INTERATIVA LTDA,",BR,1
+AS29030,"Sa Telecable,Telekabel",BG,1
+AS29357,"National Mobile Telecommunications Company,WATANIYATELECOM-AS",KW,1
+AS29419,"Almaviva S.p.A.,AlmavivA",IT,1
+AS29527,"Astutium Limited,ASTUTIUM-AS",GB,1
+AS29687,"Geodim Ltd.,BGWAN-AS",BG,1
+AS29802,"""HIVELOCITY,HVC-AS",US,1
+AS30286,"ThreatMetrix Inc.,THM",US,1
+AS30447,"InternetNamesForBusiness.com,INFB2-AS",US,1
+AS30781,"Jaguar Network SAS,JAGUAR-AS",FR,1
+AS31042,"Serbia BroadBand-Srpske Kablovske mreze d.o.o.,SERBIA-BROADBAND-AS",RS,1
+AS31059,"Avelacom Business Ltd.,AVELACOM-AS",RU,1
+AS31490,"NetIX Communications JSC,NetIX-MGMT-AS",BG,1
+AS31638,"Lepida S.c.p.A.,ASN-LEPIDA",IT,1
+AS31727,"Node4 Limited,NODE4-AS",GB,1
+AS31972,"""Emagine Concept,EMGINECONCEPT-01",US,1
+AS32098,"Transtelco Inc,TRANSTELCO-INC",US,1
+AS32415,"C3,C3-LLC",US,1
+AS32708,"LoadEdge Limited,ROOT-NETWORKS",GB,1
+AS33071,"""Internet Systems Consortium,ISC-F-AS",US,1
+AS33438,"""Highwinds Network Group,STACKPATH",US,1
+AS33724,"VOLICO,BIZNESSHOSTING-DBA-VOLICO",US,1
+AS33941,"GConnect Technology Ltd,GCONNECT",GB,1
+AS34087,"NTE MARKED AS,NTE-BREDBAND",NO,1
+AS34309,"Link11 GmbH,LINK11",DE,1
+AS34347,"HALLAG Kommunal GmbH,CITYNET-AT-AS",AT,1
+AS34577,"SKAT TV Ltd.,SKATTV-AS",BG,1
+AS34655,"DuoDecad IT Services Luxembourg S.a r.l.,DOCLER-AS",LU,1
+AS34772,"NEOTEL DOO export-import Skopje,NEOTEL-AS-MK",MK,1
+AS35071,"Xoom Limited,UK-XOOM-SYSTEMS-AS",GB,1
+AS35228,"Telefonica UK Limited,O2BROADBAND",GB,1
+AS35297,"Dataline LLC,DATALINE-AS",UA,1
+AS35426,"NXT Initiative SAS,NEXTMAP",FR,1
+AS35551,"TGL Services (UK) Ltd,ASSIMISIS-AS",GB,1
+AS35600,"Vedege SAS,ASN-VEDEGE",FR,1
+AS35805,"""JSC """"Silknet"""""",SILKNET-AS",GE,1
+AS36131,"""PageBites,IMO",US,1
+AS36640,"""SLAS Consulting,SLASCONSULTING",US,1
+AS36692,"""Cisco OpenDNS,OPENDNS",US,1
+AS36866,"Jamii Telecommunications Limited,JTL",KE,1
+AS36914,"Kenya Education Network,KENET-AS",KE,1
+AS36915,"Africa Online Kenya,AFOL-KE-AS",KE,1
+AS36926,"Airtel Networks Kenya Limited,CKL1-ASN",KE,1
+AS36943,"1 GRID (PTY) LTD,ZA-1-Grid",ZA,1
+AS36948,"Kenya Network Information Centre (KENIC),KENIC",KE,1
+AS36968,"Electronic Communications Network (PTY) LTD,ECN-AS1",ZA,1
+AS37053,"RSAWEB (PTY) LTD,RSAWEB-AS",ZA,1
+AS37054,"Telecom Malagasy,Telecom-Malagasy",MG,1
+AS37109,"MyISP Limited,MyISP-AS",KE,1
+AS37119,"UNITEL SA,unitel-AS",AO,1
+AS37137,"Vodacom Business (Kenya) Limited,gateway-ke-as",KE,1
+AS37156,"Xtranet Communications Ltd,XTRANET",KE,1
+AS37219,"Information and Communications Technology Authority,ICTA-KE",KE,1
+AS37271,"Workonline Communications(Pty) Ltd,Workonline",ZA,1
+AS37273,"Bandwidth and Cloud Services Group Ltd,BCS",UG,1
+AS37305,"Frontier Optical Networks Ltd,FON",KE,1
+AS37406,"RCS-Communication,RCS",SS,1
+AS37457,"Telkom SA Ltd.,Telkom-Internet",ZA,1
+AS37578,"Telecommunication Sevice Providers Association of Kenya - TESPOK,Tespok",KE,1
+AS37619,"Broadband Systems Corporation,BSC-AS",RW,1
+AS37628,"KAB Technologies,KAB-Tech-AS",ZA,1
+AS37663,"ISPA SA,ISPA-SA-JINX",ZA,1
+AS37678,"BOTSWANA FIBRE NETWORKS (Proprietary) Limited,BOFINET",BW,1
+AS37684,"Angani Limited,ANGANI-AS",KE,1
+AS37685,"Compfix Data Limited,CompfixDL-AS",KE,1
+AS38186,"Forewin Telecom Group Limited,FTG-AS-AP",HK,1
+AS38197,"Sun Network (Hong Kong) Limited,SUNHK-DATA-AS-AP",HK,1
+AS38930,"LeaseWeb Network B.V.,FIBERRING",NL,1
+AS39063,"Leitwert GmbH,LEITWERT",DE,1
+AS39582,"Grid Bilisim Teknolojileri A.S.,GRID",TR,1
+AS40934,"Fortinet Inc.,FORTINET",US,1
+AS41047,"Bart Vrancken trading as MLaB,NL-MLAB",NL,1
+AS41051,"Openfactory GmbH,FREETRANSIT",CH,1
+AS41692,"OpenCarrier eG,OPENCARRIER-AS",PL,1
+AS42044,"CentralNic Ltd,CENTRALNIC",GB,1
+AS42689,"Glide Student & Residential Limited,Glide",GB,1
+AS43289,"I.C.S. Trabia-Network S.R.L.,TRABIA",MD,1
+AS44103,"Rick Bakker trading as Bakker IT,BAKKER-IT-AS",NL,1
+AS44306,"OMONIA d.o.o.,Omonia",HR,1
+AS44749,"Pinnacom Ltd,Pinnacom-ISP",GB,1
+AS45102,"""Alibaba (US) Technology Co.,ALIBABA-CN-NET",US,1
+AS45437,"Real World Technology Solutions Pty Ltd,RWTS-AS-AP",AU,1
+AS45489,"Sri Lanka Telecom Ltd,SLT-GLOBAL",LK,1
+AS45642,"JasTel Network,JASTEL-NETWORK-TH-NIX-AP",TH,1
+AS45750,"MagiTelecom Limited,MAGITELECOM-HK",HK,1
+AS45758,"Triple T Broadband Public Company Limited,TTBP-AS-AP",TH,1
+AS46450,"""Pilot Fiber,PILOT",US,1
+AS46455,"""WWLTH,NLI-ISP",US,1
+AS46606,"Unified Layer,UNIFIEDLAYER-AS-1",US,1
+AS46844,"Sharktech,ST-BGP",US,1
+AS47480,"Blue Tiger Solutions Limited,BlueTigerSolutions-AS",GB,1
+AS47794,"Etihad Atheeb Telecom Company,ATHEEB-AS",SA,1
+AS47869,"Ellada Projects B.V. trading as Netrouting,NETROUTING-AS",NL,1
+AS48945,"OPEN FIBRE NETWORKS (WHOLESALE) LIMITED,IFNL-AS",GB,1
+AS49415,"VTSL Ltd,VTSL-AS",GB,1
+AS49434,"Harmony Hosting SARL,HARMONYHOSTING-AS",FR,1
+AS49673,"Truenetwork LLC,TRUENETWORK",RU,1
+AS49823,"Hastingwood Securities Ltd,Hastingwood",GB,1
+AS50245,"Serverel Inc.,SERVEREL-AS",NL,1
+AS50316,"Net Global Srl,NET_GLOBAL_SRL",IT,1
+AS50763,"MCKAYCOM LTD,MCKAYCOM",GB,1
+AS51706,"France IX Services SASU,FRANCE-IX-PAR-AS",FR,1
+AS52075,"Wifirst S.A.S.,WIFIRST",FR,1
+AS52579,"Noroestecom Telecomunicacoes Ltda,",BR,1
+AS52580,"Azion Technologies Ltda.,",BR,1
+AS53065,"Opcao Telecom,",BR,1
+AS53340,"""VegasNAP,FIBERHUB",US,1
+AS53764,"DM Wireless LLC,DMWIRELESS",PR,1
+AS54098,"LIONLINK NETWORKS,LIONLINK-NETWORKS",US,1
+AS54825,"""Packet Host,PACKET",US,1
+AS55410,"Vodafone Idea Ltd. (VIL),VIL-AS-AP",IN,1
+AS55836,"Reliance Jio Infocomm Limited,RELIANCEJIO-IN",IN,1
+AS55850,"TrustPower Ltd,TRUSTPOWERLTD-AS-AP",NZ,1
+AS55944,"OOREDOO MALDIVES PRIVATE LIMITED,OOREDOO-MV",MV,1
+AS21856,"Nokia of America Corporation,NOKIA-ASN",US,1
+AS56308,"""TELEKOMUNIKASI INDONESIA INTERNATIONAL,TELIN-NET-SG",SG,1
+AS56910,"Lamda Hellix SA,LamdaHellix",GR,1
+AS57257,"Zorins LLC,ZORINS-AS",DE,1
+AS57315,"YOUAND.CO.UK LIMITED,PUREBLUE-AS",GB,1
+AS57356,"Highland Network Ltd,HIGHNET-AS",GB,1
+AS57634,"SKAT POPOVO Ltd.,SKAT-POPOVO-AS",BG,1
+AS57811,"Redge Technologies sp. z o.o.,AtendeSoftware",PL,1
+AS57928,"PRODWARE SA,PRODWARE-AS",FR,1
+AS58073,"YISP B.V.,YISP-AS",NL,1
+AS58273,"Broadband for the Rural North Limited.,B4RN-AS",GB,1
+AS58308,"Cusae SAS,CUSAE-AS",FR,1
+AS4862,"Equant Inc,EQUANT-ASIA",US,1
+AS7540,"IXTech Limited,HKCIX-AS-AP",HK,1
+AS8529,"Oman Telecommunications Company (S.A.O.G),OMANTEL-AS",OM,1
+AS9678,"HostingInside LTD.,HOSTINGINSIDE-INTL",TW,1
+AS9848,"Sejong Telecom,SejongTelecom-AS-KR",KR,1
+AS9927,"PhilCom Corporation,PHILCOMNET-PH",PH,1
+AS10030,"Celcom Axiata Berhad,CELCOMNET-AP",MY,1
+AS10222,"Multibyte Info Technology Limited,MITL-HK",HK,1
+AS13444,"TRS,TRS-GL-01",US,1
+AS15695,"Expereo International BV,Expereo",NL,1
+AS17828,"PNG DATACO LIMITED,PNGDATACOLIMITED-AS-PG",PG,1
+AS24157,"Taiwan Star Telecom Corporation Limited.(Former Vibo Telecom Inc.),VIBO-NET-AS",TW,1
+AS24321,"Optical Communication Engineering Sdn Bhd,OCENET-AS-AP",MY,1
+AS32782,"Forex Capital Markets L.L.C.,NYC-PROD",US,1
+AS36671,"""TWO SIGMA INVESTMENTS,TWOSIGMA2",US,1
+AS37105,"Neology (Pty) Ltd,rain",ZA,1
+AS37129,"Rasmilink,rasmilink-as",KE,1
+AS38235,"Angkor Data Communication,MEKONGNET-ADC-AS-AP",KH,1
+AS38814,"MEGA VANTAGE INFORMATION TECHNOLOGY (HONG KONG) LIMITED,MEGA-VANTAGE-AS-AP",HK,1
+AS43996,"Booking.com BV,Booking-BV",NL,1
+AS45349,"""InterNet Services,TFL-AS-AP",FJ,1
+AS45580,"Omitech Int,OMITECHINT-PH",PH,1
+AS45903,"CMC Telecom Infrastructure Company,CMCTELECOM-AS-VN",VN,1
+AS54994,"QUANTIL NETWORKS INC,QUANTILNETWORKS",US,1
+AS55437,"We Are IT Philippines Inc.,WIT-PHILS-INC-PH",PH,1
+AS56038,"Network Synergy Corporation Pty Ltd,RACKCORP-AP",AU,1
+AS58424,"Xinwei (Cambodia) Telecom Co. Ltd,XINWEITELECOM-KH",KH,1
+AS58601,"Aamra technologies limited,AAMRA-ATL-BD",BD,1
+AS58715,"Earth Telecommunication ( pvt ) Limited,EARTHTELECOMMUNICATION-AS",BD,1
+AS58717,"Summit Communication Limited,SUMMITCOMMUNICATIONS-BD",BD,1
+AS58810,"""iZus Co.,IZUSCOLTD-BN",BN,1
+AS59257,"CMPak Limited,CMPAKLIMITED-AS-AP",PK,1
+AS59371,"Dimension Network & Communication Limited,DNC-AS",HK,1
+AS59900,"Balkan Internet Exchange Ltd,Balkan-Internet-Exchange",BG,1
+AS60171,"AFR-IX TELECOM S.L.,AFRIX-AS",ES,1
+AS60202,"Kivi TV Ltd.,KIVITV-AS",BG,1
+AS60230,"Neterra Ltd.,Neterra",BG,1
+AS60255,"Internetty Ltd,InternettyUK",GB,1
+AS60268,"Digital Communication Company for Telecommunications and Information Technology LTD,DIGITAL-COMMUNICATION-PALESTINE-ASN",PS,1
+AS60868,"Runtime Collective Limited,BRANDWATCH-AS",GB,1
+AS60924,"Orixcom Limited,ORIXCOM",IE,1
+AS61081,"DEFAULTROUTE LIMITED,DEFAULTROUTE",GB,1
+AS61092,"123 NET CPT (PTY) LTD,SA123NET",ZA,1
+AS61337,"Electronic Communities Ltd,ECOM-AS",GB,1
+AS61832,"Fortel Fortaleza Telecomunicacoes Ltda,",BR,1
+AS61844,"NEW MASTER TELECOM OPERADORA DE TELECOMUNICAÇÕES L,",BR,1
+AS62217,"Vinters IT Ltd,VooServers",GB,1
+AS62663,"Telecall,TELECALL",US,1
+AS62749,"DIGITALK Cloud Inc,DIGITALK-NAP-1",US,1
+AS63916,"Techavenue International Ltd,IPTELECOM-AS-AP",HK,1
+AS63949,"""Linode,LINODE-AP",US,1
+AS64126,"""DOMINICAN CABLE GROUP DCG,",DO,1
+AS131651,"loongaming,LOONGAMING-AS-TW",TW,1
+AS132369,"XIANGAO INTERNATIONAL TELECOMMUNICATION LIMITED,XIANGAO-AS-AP",HK,1
+AS132499,"HKCOLO.NET LIMITED,HKCOLONETLIMITED-AS-AP",HK,1
+AS133219,"NewMedia Express Pte Ltd,NEWMEDIAEXPRESSCHINA-AS-AP",SG,1
+AS133327,"Flextronics International Ltd.,FLEX-AS-AP",SG,1
+AS133334,"DCTV Cable Network & Broadband Services Inc.,DCNBSI-AS-AP",PH,1
+AS133623,"""Planet Cable,PLANETCABLETV-AS-AP",PH,1
+AS133744,"Better Cloud Limited,BETTER-HK",HK,1
+AS133771,"Rapid Shield Company Limited,RPS-AS-AP",HK,1
+AS133847,"Anpple Tech Enterprise,ICT-AS-AP",MY,1
+AS133858,"""MAYFAIR INTERNATIONAL TECHNOLOGIES,MAYFAIR-AS",PH,1
+AS134232,"SACOFA Sdn. Bhd.,SACOFA-AS-AP",MY,1
+AS134729,"JOINT POWER TECHNOLOGY LIMITED,JPTL-AS-AP",HK,1
+AS134788,"""Parasat Cable TV,PARASATCABLETV-AS-AP",PH,1
+AS134823,"""Sky Digital Co.,SDCL-AS-AP",TW,1
+AS134829,"PPIP Associated Communication Limited,PPIP-AS-AP",HK,1
+AS135354,"NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.,NBPAP-AS-AP",SG,1
+AS135572,"ACT International Telecom Limited,ACTINT-AS-AP",HK,1
+AS136119,"""PT Bali Towerindo Sentra,BALIFIBERNET-AS-ID",ID,1
+AS136255,"Telecom International Myanmar Company Limited,TIMCL-AS-AP",MM,1
+AS136785,"TOFFS TECHNOLOGIES PTE LTD,TTPL-AS-AP",SG,1
+AS138025,"RBC Cable,RBCCABLE-AS-AP",PH,1
+AS138527,"""ADC GROUP CO.,ADC-AS-AP",HK,1
+AS138572,"Four G Telecom Pty Ltd,FOURG-AS-AP",AU,1
+AS138969,"""Marbel Services & Television System,MARBEL1-AS-AP",PH,1
+AS138995,"Antbox Networks Limited,ANTBOX1-AS-AP",HK,1
+AS139021,"West263 International Limited,WEST263GO-HK",HK,1
+AS139628,"""Mega Truenet Communication Co.,MEGATRUENET-AS-AP",KH,1
+AS139750,"IDCServices.net Inc,IDCSERVICESNETINC-AS-AP",VG,1
+AS139896,"Flextronics International Ltd.,FLEX-SGD",SG,1
+AS141356,"Universe Action Limited,UAL-AS-AP",HK,1
+AS141677,"Gem Cloud Limited,NATHOSTS-AS-AP",HK,1
+AS141742,"Magna Hosting Ltd,MAGNAHOSTINGLTD-AS-AP",TW,1
+AS141761,"""Starchain Telecom Co.,STCL-AS-AP",KH,1
+AS142643,"BRAVO M LIMITED,BRAVOMLIMITED-AS-AP",HK,1
+AS147019,"jiii,HHLJ-AS-AP",HK,1
+AS196844,"""Institute of Bioorganic Chemistry Polish Academy of Science,PIONIER-AS-ams-ix",PL,1
+AS196925,"AZERTELECOM LLC,AZRT-AS",AZ,1
+AS197440,"Registro del ccTLD it - IIT-CNR,CCTLD-IT-anycast",IT,1
+AS198507,"Quantic Telecom SARL,QUANTIC-TELECOM",FR,1
+AS199713,"MLL Telecom Ltd.,MLL-AS",GB,1
+AS200020,"Stichting NBIP-NaWas,NBIP-AS",NL,1
+AS200507,"Vuetel Italia S.R.L.,VUETEL",IT,1
+AS200612,"Gulf Bridge International Inc.,GulfBridgeInternational",VG,1
+AS201261,"The Watershed Arts Trust Ltd,Watershed",GB,1
+AS201746,"Olivenet Network S.L.,OLIVENET-AS",ES,1
+AS202196,"Booking.com BV,Booking-BV",NL,1
+AS204708,"Midway's Network,MDW-MAIN-AS",FR,1
+AS205917,"SAS Global Communications Ltd.,sas_glcom",GB,1
+AS206067,"Hutchison 3G UK Limited,H3GUK",GB,1
+AS206483,"Red Matter Limited,REDMATTER",GB,1
+AS206999,"Oakford Internet Services Ltd,oakfordis",GB,1
+AS207995,"Lightning Fibre Ltd,LightningFibre",GB,1
+AS208621,"LogicForge Limited,logicforge",GB,1
+AS208802,"Netavo Global Data Services Ltd,Netavo",GB,1
+AS208972,"GIBIRNET ILETISIM HIZMETLERI SANAYI VE TICARET LIMITED SIRKETI,gibirnet-tr",TR,1
+AS209850,"BURDENIS-COM EOOD,BG-BURDENIS-COM",BG,1
+AS211501,"High Tide Group Limited,HIGHTIDEGROUP-AS",GB,1
+AS213347,"""HongKong IRAY Technology Co.,AS_IRAY",DE,1
+AS262206,"COMCEL GUATEMALA S.A.,",GT,1
+AS262301,"NETMIG TELECOM EIRELI,",BR,1
+AS262427,"Invista Net Provedor de Acesso Ltda,",BR,1
+AS262470,"Pontenet Teleinformática Ltda.,",BR,1
+AS262589,"InterNexa Global Network,",BR,1
+AS263096,"Inorpel Ind. Nordestina de Prod. Eletricos Ltda.,",BR,1
+AS263812,"SONDATECH S.A.S.,",AR,1
+AS264668,"NEDETEL S.A.,",EC,1
+AS265144,"MCD INFORMATICA E TELECOMUNICACOES LTDA - ME,",BR,1
+AS265684,"INVERSIONES GRAJEDA ANDRADE S.A,",GT,1
+AS266809,"""NERVICOM,",VE,1
+AS266925,"UPIX NETWORKS,",BR,1
+AS271915,"TECNOLOGICA SIMEON COMPANY CHILE SPA,",CL,1
+AS327693,"Echotel Pty Ltd,ECHO-SP",ZA,1
+AS328089,"Kenya Revenue Authority,Kenya-Revenue-Authority-AS",KE,1
+AS328301,"MESSAGE LABS AFRICA LTD,Messagelabs-AS",KE,1
+AS328303,"iNET Communications Limited,INETCOM-AS",GH,1
+AS328317,"AEROCOM BROADBAND SERVICES,Aerocom-AS",ZA,1
+AS328365,"Thusa Business Support (Pty) Ltd,ZANOG",ZA,1
+AS328475,"AFRIQ NETWORK SOLUTIONS LIMITED,Afriq-Network-Solutions-AS",KE,1
+AS328480,"Too Much Wifi,TooMuchWifi",ZA,1
+AS328578,"KEMNET TECHNOLOGIES LIMITED,KEMNET-TECHNOLOGIES-AS",KE,1
+AS328734,"Blue Streak Horizons Net Limited,Tandaa-Networks",KE,1
+AS328787,"China Mobile International South Africa (Pty) Ltd,China-Mobile-International",ZA,1
+AS328856,"VIJIJI CONNECT LIMITED,VIJIJI-CONNECT-LIMITED",KE,1
+AS328939,"Sprint Internet Limited,SIL6-AS",UG,1
+AS328987,"Lime Emerging Solutions Limited,LESL-AS",KE,1
+AS395886,"KURUN CLOUD INC,KURUN-AS-US",US,1
+AS396986,"Bytedance Inc.,BYTEDANCE",US,1
+AS396998,"""Path Network,PATH-NETWORK",US,1
+AS399077,"Tcloudnet,TERAEXCH",US,1
+AS399626,"INTERCONTINENTAL INTERNET DATA CORP,GROUP-IID-002",US,1
+AS59360,"BBIX HONG KONG PTE. LIMITED,BBIXHK-HK",HK,1
+AS59598,"Sakura Network LTD,Sakura",RU,1
+AS59947,"LLHOST INC. SRL,LL-IX-RouteServers",RO,1
+AS61602,"HLP MOBILE AND WORLDWIDE TRACKING,",BR,1
+AS62513,"GoCodeIT Inc,GOCODEIT-INC",CA,1
+AS62538,"ipFail Networks,IPFAIL",US,1
+AS64022,"""Kamatera,KAMATERAINC-AS-AP",US,1
+AS64200,"VIVID-HOSTING LLC,VIVIDHOSTING",US,1
+AS64271,"rixCloud,RIXCLOUD-INC",US,1
+AS131091,"GOLD SUNSHINE INTERNATIONAL LIMITED,GSS-AS-AP",HK,1
+AS131273,"HiMORE Digital,HIMOREDIGITAL-AS-AP",TW,1
+AS112,"DNS-OARC,ROOTSERV",US,1
+AS131642,"""Pittqiao Network Information Co.,PNI-AS-TW",TW,1
+AS135069,"Feenix Communications Limited,FEENIX-AS-AP",NZ,1
+AS137940,"HostUS Solutions LLC,ONLINESTACK-AS-AP",US,1
+AS138545,"rixCloud Limited,SNS",HK,1
+AS199610,"marbis GmbH,MARBIS",DE,1
+AS395354,"""Starry,ASN-STARRY",US,1
+AS396097,"""Sail Internet,SAIL-INET",US,1
+AS132280,"Symphony Communication Public Company Limited,SYMPHONY-AP-TH",TH,1
+AS138263,"Namoh Networks Udaipur Private Limited,SSNBROADBAND-AS-IN",IN,1
+AS139341,"ACEVILLE PTE.LTD.,ACE-AS-AP",SG,1
+AS263443,"L R DA FONSECA ME,",BR,1
+AS135126,"Occom Pty Ltd,OCCOMPTYLTD-AS-AP",AU,1
+AS142433,"CHANGXIN GROUP AUSTRALIA PTY LTD,CGAPL-AS-AP",AU,1
+AS133441,"Cloud Information Technology (Intl) Telecom Group LIMITED,CLOUDITIDC-KR",HK,1
+AS133527,"HuaBo Technology International Limited,HTIL-AS-AP",HK,1
+AS133734,"McKinsey & Company,MCKINSEY-AS-HK",US,1
+AS134190,"IPDC SOLUTIONS PTE LTD,IPDC-AS-AP",SG,1
+AS134578,"UNION FU WAH DIGITAL TECHNOLOGY LIMITED,UFWDTL-AS-AP",HK,1
+AS135067,"""LOGICOM TECHNOLOGY CO.,LOGICOM-AS-AP",HK,1
+AS135356,"CN CARE NETWORK LTD,CNCARENETWORKLTD-AS-AP",HK,1
+AS135373,"EFLY NETWORK LIMITED,EFLYPRO-AS-AP",HK,1
+AS135391,"AOFEI DATA INTERNATIONAL COMPANY LIMITED,AOFEI-HK",HK,1
+AS135905,"VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,VNPT-AS-VN",VN,1
+AS136620,"VMHaus Limited,VMHAUSLIMITED-AS-AP",GB,1
+AS1618,"""Daytona Net Works,NETWORKS-1",US,1
+AS136897,"Enjoyvc Cloud Group Limited.,ENJOYVC-AS-AP",HK,1
+AS138607,"""CAMBO (HK) TECHNOLOGY (I.S.P) CO.,CAMBO-AS-AP",HK,1
+AS139076,"EnjoyVC Japan Corporation,ENJOYVC-AS-AP",JP,1
+AS200462,"Lennart Seitz,AS-ETH",DE,1
+AS202265,"Smart Internet Solutions UG (haftungsbeschraenkt),SMARTINTERNET",DE,1
+AS211972,"Marc Schulz-Narres,MSN-NET",DE,1
+AS212123,"Jori Vanneste,REDPANDA-AS",BE,1
+AS209650,"Wu Zhiyuan,ZHIYUAN-AS",NL,1
+AS210110,"""Kvmcloud Network CO.,KVMCLOUD-AS",HK,1
+AS140984,"WTW HIGHTECH COMPANY INC,WTWHIGHTECHCOMPAN-AS-AP",PH,1
+AS201106,"Spartan Host Ltd,SPARTANHOST",GB,1
+AS9198,"JSC Kazakhtelecom,KAZTELECOM-AS",KZ,1
+AS47764,"Mail.Ru LLC,mailru-as",RU,1
+AS263437,"CARATINGA INFORMATICA LTDA - ME,",BR,1
+AS262288,"Go In Tecnologia,",BR,1
+AS267056,"EVEREST RIDGE CONSULTORIA EM REDES DE COM LTDA,",BR,1
+AS397373,"H4Y Technologies LLC,H4Y-TECHNOLOGIES",US,1
