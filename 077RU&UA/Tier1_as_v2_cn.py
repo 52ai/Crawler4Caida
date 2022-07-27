@@ -105,7 +105,17 @@ def rib_analysis(rib_file):
     as2country_dic = gain_as2country()
     print("AS12389's Country:", as2country_dic['12389'])
     except_info_list = []  # 记录异常信息
-    tier1_list = ['174', '6939', '1828']
+    tier1_list = ['19551', '14907', '13335', '1280', '30286',
+                  '19151', '45250', '24429', '17213', '53587',
+                  '2152', '3614', '10310', '11528', '16625',
+                  '133089', '6079', '31972', '10764', '11164',
+                  '11179', '46997', '2153', '10229', '46489',
+                  '140079', '4181', '40564', '5650', '34553',
+                  '22335', '8095', '33717', '16477', '11051',
+                  '2635', '55256', '55497', '137922', '22787',
+                  '38033', '36231']
+
+    # tier1_list = ['174', '6939', '1828']
     # tier1_list = ['3356', '174', '2914', '6939', '3257', '701', '7018', '1239', '3549', '7922']
     # tier1_list = ['3356', '174', '2914', '6939', '3257',
     #               '701', '7018', '1239', '3549', '7922',
@@ -142,6 +152,7 @@ def rib_analysis(rib_file):
 
         if set(as_path).intersection(set(tier1_list)) and (origin_as_country != analysis_country):
             group_path_cnt += 1
+
         # if as_path[0] != "4837":
         #     continue
 
@@ -152,6 +163,7 @@ def rib_analysis(rib_file):
             as_dict[origin_as].append([v4_prefix, as_path])
     print("ORIGIN ASN COUNT:", len(as_dict.keys()))
     print("AS Path has Group Cnt:", group_path_cnt)
+
     """
     2）统计所有AS网络的路径中，经Tier1的数量（1）
     

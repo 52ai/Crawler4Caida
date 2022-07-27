@@ -212,7 +212,7 @@ def compare():
         temp_line = [item_as, item_as_info, item_as_country, as_rel_num, as_rel_num_cn, diff]
         compare_result_list.append(temp_line)
 
-    print("可能的AS对象：", aim_as_list)
+    print(f"{len(aim_as_list)}个可能的AS对象：", aim_as_list)
 
     save_file = "compare_result.csv"
     write_to_csv(compare_result_list, save_file)
