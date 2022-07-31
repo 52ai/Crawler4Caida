@@ -91,9 +91,10 @@ def rib_analysis(rib_file):
     """
     分析RIB数据，统计CN去往全球各国的路由路径，含直达和绕转等
     :param rib_file:
-    :return:
+    :return cn2global_result:
     """
     cn2global_result = []  # 存储最终输出的结果数据
+    cn2global_result_simple = []  # 存储简洁的结果
     as2country_dic = gain_as2country_caida()
     as2org_dic = gain_as2org_caida()
     country2contient_dic = gain_country2continent()
@@ -105,17 +106,25 @@ def rib_analysis(rib_file):
         line = line.strip().split("|")
         v4_prefix = line[5]
         as_path = line[-2].split(" ")
+        cn_isp = as_path[0]
         if str(v4_prefix).find("0.0.0.0/0") != -1:
             print(v4_prefix)
             continue
+
+        if cn_isp not in ["4134", "9808", "4837"]:
+            continue
+
         all_prefix_num += 1
-        cn_isp = as_path[0]
         v4_num = len(IP(v4_prefix))
         origin_as = as_path[-1]
+        if as_path[-1].find("{") != -1:
+            origin_as = as_path[-1].strip("{").strip("}").split(",")[0]
 
         origin_as_country = "ZZ"
         try:
             origin_as_country = as2country_dic[str(origin_as)]
+            if len(origin_as_country) == 0:
+                origin_as_country = "ZZ"
         except Exception as e:
             except_info_list.append(e)
 
@@ -139,6 +148,8 @@ def rib_analysis(rib_file):
             temp_country = "ZZ"
             try:
                 temp_country = as2country_dic[str(as_item)]
+                if len(temp_country) == 0:
+                    temp_country = "ZZ"
             except Exception as e:
                 except_info_list.append(e)
             country_path.append(temp_country)
@@ -164,14 +175,51 @@ def rib_analysis(rib_file):
                      (len(country_path_deal) - 1),
                      country_path_deal]
         # print(temp_line)
+        temp_line_simple = ["as"+cn_isp, "as"+origin_as, origin_as_country, v4_num,
+                            "P"+str((len(country_path_deal) - 1)),
+                            country_path_deal]
+
         cn2global_result.append(temp_line)
+        cn2global_result_simple.append(temp_line_simple)
 
     print("国内节点采集路由条目总数：", all_prefix_num)
-    save_file = "../000LocalData/as_cn/cn2global_result.csv"
-    write_to_csv(cn2global_result, save_file)
+    save_file = "../000LocalData/as_cn/cn2global_result_simple_AS4134.csv"
+    write_to_csv(cn2global_result_simple, save_file)
+    return cn2global_result
+
+
+def final_analysis(cn2global_result):
+    """
+    根据基础结果数据，做二次分析
+    1、CN 网络去往全球各国的路径，中有多少直达，有多少绕转，比例各是多少
+    2、分CN运营商看，直达、绕转，及其比例
+    3、分国家看，针对某国我们直达和绕转情况，及其比例
+    4、分自治域网络看，针对某自治域网络，我们直达和绕转，及其比例
+    :param cn2global_result:
+    :return:
+    """
+    print("- - - - -  - - - - CN2GLOBAL 二次分析- - - - - - - - - - - - - ")
+    path_cnt_dict = {}  # CN网络通往全球各国直达或绕转的统计分布情况
+    v4_num_cnt_dict = {}  # CN网络通往全球各国直达或绕转的IP地址数量统计分布情况
+
+    for line in cn2global_result:
+        # print(line)
+        path_cnt = line[6]
+        v4_num_cnt = line[2]
+        if path_cnt not in path_cnt_dict.keys():
+            path_cnt_dict[path_cnt] = 1
+            v4_num_cnt_dict[path_cnt] = v4_num_cnt
+        else:
+            path_cnt_dict[path_cnt] += 1
+            v4_num_cnt_dict[path_cnt] += v4_num_cnt
+
+    print(path_cnt_dict)
+    print(v4_num_cnt_dict)
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    rib_analysis("..\\000LocalData\\RU&UA\\rib\\z20220320.txt")
+    cn2global = rib_analysis("..\\000LocalData\\RU&UA\\rib\\z20220320.txt")
+    final_analysis(cn2global)
+
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
