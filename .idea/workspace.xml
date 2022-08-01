@@ -36,7 +36,6 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/087TW_Analysis_v2/cn2global.py" beforeDir="false" afterPath="$PROJECT_DIR$/087TW_Analysis_v2/cn2global.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
