@@ -30,7 +30,12 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -52,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/086LearnNodeJs/pm" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -122,7 +127,7 @@
       <recent name="D:\Code\Crawler4Caida\069IX-ROOT&amp;TLDs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cn2global">
+  <component name="RunManager" selected="Python.tw_as_rel">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,11 +258,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.cn2global" />
         <item itemvalue="Python.bypass_abroad" />
         <item itemvalue="Python.Tier1_as_v2_cn" />
         <item itemvalue="Python.compare2country" />
-        <item itemvalue="Python.tw_as_rel" />
       </list>
     </recent_temporary>
   </component>
