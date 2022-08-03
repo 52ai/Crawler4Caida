@@ -50,6 +50,7 @@ if st.session_state.count > 0:
     menu = ["Demo", "GeoMap", "ArcLayer", "3D巡航可视化", "星云图"]
     choice = st.selectbox("请选择可视化样式：", menu)
     if choice == "Demo":
+
         cols = st.columns([.333, .333, .333])
         with cols[0]:
             st_card('Orders', value=1200, delta=-45, delta_description='since last month')
@@ -64,15 +65,18 @@ if st.session_state.count > 0:
             columns=['lat', 'lon'])
 
         st.pydeck_chart(pdk.Deck(
-            map_style='mapbox://styles/mapbox/light-v9',
+            map_style='mapbox://styles/mapbox/dark-v9',
             initial_view_state=pdk.ViewState(
                 latitude=37.76,
                 longitude=-122.4,
-                zoom=11,
+                zoom=6,
+                min_zoom=2,
+                max_zoom=15,
                 pitch=50,
             ),
 
             layers=[
+
                 pdk.Layer(
                     'HexagonLayer',
                     data=df,

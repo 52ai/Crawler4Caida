@@ -31,6 +31,7 @@
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -305,8 +306,8 @@
               <option name="COLUMN_ID_WIDTH">
                 <map>
                   <entry key="Table.Default.Author.ColumnIdWidth" value="79" />
-                  <entry key="Table.Default.Date.ColumnIdWidth" value="71" />
-                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="71" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="135" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="90" />
                 </map>
               </option>
             </State>
