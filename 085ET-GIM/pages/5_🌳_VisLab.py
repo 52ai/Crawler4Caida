@@ -47,7 +47,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["Demo", "GeoMap", "ArcLayer", "3D巡航可视化", "星云图"]
+    menu = ["Demo", "GeoMap", "ArcLayer", "3D-Building", "3D巡航可视化", "星云图"]
     choice = st.selectbox("请选择可视化样式：", menu)
     if choice == "Demo":
 
@@ -252,6 +252,46 @@ if st.session_state.count > 0:
         r = pdk.Deck(layers=[layer], initial_view_state=view_state, tooltip={"text": "{from_name} to {to_name}"}, )
         r.picking_radius = 10
         st.pydeck_chart(r)
+    elif choice == "3D-Building":
+        st.markdown("依托pydeck+mapbox开展，地图系统的研究，3D Building")
+
+        df = pd.DataFrame(
+            np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+            columns=['lat', 'lon'])
+
+        st.pydeck_chart(pdk.Deck(
+            map_style='mapbox://styles/mapbox/dark-v9',
+            initial_view_state=pdk.ViewState(
+                latitude=37.76,
+                longitude=-122.4,
+                zoom=6,
+                min_zoom=2,
+                max_zoom=15,
+                pitch=50,
+            ),
+
+            layers=[
+
+                pdk.Layer(
+                    'HexagonLayer',
+                    data=df,
+                    get_position='[lon, lat]',
+                    radius=200,
+                    elevation_scale=4,
+                    elevation_range=[0, 1000],
+                    pickable=True,
+                    extruded=True,
+                ),
+
+                pdk.Layer(
+                    'ScatterplotLayer',
+                    data=df,
+                    get_position='[lon, lat]',
+                    get_color='[200, 30, 0, 160]',
+                    get_radius=200,
+                ),
+            ],
+        ))
 
 else:
     st.info("Please Login!")

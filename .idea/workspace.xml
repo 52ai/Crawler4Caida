@@ -29,7 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/085ET-GIM/.streamlit/config.toml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
@@ -49,11 +52,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/086LearnNodeJs/pm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -89,6 +93,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -96,7 +101,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/057IPv6UrlCrawler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/085ET-GIM" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -109,18 +114,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\085ET-GIM" />
+      <recent name="D:\Code\Crawler4Caida\088Mapbox\use-mapbox-gl-js-with-react" />
       <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
       <recent name="D:\Code\Crawler4Caida\.streamlit" />
-      <recent name="D:\Code\Crawler4Caida\064IPDB" />
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\088Mapbox\use-mapbox-gl-js-with-react\src" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\graph-start\dist" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
       <recent name="D:\Code\Crawler4Caida" />
       <recent name="D:\Code\Crawler4Caida\076Streamlit" />
-      <recent name="D:\Code\Crawler4Caida\069IX-ROOT&amp;TLDs" />
     </key>
   </component>
   <component name="RunManager" selected="Python.tw_as_rel">

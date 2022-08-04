@@ -108,7 +108,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\057IPv6UrlCrawler\deploy\wwwxsbngovcn.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\057IPv6UrlCrawler\deploy\wwwxsbngovcn_20220303.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server - to简\wwwmryutop.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server - to简\wwwpacqgovcn.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\057IPv6UrlCrawler\deploy_server - to简\wwwxsbngovcn.csv">
           <value>
             <Attribute>
               <option name="separator" value=":" />
@@ -158,6 +186,13 @@
           </value>
         </entry>
         <entry key="\058ASWhois\asns.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\062NEWIX\data\decix-peers.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
