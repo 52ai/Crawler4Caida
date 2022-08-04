@@ -30,7 +30,12 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/088Mapbox/3d-building/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/088Mapbox/3d-building/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/088Mapbox/3d-building/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/088Mapbox/3d-building/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
