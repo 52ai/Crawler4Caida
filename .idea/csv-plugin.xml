@@ -339,6 +339,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\085ET-GIM\data\heatmap-data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\087TW_Analysis_v2\compare_result.csv">
           <value>
             <Attribute>

@@ -157,10 +157,12 @@ if st.session_state.count > 0:
         st.markdown("依托pydeck+mapbox开展，地图系统的研究")
         DATA_SOURCE = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv'
         # DATA_SOURCE = 'https://raw.githubusercontent.com/ajduberstein/geo_datasets/master/fortune_500.csv'
+        df = pd.read_csv("D:/Code/Crawler4Caida/085ET-GIM/data/heatmap-data.csv")
+        print(df.to_dict(orient="records"))
 
         layer_hexagon = pdk.Layer(
             'HexagonLayer',  # `type` positional argument is here
-            DATA_SOURCE,
+            df,
             get_position=['lng', 'lat'],
             auto_highlight=True,
             elevation_scale=50,
@@ -199,7 +201,7 @@ if st.session_state.count > 0:
 
         # Combined all of it and render a viewport
         r = pdk.Deck(map_style=map_style,
-                     layers=[layer_hexagon],
+                     layers=[layer_hexagon, layer_heatmap, layer_scatter],
                      initial_view_state=view_state,
                      tooltip={
                          'html': '<b>Elevation Value:</b> {elevationValue}',
@@ -295,7 +297,7 @@ if st.session_state.count > 0:
             longitude=-122.4,
             zoom=11,
             min_zoom=0,
-            max_zoom=16,
+            max_zoom=22,
             pitch=50,)
 
         # Combined all of it and render a viewport
