@@ -339,6 +339,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\085ET-GIM\data\global_power_plant_database.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\085ET-GIM\data\heatmap-data.csv">
           <value>
             <Attribute>

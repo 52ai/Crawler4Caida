@@ -11,6 +11,7 @@ from bokeh.layouts import column
 from bokeh.models import Div
 from bokeh.palettes import Spectral
 from bokeh.plotting import figure
+import math
 
 import plotly.express as px
 
@@ -47,7 +48,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["3D-Building", "GeoMap", "ArcLayer", "Demo", "3D巡航可视化", "星云图"]
+    menu = ["3D-Building", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D巡航可视化", "星云图"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -161,7 +162,7 @@ if st.session_state.count > 0:
         print(df.to_dict(orient="records"))
 
         layer_hexagon = pdk.Layer(
-            'HexagonLayer',  # `type` positional argument is here
+            'GridLayer',  # `type` positional argument is here, CPUGridLayer, HexagonLayer,GridLayer
             df,
             get_position=['lng', 'lat'],
             auto_highlight=True,
@@ -189,25 +190,104 @@ if st.session_state.count > 0:
             # get_weight="profit / employees > 0 ? profit / employees : 0"
             )
 
+        # 添加文字图层
+        # TEXT_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-stations.json"  # noqa
+        # df_text = pd.read_json(TEXT_LAYER_DATA)
+        text_map = [{"name": 'Colma (COLM)', "address": '365 D Street, Colma CA 94014', "coordinates": [-122.466233, 37.684638]}]
+        layer_textmap = pdk.Layer(
+            "TextLayer",
+            text_map,
+            pickable=True,
+            get_position="coordinates",
+            get_text="name",
+            get_size=32,
+            get_color=[255, 255, 255],
+            get_angle=0,
+            get_text_anchor=String('middle'),
+            get_alignment_baseline=String('center')
+        )
+        # 添加旅行路线图层
+        TRIPS_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/sf.trips.json"  # noqa
+        df = pd.read_json(TRIPS_LAYER_DATA)
+        df["coordinates"] = df["waypoints"].apply(lambda f: [item["coordinates"] for item in f])
+        df["timestamps"] = df["waypoints"].apply(lambda f: [item["timestamp"] - 1554772579000 for item in f])
+        df.drop(["waypoints"], axis=1, inplace=True)
+        print(df)
+
+        layer_trips = pdk.Layer(
+            "TripsLayer",
+            df,
+            get_path="coordinates",
+            get_timestamps="timestamps",
+            get_color=[253, 128, 93],
+            opacity=0.9,
+            width_min_pixels=5,
+            rouded=True,
+            trail_length=600,
+            current_time=500
+
+        )
+
+        # 添加散点图层（可针对单独点做更多的设置）
+        # SCATTERPLOT_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-stations.json"
+        # df = pd.read_json(SCATTERPLOT_LAYER_DATA)
+        # df["exits_radius"] = df["exits"].apply(lambda exits_count: math.sqrt(exits_count))
+        # layer_scatter_bart = pdk.Layer(
+        #     "ScatterplotLayer",
+        #     df,
+        #     pickable=True,
+        #     opacity=0.8,
+        #     stroked=True,
+        #     filled=True,
+        #     radius_scale=6,
+        #     radius_min_pixels=1,
+        #     radius_max_pixels=100,
+        #     line_width_min_pixels=1,
+        #     get_position="coordinates",
+        #     get_radius="exits_radius",
+        #     get_fill_color=[255, 140, 0],
+        #     get_line_color=[0, 0, 0],
+        # )
+
+        # 添加路径图层
+        DATA_URL = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-lines.json"
+        df = pd.read_json(DATA_URL)
+
+        def hex_to_rgb(h):
+            h = h.lstrip("#")
+            return tuple(int(h[i: i + 2], 16) for i in (0, 2, 4))
+
+        df["color"] = df["color"].apply(hex_to_rgb)
+        layer_path = pdk.Layer(
+            type="PathLayer",
+            data=df,
+            pickable=True,
+            get_color="color",
+            width_scale=20,
+            width_min_pixels=2,
+            get_path="path",
+            get_width=5,
+        )
         # Set the viewport location
         view_state = pdk.ViewState(
             longitude=-1.415,
             latitude=52.2323,
             zoom=6,
-            min_zoom=5,
-            max_zoom=15,
+            min_zoom=0,
+            max_zoom=22,
             pitch=40.5,
             bearing=-27.36)
 
         # Combined all of it and render a viewport
         r = pdk.Deck(map_style=map_style,
-                     layers=[layer_hexagon, layer_heatmap, layer_scatter],
+                     layers=[layer_hexagon, layer_heatmap, layer_scatter, layer_textmap, layer_trips, layer_path],
                      initial_view_state=view_state,
                      tooltip={
-                         'html': '<b>Elevation Value:</b> {elevationValue}',
+                         # 'html': '<b>Elevation Value:</b> {elevationValue}',
+                         'text': '{name}\n{address}',
                          'style': {
                              'color': 'white'
-                         }
+                         },
                      }
                      )
 
@@ -312,6 +392,139 @@ if st.session_state.count > 0:
                      }
                      )
 
+        st.pydeck_chart(r)
+    elif choice == "FlightsLine":
+        DATA_URL = {
+            "AIRPORTS": "https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/line/airports.json",
+            "FLIGHT_PATHS": "https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/line/heathrow-flights.json",
+            # noqa
+        }
+
+
+        # RGBA value generated in Javascript by deck.gl's Javascript expression parser
+
+        GET_COLOR_JS = [
+            "255 * (1 - (start[2] / 10000) * 2)",
+            "128 * (start[2] / 10000)",
+            "255 * (start[2] / 10000)",
+            "255 * (1 - (start[2] / 10000))",
+        ]
+
+        scatterplot = pdk.Layer(
+            "ScatterplotLayer",
+            DATA_URL["AIRPORTS"],
+            radius_scale=20,
+            get_position="coordinates",
+            get_fill_color=[255, 140, 0],
+            get_radius=60,
+            pickable=True,
+        )
+
+        line_layer = pdk.Layer(
+            "LineLayer",
+            DATA_URL["FLIGHT_PATHS"],
+            get_source_position="start",
+            get_target_position="end",
+            get_color=GET_COLOR_JS,
+            get_width=10,
+            highlight_color=[255, 255, 0],
+            picking_radius=10,
+            auto_highlight=True,
+            pickable=True,
+        )
+
+        layers = [scatterplot, line_layer]
+        INITIAL_VIEW_STATE = pdk.ViewState(latitude=47.65, longitude=7, zoom=4.5, max_zoom=22, pitch=50, bearing=0)
+
+        r = pdk.Deck(map_style=map_style,
+                     layers=layers,
+                     initial_view_state=INITIAL_VIEW_STATE,
+                     tooltip={
+                         # 'html': '<b>Elevation Value:</b> {elevationValue}',
+                         'text': '{name}\n{address}',
+                         'style': {
+                             'color': 'white'
+                         },
+                     }
+                     )
+        st.pydeck_chart(r)
+    elif choice == "GlobeView":
+        COUNTRIES = "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_scale_rank.geojson"
+        # POWER_PLANTS = "https://raw.githubusercontent.com/ajduberstein/geo_datasets/master/global_power_plant_database.csv"
+        df = pd.read_csv("D:/Code/Crawler4Caida/085ET-GIM/data/global_power_plant_database.csv")
+        # COUNTRIES = "D:/Code/Crawler4Caida/085ET-GIM/data/ne_50m_admin_0_scale_rank.geojson"
+        # st.write("log1....")
+
+        def is_green(fuel_type):
+            """Return a green RGB value if a facility uses a renewable fuel type"""
+            if fuel_type.lower() in ("nuclear", "water", "wind", "hydro", "biomass", "solar", "geothermal"):
+                return [10, 230, 120]
+            return [230, 158, 10]
+
+        df["color"] = df["primary_fuel"].apply(is_green)
+        df.drop("wepp_id", axis=1, inplace=True)
+        df.drop('year_of_capacity_data', axis=1, inplace=True)
+        df.drop('geolocation_source', axis=1, inplace=True)
+        df.drop('generation_gwh_2013', axis=1, inplace=True)
+        df.drop('generation_gwh_2014', axis=1, inplace=True)
+        df.drop('generation_gwh_2015', axis=1, inplace=True)
+        df.drop('generation_gwh_2016', axis=1, inplace=True)
+        df.drop('generation_gwh_2017', axis=1, inplace=True)
+        df.drop('other_fuel1', axis=1, inplace=True)
+        df.drop('other_fuel2', axis=1, inplace=True)
+        df.drop('other_fuel3', axis=1, inplace=True)
+        df.drop('estimated_generation_gwh', axis=1, inplace=True)
+        df.drop('url', axis=1, inplace=True)
+        df.drop('source', axis=1, inplace=True)
+        df.drop('owner', axis=1, inplace=True)
+        df.drop('gppd_idnr', axis=1, inplace=True)
+        df.drop('country_long', axis=1, inplace=True)
+        df.drop('commissioning_year', axis=1, inplace=True)
+        # df.drop('capacity_mw', axis=1, inplace=True)
+
+        df_format = df.to_dict(orient="records")
+        # print(df_format)
+        # st.write("log2....")
+
+        view_state = pdk.ViewState(latitude=51.47, longitude=0.45, zoom=2, min_zoom=1)
+
+        # Set height and width variables
+        view = pdk.View(type="_GlobeView", controller=True, width=1000, height=700)
+
+        layers = [
+            pdk.Layer(
+                "GeoJsonLayer",
+                id="base-map",
+                data=COUNTRIES,
+                stroked=False,
+                filled=True,
+                get_fill_color=[200, 200, 200],
+            ),
+
+            pdk.Layer(
+                "ColumnLayer",
+                id="power-plant",
+                data=df_format,
+                get_elevation="capacity_mw",
+                get_position=["longitude", "latitude"],
+                elevation_scale=100,
+                pickable=True,
+                auto_highlight=True,
+                radius=20000,
+                get_fill_color="color",
+            ),
+        ]
+
+        r = pdk.Deck(
+            map_style=map_style,
+            views=[view],
+            initial_view_state=view_state,
+            tooltip={"text": "{name}, {primary_fuel} plant, {country}"},
+            layers=layers,
+            # Note that this must be set for the globe to be opaque
+            parameters={"cull": True},
+        )
+        # r.to_html("globe_view.html", css_background_color="black")
         st.pydeck_chart(r)
 
 else:
