@@ -21,7 +21,7 @@ import csv
 
 asns_file = "asns_geo_all.csv"
 as_rel_file = "20220301.as-rel.txt"
-global_as_gephi_file = "global_as_pm.gexf"
+global_as_gephi_file = "global_as_RU.gexf"
 
 
 def write_to_csv(res_list, des_path, title):
@@ -52,7 +52,7 @@ def generate_gephi_file():
     :return:
     """
     node_list = []  # 存储node信息，[node_id, node_label, node_name, node_org, node_country, long, lat]
-    edge_list = []  # 存储edge信息，[edge_id, source_id, target_id, as_rel_type]
+    edge_list = []  # 存储edge信息，[edge_id, source_AS, target_AS, as_rel_type]
     """
     统计活跃AS的集合
     """
@@ -89,8 +89,8 @@ def generate_gephi_file():
             node_org = line[1].split(" - ")[-1]
             # node_label = node_label + "-" + node_name
             node_country = line[2]
-            # if node_country != "CN":
-            #     continue
+            if node_country != "RU":
+                continue
             long = line[3]
             lat = line[4]
             temp_line = [node_id, node_label, node_name, node_org, node_country, long, lat]
@@ -117,7 +117,7 @@ def generate_gephi_file():
             except Exception as e:
                 except_info_list.append(e)
                 continue
-            temp_line = [edge_id, source_id, target_id, as_rel_type]
+            temp_line = [edge_id, "AS"+str(line[0]), "AS"+str(line[1]), as_rel_type]
             print(temp_line)
             edge_list.append(temp_line)
             edge_id += 1
@@ -137,8 +137,8 @@ def generate_gephi_file():
         for item in node_list:
             # temp_str = "<node id=\"%s\" label=\"%s\" node_name=\"%s\" node_org=\"%s\" node_country=\"%s\" long=\"%s\" lat=\"%s\"/>\n" \
             #            % (str(item[0]), str(item[1]), str(item[2]), str(item[3]), str(item[4]), str(item[5]), str(item[6]))
-            temp_str = "<node id=\"%s\" label=\"%s\"/>\n" \
-                       % (str(item[0]), str(item[1]))
+            temp_str = "<node id=\"%s\"/>\n" \
+                       % (str(item[1]))
             f.write(temp_str)
         f.write("</nodes>\n")
 
@@ -149,7 +149,7 @@ def generate_gephi_file():
         for item in edge_list:
             # temp_str = "<edge id=\"%s\" source=\"%s\" target=\"%s\" type=\"%s\"/>\n" \
             #            % (str(item[0]), str(item[1]), str(item[2]), str(item[3]))
-            temp_str = "<edge id=\"%s\" source=\"%s\" target=\"%s\"/>\n" \
+            temp_str = "<edge id=\"%s\" source=\"%s\" target=\"%s\" type=\"undirected\"/>\n" \
                        % (str(item[0]), str(item[1]), str(item[2]))
             f.write(temp_str)
         f.write("</edges>\n</graph>\n</gexf>")

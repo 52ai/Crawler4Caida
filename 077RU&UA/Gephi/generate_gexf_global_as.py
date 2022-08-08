@@ -87,7 +87,7 @@ def generate_gephi_file():
             node_org = line[1].split(" - ")[-1]
             # node_label = node_label + "-" + node_name
             node_country = line[2]
-            if node_country != "DE":
+            if node_country != "RU":
                 continue
             long = line[3]
             lat = line[4]
@@ -132,13 +132,17 @@ def generate_gephi_file():
         node_count = len(node_list)
         temp_str = "<nodes count=\"" + str(node_count) + "\">\n"
         f.write(temp_str)
+
+        labels_list = []
         for item in node_list:
             # temp_str = "<node id=\"%s\" label=\"%s\" node_name=\"%s\" node_org=\"%s\" node_country=\"%s\" long=\"%s\" lat=\"%s\"/>\n" \
             #            % (str(item[0]), str(item[1]), str(item[2]), str(item[3]), str(item[4]), str(item[5]), str(item[6]))
             temp_str = "<node id=\"%s\" label=\"%s\"/>\n" \
                        % (str(item[0]), str(item[1]))
+            labels_list.append(str(item[1]))
             f.write(temp_str)
         f.write("</nodes>\n")
+        print(labels_list)
 
         edge_count = len(edge_list)
         temp_str = "<edges count=\"" + str(edge_count) + "\">\n"
