@@ -153,7 +153,6 @@ if st.session_state.count > 0:
         """)
 
         st.bokeh_chart(column(p, div), use_container_width=True)
-
     elif choice == "GeoMap":
         st.markdown("依托pydeck+mapbox开展，地图系统的研究")
         DATA_SOURCE = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv'
@@ -294,8 +293,8 @@ if st.session_state.count > 0:
         st.pydeck_chart(r)
     elif choice == "ArcLayer":
 
-        GREAT_CIRCLE_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/flights.json"  # noqa
-
+        # GREAT_CIRCLE_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/flights.json"  # noqa
+        GREAT_CIRCLE_LAYER_DATA = "D:/Code/Crawler4Caida/085ET-GIM/data/flights.json"
         df = pd.read_json(GREAT_CIRCLE_LAYER_DATA)
 
         # Use pandas to prepare data for tooltip
@@ -400,7 +399,6 @@ if st.session_state.count > 0:
             # noqa
         }
 
-
         # RGBA value generated in Javascript by deck.gl's Javascript expression parser
 
         GET_COLOR_JS = [
@@ -480,7 +478,6 @@ if st.session_state.count > 0:
         df.drop('gppd_idnr', axis=1, inplace=True)
         df.drop('country_long', axis=1, inplace=True)
         df.drop('commissioning_year', axis=1, inplace=True)
-        # df.drop('capacity_mw', axis=1, inplace=True)
 
         df_format = df.to_dict(orient="records")
         # print(df_format)

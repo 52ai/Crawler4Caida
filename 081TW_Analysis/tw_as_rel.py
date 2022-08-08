@@ -101,7 +101,7 @@ def as_analysis(aim_country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path[-4:-3]:
+    for path_item in file_path[-10:-9]:
         print(f"- - - - - - - {aim_country}国家网络地图统计报告（网络连接）- - - - - -  - - ")
         print("0.数据统计源：", path_item)
 
@@ -248,6 +248,6 @@ def as_analysis(aim_country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    country = "GB"
+    country = "CN"
     as_analysis(country)
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

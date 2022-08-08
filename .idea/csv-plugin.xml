@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\BGPlay\as_graph_3d_edges_all.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\000LocalData\BGPlay\as_graph_3d_nodes_all.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_Gao\asn_info_from_caida.csv">
           <value>
             <Attribute>
@@ -52,6 +66,55 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\001GlobalNetTest\company_log_2018_10_29_18_15_23.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\001GlobalNetTest\company_log_2018_10_29_18_48_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\001GlobalNetTest\loss_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\001GlobalNetTest\time_delay.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\001GlobalNetTest\模板文件.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\004NetDataAnalysis\base_matrix_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\010GainWebsiteInfo\deploy\content.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\013Countries_ASNs\data\countries_asns_CN_AS4835.csv">
           <value>
             <Attribute>
@@ -80,10 +143,122 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\015BGPAnalysis\data\active_as_info_19980101.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\data\bgp_analysis_result_21years.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\data\countries_asns_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\data\countries_asns_CN_copy.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\018Scatter\abnormal_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\019Echarts\polar_demo.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\03-03(01).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\04-071(01)-nCov20200414.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\04-072(01)-nCov20200414.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\04-072(01).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\upload_simple\03-wayne-2020063035.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\upload_simple\041-wayne-2020063041.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\upload_simple\sample(正确版)\03.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\030CAICT-AtlasToolkit\samples\upload_simple\sample(正确版)\041.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\043BGPlayPaper\as_graph_3d_edges_7c.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\043BGPlayPaper\as_graph_3d_nodes_7c.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\054NNIXP\potential_as.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
@@ -192,7 +367,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\062NEWIX\data\PTT(Sao Paulo)-peers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\062NEWIX\data\decix-peers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\062NEWIX\data\seattleix-peers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\062NEWIX\data\torix-peers.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -234,6 +430,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\068IXVis\ix_geo_develop_backup.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\ix_geo_develop_done.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\ix_he.CSV">
           <value>
             <Attribute>
@@ -249,6 +459,83 @@
           </value>
         </entry>
         <entry key="\068IXVis\ix_he_geo.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\topIX20Global.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\069IX-ROOT&amp;TLDs\TLDs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\069IX-ROOT&amp;TLDs\root_servers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\069IX-ROOT&amp;TLDs\tlds_result_rt - deal.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\069IX-ROOT&amp;TLDs\tlds_result_rt - raw.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\069IX-ROOT&amp;TLDs\tlds_result_rt.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\20211103\country_list_speed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\20211103\ix.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\country_list_speed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\ix.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\072UPDATE_CAICTDisplay\as2ip_quantity.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -347,6 +634,13 @@
           </value>
         </entry>
         <entry key="\085ET-GIM\data\heatmap-data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\085ET-GIM\data\heatmap-data_all.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

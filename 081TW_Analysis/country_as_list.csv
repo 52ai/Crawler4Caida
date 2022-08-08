@@ -1,1991 +1,602 @@
-AS51185,"Onecom Global Communications LTD,ONECOM-AS",GB,4714
-AS8220,"COLT Technology Services Group Limited,COLT",GB,2036
-AS4455,"IX Reach Ltd,BSO",GB,1768
-AS9002,"RETN Limited,RETN-AS",GB,1531
-AS41095,"IPTP LTD,IPTP",GB,963
-AS3223,"Voxility LLP,VOXILITY",GB,958
-AS15830,"TELECITYGROUP INTERNATIONAL LIMITED,Equinix",GB,910
-AS30844,"Liquid Telecommunications Ltd,LIQUID-AS",GB,894
-AS8426,"Claranet Limited,CLARANET-AS",GB,852
-AS41811,"CONVERGENCE (GROUP NETWORKS) LIMITED,CONVERGENCE-GROUP",GB,726
-AS41695,"VOSTRON Limited,VOSTRON-AS",GB,674
-AS25160,"Vorboss Limited,VORBOSS_AS",GB,653
-AS15412,"Reliance Globalcom Limited,FLAG-AS",GB,496
-AS50300,"CustodianDC Limited,CUSTDC",GB,495
-AS44684,"Mythic Beasts Ltd,MYTHIC",GB,460
-AS9009,"M247 Ltd,M247",GB,396
-AS50763,"MCKAYCOM LTD,MCKAYCOM",GB,360
-AS60068,"Datacamp Limited,CDN77",GB,356
-AS5413,"Daisy Corporate Services Trading Ltd,AS5413",GB,333
-AS28792,"Public Internet Ltd,PUBLIC-INTERNET",GB,294
-AS31742,"Sota Solutions Ltd.,SOTACONNECT",GB,293
-AS8468,"Cityfibre Limited,ENTANET",GB,291
-AS25369,"Hydra Communications Ltd,BANDWIDTH-AS",GB,290
-AS35266,"EX Networks Limited,EXN-AS",GB,283
-AS199283,"STRUCTURED COMMUNICATIONS LIMITED,UKSCOMMS-AS",GB,271
-AS3170,"Etheroute Ltd,VELOXSERV",GB,263
-AS207841,"Inferno Communications Ltd,INFERNO",GB,253
-AS2856,"British Telecommunications PLC,BT-UK-AS",GB,239
-AS62240,"Clouvider Limited,Clouvider",GB,234
-AS61317,"IPXO UK LIMITED,ASDETUK",GB,204
-AS13213,"UK-2 Limited,UK2NET-AS",GB,199
-AS13285,"TalkTalk Communications Limited,OPALTELECOM-AS",GB,199
-AS6894,"KDDI Europe Ltd,KDDI-EUROPE",GB,193
-AS44444,"Forcepoint Cloud Ltd,Forcepoint-Cloud-AS",GB,191
-AS44356,"Epsilon Telecommunications Ltd,EPSILON",GB,174
-AS25577,"CloudCoCo Connect Limited,C4L-AS",GB,150
-AS39326,"HighSpeed Office Limited,HSO-GROUP",GB,150
-AS5400,"British Telecommunications PLC,BT",GB,148
-AS20860,"IOMART CLOUD SERVICES LIMITED,IOMART-AS",GB,145
-AS42831,"UK Dedicated Servers Limited,UKSERVERS-AS",GB,137
-AS47622,"Datatech UK Ltd,DATATECHUK",GB,130
-AS42689,"Glide Student & Residential Limited,Glide",GB,129
-AS60610,"Amito Ltd,EVEREST-AS",GB,128
-AS25180,"Exponential-E Ltd.,EXPONENTIAL-E-AS",GB,126
-AS31727,"Node4 Limited,NODE4-AS",GB,124
-AS61323,"UKFAST.NET LIMITED,UKFAST",GB,123
-AS56595,"Fluency Communications Ltd,FLUENCY",GB,121
-AS29017,"NTT Global Data Centers EMEA UK Ltd.,GYRON",GB,118
-AS61231,"SSE PLC,SSE-TELECOMS",GB,118
-AS20712,"Andrews & Arnold Ltd,AS20712",GB,117
-AS43531,"IX Reach Ltd,IXREACH",GB,117
-AS5089,"Virgin Media Limited,NTL",GB,117
-AS24916,"OrbitalNet Ltd,ORBITAL-ASN",GB,116
-AS8680,"Sure (Guernsey) Limited,SURE-International-Limited",GB,116
-AS201971,"CreeperHost LTD,CreeperHostLTD-AS",GB,114
-AS51043,"Aspire Technology Solutions Ltd,ASPIRE01",GB,112
-AS16082,"Spitfire Network Services Limited,SPITFIRE",GB,110
-AS12576,"EE Limited,EE",GB,110
-AS41230,"Ask4 Limited,ASK4",GB,110
-AS12390,"KCOM GROUP LIMITED,KINGSTON-UK-AS",GB,109
-AS25460,"The Networking People (TNP) Limited,TNP-AS",GB,108
-AS8530,"The Excell Group Limited,EXCELL",GB,107
-AS31708,"Coreix Ltd,COREIX-UK-AS",GB,107
-AS51561,"ICUK Computing Services Limited,AS-ICUK",GB,106
-AS61049,"Exascale Limited,EXASCALE",GB,106
-AS212175,"Iconic Network Services Ltd,ICONIC-AS1",GB,106
-AS49425,"Digital Realty (UK) Limited,DIGITAL-REALTY-UK",GB,105
-AS47638,"Cadence Networks Ltd,CADENCE-AS",GB,104
-AS786,"Jisc Services Limited,JANET",GB,104
-AS21472,"ServerHouse Ltd,SERVERHOUSE",GB,103
-AS206509,"KCOM GROUP LIMITED,KCOM-UK-AS",GB,103
-AS8607,"Digital Space Group Limited,TIMICO",GB,103
-AS16247,"M247 Ltd,M247-UK",GB,102
-AS39537,"SysGroup plc,HNS",GB,102
-AS34119,"Wildcard UK Limited,WILDCARD-AS",GB,102
-AS59659,"Securus Communications Ltd.,SECURUS",GB,102
-AS57356,"Highland Network Ltd,HIGHNET-AS",GB,101
-AS41107,"Backbone Connect Limited,backbone-connect",GB,100
-AS58273,"Broadband for the Rural North Limited.,B4RN-AS",GB,100
-AS209181,"Zenex 5ive Limited,ZENEX5IVE-NL",GB,100
-AS21267,"Wavenet Limited,WAVENET-AS",GB,99
-AS35071,"Xoom Limited,UK-XOOM-SYSTEMS-AS",GB,99
-AS62163,"IP River Limited,IPRIVER-AS",GB,99
-AS207701,"Talia Limited,DataGrid",GB,99
-AS35826,"Netservers Limited,NETSERVERS-AS",GB,98
-AS62217,"Vinters IT Ltd,VooServers",GB,98
-AS29006,"Veber Limited,POBOX-AS",GB,97
-AS56478,"Hyperoptic Ltd,BCUBE-AS",GB,97
-AS59395,"Southern Communications Ltd,EFAR-AS",GB,96
-AS208189,"Swish Fibre Ltd,UK-SWISH",GB,96
-AS13122,"Manx Telecom Trading Ltd,MANX-AS",GB,95
-AS199713,"MLL Telecom Ltd.,MLL-AS",GB,95
-AS6908,"Six Degrees Technology Group Limited,DATAHOP",GB,94
-AS199204,"Webmate Internet Services Ltd.,WebMate",GB,94
-AS16164,"Sohonet Limited,SOHONET-AS",GB,94
-AS56444,"Atmoso Limited,THECLOUDLIMITED",GB,93
-AS39175,"TouchTec Technology Limited,TOUCHTEC",GB,92
-AS43009,"Infobip Limited,INFOBIP-AS",GB,89
-AS5607,"Sky UK Limited,BSKYB-BROADBAND-AS",GB,89
-AS13002,"ISIX Communications LLP,ISIX-AS",GB,87
-AS29606,"Borwood Ltd,Borwood-UK-AS",GB,87
-AS49375,"Trunk Networks Limited,AS-TRUNKNETWORKS",GB,83
-AS205917,"SAS Global Communications Ltd.,sas_glcom",GB,83
-AS208621,"LogicForge Limited,logicforge",GB,82
-AS47474,"Virtual1 Limited,Virtual1",GB,81
-AS31463,"4D Data Centres Limited,FourD-AS",GB,81
-AS35180,"Broadsoft LTD,HIPCOM-AS",GB,78
-AS2818,"BBC,BBC",GB,77
-AS13009,"Redcentric Solutions Ltd,VDATA",GB,76
-AS47264,"LDeX Connect LTD,LDEX",GB,76
-AS200052,"Feral.io Ltd,FERAL",GB,76
-AS3213,"Bogons Ltd,BOGONS-ASN",GB,75
-AS206483,"Red Matter Limited,REDMATTER",GB,74
-AS51945,"ConnetU Ltd.,CONNETU",GB,72
-AS43872,"Optinet U.K. Limited,OPTINET",GB,71
-AS45014,"Nuco Technologies Ltd,HOSTIT-MK-AS",GB,71
-AS35228,"Telefonica UK Limited,O2BROADBAND",GB,71
-AS47480,"Blue Tiger Solutions Limited,BlueTigerSolutions-AS",GB,70
-AS29550,"Simply Transit Ltd,SIMPLYTRANSIT",GB,70
-AS34442,"Xifos Limited,AMATISNETWORKS",GB,70
-AS41495,"Faelix Limited,FAELIX",GB,69
-AS50287,"Audatex (UK) Ltd,AudatexUK",GB,69
-AS48024,"NEROCLOUD LTD,NEROCLOUD",GB,69
-AS29527,"Astutium Limited,ASTUTIUM-AS",GB,69
-AS25061,"Associated Networks (UK) Limited,ANLX-UK",GB,69
-AS33920,"(aq) networks limited,AQL",GB,68
-AS41000,"Freethought Internet Limited,Freethought-AS",GB,67
-AS12496,"Infinity Developments Limited,IDNET",GB,67
-AS3300,"British Telecommunications PLC,BT",GB,67
-AS3252,"Fiberax Networking&Cloud Ltd.,FBRX-AS",GB,66
-AS8683,"Nominet UK,NOMINET",GB,66
-AS43545,"Teledata UK Limited,TELEDATA",GB,66
-AS198781,"G3 Comms Limited,G3NS",GB,66
-AS5631,"Luminet Data Limited,LUMINET",GB,65
-AS21433,"Accenture UK Limited,AccentureFSSC",GB,65
-AS33941,"GConnect Technology Ltd,GCONNECT",GB,65
-AS34066,"Telappliant Limited,TELAPPLIANT-AS",GB,65
-AS30827,"Extraordinary Managed Services Ltd,XTRAORDINARY-AS",GB,65
-AS42010,"I.T. PROFESSIONAL SERVICES LIMITED,ITPS",GB,65
-AS5503,"RM Education Ltd,RMIFL",GB,65
-AS8282,"FidoNet Registration Services Ltd,FIDONET",GB,65
-AS31472,"VoiceHost Ltd,VOICEHOST",GB,65
-AS207995,"Lightning Fibre Ltd,LightningFibre",GB,65
-AS9153,"Burstfire Networks Ltd,BURSTFIRE-EU",GB,64
-AS25376,"Netnorth Limited,NETNORTH-ASN",GB,64
-AS34270,"Internet Connections Ltd,INETC",GB,64
-AS206067,"Hutchison 3G UK Limited,H3GUK",GB,64
-AS8851,"GCI Network Solutions Limited,EDGE",GB,64
-AS39356,"Avanti Broadband Ltd,Avanti-UK-AS",GB,64
-AS48101,"Trooli Ltd,TROOLI-AS",GB,64
-AS34768,"Smart Hosted Solutions Ltd,VIA",GB,63
-AS50957,"MEMSET Ltd,MEMSET",GB,63
-AS60793,"TELEFONICA TECH NORTHERN IRELAND LIMITED,OCEAN-AS",GB,63
-AS21099,"Game Retail Ltd,GAMEGROUP-UK-AS",GB,63
-AS61337,"Electronic Communities Ltd,ECOM-AS",GB,63
-AS24594,"Voiceflex Ltd,FSYS",GB,62
-AS41354,"ITS Technology Group Limited,its-tg",GB,62
-AS49823,"Hastingwood Securities Ltd,Hastingwood",GB,62
-AS50823,"PBX Hosting Ltd,PBXHOSTING",GB,62
-AS201838,"Community Fibre Limited,ASN-COMMUNITYFIBRE",GB,62
-AS20799,"Datanet.co.uk Ltd,DATANET-AS",GB,62
-AS5564,"Brightsolid Online Technology Ltd,SOL-AS",GB,61
-AS8902,"Internet For Business Ltd.,IFB",GB,61
-AS15510,"Compuweb Communications Services Limited,CWCS-PS",GB,61
-AS39202,"Global Radio Limited,GCAP-AS",GB,61
-AS61124,"Marston's Telecoms Limited,Marstons",GB,61
-AS196881,"Liberty-izone Ltd,LIBERTY-AS",GB,61
-AS16353,"Merula Limited,Merula",GB,61
-AS60255,"Internetty Ltd,InternettyUK",GB,61
-AS212806,"Stratagem Solutions Ltd,stratagem",GB,61
-AS48945,"OPEN FIBRE NETWORKS (WHOLESALE) LIMITED,IFNL-AS",GB,60
-AS51409,"sipsynergy Ltd,SIPSYNERGY",GB,60
-AS59933,"Sensical Services Limited,SENSICAL",GB,60
-AS61081,"DEFAULTROUTE LIMITED,DEFAULTROUTE",GB,60
-AS199659,"Suretec Systems Limited,SURETEC",GB,60
-AS201126,"CDW Ltd,CDW-UK-AS",GB,60
-AS212655,"YouFibre Limited,youfibre",GB,60
-AS29668,"vXtream Ltd,QUBE",GB,60
-AS8943,"Jump Networks Ltd,JUMP",GB,60
-AS6717,"Internet Central Limited,AS6717",GB,60
-AS49158,"Wifinity Ltd,WIFINITY",GB,60
-AS51055,"Bridge Fibre Limited,BRIDGEP-AS",GB,60
-AS56329,"Gigaclear Limited,GIGACLEAR",GB,60
-AS56990,"Syscomm Limited,SYSCOMM",GB,60
-AS60670,"WideFM Ltd,WideFM-LTD",GB,60
-AS198440,"Giganet Limited,Giganet",GB,60
-AS208802,"Netavo Global Data Services Ltd,Netavo",GB,60
-AS57099,"Boundless Networks Limited,BCL-AS",GB,59
-AS59455,"Clearstream Technology ltd,CSG-AS",GB,59
-AS198554,"DXI Limited,DXI-AS",GB,59
-AS201508,"Pure Broadband Ltd,Purebroadband",GB,59
-AS206934,"Beeks Financial Cloud Ltd,BFC-UK",GB,59
-AS41033,"D2 CLOUD COMMUNICATIONS LTD,D2-AS",GB,59
-AS44314,"ITsynergy Limited,ITSYNERGY",GB,59
-AS47998,"Oscar Music & Media Ltd.,OSCARMUSIC",GB,59
-AS59778,"Synextra Limited,SYNEXTRA-UK",GB,59
-AS203164,"Booking.com Transport Limited,Traveljigsaw-Ltd",GB,59
-AS50023,"VCG TECHNOLOGY SERVICES LIMITED,Vodat",GB,58
-AS51553,"Telecom Plus PLC,TelecomPlus",GB,58
-AS57653,"Central Technology Ltd,CTL-AS",GB,58
-AS62227,"CLOUDHELIX LIMITED,CLOUDHELIX",GB,58
-AS62244,"Watch Tower Bible and Tract Society of Britain,WBTSUK-AS",GB,58
-AS198736,"Stream Networks Ltd,StreamNetworks",GB,58
-AS201277,"Eloquent Technologies Ltd,Eloquent-AS",GB,58
-AS203568,"Airband Community Internet Ltd,airband",GB,58
-AS203582,"M-Tech Systems Ltd,mts",GB,58
-AS204264,"Pure IP Limited,PUREIP",GB,58
-AS199468,"GRAIN COMMUNICATIONS LIMITED,Solway-Comms-UK",GB,58
-AS5482,"Vitrifi Limited,AS5482",GB,58
-AS44965,"Contactual Inc.,CONTACTUAL",GB,58
-AS47631,"SIP Communications PLC,sipcom-net1",GB,58
-AS201261,"The Watershed Arts Trust Ltd,Watershed",GB,58
-AS206347,"Wessex Internet Limited,RANSTON-AS-1",GB,58
-AS49415,"VTSL Ltd,VTSL-AS",GB,58
-AS8681,"JT (Jersey) Limited,JT",GB,57
-AS16376,"SysGroup plc,SYSGROUP-PLC",GB,57
-AS20596,"Future Publishing Ltd,future",GB,57
-AS31631,"Telcom Networks Limited,TELCOM",GB,57
-AS34746,"AXA Insurance UK plc,AXA_INSURANCE",GB,57
-AS42004,"VOIP-UN LIMITED,ULGRP-AS",GB,57
-AS51823,"Microtalk Telecommunications Limited,MTNETWORKSLTD",GB,57
-AS57315,"YOUAND.CO.UK LIMITED,PUREBLUE-AS",GB,57
-AS197898,"Integrated Digital Services Ltd,IDSI",GB,57
-AS199330,"CentralNic Ltd,CENTRALNIC-ANYCAST-A",GB,57
-AS199335,"Talk Straight Ltd.,TALKSTRAIGHT",GB,57
-AS202596,"G.Network Communications Limited,GNETWORK",GB,57
-AS203649,"GO INTERNET LTD,goInternet",GB,57
-AS205389,"Zoom Internet Ltd,ZOOM-INTERNET",GB,57
-AS205892,"Nomical Ltd,NOMICAL",GB,57
-AS50489,"Ori Industries 1 Limited,ORIEDGE",GB,57
-AS51809,"BRSK Limited,BRSK",GB,57
-AS203421,"Baltic Broadband Limited,BALTICBROADBAND-AS",GB,57
-AS205479,"Luke Eiji Granger-Brown,LGB-AS",GB,57
-AS61215,"IIJ Europe Limited,IIJ-EXLAYER-AS",GB,57
-AS20679,"HighSpeed Office Limited,HSO",GB,56
-AS29611,"Elite Limited,ELITE-AS",GB,56
-AS42344,"Subtopia Ltd,CC-AS",GB,56
-AS58188,"Sharpstream Ltd,SHARPSTREAM",GB,56
-AS202282,"FIBRUS NETWORKS LTD,Fibrus",GB,56
-AS207456,"Pangea Connected Limited,PANGEA-CONNECTED",GB,56
-AS210627,"Grayshott Gigabit Limited,GrayshottGigabit",GB,56
-AS210874,"Box Broadband Limited,box-broadband",GB,56
-AS34407,"Wavecrest Networks Limited,WAVECREST-AS01",GB,56
-AS35437,"Zone Telecommunications Ltd,zonebroadband",GB,56
-AS42543,"OpenMarket Limited,OpenMarket",GB,56
-AS60377,"Toob Limited,TOOB",GB,56
-AS61226,"Flexiscale Technologies Limited,FLEXISCALE-AS",GB,56
-AS29452,"Secura Hosting Ltd,SECURA-AS",GB,55
-AS41484,"NYnet Ltd,nynet",GB,54
-AS48294,"Spectrum Internet Ltd,CC-AS",GB,54
-AS60198,"NodeMax Limited,NODEMAX",GB,54
-AS211597,"Lit Fibre Group Ltd.,Litfibre",GB,54
-AS35551,"TGL Services (UK) Ltd,ASSIMISIS-AS",GB,54
-AS5500,"CLOUDCOCO HOLDINGS LIMITED,CHESS",GB,53
-AS51159,"Think One Communications Ltd,THINKSYSTEMSUK-ASN",GB,53
-AS60800,"Netwise Hosting Ltd,NHL-AS1",GB,53
-AS202020,"Flexgrid Ltd,FLEXGRID",GB,53
-AS5459,"London Internet Exchange Ltd.,LINX-AS",GB,53
-AS15654,"Civica UK Ltd.,COMINO",GB,52
-AS199481,"K3 Hosting Limited,K3-RIPE-AS",GB,52
-AS212263,"Rocket Fibre Ltd,AS-ROCKETFIBRE",GB,52
-AS60868,"Runtime Collective Limited,BRANDWATCH-AS",GB,52
-AS6660,"Vodafone Limited,CWASIA",GB,52
-AS56474,"Computacenter (UK) Ltd,CCDCUK",GB,51
-AS211307,"Upp Corporation Limited,Fibreme",GB,51
-AS42044,"CentralNic Ltd,CENTRALNIC",GB,50
-AS49572,"Fujitsu Services Ltd.,FCN",GB,50
-AS58226,"Phusion IM Limited,PHUSIONIM",GB,50
-AS198722,"TxRx Communications Ltd,TXRX-AS",GB,50
-AS31595,"DATACENTRES LIMITED,Awell-Wireless-AS",GB,49
-AS200639,"Cross Computing Services Limited,Cross-Computing-Services",GB,49
-AS47999,"Verint Systems UK Limited,TCL-AS",GB,48
-AS59439,"EvolveIP LTD,VOICEFACTORY-AS",GB,48
-AS60890,"CentralNic Ltd,CENTRALNIC-ANYCAST-B",GB,47
-AS42909,"Community DNS Limited,COMMUNITYDNS",GB,47
-AS12488,"Krystal Hosting Ltd,KRYSTAL",GB,47
-AS13037,"Zen Internet Ltd,ZEN-AS",GB,46
-AS34555,"C.C.S. (Leeds) Ltd,CCS-Leeds-ASN",GB,45
-AS44749,"Pinnacom Ltd,Pinnacom-ISP",GB,45
-AS12703,"Pulsant (Scotland) Ltd,PULSANT-AS",GB,44
-AS44503,"Charterhouse Voice & Data Ltd.,CHARTERHOUSE",GB,44
-AS20915,"100 PERCENT IT LIMITED,HUNDRED-PERCENT-IT",GB,42
-AS206999,"Oakford Internet Services Ltd,oakfordis",GB,42
-AS200083,"Sub 6 Limited,SUB6",GB,40
-AS8444,"Henderson Administration Limited,HENDERSON",GB,38
-AS60426,"WightFibre Limited,WIGHTFIBRE",GB,37
-AS21396,"NetConnex Broadband Ltd.,NETCONNEX",GB,37
-AS13005,"Atlas Business Group of Companies Ltd,C2INTERNET",GB,36
-AS25098,"Netcalibre Ltd,NETCALIBRE",GB,36
-AS61012,"Livedrive Internet Ltd.,LIVEDRIVE",GB,36
-AS29009,"UK Broadband Ltd.,UKBROADBAND-AS",GB,35
-AS41678,"The Internet Business Ltd,TIBUS",GB,35
-AS197669,"CloudCall LTD,CLOUDCALL-UK-AS",GB,35
-AS57351,"HYPR HELIX LTD,HYPR",GB,35
-AS8676,"PRT Systems Limited,PRTSYSTEMS",GB,35
-AS51918,"Cerberus Networks Ltd,CERBERUSNETWORKS-AS",GB,34
-AS31655,"Gamma Telecom Holdings Ltd,ASN-GammaTelecom",GB,34
-AS15570,"InterNAP Network Services U.K. Limited,INAP-LON",GB,33
-AS34695,"The Crazy Red Cat Company LTD,E4A-AS",GB,33
-AS201933,"CXS Connected Enterprise Ltd.,CXSCE",GB,33
-AS8553,"Avensys Networks Ltd,AVENSYS",GB,33
-AS32708,"LoadEdge Limited,ROOT-NETWORKS",GB,32
-AS42228,"Brightstar Limited,Brightstar",GB,32
-AS29457,"Options Technology Ltd,OPTIONS-AS",GB,31
-AS203851,"CSD Network Services Ltd,as_csd001",GB,31
-AS47762,"WEST CLOUD CONTACT SOLUTIONS LIMITED,westcloud-AS",GB,31
-AS51263,"County Broadband Ltd,COUNTYBB",GB,31
-AS43323,"Vision247 Ltd,VISION247",GB,30
-AS206324,"Stellium Networks Limited,STELLIUM-DC",GB,30
-AS47935,"Quantum Communications Ltd,QUANTUMUK-AS",GB,30
-AS39875,"Zycomm Electronics Limited,W3Z",GB,29
-AS207310,"Cinos Communications Services Limited,cinos",GB,29
-AS49490,"Circlenet LLP,CIRCLENET-AS",GB,29
-AS34790,"TFM NETWORKS LIMITED,AS34790",GB,29
-AS211029,"XTX Markets Limited,XTX",GB,29
-AS59816,"Safe Hosts Internet LLP,SAFEHOSTS",GB,28
-AS12290,"Exonetric Consulting Ltd,EXONETRIC",GB,28
-AS47704,"Academia Ltd,ACADEMIA-AS",GB,27
-AS209505,"Unchained ISP Limited,UNCHAINEDISP",GB,27
-AS212694,"Applied Satellite Technology Ltd,AST_INTEGRA",GB,27
-AS212109,"Squirrel Internet Ltd,SQUIRREL",GB,26
-AS211501,"High Tide Group Limited,HIGHTIDEGROUP-AS",GB,26
-AS210412,"Hampstead Fibre Ltd,hampsteadfibre",GB,26
-AS30740,"Exa Networks Limited,EXA-NETWORKS",GB,25
-AS31515,"INMARSAT GLOBAL LIMITED,AS-INMARSAT",GB,25
-AS50292,"Access UK Ltd,STRATOGEN",GB,24
-AS50889,"NVIDIA Ltd,NGN-EMEA",GB,24
-AS51048,"Next Connex Ltd,NEXT-CONNEX",GB,24
-AS12519,"FastNet International Ltd,FASTNETUK",GB,24
-AS15692,"Razorblue Ltd,RAZORBLUE",GB,23
-AS42353,"Simwood eSMS Limited,SIMWOOD",GB,22
-AS201106,"Spartan Host Ltd,SPARTANHOST",GB,22
-AS31712,"Gigastream plc,GIGASTREAM-AS",GB,21
-AS35575,"Vaioni Group Ltd,VAIONI",GB,21
-AS60011,"Mythic Beasts Ltd,MYTHIC-BEASTS-USA",GB,21
-AS41847,"Daniel O'Mahony,STEALTH-NETWORKS",GB,20
-AS30914,"Redcentric Solutions Ltd,IOKO-AS",GB,19
-AS5378,"Vodafone Limited,",GB,19
-AS200675,"HYDRO66 UK Limited,HYDRO66",GB,18
-AS208188,"""Puget Sound Networks,PUGET-SOUND-NETWORKS",GB,18
-AS42579,"Comtec Enterprises Ltd,SARGASSO-EU-AS",GB,18
-AS208091,"XHOST INTERNET SOLUTIONS LP,XHOST-INTERNET-SOLUTIONS",GB,18
-AS28757,"Scotnet.co.uk Ltd,ASN-SCOTNET",GB,17
-AS34660,"iDAQ Ltd.,IDAQ-AS",GB,17
-AS139301,"Cloudcall Ltd,CLOUDCALL-LTD-AS-AP",GB,17
-AS29446,"ChunkyChips.net Limited,CHUNKYCHIPS-AS",GB,16
-AS44332,"Centrilogic Ltd,ASN-CENTRILOGIC-UK",GB,16
-AS51603,"Acme Internet Ltd,ACME-AS",GB,16
-AS42973,"Metronet (UK) Limited,METRONETUK_M24SEVEN",GB,16
-AS136620,"VMHaus Limited,VMHAUSLIMITED-AS-AP",GB,16
-AS16162,"London Web Ltd,LONDONWEB",GB,15
-AS41103,"teleBIZZ Ltd,CLEARIP-AS",GB,15
-AS42705,"Talia Limited,Talia",GB,15
-AS43013,"York Data Services Limited,YorkDataServices",GB,15
-AS51762,"Adversor LLP,BDC-ADV-UK",GB,15
-AS59953,"Purefibre Internet Ltd.,FIBRE-OPTIONS-AS",GB,15
-AS206626,"Professional Software Design Ltd,PSDGroup-AS",GB,15
-AS31084,"MAGRATHEA TELECOMMUNICATIONS LIMITED,MAGRATHEA-UK",GB,15
-AS34979,"39D Services LTD,ThirtyNineNetworks",GB,15
-AS8330,"LONAP Ltd,LONAP",GB,15
-AS31445,"Fiberax Networking&Cloud Ltd.,Cloud-AS",GB,14
-AS206819,"ANSON NETWORK LIMITED,anl-uk",GB,14
-AS8838,"Stripe 21 Group Limited,STRIPE21",GB,14
-AS12775,"JPC Infonet Ltd,JPCINET",GB,14
-AS208393,"Dedcloud Network Ltd,DEDCLOUD",GB,14
-AS39545,"Fluidone Ltd.,FLUIDATA",GB,14
-AS207080,"Jack Fillan,Basil-Fillan",GB,14
-AS16303,"IPSwitch Networks Ltd,Progressive",GB,13
-AS34890,"ASOS.COM Limited,ASOS-AS",GB,13
-AS64415,"Ashgoal Limited,CONNECTBIT-AS",GB,13
-AS204598,"Village Networks Ltd.,AS-VILLAGENETWORKS",GB,13
-AS50131,"Spartan Host Ltd,SPARTANHOST",GB,13
-AS202297,"Skylon Solutions Limited,SKYLON",GB,13
-AS132865,"G3 Network Services Ltd,GNSL-AS-AP",GB,13
-AS200498,"Perella Weinberg Partners UK LLP,PWP-ASN",GB,13
-AS56482,"Gigabit Networks Ltd,GIGABIT-AS",GB,13
-AS47121,"SenseMakers B.V.,SENSEMAKERS",GB,13
-AS56745,"Kalnet4u Ltd,KALNET4U",GB,12
-AS43599,"Broadband N.I. Ltd.,NWEWN-AS",GB,12
-AS12701,"Barclays Bank plc,BARCAP",GB,12
-AS44794,"PEERIX LTD,PEERIXNET",GB,12
-AS60079,"Electromagnetic Field Ltd.,EMF-AS",GB,12
-AS197520,"UnionCOM Ltd,UNIONCOM",GB,12
-AS28959,"Vitol London Ltd.,VITOL-AS",GB,11
-AS62059,"Turbo Leisure Ltd,CONWAYBB16-AS",GB,11
-AS199103,"CASTLAKE COMPANY LP,CASTLAKE-AS",GB,11
-AS35788,"Forcepoint Cloud Ltd,Forcepoint-Cloud-AMER-AS",GB,11
-AS15533,"SunGard Availability Services (UK) Ltd,SASEUROPE",GB,11
-AS209199,"Cloud Unboxed Limited,Cloud-Unboxed-Limited",GB,11
-AS51601,"IPTP LTD,IPTP",GB,11
-AS44646,"Gamesys Ltd.,Gamesys-NET",GB,10
-AS48910,"InterNAP Network Services U.K. Limited,INAP-FRA",GB,10
-AS200700,"Broadcast Media Communications Ltd,BMC_UK-1",GB,10
-AS205394,"CSL (DualCom) Limited,CSLDUAL-AS",GB,10
-AS209635,"Red Matter Limited,RedMatter-Internal",GB,10
-AS51329,"CONNECTION NETWORKS L.P.,CONNET-AS",GB,10
-AS15773,"Inclarity Communications Ltd,Inclarity",GB,9
-AS24867,"Adapt Services Limited,Adapt-AS",GB,9
-AS47890,"UNMANAGED LTD,UNMANAGED-DEDICATED-SERVERS",GB,9
-AS50088,"Fort Information Technologies Ltd,FITL-IE",GB,9
-AS204558,"Odyssey Systems Ltd,ODYSSEY",GB,9
-AS205996,"Interfiber Ltd,Interfiber",GB,9
-AS206078,"UltraNetworks Limited,UltraNetworks",GB,9
-AS60672,"ServerChoice Ltd,SC",GB,9
-AS207960,"AS207960 Cyfyngedig,AS-TRANSRIGHTS",GB,9
-AS49134,"10VPN Research Network LTD,AS_10VPN",GB,9
-AS24958,"CYBERFORT LIMITED,TBSH",GB,8
-AS48273,"essensys Ltd,ESSENSYS",GB,8
-AS51551,"Capita Business Services Ltd,CAPITA-AS",GB,8
-AS62313,"Proact IT UK Limited,PROACT-AS",GB,8
-AS198426,"Voneus Ltd,Voneus",GB,8
-AS199516,"PACKNET LIMITED,PACKNET-AS",GB,8
-AS199775,"Connexin Limited,Connexin-Limited",GB,8
-AS200904,"FOXCLOUD LLP,FOXCLOUD",GB,8
-AS200994,"Club Communications Ltd,CLUB-AS-001",GB,8
-AS205072,"Layershift Limited,LAYERSHIFT",GB,8
-AS51782,"Voneus Ltd,VONEUS",GB,8
-AS61414,"EDGENAP LTD,EDGENAP",GB,8
-AS202818,"LUMEN TECHNOLOGIES UK LIMITED,Level3Communications",GB,8
-AS20832,"Fuse 2 Communications Ltd,FUSE2",GB,8
-AS50173,"GTT - EMEA Ltd.,VTESSE",GB,8
-AS203380,"DA International Group Ltd.,DAInternationalGroup",GB,8
-AS59813,"Konstantin Verba,DELIGHTFIBER-AS",GB,8
-AS211323,"MrSheepNET LTD,MRSHEEPNET-AS",GB,8
-AS5555,"Sohonet Limited,SOHONETEU-AS",GB,8
-AS60438,"Cloudie Networks Limited,AS-CLOUDIE",GB,8
-AS29129,"Vispa Limited,VISPA-ASN",GB,7
-AS44521,"Jagex Limited,Jagex-as",GB,7
-AS47582,"ANSON NETWORK LIMITED,ansonnet-as-uk",GB,7
-AS61373,"Connect The World Ltd.,CTW",GB,7
-AS208638,"Mimecast Services Limited,mimecast-it-corp",GB,7
-AS42009,"AVR Group Limited,AVR-AS",GB,7
-AS213150,"Laurence White,INDIGO-SYS",GB,7
-AS30931,"IG Index Ltd.,IGINDEX-PLC",GB,7
-AS47219,"NTT Global Data Centers EMEA UK Ltd.,GYRON-CORP",GB,7
-AS51392,"Fusioned Ltd,FUSIONED",GB,7
-AS5587,"Itility Limited,ITILITY-LIMITED",GB,6
-AS30967,"Truphone Limited,TRUPHONE-LTD",GB,6
-AS31641,"Atlas Communications (NI) Ltd,ATLAS-COMMUNICATIONS-AS",GB,6
-AS34931,"Awareness Software Limited,AWARESOFT",GB,6
-AS39522,"Converged Communication Solutions Limited,CONVERGED",GB,6
-AS57168,"Amito Ltd,ICH-AS",GB,6
-AS199286,"Abtec Network Systems LTD,ANS-AS",GB,6
-AS200961,"FIL INVESTMENT MANAGEMENT LIMITED,FWI2-ASN",GB,6
-AS206576,"ATOMWIDE LIMITED,ATOMWIDE",GB,6
-AS44022,"Barclays Bank PLC,BARCLAYS-RETAIL",GB,6
-AS57586,"TOURLINK ORGANIZATION LLP,VENSERVE-AS",GB,6
-AS41477,"LMAX Limited,LMAX",GB,6
-AS49915,"Megaport (UK) Limited,MEGAPORT-GLOBAL-ACCESS",GB,6
-AS206924,"Ben Cartwright-Cox,BENJOJONET",GB,6
-AS59445,"ICC NETWORKS LTD,ICC-AS",GB,6
-AS48254,"20i Limited,TWENTYI",GB,6
-AS48591,"Ipreo Ltd,ipreo-AS",GB,6
-AS16260,"GTT - EMEA Ltd.,GTT-AUS",GB,6
-AS41281,"KeFF Networks Ltd,KEFF",GB,6
-AS201493,"Noble Systems UK Ltd,NSCEMEA1",GB,6
-AS211371,"Telet Research (N.I) Limited,TELET",GB,6
-AS56460,"Telefonica UK Limited,O2-WIFI-AS",GB,6
-AS31404,"LYCATEL DISTRIBUTION UK LIMITED,Lycatel-AS",GB,5
-AS34934,"UKFAST.NET LIMITED,UKFast",GB,5
-AS41400,"R.M. Wotton T/A G-Net Online,GNOL-AS",GB,5
-AS47768,"Intis Telecom LLP,INTISTELECOM-AS",GB,5
-AS48804,"GMO GlobalSign Ltd,GLOBALSIGN",GB,5
-AS58349,"Elna Paulette Lafortune trading as INNETRA PC,INNETRA-AS",GB,5
-AS60102,"Sova Capital Limited,SOVA-CAPITAL",GB,5
-AS199569,"Cognizant Worldwide Limited,Cognizant-EU-AS",GB,5
-AS201471,"Bigstep Cloud Limited,BIGSTEP-CLOUD",GB,5
-AS204055,"CentralNic Ltd,CentralNic-Anycast-H",GB,5
-AS205544,"LEASEWEB UK LIMITED,LEASEWEB-UK-LON-11",GB,5
-AS206747,"UK Ministry of Defence,NCSC",GB,5
-AS208420,"Link Connectivity Limited,LCL",GB,5
-AS213078,"WiFi Scotland LLP,wifiscotland",GB,5
-AS199055,"UKCLOUD LTD,UKCLOUD-AS",GB,5
-AS15753,"BP International Ltd,BP-US-2",GB,5
-AS12789,"DMG Media Limited,DMG-Media-Limited",GB,5
-AS28690,"Barclays Bank PLC,ING-DIRECT-UK",GB,5
-AS2129,"EntServ UK Limited,HP-EUROPE-AS-TRADE",GB,5
-AS60977,"NVIDIA Ltd,NVIDIA-NGN",GB,5
-AS201714,"Link IP Networks Ltd,LinkIPNetworks",GB,5
-AS28939,"ARM Ltd,ARM-AS",GB,5
-AS4785,"xTom Limited,XTOM-AS-JP",GB,5
-AS56533,"Netcracker Technology EMEA Limited,NetCracker-AS",GB,5
-AS8336,"THE INNOVATION GROUP (EMEA) LTD,InnovationGrpEMEA",GB,5
-AS207087,"Pay360 Ltd,pay360",GB,5
-AS212581,"BidFX Systems Ltd.,BIDFX",GB,5
-AS29646,"FFastfill UK Limited,FFastFill-AS",GB,5
-AS201542,"Mitel Networks Limited,micloud",GB,5
-AS25108,"IOMART HOSTING LIMITED,IOMART-APAC-AS",GB,5
-AS41415,"Square Enix Limited,square-enix",GB,5
-AS60819,"Safenames Ltd.,SAFENAMES-AS",GB,5
-AS8897,"KCOM GROUP LIMITED,KCOM-SPN",GB,5
-AS42513,"Natilik Ltd,NATILIK-AS",GB,5
-AS9179,"FidoNet Registration Services Ltd,FIDO-ANYCAST",GB,5
-AS201093,"Telit Communications PLC,telit-as",GB,5
-AS20952,"VENUS BUSINESS COMMUNICATIONS LIMITED,VENUS-INTERNET-AS",GB,5
-AS48266,"Catixs Ltd,CATIXS",GB,5
-AS207427,"GoHosted.eu LTD,gohosted",GB,5
-AS44574,"Network Services Ltd.,A4N",GB,5
-AS13126,"Satellite Mediaport Services Ltd.,SMS-NET",GB,4
-AS15768,"WorldPay (UK) Limited,ASWORLDPAY",GB,4
-AS20878,"MeetingZone Limited,ATIA-AS",GB,4
-AS28789,"London Capital Group Limited,LCG",GB,4
-AS29045,"IT Action Limited,ITACTION",GB,4
-AS29636,"catalyst2 Services Limited,CATALYST2-AS",GB,4
-AS33854,"Nuco Technologies Ltd,HOSTIT-AS-NN",GB,4
-AS41357,"34SP.com Limited,UK-34SP-AS",GB,4
-AS43519,"Nominet UK,NOMINETANYCAST",GB,4
-AS44226,"Acturis Ltd,acturis-eu",GB,4
-AS44371,"Paypoint Network Limited,PPN",GB,4
-AS48447,"Sectigo Limited,Sectigo",GB,4
-AS48620,"Beaming Ltd,BEAMING",GB,4
-AS49683,"MASSIVEGRID LTD,MASSIVEGRID",GB,4
-AS50468,"CITRUS TELECOMMUNICATIONS LTD,CITRUS-AS",GB,4
-AS60015,"Codestone Solutions Limited,CODESTONECLOUD",GB,4
-AS60758,"Deluxe UK Holdings Limited,DMC-AS",GB,4
-AS199883,"ArubaCloud Limited,ARUBACLOUDLTD-ASN",GB,4
-AS201902,"Bicom Systems Ltd.,BICOM",GB,4
-AS203416,"I.T Communications Limited,it-comms-AS",GB,4
-AS203795,"FIDELIS MARKETING LIMITED,uk-fidelis-1-as",GB,4
-AS205402,"Intercity Managed Services Ltd.,INTERCITY-TECH-THN",GB,4
-AS206686,"Nominet UK,NOMRES1",GB,4
-AS206733,"Beeks Financial Cloud Ltd,BFC-HK",GB,4
-AS207162,"L3C Limited,l3climited-as",GB,4
-AS29575,"London Stock Exchange PLC,LONDSTOCK-AS",GB,4
-AS43915,"TrueSpeed Communications Limited,TRUESPEED",GB,4
-AS204353,"Global Offshore Host Limited,GLOBALOFFSHORE",GB,4
-AS196722,"SCHWEIZERISCHE NATIONALBANK,SCHWEIZERISCHE-NATIONALBANK",GB,4
-AS21439,"Morgan Stanley & Co. International PLC,MORGAN-STANLEY",GB,4
-AS49744,"Intuit Ltd.,INTUIT-UK",GB,4
-AS51439,"AIG EUROPE (SERVICES) LIMITED,CHARTIS-UK-SERVICES-LTD",GB,4
-AS60187,"London Grid for Learning Trust,LGFL-AS",GB,4
-AS8435,"Lloyds Banking Group PLC,LBG_INTERNET_EDGE",GB,4
-AS29033,"Eckoh UK Limited,ASN-Medius",GB,4
-AS35707,"Scottish Power UK PLC,Scottish-Power-PLC",GB,4
-AS43949,"Marsh Limited,MMC",GB,4
-AS48954,"AIMES Management Services Ltd,AIMES-AS",GB,4
-AS34282,"UKDedicated LTD,UKNOC-AS",GB,4
-AS47611,"Warner Music International Services Limited,WMI-UK-LON",GB,4
-AS202787,"Withers LLP,withers-ldn",GB,4
-AS204322,"New York Times Limited,uk-nyt-lhr1",GB,4
-AS25464,"Telesign Mobile Limited,TELESIGN-AS",GB,4
-AS16089,"Etheroute Ltd,ETHEROUTE",GB,4
-AS21339,"Contingency Networks Ltd,ContingencyNetworks",GB,4
-AS39116,"Telehouse International Corporation of Europe Ltd,Telehouse",GB,4
-AS204321,"New York Times Limited,uk-nyt-cdg1",GB,4
-AS43251,"Websense SC Operations Limited,SURFCONTROL-READING",GB,4
-AS197355,"Forex Capital Markets Limited,UK-FOREX-AS",GB,4
-AS207543,"DOWNUNDER GEOSOLUTIONS (LONDON) PTY LIMITED,DUG-APIC-AUS",GB,4
-AS15641,"Arqiva Communications Ltd,Arqiva",GB,4
-AS28695,"Auto Trader Limited,ASN-TRMEDIAAS",GB,4
-AS29664,"Reliance Globalcom Limited,RGCOM-VANCO-HAI",GB,4
-AS41231,"Canonical Group Limited,CANONICAL-AS",GB,4
-AS49882,"Skrill Holdings Limited,SKRILL",GB,4
-AS43408,"Orange Cyberdefense UK Limited,OCD-UK",GB,4
-AS60653,"""FEEDLY,FEEDLY-DEVHD",GB,4
-AS201506,"Incito Limited,INCITO",GB,4
-AS202695,"Modern Networks Services Ltd,MODERN-UK",GB,4
-AS38870,"BGC Partners,BGCP-AP",GB,4
-AS47143,"Todayhost Limited,TDHN",GB,4
-AS34465,"NCRYPTD NET LTD,NCRYPTD",GB,4
-AS44471,"Thomas Menari,MENARI",GB,4
-AS57164,"VNP DIGITAL Ltd.,VNP",GB,4
-AS60193,"Wurzel Ltd,wurzel",GB,4
-AS60735,"Konstantin Verba,DELIGHTVPS-AS",GB,4
-AS211244,"Henri Watson,CANIDAE-SYSTEMS",GB,4
-AS43950,"""Terence Froy trading as """"Spilsby Internet Solutions"""""",SPILSBY-AS",GB,4
-AS211612,"Datacamp Limited,cache77",GB,4
-AS197529,"CSL (DualCom) Limited,EMIZON-AS",GB,4
-AS202312,"SMBC NIKKO CAPITAL MARKETS LIMITED,SMBCNIKKOCM",GB,4
-AS35425,"IOMART HOSTING LIMITED,BYTEMARK-AS",GB,4
-AS43108,"GARMTECH LP,GARM-AS",GB,4
-AS203961,"CentralNic Ltd,CentralNic-Anycast-G",GB,4
-AS206637,"CSL (DualCom) Limited,IQIP-AS",GB,4
-AS207734,"QUIKA LTD,Quika",GB,4
-AS6759,"Pelion IoT Limited,IOTX",GB,3
-AS9086,"Docklands Data Centre Ltd,ASN-DOCKLANDS-DATA-CENTRE-LTD",GB,3
-AS12658,"Dexterity Networks Limited,DXNET-AS",GB,3
-AS24633,"Xicon Limited,XICON",GB,3
-AS30894,"SINCH UK LTD.,SINCH-MBLOX-AS",GB,3
-AS31562,"OpenMarket Limited,OPENMARKET",GB,3
-AS34350,"Man Investments Limited,MANGROUP",GB,3
-AS34499,"BlackBox Hosting Ltd,BlackBox-LINX",GB,3
-AS34967,"DRD Communications Limited,DRD-AS",GB,3
-AS35327,"Naglotech Limited,NAGLOTECH",GB,3
-AS38963,"Pulsant (South Gyle) Limited,PulsantGer",GB,3
-AS39097,"Maintel Europe Limited,MAINTEL-LTD-UK",GB,3
-AS39458,"Real Hosts Limited,REALHOSTS-AS",GB,3
-AS41379,"Nationwide Telephone Assistance Ltd,NTA-AS",GB,3
-AS41489,"Watchfront Limited,WF-AS",GB,3
-AS41538,"Inspired Gaming (UK) Limited,INSPIRED-AS",GB,3
-AS41951,"GlobecastUK Ltd,GlobecastUK",GB,3
-AS44981,"Oosha Ltd,Oosha",GB,3
-AS45033,"TelcoSwitch Limited,TELCOSWITCH",GB,3
-AS48463,"Tradition Financial Services Ltd.,TRADITIONGROUP",GB,3
-AS48549,"Bringo Group Ltd,BRINGOGROUP",GB,3
-AS51490,"Proper Support LLP,PROPER-AS",GB,3
-AS51545,"zsah Limited,ZSAH",GB,3
-AS51845,"WATERSTONS LIMITED,WATERSTONS-AS",GB,3
-AS56396,"Amobee EMEA Limited,Amobee",GB,3
-AS57624,"Beeks Financial Cloud Ltd,BeeksFX",GB,3
-AS59717,"Arco Limited,ARCO-AS",GB,3
-AS59803,"DATAQUEST (HEATHROW) LIMITED,cceip",GB,3
-AS59820,"Astro Communications LTD,Astro",GB,3
-AS59836,"CBRE Limited,CBRE-EMEA",GB,3
-AS60045,"Kube Networks Ltd,KUBE-AS",GB,3
-AS60241,"High-Speed Universal Broadband Services C.I.C.,HUBS-EDIN",GB,3
-AS60969,"GetOnline Limited,GetOnline",GB,3
-AS60981,"Triangle Networks Ltd,TRIANGLE-AS",GB,3
-AS61001,"RESPONSETAP LIMITED,RTAP100100-RIPE",GB,3
-AS62262,"Qubic Group Limited,QUBICAS",GB,3
-AS197017,"NICEIC Group Ltd,NICEIC",GB,3
-AS197594,"Redstor Limited,REDSTOR-AS",GB,3
-AS198701,"Axis Specialty US Services Inc.,AXIS-CAPITAL-NET",GB,3
-AS201867,"Gunix Ltd,OXAGON-AS",GB,3
-AS203315,"Web Wiz Ltd,WebWiz",GB,3
-AS204167,"Hyve Ltd,hyve",GB,3
-AS204260,"Registers of Scotland,RoS",GB,3
-AS204413,"Hyve Ltd,HYVE-UK",GB,3
-AS204979,"London Internet Exchange Ltd.,LINX-SCO1",GB,3
-AS205847,"BorderLink Broadband Limited,BORDERLINK",GB,3
-AS207195,"IP Wholesale Ltd,ipwholesale",GB,3
-AS207695,"DIGIBITUK LTD,DIGI-NET",GB,3
-AS209043,"East Point Business Services Ltd,EPBS",GB,3
-AS210920,"Civo LTD,CIVO-FRANKFURT",GB,3
-AS212551,"Nuvoteq Ltd,NUVOTEQ",GB,3
-AS28729,"Ford Motor Company Limited,FORD-AS",GB,3
-AS49765,"Comms365 Limited,Comms365",GB,3
-AS21369,"Atos IT Services UK Ltd,SEMA-UK-AS",GB,3
-AS50422,"Royal Bank of Scotland plc,RBS-GBM",GB,3
-AS50432,"Royal Bank of Scotland plc,RBS-GBM-UKSTAFF",GB,3
-AS29131,"IOMART CLOUD SERVICES LIMITED,RAPIDSWITCH-AS",GB,3
-AS9011,"The Patent Office,",GB,3
-AS21054,"THE ROYAL BANK OF SCOTLAND PLC,RBSG-UK-AS",GB,3
-AS21188,"Unilever PLC,UNILEVER-ES-UK",GB,3
-AS21301,"Royal Bank of Scotland plc,RBS-FM-AS",GB,3
-AS25421,"John Lewis Plc.,JOHN-LEWIS-AS",GB,3
-AS41383,"Wolseley UK Limited,wolasn",GB,3
-AS48083,"Getronics Services UK Limited,GETRONICSUK_AS",GB,3
-AS49758,"Lloyds Banking Group PLC,LLOYDSBANKING",GB,3
-AS51318,"STANDARD CHARTERED BANK,STANDARD-CHARTERED-BANK-AS",GB,3
-AS11856,"XC Technology Holdings LTD,XCONNECT-TECH",GB,3
-AS39208,"I.P. Integration Limited,IPILimited",GB,3
-AS48950,"GLOBAL COLOCATION LIMITED,GLOBALCOLOCATION",GB,3
-AS56894,"OIJ LTD,OIJ",GB,3
-AS59565,"Cronos Internet Ltd,CRONOS-AS",GB,3
-AS203443,"INDERT CONNECTION LP,INDERTCONNECTION",GB,3
-AS208855,"UK BANDWIDTH LIMITED,BANDWIDTH-EU",GB,3
-AS213202,"Cloudnet Computing Ltd,The-Cloud-Systems-Group",GB,3
-AS31459,"BBC,BBC-RD-AS",GB,3
-AS49657,"Transaction Network Services (UK) LTD,TNSI",GB,3
-AS20695,"Capital One (Europe) Plc,C1UK-AS",GB,3
-AS20705,"HSBC Bank plc,HSBC-UK",GB,3
-AS21296,"Pricewaterhouse Coopers Services Ltd,ASN-PwC-UK",GB,3
-AS39550,"KPMG LLP,KPMG-UK-LLP-AS",GB,3
-AS49318,"Cancom UK Managed Services Limited,ARC-AS-UK",GB,3
-AS56644,"Synergy Financial Systems LTD,SYNFS-AS",GB,3
-AS57002,"William Hill Organization Ltd,WHORGLTD",GB,3
-AS198032,"Cambridge Assessment,UCLES-AS",GB,3
-AS202466,"QBE Management Services (UK) Limited,qbeeo",GB,3
-AS204045,"Compass Plus (Great Britain) Limited,COMPASSPLUSGB-AS",GB,3
-AS206289,"TSB BANKING GROUP PLC,sabis",GB,3
-AS207552,"Cambridge Consultants Limited,cambridge-consultants",GB,3
-AS50271,"""MESP,MESP",GB,3
-AS34587,"Hillside (Technology) Ltd,HLM2-AS",GB,3
-AS41203,"DPDgroup UK Ltd,GEOPOST",GB,3
-AS42427,"Mimecast Services Limited,MIMECAST-UK",GB,3
-AS49354,"TANGO NETWORKS UK LTD,SIMETRIC",GB,3
-AS49485,"High Availability Hosting Limited,HAHOSTING",GB,3
-AS39150,"HOSTING TELECOM LTD,HOSTING-TELECOM-AS",GB,3
-AS43444,"Blockchain Network Solutions Ltd,BNS-AS",GB,3
-AS15989,"NYSE TECHNOLOGIES LIMITED,SFTI-EU",GB,3
-AS28780,"The PCMS Group plc,PCMS-AS",GB,3
-AS30762,"dotdigital EMEA Ltd,DOTMAILER-AS",GB,3
-AS49216,"Voxeo Europe Limited,voxeo-de",GB,3
-AS200147,"Hosting Techniques Limited,ASHTL",GB,3
-AS202149,"Comcast International Holdings UK Limited,platformuk",GB,3
-AS203184,"FNZ HOLDINGS UK LIMITED,FNZ-EU",GB,3
-AS207784,"HybrIT Services Ltd,HYBIT-SERVICES",GB,3
-AS202167,"ZeniMax Germany GmbH,ZeniMax-Germany",GB,3
-AS202443,"WINE AND FOOD PARTNERS LTD,WINE-AS",GB,3
-AS15914,"British Airways plc,",GB,3
-AS15992,"Visa Europe Limited,VISA-EUROPE",GB,3
-AS16050,"Refinitiv Limited,Refinitiv-Slough-LO5-res-AS",GB,3
-AS21260,"The Positive Internet Company Ltd,POSITIVE-INTERNET-UK-AS",GB,3
-AS28846,"ITV PLC,ASCARLTONTV",GB,3
-AS29016,"Pearson Shared Services Ltd,PEARSON-EMEA",GB,3
-AS39588,"Mimecast Services Limited,MIMECAST-DE",GB,3
-AS39767,"Sargasso Networks Ltd.,SARGASSO-AS",GB,3
-AS197107,"Blue Chip Customer Engineering Ltd,BlueChip",GB,3
-AS201358,"FNZ (UK) Ltd,FNZ-UK",GB,3
-AS204204,"Point72 UK Limited,uk_point72uklimited",GB,3
-AS8651,"MUFG Securities EMEA PLC,MUSI",GB,3
-AS34914,"Syntec LTD,SYNTEC-AS",GB,3
-AS202310,"Hyve Ltd,hyve-corp",GB,3
-AS12536,"IX Reach Ltd,",GB,3
-AS51059,"Brightbox Systems Ltd,BRIGHTBOX-AS",GB,3
-AS206049,"Communicate Technology PLC,COMMUNICATE",GB,3
-AS208035,"Venom IT Ltd,VENOM-ASN",GB,3
-AS209082,"Swlines Ltd,SWLINES",GB,3
-AS209336,"GB Wholesale Networks LTD,GBWS",GB,3
-AS212174,"Jola Cloud Solutions Ltd,jola",GB,3
-AS212633,"EE Mobile Telecom Ltd,EE-Mobile",GB,3
-AS211392,"DREAM CLOUD INNOVATION LIMITED,softbank",GB,3
-AS7598,"Forcepoint Cloud Limited,Forcepoint-Cloud-APAC-AS",GB,3
-AS139853,"NOMINET UK,NOMINET-AS-AP",GB,3
-AS41362,"Royal London Management Services Limited,BGNET",GB,3
-AS16174,"Intuitiv Ltd.,INTUITIV-AS",GB,3
-AS31474,"Viacom International Media Networks U.K. Limited,MTV-UK-AS",GB,3
-AS47351,"Red Technology Solutions Limited,REDTECH",GB,3
-AS8457,"INDEXSCOPE LIMITED,",GB,3
-AS42332,"EKCO LONDON LIMITED,TSC",GB,3
-AS199367,"Globe Business Publishing Limited,AS_GBP",GB,3
-AS31547,"McKinsey & Company Inc United Kingdom,MCK-EUROPE-AS",GB,3
-AS59410,"Barritec Ltd,BARRITEC",GB,3
-AS59876,"Thomas James Elliott,SHELFSPACE",GB,3
-AS207654,"11207547 CANADA S.A.R.F.,TheNetWerx",GB,3
-AS208590,"Lasagna Ltd,AVE-AS",GB,3
-AS42465,"Forcepoint Cloud Ltd,FORCEPOINT-ANYCAST-AS",GB,3
-AS60759,"""netsapiens,IAASRUN-EMEA-AS",GB,3
-AS44931,"TNT Express ICS Limited,TNT-EXP-ICS",GB,3
-AS56637,"Fixnetix Ltd,Fixnetix",GB,3
-AS57483,"Ian Chilton,ICHILTON",GB,3
-AS31493,"TWENTYTWENTYMEDIA LIMITED,TWENTYTWENTYMEDIA-AS",GB,3
-AS47227,"Charles Briscoe-Smith,SERVOLOGY",GB,3
-AS57907,"CloudConnX Limited,CLOUDCONNX",GB,3
-AS44980,"Paul Cairney,AS44980",GB,3
-AS13173,"Foreshore Limited,FORESHORE-AS",GB,3
-AS60200,"Victor Connect Ltd.,VCC-UK",GB,3
-AS199164,"Tipicall Limited,TIPICALL-AS",GB,3
-AS24865,"Keith Mitchell,KMITCHELL-AS",GB,3
-AS133084,"Jisc Collections and Janet Limited,JANET-AP",GB,3
-AS25040,"I.T. Consultancy Limited,ITCONSULT-AS",GB,3
-AS203185,"PEBBLETREE LTD,PebbleTree",GB,3
-AS25048,"DSNET Ltd,DSNet",GB,3
-AS39003,"TELECITYGROUP INTERNATIONAL LIMITED,EQUINIX-UK-LD10-ASN",GB,3
-AS132899,"URNET SOLUTIONS LTD.,USL-AS-AP",GB,3
-AS212903,"Banyan Solutions Ltd.,TBSCG",GB,3
-AS213059,"Mythic Beasts Ltd,MYTHIC-ANYCAST",GB,3
-AS40966,"Utransit International Carrier Limited,VALUEHOST-AS",GB,3
-AS43207,"Quickline Communications Limited,QUICKLINE",GB,3
-AS48570,"Auriga Kore Limited,AURIGAKORE",GB,3
-AS206918,"Department for Work and Pensions,DWP",GB,3
-AS206607,"Nexus Bytes LLC,Nexus-Bytes",GB,3
-AS35008,"Lee Hetherington,KERFUFFLE",GB,3
-AS210206,"Metro Security (GB) PLC,METROSECURITY-AS",GB,3
-AS205373,"Rightmove Group Limited,rightmove",GB,3
-AS209609,"The Cent.re Group Limited,The-Cent-re-Group-Limited",GB,3
-AS205654,"Labtech Systems Ltd,ASN-LABTECH",GB,3
-AS212027,"Daniel Jackson,PebbleHost",GB,3
-AS49396,"Llwynygorras Cyf,LLWYNYGORRAS",GB,3
-AS204044,"EtherReach Ltd,OneCloud",GB,3
-AS60036,"Dyfed IT Solutions Ltd,DYFED-IT-SOLUTIONS",GB,3
-AS213119,"ALZ Software Ltd,ALZ-SOFTWARE-AS",GB,3
-AS60945,"VeloxServ Communications Ltd,VELOXSERV-LEGACY",GB,3
-AS212728,"Psittacus Systems LIMITED,PSITTACUSSYSTEMS-AS",GB,3
-AS42081,"European Centre for Medium-Range Weather Forecasts (ECMWF),ecmwf-it",GB,2
-AS2589,"Wanstor Ltd,WANSTOR",GB,2
-AS9142,"THE INTERNEXUS GROUP LIMITED,",GB,2
-AS12884,"DRW Investments (UK) Limited,DRW-Investments-AS",GB,2
-AS16238,"Telecom2 Ltd.,TELECOM2-AS",GB,2
-AS16334,"Sureline Communications Limited,Sureline-Communications-UK",GB,2
-AS16349,"Fon Wireless LTD,FON-AS-2",GB,2
-AS20652,"Unitron Systems & Development LTD,UNITRON-AS",GB,2
-AS20955,"Proquest Information and Learning Ltd,PROQUEST-UK",GB,2
-AS21130,"IOMART CLOUD SERVICES LIMITED,IOMART-IE",GB,2
-AS21233,"Atlas Business Group of Companies Ltd,ASN-C2INTERNET",GB,2
-AS24720,"Avensys Networks Ltd,AVENSYS-TRANSIT-AS",GB,2
-AS25022,"TDM Group Limited,TDMGROUP",GB,2
-AS28786,"Endava Managed Services Ltd,ASN-INSL",GB,2
-AS28914,"Cloud9 Communications Ltd,WIRENINE-AS",GB,2
-AS29120,"Mayer Brown International LLP,ROWEMAW-AS",GB,2
-AS29164,"IOMART GROUP PLC,IOMARTHOSTING-EU",GB,2
-AS31015,"Hill and Knowlton Strategies,HILL-KNOWLTON",GB,2
-AS31151,"PERFORMANCE HORIZON GROUP LIMITED,PHG-AS",GB,2
-AS33921,"Lebara Ltd,Lebara-AS",GB,2
-AS34654,"Merula Limited,IONIC-AS",GB,2
-AS35399,"Online50 Limited,ITIO-AS",GB,2
-AS35825,"Guardian News and Media Limited,GUARDIAN-AS",GB,2
-AS35838,"CCANET Limited,CCANET",GB,2
-AS39070,"APII.IO Limited,APII_IO",GB,2
-AS39477,"Vectone Mobile Limited,Mundio-Mobile",GB,2
-AS39849,"Sage Pay Europe Ltd,PTX-AS",GB,2
-AS41936,"Colt International Ltd,COLT-GROUP",GB,2
-AS42466,"Meteoric Ltd,METEORIC-AS",GB,2
-AS42611,"Zzoomm,ZZOOMM",GB,2
-AS43383,"alwaysON Limited,Cloud_Direct",GB,2
-AS44205,"Indigo Integrated Solutions Limited,INDIGOICS",GB,2
-AS44706,"Monty UK Global Limited,ASN-SPACTRON",GB,2
-AS44782,"Forex Capital Markets Limited,UK-FOREX-AS",GB,2
-AS47318,"West Midlands Ambulance Service NHS Foundation Trust,WMAS",GB,2
-AS47549,"Hosting Systems Ltd,HOSTINGSYSTEMS-AS",GB,2
-AS47563,"Sports Information Services Limited,SIS-AS",GB,2
-AS47823,"Netwise Hosting Ltd,NHL-AS2",GB,2
-AS49454,"Internal Systems Limited,ISL-UK",GB,2
-AS49751,"Internet For Everything Ltd.,INTERNET-FOR-EVERYTHING",GB,2
-AS49829,"ADM COMPUTER SERVICES LIMITED,ADM-ASN",GB,2
-AS49928,"PRISACOM S.A.,PRISACOM-AS",GB,2
-AS50152,"Intermedia Technologies Company Limited,IMED",GB,2
-AS50202,"Hiscox Underwriting Group Services Ltd,HISCOXGROUP-AS",GB,2
-AS50605,"Radius Communications Ltd,Radius",GB,2
-AS50746,"Britannic Technologies Ltd,BTL",GB,2
-AS51047,"Turtle Networks Ltd,TURTLE-NET",GB,2
-AS51572,"Cerulean Solutions Limited,CERULEAN",GB,2
-AS51965,"Monecor (London) Ltd,MONECOR-AS",GB,2
-AS56730,"Wirehive Limited,Wirehive-AS",GB,2
-AS57022,"DataVita Limited,DATAVITA-AS",GB,2
-AS57276,"Optimity Ltd,OPTIMITY",GB,2
-AS57307,"Blaze Networks Ltd,BLAZE-NETWORKS",GB,2
-AS57408,"Reed Smith LLP,REED-SMITH-EU-ASN",GB,2
-AS58144,"THE STREAMING COMPANY.COM LIMITED,ASN-TSC",GB,2
-AS59597,"4COM TECHNOLOGIES LIMITED,FOURCOM",GB,2
-AS60157,"Antheus Telecom Ltd,ANTHEUS",GB,2
-AS60257,"Ob Realisations 2021 Limited,Origin",GB,2
-AS60885,"Zengenti Ltd.,zengenti",GB,2
-AS60898,"Aquis Exchange PLC,AQUIS-EXCHANGE",GB,2
-AS60925,"BPP Services Limited,BPP-ASN",GB,2
-AS61097,"Softcat Ltd,Cloudsoftcat",GB,2
-AS62195,"Stantec UK Limited,MWH-UK-AS",GB,2
-AS62417,"DIGITALK Limited,DIGITALK_CLOUD_THW",GB,2
-AS196628,"EUROLINK CONNECT LIMITED,EURO-POP-1",GB,2
-AS196839,"Virtual Universe LTD,VU-AS",GB,2
-AS198328,"Trayport Limited,TRAYPORT-AS",GB,2
-AS198623,"ISUMO Ltd,ISUMO-UK",GB,2
-AS199456,"VALID TECHNOLOGY L.P.,VLDTECH-ASN",GB,2
-AS199799,"Soundmouse Ltd,SOUNDMOUSE",GB,2
-AS200541,"Frontier Voice and Data Ltd,fvd-as1",GB,2
-AS200870,"Retail Technology Services Ltd,RTSL_AS",GB,2
-AS201301,"Soundmouse Ltd,soundmouse-iomart",GB,2
-AS202013,"Mobile Internet Limited,MIL-POP",GB,2
-AS202052,"CTS Group Ltd,CTS-GROUP",GB,2
-AS202206,"Fat Hosting Limited,MOTIVE",GB,2
-AS202454,"Pine Media Ltd,PINE-MEDIA",GB,2
-AS202793,"OCTET TELECOMMUNICATIONS (UK) LIMITED,OCTET",GB,2
-AS202978,"Xiria Ltd,XIRIA",GB,2
-AS203177,"BCS Global Networks Limited,PINNACA",GB,2
-AS203354,"Viewsat ltd,VIEWSAT-AS",GB,2
-AS203818,"Marshall Wace Asset Management Ltd,mwam",GB,2
-AS203897,"CONTENT+CLOUD LIMITED,ITLAB",GB,2
-AS204050,"Yoti Ltd,Yoti",GB,2
-AS204242,"Trutec Services,TRUTECS-AS",GB,2
-AS204414,"The OxFORD Asset Management Company Limited,OXAM",GB,2
-AS204630,"Network Office System LLP,NETWORK-OFFICE-SYSTEM-LLP",GB,2
-AS204731,"Persimmon Homes Ltd.,fibrenest",GB,2
-AS205098,"Cloud Gateway Limited,CGUK",GB,2
-AS205114,"The WEST Retail group LImited,wrtgltd",GB,2
-AS205177,"IVANTI UK LIMITED,IVANTI-UK",GB,2
-AS205545,"JIWA Holdings Ltd,E-WIRE",GB,2
-AS205765,"Saunderson House Limited,Saunderson-House",GB,2
-AS205944,"ISAM FUNDS (UK) LIMITED,ISAM1",GB,2
-AS206143,"Networked Creativity LLP,asn-networked2",GB,2
-AS206232,"Acuity Unified Communications Limited,AcuityUC",GB,2
-AS206352,"Media Connective LLP,MEDIACONNECTIVE",GB,2
-AS206372,"Orca IT Ltd,ORCA-AS",GB,2
-AS206547,"Keyloop Holdings (UK) Limited,CDK-Global-EU",GB,2
-AS206689,"Beeks Financial Cloud Ltd,bfc-ty3",GB,2
-AS206690,"Beeks Financial Cloud Ltd,BFC-FR2",GB,2
-AS206870,"Brightcloud Ltd,bcg-as",GB,2
-AS207096,"Link Web Solutions LLP,aslinkweb",GB,2
-AS207673,"Perform Content Services Limited,UK-PERFORMCONTENT",GB,2
-AS208121,"VIEWMEDIA INTERNET SERVICES LTD,VWMEDIA",GB,2
-AS208176,"Hyve Ltd,HYVE-MANAGED-HOSTING",GB,2
-AS208311,"Bourne Leisure Limited,BOURNELEISURE",GB,2
-AS208522,"Optimus Networks LTD,uk-optimus",GB,2
-AS208636,"SDC Hosting and Support Ltd,SDC",GB,2
-AS208784,"TELROCK SYSTEMS LIMITED,ASTLRK",GB,2
-AS208804,"Technological Services Limited,Technological",GB,2
-AS208895,"Intelligence Hosting Services Limited,intelligencehs",GB,2
-AS209452,"Zuri Technologies Limited,ZuriTechnologies",GB,2
-AS209540,"Expedia.com Ltd.,EXPEDIA-DUBLIN",GB,2
-AS209765,"ASPIRE MEDIA GROUP LIMITED,AspireMedia",GB,2
-AS210054,"The Network Control Group Limited,TNCG",GB,2
-AS210258,"Wildanet Ltd,Wildanet",GB,2
-AS211178,"Digital Infrastructure LTD,DIGITALINFRA-AS",GB,2
-AS211298,"Constantine Cybersecurity Ltd.,CYBER-CASA",GB,2
-AS211460,"COWEN INTERNATIONAL LIMITED,cowenuk",GB,2
-AS211675,"Layershift Limited,LAYERSHIFT-NETWORKS",GB,2
-AS212047,"Civo LTD,CIVO-USA",GB,2
-AS212158,"TransFICC Ltd.,TransFICC",GB,2
-AS212404,"Integral UK Limited,Integral",GB,2
-AS212406,"TransFICC Ltd.,TransFICC",GB,2
-AS212486,"KIGEN (UK) LIMITED,kigen",GB,2
-AS212711,"Daniel Terrence Thorpe,NETSPAWN",GB,2
-AS212807,"RockIT Networks Limited,RockIT-Net",GB,2
-AS213016,"Holker Network Solutions Ltd,holker-network-solutions",GB,2
-AS29400,"TP ICAP GROUP SERVICES LIMITED,TULLETT-AS",GB,2
-AS34099,"Road Tech Computer Systems Ltd.,ROAD-TECH-COMPUTER-SYSTEMS",GB,2
-AS35452,"Affinion International Limited,CIMS-LON-UK",GB,2
-AS41596,"Willis Group Services Ltd,WGSL-AS",GB,2
-AS50445,"Wirefast Limited,WIREFAST",GB,2
-AS199675,"Willis Group Services Ltd,WGSLEDC",GB,2
-AS203652,"IBM UK Limited,IBMUK",GB,2
-AS206024,"RELX GROUP PLC,RBI-UK-DualHoming",GB,2
-AS206457,"Electronic Arts Limited,EA-IE-GALWAY",GB,2
-AS15770,"Durham County Council,DERWENTSIDE",GB,2
-AS29626,"Staffordshire County Council,STAFFSCC",GB,2
-AS33967,"Lancashire County Council,GB-LANCSCC",GB,2
-AS35832,"Birmingham City Council,BGFL",GB,2
-AS44403,"Bristol City Council,BRISTOL-CITY-COUNCIL",GB,2
-AS49728,"Herefordshire Council,HEREFORDSHIRE-COUNCIL",GB,2
-AS51704,"South West Grid for Learning Trust Ltd.,SWGFL",GB,2
-AS52215,"Hampshire County Council,HAMPSHIRE-COUNTY-COUNCIL",GB,2
-AS60282,"Coventry City Council,COVCITYCOUNCIL",GB,2
-AS199131,"City of York Council,CITY-OF-YORK-COUNCIL",GB,2
-AS204486,"Cheshire East Borough Council,CHES-EAST",GB,2
-AS207039,"Satellite Applications Catapult Limited,SAC-AS",GB,2
-AS209198,"Offshore Renewable Energy Catapult,AS-ORECAT",GB,2
-AS209237,"NPL Management LTD,NPL-MANG-LTD",GB,2
-AS204819,"WPM Software Ltd,AS204819",GB,2
-AS8698,"NATIONWIDE BUILDING SOCIETY,",GB,2
-AS15865,"Elliott Advisors UK (Ltd),ELLIOTT-UK-AS",GB,2
-AS24775,"Qinetiq Limited,AS24775",GB,2
-AS31003,"Iron Mountain Europe (Group) Limited,IRON-MOUNTAIN-UK-AS",GB,2
-AS43355,"GATWICK AIRPORT LIMITED,GATWICK-AIRPORT",GB,2
-AS49694,"Masternaut Limited,UK-FR-MNLTD",GB,2
-AS50948,"AMDOCS (UK) LIMITED,amdocs-uk-dc-as",GB,2
-AS59756,"Enquest Britain Limited,ENQUEST-AS",GB,2
-AS59809,"21 IN Ltd,AS21IN",GB,2
-AS60962,"Foreign and Commonwealth Office,BZ",GB,2
-AS196744,"Capita Business Services Ltd,CAPITA",GB,2
-AS197085,"Sykes Global Services Ltd,SYKES-EUROPE-LTD-AS",GB,2
-AS200614,"Veritas Technologies (UK) Limited,VRTS-GPK",GB,2
-AS202953,"Avis Budget Services Ltd.,ukavisbudgetgroup",GB,2
-AS204236,"MDS Global Limited,uk-mdscem",GB,2
-AS206237,"Barclays Bank PLC,BARCLAYS_BPS",GB,2
-AS206335,"Hudson Global Resources Ltd,HUDSON-GLOBAL-RESOURCES-LTD",GB,2
-AS206798,"""HUAWEI TECHNOLOGIES(UK)CO.,UK-Huawei",GB,2
-AS47791,"Electronic Arts Limited,EA-FI-HELSINKI",GB,2
-AS202176,"FINALTO TRADING LIMITED,tradetech",GB,2
-AS206800,"Electronic Arts Limited,EA-SE-STOCKHOLM",GB,2
-AS207155,"Home Web Development LLP,HomeWebDev",GB,2
-AS207601,"Electronic Arts Limited,EA-FR-LYON",GB,2
-AS207602,"Electronic Arts Limited,EA-CH-GENEVA",GB,2
-AS209723,"EXPERT NETCLOUD LLP,AS_Expert",GB,2
-AS210878,"Treadstone Business Development S.R.L.,Treadstone-AS-UK",GB,2
-AS210892,"Lightspeed Networks Ltd,LightSpeed",GB,2
-AS60933,"QUALCOMM (UK) LIMITED,QUALCO-IL",GB,2
-AS132119,"BNP Paribas,BNP-PARIBAS-AP",GB,2
-AS200416,"Betgenius Limited,BG-TAL",GB,2
-AS199944,"Cardinia Real Estate UK Limited,CDS-EMEA",GB,2
-AS205006,"Holland & Barrett International Limited,hollandandbarrett",GB,2
-AS13205,"British Telecommunications PLC,",GB,2
-AS15601,"Baring Investment Services Ltd,",GB,2
-AS15689,"Advanced IT Services Nottingham Ltd,ASNUM-ORG-AISN1-RIPE",GB,2
-AS21208,"YOUNG & RUBICAM MADRID SL,YOUNG-AND-RUBICAM",GB,2
-AS21464,"EDF Trading Ltd,EDF-AS",GB,2
-AS21470,"South West Communications Group Ltd,SWISP-AS",GB,2
-AS25050,"VOCALINK LTD,BACS-AS",GB,2
-AS25585,"Kencomp Internet Ltd,KENCOMP",GB,2
-AS31632,"OAG Aviation WorldWide Limited,OAG-AS",GB,2
-AS38936,"Herman Miller LTD,HMUK-AS",GB,2
-AS39461,"EDF Energy Nuclear Generation Group Ltd,BE-AS",GB,2
-AS41021,"Ebuyer UK Limited,EBYR-HOWDEN-AS",GB,2
-AS41919,"Genesys Telecommunications Laboratories-Europe Limited,GENESYS-UK",GB,2
-AS41988,"PPP Taking Care Ltd,TAKING-CARE-AS",GB,2
-AS43014,"""Kirkland & Ellis International,Kirkland-AS",GB,2
-AS44268,"JCB Excavators Ltd,JCB-AS",GB,2
-AS44480,"Brevan Howard Asset Management LLP,Brevan-Howard-AS",GB,2
-AS44617,"HBK EUROPE MANAGEMENT LLP,HBK-London",GB,2
-AS47113,"Suffolk Life Pensions Limited,SLP",GB,2
-AS47534,"VOCALINK LTD,VocaLink-north-Ltd",GB,2
-AS48639,"Rentsmart Ltd,RENTSMART-LTD",GB,2
-AS50203,"Reynolds and Reynolds Limited,UK-Reynolds-ASN",GB,2
-AS50826,"Moelis & Company UK LLP,Moelis-and-Company-UK-LLP",GB,2
-AS51953,"Sagentia Ltd,sciencegroup-uk",GB,2
-AS57377,"LONDON BOROUGH OF MERTON,LONDON-BOROUGH-OF-MERTON",GB,2
-AS197409,"Co-operative Group Limited,CO-OPERATIVE-GROUP-AS",GB,2
-AS198386,"THRIVE OPERATIONS LIMITED,ONI",GB,2
-AS199462,"NETISP LTD,NETISP-UK-AS",GB,2
-AS201528,"Orchid Cellmark Ltd,ORCHID-CELLMARK-CHORLEY",GB,2
-AS201536,"Sandyx Systems Limited,SANDYXHOSTING-AS",GB,2
-AS202364,"Grid Hosting Limited,gridh",GB,2
-AS202679,"Deltatre Limited,ASD3M",GB,2
-AS202907,"Atomic IT Limited,ATOMICIT",GB,2
-AS203171,"Chi Technology Ltd,CHITECHNOLOGY",GB,2
-AS204103,"Locheilnet CIC,locheilnet",GB,2
-AS205693,"Driver & Vehicle Licensing Agency,dvla",GB,2
-AS206166,"Schroder Investment Management Limited,SCHRODERS-UK-AS",GB,2
-AS206467,"Protech Communications Ltd,PROTECH-COMMS",GB,2
-AS206773,"MSX International Ltd,MSXI",GB,2
-AS207120,"JHCS Ltd,JHCSLtd",GB,2
-AS207245,"DSTI Holdings Limited,DSTI-ASN",GB,2
-AS211389,"Briant Broadband Limited,briantbroadband",GB,2
-AS6859,"DIGITAL CONTINUITY LIMITED,KCP-AS",GB,2
-AS8952,"NTT Europe Limited,NTT-EUROPE",GB,2
-AS30803,"Trident Net Limited,TRIDENT-NET",GB,2
-AS49182,"British Telecommunications PLC,BTEngageIT",GB,2
-AS49229,"ANS Group Limited,ANS-GROUP-AS",GB,2
-AS133882,"PARAGON INTERNET GROUP LIMITED,PARAGONINTERNETGROUP-AS-AP",GB,2
-AS205739,"Allness IT Ltd,Allness-NET",GB,2
-AS59817,"Oxletech Limited,OXLETECH",GB,2
-AS30943,"Utransit International Carrier Limited,UTRANSIT-AS",GB,2
-AS35624,"Silverstar Invest Limited,SILVERSTAR-AS",GB,2
-AS209015,"Ten Time Limited,TenTime-AS",GB,2
-AS50648,"PE UAinet,UAINET-AS",GB,2
-AS15568,"European Bank for Reconstruction and Development,EBRD",GB,2
-AS29019,"Morningstar Europe Limited,MORNINGSTAR-EUROPE",GB,2
-AS31402,"Rank Digital Limited,BlueSquare",GB,2
-AS31743,"Interpublic GIS (UK) Ltd,IPGGIS-UK-AS",GB,2
-AS34697,"Emerson Electric UK Limited,EMERSON-EMA-AS",GB,2
-AS42944,"Ticketmaster UK Limited,TICKETMASTER-EU",GB,2
-AS43520,"Meytel Publicidad S.L.,MEYTEL-AS",GB,2
-AS44426,"Synectics Solutions Ltd,SYNECTICS-AS",GB,2
-AS44829,"MSCI Barra SA.,MSCIBARRA-AS",GB,2
-AS48967,"Cboe Europe Limited,BATS_TRADING",GB,2
-AS50965,"LEONHARD KURZ STIFTUNG & CO. KG,LEONHARD-KURZ-STIFTUNG",GB,2
-AS60038,"TripAdvisor Limited,TAMG",GB,2
-AS60736,"TIG LIMITED,The-Internet-Group",GB,2
-AS64485,"Shoretel UK Limited,ST-UK",GB,2
-AS196933,"Atlas Interactive Group Ltd.,AIGL",GB,2
-AS199710,"DAZN MEDIA SERVICES LIMITED,PERFORM-AS",GB,2
-AS200552,"1 Click Services Limited,oneclick",GB,2
-AS201478,"Refinitiv Limited,REDI_TECH",GB,2
-AS204777,"telent Technology Services Ltd,telent",GB,2
-AS205039,"Beacon Broadband LTD,BeaconBroadband",GB,2
-AS205615,"SS&C Solution Limited,SSC",GB,2
-AS208098,"GLOBAL PROCESSING SERVICES (UK) LIMITED,GPS",GB,2
-AS208180,"Converge-it.Net Ltd,cts",GB,2
-AS24949,"AXA Technology Services UK Limited,BTCML-AXA-AS",GB,2
-AS205492,"Schroder Investment Management Limited,SCHRODERS-ZUR-AS",GB,2
-AS16085,"INFOBOLSA S.A.,ASN-INFOBOLSA",GB,2
-AS16096,"The Sporting Exchange Ltd,betfair",GB,2
-AS21459,"Advanced 365 LTD,GNSEUROPEUK-AS",GB,2
-AS30909,"Fastvision Limited,FASTVISION",GB,2
-AS31198,"Telenor UK Ltd,Telenor-UK-Ltd-AS",GB,2
-AS31202,"QUALCOMM (UK) LIMITED,QUALCOMM",GB,2
-AS31223,"Electronic Arts Limited,EA-UK-LHR",GB,2
-AS34007,"Proquote Limited,Proquote",GB,2
-AS42046,"Independent Television News Limited,ITN",GB,2
-AS48553,"Marketaxess Europe Ltd,MARKETAXESS",GB,2
-AS52220,"BAWAG P.S.K. Bank fuer Arbeit und Wirtschaft und Oesterreichische Postsparkasse Aktiengesellschaft,BAWAG-AT-AS",GB,2
-AS59902,"IQVIA SOLUTIONS HQ LTD,Frankfurt",GB,2
-AS59907,"IQVIA SOLUTIONS HQ LTD,IMSHealth",GB,2
-AS60825,"Citrix Systems UK Ltd.,CITRIXSYSTEMS-AS-UK",GB,2
-AS133782,"Elsevier Ltd,ELSEVIER-ASIAPACIFIC-AS-AP",GB,2
-AS196745,"Datacenta Hosting Ltd,DATACENTA-AS",GB,2
-AS197282,"Wood Group Management Services Ltd,WGMAST",GB,2
-AS197852,"Renaissance Capital Limited,RENCAP-AS",GB,2
-AS197872,"Electronic Arts Limited,EA-NL-AMSTERDAM_DC",GB,2
-AS198850,"Hogarth Worldwide Limited,HOGARTH-WORLDWIDE",GB,2
-AS199455,"Virgin WiFi Ltd,ARQWIFI",GB,2
-AS199479,"Encompass Digital Media Services Ltd,WRN-AS",GB,2
-AS199764,"Electronic Arts Limited,EA-RO-BUC",GB,2
-AS199828,"I-Net Communications Group PLC,Inet-Plc-AS",GB,2
-AS199875,"Electronic Arts Limited,EA-ES-MAD",GB,2
-AS200564,"Alfa Financial Software Limited,CHP-Consulting",GB,2
-AS200597,"DIGITALK Limited,DIGITALK-SG1",GB,2
-AS201739,"Metranet Communications Ltd.,METRANET-AS",GB,2
-AS202166,"NetDocuments Limited,UKNETDOCS",GB,2
-AS202517,"Zopa Financial Services Limited,ZOPA",GB,2
-AS203107,"""Gemini Europe,Gemini-Exchange",GB,2
-AS205011,"Celer Technologies Limited,celertechuk",GB,2
-AS205052,"Vision Data Solutions LLP,VISIONDATASOLUTIONS",GB,2
-AS205294,"Thermo Electron Ltd,ThermoFisher",GB,2
-AS205767,"Spectron Services Limited,Spectron-Services",GB,2
-AS206071,"Electronic Arts Limited,EA-DE-COLOGNE",GB,2
-AS206939,"Yospace Technologies Ltd,YOSPACE",GB,2
-AS207524,"London Stock Exchange PLC,LONDSTOCK-US",GB,2
-AS208697,"Kellogg Management Services (Europe) Limited,KMSL-AS",GB,2
-AS209080,"ED & F MAN HOLDINGS LIMITED,ASN-EDFMAN",GB,2
-AS211552,"Civo LTD,CIVO-UK",GB,2
-AS211836,"StarLeaf Ltd.,STARLEAF",GB,2
-AS212031,"BIT Solutions Ltd,BITSolutions-AS",GB,2
-AS212797,"Perform Content Services Limited,UK-PERFORMCONTENT",GB,2
-AS56640,"BAIN AND COMPANY INC UNITED KINGDOM,BAIN-AND-COMPANY-INC-UNITED-KINGDOM",GB,2
-AS15677,"Crealogix MBA Limited,",GB,2
-AS24661,"MDS TECHNOLOGIES LIMITED,COMPLETEDATA-AS",GB,2
-AS39341,"Acxiom U.K. Limited,AcxiomEU-AS",GB,2
-AS44366,"MASTERCARD PAYMENT GATEWAY SERVICES GROUP LIMITED,DATACASH-AS",GB,2
-AS62224,"""Bullhorn,BullhornUK",GB,2
-AS207511,"London Stock Exchange PLC,LONDSTOCK-APAC",GB,2
-AS25582,"Linix Ltd,ASN-LINIX",GB,2
-AS44504,"Andy Davidson,DEV-AS",GB,2
-AS60333,"The University of Manchester,UOMCOMM",GB,2
-AS200751,"Entigy Ltd,Entigy",GB,2
-AS133479,"Keyloop (UK) Limited,KEYLOOP-AS-AP",GB,2
-AS9580,"Elsevier Ltd,REED-ELSEVIER-IND-APAC-AP",GB,2
-AS198723,"University of Reading,UNI-READING",GB,2
-AS8669,"Total Web Solutions Ltd,TOTALWEBSOLUTIONS",GB,2
-AS35456,"Fubra Limited,FUBRA-AS",GB,2
-AS39103,"Moat Homes Limited,as_moat",GB,2
-AS39382,"Optinium Ltd,OPTINIUMWH-AS",GB,2
-AS39730,"Eircom (UK) Ltd,EIRCOM-UK",GB,2
-AS42880,"EntServ UK Limited,HP-BCRS-UK",GB,2
-AS51489,"T-Systems Limited,UK-TS-AS",GB,2
-AS51766,"Merseyside Fire and Rescue Service,MFRS-AS",GB,2
-AS51905,"Compuweb Communications Services Limited,CWCS-VM",GB,2
-AS56929,"WANDSWORTH-BOROUGH-COUNCIL,WBC-NET",GB,2
-AS60382,"Cranleigh School,CRANLEIGH-AS",GB,2
-AS64456,"Vitality Corporate Services Limited,VITALITY",GB,2
-AS196778,"Transport for London,TFL",GB,2
-AS197104,"Gentoo Group Limited,GENTOO-AS",GB,2
-AS197370,"Nottinghamshire County Council,NOTTSCC",GB,2
-AS198142,"Warrington Borough Council,Warrington-AS",GB,2
-AS208118,"N.I Technology Ltd.,NI-Technology-Ltd",GB,2
-AS209363,"Web Age Ltd,sco-webage-20190220",GB,2
-AS210216,"HCL Technologies UK Limited,hcluk-as-ms",GB,2
-AS213000,"Alliance Medical Limited,ASAML",GB,2
-AS8791,"Foehn Limited,FOEHN",GB,2
-AS196809,"FremantleMedia Limited,FM",GB,2
-AS208564,"Bedroq Limited,bedroq",GB,2
-AS212465,"Comcast International Holdings UK Limited,COMCAST-UK-2",GB,2
-AS205855,"Evolution Gaming LTD,EG-AS",GB,2
-AS9090,"PR Newswire Europe Ltd.,PRNE",GB,2
-AS34640,"NEX Services Limited,NEX-CORP-UK",GB,2
-AS35831,"Vnetrix Ltd,VNETRIX-AS",GB,2
-AS40992,"Marex Financial Ltd,MAREX",GB,2
-AS43525,"Trenchant Limited,TRENCHANT-AS",GB,2
-AS47572,"Ticketmaster UK Limited,TICKETMASTER-EU2",GB,2
-AS50510,"Cancer Research UK,CRUK-AS",GB,2
-AS53335,"BlueCrest Capital Management LP,BCM-US",GB,2
-AS200008,"Pirum Systems Limited,PIRUM-AS",GB,2
-AS202114,"Blue Sky Systems Limited,Blue_Sky_Systems",GB,2
-AS203372,"GSA Capital Services Ltd,GSACAPITAL-EU-AS",GB,2
-AS205337,"Hardy Fisher Services Limited,firstnetsolutions",GB,2
-AS211306,"Treadstone Business Development S.R.L.,Treadstone-AS",GB,2
-AS15418,"Fasthosts Internet Limited,FASTHOSTS-INTERNET",GB,2
-AS210203,"RETN Limited,RETN-IT-AS",GB,2
-AS42853,"HGC Global Communications (UK) Limited,HGCINTL-AS",GB,2
-AS199133,"Via-Vox Ltd,via-vox-as",GB,2
-AS9140,"Hyperneph Ltd,HYPERNEPH",GB,2
-AS20629,"Six Degrees Technology Group Limited,UK-BIS",GB,2
-AS33975,"NetConsult Ltd,NETCONSULT-AS",GB,2
-AS44671,"Skyline Networks & Consultancy Ltd,SKYLINE-ASN",GB,2
-AS34134,"FreeClix Ltd,FREECLIX",GB,2
-AS43126,"Little Moe LLC,LMN-AS",GB,2
-AS47693,"Legend Communications Limited,LEGENDCOM",GB,2
-AS50888,"Minotaur I.T. Limited,MINOTAUR-ASN",GB,2
-AS51313,"Highland Wireless & IT Solutions Ltd,highlandwireless",GB,2
-AS208781,"Smart Capital Technology Limited,UK-SMARTCT1-20190320",GB,2
-AS7603,"GENE COMPUTING LTD.,GENECOMPUTINGLTD-AS-AP",GB,2
-AS25426,"D.FI Services SAS,BRAINTEC-AS",GB,2
-AS21423,"Komax AG,Komax-Holding-AS",GB,2
-AS29214,"THE HOUSE OF COMMONS,HOUSES-OF-PARLIAMENT",GB,2
-AS41866,"INTERFAX COMMUNICATIONS LIMITED,InterfaxInc-AS",GB,2
-AS42479,"KLDiscovery Limited,KWW-UK-AS",GB,2
-AS44305,"Six Degrees Technology Group Limited,SIXDG-US-EQDC5",GB,2
-AS44745,"Fidessa PLC,FIDESSA-AS",GB,2
-AS48906,"ERGO Insurance Service GmbH,ERGO-AT-AS",GB,2
-AS49819,"Shopzilla Europe Ltd,SHOPZILLAEU",GB,2
-AS50246,"360 Treasury Systems AG,TREASURYSYSTEMS-AS",GB,2
-AS57453,"VTB CAPITAL PLC,VTB-Bank-Europe-AS",GB,2
-AS197039,"Nomura International Plc,NOMURA-NET1-AS1",GB,2
-AS198567,"ED & F MAN CAPITAL MARKETS LIMITED,ED-AND-F-MAN-HOLDINGS-AS",GB,2
-AS200038,"Hewlett-Packard Limited,UK-HP-AUTONOMY",GB,2
-AS200682,"Trustees of the London Clinic Limited,TLC-ASN",GB,2
-AS205237,"SAVILLS PLC,SAVILLS-PLC",GB,2
-AS205468,"GAM (U.K.) Limited,GAM-UK-LTD",GB,2
-AS207241,"IBKR Financial Services AG,IBKR-GB-AS",GB,2
-AS28819,"ISOBAR LONDON LIMITED,eCm-Sofia",GB,2
-AS12628,"JACO ENGELBRECHT,SCREAMING-NET-AS",GB,2
-AS198957,"System Force I.T. Ltd,SYSTEMFORCE_AS",GB,2
-AS199448,"N.T.E. Limited,NTE-AS",GB,2
-AS199629,"4MS Network Solutions Ltd.,NET-4MS",GB,2
-AS203035,"Xara Computers (UK) Ltd,xc360",GB,2
-AS203425,"SysGroup plc,RockfordIT",GB,2
-AS198753,"The Excell Group Limited,METROPOINT",GB,2
-AS210208,"Electronic Arts Limited,EA-IL-CAESAREA",GB,2
-AS58040,"Host Lincoln Limited,hostlincoln",GB,2
-AS203573,"Tailor Made Technologies Ltd,tmcs",GB,2
-AS58223,"Sabio Ltd.,JT_Global_Enterprise",GB,2
-AS212885,"THE ROYAL BANK OF SCOTLAND PLC,RBSI-UK-AS",GB,2
-AS40968,"Professional Protection Electronic Ltd.,DSC",GB,2
-AS201831,"ActivTrades Plc.,ACTIVETRADES-AS",GB,2
-AS209324,"Betgenius Limited,BG-SOF",GB,2
-AS43463,"INFOCOM UK LTD,BST-LT",GB,2
-AS8916,"Portfast Ltd,PORTFAST",GB,2
-AS44934,"Arachsys Internet Services Ltd,ARACHSYS",GB,2
-AS47716,"ISIX Communications LLP,ISIX-CLOUD-AS",GB,2
-AS15622,"Frontline Consultancy and Business Services Limited,uk-frontline",GB,2
-AS43131,"Kay Net (UK) Ltd,KAY-NET",GB,2
-AS202574,"VLE LIMITED,ASN-VLE",GB,2
-AS197342,"AePONA Ltd.,Aepona-BFS",GB,2
-AS24778,"Datapipe Europe Ltd,Datapipe-UK",GB,2
-AS39921,"Rackspace Ltd.,DE-RACKSPACE",GB,2
-AS47718,"IQVIA SOLUTIONS HQ LTD,IMSHealth",GB,2
-AS203067,"Giacom World Networks Ltd,Giacom",GB,2
-AS44697,"Computer & Communication Co. Limited,C3-UK",GB,2
-AS203317,"THE COMMUNICATOR CORPORATION LIMITED,CC-ASN-001",GB,2
-AS204945,"D4t4 Solutions PLC,D4T4",GB,2
-AS44481,"Professional Data Management Services Limited,PDMS-AS",GB,2
-AS197651,"THE HUT.COM LIMITED,THEHUTGROUPLIMITED",GB,2
-AS199196,"IMIMOBILE INTELLIGENT NETWORKS LIMITED,Infracast",GB,2
-AS202363,"R.J. OBrien Limited,uk-rjobrien",GB,2
-AS28816,"CLOUDCOCO HOLDINGS LIMITED,ABEL",GB,2
-AS196962,"NSI (Holdings) Limited,NSI",GB,2
-AS208507,"Mitsubishi HC Capital UK PLC,MitsubishiHC-Capital",GB,2
-AS39633,"NIU SOLUTIONS Limited,PITCORE",GB,2
-AS212729,"Radiology Reporting Online LLP,ERL",GB,2
-AS211956,"Joshua Powell,JOSH-ASN",GB,2
-AS62299,"Bluematrix Research LTD,BLUEMATRIX-AS",GB,2
-AS42214,"Network Services Ltd.,GDNS",GB,2
-AS49559,"DUAL VECTOR FOIL LTD,DWX-NETWORKS-AS",GB,2
-AS62172,"Neonix Web Services Limited,Neonix",GB,2
-AS198412,"Rage4 Networks Limited,RAGE4-DNS-AS",GB,2
-AS208309,"SCB Global Ltd,scb-global",GB,2
-AS209864,"Zhaofeng Li,NAIVE-NETWORK",GB,2
-AS210101,"Cyber Pathogen Ltd,cyber",GB,2
-AS210667,"Adam Goodenough,SMISHCRAFT",GB,2
-AS212217,"BB-Online UK Ltd,bbonline",GB,2
-AS212952,"Spademan Luke,AS212952",GB,2
-AS60507,"Hillside (Technology) Ltd,HML2-EUR-AS",GB,2
-AS43442,"ProVu Communications Ltd,PROVU",GB,2
-AS49793,"LMP Technical Services Ltd,IAIN-MCWILLIAMS-AS",GB,2
-AS15490,"ShaneMcC Ltd,SHANEMCC",GB,2
-AS43082,"IOMART GROUP PLC,ServerSpace-AS",GB,2
-AS49967,"THAMES VALLEY HOUSING ASSOCIATION LIMITED,MTVH",GB,2
-AS200418,"Victor Connect Ltd.,Uk-Dao",GB,2
-AS208130,"Layershift Limited,LAYERSHIFT-IOM",GB,2
-AS57994,"NetEarth UK Ltd,ASN-IDCNET",GB,2
-AS43924,"IQUO LIMITED,IQUO",GB,2
-AS205676,"Data Center Experts LTD,DCE",GB,2
-AS43280,"Gordian Knot Limited,GORDIAN-KNOT-AS",GB,2
-AS57148,"Bytehouse Ltd,TBSH-CLIENT-TRISTAR-BYTEHOUSE",GB,2
-AS49669,"Cognito Limited,Cognito",GB,2
-AS50910,"Mainstream Digital Ltd,MAINSTREAM-BIRM1-AS",GB,2
-AS52024,"KWIK-FIT (GB) Limited,kwik-fit-gb",GB,2
-AS60103,"Accesspoint Technologies Ltd,ACCESSPT",GB,2
-AS202241,"Business Design Centre Ltd,BDC-London",GB,2
-AS43863,"Guardoo LTD,GUARDOO",GB,2
-AS213349,"OctoSEC LTD,OCTOSEC-AS",GB,2
-AS50882,"Maxnett Ltd.,MAXNETT",GB,2
-AS58102,"2Dmedia Ltd.,TWODMEDIA",GB,2
-AS59581,"BT Lancashire Services Limited,OCL",GB,2
-AS61419,"The Cloud Simplified Limited,THECLOUDSIMPLIFIED",GB,2
-AS59705,"Veber Limited,POBOX2-AS",GB,2
-AS202212,"DWebs Ltd,DWEBS-AS",GB,2
-AS30969,"Zimbabwe Online (Private) Ltd.,ZOL-AS",GB,2
-AS51926,"PageOne Communications Ltd,P1C-AS",GB,2
-AS205106,"Pea Soup Hosting Limited,PEASOUP",GB,2
-AS201862,"VMhosts Ltd,VMhosts-London-AS",GB,2
-AS8621,"Backbone (UK) Limited,BBUK-Ltd",GB,2
-AS21077,"Specialist Computer Centres Plc,ISP4BAS",GB,2
-AS207194,"Total Computer Services Ltd,TOTALCOMPUTERS",GB,2
-AS29197,"Nomura International Plc,LEHMAN-AS3",GB,2
-AS51113,"Elekta Limited,ELEKTA-AS",GB,2
-AS41099,"Global Reach Networks Limited,globalreach",GB,2
-AS59897,"Ekco Bournemouth Limited,SCHOLAR-AS",GB,2
-AS209113,"Precedence Technologies Ltd,PRECEDENCE",GB,2
-AS207292,"YANG HAOJING,YUYANNET-SERVICE-AS-RIPE",GB,2
-AS39295,"Southern Communications Ltd,SWIP-AS",GB,2
-AS201226,"Leasing Options Limited,CHILLIMINTLABS",GB,2
-AS203082,"FORWARD 3D LIMITED,ASFORWARD3D",GB,2
-AS60021,"ATOMICFLARE LIMITED,AS-ATOMICFLARE",GB,2
-AS199379,"Markerstudy Insurance Services Limited,MARKERSTUDY-AS",GB,2
-AS201289,"COMMIFY UK LIMITED,ESENDEX",GB,2
-AS212880,"Krypton IT Solutions Ltd,AS-KRYPTON-IT",GB,2
-AS42495,"Spencer Sharkey,Spencer-Sharkey",GB,2
-AS48961,"Glide Student & Residential Limited,WarwickNet",GB,2
-AS212240,"RIK Networks Ltd,RIKNETWORKS",GB,2
-AS213185,"Eta Heese,ETA-AS",GB,2
-AS47556,"Webtitude LTD,WEBTIT",GB,2
-AS201375,"Numbergroup Network Ltd,NG-MKDC0",GB,2
-AS48090,"PPTECHNOLOGY LIMITED,PPTECHNOLOGY",GB,2
-AS211678,"Michaelston y Fedw Internet CIC,MYFI-AS",GB,2
-AS50193,"LoadEdge Limited,LOADEDGE",GB,2
-AS200365,"Possibly Lizards Limited,Possibly-Lizards",GB,2
-AS42217,"The Goodwood Estate Company Limited,GOODWOOD",GB,2
-AS208307,"SECONDMIND LIMITED,secondmind",GB,2
-AS207345,"OMIT LTD,OMIT-SECURITY",GB,2
-AS204193,"Pragma Cloud Limited,Pragma",GB,2
-AS209134,"Atmoso Limited,REVOPCI",GB,2
-AS209931,"Virair Limited,VirAir",GB,2
-AS207936,"Konstantin Verba,DELIGHTNETWORKS-AS",GB,2
-AS199766,"Sovereign Business Integration Group plc,Sovereign",GB,2
-AS212391,"CentralNic Ltd,CentralNic-Anycast-K",GB,2
-AS9161,"Poundbury Systems Ltd.,PSL",GB,1
-AS24807,"Redcentric Solutions Ltd,INFOCOM-AS",GB,1
-AS25335,"NEXT GLOBAL SERVICES L.P.,NGS",GB,1
-AS30938,"ahbr company limited,abstation",GB,1
-AS31659,"Below Zero Hosting Ltd.,Below-Zero",GB,1
-AS41896,"Shetland Islands Council,SHETTEL-AS",GB,1
-AS42733,"Sirec Technologies Limited,SIREC-AS",GB,1
-AS43669,"Axia Computer Systems Limited,ACSL2",GB,1
-AS44308,"Vapour Media Limited,VAPOURMEDIA-AS",GB,1
-AS44891,"24 Seven Communications Ltd,AS24SEVEN-AS",GB,1
-AS47744,"XTEND SOLUTIONS LTD,XTEND-AS",GB,1
-AS48588,"DWebs Ltd,DWEBS-DR-AS",GB,1
-AS48866,"Netcracker Technology EMEA Limited,NETCRACKER-EMEA-AS",GB,1
-AS49487,"Zamir Telecom Limited,ZTELAS",GB,1
-AS50632,"AXON BIRCH LIMITED,NU-COLO-NET",GB,1
-AS59402,"Virocom Limited,Virocom",GB,1
-AS59806,"Paradigm Support Ltd,virtirica",GB,1
-AS59895,"Binary Racks Limited,BINARYRACKS-AS",GB,1
-AS60194,"Anchor Computer Systems Ltd,VTG-AS",GB,1
-AS60541,"Voice Simplified Ltd,VoiceSimplified",GB,1
-AS60963,"Transit Networks Limited,Transit-Networks-Ltd",GB,1
-AS61369,"Datasim Limited,DATASIM-ASN",GB,1
-AS198823,"Network Integration Technologies LTD,NETINT",GB,1
-AS199224,"Advatek UK Ltd,ADVATEK-UK",GB,1
-AS199717,"Panoptics Global Ltd,Panoptics",GB,1
-AS199946,"Ctalk Limited,Ctalk",GB,1
-AS201473,"Sipcentric Ltd,SIPCENTRIC",GB,1
-AS201798,"Bogons Ltd,ABINTERNET",GB,1
-AS202587,"C2C Ltd,UMOJA-AS",GB,1
-AS203121,"Core Communication Services Limited,core-01",GB,1
-AS203129,"Dynamic Platform Limited,DynamicPlatform-Limited-AS",GB,1
-AS203258,"UCNS Limited,UCNS-AS",GB,1
-AS205281,"Otava Tech LTD,NF-CLOUD1",GB,1
-AS206245,"Subset Solutions UK Limited,SubsetUK",GB,1
-AS207075,"Corespeed Limited,corespeed",GB,1
-AS207449,"People's Fibre LTD,peoples-fibre",GB,1
-AS207765,"Transit Networks Limited,Transit-Networks-Limited",GB,1
-AS208833,"MyComms Ltd,MYCOMMS",GB,1
-AS209611,"HFLBroadband Ltd,HFLBROADBAND",GB,1
-AS210087,"Ontix Limited,ONTIX",GB,1
-AS212399,"Gigaair Ltd,Gigaair",GB,1
-AS8619,"Close Brothers Limited,closebrothers-as",GB,1
-AS60851,"Egton Medical Information Systems Limited,EMIS-AS",GB,1
-AS200164,"The Random House Group Limited,RHG-AS",GB,1
-AS30756,"Travelport International Limited,CENDANT-AS",GB,1
-AS60060,"AECOM Limited,AECOM-EMEA",GB,1
-AS29212,"Capita Business Services Ltd,CAPITA-AS",GB,1
-AS31256,"Warwickshire County Council,WARWICKSHIRECC",GB,1
-AS44110,"Walsall Metropolitan Borough Council,WALSALL",GB,1
-AS44369,"emPSN Services Limited,EMBC-EMPSN-AS",GB,1
-AS44442,"The Borough of Telford and Wrekin Council,TelfordWrekinCouncilAS",GB,1
-AS56670,"West Sussex County Council,WSCC-AS",GB,1
-AS196902,"Dudley Metropolitan Borough Council,DUDLEY-MBC",GB,1
-AS198222,"West Herts College,WHC-AS",GB,1
-AS198863,"Cambridge University Press (Holdings) Limited,CUP-AS",GB,1
-AS198864,"""Queen Mary and Westfield College,QMW-AC-UK",GB,1
-AS201773,"University of Warwick,UOW-AS",GB,1
-AS202575,"University of Hull,UNI-HULL",GB,1
-AS206490,"Southend-on-Sea Borough Council,SOUTHENDBC-AS",GB,1
-AS8296,"HBVB Private Unlimited,HBVB",GB,1
-AS15917,"CSC Computer Sciences Ltd,CSC-UK-MWH",GB,1
-AS34930,"LHR AIRPORTS LIMITED,BAA",GB,1
-AS48003,"Wm Morrison Supermarkets Plc,MORRISONS-AS",GB,1
-AS48397,"Unipart Group Limited,Unipart-AS",GB,1
-AS51100,"Kier Ltd,kier",GB,1
-AS60297,"Capgemini UK plc,CG-UK",GB,1
-AS199555,"Virgin Money plc,VM-UK-AS",GB,1
-AS206629,"Ministry of Justice,MINISTRYOFJUSTICE",GB,1
-AS48771,"Semantico Ltd,Semantico",GB,1
-AS56467,"Kartina World LLP,Kartina-World-AS",GB,1
-AS132017,"Kartina World Llp,KARTINAWORLD-AP",GB,1
-AS59918,"Perfecto Mobile UK Limited,Perfecto-Mobile-UK",GB,1
-AS25006,"SANTANDER FINANCIAL SERVICES PLC,ABNATTRSVCAS",GB,1
-AS21346,"Vistorm Limited,VISTORM-AS",GB,1
-AS47255,"MCD Europe Limited,MCDEU02",GB,1
-AS49606,"MCD Europe Limited,MCDEU01",GB,1
-AS59952,"Expedia.com Ltd.,ExpediaEU",GB,1
-AS205918,"Chloride Group Limited,vertivco-emea",GB,1
-AS207173,"Northrop Grumman UK Limited,uk_northrop",GB,1
-AS207900,"Northrop Grumman UK Limited,uk_northrop_2",GB,1
-AS6871,"British Telecommunications PLC,Plusnet",GB,1
-AS21218,"EBC Group (UK) Ltd,EBCGROUP",GB,1
-AS24650,"Charles Stanley & Co Ltd,CHARLES-STANLEY-AS",GB,1
-AS24677,"TNS Group Holdings Limited,TAYLOR-NELSON-SOFRES-AS",GB,1
-AS25343,"Coventry University Computing Services,COVENTRY-AS",GB,1
-AS28863,"Thales Transport and Security Ltd,Thales-TTLS",GB,1
-AS33981,"Total System Services Processing Europe Limited,TSYS-AS",GB,1
-AS41373,"NATIONAL HEALTH SERVICE,BT-Plc",GB,1
-AS41380,"Ald Automotive Ltd,ALD-AS",GB,1
-AS42536,"Deloitte LLP,Deloitte-UK",GB,1
-AS43259,"Leidos Innovations UK LTD,LEIDOS-UK",GB,1
-AS44008,"Royal Borough of Kensington and Chelsea,RBKC",GB,1
-AS60677,"DL Insurance Services Limited,DLG",GB,1
-AS197122,"CXLOYALTY INTERNATIONAL LIMITED,AFFINION-AS",GB,1
-AS197568,"Cardif Pinnacle Insurance Management Services PLC,PINNACLE-AS",GB,1
-AS198189,"Crown Office and Procurator Fiscal Service,COPFS",GB,1
-AS198300,"FES Ltd,FES",GB,1
-AS199262,"Transport for London,TfL-FPS-AS",GB,1
-AS201529,"Orchid Cellmark Ltd,ORCHID-CELLMARK-ABINGDON",GB,1
-AS207072,"Nigsun Limited,NIGSUN",GB,1
-AS207312,"BluJay Solutions Ltd,blujay-uk",GB,1
-AS212329,"Netcraft Ltd,NETCRAFT",GB,1
-AS35822,"CEGER,CEGER-AS",GB,1
-AS21122,"Applicable Ltd,ASN-APPLICABLE",GB,1
-AS31273,"Bistech Managed Services Ltd,AS-BISTECH",GB,1
-AS31398,"NEC Europe LTD,NEC-EU-AS",GB,1
-AS49607,"ADVANCED PAYMENT SOLUTIONS LIMITED,AdvancePayment",GB,1
-AS31048,"Digital Evolutions Limited,FLEXEPRINT-AS",GB,1
-AS47685,"Bogons Heavy Industries (North) Ltd,ASN-BOGONS-HEAVY-NORTH",GB,1
-AS35106,"Microsoft Limited,MICROSOFT-LIVE-MEETING",GB,1
-AS3206,"AF Blakemore & Son Ltd,AFB-AS",GB,1
-AS20976,"Domainmaster LTD,HOTLINKS-AS",GB,1
-AS21345,"Messagelabs Limited,SYMANTEC-EU",GB,1
-AS24894,"Tag Europe Ltd,TAGWORLDWIDE",GB,1
-AS34523,"Webroot Services Ltd,EMAILSYSTEMS",GB,1
-AS34922,"CSC Administrative Services Limited,NETNAMES",GB,1
-AS42633,"""Deloitte Touche Tohmatsu Services,DeloitteToucheTohmatsu-Global",GB,1
-AS51303,"IQVIA SOLUTIONS HQ LTD,Warsaw",GB,1
-AS51406,"Infonas Limited,INFONAS-LIMITED-AS",GB,1
-AS57750,"Synamedia Limited,NDS-UK",GB,1
-AS200425,"Betgenius Limited,BG-GS1",GB,1
-AS200861,"TABLEAU SOFTWARE UK LTD,TS-EMEA-ASN",GB,1
-AS201101,"NATS (En Route) Ltd,NATSEN-NC",GB,1
-AS204476,"UnitedLex Corporation,ULX-UK",GB,1
-AS206984,"Lypy Limited,lypy",GB,1
-AS207045,"KORE WIRELESS UK PLC,wyless_asn_1",GB,1
-AS212035,"Babcock Corporate Services Ltd,Babcock_International",GB,1
-AS212195,"Nexstor Ltd,nexstor-as",GB,1
-AS213287,"Pure IP Limited,Pure-IP-Europe-BV",GB,1
-AS47712,"VELOCIX SOLUTIONS LIMITED,VELOCIX-EU",GB,1
-AS48177,"IGT INTERACTIVE LTD,IGT-SportsBetting",GB,1
-AS48460,"ServerHouse Ltd,GREENCO-DR",GB,1
-AS49546,"Voicetec sys Limited,VOICETEC-AS",GB,1
-AS50755,"Redwire DC Ltd,REDWIRE",GB,1
-AS57740,"Hermes Datacommunications International Limited,HERMES-DATACOMMS",GB,1
-AS59724,"Elsevier Limited,REED-ELSEVIER-EMEA-GCC",GB,1
-AS61130,"Source Managed Services Limited,source-managed-services",GB,1
-AS203204,"Serviced Cloud Ltd,SERVICEDCLOUD",GB,1
-AS204018,"Cityfibre Limited,Cityfibre",GB,1
-AS204440,"The Farm Post Production Ltd,farmuk",GB,1
-AS208687,"JURASSIC FIBRE LTD,Jurassic-Fibre",GB,1
-AS211189,"Thermo Electron Ltd,ThermoFisher_EU",GB,1
-AS211346,"Electronic Arts Limited,EA-UK-HAC",GB,1
-AS211476,"Techloq Limited,techloq-uk",GB,1
-AS59904,"LANCASHIRE INSURANCE SERVICES LTD,LANCASHIRE_AS_RIPE",GB,1
-AS207009,"TI Media Limited,uk-timeinc",GB,1
-AS47523,"Heidmar UK Limited,HEIDMAR-GBL",GB,1
-AS41255,"Alanyhq Networks Limited,Alanyhq-Networks-AS",GB,1
-AS21422,"Connect internet Solutions Limited,CONNECT-LIVERPOOL",GB,1
-AS28705,"Cybase Limited,CYBASE-AS",GB,1
-AS33879,"Forth Ports Public Limited Company,FORTHS-PORTS-PLC",GB,1
-AS34344,"Port Of Tilbury London Ltd,THE-PORT-OF-TILBURY-LONDON-LTD",GB,1
-AS35045,"Dynamic Mobile Billing Limited,OPERATELECOM-AS",GB,1
-AS39400,"London Borough of Hackney,LBH-AS",GB,1
-AS41548,"Medway Council,MEDWAY-AS",GB,1
-AS42359,"The Football Association Ltd.,WEMBLEY-AS",GB,1
-AS43422,"Xchanging Global Insurance Solutions Limited,Xchanging-Global",GB,1
-AS43838,"City of Bradford Metropolitan District,Education-Bradford",GB,1
-AS43884,"Etain Limited,EG-Consulting-AS",GB,1
-AS47367,"Torbay Economic Development Company Limited,TORBAY-AS",GB,1
-AS47871,"Newsquest Media Group Ltd,ASNMGL",GB,1
-AS48070,"DSM (GB) Limited,AS-DSM",GB,1
-AS48632,"BTS HOLDINGS PLC,BTS-HOLDINGS-PLC",GB,1
-AS48902,"Endsleigh Insurance Services Ltd,ENDSLEIGH-INSURANCE-SERVICES-LTD",GB,1
-AS49324,"Nottingham City Council,CITY-NOTTINGHAM-COUNCIL",GB,1
-AS62364,"Plymouth City Council,PLYMOUTH-CITY-COUNCIL",GB,1
-AS202783,"NHS National Services Scotland,SWANN-MNT",GB,1
-AS25135,"Vodafone Limited,vodafone_uk_asn",GB,1
-AS25310,"Vodafone Enterprise U.K.,ASN-CWACCESS",GB,1
-AS206797,"ADS Securities London Limited,ads-securities",GB,1
-AS30864,"ELAVON FINANCIAL SERVICES LIMITED,EUROCONEX1-AS",GB,1
-AS8613,"Daisy Corporate Services Trading Ltd,AS8613",GB,1
-AS197320,"National Pharmacy Association Ltd,NPA-AS",GB,1
-AS205756,"JAGUAR LAND ROVER AUTOMOTIVE PLC,JLR",GB,1
-AS199788,"Motion Picture Solutions Limited,MPS",GB,1
-AS39627,"Sky UK Limited,BSKYB",GB,1
-AS41012,"The Cloud Networks Limited,THECLOUD",GB,1
-AS8789,"TELEFONICA TECH NORTHERN IRELAND LIMITED,NOV-AS",GB,1
-AS28934,"Mizuho International Plc,MIZUHO-AS",GB,1
-AS34745,"TeleWare Hosted Services Ltd.,TELEWARE",GB,1
-AS34900,"CME Operations Limited,CME-AS-LO2-2",GB,1
-AS41367,"Wood Group Management Services Ltd,PSN-AS",GB,1
-AS41612,"Red Bee Media Limited,REDBEE-AS",GB,1
-AS49448,"PICO GLOBAL LTD.,PICO_UK",GB,1
-AS51320,"Wireless Logic Limited,wirelesslogic-uk",GB,1
-AS56365,"CME Operations Limited,CME-AS-LD4-2",GB,1
-AS208576,"Arts Alliance Media Ltd,aam-uk",GB,1
-AS137909,"VMHaus Limited,GLOBIUS-AS-AP",GB,1
-AS8576,"Vodafone Limited,CW-ASPAC",GB,1
-AS15463,"Virtustream UK Ltd,NETWORKI-AS",GB,1
-AS49978,"Ixaris Technologies Limited,IXARIS",GB,1
-AS25588,"Six Degrees Technology Group Limited,SIXDEGREES-CLOUD-AS",GB,1
-AS31220,"Six Degrees Technology Group Limited,CARRENZA-AS",GB,1
-AS34816,"Anschutz Sports Holdings Limited,AEG",GB,1
-AS35559,"Someaddress Networks Ltd,SOMEADDRESS",GB,1
-AS39414,"ByteFetch Ltd,BYTEFETCH",GB,1
-AS44791,"AVM Impact LTD,VCNETEU-AS",GB,1
-AS60228,"Six Degrees Technology Group Limited,C24-AS",GB,1
-AS60914,"Telecoms Consortium Ltd.,TelecomsConsortiumLtd",GB,1
-AS198362,"HELIACAL NETWORKS LTD,HELIACAL",GB,1
-AS207520,"""ExodusPoint Capital Management UK,EXODUSPOINT-CAPITAL-MANAGEMENT-UK",GB,1
-AS210727,"Buy Limited,AS312217",GB,1
-AS8844,"GTT - EMEA Ltd.,COMMUNITY",GB,1
-AS49247,"The East Sussex Fire Services,ESFRS",GB,1
-AS8950,"Logicalis UK Limited,LOGICALISUK",GB,1
-AS12761,"COLT Technology Services Group Limited,",GB,1
-AS12878,"COLT Technology Services Group Limited,Connect-Managed-Cloud",GB,1
-AS15404,"COLT Technology Services Group Limited,",GB,1
-AS21160,"Markel International Services Ltd,ASN-MARKEL",GB,1
-AS34253,"WPP 2005 Limited,WPP-EMEA-AS",GB,1
-AS34294,"Accenture SL,ACCENTURE-AS",GB,1
-AS34693,"CME Operations Limited,CME-AS-LD4-1",GB,1
-AS35414,"European Medicines Agency,EMA",GB,1
-AS35652,"Grey Communications Group Ltd,GREY-AS",GB,1
-AS42356,"France Television,FR-France-TV-AS",GB,1
-AS43392,"BlueBay Asset Management Plc,BLUEBAY-ASSET-AS",GB,1
-AS48375,"Tibra Trading Europe Limited,TIBRA-LC-AS",GB,1
-AS59529,"CME Operations Limited,CME-AS-LO2-1",GB,1
-AS62346,"MARKETAXESS POST-TRADE LIMITED,XTRAKTER-LTD-ASN",GB,1
-AS199706,"Block Solutions Ltd,BLOCK-AS",GB,1
-AS200124,"FLEXTRADE UK LIMITED,FLEXUK-AS",GB,1
-AS206664,"FLEXTRADE UK LIMITED,FlextradeUK-2",GB,1
-AS206933,"NSC Global Limited,nscglobal",GB,1
-AS207916,"Velocity1 Limited,Velocity1UK",GB,1
-AS211829,"ZAHA HADID LIMITED,Zaha",GB,1
-AS8272,"Claranet Limited,NETSCALIBUR-UK",GB,1
-AS42053,"Starling Bank Limited,STARLING",GB,1
-AS199269,"Claranet Limited,UK-ARDENTA-ASN",GB,1
-AS210377,"Sift Ltd,sift-ltd",GB,1
-AS16212,"Telesat International Ltd,LORAL-SKYNET-ASN",GB,1
-AS47130,"VGN Medien Holding GmbH,VGN-AS",GB,1
-AS34649,"HOST365 LIMITED,HOST365",GB,1
-AS50914,"WPD TELECOMS LIMITED,SurfTelecoms",GB,1
-AS202519,"Welsh Government,WG-PSBA",GB,1
-AS203231,"Vanquish Global Trading Ltd,V4VoIP",GB,1
-AS205360,"Migration Forensics Limited,MIGFO",GB,1
-AS8689,"Digital Space Group Limited,POWERNETUK",GB,1
-AS48706,"KERRIDGE COMMERCIAL SYSTEMS (KSH) LIMITED,EDP",GB,1
-AS8356,"PRT Systems Limited,NEOTEL-UK",GB,1
-AS52063,"TTP Cloud Group Ltd,SYSTEMIP",GB,1
-AS56739,"PRT Systems Limited,DICO",GB,1
-AS200707,"Integrated Digital Services Ltd,APPMAIL",GB,1
-AS60492,"Mimecast Services Limited,MIMECAST-JE",GB,1
-AS38998,"Projects Abroad (UK) Ltd,PROJECTS-ABROAD-AS",GB,1
-AS47581,"NSFOCUS Technologies UK Limited,NSFOCUS",GB,1
-AS12513,"KCOM GROUP LIMITED,ECLIPSE",GB,1
-AS34827,"Ebor Limited,EBOR",GB,1
-AS48325,"BazTel Ltd,BazTel",GB,1
-AS62136,"U46 LTD,U46",GB,1
-AS25462,"RETN Limited,RETN-UA-AS",GB,1
-AS49661,"8K Cloud Ltd,AS-8KCLOUD",GB,1
-AS51498,"CONNECTION NETWORKS L.P.,CONNET-AS",GB,1
-AS206431,"ARRIVAL Ltd,ARRIVAL-AS",GB,1
-AS61281,"Chess Limited,NDT-AS",GB,1
-AS204085,"NEXT GLOBAL SERVICES L.P.,NGS",GB,1
-AS204139,"NEXT GLOBAL SERVICES L.P.,NEXTGLOBALSERVICES",GB,1
-AS204939,"TAC COMMUNICATIONS LTD,TAC-COMMUNICATIONS-UK",GB,1
-AS205565,"Base Telecommunications LLP,BASETELECOMMUNICATIONSLLP",GB,1
-AS205842,"Link Web Solutions LLP,LINKWEBSOLUTIONS",GB,1
-AS209574,"QUEST IT SERVICES LLC,Quest-IT",GB,1
-AS197407,"CHINA UNICOM (EUROPE) OPERATIONS LIMITED,CUCE",GB,1
-AS34010,"Yahoo! UK Services Limited,YAHOO-IRD",GB,1
-AS43428,"Yahoo! UK Services Limited,YAHOO-ULS",GB,1
-AS203070,"Yahoo! UK Services Limited,YAHOO-FRA",GB,1
-AS203219,"Yahoo! UK Services Limited,YAHOO-AMA",GB,1
-AS203220,"Yahoo! UK Services Limited,YAHOO-DEB",GB,1
-AS197560,"Beeks Financial Cloud Ltd,VDIS",GB,1
-AS15395,"Rackspace Ltd.,RACKSPACE-LON",GB,1
-AS198220,"Datapipe Europe Ltd,GoGrid",GB,1
-AS208024,"5Blades Inc. trading as Recurse Center,RECURSECENTER",GB,1
-AS39530,"James Parker,parker",GB,1
-AS50650,"Internet Elephants LTD,ASHYPERHOSTING",GB,1
-AS203191,"Internet Elephants LTD,guleboj",GB,1
-AS203192,"Internet Elephants LTD,kempetorsk",GB,1
-AS203194,"Internet Elephants LTD,globalhosting",GB,1
-AS203213,"Internet Elephants LTD,fleet",GB,1
-AS203295,"Internet Elephants LTD,graboto",GB,1
-AS203552,"Internet Elephants LTD,NOINTERNET",GB,1
-AS203814,"Internet Elephants LTD,GIDEV",GB,1
-AS213354,"INTERNATIONAL HOSTING SOLUTIONS LLP,International-Hosting-Solutions-AS",GB,1
-AS205734,"Copart UK Limited,TRAPOC",GB,1
-AS208756,"ALCON TELECOM LTD,deas-001",GB,1
-AS15636,"Collingwood Business Solutions Limited,COLLINGWOOD",GB,1
-AS20782,"Zebra Electronics LTD,DOMAINCHECK",GB,1
-AS28715,"Brass Horn Communications,BrassHornComms",GB,1
-AS35259,"APM Internet Ltd,APM",GB,1
-AS49026,"Wirehive Limited,VOLUME-AS",GB,1
-AS62408,"Provista UK Ltd,ProvistaUK",GB,1
-AS197958,"Ogilvie Communications Ltd,Ogilvie-Communications",GB,1
-AS203128,"Newcastle Systems Management Limited,NSML",GB,1
-AS205599,"A.B.F.HOLDINGS LIMITED,abfoods",GB,1
-AS209220,"Ablative Hosting Ltd,AblativeHosting",GB,1
-AS210282,"Frontier Technology Limited,FRONTIERDC-AS",GB,1
-AS49212,"""REALE SEGUROS GENERALES,REALE-SEGUROS-AS",GB,1
-AS5552,"Redcentric Solutions Ltd,DIALNET-UK",GB,1
-AS8419,"Redcentric Solutions Ltd,HOTCHILLI",GB,1
-AS15845,"Computers in the City Ltd,CitC_IRS_Service_AS15845",GB,1
-AS203094,"Health Management Ltd,HML-AS",GB,1
-AS203460,"Viridian Communications Limited,vrdn",GB,1
-AS211006,"Linkorg Networks Ltd,linkorgnetw",GB,1
-AS16339,"Virtual Internet (UK) Limited,VI-UK",GB,1
-AS41493,"Cboe Europe Limited,CHI-X",GB,1
-AS44307,"MDSOL EUROPE LTD,MDSOL",GB,1
-AS209888,"Aeriandi Limited,AERIANDI-AS",GB,1
-AS210253,"Creative Network Consulting Limited,CREATIVE-NETWORK-CONSULTING-AS",GB,1
-AS35072,"Serco Group PLC,SERCO-GROUP",GB,1
-AS8586,"TalkTalk Communications Limited,OBSL-AS",GB,1
-AS9105,"TalkTalk Communications Limited,TISCALI-UK",GB,1
-AS12708,"TalkTalk Communications Limited,OneTel-AS",GB,1
-AS20577,"TRADEWEB EUROPE LIMITED,TRADEWEB",GB,1
-AS38966,"IntraLAN Group Limited,IntraLAN-AS",GB,1
-AS39884,"iNet Telecoms Ltd,VOIPFONE-AS",GB,1
-AS41839,"Concentrix Europe Limited,ConcentrixEuropeLtd",GB,1
-AS42875,"National Car Parks Limited,NCP-AS",GB,1
-AS61072,"EZNet LIMITED,EZNET-AS",GB,1
-AS197387,"The Sporting Exchange Ltd,Betfair-DC3",GB,1
-AS200692,"KLDISCOVERY LIMITED,KO-EU-ASN1",GB,1
-AS201755,"Squiz UK Limited,SQUIZUK",GB,1
-AS202595,"Squiz UK Limited,SQUIZUS",GB,1
-AS212606,"DiPocket Limited,DiPocket",GB,1
-AS29219,"SEMTEC LIMITED,SAQ-UK-AS",GB,1
-AS49937,"Interactive Sports Limited,INTERACTIVESPORTS",GB,1
-AS24742,"APAK Group Limited,APAKGROUP-AS",GB,1
-AS198801,"Your Housing Group Ltd,YOUR-HOUSING-GROUP-AS",GB,1
-AS201855,"RAYMOND JAMES INVESTMENT SERVICES LIMITED,uk-as-raymondjames",GB,1
-AS206688,"Vauxhall Finance plc,AS_GMFIO",GB,1
-AS205253,"Coinfirm Ltd,coinfirm",GB,1
-AS33820,"RELX GROUP PLC,REED-ELSEVIER-AS",GB,1
-AS8942,"Costar UK Limited,",GB,1
-AS44169,"Redcello Ltd,Redcello-Systems",GB,1
-AS44292,"NUANCE COMMUNICATIONS LIMITED,SPINVOX",GB,1
-AS60760,"Experian Ltd,ECSUK-AS",GB,1
-AS199903,"NICE SYSTEMS UK LTD,NICESYSTEMSUK-E1",GB,1
-AS201467,"Trillium Property Services Limited,TT",GB,1
-AS202178,"Pink Rose Information System Services Ltd.,UKPRISS",GB,1
-AS202455,"Cushman & Wakefield Debenham Tie Leung Limited,CUSHWAKE-NL",GB,1
-AS202459,"Cushman & Wakefield Debenham Tie Leung Limited,CUSHWAKE-UK",GB,1
-AS208026,"LITTLEWOODS LTD,LITTLEWOODS",GB,1
-AS208402,"Cerner Limited,cerner",GB,1
-AS210938,"Whitbread Group PLC,whitbread",GB,1
-AS211140,"TRANSUNION INTERNATIONAL UK LIMITED,TRANSUNION-INTERNATIONAL-UK-LIMITED",GB,1
-AS42958,"Senior Internet Ltd,Senior-AS",GB,1
-AS47615,"Fujitsu Services Ltd.,FUJITSU-AS",GB,1
-AS198353,"Mimeo Limited,MIMEO-AS",GB,1
-AS44954,"Alex Brown,ABROWN-1",GB,1
-AS212083,"Jerng Yue Lee trading as Evoxt Enterprise,EVOXT",GB,1
-AS41433,"BlackBerry UK Limited,BLACKBERRY-AS41433",GB,1
-AS33953,"Experian International Unlimited,Experian-AS",GB,1
-AS39584,"Legal & General Investment Management Holdings Ltd,LGIM",GB,1
-AS34625,"OSHS Ltd,OSHS-AS",GB,1
-AS35650,"TelNG Ltd,TelNG",GB,1
-AS47578,"PRT Systems Limited,PRT-ANYCAST",GB,1
-AS48655,"TechVow Ltd,tvl",GB,1
-AS51082,"A1 NETWORK EXCHANGE LIMITED,A1NX",GB,1
-AS57161,"Netcalibre Ltd,FTSOC",GB,1
-AS62303,"PEERIX LTD,DNSLIFY",GB,1
-AS62374,"Andy Mace,andymace",GB,1
-AS148998,"Stratagem Solutions Ltd,STRATAGEM-AS-AP",GB,1
-AS205651,"Hao Qiao,CATOFES",GB,1
-AS205986,"GLYN Research Limited,GLYN-Research-Ltd",GB,1
-AS206405,"CALIU LTD,CALIU",GB,1
-AS206671,"Michael Jones,NotMike",GB,1
-AS207586,"Doyle (North West) Ltd.,DOYLE-AS",GB,1
-AS207748,"Stephen Fraser,FRASER-AS",GB,1
-AS207754,"James Colderwood,COLDERWOOD",GB,1
-AS207755,"Rory Bolton,BOLTON",GB,1
-AS211293,"Ben Mitchell,mitchell-as",GB,1
-AS212628,"Sudo Gate Ltd,Sudo-Gate",GB,1
-AS212788,"Edge Network Technologies Ltd,edgenet",GB,1
-AS29026,"CHARLES TAYLOR LIMITED,CTAYLOR-AS",GB,1
-AS12613,"Firebrick Limited,FIREBRICK-AS",GB,1
-AS48901,"DSNET Ltd,DSNET-CSP",GB,1
-AS59617,"Andy Davidson,ANDYD",GB,1
-AS199165,"Shibboleet Ltd,SHIBBOLEET-AS",GB,1
-AS33968,"EASYSPACE LIMITED,InternetEngineeringAS",GB,1
-AS35691,"Plan Communications Limited,PLAN-COM",GB,1
-AS39451,"Melbourne Server Hosting Ltd,MELBOURNE-AS",GB,1
-AS199066,"Data8 Limited,DATA8-AS",GB,1
-AS199542,"IOMART HOSTING LIMITED,SONASSI",GB,1
-AS200876,"Evolving Networks Limited,ev-as",GB,1
-AS201715,"Ineedbroadband Ltd,ineedbr",GB,1
-AS203850,"Arkessa Limited,Arkessa",GB,1
-AS206332,"Arrow Business Communications Limited,ARROW",GB,1
-AS209183,"Adam Pierce,PrimeHub",GB,1
-AS212601,"Calastone Limited,Calastone",GB,1
-AS30930,"Life Science Communications,LIFESCI-AS",GB,1
-AS29676,"Gradwell Communications Limited,GRADWELL",GB,1
-AS44611,"Wavenet Limited,TALKINTERNET",GB,1
-AS205804,"Delta V Technologies Limited,DELTAV",GB,1
-AS41246,"Electronic Media Services Ltd,EMS-AS",GB,1
-AS44009,"Sleek Networks Ltd,SLEEK-ASN",GB,1
-AS48182,"ENCOMPASS DIGITAL MEDIA SERVICES LIMITED,WRN-Ltd",GB,1
-AS210531,"STALLION NETWORK SERVICES LIMITED,stallion-as",GB,1
-AS16362,"TRANSEDA SYSTEMS LTD,SEVEN-AS",GB,1
-AS57751,"RYOKO GROUP LIMITED,Ryoko",GB,1
-AS6911,"Associated Networks (UK) Limited,PRO-NET",GB,1
-AS199748,"Cotswold Community Networks Limited,CCN-UK",GB,1
-AS213094,"Full Fibre Limited,fullfibre",GB,1
-AS34675,"Prima Internet Holdings Limited,PIH-UK",GB,1
-AS57793,"1310 Limited,thirteenten",GB,1
-AS208123,"SPN Alliance Limited,SPNA",GB,1
-AS208612,"Kurt McLester,AS-KURT",GB,1
-AS199168,"CASTLAKE COMPANY LP,CASTLAKE-AS",GB,1
-AS48611,"Cablestreet Ltd,CABLESTREET-AS",GB,1
-AS50056,"Ai Networks Limited,AI-NET",GB,1
-AS212286,"LonConnect Ltd,LONCONNECT",GB,1
-AS39717,"Polestar Interactive Ltd,POLESTAR-AS",GB,1
-AS43079,"MATCHTECH GROUP (UK) LIMITED,Matchtech",GB,1
-AS48993,"Department 7 Limited,D7-NET",GB,1
-AS50697,"ACSN Limited,ACSN-AS",GB,1
-AS51005,"4D Interactive Ltd,FOURDINTERACTIVE",GB,1
-AS57228,"Axians Networks Limited,AXIANS-UK-AS",GB,1
-AS62145,"BANGO.NET Ltd,Bango",GB,1
-AS202901,"Netcall Technology Limited,NETCALL",GB,1
-AS203056,"Tipicall Limited,TTBNGVS",GB,1
-AS203251,"Alchemy Systems International Limited,AlchemySystems",GB,1
-AS203397,"CURVE INFORMATION TECHNOLOGY LIMITED,curveit",GB,1
-AS203842,"Veber Limited,AcoraAPC-AS",GB,1
-AS203987,"Vysiion Limited,VYSIION-AS",GB,1
-AS206062,"Space Data Centres Ltd,SpaceDataCentres",GB,1
-AS206223,"Teledyne Limited,Teledyne-UK",GB,1
-AS211077,"UK Home Office (The Secretary of State for the Home Department),HO-LECN-DC01",GB,1
-AS50200,"INTERKVM HOST SRL,NETLINK",GB,1
-AS8577,"XYGNITION RESEARCH LIMITED,xygnition",GB,1
-AS39192,"John Hadrill,JackNet",GB,1
-AS42167,"Encrypted Laser LTD,PN",GB,1
-AS48825,"Fast4networks Ltd,fast2host",GB,1
-AS49999,"Hydra Communications Ltd,BANDWIDTHTECH-AS",GB,1
-AS212231,"Harry Dowd,DOWD-AS",GB,1
-AS212914,"GLOBAL HARDWARE HOSTING LTD,GLOBALHSS",GB,1
-AS57672,"Daniel James Austin,DJA-ASN",GB,1
-AS49049,"Bath North East Somerset Council,BATH-NORTH-EAST-SOMERSET-COUNCIL",GB,1
-AS59619,"Blackpool Borough Council,Blackpool-AS",GB,1
-AS35670,"CloudCoCo Connect Limited,IDE-GROUP-MANAGE",GB,1
-AS39846,"Onega Ltd,ONEGA",GB,1
-AS49503,"CloudCoCo Connect Limited,IDE-GROUP-MANAGE",GB,1
-AS56367,"Sci-Teq Limited,TEQ",GB,1
-AS59493,"MIMIC Ltd,MIMIC",GB,1
-AS39470,"ICE Data Services Limited,ATRIUMNETWORK",GB,1
-AS60688,"CSP Partnership,CSPCORE",GB,1
-AS39609,"PAXPORT GROUP UK LIMITED,MCOM-AS",GB,1
-AS212419,"Salmon Ltd,SALMON-AS",GB,1
-AS205026,"Hauer Hosting Services Limited,hauer-hosting",GB,1
-AS205027,"Could It Hosting Limited,could-it-hosting",GB,1
-AS8276,"Vone Services Ltd,VONESERVICES",GB,1
-AS34623,"Astutium Limited,Netegral",GB,1
-AS8622,"Namesco Limited,ISIONUK",GB,1
-AS34920,"Simply Transit Ltd,Simply-Romford",GB,1
-AS39610,"LCH Group Holdings Limited,LCH-CLEARNET",GB,1
-AS39621,"Stream UK Media Services Limited,STREAMUK-AS",GB,1
-AS48704,"Freshwave Networks Limited,opencell",GB,1
-AS60012,"vXtream Ltd,GDSV",GB,1
-AS43584,"Maytech Communications Ltd,MAYTECH-ASN",GB,1
-AS209496,"Joseph Sensibaugh,SPLINTERNET-ASN",GB,1
-AS211339,"Vortia Ltd,VORTIA",GB,1
-AS29474,"Ghoti Limited,GHOTI-AS",GB,1
-AS208330,"BLX Limited,ASBLX",GB,1
-AS56696,"Liquid Telecommunications Ltd,ASLIQUID-MPLS",GB,1
-AS51049,"Pensionkassernes Administration A/S,PKA-AS",GB,1
-AS25546,"Brookland Computer Services Limited,BROOKLANDCOMP-AS",GB,1
-AS35241,"Vostel Limited,vostel",GB,1
-AS206976,"Kadfire Limited,KADFIRE",GB,1
-AS211511,"Jido Ltd,JIDO",GB,1
-AS202235,"UK On-line Agri-sales Limited,CSD-COMMS",GB,1
-AS41553,"Reed Specialist Recruitment Limited,Reed-Managed-Services",GB,1
-AS60788,"Gamma Network Solution Limited,VARIDION",GB,1
-AS198472,"Manchester City Council,MANCHESTER-CC-AS",GB,1
-AS47571,"Digital Craftsmen Ltd.,DCMANAGED",GB,1
-AS208524,"VITS LIMITED,VITS-Hosting-Services",GB,1
-AS39620,"NG BAILEY IT SERVICES LIMITED,ngbaileyit-uk",GB,1
-AS44052,"Press Computer Systems Ltd,PRESSCOMPUTER-ASN",GB,1
-AS52148,"Enix Ltd,RACKSRV",GB,1
-AS208934,"IT Backbone Ltd,ITBackbone",GB,1
-AS204300,"INTERNET INVEST LIMITED,IIL-NET",GB,1
-AS9084,"Goldman Sachs International,GSI-AS",GB,1
-AS16282,"Allied Irish Banks PLC,AIB-AS-1",GB,1
-AS44548,"CMC MARKETS PLC,CMCMarkets-AS",GB,1
-AS48210,"Bonne Terre Ltd,BONNETERRE-AS",GB,1
-AS49958,"Evolution Gaming LTD,EVO-AS",GB,1
-AS51222,"CMC MARKETS PLC,CMC-MARKETS-PLC",GB,1
-AS60237,"West Bromwich Building Society,theWestBrom",GB,1
-AS197106,"T. Rowe Price International LTD,TRPI-EU-AS",GB,1
-AS202161,"M&G INVESTMENT MANAGEMENT LIMITED,PGDS-ASN1",GB,1
-AS203334,"Voxeo Europe Limited,ASPECT-UK",GB,1
-AS204222,"Her Majesty's Revenue and Customs,HMRC-AS",GB,1
-AS204387,"Evolution Gaming LTD,EG-AS",GB,1
-AS25562,"Sony Interactive Entertainment Europe Limited,SCEE",GB,1
-AS28920,"Call27 Telecommunications Ltd,CALL27-AS",GB,1
-AS57551,"ISOBAR LONDON LIMITED,eCm-LND1",GB,1
-AS39553,"Blueprint Gaming Ltd.,BLUEPRINTGAMING",GB,1
-AS35433,"Zzoomm,Zzoomm",GB,1
-AS56438,"Loop Scorpio Ltd,LOOPSCORPIO-AS",GB,1
-AS44326,"Initq LTD,INITQ",GB,1
-AS50656,"Optix Software Ltd,Optix-Software-ASN",GB,1
-AS211198,"WhiteSpider Enterprise Services Limited,WHITESPIDER",GB,1
-AS204640,"Impelling Solutions Ltd,impelling",GB,1
-AS210072,"Arctarus Limited,ARCTARUS-AS",GB,1
-AS211535,"Candy Horses LLC,CandyHorses",GB,1
-AS29180,"Telefonica UK Limited,O2-ONLINE-AS",GB,1
-AS202630,"Sequential Networks Limited,SEQ_LONDON",GB,1
-AS39674,"Yorkshire Tech Limited,SOLUTIOS",GB,1
-AS205265,"Kadfire Limited,KADFIRE-SEC",GB,1
-AS202867,"Sugarnet Limited,Sugarnet",GB,1
-AS205311,"Cambridge Fibre Networks Ltd.,Cambridge_Fibre_Networks",GB,1
-AS35269,"VELOCIX SOLUTIONS LIMITED,vx-london",GB,1
-AS6838,"Christopher Luke,FLIRBLE-AS",GB,1
-AS137502,"NOMINET UK,NOMINET-AS-AP",GB,1
-AS138177,"NOMINET UK,NOMINET-AS-AP-RESMDNS",GB,1
-AS210536,"UK Ministry of Defence,NCSC2",GB,1
-AS211112,"TREJJ COMMUNICATIONS LIMITED,TREJJCOMMS",GB,1
-AS210096,"Stem Connect LTD,Stemconnect",GB,1
-AS60698,"Linx-Networks-UK Ltd,LINXNETWORKS",GB,1
-AS41570,"Services Sound and Vision Corporation,SSVC-AS",GB,1
-AS200652,"SIPHON Networks Ltd,SIPHON",GB,1
-AS61283,"Andrew Millar Ltd,MILLAR",GB,1
-AS51491,"SysGroup plc,SYSGROUP-WALES",GB,1
-AS204239,"Abzorb Data Limited,UK-Abzorb",GB,1
-AS209329,"Citytalk Communications Limited,CITYTALK-INTERNET",GB,1
-AS210310,"Premier Choice Telecom Limited,PCT-Pure-IP",GB,1
-AS201024,"DATAWEB GLOBAL LP.,DATAWEBGLOBAL-AS",GB,1
-AS58305,"SYN LTD,SYN",GB,1
-AS60395,"Global Reach Networks Limited,downshift",GB,1
-AS212446,"CACI Ltd,caciltd",GB,1
-AS39617,"Chris Burton t/a 8086 Consultancy,CONSULTANCY-ASN",GB,1
-AS208328,"Malindex Network Limited,AS-Malindex",GB,1
-AS30933,"KDA WEB SERVICES LTD,PROTEXIA-EU",GB,1
-AS51089,"Snapstack Limited,SaltyFishCloud",GB,1
-AS211686,"BAISI NETWORK LTD,BAISI-AS",GB,1
-AS213136,"AKKOCLOUD NETWORK LTD,AKKOCLOUD-AS",GB,1
-AS51221,"LMAX Limited,LMAX-HOSTING",GB,1
-AS34611,"Matthew Southgate,Mystere",GB,1
-AS52200,"M5 Limited,M5-AS",GB,1
-AS211175,"Caudata Ltd,gigapeak",GB,1
-AS211854,"Superhero Broadband Ltd,SUPERHERO-AS",GB,1
-AS16032,"The Internet Business Ltd,TIBUS-ULTRAFAST",GB,1
-AS202529,"CDW Ltd,CDW-UK-IT-ASN",GB,1
-AS210549,"CDW Ltd,CDW-IT-INFRA",GB,1
-AS47535,"Javelin Broadband Ltd,javelinbroadband",GB,1
-AS204562,"JAVELIN BROADBAND LIMITED,ASJavelin",GB,1
-AS209318,"North East Business and Innovation Centre Limited,NEBIC",GB,1
-AS209761,"North of England Commissioning Support Unit,NECS",GB,1
-AS206925,"CentralNic Ltd,CentralNic-Whois-A",GB,1
-AS199909,"ELITETELE.COM PLC,ELITETELE",GB,1
-AS51961,"Sargasso Networks Ltd.,SARGASSO-DE-AS",GB,1
-AS43059,"IT Support Services Team Limited,iitss",GB,1
-AS210924,"ssd networks limited,SSDNetworks",GB,1
-AS47625,"Paul David Hughes trading as Hosting Systems,UKHOST4U",GB,1
-AS200660,"Interhost LLP,Interhostllp",GB,1
-AS211855,"In The Frame (Manchester) Ltd,FRAMES",GB,1
-AS198382,"Teledata UK Limited,FIRSTEASY-AS",GB,1
-AS212170,"LOBOS NETWORKING LTD,WLF-NETWOLOB",GB,1
-AS212171,"BDP HOSTING SERVICES LIMITED,AS_NETDAMAL",GB,1
-AS212182,"BEAMSP ISP NETWORK LTD,ASTARZATBEAMP",GB,1
-AS47750,"UPMUX LTD,UPMUX-AS",GB,1
-AS59638,"WINDSWEPT INFORMATION TECHNOLOGY LIMITED,WITLTD",GB,1
-AS202288,"Matthew Martin,MM",GB,1
-AS201308,"Castlegem Ltd.,CASTLEGEM",GB,1
-AS47988,"Charles Allom,YELED",GB,1
-AS205220,"RH & Co. IT Services Ltd,RHC-Hosting",GB,1
-AS197913,"Cadence Networks Ltd,CCPG-AS",GB,1
-AS9540,"VELOCIX LIMITED,VELOCIXLIMITED-AS-AP",GB,1
-AS206160,"Simon Mott,AGARIKUCHI-AS",GB,1
-AS56325,"Diogelo Ltd.,DIOGELO-AS",GB,1
-AS50419,"Eye Pea Ltd.,EXASTACK",GB,1
-AS198719,"Intelliworkspace Ltd,INTELLIWORKSPACE-CLOUD",GB,1
-AS200328,"N-Sat Ltd,NSAT",GB,1
-AS204688,"David Tomlinson & Paul McAllion trading as Lantec Systems,LANTEC-ASN",GB,1
-AS206682,"LIMA Networks Limited,lima",GB,1
-AS39535,"Vinters IT Ltd,VooServers-DE",GB,1
-AS50743,"Commensus Limited,Commensus-Ltd-AS",GB,1
-AS198312,"Spectra Group (uk) Ltd,SPECTRAGROUP",GB,1
-AS16351,"Juno Records Ltd,JUNO-AS",GB,1
-AS59621,"Flo Networks Limited,FloNetworks-AS",GB,1
-AS47671,"Novacorp Networks Limited,insomnia-uk-as",GB,1
-AS62267,"Legend Telecom Ltd,NET365",GB,1
-AS206036,"Digital Realty (UK) Limited,DRT-EXCHANGE",GB,1
-AS210877,"TS Information Technology Limited,TS-Information-Technology",GB,1
-AS50972,"Jamie Oliver Ltd.,JamieOliver",GB,1
-AS210415,"Venkman WEB HOSTING AND INTERNET SERVICES LTD,ASVNK00056",GB,1
-AS211020,"Rockatansky HOSTING SERVICES LIMITED,asrokatansky",GB,1
-AS211032,"Hallson HOSTING AND WEB SERVICES LTD,ASHALLSON",GB,1
-AS211120,"GROOT WEB AND HOSTING SERVICES LIMITED,as_grootwebhost",GB,1
-AS211142,"GAUSSMAN SERVICES LIMITED,as_gaussmanltd",GB,1
-AS211165,"Batty WEB HOSTING AND INTERNET SERVICES Ltd,asbattyhost",GB,1
-AS211166,"Serizy WEB HOSTING Ltd,asserizyweb",GB,1
-AS211271,"EDF HOSTING AND WEB SERVICES LIMITED,AS_EDFHOST",GB,1
-AS211500,"Venkman NOTA HOSTING SERVICES LIMITED,AS_NOTAHST",GB,1
-AS211803,"INTER-ACT HOSTING SERVICES LTD,AS_INTER_ACT",GB,1
-AS212169,"TECH ROOM INTERNET LTD,TECH-RMMINET",GB,1
-AS30746,"Nat Morris,NAT-MORRIS",GB,1
-AS44824,"COMMI HOLDINGS LIMITED,CALLAGENIX-COLO-LONDON",GB,1
-AS60949,"4x Solutions UK LTD,AS-4XSOLUTIONS",GB,1
-AS203812,"Global Direct Delivery Ltd,GlobalDirectDeliveryLtd",GB,1
-AS6779,"Fujitsu Services Ltd.,ICLNET-AS",GB,1
-AS51063,"Fujitsu Telecommunications Europe Ltd,FUJITSU",GB,1
-AS34657,"Pro Insurance Solutions Limted,PROITGLOBALNET",GB,1
-AS210584,"PricewaterhouseCoopers IT Services Limited,PWCITSCo",GB,1
-AS25030,"National Farmers Union Mutual Insurance Society Ltd,NFU-AS",GB,1
-AS34178,"Qinetiq Limited,Qinetiq",GB,1
-AS34737,"Qinetiq Limited,QinetiQ-ISP",GB,1
-AS3232,"ModernColo LP,MODERNCOLO-AS",GB,1
-AS50930,"Redinet Limited,REDINET",GB,1
-AS200304,"Everyday Communications LTD,NSL",GB,1
-AS201980,"Claranet Limited,UNION-AS",GB,1
-AS203678,"No Problem Managed IT Services Ltd,noproblemit",GB,1
-AS203887,"Apex Networks Ltd,APEXNETWORKS",GB,1
-AS207059,"Precision Technology Consulting Limited,PRETECH-CLOUDXTINY",GB,1
-AS207925,"Lineout Media Ltd,Lineout-Media",GB,1
-AS49868,"ANITE TRAVEL Ltd,ANITE-TRAVEL-SYSTEMS",GB,1
-AS49898,"My Mind (Holdings) Ltd,MYMIND",GB,1
-AS50807,"Inspiretec LTD,INSPIRETEC-ASN",GB,1
-AS196646,"Datum Datacentres Limited,Datum",GB,1
-AS201903,"Evorio Limited,EVORIO-AS",GB,1
-AS203235,"zananet Limited,ZANANET",GB,1
-AS209899,"Nubis Associates Limited,NUBIS",GB,1
-AS210279,"DIGITAL MEDIA TECHNOLOGIES LTD,DMT",GB,1
-AS204269,"Air Broadband Limited,AIR-AS",GB,1
-AS44971,"University of Kent,GOETEC-AS",GB,1
-AS47797,"Essex County Council,ESSEXCC-AS",GB,1
-AS210902,"David & Denis Inc.,DAVID-DENIS-AS",GB,1
-AS212528,"MILEGROUP LTD,MILEGROUP-AS",GB,1
-AS59893,"Free Range Cloud Ltd.,FRC-AS",GB,1
-AS205909,"Phystrax Ltd,Phystrax-Network",GB,1
-AS208624,"IBILLY MEDIA GROUP LTD,BILLY-AS",GB,1
-AS39520,"Satcom Direct International Ltd.,SD-TECHOPS-NL",GB,1
-AS41751,"OCADO RETAIL LIMITED,OCADO",GB,1
-AS43534,"Network Merchants Limited,CREDITCALL",GB,1
-AS50813,"PAY AND SHOP LIMITED,PAY-AND-SHOP-LIMITED-AS",GB,1
-AS196990,"Shawbrook Bank Limited,COMFIRST-AS",GB,1
-AS206187,"Interactive Investor Services Limited,DIA-ASN",GB,1
-AS39060,"Sainsbury's Supermarkets Ltd,SAINSBURYS-NET",GB,1
-AS50063,"Sainsbury's Supermarkets Ltd,SAINSBURYS-NET",GB,1
-AS57850,"Northumbrian Water Ltd,NWL-AS",GB,1
-AS41337,"Panserve Limited,PROSERV-AS",GB,1
-AS47492,"Consider IT Limited,CONSIDERIT",GB,1
-AS58148,"Ironside Systems Ltd.,IRONSIDE",GB,1
-AS58246,"Lothian Broadband Networks Limited,LothianBroadband",GB,1
-AS202590,"Edinburgh Hacklab Ltd,HACKLAB",GB,1
-AS202808,"Blairlogie Community and Heritage Trust,LOGIENET",GB,1
-AS205517,"Highland Community Broadband C.I.C.,HCBC-AS",GB,1
-AS205885,"Cloudnet IT Solutions Ltd,cnetas01",GB,1
-AS210751,"Bit Chute Limited,bitchute",GB,1
-AS211144,"Joseph Farnell,AS_Farnell",GB,1
-AS57477,"Monsternet Highland Ltd,monsternet",GB,1
-AS213194,"Alfa Web Solutions Ltd,ALFA-WEB-SOLUTIONS-AS",GB,1
-AS206397,"Geniusx Ltd,Genius-Guard",GB,1
-AS25228,"Wifi Capital LTD,SKYVISION",GB,1
-AS211067,"Eastbourne Borough Council,LEC",GB,1
-AS211449,"Uways Khan,POISONCLOUD",GB,1
-AS29297,"Southern Communications Ltd,linkconnect-as",GB,1
-AS203449,"Hopewiser Ltd,HOPEWISER-MERLIN",GB,1
-AS203452,"DYNNIQ UK LTD,ImtechUK",GB,1
-AS209999,"Ascot Racecourse Ltd,ARL",GB,1
-AS44874,"Park Broadband Limited,PARKBROADBAND",GB,1
-AS47831,"Nat Morris,TREFFGARNE-REPEATERS",GB,1
-AS35830,"BTT Group Finance Ltd,BTTGROUP-AS",GB,1
-AS206092,"IPXO LIMITED,SECFIREWALLAS",GB,1
-AS206150,"IPXO LIMITED,CubeFocus-AS",GB,1
-AS212238,"Datacamp Limited,CDNEXT",GB,1
-AS41232,"Beeline Broadband Ltd,beeline",GB,1
-AS39389,"Gibson Thomas Rental Ltd,GTRL",GB,1
-AS48412,"Podsystem Limited,pod",GB,1
-AS48686,"oRe Networks Limited,SOLTECH-ASN",GB,1
-AS56335,"Nocsult Ltd,NOCSULT",GB,1
-AS64435,"The Communication GATEWAY LTD,comgw",GB,1
-AS206681,"Ivista Limited,IVISTA",GB,1
-AS211058,"ThreatSpike Labs Limited,threatspike-cloud-uk",GB,1
-AS210985,"Christopher Bishop,BISHOP",GB,1
-AS30769,"The Berkeley Group plc,BERKELEY-AS",GB,1
-AS60654,"Metdesk Ltd,METD-AS",GB,1
-AS201303,"CentralNic Ltd,CentralNic-Anycast-F",GB,1
-AS142594,"SpeedyPage Ltd,SPEEDYPAGELTD-AS-AP",GB,1
-AS212396,"FyfeWeb Ltd,FYFEWEB",GB,1
-AS206512,"TIGOVA NETWORK LIMITED,TIGOVA",GB,1
-AS25470,"SSE PLC,Scottish-Southern-Plc-AS",GB,1
-AS60593,"Network Rail Infrastructure Limited,NR-DC-UK-AS",GB,1
-AS207645,"F & W Networks Ltd,FWNETWORKS-AS",GB,1
-AS212426,"Hey Broadband LTD,FWNETWORKS-AS",GB,1
-AS208408,"Karanyi Ltd,KARANYI",GB,1
-AS24669,"Clouvider Limited,CLOUVIDER-NETWORK-OPTIMISATION",GB,1
-AS206136,"Clouvider Limited,CLOUDSRV-NORTH",GB,1
-AS212052,"BOET NOTIFY LTD.,BOETNOTIFY-AS",GB,1
-AS212634,"Notify Software Solutions Ltd,NOTIFY-AS",GB,1
-AS212149,"Hammy Web Services LLC,Hammynet",GB,1
-AS210777,"Daryll Swer,Daryll-Swer",GB,1
-AS51946,"University of Newcastle upon Tyne,NEWCASTLE-UNI-NUSAJAYA-CAMPUS",GB,1
-AS60064,"HOSTPALACE DATACENTERS LTD,HOSTPALACE-DC",GB,1
-AS133789,"MORE ACTION TECHNOLOGY LIMITED,MATL-AS-AP",GB,1
-AS206754,"Alistair Mackenzie,Alistair-Mackenzie",GB,1
-AS210228,"Web Hosted Group Ltd,WHG-NETWORK",GB,1
-AS21448,"Integrated Digital Services Ltd,MWIL",GB,1
-AS211049,"Department of Health and Social Care,DHSC-ARP",GB,1
-AS201304,"CentralNic Ltd,CENTRALNIC-ANYCAST-E",GB,1
-AS205197,"Kanta Enterprises Ltd,kanta",GB,1
-AS205309,"Prodec Networks Ltd,prodec_networks",GB,1
-AS197976,"FCG Development LTD,FCG-DVL",GB,1
-AS205372,"Evrocom.uk Limited,evrocomuk",GB,1
-AS52037,"Blackbridge Limited,y-internet",GB,1
-AS209669,"Ashley Primo,PRIMONET-AS",GB,1
-AS212222,"CentralNic Ltd,CentralNic-Anycast-I",GB,1
-AS212390,"CentralNic Ltd,CentralNic-Anycast-J",GB,1
-AS202038,"Intercity Managed Services Ltd.,INTERCITY-TECH-UKCORE",GB,1
-AS212784,"Buchan Consultancy Services Ltd,Marykirk-com",GB,1
-AS208907,"Chris Lawrence,AS208907-NETWORKS",GB,1
-AS60339,"Hutchison 3G UK Limited,H3GUK",GB,1
-AS212434,"Network Integration Technologies LTD,ITOGETHER",GB,1
-AS200973,"Centrix Ltd,centrixltd",GB,1
-AS136162,"ANSON NETWORK LIMITED,ANL-AS-AP",GB,1
-AS212413,"Department for Work and Pensions,DWP",GB,1
-AS43851,"J SEPHTON CONSULTING LIMITED,JSEPHTON-AS",GB,1
-AS211987,"DATA GRID NETWORK LTD,datagrid-network",GB,1
-AS211118,"WORLDONE RESEARCH LIMITED,SERMODK",GB,1
-AS39602,"The Cent.re Group Limited,TCG-AS",GB,1
-AS211585,"Canopus It Solutions Pvt Ltd,Canopussoft",GB,1
-AS210767,"Link Host Ltd,linkhost",GB,1
-AS211289,"Joshua Leahy,JOSH",GB,1
-AS211091,"I P House Limited,IPHOUSE",GB,1
-AS211998,"Alfred Foster,BonziNet",GB,1
-AS212792,"Bradley Hession,SERVERSIA-AS",GB,1
-AS210405,"Rob Whyte,RWH",GB,1
-AS31050,"The Framestore Limited,FRAMESTORE",GB,1
-AS210204,"PacketWall Solutions Ltd,packetwall-as",GB,1
-AS211350,"KVM Group Limited,KVM-NET",GB,1
-AS211474,"CMG Studios Limited,CMG-AS",GB,1
-AS212884,"Veyron Networks Ltd,VEYRON",GB,1
-AS207907,"NSQ Venture (M) SDN BHD,AS-NSQ",GB,1
+AS58453,"China Mobile,CMI-INT-HK",CN,681
+AS4134,"China Telecom,CHINANET-BACKBONE",CN,330
+AS4809,"China Telecom,CHINATELECOM-CORE-WAN-CN2",CN,327
+AS132203,"Shenzhen Tencent Computer Systems Company Limited,TENCENT-NET-AP-CN",CN,250
+AS23764,"China Telecom,CTGNet",CN,212
+AS131477,"""Shanghai Huajuan Information Technology Co.,SHHJ-AS",CN,132
+AS4837,"CHINA UNICOM Industrial Internet Backbone,CHINA169-Backbone",CN,125
+AS4847,"China Networks Inter-Exchange,CNIX-AP",CN,95
+AS55967,"""Beijing Baidu Netcom Science and Technology Co.,Baidu",CN,92
+AS17920,"LSHIY Network Technology Limited,LSHIY-BACKBONE",CN,86
+AS4808,"China Unicom,CHINA169-BJ",CN,82
+AS4538,"China Education and Research Network Center,ERX-CERNET-BKB",CN,66
+AS58807,"China Mobile,CMI-INT-AS",CN,65
+AS4812,"China Telecom,CHINANET-SH-AP",CN,58
+AS17621,"China Unicom,CNCGROUP-SH",CN,58
+AS139589,"LSHIY Network Technology Limited,GETONG-AS-AP",CN,53
+AS56048,"China Mobile,CMNET-BEIJING-AP",CN,53
+AS9808,"China Mobile,CHINAMOBILE-CN",CN,46
+AS7497,"Beijing Primezone Technologies Inc.,CSTNET-AS-AP",CN,36
+AS58879,"""Beijing CNISP Technology Co.,ANCHNET",CN,35
+AS63631,"""Guangdong Cloudbase Technology Co.,Cloudbase",CN,34
+AS24400,"China Mobile,CMNET-V4shanghai-AS-AP",CN,34
+AS268862,"China Mobile,",CN,31
+AS24413,"263 Shanghai Communications Ltd.,Shanghai263",CN,30
+AS56040,"China Mobile,CMNET-GuangDong-AP",CN,29
+AS133865,"""Beijing IQIYI Science & Technology Co.,IQIYI-AS-AP",CN,28
+AS9231,"China Mobile,IPEOPLESNET-AS-AP",CN,27
+AS137995,"""Shanghai Shuangyu Communication Technology co.,SHUANGYU-AS-AP",CN,25
+AS9929,"CHINA UNICOM Industrial Internet Backbone,CUII",CN,24
+AS9535,"""Beijing CNISP Technology Co.,ONE-NET-HK",CN,23
+AS24545,"China Telecom,HKTEL-AS-AP",CN,22
+AS23724,"China Telecom,CHINANET-IDC-BJ-AP",CN,21
+AS209141,"China Mobile,CMI-Russia",CN,20
+AS139742,"""Peddie Institute Co.,PEDDIE-AS-AP",CN,20
+AS137872,"China Mobile,PEOPLESPHONE-HK",CN,19
+AS17623,"China Unicom,CNCGROUP-SZ",CN,16
+AS137753,"Beijing Jingdong Shangke Information Technology Co. Ltd.,JD",CN,15
+AS59045,"""Guangzhou navigation information technology co.,SUNHONGS",CN,14
+AS55990,"Huawei,HWCSNET",CN,14
+AS24490,"Trans-Eurasia Information Network (TEIN2) - SG,TEIN2-SG-AP",CN,14
+AS24138,"China TieTong Telecommunications Corporation,CTTNET",CN,13
+AS56046,"China Mobile,CMNET-Jiangsu-AP",CN,13
+AS63541,"""Beijing Blue I.T Technologies Co.,CHINACACHE",CN,12
+AS58466,"China Telecom,CT-Guangzhou-IDC",CN,12
+AS45090,"Shenzhen Tencent Computer Systems Company Limited,TENCENT-NET-AP",CN,12
+AS4811,"China Telecom,CHINANET-SHANGHAI-MAN",CN,11
+AS23911,"China Next Generation Internet Beijing IX,CNGI-BJIX-AS-AP",CN,11
+AS24151,"China Internet Network Infomation Center,CNNIC-CRITICAL-AP",CN,10
+AS10212,"China Enterprise ICT Solutions Limited,CHINAENTERCOM",CN,10
+AS59019,"""Beijing Kingsoft Cloud Internet Technology Co.,BJKSCNET",CN,10
+AS42962,"Shijiazhuang XuDing Technology Company Ltd,CLE-COMM",CN,10
+AS140633,"BILIBILI HK LIMITED,BILIBILIHKLIMITED-AS-AP",CN,9
+AS38283,"China Telecom,CHINANET-SCIDC-AS-AP",CN,9
+AS24406,"China Internet Network Infomation Center,CNNIC-CRITICAL-AP",CN,9
+AS59078,"Yunify Technologies Inc.,YUNIFY-NET",CN,9
+AS23848,"""Shenzhen Ping An Communication Technology Co.,PINGANCOM",CN,9
+AS38365,"""Beijing Baidu Netcom Science and Technology Co.,Baidu",CN,9
+AS56041,"China Mobile,CMNET-Zhejiang-AP",CN,9
+AS17428,"21vianet(China) Inc.,CHINA-ABITCOOL",CN,8
+AS55992,"Beijing Qihu Technology Company Limited,QIHOO",CN,8
+AS24489,"Trans-Eurasia Information Network (TEIN2) - North,TEIN2-NORTH-AP",CN,8
+AS9394,"China TieTong Telecommunications Corporation,CTTNET",CN,7
+AS139138,"""Gopay Information Technology Co.,GOPAY",CN,7
+AS45079,"GDS CHANGAN SERVICES Ltd.,GDSNET",CN,7
+AS136958,"China Unicom,UNICOM-GuangZhou-IDC",CN,7
+AS212237,"Changgong Zhang,PXNET",CN,7
+AS55996,"CYPRESS TELECOM (CHINA) LIMITED,CYPRESSTEL",CN,6
+AS139057,"Baishan Cloud,BAISHAN-CN",CN,6
+AS58593,"""Shanghai Blue Cloud Technology Co.,BLUECLOUD",CN,6
+AS45110,"Beijing Tian Wei Xin Tong technology corp. limited.,CBCnet",CN,6
+AS58536,"CONAC (China Organizational Name Administration Center),AP-CONAC-AS-AP",CN,6
+AS9809,"""SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,NovaNetwork",CN,6
+AS37965,"Pacnet Business Solutions LTD,CNNIC-PBSL-AP",CN,6
+AS56006,"""Shanghai Pudong Development Bank Co.,SPDB-CN",CN,6
+AS17622,"China Unicom,CNCGROUP-GZ",CN,6
+AS136237,"""Shanghai Shuangyu Communication Technology co.,SSCTC-AS-AP",CN,6
+AS138538,"""Ningbo Nanbian Tuoluo Xinxi Jishu Co.,NANBIAN-VPSORGLOBAL-AS",CN,5
+AS36678,"China Telecom,CTUSA",CN,5
+AS23650,"China Telecom,CHINANET-Jiangsu-Province-IDC",CN,5
+AS58461,"""No.288,CT-HangZhou-IDC",CN,5
+AS58519,"Cloud Computing Corporation,CHINATELECOM-Ctcloud",CN,5
+AS134774,"China Telecom,ChinaNet-Guangdong-Shenzhen-MAN",CN,5
+AS9814,"""Beijing FibrLINK Networks Co.,FibrLINK",CN,5
+AS45062,"""NetEase Building No.16 Ke Yun Road,Netease-Network",CN,5
+AS63959,"HONG KONG SYSCLOUD TECHNOLOGY LIMITED,HKSTL-HK",CN,5
+AS137718,"""Beijing Volcano Engine Technology Co.,VOLCANO-ENGINE",CN,5
+AS4842,"Tianhai InfoTech,TH-AS-AP",CN,5
+AS24409,"China Internet Network Infomation Center,CNNIC-CRITICAL-AP",CN,5
+AS24444,"China Mobile,CMNET-V4shandong-AS-AP",CN,5
+AS63646,"""Beijing Xiaoju Science and Technology Co.,XJKJ",CN,5
+AS38345,"Internet Domain Name System Beijing Engineering Resrarch Center Ltd.,ZDNS",CN,4
+AS63673,"""Shenzhen Ping An Communication Technology Co.,PINGANCOM",CN,4
+AS135357,"""Shenzhen Katherine Heng Technology Information Co.,SKHT-AS",CN,4
+AS4816,"China Telecom,CHINANET-IDC-GD",CN,4
+AS58541,"""Qingdao,CHINATELECOM-SHANDONG-QINGDAO-IDC",CN,4
+AS138950,"China Telecom,CHINATELECOM-Jiangsu-Wuxi-International-IDC",CN,4
+AS133111,"""CERNET New Technology Co.,CNT-northChina",CN,4
+AS17964,"""Beijing Dian-Xin-Tong Network Technologies Co.,DXTNET",CN,4
+AS23844,"Beijing Guanghuan Xinwang Digital,BJ-GUANGHUAN-AP",CN,4
+AS38375,"""Unit 1801-1806 & 1826-1832,BJGH",CN,4
+AS38381,"""west wing no.157,travelsky",CN,4
+AS55960,"Beijing Guanghuan Xinwang Digital,BJ-GUANGHUAN-AP",CN,4
+AS56013,"SAMSUNG SDS CHINA,SDSC",CN,4
+AS9939,"""DYXNET of Shenzhen Communication Co.,DYXNET-CN",CN,4
+AS55994,"""Shanghai ruisu Network Technology Co.,ANCH-51idc",CN,4
+AS38057,"""Dell (China) Co.,DellChina",CN,4
+AS9308,"21vianet(China) Inc.,CHINA-ABITCOOL",CN,4
+AS139619,"China Mobile,CMI-MYS-AS-AP",CN,4
+AS24547,"China Mobile,CMNET-V4HEBEI-AS-AP",CN,4
+AS131486,"""Beijing Jingdong 360 Degree E-commerce Co.,JDCOM",CN,4
+AS141425,"China Mobile,CMNET-GUANGDONG-CN",CN,4
+AS38379,"""No.9 Building,MAGINETWORK",CN,4
+AS136600,"""Beijing Fengniao Network Technology Co.,FENGNIAO",CN,4
+AS140596,"""SHENZHEN TUTENG NETWORK CO.,STNC-AS-AP",CN,3
+AS63648,"""Beijing Xiaoju Science and Technology Co.,XJKJ",CN,3
+AS136189,"""Opera Software Technology (Beijing) Co.,OPERA-AS-AP",CN,3
+AS9389,"BEIJING SHENZHOU GREATWALL COMMUNICATION,CGWNET",CN,3
+AS58542,"""Tianjij,CHINATELECOM-TIANJIN",CN,3
+AS58563,"China Telecom,CHINATELECOM-Hubei-IDC",CN,3
+AS137686,"China Telecom,CHINATELECOM-HENAN-ZHENGZHOU-IDC",CN,3
+AS23910,"China Next Generation Internet CERNET2,CNGI-CERNET2-AS-AP",CN,3
+AS24348,"CERNET2 IX at Tsinghua University,CNGI-BJ-IX2-AS-AP",CN,3
+AS131578,"Beijing Foreign Studies University,BFSUNET",CN,3
+AS136167,"China Telecom,CHINATELECOM-AS-AP",CN,3
+AS137794,"Dahe tianchi (Beijing) network co. LTD,Dahe-network",CN,3
+AS9298,"""Beijing GuanghuanXuntong Digital Technology Co.,GHXTNET",CN,3
+AS17442,"Internet Service Provider in China,CHINANETCENTER-AP",CN,3
+AS17781,"XINHUA NEWS AGENCY,XHNEWS",CN,3
+AS18245,"China Internet Network Infomation Center,Founderbn",CN,3
+AS24430,"""Jia No.8,Chinapost",CN,3
+AS38027,"""Information Center,MOST-AS-AP",CN,3
+AS38358,"""3 Fuxing Road,ICCAST",CN,3
+AS45071,"""No.8 Xing Guang 5th Street,LNSG-CN",CN,3
+AS55468,"China Radio International,CRI",CN,3
+AS55966,"""Post Savings Bank of China Tower A,PSBCNET",CN,3
+AS56015,"""China Sports Lottery Technology Development Co.,CSLC-NET",CN,3
+AS58811,"CONAC (China Organizational Name Administration Center),AP-CONAC-AS-AP",CN,3
+AS58850,"Bloomberg Financial Information (Beijing) Co Ltd,BBGINETCN",CN,3
+AS58866,"China Financial Certification Authority,CFCA-NET",CN,3
+AS59074,"""TAIKANG INSURANCE GROUP CO.,TAIKANG-INSURANCE-GROUP",CN,3
+AS63548,"LENOVO (BEIJING) Co.ltd,Lenovo-BeiJing",CN,3
+AS137746,",AS137746",CN,3
+AS9392,"APT MOBILE SATCOM LIMITED,Apsatcom",CN,3
+AS137710,"""Net God Information Technology (Beijing) Co.,Wangshenxinxi",CN,3
+AS17775,"shanghai science and technology network communication limited company,STN-CN",CN,3
+AS23853,"""Shanghai Data Solution Co.,CNNIC-DSNET-AP",CN,3
+AS24424,"""Beijing Gu Xiang Information Technology Co.,GOOGLECN",CN,3
+AS24427,"Freecomm Corporation,FREENET",CN,3
+AS55956,"""Magna Automotive Technology and Service(Shanghai)Co.,Magna-Asiapacific",CN,3
+AS59083,"""Shanghai Kuanhui Tech. Co.,KHTech",CN,3
+AS63617,"McKinsey & Consulting Company Inc. Shanghai,McKinsey",CN,3
+AS63641,"""Mega Vantage Information Consulting Co.,MVNET",CN,3
+AS63612,"Shenzhen Qianhai bird cloud computing Co. Ltd.,Xiaoniaoyun",CN,3
+AS23771,"""SXBCTV ,SXBCTV-AP",CN,3
+AS17430,"""5F Greatwall Bldg.,GWBN",CN,3
+AS17816,"China Unicom,CHINA169-GZ",CN,3
+AS18243,"""5th Floor,Shanghai-EaseNet",CN,3
+AS131519,"Hisense,Hisense",CN,3
+AS137735,"China Construction Bank,CCBNET",CN,3
+AS138421,"China Unicom,CU-CN-AS",CN,3
+AS18118,"""CITIC Networks Management Co.,CITICNET-CN",CN,3
+AS137758,"""Industrial and Commercial Bank of China Limited,ICBC-AstroNet",CN,3
+AS132389,"China Mobile,CMI-INT-AS",CN,3
+AS135629,"Ningxia West Cloud Data Technology Co.Ltd.,WESTCLOUDDATA",CN,3
+AS138029,"""Shen Zhen Hu Lian Xian Feng Technology Co.,TTCL-CN",CN,3
+AS56282,"""Beijing Internet Harbor Technology Co.,VClouD",CN,3
+AS136796,"""Shijiazhuang Xuding Technology Co.,CL-JP-AS",CN,3
+AS38372,"""Room 203,RJNET",CN,3
+AS18257,"""ChangZhou Bitcomm Software Technology Co.,BITCOMM-AS",CN,3
+AS136180,"""Beijing Tiantexin Tech. Co.,IPIP-CN",CN,3
+AS59043,"""Guangzhou LanDong Information technology co.,LDNET",CN,3
+AS131574,"""Beijing Cloud Mind Technologies Co.,cloudmind",CN,3
+AS139726,"""Guangdong Yunjie Communication Co.,GYC-AS-AP",CN,3
+AS49209,"China Telecom,CTE-ASN",CN,2
+AS133952,"Zhengzhou longling technology ltd.,ZLTL-AS-AP",CN,2
+AS38564,"NVIDIA,NVIDIA-ASIA-IN-GW-AP",CN,2
+AS38340,"263 Shanghai Communications Ltd.,Shanghai263",CN,2
+AS135363,"""Chongqing Fuxuan Information Technology Co.,CFIT-AS-AP",CN,2
+AS137785,"""CACloud Services (Shanghai) Co.,Cacloud",CN,2
+AS4835,"China Telecom,CHINANET-IDC-SN",CN,2
+AS17638,"TIANJIN Provincial Net of CT,CHINATELECOM-TJ-AS-AP",CN,2
+AS17799,"Liaoning Provincial Net of CT,CHINATELECOM-LN-AS-AP",CN,2
+AS58543,"Guangdong,CHINATELECOM-Guangdong-IDC",CN,2
+AS131325,"CHINATELECOM JIANGSU province NANTONG MAN network,CHINATELECOM-JIANGSU-NANTONG-MAN",CN,2
+AS133774,"Fuzhou,CHINATELECOM-FUJIAN-FUZHOU-IDC1",CN,2
+AS134419,"Beihai,CHINATELECOM-Guangxi-Beihai-MAN",CN,2
+AS134420,"Chongqing Telecom,CHINATELECOM-Chongqing-IDC",CN,2
+AS134756,"China Telecom,ChinaNet-NANJING-JISHAN-IDC",CN,2
+AS134760,"China Telecom,ChinaNet-Hebei-Shijiazhuang-IDC",CN,2
+AS134761,"China Telecom,CHINANET-NINGXIA-ZHONGWEI-IDC",CN,2
+AS134768,"China Telecom,CHINANET-SHAANXI-CLOUD-BASE",CN,2
+AS134773,"China Telecom,ChinaNet-Guangdong-Guangzhou-MAN",CN,2
+AS137687,"""Luoyang,CHINATELECOM-HENAN-LUOYANG-IDC",CN,2
+AS137691,"""Heilongjiang Province,CHINATELECOM-HEILONGJIANG-IDC",CN,2
+AS137697,"""CHINATELECOM JiangSu YangZhou IDC networkdescr: YangZhou ,CHINATELECOM-JiangSu-YangZhou-IDC",CN,2
+AS137702,"China Telecom,CHINATELECOM-JIANGSU-NANJING-IDC",CN,2
+AS139721,"China Telecom,CHINATELECOM-AnHui-HeFei-MAN",CN,2
+AS140061,"China Telecom,CHINANET-Qinghai-AS-AP",CN,2
+AS140330,"China Telecom,CHINATELECOM-FUJIAN-XIAMEN-5G-NETWORK",CN,2
+AS4789,"NETSLAND Center,CERNAP1-CN",CN,2
+AS9405,"NETSLAND Center,TPS-CN-AS",CN,2
+AS24361,"CERNET2 IX at Southeast University,CNGI-NJ-IX-AS-AP",CN,2
+AS24364,"CERNET2 IX at Shanghai Jiaotong University,CNGI-SH-IX-AS-AP",CN,2
+AS24369,"CERNET2 IX at Northeast University,CNGI-SY-IX-AS-AP",CN,2
+AS133465,"Duke Kunshan University,DKU-AS-AP",CN,2
+AS138371,"China Education and Research Network (CERNET),CNGI-QDA-IX-AS-AP",CN,2
+AS139139,"Shenyang Agricultural University,SYAUNET",CN,2
+AS38834,"NVIDIA,NVIDIA-BANGALORE-AP",CN,2
+AS4611,"CNNIC member,xinhuanet",CN,2
+AS7641,"China Broadcasting TV Net,CHINABTN",CN,2
+AS9803,"""Beijing Jingxun Public Information Technology Co.,JINGXUN",CN,2
+AS9805,"China Internet Network Infomation Center,ENS-PEK",CN,2
+AS9807,"Data Management Centre National Bureau of Statistics of China,GOVSTATS",CN,2
+AS9810,"""Beijing Times Netstar Technology Co.,TNSNET",CN,2
+AS9811,"Development & Research Center of State Council Net.,DRCSCNET",CN,2
+AS18239,"""NO.11 Xi San Huan Zhong Road,CAPNET",CN,2
+AS18241,"State Power Information Net,SPINET",CN,2
+AS24134,"CNLink Network Technology Ltd.,CNNIC-CNLINKNET-AP",CN,2
+AS24147,"""BEIJING CBD TELECOM CO,CBDTELENET",CN,2
+AS24416,"Beijing Primezone Technologies Inc.,CNNIC-PRIMETELECOM-AP",CN,2
+AS37942,"""3rd Floor,SACHNET",CN,2
+AS38238,"Societe Generale (China) Limited,SG-CHINA-AS",CN,2
+AS38380,"China South Locomotive And Rolling Stock Industry Company,CNNIC-CSRNET-AP",CN,2
+AS45075,"China Central Television,CRI",CN,2
+AS45087,"China Duty Free group,CTGDFCL",CN,2
+AS55971,"Chinese Academy of Social Sciences,CASS-NET",CN,2
+AS55973,"""Universal Cinema Services Co.,UCSNETCN",CN,2
+AS55982,"""Changhong IT information Products CO.,CHIT",CN,2
+AS56002,"BEIJING MARINE COMMUNICATION AND NAVIGATION CO.,MCNNET",CN,2
+AS56011,"""UNICLOUD TECH CO.,T-UNICLOUD",CN,2
+AS56012,"LGNET China,LGNET-China",CN,2
+AS58448,"CONAC (China Organizational Name Administration Center),AP-CONAC-AS-AP",CN,2
+AS59012,"China Grain Reserves Group LTD.Company,SINOGRAIN",CN,2
+AS59029,"""People.Cn CO.,PEOPLENET",CN,2
+AS59073,"Bank of China Limited,BOC",CN,2
+AS63634,"""China Payment & Clearing Network Co.,CPCN",CN,2
+AS137764,"Beijing Youkai Technology Co.Ltd,Youkai",CN,2
+AS139110,"Beijing Jingdong Shangke Information Technology Co. Ltd.,Newcampus1-lenovo",CN,2
+AS139178,"Rural Credit Banks Funds Clearing Center,NXY-BJ",CN,2
+AS139189,"""Beijing Yu Jia Heng Tong Communications and Information Co.,YuJiaHengTong",CN,2
+AS38378,"Bosch (China) Investment Ltd.,RBCN-NET",CN,2
+AS9812,"""Oriental Cable Network Co.,CNNIC-CN-COLNET",CN,2
+AS17739,"Shanghai Telecom Haplink Network Co Ltd (Haplink),HAPLINK-CN-AP",CN,2
+AS38342,"""SHANGHAI VSAT NETWORK SYSTEMS CO.,SVCNET",CN,2
+AS55958,"Intel China Ltd,intel-china",CN,2
+AS56000,"""HERBALIFE(SHANGHAI)MANAGEMENT CO.,HERBALIFE-CNDC",CN,2
+AS63570,",AS63570",CN,2
+AS63580,"""China Novartis Institutes for Bio-Medical Research Co.,Novartis-CN",CN,2
+AS63615,"""GE (China) Co.,GECHINANET",CN,2
+AS137715,"GTJA Securities,GTJANET",CN,2
+AS137767,"Shanghai General Motor Corporation Limited,SGMNET",CN,2
+AS137806,"WMGS Consulting (Shenzhen) Co.Ltd,Walmart-GS",CN,2
+AS139091,"""Shanghai MBN telecommunication technology Co.,SHMBN",CN,2
+AS9306,"""RongHua Road No.11,CIETNET",CN,2
+AS10206,"China Unicom,CUZW-CN",CN,2
+AS17969,"ChongQing Broadcast & TV Transfer Network Co. Ltd,CNT",CN,2
+AS24137,"""KuanggongLu,HNPCNET",CN,2
+AS24139,"Huashu media&Network Limited,WASUHZ",CN,2
+AS45074,"Data Management Centre National Bureau of Statistics of China,GOVSTATS",CN,2
+AS59009,"QingDao WangXin Telcom Corp. Limited,WXData",CN,2
+AS59010,"""UnionFriend Network information service Co.,UFNET",CN,2
+AS63701,"""Jishi Media Co .,JSMNET",CN,2
+AS131506,"""HEILONGJIANG RADIO & TV NETWORK CO.,LJWL",CN,2
+AS134542,"China Unicom,UNICOM-GUIAN",CN,2
+AS135061,"China Unicom,UNICOM-ShenZhen-IDC",CN,2
+AS139136,"""ZHEJIANG PROVINCE NEW-TYPE INTERNET EXCHANGE POINT CO.,NNIX-HZ",CN,2
+AS140720,"China Unicom,UNICOM-JSNT-IDC",CN,2
+AS140726,"China Unicom,UNICOM-HEFEI-MAN",CN,2
+AS17429,"BEIJING GEHUA CATV NETWORK CO.LTD,BGCTVNET",CN,2
+AS58862,"""Microsoft (China) Co.,MCCL-CHN",CN,2
+AS59011,"""Beijing Yunlin Network Technology Co.,YLWL",CN,2
+AS59050,"""Beijing Cloud-Ark Technology Co.,Cloud-ark",CN,2
+AS63531,"""Beijing BAIWU Technology Co.,bw",CN,2
+AS63629,"""Beijing Autohome imformation technology Co.,AUTOHOME",CN,2
+AS139141,"Yusys Financial Cloud,YUSYS-FINANCIAL-CLOUD",CN,2
+AS139182,"""ABC Life Insurance Co.,ABCLIFE-NET",CN,2
+AS59065,"""PayPal Network Information Services (Shanghai) Co.,PAYPALCN",CN,2
+AS63679,"Jiangsu Cloud Ever Information Technology Co. Ltd.,XDCPLUSA",CN,2
+AS136758,"ShenZhen Century-One Limited,SZCO-AS-AP",CN,2
+AS139888,"LSHIY Network Technology Limited,D430-COM-AS-AP",CN,2
+AS63582,"Chinese Academy of Telecommunication Research,CAICTNET",CN,2
+AS136160,"""Beijing Shijihulian Yuntong Network Technology Co.,BSYNTCL-AS-AP",CN,2
+AS38341,"China Internet Network Infomation Center,HCENET",CN,2
+AS38370,"China TieTong Telecommunications Corporation,CTTNET",CN,2
+AS45069,"china tietong Shandong net,CNNIC-CTTSDNET-AP",CN,2
+AS139774,"China Education and Research Network (CERNET),CERNET-IVION-AS",CN,2
+AS136955,"Shang Hai Mu Ji Shang Wu Zi Xun You Xian Gong Si,SHMJSWZXYXGS-CN",CN,2
+AS24445,"China Mobile,CMNET-V4henan-AS-AP",CN,2
+AS37943,"""Zhengzhou GIANT Computer Network Technology Co.,CNNIC-GIANT",CN,2
+AS38019,"China Mobile,CMNET-V4TIANJIN-AS-AP",CN,2
+AS56042,"China Mobile,CMNET-Shanxi-AP",CN,2
+AS56044,"China Mobile,CMNET-AS-Liaoning",CN,2
+AS63561,"""China Electronics Technology Cyber Security Co.,WESTONE",CN,2
+AS132510,"China Mobile,ShanXiMCC-IDC",CN,2
+AS132525,"China Mobile,CMNET-HEILONGJIANG-CN",CN,2
+AS134810,"China Mobile,CMNET-JILIN-AS-AP",CN,2
+AS140895,"China Mobile,CMNET-ANHUI-CN",CN,2
+AS17962,"ShenZhen Topway Video Communication Co. Ltd,Topway-Net",CN,2
+AS139061,"Societe Generale (China) Limited,SG-CHINA-CN",CN,2
+AS38363,"""Floor 9,HighwayNet",CN,2
+AS63603,"GSS China,GSS-Networks",CN,2
+AS45101,"""Wal-mart (China) Investment Co.,Walmart-CN",CN,2
+AS59049,"""Wal-mart (China) Investment Co.,Walmart-CN",CN,2
+AS59072,"""Shenzhen ESIN Technology Co.,ESINNET",CN,2
+AS131558,"""Wal-mart (China) Investment Co.,Walmart-CN",CN,2
+AS137745,",AS137745",CN,2
+AS17782,"""Shijiazhuang Xuding Technology Co.,CORELINK-AS-AP",CN,2
+AS135006,"""Bit Huitong (Beijing) Information Co.,BHICL-AS-AP",CN,2
+AS136574,"""Shanghai Zheye Network Technology Co.,ZY-AS-AP",CN,2
+AS134417,"Nanjing,CHINATELECOM-Jiangsu-Nanjing-Hexi-IDC",CN,2
+AS56019,"""Beijing CNISP Technology Co.,SHUJUJIA",CN,2
+AS59048,"""Bei Jing Cloud Times Technology Co.,CLOUDTIMES",CN,2
+AS59077,"Shanghai UCloud Information Technology Company Limited,UCLOUD-NET",CN,2
+AS139833,"LSHIY Network Technology Limited,EVSIO0N-AS-AP",CN,2
+AS140107,"xiamen zhongheng Technology Ltd,CITISCLOUD-AS-AP",CN,2
+AS23852,"""17/FL,NGNNET",CN,2
+AS59037,"""Hangzhou ZhiYu Network Technology Co.,ZHIYUNET",CN,2
+AS63705,"Nanjing Anlai Xinxi Tongxin Jishu Youxian Gongsi,NJANLAI",CN,2
+AS139743,"""Shen Zhen Shi Fang Technology Co.,SHENZHENSHIFANGTEC-AS-CN",CN,2
+AS137801,"""AIPO Cloud (Guizhou) Technology Co.,AIPO-CN",CN,2
+AS138457,"China Academy of Information and Communications Technology,CAICT-AS-AP",CN,2
+AS63678,"Jiangsu Cloud Ever Information Technology Co. Ltd.,XDCPLUSB",CN,2
+AS136173,"""Quanzhou Yuntun Network Technology Co.,QYNTCL-AS-AP",CN,1
+AS4813,"China Telecom,BACKBONE-GUANGDONG-AP",CN,1
+AS17633,"Shandong Provincial Net of CT,CHINATELECOM-SD-AS-AP",CN,1
+AS17897,"Heilongjiang Provincial Net of CT,CHINATELECOM-HLJ-AS-AP",CN,1
+AS23839,"""76 # Oil Street of LiaoHe Oilfield,LiaoHe-HuaYu",CN,1
+AS45095,"""3-8-1,AQIDC",CN,1
+AS56005,"""Zhengzhou Fastidc Technology Co.,Fastidc",CN,1
+AS58539,"""Langfang,CHINATELECOM-Hebei-Langfang-IDC",CN,1
+AS58540,"""Jinan,CHINATELECOM-SHANDONG-JINAN-IDC",CN,1
+AS58571,"China Telecom,CHINATELECOM-GUIZHOU",CN,1
+AS58772,"China Telecom,ChinaNet-Fujian-Fuzhou-IDC",CN,1
+AS63835,"Hengyang,CT-HuNan-Changsha-IDC",CN,1
+AS63838,"Hengyang,CT-HuNan-Hengyang-IDC",CN,1
+AS131285,"China Telecom,CHINATELECOM-HUBEI-SHENGJI-5G-NETWORK",CN,1
+AS132147,"China Telecom,CT-SHANXI-MAN",CN,1
+AS132153,"China Telecom,CT-SHANXI-MAN-2",CN,1
+AS133775,"Xiamen,CHINATELECOM-Fujian-Xiamen-IDC1",CN,1
+AS133776,"Quanzhou,CHINATELECOM-Fujian-Quanzhou-IDC1",CN,1
+AS134238,"China Telecom,CT-Jiangxi-IDC",CN,1
+AS134762,"China Telecom,CHINANET-LIAONING-DALIAN-MAN",CN,1
+AS134763,"China Telecom,CT-DongGuan-IDC",CN,1
+AS134764,"China Telecom,CT-FoShan-IDC",CN,1
+AS134765,"China Telecom,CHINANET-YUNNAN-IDC1",CN,1
+AS134766,"China Telecom,CHINANET-YUNNAN-IDC2",CN,1
+AS134769,"China Telecom,ChinaNet-Jiangsu-Changzhou-Liyang-IDC",CN,1
+AS134770,"China Telecom,CHINANET-JIANGSU-SUZHOU-TAIHU-IDC",CN,1
+AS134771,"""WENZHOU,CHINATELECOM-ZHEJIANG-WENZHOU-IDC",CN,1
+AS134772,"China Telecom,ChinaNet-Guangdong-Dongguan-MAN",CN,1
+AS134775,"China Telecom,ChinaNet-Guangdong-Zhusanjiao-MAN",CN,1
+AS136188,"""NINGBO,CHINATELECOM-ZHEJIANG-NINGBO-IDC",CN,1
+AS136190,"""JINHUA,CHINATELECOM-ZHEJIANG-JINHUA-IDC",CN,1
+AS136191,"""YICHANG,CHINATELECOM-HUBEI-YICHANG-IDC",CN,1
+AS136192,"""Xiangyang,CHINATELECOM-HUBEI-XIANGYANG-IDC",CN,1
+AS136193,"""Jingzhou,CHINATELECOM-HUBEI-JINGZHOU-IDC",CN,1
+AS136194,"""Huangshi,CHINATELECOM-HUBEI-HUANGSHI-IDC",CN,1
+AS136195,"""Qingdao,CHINATELECOM-QINGDAO-CLOUDBASE",CN,1
+AS136197,"""Xiong'an,CHINATELECOM-HEBEI-XIONGAN",CN,1
+AS136198,"China Telecom,ChinaNet-Guangdong-Yuexi-MAN",CN,1
+AS136199,"China Telecom,ChinaNet-Guangdong-Yuedong-MAN",CN,1
+AS136200,"China Telecom,ChinaNet-Guangdong-Foshan-MAN",CN,1
+AS137688,"CHINATELECOM Liaoning Benxi MAN,CHINATELECOM-Liaoning-Benxi-MAN",CN,1
+AS137689,"""IOT Jiangsu network,CHINATELECOM-IOT-JIANGSU-Network",CN,1
+AS137690,"""Zaozhuang,CHINATELECOM-SHANDONG-ZAOZHUANG-IDC",CN,1
+AS137692,"""IOT Guangdong network,CHINATELECOM-IOT-GUANGDONG-Network",CN,1
+AS137693,"""CHINATELECOM Guangxi Nanning IDC networkdescr: Nanning ,CHINATELECOM-Guangxi-Nanning-IDC",CN,1
+AS137694,"CHINATELECOM Xinjiang Kezhou MAN network,CHINATELECOM-Xinjiang-Kezhou-MAN",CN,1
+AS137695,"CHINATELECOM Xinjiang Wulumuqi MAN network,CHINATELECOM-XINJIANG-WULUMUQI-MAN",CN,1
+AS137698,"""Haerbing ,CHINATELECOM-HEILONGJIANG-HANAN-IDC",CN,1
+AS137699,"CHINATELECOM Jiangsu Suqian IDC network,CHINATELECOM-Jiangsu-Suqian-IDC",CN,1
+AS138982,"China Telecom,CHINANET-Hubei-Jiangxia-IDC",CN,1
+AS138991,"China Telecom,CHINATELECOM-GUANGXI-LIUZHOU-IDC",CN,1
+AS139018,"China Telecom,CHINANET-Henan-Luoyang-IDC",CN,1
+AS139201,"China Telecom,CHINANET-Jiangxi-Jiujiang-IDC",CN,1
+AS139203,"China Telecom,CHINANET-Guizhou-Guian-IDC",CN,1
+AS139316,"China Telecom,CHINANET-Hubei-Huanggang-IDC",CN,1
+AS139462,"China Telecom,CHINANET-GY-AS",CN,1
+AS139584,"China Telecom,CHINANET-Jiangsu-Nanjing-MAN",CN,1
+AS139767,"China Telecom,CHINANET-AS-OA",CN,1
+AS139887,"China Telecom,ChinaNet-Yantai-IDC",CN,1
+AS140083,"China Telecom,CHINANET-ANHUI-AS-AP",CN,1
+AS140308,"China Telecom,CHINATELECOM-GUANGDONG-ZHUHAI-5G-NETWORK",CN,1
+AS140310,"China Telecom,CHINATELECOM-GUANGDONG-DONGGUAN-5G-NETWORK",CN,1
+AS140312,"China Telecom,CHINATELECOM-GUANGDONG-ZHANJIANG-5G-NETWORK",CN,1
+AS140313,"CHINATELECOM Guangdong province Zhaoqing 5G network,CHINATELECOM-GUANGDONG-ZHAOQING-5G-NETWORK",CN,1
+AS140314,"CHINATELECOM Guangdong province Shantou 5G network,CHINATELECOM-GUANGDONG-SHANTOU-5G-NETWORK",CN,1
+AS140315,"China Telecom,CHINATELECOM-GUANGDONG-JIEYANG-5G-NETWORK",CN,1
+AS140316,"China Telecom,CHINATELECOM-GUANGDONG-CHAOZHOU-5G-NETWORK",CN,1
+AS140317,"China Telecom,CHINATELECOM-GUANGDONG-SHAOGUAN-5G-NETWORK",CN,1
+AS140345,"China Telecom,CHINATELECOM-YUNNAN-SHENGJI-5G-NETWORK",CN,1
+AS140485,"China Telecom,CHINATELECOM-ZHEJIANG-HANGZHOU-5GC-NETWORK",CN,1
+AS140486,"China Telecom,CHINATELECOM-ZHEJIANG-JINHUA-5GC-NETWORK",CN,1
+AS140527,"China Telecom,CHINANET-ANHUI-WUHU-IDC",CN,1
+AS140553,"China Telecom,CHINATELECOM-XINJIANG-SHENGJI-5G-NETWORK",CN,1
+AS140636,"China Telecom,CHINANET-IOT-BEIJING",CN,1
+AS140638,"China Telecom,CHINANET-IOT-SICHUAN",CN,1
+AS140647,"China Telecom,CHINATELECOM-GUIZHOU-SHENGJI-5G-NETWORK",CN,1
+AS140903,"China Telecom,CHINANET-HEBEI-BAODING-MAN",CN,1
+AS141157,"China Telecom,GUANGXI-TELECOM-NANNING-WUXIANGYUANYANG-IDC",CN,1
+AS141771,"China Telecom,CHINANET-HEBEI-ZHANGJIAKOU-MAN",CN,1
+AS142404,"China Telecom,CHINANET-AS-AP",CN,1
+AS142608,"China Telecom,ChinaNet-Anhui-Bengbu-IDC",CN,1
+AS24349,"CERNET2 IX at Peking University,CNGI-BJ-IX3-AS-AP",CN,1
+AS24350,"CERNET2 IX at Beijing University of Posts and Telecommunications,CNGI-BJ-IX4-AS-AP",CN,1
+AS24352,"CERNET2 IX at Tianjin University,CNGI-TJN-IX-AS-AP",CN,1
+AS24353,"CERNET2 IX at Xi'an Jiaotong University,CNGI-XA-IX-AS-AP",CN,1
+AS24355,"CERNET2 IX at University of Electronic Science and Technology of China,CNGI-CD-IX-AS-AP",CN,1
+AS24356,"CERNET2 IX at Chongqing University,CNGI-CHQ-IX-AS-AP",CN,1
+AS24357,"CERNET2 IX at South China University of Technology,CNGI-GZ-IX-AS-AP",CN,1
+AS24358,"CERNET2 IX at Huazhong University of Science and Technology,CNGI-WH-IX-AS-AP",CN,1
+AS24362,"CERNET2 IX at University of Science and Technology of China,CNGI-HEF-IX-AS-AP",CN,1
+AS24363,"CERNET2 IX at Shandong University,CNGI-JNN-IX-AS-AP",CN,1
+AS24367,"CERNET2 IX at Zhejiang University,CNGI-HZH-IX-AS-AP",CN,1
+AS24370,"CERNET2 IX at Dalian University of Technology,CNGI-DLN-IX-AS-AP",CN,1
+AS24371,"CERNET2 IX at Jilin University,CNGI-CHC-IX-AS-AP",CN,1
+AS24372,"CERNET2 IX at Harbin Institute of Technology,CNGI-HRB-IX-AS-AP",CN,1
+AS134169,"""CERNEWTECH (Beijing) co.,CERNEWTECHRES-AS-CN",CN,1
+AS138369,"China Education and Research Network (CERNET),CNGI-SZH-IX-AS-AP",CN,1
+AS138378,"China Education and Research Network (CERNET),CNGI-KMN-IX-AS-AP",CN,1
+AS138393,"China Education and Research Network (CERNET),CNGI-NAN-IX-AS-AP",CN,1
+AS24149,"Internet Domain Name System Beijing Engineering Resrarch Center Ltd.,ZDNS",CN,1
+AS9802,"21vianet(China) Inc.,CHINA-ABITCOOL",CN,1
+AS37937,"China eGovNet Information Center,eGovNet",CN,1
+AS37970,"""Floor 9,HighwayNet",CN,1
+AS45083,"""Beijing haixunda Communication Co.,HXDNET",CN,1
+AS45084,"""No.98 JianGuo Road,BTV",CN,1
+AS56003,"""Beijing Century Union Network Technology Co.,JDJT",CN,1
+AS58842,"""Beijing Sheng Hexuan Culture Communication Co.,CX-SHXNET",CN,1
+AS59034,"""BeiJing Wish Network Technology CO.,WISHNET",CN,1
+AS63696,"""China Securities Co.,CSCNET",CN,1
+AS131497,"""Volkswagen (China) Investment Co.,VGC-BeiJing",CN,1
+AS131541,",AS131541",CN,1
+AS58517,"China Telecom,CHINATELECOM-CDMANetwork-BG-Beijing",CN,1
+AS58518,"China Telecom,CHINATELECOM-CDMANetwork-BG-Guangzhou",CN,1
+AS58520,"Nanton,CHINATELECOM-Jiangsu-Nantong-MAN",CN,1
+AS59056,"""Shanghai Yuantong Technologies Co.,IX-NET",CN,1
+AS63527,"China Telecom,CTGL-AS",CN,1
+AS64079,"China Telecom,CTGL-IPX",CN,1
+AS45061,"""Shanghai Information Network Co.,SIN",CN,1
+AS63697,"""China Securities Co.,CSCNET",CN,1
+AS131536,"""Shanghai Great Wall Broadband Network Service Co.,SHGWBNNET",CN,1
+AS137782,"STATE GRID SHANGHAI MUNICIPAL ELECTRIC POWER COMPANY,SHDCCENTRE",CN,1
+AS137784,"""CACloud Services (Shanghai) Co.,Cacloud",CN,1
+AS139108,"""Beckman Coulter Commercial Enterprise(China)Co.,BECKMAN",CN,1
+AS139179,"""China Pacific Insurance (Group) Co.,CPIC",CN,1
+AS4859,"The State Information Center of P.R.China,CEISTNET-AS-AP",CN,1
+AS17968,"Daqing zhongji petroleum telecommunication construction limited cpmpany,DQTNET",CN,1
+AS23851,"""CHONGQING CNC BROADBAND NETWORKS CO.,CNNIC-CQCNC-AP",CN,1
+AS24143,"Qingdao Cable TV Network Center,CNNIC-QCN-AP",CN,1
+AS24428,"""Beijing Founder Broadband Network Technology Co.,CNNIC-FOUNDERBN-AP",CN,1
+AS45113,"""Shanxi Datong Coal Group Communication Co.,DTcoal",CN,1
+AS58852,"Guizhou provincial radio and television information Network Inc,GZGD",CN,1
+AS59022,"""Kunming Broadcast&TV Network CO.,YNKM-TVNET",CN,1
+AS63565,"""Beijing lian guang tong network technology co.,YHWLM",CN,1
+AS63581,"""GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,GXRTVNET",CN,1
+AS63704,"Guizhou provincial radio and television information Network Inc,GZGD-GY",CN,1
+AS63722,"""Hodo Telecom Co,HODONET",CN,1
+AS131562,"""HUNAN CATV Network Group CO.,HNCATV",CN,1
+AS131577,"""Wuhan Unifiber Communication Co.,unifiband",CN,1
+AS133118,"China Unicom,UNICOM-CN",CN,1
+AS133119,"China Unicom,UNICOM-CN",CN,1
+AS134543,"China Unicom,UNICOM-DongGuan-IDC",CN,1
+AS136959,"China Unicom,UNICOM-FuoShan-IDC",CN,1
+AS137539,"China Unicom,UNICOM-Harbin-IDC",CN,1
+AS137788,"Shanxi Beacon Cloudscape,Beacon",CN,1
+AS139007,"China Unicom,UNICOM-NM-WuLanChaBu-IDC",CN,1
+AS139908,"""Karamay Hzon Network Technology Development Co.,HZNET-AS-AP",CN,1
+AS140707,"China Unicom,UNICOM-NXZW-IDC",CN,1
+AS140716,"China Unicom,UNICOM-JSWX-IDC",CN,1
+AS140717,"China Unicom,UNICOM-JSSZ-IDC",CN,1
+AS140886,"China Unicom,UNICOM-GX-IDC",CN,1
+AS140979,"China Unicom,UNICOM-SHFT-IDC",CN,1
+AS7640,"China International Trust & Investment Corporation Management Information Center,CITICNET",CN,1
+AS9801,"""A Building Haibo Masion,KUANCOM",CN,1
+AS38367,"""20/F.,ULICnet",CN,1
+AS45576,"Tsinghua University,CERNET2-TSINGHUA6-AS-AP",CN,1
+AS56292,"""Beijing CNISP Technology Co.,SANXIN",CN,1
+AS58860,"""Beijing Beikuan Technology Co,BEIKUAN",CN,1
+AS59003,"""Tianjin B&T broadband network technology Co.,TJGDKD",CN,1
+AS59057,"Bei jing yong xin chang lian ke ji you xian gong si,YXCL",CN,1
+AS63590,"Hebei Broadcasting&TV Network,HEBBTN",CN,1
+AS63598,"Hebei Kun Time Network Technology Co. Ltd.,KunTIME",CN,1
+AS63640,"""Jilin Province Longke Information Technology Co.,JPLITC",CN,1
+AS63691,"""Beijing wisdom network technology Co.,HEZHONG",CN,1
+AS131503,"China National Aero-Technology Import & Export Corporation,CATIC",CN,1
+AS131530,"""Shanghai Stacks Network Co.,STACKSNET",CN,1
+AS137762,"Guosen youyun software system co. LTD.,GUOXINYOUYUN",CN,1
+AS139177,"New Oriental Education & Technology Group Ltd.,EDU",CN,1
+AS139183,"Thomson Reuters (Beijing) Technology Development Co. Ltd,TRLCNET",CN,1
+AS146843,"""Tianjin xinshitongcheng Technology Co.,XSTCNET",CN,1
+AS63583,"Chinese Academy of Telecommunication Research,CAICTNET",CN,1
+AS44218,"China Telecom,CTBY-ASN",CN,1
+AS133194,"Connections Hub Technology (Shanghai) Ltd. Company,CHTLC-AS",CN,1
+AS24420,"Chinese Academy of Forestry,CNNIC-CAFNET-AP",CN,1
+AS63555,"Beijing Beilong Yunhai Network Data Technology Corporation,CNBIDCC",CN,1
+AS24495,"gnet Integrated Services Co.,GNET-CN-AP",CN,1
+AS37936,"""15F,SINA",CN,1
+AS136146,"""Beijing 3389 Network Technology Co.,B3NTCL-AS-AP",CN,1
+AS45057,"CHINA TIETONG SHANGHAI,CTTSH",CN,1
+AS9401,"NETSLAND Center,NLC-CN-AS",CN,1
+AS9406,"NETSLAND Center,NSFCNET-CN-AS",CN,1
+AS56047,"China Mobile,CMNET-Hunan-AP",CN,1
+AS59025,"""Beijing Sankuai Cloud Computing Co.,SKBJNET",CN,1
+AS63535,"""Chengdu Wanda Electronic Information Technology Co.,FFAN",CN,1
+AS138407,"China Mobile,CMNET-GZIDC-CN",CN,1
+AS139080,"China Mobile,CMNET-SCIDC-CN",CN,1
+AS140105,"China Mobile,CMNET-SNIDC-CN-AP",CN,1
+AS10111,"Zeofast Network,ZEONET-AS-AP",CN,1
+AS18242,"""Chengdu Information Harbor Co.,CDIH",CN,1
+AS17776,"China Enterprise ICT Solutions Limited,CHINAENTERCOM",CN,1
+AS58962,"""SiChuan Century LiXin Financial Management Consulting Co.,SCSJLX-CN",CN,1
+AS24141,"""Shanghai DMT Information Network cor.,DMTNET",CN,1
+AS45073,",AS45073",CN,1
+AS45086,"Shanghai Yovole Networks Inc.,YOVOLE",CN,1
+AS137759,"""MTS SYSTEM (China) Co.,MTSCHINANET",CN,1
+AS17490,"""3/F,ETFiberNet",CN,1
+AS23842,"Shenzhen Information and Network Center,SZINC-AS-AP",CN,1
+AS63690,"""China Dragon Telecom Co.,CDTNET",CN,1
+AS137777,"""Shenzhen dragon brother industrial co.,CDT",CN,1
+AS137787,"Beijing Jingdong Shangke Information Technology Co. Ltd.,Newcampus4-lenovo",CN,1
+AS135671,"Tianhai InfoTech,RBB-AS-AP",CN,1
+AS139799,"""Beijing Dajia Internet Information Technology Co.,BDIITCL-AS-AP",CN,1
+AS136766,"""ROBLOX (SHENZHEN) DIGITAL SCIENCE AND TECHNOLOGY CO.,RBX-AS-AP",CN,1
+AS17966,"China Information Broadcast Network Ltd.Co.,CIBN",CN,1
+AS59023,"""Beijing nine cloud infinite network technology co.,Forest-Eternal",CN,1
+AS59067,"""Microsoft Mobile Alliance Internet Services Co.,MMAISNET",CN,1
+AS24575,"DRAGONLAB,DRAGONLAB-AS-AP",CN,1
+AS38272,"China Education and Research Network (CERNET),FITI-AS-BKB",CN,1
+AS38346,"CNLink Network Technology Ltd.,HangTian-INFONET-AP",CN,1
+AS45058,"""Golden-Bridge Netcom communication Co.,XMGBNET",CN,1
+AS55976,"Beijing DxConsole Technology Co. Ltd,DxConsole",CN,1
+AS59080,"""Beijing HuaxiaYakue Network Technology Co.,Yakue",CN,1
+AS59089,"NO.18 Building University of Technology,CloudVsp",CN,1
+AS24302,"China Education and Research Network (CERNET),CRIS-CERNET-AS",CN,1
+AS59066,"Dianji Network Technology Co. Ltd,shdjnet",CN,1
+AS131482,"""Hangzhou Aron Teconology Co.,ARONNET",CN,1
+AS63619,"""Beijing Sankuai Cloud Computing Co.,SKYUNNET",CN,1
+AS63689,"""Esun Technology(Shanghai) Co.,ESUNNET",CN,1
+AS139112,"""Shanghai Qnet Networking Technology Co.,QNET",CN,1
+AS139118,"""Shanghai Rugu Info&Tech Co.,RuguInfo",CN,1
+AS137719,"""Qingdao Weidong Big Data Technology Co.,CERWD",CN,1
+AS139180,"""Shandong eshinton Network Technology Co.,SDYXT",CN,1
+AS24422,"""Huizhan street,HTXX",CN,1
+AS139220,"China Telecom,CHINANET-Sichuan-Chuanxi-IDC",CN,1
+AS137571,"""Rang Yang Bai Shi Chuang Yun Co.,PESYUN-AS-AP",CN,1
+AS140500,"""Henan Anyun Network Technology Co.,ANYUN-NETWORK-AS-AP",CN,1
+AS138405,"""Shijiazhuang Xuding Technology Co.,L-KS",CN,1
+AS132591,"Shenzhen Tencent Computer Systems Company Limited,TENCENT-NET-AP-AS",CN,1
+AS142611,"""Shanghai Tujuan Information Technology Co.,STITCL-AS-AP",CN,1
+AS55786,"Mobius Wireless Solutions Ltd,MOBIUS-CN",CN,1
+AS38339,"""CNISP-Union Technology (Beijing) Co.,CNISP-UNION",CN,1
+AS58834,"Guangdong Cable Corporation Limited,GCableNET",CN,1
+AS58859,"""Shenzhen WSUNet Technology Co.,WSUNET",CN,1
+AS63655,"""Huawei Technologies Co.,HWDGNET",CN,1
+AS63695,"""WeiYi Network Technology Co.,WYNETWORK",CN,1
+AS139113,"""Shanghai Felizlink Communication Technology Co.,FelizlinkNet",CN,1
+AS139115,"Guangtongtianxia Network Technology Limited Company,Guangtongtianxia-IDC",CN,1
+AS139172,"""Hangzhou Woodnn Technology Co.,Woodnn-network",CN,1
+AS55998,"CNLink Network Technology Ltd.,CNLINKNET",CN,1
+AS59033,"""Esun Technology(Shanghai) Co.,ESUNNET",CN,1
+AS131525,"Nanjing Tuniu Technology Co. Ltd.,TOURNET",CN,1
+AS137778,"Nangjing sichongzou kemao Ltd.,NJSCZ",CN,1
+AS24404,"""CNISP-Union Technology (Beijing) Co.,CNISP-UNION",CN,1
+AS38364,"""RM 1706,LTEL",CN,1
+AS45064,"""BEIJING ZHONGGUANCUN SOFTWARE PARK DEVELOPMENT CO.,ZSPNET",CN,1
+AS55461,"""Beijing CNISP Technology Co.,SUNINFO-MDC",CN,1
+AS55972,"Beijing Sawas Technology Co.LTD.,SawasNet",CN,1
+AS55997,",AS55997",CN,1
+AS58863,"""hijingshan District,ZlNET",CN,1
+AS59008,"Beijing flash newsletter cas telecommunication,shinenet",CN,1
+AS59040,"Beijing Haiyu Technology Co. Ltd..,HIDDOS",CN,1
+AS63530,"Beijing Guanghuan newsletter network communication technology limited liability company,GHSXGENET",CN,1
+AS63614,"""A4,QishangOnline",CN,1
+AS131495,"""Beijing nine cloud infinite network technology co.,Nine-cloud",CN,1
+AS131512,"""Beijing Xinchi Technology Co.,CNIX-NETWORKS",CN,1
+AS137747,"""Beijing Chijun Network Advisory Service Co,CHIJUN",CN,1
+AS137761,"ETIIR,ETIIR",CN,1
+AS137804,"China Internet Exchange,CNIX",CN,1
+AS139157,"Business-intelligence of Oriental Nations Corporation Ltd.,BONC",CN,1
+AS139184,"""Beijing Swiftcall Science Technologies,Swiftcall",CN,1
+AS210714,"Wang Yongjin,KIM-AS",CN,1
+AS136750,"China Mobile,CMI-INT-AS-AP",CN,1
+AS137798,"""5/F,Digital-Guangdong",CN,1
+AS63549,"""LiaoNing Tulong Science & Technology Co.,TULONGNET",CN,1
+AS140056,"China Telecom,CHINANET-MAOMING-AS-AP",CN,1
+AS9516,"Zhuhai FuYuanLeYu Technology Limited,SAKURA-AS-AP",CN,1
+AS63677,"Jiangsu Cloud Ever Information Technology Co. Ltd.,XDCPLUSB",CN,1
+AS137882,"""Shanghai Huajuan Information Technology Co.,HUAJUAN-ES",CN,1
+AS140096,"""Shanghai Huajuan Information Technology Co.,JINX-AS-AP",CN,1
+AS132225,"China Telecom,CHINATELECOM-QINGHAI-5G-NETWORK",CN,1
+AS131524,"""Shanghai pujv Communication Technology co.,SHPJNET",CN,1
+AS63620,"""ShenZhen HuaBo Technology Develop Co.,HUABOtechNET",CN,1
+AS58854,"Kaopu Cloud,kaopy",CN,1
+AS38323,"""Meifeng Advertising Co.,MACL-AS-AP",CN,1
+AS139635,"""Hubei Yunwutong Network Technology Co.,HYNTCL-AS-AP",CN,1
+AS35696,"""Pingtan Hotline Network Technology Co.,Kirinnetworks",CN,1
+AS132553,"China University of Petroleum (East China),UPC-AS-CN",CN,1
+AS139266,"""Guangzhou Tiansui Information Technology Co.,GTITCL-AS-AP",CN,1
+AS139090,"Wuxi Education Information Management Service Center,WXEIMSC",CN,1
+AS133731,"""Royal Network Technology Co.,TOINTER-AS-AP",CN,1
+AS58998,"""Beijing Internet Harbor Technology Co.,VClouD",CN,1

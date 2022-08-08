@@ -29,15 +29,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/085ET-GIM/data/heatmap-data_all.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/data_global/labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/data_global/links.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/data_global/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/gexf_to_ngraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_CN.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_DE.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_Global.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_JP.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_RU.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_TW.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_US.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/version-CN/labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/version-CN/links.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/version-CN/positions.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/version-Global/labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/version-Global/links.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/version-Global/positions.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/global_as.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/global_as.gexf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/data/heatmap-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/data/heatmap-data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -55,7 +84,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/086LearnNodeJs/pm" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -99,7 +128,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/085ET-GIM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -112,21 +141,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM" />
-      <recent name="D:\Code\Crawler4Caida\088Mapbox\use-mapbox-gl-js-with-react" />
-      <recent name="D:\Code\Crawler4Caida\057IPv6UrlCrawler" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
-      <recent name="D:\Code\Crawler4Caida\.streamlit" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph\version-Global" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph\verison-TW" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph\version-CN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\.streamlit" />
-      <recent name="D:\Code\Crawler4Caida" />
-      <recent name="D:\Code\Crawler4Caida\088Mapbox\use-mapbox-gl-js-with-react\src" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\graph-start\dist" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\data" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\data_global" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5_🌳_VisLab">
+  <component name="RunManager" selected="Python.generate_gexf_global_as">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tier1_as_v2_cn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +201,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/043BGPlayPaper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/Tier1_as_v2_cn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/043BGPlayPaper/ASlay_plus_Mayavi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bypass_abroad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generate_gexf_global_as" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,11 +222,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA/Gephi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/bypass_abroad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cn2global" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generate_gexf_global_as_pm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,11 +243,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/087TW_Analysis_v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA/Gephi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/087TW_Analysis_v2/cn2global.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +278,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Tier1_as_v2_cn" />
-      <item itemvalue="Python.bypass_abroad" />
-      <item itemvalue="Python.cn2global" />
       <item itemvalue="Python.tw_as_rel" />
       <item itemvalue="Python.5_🌳_VisLab" />
+      <item itemvalue="Python.generate_gexf_global_as" />
+      <item itemvalue="Python.generate_gexf_global_as_pm" />
+      <item itemvalue="Python.ASlay_plus_Mayavi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5_🌳_VisLab" />
+        <item itemvalue="Python.generate_gexf_global_as" />
+        <item itemvalue="Python.ASlay_plus_Mayavi" />
+        <item itemvalue="Python.generate_gexf_global_as_pm" />
         <item itemvalue="Python.tw_as_rel" />
-        <item itemvalue="Python.cn2global" />
-        <item itemvalue="Python.bypass_abroad" />
-        <item itemvalue="Python.Tier1_as_v2_cn" />
+        <item itemvalue="Python.5_🌳_VisLab" />
       </list>
     </recent_temporary>
   </component>
