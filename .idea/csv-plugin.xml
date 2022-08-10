@@ -45,6 +45,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_geo\GeoLite2-Country-Locations-en.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_geo\GeoLite2-Country-Locations-zh-CN - backup20210603.csv">
           <value>
             <Attribute>

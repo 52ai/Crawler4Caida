@@ -150,7 +150,7 @@ def generate_gephi_file():
             # temp_str = "<edge id=\"%s\" source=\"%s\" target=\"%s\" type=\"%s\"/>\n" \
             #            % (str(item[0]), str(item[1]), str(item[2]), str(item[3]))
             temp_str = "<edge id=\"%s\" source=\"%s\" target=\"%s\" type=\"undirected\"/>\n" \
-                       % (str(item[0]), str(item[1]), str(item[2]))
+                       % (str(item[0]), str(item[2]), str(item[1]))
             f.write(temp_str)
         f.write("</edges>\n</graph>\n</gexf>")
 
