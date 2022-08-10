@@ -29,18 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/lib/convertToGraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/lib/getAllPackages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/lib/loadGraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/allcomposer/toBinary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/085ET-GIM/map_policy/policy_crawler_fcc.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/gexf_to_ngraph.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_CN.gexf" afterDir="false" />
@@ -52,10 +41,9 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_TW.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_US.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/global_as_RU.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/global_as_RU.gexf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -76,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -126,7 +114,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/085ET-GIM/.streamlit" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -139,11 +127,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\085ET-GIM\.streamlit" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
       <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph\version-RU" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph\version-RU" />
@@ -153,7 +141,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.generate_gexf_global_as_pm">
+  <component name="RunManager" selected="Python.policy_crawler_fcc">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,27 +157,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-    </configuration>
-    <configuration name="5_🌳_VisLab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/085ET-GIM/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="ASlay_plus_Mayavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
@@ -254,6 +221,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="policy_crawler_fcc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/085ET-GIM/map_policy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/085ET-GIM/map_policy/policy_crawler_fcc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tw_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,18 +265,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.tw_as_rel" />
-      <item itemvalue="Python.5_🌳_VisLab" />
       <item itemvalue="Python.generate_gexf_global_as" />
       <item itemvalue="Python.generate_gexf_global_as_pm" />
       <item itemvalue="Python.ASlay_plus_Mayavi" />
+      <item itemvalue="Python.policy_crawler_fcc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.policy_crawler_fcc" />
         <item itemvalue="Python.generate_gexf_global_as_pm" />
         <item itemvalue="Python.generate_gexf_global_as" />
         <item itemvalue="Python.ASlay_plus_Mayavi" />
         <item itemvalue="Python.tw_as_rel" />
-        <item itemvalue="Python.5_🌳_VisLab" />
       </list>
     </recent_temporary>
   </component>

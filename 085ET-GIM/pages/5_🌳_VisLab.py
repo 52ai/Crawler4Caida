@@ -48,7 +48,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["3D-Building", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D巡航可视化", "星云图"]
+    menu = ["3D-Building", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -58,7 +58,7 @@ if st.session_state.count > 0:
                       "dark_no_labels",
                       "light_no_labels",
                       ]
-    st.sidebar.markdown("")
+    st.sidebar.markdown(" ")
     choice = st.sidebar.selectbox("请选择可视化样式：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
     if choice == "Demo":
@@ -76,7 +76,7 @@ if st.session_state.count > 0:
             columns=['lat', 'lon'])
 
         st.pydeck_chart(pdk.Deck(
-            map_style='mapbox://styles/mapbox/dark-v9',
+            map_style=map_style,
             initial_view_state=pdk.ViewState(
                 latitude=37.76,
                 longitude=-122.4,
@@ -153,12 +153,13 @@ if st.session_state.count > 0:
         """)
 
         st.bokeh_chart(column(p, div), use_container_width=True)
+
     elif choice == "GeoMap":
         st.markdown("依托pydeck+mapbox开展，地图系统的研究")
         DATA_SOURCE = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv'
         # DATA_SOURCE = 'https://raw.githubusercontent.com/ajduberstein/geo_datasets/master/fortune_500.csv'
-        df = pd.read_csv("D:/Code/Crawler4Caida/085ET-GIM/data/heatmap-data.csv")
-        print(df.to_dict(orient="records"))
+        df = pd.read_csv("./data/heatmap-data.csv")  # 小规模的可以，全量数据就有问题，需要研究下
+        # print(df.to_dict(orient="records"))
 
         layer_hexagon = pdk.Layer(
             'GridLayer',  # `type` positional argument is here, CPUGridLayer, HexagonLayer,GridLayer
@@ -205,13 +206,14 @@ if st.session_state.count > 0:
             get_text_anchor=String('middle'),
             get_alignment_baseline=String('center')
         )
+
         # 添加旅行路线图层
         TRIPS_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/sf.trips.json"  # noqa
         df = pd.read_json(TRIPS_LAYER_DATA)
         df["coordinates"] = df["waypoints"].apply(lambda f: [item["coordinates"] for item in f])
         df["timestamps"] = df["waypoints"].apply(lambda f: [item["timestamp"] - 1554772579000 for item in f])
         df.drop(["waypoints"], axis=1, inplace=True)
-        print(df)
+        # print(df)
 
         layer_trips = pdk.Layer(
             "TripsLayer",
@@ -228,25 +230,25 @@ if st.session_state.count > 0:
         )
 
         # 添加散点图层（可针对单独点做更多的设置）
-        # SCATTERPLOT_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-stations.json"
-        # df = pd.read_json(SCATTERPLOT_LAYER_DATA)
-        # df["exits_radius"] = df["exits"].apply(lambda exits_count: math.sqrt(exits_count))
-        # layer_scatter_bart = pdk.Layer(
-        #     "ScatterplotLayer",
-        #     df,
-        #     pickable=True,
-        #     opacity=0.8,
-        #     stroked=True,
-        #     filled=True,
-        #     radius_scale=6,
-        #     radius_min_pixels=1,
-        #     radius_max_pixels=100,
-        #     line_width_min_pixels=1,
-        #     get_position="coordinates",
-        #     get_radius="exits_radius",
-        #     get_fill_color=[255, 140, 0],
-        #     get_line_color=[0, 0, 0],
-        # )
+        SCATTERPLOT_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-stations.json"
+        df = pd.read_json(SCATTERPLOT_LAYER_DATA)
+        df["exits_radius"] = df["exits"].apply(lambda exits_count: math.sqrt(exits_count))
+        layer_scatter_bart = pdk.Layer(
+            "ScatterplotLayer",
+            df,
+            pickable=True,  # 可选择
+            opacity=0.8,  # 透明度
+            stroked=True,  # 绘制点的轮廓
+            filled=True,  # 绘制点的填充区
+            radius_scale=6,  # 所有点的全局半径乘数
+            radius_min_pixels=1,  # 点半径的最小值
+            radius_max_pixels=100,  # 点半径的最大值
+            line_width_min_pixels=1,  # 线的最小的像素值
+            get_position="coordinates",  # 获取位置信息
+            get_radius="exits_radius",  # 获取点的半径值
+            get_fill_color=[255, 140, 0],  # 填充的颜色
+            get_line_color=[0, 0, 0],  # 轮廓的颜色
+        )
 
         # 添加路径图层
         DATA_URL = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-lines.json"
@@ -267,6 +269,7 @@ if st.session_state.count > 0:
             get_path="path",
             get_width=5,
         )
+
         # Set the viewport location
         view_state = pdk.ViewState(
             longitude=-1.415,
@@ -279,7 +282,7 @@ if st.session_state.count > 0:
 
         # Combined all of it and render a viewport
         r = pdk.Deck(map_style=map_style,
-                     layers=[layer_hexagon, layer_heatmap, layer_scatter, layer_textmap, layer_trips, layer_path],
+                     layers=[layer_hexagon, layer_heatmap, layer_scatter, layer_textmap, layer_trips, layer_path, layer_scatter_bart],
                      initial_view_state=view_state,
                      tooltip={
                          # 'html': '<b>Elevation Value:</b> {elevationValue}',
@@ -291,10 +294,11 @@ if st.session_state.count > 0:
                      )
 
         st.pydeck_chart(r)
+
     elif choice == "ArcLayer":
 
         # GREAT_CIRCLE_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/flights.json"  # noqa
-        GREAT_CIRCLE_LAYER_DATA = "D:/Code/Crawler4Caida/085ET-GIM/data/flights.json"
+        GREAT_CIRCLE_LAYER_DATA = "./data/flights.json"
         df = pd.read_json(GREAT_CIRCLE_LAYER_DATA)
 
         # Use pandas to prepare data for tooltip
@@ -324,6 +328,7 @@ if st.session_state.count > 0:
                      tooltip={"text": "{from_name} to {to_name}"}, )
         r.picking_radius = 10
         st.pydeck_chart(r)
+
     elif choice == "3D-Building":
         st.markdown("依托pydeck+mapbox开展，地图系统的研究，3D Building")
 
@@ -392,6 +397,7 @@ if st.session_state.count > 0:
                      )
 
         st.pydeck_chart(r)
+
     elif choice == "FlightsLine":
         DATA_URL = {
             "AIRPORTS": "https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/line/airports.json",
@@ -446,10 +452,11 @@ if st.session_state.count > 0:
                      }
                      )
         st.pydeck_chart(r)
+
     elif choice == "GlobeView":
         COUNTRIES = "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_scale_rank.geojson"
         # POWER_PLANTS = "https://raw.githubusercontent.com/ajduberstein/geo_datasets/master/global_power_plant_database.csv"
-        df = pd.read_csv("D:/Code/Crawler4Caida/085ET-GIM/data/global_power_plant_database.csv")
+        df = pd.read_csv("./data/global_power_plant_database.csv")
         # COUNTRIES = "D:/Code/Crawler4Caida/085ET-GIM/data/ne_50m_admin_0_scale_rank.geojson"
         # st.write("log1....")
 

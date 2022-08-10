@@ -18,6 +18,7 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
+
 # 去除streamlit的原生标记
 sys_menu = '''
 <style>
@@ -47,7 +48,7 @@ with st.sidebar:
     )
 
 # 读取本地Mysql信息
-pymysql_info_file = "D:/Code/Crawler4Caida/.streamlit/pymysql_info_Ts.txt"
+pymysql_info_file = "./.streamlit/pymysql_info_Ts.txt"
 with open(pymysql_info_file, 'r', encoding='utf-8') as f:
     line = f.readlines()[0]
     line = line.strip().split(",")
@@ -103,8 +104,8 @@ if choice == "首页":
         """
         ET-GIM，即工程技术-全球网络地图（Engineering Technology-Global Internet Map）的英文缩写。
         它脱胎于院2022年度的**工程技术课题**。  
-        ET-GIM的设计开发理念是 **“快速形成一版最小可用系统”** ，交付至工程技术课题项目组。 
-        ET-GIM系统的主要功能可概括为 **“4+1”**，即政策层、物理层、逻辑层、应用层4张地图，1项可视化探索。         
+        ET-GIM的设计开发理念是 **“快速形成一版最小可用系统”** ，交付至课题项目组。 
+        ET-GIM系统的主要功能可概括为 **“4+1”**，即政策层、物理层、逻辑层、应用层，共4层地图；1项可视化探索。         
         ### 产品受众
         政府部门、走出去企业、面向公众用户及相关单位  
         ### 产品优点
