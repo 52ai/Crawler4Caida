@@ -66,8 +66,8 @@ if st.session_state.count > 0:
     map_point_color = st.sidebar.color_picker("地图节点颜色：", "#EC7E22")
     map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
     is_single_cable_mode = st.sidebar.radio("请选择是否进入海缆Single模式:", (False, True))
-    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (True, False))
-    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (True, False))
+    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (False, True))
+    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
 
     def hex_to_rgb(h):
         h = h.lstrip("#")

@@ -1,3 +1,5 @@
+import json
+
 import streamlit as st
 import numpy as np
 from st_card import st_card
@@ -12,6 +14,7 @@ from bokeh.models import Div
 from bokeh.palettes import Spectral
 from bokeh.plotting import figure
 import math
+import time
 
 import plotly.express as px
 
@@ -61,6 +64,15 @@ if st.session_state.count > 0:
     st.sidebar.markdown(" ")
     choice = st.sidebar.selectbox("请选择可视化实验案例：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
+    map_point_radius = st.sidebar.number_input("地图节点大小：", value=3, min_value=0, max_value=10)
+    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#EC7E22")
+    map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
+    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (True, False))
+    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
+
+    def hex_to_rgb(h):
+        h = h.lstrip("#")
+        return tuple(int(h[i: i + 2], 16) for i in (0, 2, 4))
 
     if choice == "Demo":
         cols0, cols1, cols2, cols3, cols4 = st.columns([1, 1, 1, 1, 1])
@@ -533,8 +545,123 @@ if st.session_state.count > 0:
         st.pydeck_chart(r)
 
     elif choice == "GlobalIXPMap":
+        country_list = ["global", "china", "united-states", "germany", "russia", "japan", "taiwan"]
+        country_name = st.selectbox("请选择国家或地区:", country_list)
         st.write("依托GIS地图系统，开展全球互联网交换中心可视化实验研究")
+        st.write("地图绘制时间：", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
+
+        exchanges_file = "./map_vislab/ixps/exchanges.json"
+        buildings_geo_file = "./map_vislab/ixps/buildings_geo.json"
+        exchanges_list = []  # 存储全球IXP
+        online_ix_slug = []  # 存储online ix 的slug
+        with open(exchanges_file, "r", encoding='utf-8') as f:
+            exchanges_dic = json.load(f)
+            for item in exchanges_dic:
+                ix_lug = item["url"].strip("/#/internet-exchange/").strip()
+                online_ix_slug.append(ix_lug)
+                item["slug"] = ix_lug
+                exchanges_list.append(item)
+
+        print("online ix slug:", len(online_ix_slug))
+        # print(set(online_ix_slug))
+
+        buildings_geo_list = []  # 存储全球交换中心POI信息
+        ixp_geo_list = []  # 存储全球交换中心GEO信息
+        geo_ix_slug = []  # 存储geo ix的slug
+        geo_building_slug = []  # 存储geo building的slug
+        with open(buildings_geo_file, "r", encoding='utf-8') as f:
+            buildings_geo_dic = json.load(f)
+            for item in buildings_geo_dic["features"]:
+                buildings_geo_list.append(item)
+                geo_building_slug.append(item["properties"]["slug"])
+                # print(item)
+                for ixp_item in item["properties"]["exchanges"]:
+                    ixp_item["coordinates"] = item["geometry"]["coordinates"]
+                    ixp_item["country"] = item["properties"]["country"]
+                    ixp_item["metro_area"] = item["properties"]["metro_area"]
+                    # print("IXP:", ixp_item)
+                    # print(country_name)
+                    geo_ix_slug.append(ixp_item["slug"])
+
+                    if country_name == "global":
+                        ixp_geo_list.append(ixp_item)
+                    elif ixp_item["country"] == country_name:
+                        ixp_geo_list.append(ixp_item)
+
+        layer_scatter_ix = pdk.Layer(
+            "ScatterplotLayer",
+            ixp_geo_list,
+            pickable=True,  # 可选择
+            opacity=0.8,  # 透明度
+            stroked=True,  # 绘制点的轮廓
+            filled=True,  # 绘制点的填充区
+            radius_scale=6,  # 所有点的全局半径乘数
+            radius_min_pixels=map_point_radius,  # 点半径的最小值
+            radius_max_pixels=100,  # 点半径的最大值
+            line_width_min_pixels=1,  # 线的最小的像素值
+            get_position="coordinates",  # 获取位置信息
+            # get_fill_color=[255, 140, 0],  # 填充的颜色
+            get_fill_color=hex_to_rgb(map_point_color),
+            get_line_color=[0, 0, 0])
+
+        layer_heatmap_ix = pdk.Layer(
+            "HeatmapLayer",
+            ixp_geo_list if is_heatmap_mode else [],
+            opacity=0.9,
+            get_position="coordinates")
+
+        layer_hexagon_ix= pdk.Layer(
+            'HexagonLayer',  # `type` positional argument is here, CPUGridLayer, HexagonLayer,GridLayer
+            ixp_geo_list if is_hexagon_mode else [],
+            get_position="coordinates",
+            auto_highlight=True,
+            elevation_scale=100,
+            pickable=True,
+            elevation_range=[10, 3000],
+            extruded=True,
+            coverage=1,
+            radius=10,)
+
+        # Set the viewport location
+        view_state = pdk.ViewState(
+            longitude=0,
+            latitude=9,
+            zoom=2,
+            min_zoom=2,
+            max_zoom=22,
+            pitch=0,
+            bearing=0)
+        # Combined all of it and render a viewport
+        r = pdk.Deck(map_style=map_style,
+                     layers=[layer_hexagon_ix, layer_heatmap_ix,  layer_scatter_ix],
+                     initial_view_state=view_state,
+                     tooltip={
+                         # 'html': '<b>Elevation Value:</b> {elevationValue}',
+                         'text': 'Slug：{slug}\n'
+                                 'Address：{address}\n'
+                                 'Date：{date_online}\n'
+                                 'URL：{url}\n'
+                                 'Country：{country}\n'
+                                 'Telephone：{telephone}\n'
+                                 'Email：{email}',
+                         'style': {
+                             'color': 'white'
+                         },
+                     }
+                     )
+        st.pydeck_chart(r)
+        st.write("全球IXP数量：", len(set(online_ix_slug)))
+        with st.expander("详细列表", False):
+            st.json(exchanges_list)
+        st.write("已处整理全球IXP POI信息：", len(set(geo_building_slug)))
+        with st.expander("详细列表", False):
+            st.json(buildings_geo_list)
+        st.write("已处整理全球IXP GEO信息：", len(set(geo_ix_slug)))
+        with st.expander("详细列表", False):
+            st.json(ixp_geo_list)
+
     elif choice == "GlobalIDCMap":
         st.write("依托GIS地图系统以及全球IP端扫描数据（80/443端口），开展全球数据中心可视化实验研究")
+
 else:
     st.info("Please Login!")
