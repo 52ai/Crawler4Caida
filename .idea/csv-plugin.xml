@@ -661,6 +661,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\085ET-GIM\map_vislab\providers-20220811T1238Z.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\087TW_Analysis_v2\compare_result.csv">
           <value>
             <Attribute>

@@ -1,0 +1,821 @@
+IX-F ID,Name,City,Country,Last updated,API,Traffic,MANRS,# of ASNs
+899,48 IX (48 IX),,US,2021-09-23 08:13:21+00:00,True,False,False,4
+900,4IXP (4B42 Internet Exchange Point),Zurich,CH,2020-12-04 17:47:07+00:00,False,False,False,0
+123,6NGIX (IPv6 Next Generation Internet eXchange),Seoul,KR,2019-06-17 00:17:51+00:00,False,False,False,0
+699,A.IX (Advanced Internet eXchange),Beirut,LB,2019-06-19 00:48:19+00:00,False,False,False,0
+276,AAIX (Alpes Adria Internet Exchange),Klagenfurt,AT,2019-06-19 00:55:28+00:00,False,False,False,10
+893,ABQIX (New Mexico Internet Exchange DBA ABQIX),,US,2021-07-09 10:23:55+00:00,False,False,False,0
+323,ACT-IX (IX Australia (Canberra ACT)),Canberra,AU,2022-08-09 02:01:39+00:00,True,False,False,7
+488,AHTIC LAN 1 (AHTIC IXP of Haiti),Port au Pince,HT,2022-01-18 04:01:22+00:00,True,False,False,0
+212,AIXP (Arusha Internet eXchange),Arusha,TZ,2019-06-17 22:59:29+00:00,False,False,False,5
+586,"AKL-IX (New Zealand Internet Exchange, Auckland)",Auckland,NZ,2022-07-19 07:02:36+00:00,True,False,False,96
+920,Aloha-IX (Aloha Internet Exchange),Kapolei (Oahu),US,2021-03-03 15:43:23+00:00,False,False,False,0
+443,AMPATH (AMPATH - Florida International University/CIARA),Miami,US,2019-06-18 22:13:59+00:00,False,False,False,0
+981,AMR-IX,"Mangalagiri, Andhra Pradesh",IN,2022-06-09 15:02:36+00:00,True,False,False,13
+737,ams (Asteroid Amsterdam IX),Amsterdam,NL,2022-08-11 12:12:12+00:00,True,False,True,34
+2,AMS-IX,Amsterdam,NL,2022-08-11 12:12:11+00:00,True,False,True,856
+61,AMS-IX Caribbean,"Willemstad, Curacao",AN,2022-08-11 09:00:07+00:00,True,False,False,12
+356,AMS-IX Hong Kong,Hong Kong,CN,2022-08-11 09:00:08+00:00,True,False,False,64
+1031,AMS-IX Hyderabad,Hyderabad,IN,2022-04-04 10:05:33+00:00,False,False,False,0
+1020,AMS-IX Kolkata (Amsterdam Internet Exchange Kolkata),Kolkata,IN,2022-03-15 14:19:13+00:00,False,True,False,0
+619,AMS-IX Mumbai,Mumbai,IN,2022-08-11 09:00:04+00:00,True,False,False,49
+1032,AMS-IX Singapore,Singapore,SG,2022-05-06 12:14:35+00:00,False,False,False,0
+532,AMS-IX USA Bay Area,San Francisco,US,2022-08-11 09:00:13+00:00,True,False,False,24
+533,AMS-IX USA Chicago,Chicago,US,2022-08-11 09:00:12+00:00,True,False,False,24
+202,Angola IXP,Luanda,AO,2019-06-19 21:07:55+00:00,False,False,False,0
+531,angonix,Luanda,AO,2019-06-19 21:08:40+00:00,False,False,False,14
+746,ANIX (ANIX Tirana),Tirana,AL,2022-07-27 19:00:27+00:00,True,False,False,20
+238,Any2 (CoreSite) Boston (Any2 (CoreSite) Boston),Boston,US,2019-06-18 08:47:58+00:00,False,False,False,2
+239,Any2 (CoreSite) Chicago (Any2 (CoreSite) Chicago),Chicago,US,2019-06-10 11:16:50+00:00,False,False,False,7
+240,Any2 (CoreSite) Miami (Any2 (CoreSite) Miami),Miami,US,2019-06-10 11:17:27+00:00,False,False,False,1
+242,Any2 (CoreSite) New York (Any2 (CoreSite) New York),New York,US,2019-06-10 11:21:36+00:00,False,False,False,2
+243,Any2 (CoreSite) NorthEast,Reston,US,2019-06-10 11:24:04+00:00,False,False,False,9
+241,Any2 (CoreSite) Silicon Valley,Milpitas,US,2019-06-10 11:20:36+00:00,False,False,False,3
+126,APE - Auckland (Auckland Peering Exchange),Auckland,NZ,2019-06-18 08:39:12+00:00,False,False,False,65
+721,APLIX.PL (APLIX),Gdynia,PL,2019-06-16 21:39:56+00:00,False,False,False,0
+969,Aprosva LAN 1 (Asociación de Proveedores de Servicio de Valor Agregado(APROSVA)),La Troncal,EC,2022-05-09 20:01:52+00:00,True,True,False,9
+908,Aqaba IX,Aqaba,JO,2021-01-11 18:12:44+00:00,False,False,False,0
+1038,AR-IX Cabase,,AR,2022-05-06 11:48:54+00:00,False,False,False,0
+913,ARIX (Amateur Radio Internet Exchange),Fremont,US,2021-02-02 13:44:23+00:00,False,False,False,0
+372,ARMIX (Armenian Internet Traffic Exchange),Yerevan,AM,2019-06-18 02:16:57+00:00,False,False,False,9
+695,Asia Smart IX (Asia Smart IX [BBIX Asia]),Tokyo,JP,2019-06-17 15:40:16+00:00,False,False,False,0
+564,AuvernIX (AuvernIX),Clermont-Ferrand,FR,2022-08-11 12:12:11+00:00,True,False,True,14
+287,AZIX (Arizona Internet Exchange),Phoenix,US,2019-06-18 11:59:09+00:00,False,False,False,2
+932,Bahamas-IX (Ninja-IX),Nassau,BS,2021-03-15 18:45:31+00:00,False,False,False,0
+291,Balcan-IX (Balcan-IX),Bucharest,RO,2019-06-19 21:10:23+00:00,False,False,False,17
+197,Balkan-IX (Balkan Internet Exchange),Sofia,BG,2019-06-17 22:54:14+00:00,False,False,False,12
+741,BALT-IX (Baltic Internet Exchange),Vilnius,LT,2022-05-12 14:00:09+00:00,True,True,False,60
+766,Baltimore IX,Baltimore,US,2019-03-27 18:40:04+00:00,False,False,False,0
+587,Bangkok Neutral Internet Exchange (BKNIX),Bangkok,TH,2022-08-11 12:12:11+00:00,True,True,True,47
+892,Bangkok Neutral Internet Exchange Chiang Mai (BKNIX),Chiang Mai,TH,2022-08-07 18:00:17+00:00,True,True,False,4
+904,BatamIX Batam (Batam Internet Exchange - Batam),Batam,ID,2020-12-22 17:00:27+00:00,True,False,False,0
+845,BatamIX Jakarta (Batam Internet Exchange),Jakarta,ID,2022-08-11 12:12:10+00:00,True,False,True,18
+590,BBIX - Hong Kong,Hong Kong,HK,2019-06-17 15:26:28+00:00,False,False,False,0
+366,BBIX - Osaka (Broadband Internet eXchange - Osaka),Osaka,JP,2019-06-17 15:02:56+00:00,False,False,False,0
+601,BBIX - Singapore (BBIX - Singapore),Singapore,SG,2019-06-18 23:39:26+00:00,False,False,False,0
+51,BBIX - Tokyo (BroadBand Internet eXchange - Tokyo),Tokyo,JP,2019-06-17 06:43:04+00:00,False,False,False,8
+991,BBIX Fukuoka (BroadBand Internet eXchange Fukuoka),Fukuoka,JP,2022-02-03 13:19:02+00:00,False,False,False,0
+802,BBIX Thailand,,,2019-06-19 00:32:22+00:00,False,False,False,0
+21,BCIX (BCIX Management GmbH),Berlin,DE,2022-08-11 12:12:10+00:00,True,True,True,122
+109,BDIX - Dhaka (Bangladesh Internet Exchange),Dhaka,BD,2019-05-28 18:12:48+00:00,False,False,False,0
+905,BéarnIX,Stolon,FR,2020-12-22 17:18:04+00:00,False,False,False,0
+147,Beirut-IX (Beirut Internet Exchange),Beirut,LB,2019-06-17 20:15:06+00:00,False,False,False,24
+812,BelgiumIX (Belgiumix.net),,BE,2022-08-11 12:12:10+00:00,False,False,True,0
+545,Benin-IX (Benin Internet eXchange),Cotonou,BJ,2019-06-18 23:30:52+00:00,False,False,False,0
+1131,BertuahIX (Bertuah Internet Exchange),Pekanbaru,ID,2022-07-29 12:46:37+00:00,False,False,False,0
+855,BFD-IX (BFD-IX),Bradford,GB,2022-08-11 12:12:10+00:00,True,False,True,52
+907,BFIX Bobo-Dioulasso (Burkina Faso Internet Exchange Point),Bobo-Dioulasso,BF,2022-06-09 23:01:52+00:00,True,True,False,7
+556,BFIX Ouagadougou (Burkina Faso Internet Exchange Point),Ouagadougou,BF,2022-06-09 23:01:51+00:00,True,True,False,17
+1120,BGP.Exchange - Accra,Accra,GH,2022-07-29 12:20:32+00:00,False,False,False,0
+1062,BGP.Exchange - Adelaide,Adelaide,AU,2022-07-22 12:08:36+00:00,False,False,False,0
+1063,BGP.Exchange - Amsterdam,Amsterdam,NL,2022-07-22 12:10:55+00:00,False,False,False,0
+1107,BGP.Exchange - Athens,Athens,GR,2022-07-29 10:44:00+00:00,False,False,False,0
+1064,BGP.Exchange - Atlanta,Atlanta,US,2022-07-22 12:13:35+00:00,False,False,False,0
+1065,BGP.Exchange - Auckland,Auckland,AU,2022-07-22 12:15:21+00:00,False,False,False,0
+1099,BGP.Exchange - Bangalore,Bangalore,IN,2022-07-29 10:28:41+00:00,False,False,False,0
+1113,BGP.Exchange - Bangkok,Bangkok,CN,2022-07-29 11:37:49+00:00,False,False,False,0
+1066,BGP.Exchange - Barcelona,Barcelona,ES,2022-07-22 12:17:59+00:00,False,False,False,0
+1100,BGP.Exchange - Berlin,Berlin,DE,2022-07-29 10:30:04+00:00,False,False,False,0
+1115,BGP.Exchange - Bogata,Bogata,CO,2022-07-29 11:42:56+00:00,False,False,False,0
+1067,BGP.Exchange - Brisbane,Brisbane,AU,2022-07-22 12:19:26+00:00,False,False,False,0
+1098,BGP.Exchange - Brussels,Brussels,BE,2022-07-29 10:25:35+00:00,False,False,False,0
+1102,BGP.Exchange - Bucharest,Bucharest,RO,2022-07-29 10:32:51+00:00,False,False,False,0
+1127,BGP.Exchange - Buenos Aires,Buenos Aires,AR,2022-07-29 12:38:37+00:00,False,False,False,0
+1105,BGP.Exchange - Cairo,Cairo,EG,2022-07-29 10:38:37+00:00,False,False,False,0
+1122,BGP.Exchange - Chicago,Chicago,US,2022-07-29 12:25:07+00:00,False,False,False,0
+1114,BGP.Exchange - Dhaka,Dhaka,BD,2022-07-29 11:39:46+00:00,False,False,False,0
+1068,BGP.Exchange - Dusseldorf,Dusseldorf,DE,2022-07-22 12:23:25+00:00,False,False,False,0
+1116,BGP.Exchange - Fortaleza,Fortaleza,BR,2022-07-29 11:44:06+00:00,False,False,False,0
+1069,BGP.Exchange - Frankfurt,Frankfurt,DE,2022-07-22 12:25:37+00:00,False,False,False,0
+1070,BGP.Exchange - Fremont,Fremont,US,2022-07-22 12:27:56+00:00,False,False,False,0
+1071,BGP.Exchange - Hong Kong,Hong Kong,CN,2022-07-22 12:32:17+00:00,False,False,False,0
+1072,BGP.Exchange - Houston,Houston,US,2022-07-22 12:40:03+00:00,False,False,False,0
+1073,BGP.Exchange - Jacksonville,Jacksonville,US,2022-07-22 12:41:39+00:00,False,False,False,0
+1125,BGP.Exchange - Jersey City,Jersey City,US,2022-07-29 12:33:42+00:00,False,False,False,0
+1074,BGP.Exchange - Johannesburg,Johannesburg,ZA,2022-07-22 12:43:26+00:00,False,False,False,0
+1075,BGP.Exchange - Kansas,Kansas,US,2022-07-22 12:45:07+00:00,False,False,False,0
+1106,BGP.Exchange - Kyiv,Kyiv,UA,2022-07-29 10:41:33+00:00,False,False,False,0
+1076,BGP.Exchange - Lagos,Lagos,NG,2022-07-22 12:46:52+00:00,False,False,False,0
+1077,BGP.Exchange - Las Vegas,Las Vegas,US,2022-07-22 12:48:12+00:00,False,False,False,0
+1117,BGP.Exchange - Lima,Lima,PE,2022-07-29 11:50:20+00:00,False,False,False,0
+1078,BGP.Exchange - London,London,GB,2022-07-22 12:50:13+00:00,False,False,False,0
+1079,BGP.Exchange - Los Angles,Los Angeles,US,2022-07-22 12:56:05+00:00,False,False,False,0
+1103,BGP.Exchange - Madrid,Madrid,ES,2022-07-29 10:35:57+00:00,False,False,False,0
+1112,BGP.Exchange - Manila,Manila,PH,2022-07-29 11:35:56+00:00,False,False,False,0
+1080,BGP.Exchange - Melbourne,Melbourne,AU,2022-07-22 12:57:36+00:00,False,False,False,0
+1128,BGP.Exchange - Mexico City,Mexico City,MX,2022-07-29 12:40:11+00:00,False,False,False,0
+1123,BGP.Exchange - Miami,Miami,US,2022-07-29 12:30:29+00:00,False,False,False,0
+1108,BGP.Exchange - Montreal,Montreal,CA,2022-07-29 11:00:11+00:00,False,False,False,0
+1081,BGP.Exchange - Moscow,Moscow,RU,2022-07-22 12:59:25+00:00,False,False,False,0
+1082,BGP.Exchange - Mumbai,Mumbai,IN,2022-07-22 13:01:51+00:00,False,False,False,0
+1083,BGP.Exchange - New York,New York,US,2022-07-22 13:18:18+00:00,False,False,False,0
+1084,BGP.Exchange - Oslo,Oslo,NO,2022-07-22 13:20:42+00:00,False,False,False,0
+1129,BGP.Exchange - Panama City,Panama City,PA,2022-07-29 12:42:04+00:00,False,False,False,0
+1101,BGP.Exchange - Paris,Paris,FR,2022-07-29 10:31:37+00:00,False,False,False,0
+1085,BGP.Exchange - Perth,Perth,AU,2022-07-22 13:21:59+00:00,False,False,False,0
+1119,BGP.Exchange - Quito,Quito,EC,2022-07-29 12:18:50+00:00,False,False,False,0
+1104,BGP.Exchange - Riga,Riga,LV,2022-07-29 10:37:05+00:00,False,False,False,0
+1130,BGP.Exchange - Rio de Janeiro,Rio de Janeiro,BR,2022-07-29 12:43:08+00:00,False,False,False,0
+1124,BGP.Exchange - Riyadh,Riyadh,SA,2022-07-29 12:32:27+00:00,False,False,False,0
+1086,BGP.Exchange - Rome,Rome,IT,2022-07-22 13:23:27+00:00,False,False,False,0
+1118,BGP.Exchange - Santiago,Santiago,CL,2022-07-29 12:16:37+00:00,False,False,False,0
+1126,BGP.Exchange - Sao Paulo,Sao Paulo,BR,2022-07-29 12:34:53+00:00,False,False,False,0
+1087,BGP.Exchange - Seattle,Seattle,US,2022-07-22 13:24:50+00:00,False,False,False,0
+1121,BGP.Exchange - Seoul,Seoul,KR,2022-07-29 12:23:15+00:00,False,False,False,0
+1111,BGP.Exchange - Shanghai,Shanghai,CN,2022-07-29 11:17:14+00:00,False,False,False,0
+1088,BGP.Exchange - Singapore,Singapore,SG,2022-07-22 13:28:09+00:00,False,False,False,0
+1089,BGP.Exchange - Sofia,Sofia,BG,2022-07-22 13:29:27+00:00,False,False,False,0
+1090,BGP.Exchange - Sydney,Sydney,AU,2022-07-22 13:30:54+00:00,False,False,False,0
+1091,BGP.Exchange - Tel-Aviv,Tel Aviv,IL,2022-07-22 13:32:30+00:00,False,False,False,0
+1109,BGP.Exchange - Tokyo,Tokyo,JP,2022-07-29 11:04:33+00:00,False,False,False,0
+1092,BGP.Exchange - Toronto,Toronto,CA,2022-07-22 13:33:54+00:00,False,False,False,0
+1093,BGP.Exchange - Valdivia,Valdivia,CL,2022-07-22 13:36:41+00:00,False,False,False,0
+1110,BGP.Exchange - Vancouver,Vancouver,CA,2022-07-29 11:14:31+00:00,False,False,False,0
+1094,BGP.Exchange - Vilnius,Vilnius,LT,2022-07-22 13:38:15+00:00,False,False,False,0
+1095,BGP.Exchange - Warsaw,Warsaw,PL,2022-07-22 13:39:34+00:00,False,False,False,0
+1096,BGP.Exchange - Zurich,Zurich,CH,2022-07-22 13:41:04+00:00,False,False,False,0
+748,BHNIX (Bosnia and Herzegovina Neutral Internet Exchange),Sarajevo,BA,2019-06-19 00:06:06+00:00,False,False,False,0
+246,Big APE (The big apple peering Exchange),New York,US,2019-06-10 11:26:20+00:00,False,False,False,23
+203,BINX (Botswana Internet Exchange),Gaborone,BW,2019-06-17 22:57:24+00:00,False,False,False,0
+358,BIX - Jakarta (Biznet Internet eXchange),Jakarta,ID,2019-06-17 08:49:04+00:00,False,False,False,25
+12,BiX (Budapest Internet eXchange),Budapest,HU,2022-08-11 12:12:10+00:00,True,False,True,46
+192,BIX Bergen (Bergen Internet Exchange),Bergen,NO,2019-06-18 08:42:57+00:00,False,False,False,2
+40,BIX.BG (BIX.BG - Bulgarian Internet eXchange),Sofia,BG,2022-08-05 11:03:04+00:00,True,False,False,109
+286,BNIIX (Buffalo Niagara International Internet Exchange),Buffalo,US,2019-06-19 00:57:12+00:00,False,False,False,0
+4,BNIX (Belgian National Internet Exchange),Brussels,BE,2019-05-27 12:53:59+00:00,False,False,False,38
+273,BOR-IX (Boras Internet Exchange),Boras,SE,2019-06-17 23:11:55+00:00,False,False,False,6
+915,Borneo-IX,Bandar Seri Begawan,BN,2022-08-11 12:12:09+00:00,False,False,True,0
+407,BostonIX (Markley Boston Internet Exchange),Boston,US,2019-06-13 21:44:37+00:00,False,False,False,24
+588,BR-IX (Brno Internet Exchange Point),Brno,CZ,2019-06-17 09:07:08+00:00,False,False,False,0
+672,Breizh-IX (Breizh-IX),Rennes,FR,2019-06-19 01:29:53+00:00,False,False,False,0
+404,BREM-IX (Bremen Internet Exchange),Bremen,DE,2019-06-13 21:41:58+00:00,False,False,False,0
+620,BW-IX Karlsruhe (Baden-Württemberg Internet Exchange Karlsruhe),Karlsruhe,DE,2019-06-17 20:12:30+00:00,False,False,False,0
+139,BW-IX Stuttgart (Baden-Württemberg Internet Exchange Stuttgart),Stuttgart,DE,2022-08-11 12:12:10+00:00,True,False,True,10
+279,BYIX (Belarus National Internet Exchange Point),Minsk,BY,2019-06-17 14:55:45+00:00,False,False,False,0
+206,CAIX (Cairo Internet Exchange),Cairo,EG,2019-06-18 08:44:14+00:00,False,False,False,0
+984,CAN'L IX (CAN'L IXP Services),Noumea,NC,2022-01-26 13:21:56+00:00,False,False,False,0
+209,Cape Town Internet Exchange (INX),Cape Town,ZA,2022-08-11 12:03:27+00:00,True,True,False,76
+11,CATNIX (Catalunya Neutral Internet eXchange),Barcelona,ES,2022-08-11 12:12:11+00:00,True,False,True,49
+697,CDIX (Cyber Data Internet Xchange),Jakarta,ID,2019-06-19 00:00:50+00:00,False,False,False,0
+857,CH-IX,Glattbrug,CH,2020-04-15 10:35:25+00:00,False,False,False,0
+921,Charlotte-IX (Ninja-IX),"Morrisville, NC",US,2022-07-27 13:05:10+00:00,True,True,False,7
+852,"CHC-IX (New Zealand Internet Exchange, Christchurch)",Christchurch,NZ,2022-07-19 07:02:40+00:00,True,False,False,17
+127,CHIX - Christchurch (Christchurch Internet Exchange),Christchurch,NZ,2019-06-17 06:50:42+00:00,False,False,False,9
+149,ChIX (Chicago Internet eXchange),Chicago,US,2019-06-17 20:17:14+00:00,False,False,False,20
+582,CHN-IX Beijing,Beijing,CN,2019-06-16 18:28:25+00:00,False,False,False,0
+585,CHN-IX Guangzhou,Guangzhou,CN,2019-06-16 18:33:09+00:00,False,False,False,0
+947,CITI IXP.QRO (Consorcio para el Intercambio de Tráfico de Internet),Queretaro,MX,2022-08-11 12:12:09+00:00,True,True,True,4
+205,CIVIX (Cote d’Ivoire Internet eXchange Point),Abidjan,CI,2021-05-27 08:39:58+00:00,True,True,False,10
+28,CIX (Croatian Internet eXchange),Zagreb,HR,2019-05-28 06:00:44+00:00,False,False,False,33
+496,CIX KR (CIX - Cracow Internet Exchange),Krakow,PL,2019-06-14 14:17:44+00:00,False,False,False,0
+684,CIX-ATL,Atlanta,US,2022-08-11 12:12:09+00:00,False,False,True,0
+7,CIXP (CERN Internet Exchange Point),,CH,2020-04-15 08:02:08+00:00,True,False,False,39
+457,CNC Beijing NAP (CNC Beijing NAP),Beijing,CN,2019-06-17 14:34:22+00:00,False,False,False,0
+604,CNIX (China Internet Exchange),Beijing,CN,2019-06-19 00:38:48+00:00,False,False,False,0
+432,CNX (Cambodian Network Exchange),Phnom Penh,KH,2022-06-23 02:02:36+00:00,True,False,False,44
+696,COD-IX (COD-IX),St. Petersburg,RU,2019-06-19 00:00:21+00:00,False,False,False,0
+477,COIX (Central Oregon Internet Exchange),Bend,US,2022-07-18 21:02:15+00:00,True,False,False,7
+747,Community-IX DE,,,2019-06-19 00:04:16+00:00,False,False,False,0
+257,CoreSite - Any2 Denver / RMIX Denver (CoreSite - Any2 Denver / RMIX Denver),Denver,US,2019-06-17 23:04:09+00:00,False,False,False,5
+52,CoreSite - Any2 Los Angeles (CoreSite - Any2 Los Angeles),Los Angeles,US,2019-06-17 13:59:48+00:00,False,False,False,138
+186,Crimea-IX (Crimea-IX),"Crimea Republic, Simferopol",RU,2019-06-17 21:13:41+00:00,False,False,False,16
+541,CRIX (Costa Rica Internet Exchange),San Jose,CR,2022-08-11 12:12:12+00:00,True,True,True,42
+882,CSIX Vancouver (CloudSingularity Internet Exchange),Vancouver,CA,2022-08-11 12:12:09+00:00,True,True,True,14
+73,CyIX (Cyprus Internet Exchange),Nicosia,CY,2019-06-17 09:30:37+00:00,False,False,False,5
+640,CyrusOne IX Austin (CyrusOne IX Austin),Austin,US,2019-06-16 18:52:34+00:00,False,False,False,0
+643,CyrusOne IX Chicago (CyrusOne IX Chicago),Chicago,US,2019-06-16 19:42:42+00:00,False,False,False,0
+353,CyrusOne IX Dallas (CyrusOne IX Dallas),Carrollton,US,2019-06-16 19:44:12+00:00,False,False,False,0
+639,CyrusOne IX Houston (CyrusOne IX Houston),Houston,US,2019-06-16 18:51:59+00:00,False,False,False,0
+642,CyrusOne IX Phoenix (CyrusOne IX Phoenix),Phoenix,US,2019-06-16 19:43:08+00:00,False,False,False,0
+641,CyrusOne IX San Antonio (CyrusOne IX San Antonio),San Antonio,US,2019-06-16 18:08:19+00:00,False,False,False,0
+644,CyrusOne IX Sterling (CyrusOne IX Sterling),Sterling,US,2019-06-16 19:42:11+00:00,False,False,False,0
+922,Dallas-IX (Ninja-IX),"Irving, TX",US,2022-07-27 13:05:12+00:00,True,True,False,9
+1060,DANIX (Dominica Internet Exchange),Roseau,DM,2022-07-19 13:59:11+00:00,False,False,False,0
+1056,Dartpoints Bridge-IX Columbia,Dallas,US,2022-07-19 13:14:06+00:00,False,False,False,0
+1057,Dartpoints Bridge-IX Dublin,Dublin,US,2022-07-19 13:19:41+00:00,False,False,False,0
+1058,Dartpoints Bridge-IX North Liberty,North Liberty,US,2022-07-19 13:22:35+00:00,False,False,False,0
+522,DataIX Internet Exchange (DataIX Internet Exchange),Amsterdam,NL,2022-07-11 08:04:01+00:00,True,False,False,483
+567,DataLine-IX (DataLine-IX),Moscow,RU,2019-06-16 17:51:47+00:00,False,False,False,0
+860,DE-CIX  Chennai (DE-CIX Interwire Internet Services Pvt Ltd),Mumbai,IN,2022-08-11 12:04:40+00:00,True,True,False,39
+688,DE-CIX  Delhi (DE-CIX Interwire Internet Services Pvt Ltd),Delhi,IN,2022-08-11 12:04:35+00:00,True,True,False,73
+940,DE-CIX ASEAN (DE-CIX Asia PTE. LTD.),Johor Bahru,MY,2022-08-11 12:12:09+00:00,False,False,True,0
+917,DE-CIX BCN (DE-CIX Barcelona),Barcelona,ES,2022-08-11 12:12:09+00:00,False,False,True,0
+580,DE-CIX DFW (DE-CIX Dallas),Dallas,US,2022-08-11 12:12:09+00:00,True,False,True,122
+565,DE-CIX DUS (DE-CIX Dusseldorf),Dusseldorf,DE,2022-08-11 12:12:09+00:00,True,False,True,267
+9,DE-CIX FRA (DE-CIX Frankfurt),Frankfurt am Main,DE,2022-08-11 12:12:12+00:00,True,False,True,1068
+47,DE-CIX HAM (DE-CIX Hamburg),Hamburg,DE,2022-08-11 12:12:09+00:00,True,False,True,217
+560,DE-CIX IST (DE-CIX Istanbul),Istanbul,TR,2022-08-11 12:12:09+00:00,True,False,True,44
+764,DE-CIX Johor Bahru (DE-CIX Asia PTE. LTD.),,MY,2022-08-11 12:12:10+00:00,True,False,True,46
+689,DE-CIX Kolkata (DE-CIX Interwire Internet Services Pvt Ltd),Kolkata,IN,2022-08-11 12:04:44+00:00,True,False,False,12
+937,DE-CIX Kuala Lumpur (DE-CIX Asia PTE. LTD.),Singapore,SG,2022-08-11 12:12:09+00:00,False,False,True,0
+765,DE-CIX LIS (DE-CIX Lisbon),Lisbon,PT,2022-08-11 12:12:09+00:00,True,False,True,52
+470,DE-CIX MAD (DE-CIX Madrid),Madrid,ES,2022-08-11 12:12:09+00:00,True,False,True,223
+938,DE-CIX Malaysia (DE-CIX Asia PTE. LTD.),Singapore,SG,2022-08-11 12:12:09+00:00,False,False,True,0
+559,DE-CIX MRS (DE-CIX Marseille),Marseilles,FR,2022-08-11 12:12:09+00:00,True,False,True,113
+54,DE-CIX MUC (DE-CIX Munich),Munich,DE,2022-08-11 12:12:09+00:00,True,False,True,225
+634,DE-CIX Mumbai (DE-CIX Interwire Internet Services Pvt Ltd),Mumbai,IN,2022-08-11 12:04:08+00:00,True,True,False,371
+425,DE-CIX NYC (DE-CIX New York),New York,US,2022-08-11 12:12:09+00:00,True,False,True,266
+902,DE-CIX ORD (DE-CIX Chicago),Chicago,US,2022-08-11 12:12:09+00:00,True,False,True,24
+1030,DE-CIX Phoenix,Phoenix,US,2022-08-11 12:12:09+00:00,False,False,True,0
+558,DE-CIX PMO (DE-CIX Palermo),Palermo,IT,2022-08-11 12:12:09+00:00,True,False,True,26
+972,DE-CIX Richmond (DE-CIX Group AG),Ashland,US,2021-11-19 17:26:14+00:00,False,True,False,0
+916,DE-CIX Singapore (DE-CIX Asia PTE. LTD.),Singapore,SG,2022-08-11 12:12:09+00:00,False,False,True,0
+943,Denver IX (Denver Internet Exchange),"Denver, CO",US,2021-09-23 08:13:32+00:00,True,True,False,5
+662,DET-IX (Detroit Internet Exchange),Detroit,US,2019-06-18 23:42:29+00:00,False,False,False,0
+56,Digital Realty - Atlanta (Digital Realty Exchange - Atlanta),Atlanta,US,2019-06-16 23:30:00+00:00,False,False,False,84
+229,Digital Realty - Dallas (Digital Realty  Dallas),Dallas,US,2019-06-16 23:31:35+00:00,False,False,False,6
+230,Digital Realty - New York (Digital Realty New York),New York,US,2019-06-16 23:32:05+00:00,False,False,False,22
+231,Digital Realty - Phoenix (Digital Realty Phoenix),Phoenix,US,2019-06-16 23:32:39+00:00,False,False,False,13
+253,Digital Realty Ashburn,Vienna,US,2019-06-16 23:35:28+00:00,False,False,False,11
+29,DIX,Lyngby,DK,2019-06-19 21:27:13+00:00,False,False,False,42
+441,DIX-IE (Distributed IX in EDO),Tokyo,JP,2019-06-18 22:09:54+00:00,False,False,False,0
+549,DjIX (Djibouti IX),,DJ,2019-06-18 12:15:46+00:00,False,False,False,0
+978,DLA-IX (DOUALA-IX),Douala,CM,2021-12-08 17:08:51+00:00,False,False,False,0
+322,DN-IX (Donetsk Internet Exchange),Donetsk,UA,2019-06-10 23:06:30+00:00,False,False,False,0
+463,DO-IX LAN (DOrtmund Internet eXchange),Dortmund,DE,2022-03-30 07:02:59+00:00,True,True,False,10
+270,DRF IX (DRFortress Exchange),Honolulu,US,2019-06-18 08:49:00+00:00,False,False,False,0
+939,DSIX (DreamServer Internet Exchange),Bucharest,RO,2021-04-08 15:54:10+00:00,False,False,False,0
+198,DTEL-IX (Digital Telecom Internet Exchange),Kiev,UA,2022-08-11 12:12:10+00:00,False,False,True,89
+487,Durban Internet Exchange Point (INX),Durban,ZA,2022-08-11 12:03:20+00:00,True,True,False,80
+810,E-IX (ElectroNIX),,DE,2019-11-08 19:02:45+00:00,True,False,False,14
+485,Echigo-IX (Echigo Internet Exchange),Niigata,JP,2019-06-13 22:35:51+00:00,False,False,False,0
+30,ECIX-BER,,DE,2020-02-20 14:16:12+00:00,True,False,False,54
+340,ECIX-DUS,,DE,2020-02-20 14:16:13+00:00,True,False,False,102
+431,ECIX-FRA,,DE,2020-02-20 14:16:16+00:00,True,False,False,98
+341,ECIX-HAM,,DE,2020-02-20 14:16:15+00:00,True,False,False,54
+77,ECIX-MUC,,DE,2020-02-20 14:16:17+00:00,True,False,False,48
+835,EdgeIX Adelaide (EdgeIX),"Adelaide, SA, 5000",AU,2022-08-11 12:12:10+00:00,True,True,True,28
+839,EdgeIX Brisbane (EdgeIX),Brisbane,AU,2022-08-11 12:12:10+00:00,True,True,True,27
+837,EdgeIX Darwin (EdgeIX),Darwin,AU,2022-08-11 12:12:10+00:00,True,True,True,6
+836,EdgeIX Hobart (EdgeIX),,AU,2022-08-11 12:12:10+00:00,True,True,True,7
+841,EdgeIX Melbourne (EdgeIX),Melbourne,AU,2022-08-11 12:12:10+00:00,True,True,True,41
+838,EdgeIX Perth (EdgeIX),Perth,AU,2022-08-11 12:12:10+00:00,True,True,True,59
+840,EdgeIX Sydney (EdgeIX),Sydney,AU,2022-08-11 12:12:10+00:00,True,True,True,93
+1051,EG-IX (Egypt Internet Exchange),Cairo,EG,2022-07-19 12:12:18+00:00,False,False,False,0
+772,EIX Chennai (Extreme Internet Exchange India),New Delhi,IN,2022-08-11 09:04:28+00:00,True,False,False,81
+683,EIX Delhi (Extreme Internet Exchange India),New Delhi,IN,2022-08-11 09:04:03+00:00,True,False,False,151
+773,EIX Hyderabad (Extreme Internet Exchange India),New Delhi,IN,2022-08-11 09:04:27+00:00,True,False,False,14
+771,EIX Kolkata (Extreme Internet Exchange India),New Delhi,IN,2022-08-11 09:04:26+00:00,True,False,False,14
+694,EIX Mumbai (Extreme Internet Exchange India),New Delhi,IN,2022-08-11 09:04:13+00:00,True,False,False,218
+169,ekt-ix (EKT-IX public peering VLAN),Ekaterinburg,RU,2022-08-11 12:00:22+00:00,True,False,False,39
+548,EPIX (e-Poludnie Internet Exchange),Warsaw,PL,2022-08-08 13:02:03+00:00,True,False,False,558
+436,EPIX Warsaw (e-Poludnie Internet Exchange),Warsaw,PL,2022-08-11 09:02:07+00:00,True,False,False,480
+779,Equinix Amsterdam,,,2019-06-16 21:28:47+00:00,False,False,False,0
+68,Equinix Ashburn (Equinix Ashburn),Ashburn,US,2022-08-11 12:12:11+00:00,False,False,True,126
+439,Equinix Atlanta (Equinix Atlanta),Atlanta,US,2022-08-11 12:12:11+00:00,False,False,True,0
+776,Equinix Bogotá,Bogotá,CO,2019-06-06 21:36:34+00:00,False,False,False,0
+236,Equinix Chicago (Equinix Chicago),Chicago,US,2022-08-11 12:12:11+00:00,False,False,True,75
+235,Equinix Dallas (Equinix Dallas),Dallas,US,2022-08-11 12:12:11+00:00,False,False,True,41
+780,Equinix Denver,,,2019-06-16 21:30:34+00:00,False,False,False,0
+714,Equinix Dublin (Equinix Dublin),Dublin,IE,2022-08-11 12:12:11+00:00,False,False,True,0
+715,Equinix Frankfurt (Equinix Frankfurt),Frankfurt,DE,2022-08-11 12:12:11+00:00,False,False,True,0
+440,Equinix Helsinki (Equinix Helsinki),Helsinki,FI,2022-08-11 12:12:11+00:00,False,False,True,0
+180,Equinix Hong Kong (Equinix Hong Kong Exchange),Hong Kong,HK,2022-08-11 12:12:11+00:00,False,False,True,20
+781,Equinix Houston,,,2019-06-16 21:32:03+00:00,False,False,False,0
+782,Equinix Lisbon,,,2019-06-16 21:33:22+00:00,False,False,False,0
+716,Equinix London (Equinix London),London,GB,2022-08-11 12:12:11+00:00,False,False,True,0
+234,Equinix Los Angeles (Equinix Los Angeles),Los Angeles,US,2022-08-11 12:12:11+00:00,False,False,True,66
+783,Equinix Madrid,,,2019-06-17 20:03:41+00:00,False,False,False,0
+717,Equinix Manchester (Equinix Manchester),Manchester,GB,2022-08-11 12:12:11+00:00,False,False,True,0
+568,Equinix Melbourne (Equinix Melbourne),Melbourne,AU,2022-08-11 12:12:11+00:00,False,False,True,0
+886,Equinix Mexico,Mexico City,MX,2020-08-29 11:45:27+00:00,False,False,False,0
+484,Equinix Miami (Equinix Miami),Miami,US,2022-08-11 12:12:11+00:00,False,False,True,0
+719,Equinix Milan (Equinix Milan),Milan,IT,2022-08-11 12:12:11+00:00,False,False,True,0
+237,Equinix New York (Equinix New York),New York,US,2022-08-11 12:12:11+00:00,False,False,True,34
+651,Equinix Osaka (Equinix Osaka),Osaka,JP,2022-08-11 12:12:11+00:00,False,False,True,0
+251,Equinix Palo Alto (Equinix Palo Alto),Palo Alto,US,2022-08-11 12:12:11+00:00,False,False,True,86
+39,Equinix Paris (Equinix Internet Exchange - Paris),Paris,FR,2022-01-25 11:08:25+00:00,False,False,False,342
+887,Equinix Rio de Janeiro,Rio de Janeiro,BR,2020-08-29 11:48:36+00:00,False,False,False,0
+233,Equinix San Jose (Equinix San Jose),San Jose,US,2022-08-11 12:12:11+00:00,False,False,True,80
+215,Equinix São Paulo,Sao Paulo,BR,2019-06-06 21:26:27+00:00,False,False,False,9
+343,Equinix Seattle (Equinix Seattle),Seattle,US,2022-08-11 12:12:11+00:00,False,False,True,0
+181,Equinix Singapore (Equinix Singapore Exchange),Singapore,SG,2022-08-11 12:12:11+00:00,False,False,True,73
+718,Equinix Stockholm (Equinix Stockholm),Stockholm,SE,2022-08-11 12:12:11+00:00,False,False,True,0
+179,Equinix Sydney (Equinix Sydney Data Centers),Sydney,AU,2022-08-11 12:12:11+00:00,False,False,True,72
+182,Equinix Tokyo (Equinix Tokyo Exchange),Tokyo,JP,2022-08-11 12:12:11+00:00,False,False,True,32
+344,Equinix Toronto (Equinix Toronto),Toronto,CA,2022-08-11 12:12:11+00:00,False,False,True,0
+785,Equinix Vienna (VA),,,2019-06-16 21:38:28+00:00,False,False,False,0
+36,Equinix WA IX (Equinix Warsaw),Warsaw,PL,2022-08-11 12:12:11+00:00,False,False,True,312
+22,Equinix Zurich (Equinix Internet Exchange - Zurich),Zurich,CH,2022-08-11 12:12:11+00:00,False,False,True,178
+1034,ERA-IX,Amsterdam,NL,2022-04-21 14:33:35+00:00,False,False,False,0
+62,ESPANIX Madrid Lower LAN,Madrid,ES,2019-06-16 23:51:34+00:00,False,False,False,1
+667,ESPANIX Madrid Upper LAN,Madrid,ES,2019-06-17 09:10:51+00:00,False,False,False,0
+834,Eurasia Peering IX,Moscow,RU,2021-03-04 17:03:48+00:00,True,True,False,0
+302,EuroGIX (European Global Internet eXchange),Strasbourg,FR,2019-06-17 23:57:38+00:00,False,False,False,0
+756,EVIX (Experimental Virtual Internet Exchange),Manitoba,CA,2021-04-15 10:02:46+00:00,True,False,False,159
+1042,Extreme IX Bangalore,Bangalore,IN,2022-05-31 13:27:08+00:00,False,True,False,0
+1012,FD-IX - Iowa (Fiber Data Internet Exchange - Iowa),Altoona,US,2022-03-07 13:58:30+00:00,False,False,False,0
+1011,FD-IX - Texas (Fiber Data Exchange - Texas),Houston,US,2022-03-07 14:08:39+00:00,False,False,False,0
+171,FICIX - Espoo (Finnish Communication and Internet Exchange - Espoo),Espoo,FI,2019-05-29 00:19:46+00:00,False,False,False,19
+23,FICIX - Helsinki (Finnish Communication and Internet Exchange - Helsinki),Helsinki,FI,2019-05-27 22:18:32+00:00,False,True,False,25
+172,FICIX - Oulu (Finnish Communication and Internet Exchange - Oulu),Oulu,FI,2019-05-29 00:20:34+00:00,False,True,False,5
+1039,Filanco-IX,Kiev,UA,2022-05-06 12:09:23+00:00,False,False,False,0
+150,FIXO (Free Internet eXchange Oslo),Oslo,NO,2019-05-27 12:41:59+00:00,False,False,False,20
+543,FL-IX (Florida Internet Exchange),Florida,US,2022-08-11 12:12:09+00:00,False,False,True,0
+958,FMIX (Fargo-Moorhead Internet Exchange),Fargo,US,2021-07-16 14:49:28+00:00,False,False,False,0
+1014,FogIXP,Avers,CH,2022-03-07 14:56:23+00:00,False,False,False,0
+434,France-IX (FranceIX - Marseille),Marseille,FR,2022-08-11 12:12:10+00:00,True,False,True,0
+41,France-IX (FranceIX - Paris),Paris,FR,2022-08-11 12:12:10+00:00,True,False,True,0
+976,FREMIX (Free Metro Internet Exchange),Fremont,US,2021-11-23 15:58:24+00:00,False,False,False,0
+946,Frys-IX Infrastructure (Frys-IX),Amsterdam,NL,2022-08-10 11:02:14+00:00,True,True,False,63
+861,FSIX (Free Sandefjord IX),Sandefjord,NO,2020-06-15 16:37:28+00:00,False,False,False,0
+59,FVG-IX (Friuli Venezia Giulia Internet eXchange),Udine,IT,2019-07-03 07:38:13+00:00,False,False,False,8
+807,GABIX LIBREVILLE (Gabon Internet eXchange),Libreville,,2021-09-23 08:10:39+00:00,True,True,False,10
+491,GCIIX (Greater Chicago International Internet Exchange),Chicago,US,2019-06-13 23:14:45+00:00,False,False,False,0
+632,GE-CIX (GE-CIX),Zurich,CH,2019-06-16 18:45:09+00:00,False,False,False,0
+755,GetaFIX,Manila,PH,2019-06-09 17:58:53+00:00,True,False,False,0
+970,GIBIRIX (GIBIRNETIX),Istanbul,TR,2021-10-27 15:21:53+00:00,False,False,False,0
+165,Giganet (Giganet),kiev,UA,2019-05-28 23:41:57+00:00,False,False,False,21
+1045,GigaNET Kharkov,Kharkov,UA,2022-07-19 11:05:51+00:00,False,True,False,0
+1049,GigaNET Lviv,Lviv,UA,2022-07-19 11:12:07+00:00,False,False,False,0
+1047,GigaNET Odessa,Odessa,UA,2022-07-19 11:02:39+00:00,False,False,False,0
+1046,GigaNET Warsaw,Warsaw,PL,2022-07-19 11:04:36+00:00,False,True,False,0
+1048,GigaNET Zaporizhia,Zaporizhia,UA,2022-07-19 11:08:41+00:00,False,False,False,0
+10,GIGAPIX (Gigabit Portuguese Internet Exchange),Lisbon,PT,2021-09-23 08:05:51+00:00,True,False,False,43
+92,GIX - Accra (Ghana Internet Exchange),Accra,GH,2019-05-28 06:10:32+00:00,False,False,False,18
+103,GIX (Gothenburg Internet Exchange),Gothenburg,SE,2019-05-28 16:05:36+00:00,False,False,False,13
+474,GIX Gdansk (Gdansk Internet eXchange),Gdansk,PL,2019-06-18 22:19:18+00:00,False,False,False,0
+581,Global-IX (Global-IX),Saint Petersburg,RU,2019-06-16 18:05:09+00:00,False,False,False,0
+1016,GLV-IX (Government of Latvia Internet Exchange),Riga,LV,2022-03-11 15:25:35+00:00,False,False,False,0
+24,GN-IX (Groningen Internet Exchange),Groningen,NL,2019-05-27 22:19:11+00:00,False,False,False,25
+967,GOMIX (Goma Exchange Point),Goma,CD,2021-09-22 12:52:48+00:00,False,False,False,0
+752,GR-IX::Athens (Greek Internet Exchange),Athens,GR,2022-08-11 12:12:11+00:00,True,True,True,62
+753,GR-IX::Thessaloniki (Greek Internet Exchange),Athens,GR,2022-08-11 12:12:11+00:00,True,True,True,20
+348,GraX (Grazer Internet Exchange ),Graz,AT,2019-06-18 02:05:31+00:00,False,False,False,12
+527,GrenoblIX (Grenoble Internet eXchange Point),Grenoble,FR,2022-08-11 12:12:11+00:00,False,False,True,0
+539,GREX (Grenada Internet Exchange),St. George's,GD,2019-06-19 01:02:03+00:00,False,False,False,0
+476,GTIIX (Greater Toronto IIX),Toronto,CA,2019-06-19 01:12:36+00:00,False,False,False,0
+888,GTIX LAN 1 (Guatemala Internet Traffic Exchange Point),Guatemala,GT,2022-08-11 12:12:09+00:00,True,True,True,10
+472,GU-IX (Guam Internet Exchange),Hagåtña,GU,2019-06-18 22:18:02+00:00,False,False,False,0
+530,Guyanix (Guyana Internet Exchange Point),Cayenne,GY,2019-06-18 12:14:33+00:00,False,False,False,0
+912,Hamro Internet eXchange,SundarHaraicha,NP,2021-01-29 09:58:28+00:00,False,False,False,0
+730,Harare IX (Harare Internet Exchange),Harare,,2021-09-23 08:05:56+00:00,True,True,False,10
+659,HFXIX (Halifax Internet Exchange),Halifax,CA,2019-06-16 19:38:28+00:00,False,False,False,0
+184,HIX - Hamilton (Hamilton Internet Exchange),Hamilton,NZ,2019-06-10 11:06:10+00:00,False,False,False,3
+201,HIX - Honolulu (Hawaii Internet Exchange),Honolulu,US,2019-06-17 14:34:33+00:00,False,False,False,24
+110,HKIX (Hong Kong Internet Exchange),Hong Kong,HK,2022-08-11 12:12:10+00:00,True,False,True,343
+885,Houston Internet Exchange (HOUIX),"Houston, TX",US,2020-08-29 11:32:35+00:00,True,False,False,0
+923,Houston-IX (Ninja-IX),,US,2022-07-27 13:05:14+00:00,True,True,False,0
+1027,HSIX APAC (HackerSpace Networking - Oceania),Sydney,AU,2022-03-24 18:39:35+00:00,False,False,False,0
+1023,"HSIX NSW (HackerSpace Networking - Sydney, NSW)",Sydney,AU,2022-03-24 18:40:14+00:00,False,False,False,0
+1028,"HSIX NZ (HackerSpace Networking - Auckland, NZ)",Auckland,NZ,2022-03-24 18:41:45+00:00,False,False,False,0
+1022,"HSIX QLD (HackerSpace Networking - Brisbane, QLD)",Brisbane,AU,2022-03-24 18:28:14+00:00,False,False,False,0
+1026,"HSIX SA (HackerSpace Networking - Adelaide, SA)",Adelaide,AU,2022-03-24 18:36:51+00:00,False,False,False,0
+1024,"HSIX VIC (HackerSpace Networking - Melbourne, VIC)",Melbourne,AU,2022-03-24 18:37:39+00:00,False,False,False,0
+1025,"HSIX WA (HackerSpace Networking - Perth, WA)",Perth,AU,2022-03-24 18:34:18+00:00,False,False,False,0
+136,HTN-IX (Cambodia Internet Exchange),Phnom Penh,KH,2019-06-19 01:22:02+00:00,False,False,False,0
+960,Huntsville-IX (Ninja-IX),Huntsville,US,2021-07-28 15:41:15+00:00,False,False,False,0
+331,iAIX  (iAdvantage Internet Exchange),Hong Kong,HK,2019-06-18 12:01:05+00:00,False,False,False,9
+993,ICX Dubai (International Cloud Xchange Dubai),Dubai,AE,2022-02-03 16:26:13+00:00,False,False,False,0
+994,ICX Mumbai (International Cloud Xchange Mumbai),Mumbai,IN,2022-02-03 16:28:54+00:00,False,False,False,0
+996,ICX Muscat (International Cloud Xchange Muscat),Muscat,AE,2022-03-15 14:23:47+00:00,False,False,False,0
+995,ICX Queretaro (International Cloud Xchange Queretaro),Queretaro,US,2022-02-03 16:32:41+00:00,False,False,False,0
+1019,ICX Santiago,Santiago,CO,2022-03-15 14:15:18+00:00,False,False,False,0
+997,ICX Seoul (International Cloud Xchange Seoul),Seoul,KR,2022-02-03 16:53:42+00:00,False,False,False,0
+998,ICX Taipei (International Cloud Xchange Taipei),Taipei,TW,2022-03-15 14:22:42+00:00,False,False,False,0
+1018,ICX Vienna,Vienna,AT,2022-03-15 14:12:40+00:00,False,False,False,0
+992,ICX-IX Delhi (International Cloud Xchange Delhi),Delhi,IN,2022-02-03 16:22:25+00:00,False,False,False,0
+727,IF-IX (Ivano-Frankivsk Internet Exchnage),,UA,2019-06-18 12:28:33+00:00,False,False,False,0
+112,IIX - Tel Aviv (Israeli Internet eXchange),Tel-Aviv,IL,2022-08-11 12:12:11+00:00,False,False,True,1
+1029,IIX Estonia,Tallinn,EE,2022-03-24 18:52:04+00:00,False,False,False,0
+111,IIX Jakarta,Jakarta,ID,2019-05-28 13:43:16+00:00,False,False,False,8
+361,IIX Surabaya,Surabaya ,ID,2019-06-18 02:11:35+00:00,False,False,False,0
+646,INEX Cork (Internet Neutral Exchange Association Limited by Guarantee),Cork,IE,2022-08-05 14:00:17+00:00,True,True,False,15
+20,INEX LAN1 (Internet Neutral Exchange Association Limited by Guarantee),Dublin,IE,2022-08-11 12:12:12+00:00,True,True,True,104
+645,INEX LAN2 (Internet Neutral Exchange Association Limited by Guarantee),Dublin,IE,2022-08-05 14:00:13+00:00,True,True,False,71
+959,Infrastructure #1 (Free IX),Rümlang,CH,2022-04-01 18:01:52+00:00,True,True,False,13
+872,InterAUS (InterAUS Adelaide: Australia Community Internet Exchange),,AU,2020-07-28 08:07:58+00:00,True,False,False,4
+873,InterAUS Brisbane (InterAUS Brisbane: Australia Community Internet Exchange),,AU,2020-07-28 08:07:58+00:00,True,False,False,4
+874,InterAUS Canberra (InterAUS Canberra: Australia Community Internet Exchange),,AU,2020-07-28 08:07:57+00:00,True,False,False,4
+875,InterAUS Hobart (InterAUS Hobart: Australia Community Internet Exchange),,AU,2020-07-28 08:07:57+00:00,True,False,False,4
+871,InterAUS Melbourne (InterAUS Melbourne: Australia Community Internet Exchange),,AU,2020-07-28 08:07:56+00:00,True,False,False,4
+876,InterAUS Perth (InterAUS Perth: Australia Community Internet Exchange),,AU,2020-07-28 08:07:56+00:00,True,False,False,4
+863,InterAUS Sydney (InterAUS Sydney: Australia Community Internet Exchange),,AU,2020-07-28 08:07:54+00:00,True,False,False,4
+814,InteRed LAN1 (InteRed),Ciudad de Panamá,PA,2022-08-11 12:12:09+00:00,True,True,True,20
+37,InterLAN Internet Exchange (Interlan IX),Bucharest,RO,2022-08-11 12:12:09+00:00,True,True,True,127
+933,ISTIX (Istanbul Internet Exchange),Istanbul,TR,2021-03-17 18:27:37+00:00,False,False,False,0
+617,IX Kolkata (IIFON IX Kolkata),Kolkata,IN,2022-08-11 12:12:09+00:00,False,False,True,0
+578,IX Liverpool (IX Liverpool),Liverpool,GB,2019-06-16 18:01:00+00:00,False,False,False,1
+865,IX Roraima (Internet Exchange Roraima),Roraima,BR,2020-08-07 13:07:35+00:00,False,False,False,0
+572,IX-AKL (Auckland IX),Auckland,NZ,2022-08-11 12:01:42+00:00,True,False,False,96
+608,IX-ASH (Ashburn IX),Ashburn,US,2022-08-11 12:01:51+00:00,True,False,False,42
+606,IX-BNE (Brisbane IX),Brisbane,AU,2022-08-11 12:01:22+00:00,True,False,False,110
+610,IX-DAL (Dallas IX),Dallas,US,2022-08-11 12:01:54+00:00,True,False,False,27
+650,IX-Denver (Interconnection Exchange Denver),Denver,US,2022-08-11 12:12:09+00:00,True,False,True,55
+647,IX-LAS (Las Vegas IX),Las Vegas,US,2022-08-11 12:02:01+00:00,True,False,False,4
+611,IX-LAX (Los Angeles IX),Los Angeles,US,2022-08-11 12:01:49+00:00,True,False,False,30
+563,IX-MEL (Melbourne IX),Melbourne,AU,2022-08-11 12:01:29+00:00,True,False,False,152
+194,IX-NN (IX of Nizhny Novgorod),Nizhny Novgorod,RU,2019-06-17 14:33:30+00:00,False,False,False,0
+607,IX-PER (Perth IX),Perth,AU,2022-08-11 12:01:57+00:00,True,False,False,56
+613,IX-SEA (Seattle IX),Seattle,US,2022-08-11 12:01:48+00:00,True,False,False,13
+574,IX-SIN (Singapore IX),Singapore,SG,2022-08-11 12:01:39+00:00,True,False,False,40
+731,IX-SOF (Sofia IX),Sofia,BG,2022-08-11 12:02:02+00:00,True,False,False,23
+570,IX-SYD (Sydney IX),Sydney,AU,2022-08-11 12:01:00+00:00,True,False,False,305
+575,IX-TOR (Toronto IX),Toronto,CA,2022-08-11 12:01:57+00:00,True,False,False,9
+631,"IX.br Aracaju, SE (SE))",Aracaju,BR,2022-05-31 05:09:07+00:00,True,False,False,40
+378,"IX.br Belem, PA (BEL))",Belém,BR,2021-09-23 08:11:20+00:00,True,False,False,41
+154,"IX.br Belo Horizonte, MG (MG))",Belo Horizonte,BR,2022-05-20 05:04:57+00:00,True,False,False,93
+989,"IX.br Boa Vista, RR (RR)",Boa Vista,BR,2022-02-02 17:28:57+00:00,False,False,False,0
+155,"IX.br Brasilia, DF (DF))",Brasilia,BR,2022-07-22 06:02:14+00:00,True,False,False,112
+283,"IX.br Campina Grande, PB (CPV))",Campina Grande,BR,2022-07-21 06:02:25+00:00,True,False,False,78
+262,"IX.br Campinas, SP (CAS))",Campinas,BR,2022-01-18 06:01:56+00:00,True,False,False,54
+869,"IX.br Campo Grande, MS (CGR))",Campo Grande,BR,2020-07-07 16:48:40+00:00,False,False,False,0
+868,"IX.br Cascavel, PR (CAC))",Cascavel,BR,2020-07-07 16:37:10+00:00,False,False,False,0
+376,"IX.br Caxias do Sul, RS (CXJ))",Caxias do Sul,BR,2022-06-01 06:03:09+00:00,True,False,False,10
+500,"IX.br Cuiabá, MT (CGB)",Cuiabá,BR,2022-06-25 16:01:56+00:00,True,False,False,29
+156,"IX.br Curitiba, PR (PR))",Curitiba,BR,2021-09-23 08:11:26+00:00,True,False,False,161
+157,"IX.br Florianopolis, SC (SC))",Florianopolis ,BR,2021-09-23 08:11:28+00:00,True,False,False,90
+263,"IX.br Fortaleza, CE (CE))",Fortaleza,BR,2021-12-01 06:02:38+00:00,True,False,False,468
+616,"IX.br Foz do Iguau00e7u, PR (IGU))",Foz do Iguaçu,BR,2021-09-23 08:10:42+00:00,True,False,False,19
+284,"IX.br Goiania, GO (GYN))",Goiania,BR,2021-09-23 08:11:29+00:00,True,False,False,40
+787,"IX.br Joao Pessoa, PB (JPA))",João Pessoa,BR,2022-03-27 06:01:50+00:00,True,False,False,28
+497,"IX.br Lajeado, RS (LAJ))",Lajeado,BR,2021-09-23 08:11:32+00:00,True,False,False,31
+214,"IX.br Londrina, PR (LDA))",Londrina,BR,2021-09-28 06:02:37+00:00,True,False,False,30
+788,"IX.br Maceio, AL (MCZ))",Maceió,BR,2022-06-27 06:02:58+00:00,True,False,False,34
+375,"IX.br Manaus, AM (MAO))",Manaus,BR,2022-05-27 06:02:37+00:00,True,False,False,56
+498,"IX.br Maringa, PR (MGF))",Maringá,BR,2022-04-26 06:03:13+00:00,True,False,False,70
+379,"IX.br Natal, RN (NAT))",Natal,BR,2021-09-23 08:11:29+00:00,True,False,False,50
+990,"IX.br Palmas, TO (TO)",Palmas,BR,2022-02-02 17:28:11+00:00,False,False,False,0
+158,"IX.br Porto Alegre, RS (RS))",Porto Alegre,BR,2022-08-05 06:03:01+00:00,True,False,False,267
+264,"IX.br Recife, PE (PE))",Recife,BR,2021-09-23 08:11:36+00:00,True,False,False,118
+159,"IX.br Rio de Janeiro, RJ (RJ))",Rio de Janeiro,BR,2021-09-23 08:11:38+00:00,True,False,False,458
+160,"IX.br Salvador, BA (BA))",Salvador da Bahia,BR,2021-09-23 08:11:44+00:00,True,False,False,103
+789,"IX.br Santa Maria, RS (RIA))",Santa Maria,BR,2021-09-23 08:11:49+00:00,True,False,False,22
+374,"IX.br Sao Jose do Rio Preto, SP (SJP))",São José do Rio Preto,BR,2021-09-23 08:11:45+00:00,True,False,False,24
+289,"IX.br Sao Jose dos Campos, SP (SJC))",São José dos Campos,BR,2021-09-23 08:11:45+00:00,True,False,False,14
+790,"IX.br Sao Luis, MA (SLZ))",São Luís,BR,2021-09-23 08:11:49+00:00,True,False,False,21
+791,"IX.br Sao Paulo, SP (SP))",São Paulo,BR,2021-09-23 08:11:49+00:00,True,False,False,2384
+792,"IX.br Teresina, PI (THE))",Teresina,BR,2022-05-30 06:03:46+00:00,True,False,False,28
+377,"IX.br Vitoria, ES (VIX))",Vitória,BR,2022-02-22 06:01:40+00:00,True,False,False,64
+762,ix.kw (Kuwait Internet Exchange),Kuwait City,KW,2022-08-11 12:03:46+00:00,True,False,False,18
+540,IX.LODZ.PL (Lodz Telecommunication Node),Lodz,PL,2019-06-17 15:24:16+00:00,False,False,False,11
+878,IX42 Las Vegas (Internet eXchange 42),,US,2020-11-22 05:01:37+00:00,True,True,False,14
+881,IX42 Singapore (Internet eXchange 42),Singapore,SG,2020-08-07 12:49:56+00:00,False,False,False,0
+891,IXDO (Punto de Intercambio de Internet de la República Dominicana),Santo Domingo,DO,2022-08-11 12:12:10+00:00,True,True,True,3
+281,IXLeeds (Leeds Internet Exchange),Leeds,GB,2019-06-17 23:52:49+00:00,False,False,False,12
+106,IXOR (Internet eXchange point of the Oresund Region),Malmoe,SE,2019-05-28 16:22:22+00:00,False,False,False,16
+826,IXP CUBA (NAP-ETECSA),,CU,2019-09-16 17:03:23+00:00,False,False,False,0
+824,IXP Ecuador,,,2019-09-16 17:04:01+00:00,False,False,False,0
+816,IXP Ecuador - MEC,Manta,EC,2019-08-21 18:08:33+00:00,False,False,False,0
+817,IXP Ecuador - STD,Santo Domingo,EC,2019-08-21 18:10:45+00:00,False,False,False,0
+428,IXP-MegaLink (IXP MegaLink),La Paz,BO,2019-06-19 00:33:57+00:00,False,False,False,7
+760,IXP.Mk,skopje,MK,2019-06-17 15:43:32+00:00,False,False,False,0
+833,IXP.MX (Consorcio para el Intercambio del Tráfico de Internet),Ciudad de México,MX,2021-06-02 08:06:36+00:00,False,False,False,0
+975,IXPlay España,Madrid,ES,2021-11-23 15:50:27+00:00,False,True,False,0
+1041,IXPlay Paris,Paris,FR,2022-05-20 16:14:26+00:00,False,False,False,0
+914,IXPMOE (IXPMOE Internet Exchange Point),Zhuhai,CN,2021-02-02 13:49:00+00:00,False,False,False,0
+953,IXPN_ABUJA (INTERNET EXCHANGE POINT OF NIGERIA),Abuja,NG,2022-08-05 07:02:59+00:00,True,False,False,21
+955,IXPN_ENUGU (INTERNET EXCHANGE POINT OF NIGERIA ENUGU),Enugu,NG,2021-07-12 12:04:15+00:00,False,False,False,0
+952,IXPN_KANO (INTERNET EXCHANGE POINT OF NIGERIA),Kano,NG,2022-08-05 07:03:00+00:00,True,False,False,6
+954,IXPN_PHC (INTERNET EXCHANGE POINT OF NIGERIA),Port Harcourt,NG,2022-08-05 07:03:00+00:00,True,False,False,4
+60,IXPN-LOS (INTERNET EXCHANGE POINT OF NIGERIA),LAGOS,NG,2022-08-05 07:02:53+00:00,True,False,False,90
+830,IXPY LAN 1 (Punto de Intercambio de Internet del Paraguay),San Lorenzo,PY,2022-08-11 12:12:09+00:00,True,True,True,34
+1059,IXRR (IXRR Internet Exchange Amazonas),Manaus,BR,2022-07-19 13:51:51+00:00,False,True,False,0
+965,IXSal (Punto de Intercambio de Tráfico de Internet de El Salvador),San Salvador,SV,2022-08-11 12:12:09+00:00,True,True,True,3
+890,IXSY LAN 1 (Internet Exchange Services Yucatan),,MX,2022-08-11 12:12:09+00:00,False,True,True,2
+883,JasTel Internet Exchange (JTIX),Bangkok,TH,2020-08-29 10:34:30+00:00,False,False,False,0
+809,JEDIX,Jeddah,SA,2019-08-02 16:20:14+00:00,False,False,False,0
+945,JinIX (Jinom Internet Exchange),Gianyar,ID,2021-12-17 04:01:48+00:00,True,False,False,7
+980,JOBer,,,2021-12-21 15:02:41+00:00,False,False,False,0
+95,Johannesburg Internet Exchange Point (INX),Johannesburg,ZA,2022-08-11 12:03:33+00:00,True,True,False,141
+983,JPIX - FUKUOKA (Japan Internet Exchange - Fukuoka),FUKUOKA,JP,2022-01-26 13:12:05+00:00,False,True,False,0
+119,JPIX - Osaka (Japan Internet Exchange - Osaka),Osaka,JP,2019-06-17 06:49:50+00:00,False,False,False,8
+44,JPIX - Tokyo (Japan Internet Exchange - Tokyo),Tokyo,JP,2022-08-11 12:12:09+00:00,False,False,True,131
+1010,JPNAP - Fukuoka (Japan Network Access Point - Fukuoka),Fukuoka,JP,2022-02-28 18:14:57+00:00,False,False,False,0
+120,JPNAP - Osaka (Japan Network Access Point - Osaka),Osaka,JP,2019-06-17 14:04:42+00:00,False,False,False,21
+1013,JPNAP - Sendai (Japan Network Access Point - Sendai),Sendai,JP,2022-03-07 14:49:21+00:00,False,False,False,0
+42,JPNAP - Tokyo (Japan Network Access Point - Tokyo),Tokyo,JP,2022-08-11 12:12:12+00:00,False,False,True,86
+962,JumboIX Lima,Lima,PE,2021-07-29 06:13:44+00:00,False,False,False,0
+417,JXIX (Jacksonville Internet Exchange),Jacksonville,US,2019-06-18 22:07:27+00:00,False,False,False,0
+96,Kampala 1 (Uganda Internet Exchange Point),Kampala,UG,2022-07-26 09:03:32+00:00,True,True,False,31
+188,KAZ-IX (Kazakhstan Traffic Exchange),Almaty,KZ,2019-06-17 21:21:05+00:00,False,False,False,0
+768,KAZNIX LAN1 (KazNIX),Semey,KZ,2022-04-06 05:01:50+00:00,True,False,False,12
+221,KCIX Kansas City (Kansas City Internet Exchange),Kansas City,US,2019-06-17 23:01:41+00:00,False,False,False,23
+951,Kenya Internet Exchange Point - Nairobi Icolo,Nairobi,KE,2021-07-06 16:30:37+00:00,False,False,False,0
+698,Kherson Traffic Exchange (Kherson Traffic Exchange Point),Kherson,UA,2019-06-19 00:01:53+00:00,False,False,False,0
+204,KINIX (KINshasa Internet eXchange point),Kinshasa,CD,2021-09-22 12:47:41+00:00,False,True,False,10
+72,KINX - Seoul (Korea Internet Neutral Exchange),Seoul,KR,2019-06-19 21:18:33+00:00,False,False,False,24
+670,KIVIX (Chisinau Internet Exchange),Chisinau,MD,2019-06-18 23:46:09+00:00,False,False,False,0
+49,KIXP ADC Nairobi (Kenya Internet Exchange Point),Nairobi,KE,2022-08-11 12:12:11+00:00,True,False,True,61
+800,KIXP Icolo Mombasa (Kenya Internet Exchange Point),Nairobi,KE,2022-07-15 09:02:29+00:00,True,False,False,10
+956,KIXP PAIX Nairobi (Kenya Internet Exchange Point),Nairobi,KE,2021-07-12 12:31:30+00:00,False,False,False,0
+78,KleyReX (KleyReX Internet Exchange),Frankfurt am Main,DE,2022-07-28 14:04:02+00:00,True,False,False,479
+402,KM-IX (Khmelnytskiy Internet Exchange),Khmelnytskiy,UA,2019-06-13 21:30:27+00:00,False,False,False,0
+381,KOSIX (Kosovo Internet Exchange Point),Prishtinë,xk,2019-06-19 01:22:52+00:00,False,False,False,0
+911,Kremen-IX,Kremenchuk,UA,2021-01-27 18:26:45+00:00,False,False,False,0
+1061,KSKB-IX,Taipei City,TW,2022-07-19 14:05:00+00:00,False,False,False,0
+275,kzn-ix (KZN-IX public peering VLAN),Kazan,RU,2022-08-11 12:00:17+00:00,True,False,False,9
+968,Lambda-IX (Lambda Internet Exchange (MTU 1500)),Fremont,US,2022-08-11 12:12:09+00:00,True,False,True,19
+433,Lillix (Lille Internet Exchange),Lille,FR,2019-06-17 15:06:56+00:00,False,False,False,0
+1,LINX LON1 (LINX LON1),London,GB,2022-08-11 12:12:12+00:00,True,False,True,814
+600,LINX LON2 (LINX LON2),London,GB,2022-08-11 12:12:12+00:00,True,False,True,333
+349,LINX Manchester (LINX Manchester),Manchester,GB,2022-08-11 12:12:12+00:00,True,False,True,127
+426,LINX NoVA (LINX NoVA),Ashburn,US,2022-08-11 12:12:12+00:00,True,False,True,48
+409,LINX Scotland (LINX Scotland),Edinburgh,GB,2022-08-11 12:12:12+00:00,True,False,True,39
+544,LINX Wales (LINX Wales),Cardiff,GB,2022-08-11 12:12:12+00:00,True,False,True,12
+467,LIPTAM (Lietuvos Interneto paslaugų tiekėjų apsikeitimo mazgu),Vilnius,LT,2019-06-18 12:09:02+00:00,False,False,False,0
+482,litix (Lithuanian Internet exchange),Vilnius,LT,2019-06-13 22:30:11+00:00,False,False,False,0
+83,LIX - Latvia (Latvian Internet eXchange),Riga,LV,2019-06-19 01:16:48+00:00,False,False,False,162
+843,LLHOST INC. SRL,,RO,2022-08-11 12:12:10+00:00,True,True,True,149
+763,LNK-IX (LNK Internet Exchange),Targoviste,RO,2021-09-23 08:07:39+00:00,True,False,False,6
+775,LocIX (LOCIX Internet Exchange Frankfurt),Frankfurt,,2022-08-03 13:04:36+00:00,True,False,False,241
+842,LocIX Düsseldorf (LocIX Internet Exchange Düsseldorf),Düsseldorf,DE,2019-12-11 10:10:54+00:00,False,False,False,0
+774,LocIX Netherlands (LocIX Netherlands),,NL,2021-05-12 15:02:19+00:00,True,False,False,40
+18,LONAP Network (LONAP Ltd.),London,GB,2022-08-11 12:12:10+00:00,True,True,True,236
+681,LSIX Netherlands (LayerSwitch Internet Exchange),Amsterdam,NL,2022-08-10 13:03:30+00:00,True,False,False,64
+58,LU-CIX (Luxembourg Commercial Internet Exchange),Luxembourg,LU,2022-08-11 12:12:09+00:00,False,False,True,47
+966,LUBIX (Lubumbashi internet exchange point),Lubumbashi,CD,2021-09-22 12:50:06+00:00,False,False,False,0
+31,lyonix,,FR,2022-08-11 12:12:12+00:00,True,False,True,88
+267,MadIX (Madison Internet eXchange Peering Point),Madison,US,2019-06-17 23:11:08+00:00,False,False,False,15
+299,MAE - Central (MAE - Central),Dallas and Chicago,US,2019-06-19 15:47:03+00:00,False,False,False,0
+918,ManxIX,Douglas,IM,2021-07-09 10:33:46+00:00,False,False,False,0
+856,MARIIX (Mariana Islands Internet Exchange),,,2020-04-06 10:09:43+00:00,False,False,False,1
+665,MASS IX (MASS IX),Boston,US,2019-06-19 00:40:34+00:00,False,False,False,0
+399,MBIX (Manitoba Internet Exchange),Winnipeg,CA,2022-08-11 12:12:10+00:00,True,False,True,26
+473,MCIX (Matrix Cable Internet eXchange),Jakarta,ID,2019-06-18 22:18:48+00:00,False,False,False,0
+278,MD-IX (Moldova Internet Exchange),Chisinau,MD,2019-06-17 08:41:00+00:00,False,False,False,2
+1021,Memphis-IX (Ninja-IX),Memphis,US,2022-03-24 18:20:57+00:00,False,False,False,0
+740,MEX-IX (Mexico IXP),,MX,2022-08-11 12:12:10+00:00,False,False,True,0
+685,MGIX (Madagascar Global Internet eXchange),Antananarivo,MG,2019-06-18 23:51:01+00:00,False,False,False,0
+671,MGMix (Montgomery Internet Exchange),Montgomery,US,2019-06-18 23:46:46+00:00,False,False,False,0
+660,MiamiIX (Miami Internet Peering Exchange),Miami,US,2019-06-16 20:32:28+00:00,False,False,False,0
+335,MICE (Midwest Internet Cooperative Exchange),Minneapolis,US,2019-06-17 15:00:04+00:00,False,False,False,17
+777,MidWest-IX - Cleveland,,,2019-06-16 20:11:31+00:00,False,False,False,0
+653,MidWest-IX - Indy,Indianapolis,US,2019-06-16 20:06:37+00:00,False,False,False,0
+778,MidWest-IX - St. Louis,,,2019-06-16 20:14:39+00:00,False,False,False,0
+164,MINAP (Milan Neutral Access Point),Milano,IT,2022-08-11 12:12:10+00:00,True,True,True,79
+316,MIX - Manila (Manila Internet Exchange),Manila,PH,2019-06-10 22:55:12+00:00,False,False,False,0
+207,MIX (Malawi Internet Exchange),Blantyre,MW,2019-08-20 08:29:55+00:00,True,True,False,0
+84,MIX (Malta internet Exchange),Msida,MT,2019-06-19 00:21:04+00:00,False,False,False,0
+8,MIX (Milan Internet Exchange),,IT,2022-08-11 12:12:11+00:00,True,False,True,369
+999,MIX-IT Bologna,Bologna,IT,2022-02-03 17:08:53+00:00,False,False,False,0
+546,mixp (Mauritius Internet eXchange Point),Ebene City,MU,2019-06-18 23:31:23+00:00,False,False,False,0
+584,MIXP.me,Podgorica,ME,2019-06-16 18:41:17+00:00,False,False,False,5
+418,MKEIX (Milwaukee Internet Exchange),Milwaukee,US,2019-06-19 01:00:38+00:00,False,False,False,0
+1040,MoeIX FSN,Falkenstein,DE,2022-05-20 16:07:28+00:00,False,False,False,0
+823,MonctonIX (Moncton Internet Exchange),"Moncton, New Brunswick",CA,2019-09-04 16:23:42+00:00,False,False,False,0
+338,MOZ-IX (Mozambique Internet Exchange Point ),Maputo,MZ,2019-06-17 23:59:54+00:00,False,False,False,14
+13,msk-ix (MSK-IX public peering VLAN),Moscow,RU,2022-08-11 12:12:12+00:00,True,False,True,428
+929,MusicCity-IX (Ninja-IX),,US,2022-07-27 13:05:15+00:00,True,True,False,0
+183,MyIX  (Malaysia Internet Exchange),Kuala Lumpur,MY,2022-08-11 12:12:10+00:00,False,False,True,41
+79,N-IX (Nurnberger Internet eXchange),Nurnberg,DE,2019-06-17 00:06:59+00:00,False,False,False,17
+1033,Namex Bari IXP (Namex Rome IXP),Bari,IT,2022-08-03 13:05:06+00:00,True,True,False,6
+17,Namex Roma IXP (Namex Rome IXP),Roma,IT,2022-08-11 12:12:12+00:00,True,True,True,199
+161,NAP Chile (NAP Chile),Santiago,CL,2019-06-19 17:11:19+00:00,False,False,False,0
+69,NAP Colombia (NAP Colombia),Bogota,CO,2019-06-19 01:08:38+00:00,False,False,False,0
+216,NAP.EC-GYE (NAP Ecuador by AEPROVI - Guayaquil),Guayaquil,EC,2022-03-14 15:03:23+00:00,True,False,False,9
+153,NAP.EC-UIO (NAP Ecuador by AEPROVI - Quito),Quito,EC,2022-08-11 12:12:11+00:00,True,False,True,16
+162,NAP.Peru (NAP.Peru),Lima,PE,2019-06-17 14:16:24+00:00,False,False,False,0
+648,NAPAfrica IX Cape Town (NAPAfrica),Cape Town,ZA,2022-08-11 12:12:10+00:00,True,True,True,256
+649,NAPAfrica IX Durban (NAPAfrica),,ZA,2022-08-11 12:12:10+00:00,True,True,True,120
+351,NAPAfrica IX Johannesburg (NAPAfrica),,ZA,2022-08-11 12:12:10+00:00,True,True,True,508
+1053,NAPAfrica MAPS Cape Town,Cape Town,ZA,2022-07-19 12:37:00+00:00,False,True,False,0
+909,NAPAfrica MAPS Johannesburg,Johannesburg,ZA,2021-01-11 18:15:40+00:00,False,False,False,0
+336,NASA-AIX (NASA Ames Internet eXchange),Mountain View,US,2019-06-17 23:58:24+00:00,False,False,False,2
+664,NashIX (Nashville Internet Exchange),Nashville,US,2019-06-18 23:43:44+00:00,False,False,False,0
+977,National (Hangzhou) New-Type Internet Exchange Point,,,2021-12-22 06:12:07+00:00,False,False,False,23
+749,National Internet Exchange Of Afghanistan (NIXA),Kabul,AF,2019-06-19 01:05:56+00:00,False,False,False,0
+901,NCL-IX (NCL-IX),Newcastle,GB,2022-08-03 09:02:53+00:00,True,False,False,5
+66,NDIX (Nederlands-Duitse Internet Exchange), Enschede,NL,2019-06-16 23:53:26+00:00,False,False,False,23
+862,NEO-IX (North East Ohio Internet Exchange),Ohio,US,2020-06-19 16:08:04+00:00,False,False,False,0
+413,NetIX (NetIX Communications),,BG,2022-08-11 12:12:10+00:00,True,True,True,145
+294,Netnod Copenhagen (Netnod Copenhagen),Copenhagen,DK,2022-08-11 12:12:11+00:00,True,False,True,60
+100,Netnod Gothenburg (Netnod Gothenburg),Gothenburg,SE,2022-08-11 12:12:11+00:00,True,False,True,12
+986,Netnod Helsinki (Netnod Helsinki),Helsinki,FI,2022-08-10 16:02:12+00:00,True,False,False,5
+145,Netnod Lulea (Netnod Lulea),Lulea,SE,2022-08-11 12:12:11+00:00,True,False,True,2
+5,Netnod Stockholm (Netnod Stockholm),Stockholm,SE,2022-08-11 12:12:11+00:00,True,False,True,125
+102,Netnod Sundsvall (Netnod Sundsvall),Sundsvall,SE,2022-08-11 12:12:11+00:00,True,False,True,16
+359,NiCE (National Inter Connection Exchange ),Jakarta,ID,2019-06-17 15:02:10+00:00,False,False,False,0
+848,NIX-BD (Noakhali Internet Exchange),,BD,2020-04-02 11:03:24+00:00,True,False,False,5
+15,"NIX.CZ (NIX.CZ, z.s.p.o.)",Praha 3,CZ,2022-08-03 16:00:13+00:00,True,True,False,190
+552,"NIX.SK (NIX.CZ, z.s.p.o. organizacna zlozka)",Praha 3,SK,2022-08-11 12:12:10+00:00,True,True,True,51
+19,NIX1 (Norwegian Internet eXchange),Oslo,NO,2019-05-27 21:21:42+00:00,True,False,False,65
+99,NIX2 (Norwegian Internet Exchange 2),Oslo,NO,2019-05-28 06:24:26+00:00,False,False,False,22
+173,NIXI - Ahmedabad (National Internet Exchange of India - Ahmedabad),Ahmedabad,IN,2019-05-29 00:21:37+00:00,False,False,False,1
+174,NIXI - Bangalore (National Internet Exchange of India - Bangalore),Bangalore,IN,2019-05-29 10:53:54+00:00,False,False,False,4
+116,NIXI - Chennai (National Internet Exchange of India - Chennai),Chennai,IN,2019-06-17 00:13:24+00:00,False,False,False,16
+175,NIXI - Hyderabad (National Internet Exchange of India - Hyderabad),Hyderabad,IN,2019-05-29 10:54:31+00:00,False,False,False,4
+117,NIXI - Kolkata (National Internet Exchange of India - Kolkata),Kolkata,IN,2019-06-18 08:38:34+00:00,False,False,False,7
+115,NIXI - Mumbai (National Internet Exchange of India - Mumbai),Mumbai,IN,2019-06-17 00:11:59+00:00,False,False,False,25
+45,NIXI - New Delhi (National Internet Exchange of India - New Delhi),Delhi ,IN,2019-06-17 00:11:28+00:00,False,False,False,37
+724,NIXVAL (Neutral Internet Exchange Valencia),Valencia,ES,2019-06-16 21:48:15+00:00,False,False,False,0
+27,NL-ix,The Hague,NL,2022-08-11 12:12:11+00:00,True,False,True,466
+769,NL-ix 2,The Hague,NL,2022-07-11 12:02:10+00:00,True,False,False,10
+930,Norfolk-IX (Ninja-IX),,US,2022-07-27 13:05:14+00:00,True,True,False,0
+97,NorrNod (NorrNod),Umea,SE,2019-05-28 06:22:16+00:00,False,False,False,2
+982,Northern New England Neutral Internet Exchange - Maine (Northern New England Neutral Internet Exchange),Portland,US,2022-07-10 14:02:30+00:00,True,True,False,10
+673,npIX JWL (npIX JWL),Lalitpur,NP,2019-06-18 12:22:57+00:00,False,False,False,0
+53,NPIX Putalisadak (Internet Exchange Nepal),Kathmandu,NP,2022-05-15 10:01:27+00:00,True,True,False,51
+86,nsk-ix (NSK-IX public peering VLAN),Novosibirsk,RU,2022-08-11 12:00:18+00:00,True,False,False,53
+394,NSW-IX (IX Australia (Sydney NSW)),Sydney,AU,2022-08-09 02:01:39+00:00,True,False,False,235
+222,NWAX (Northwest Access Exchange),Portland,US,2019-06-17 23:02:13+00:00,False,False,False,46
+220,NWIX - Helena (Northwest Internet Exchange - Helena),Helena,US,2019-06-17 23:01:02+00:00,False,False,False,3
+138,NYIIX (New York International IX),New York,US,2019-06-17 17:47:54+00:00,False,False,False,113
+137,NYIIX Los Angeles,Los Angeles,US,2019-06-17 17:48:00+00:00,False,False,False,35
+786,NYIIX Philadelphia,,US,2019-06-17 18:01:58+00:00,False,False,False,0
+217,OCIX - Philipsburg (Open Caribbean Internet eXchange),Philipsburg,AN,2019-06-18 08:44:41+00:00,False,False,False,5
+452,OCIX Düsseldorf (OpenCarrier e.G. Member IX Düsseldorf),Düsseldorf,DE,2019-06-19 00:34:49+00:00,False,False,False,0
+811,OGIX-LAN (Ottawa Gatineau Internet Exchange),Ottawa,CA,2022-08-11 12:12:10+00:00,True,True,True,10
+850,OhioIX (Ohio IX),Columbus,US,2022-08-11 11:02:52+00:00,True,True,False,44
+256,OIX (Oregon Internet Exchange),Eugene,US,2019-06-17 14:41:01+00:00,False,False,False,11
+419,OmahaIX (Omaha Internet Exchange),Omaha,US,2019-06-18 12:06:45+00:00,False,False,False,0
+490,OMSK-IX (Omsk Internet Exchange),Omsk,RU,2019-06-13 23:13:51+00:00,False,False,False,0
+1097,Openfactory GmbH,,,2022-07-22 17:14:18+00:00,False,False,False,0
+189,OTTIX (Ottawa Internet eXchange),Ottawa,CA,2019-06-19 00:53:46+00:00,False,False,False,0
+576,OuestIX (OuestIX),Nantes,FR,2019-06-16 17:58:55+00:00,False,False,False,0
+254,Pacific Wave (Pacific Wave),Los Angeles & Seattle,US,2019-06-17 08:27:10+00:00,False,False,False,9
+492,PacificIX (PacificIX),Sydney,AU,2019-06-14 14:10:45+00:00,False,False,False,0
+421,PacificWave - LA (PacificWave Exchanges in Los Angeles),Los Angeles,US,2019-06-17 15:04:57+00:00,False,False,False,0
+420,PacificWave - Seattle (PacificWave Exchange in Seattle),Seattle,US,2019-06-17 08:53:23+00:00,False,False,False,0
+919,PaducahIX,Paduch,US,2021-03-02 16:36:54+00:00,False,True,False,0
+726,pcix (Piacenza Internet Exchange ),Piacenza,IT,2021-03-22 00:29:03+00:00,False,False,False,5
+410,Peering.cz,Prague,CZ,2022-08-08 11:02:44+00:00,True,False,False,171
+942,PERM-IX (Perm traffic exchange point),Perm,RU,2021-04-16 16:42:50+00:00,False,False,False,0
+944,Peru IX - Arequipa,Arequipa,PE,2021-05-08 03:39:33+00:00,False,False,False,0
+745,PhillyIX (Philadelphia Internet Exchange),Philadelphia,US,2022-08-11 12:12:09+00:00,False,False,True,0
+268,Phoenix-IX (Ninja-IX),Phoenix,US,2022-07-27 13:05:05+00:00,True,True,False,63
+232,PHOpenIX (Philippines Open Internet Exchange),Manilla,PH,2019-06-19 01:10:13+00:00,False,False,False,27
+324,PIPE Networks Adelaide (PIPE Networks Adelaide),Adelaide,AU,2019-06-10 23:09:12+00:00,False,False,False,15
+325,PIPE Networks Brisbane (PIPE Networks Brisbane),Brisbane,AU,2019-06-12 21:08:43+00:00,False,False,False,40
+326,PIPE Networks Canberra (PIPE Networks Canberra),Canberra,AU,2019-06-12 21:09:23+00:00,False,False,False,3
+327,PIPE Networks Hobart (PIPE Networks Hobart),Hobart,AU,2019-06-12 21:09:52+00:00,False,False,False,5
+328,PIPE Networks Melbourne (PIPE Networks Melbourne),Melbourne,AU,2019-06-12 21:10:22+00:00,False,False,False,34
+329,PIPE Networks Sydney (PIPE Networks Sydney),Sydney,AU,2019-06-12 21:15:38+00:00,False,False,False,69
+293,PIRIX (PIRIX Internet Exchange),St. Petersburg,RU,2019-06-17 23:56:22+00:00,False,False,False,0
+803,PIT Arica - PIT Chile,,,2019-06-19 01:38:59+00:00,False,False,False,0
+941,PIT Bolivia LAN 1 (Punto de Intercambio de Trafico PIT Bolivia),La Paz,BO,2022-08-11 12:12:09+00:00,True,True,True,12
+1052,​PIT Colombia - Bogota,Bogota,CO,2022-07-19 12:24:56+00:00,False,False,False,0
+804,PIT Concepcion - PIT Chile,,,2019-06-19 01:42:01+00:00,False,False,False,0
+985,PIT Medellin,Medellin,CO,2022-01-26 13:31:47+00:00,False,False,False,0
+805,PIT Osorno - PIT Chile,,,2019-06-19 01:43:39+00:00,False,False,False,0
+825,PIT Peru,Lima,PE,2019-09-04 22:50:51+00:00,False,False,False,0
+680,PIT Santiago - PIT Chile,Santiago,CL,2019-06-19 01:36:55+00:00,False,False,False,0
+806,PIT Temuco - PIT Chile,,,2019-06-19 01:47:01+00:00,False,False,False,0
+761,Piter-IX (Piter-IX),,RU,2021-12-13 05:00:59+00:00,True,False,False,274
+1003,PITER-IX Frankfurt,Frankfurt,DE,2022-02-22 16:12:22+00:00,False,False,False,0
+1006,PITER-IX Helsinki,Helsinki,FI,2022-02-22 16:39:50+00:00,False,True,False,0
+1005,PITER-IX Kiev,Kiev,RU,2022-02-22 16:37:36+00:00,False,True,False,0
+1009,PITER-IX Moscow,Moscow,RU,2022-02-22 16:48:12+00:00,False,True,False,0
+1007,PITER-IX Riga,Riga,LV,2022-02-22 16:59:37+00:00,True,False,False,0
+1004,PITER-IX Rostov,Rostov,RU,2022-02-22 16:35:15+00:00,False,True,False,0
+1008,PITER-IX Tallin,Tallin,EE,2022-02-22 16:44:21+00:00,False,True,False,0
+729,Pittsburgh Internet Exchange (Pittsburgh Internet Exchange),Pittsburgh,US,2022-05-18 15:02:17+00:00,True,False,False,23
+151,PIX (Poznan Internet Exchange),Poznan,PL,2019-06-17 20:18:05+00:00,False,False,False,0
+259,PIX Montreal (Peer1 Internet Exchange Montreal),Montreal,CA,2019-06-17 23:08:58+00:00,False,False,False,1
+347,PIX Palestine (Palestine Internet Exchange),Ramallah,PS,2019-06-17 15:01:15+00:00,False,False,False,0
+260,PIX Toronto (Peer1 Internet Exchange Toronto),Toronto,CA,2019-06-19 00:26:39+00:00,False,False,False,6
+261,PIX Vancouver (Peer1 Internet Exchange Vancouver),Vancouver,CA,2019-06-18 08:48:33+00:00,False,False,False,21
+636,PKIX (Pakistan Internet Exchange Point),Lahore,PK,2019-06-16 18:59:47+00:00,False,False,False,0
+1037,PNG Neutral IX Hagen,Mt Hagen,PG,2022-04-22 11:32:51+00:00,False,False,False,0
+1036,PNG Neutral IX Lae,Lae,PG,2022-04-22 11:30:02+00:00,False,False,False,0
+1035,PNG Neutral IX POM,Port Moresby,PG,2022-04-22 11:27:08+00:00,False,False,False,0
+129,PNIX - Palmerston North (Palmerston North Internet Exchange),Palmerston North,NZ,2019-06-17 14:05:56+00:00,False,False,False,4
+979,PTT Roraima,Boa Vista,BR,2021-12-13 10:27:15+00:00,False,True,False,0
+903,PyramIX (Pyramids Internet Exchange),Cairo,EG,2020-12-17 12:53:35+00:00,False,False,False,0
+847,Qatar Internet Exchange (QIX),Doha,QA,2020-02-25 06:48:20+00:00,False,False,False,3
+853,QCIX Main (Quad Cities Internet Exchange),Bettendorf,US,2022-07-27 18:02:47+00:00,True,True,False,55
+266,QIX (Quebec Internet Exchange),Montreal,CA,2022-08-11 12:12:10+00:00,True,False,True,89
+392,QLD-IX (IX Australia (Brisbane QLD)),Brisbane,AU,2022-08-09 02:01:48+00:00,True,False,False,87
+146,R-iX (Rotterdam Internet eXchange),Rotterdam,NL,2019-06-17 14:11:12+00:00,False,False,False,0
+924,Raleigh-IX (Ninja-IX),"Morrisville, NC",US,2022-07-27 13:05:14+00:00,True,True,False,8
+1000,RapidIX LON1 (Inferno Communications),London,GB,2022-07-18 23:01:59+00:00,True,False,False,19
+141,RED-IX (RED-IX (former KRS-IX)),Krasnoyarsk,RU,2019-06-17 20:16:18+00:00,False,False,False,0
+483,Rheintal IX (Rheintal IX),Eschen,LI,2022-08-11 12:12:10+00:00,True,False,True,33
+925,Richmond-IX (Ninja-IX),"Sandston, VA",US,2022-07-27 13:05:11+00:00,True,True,False,10
+295,RINEX (Rwanda Internet Exchange),Kigali,RW,2022-08-11 12:12:12+00:00,False,False,True,5
+33,RIX (Reykjavik Internet Exchange),Reykjavik,IS,2022-08-09 16:01:59+00:00,True,False,False,28
+686,rix-ix (RIX-IX public peering VLAN),Riga,LV,2022-04-07 09:00:38+00:00,True,False,False,4
+178,rnd-ix (RND-IX public peering VLAN),Rostov on Don,RU,2022-08-11 12:00:17+00:00,True,False,False,20
+846,RoCix,,RO,2021-04-13 01:01:41+00:00,True,False,False,35
+866,ROIX (RomandIX),Lausanne,CH,2020-07-01 11:47:17+00:00,True,False,False,0
+16,RoNIX (Romanian Network for Internet eXchange),Bucharest,RO,2019-05-27 22:16:54+00:00,False,False,False,33
+870,ROPN-IX (Romanian Open Internet Exchange),Bucharest,RO,2022-07-26 09:10:07+00:00,True,True,False,28
+479,RTIX (Tallinn Governmental Internet Exchange),Tallin,EE,2019-06-13 22:22:25+00:00,False,False,False,0
+973,RUDAKI-IX (RUDAKI INTERNET EXCHANGE),Kyiv,UA,2021-11-23 15:41:10+00:00,False,False,False,0
+910,Ruhr-CIX,Ruhr area,DE,2022-08-11 12:12:09+00:00,False,False,True,0
+391,SA-IX (IX Australia (Adelaide SA)),Adelaide,AU,2022-08-09 02:01:51+00:00,True,False,False,50
+957,Saarcix,Saarbrücken,DE,2021-07-16 14:42:33+00:00,False,False,False,0
+926,Sacramento-IX (Ninja-IX),"Sacramento, CA",US,2022-07-27 13:05:13+00:00,True,True,False,6
+553,SAIX (Salzburg Internet eXchange),Salzburg,AT,2019-06-17 15:25:18+00:00,False,False,False,23
+961,San Diego-IX (Ninja-IX),San Diego,US,2021-07-28 15:43:37+00:00,False,False,False,0
+770,Saudi Arabia Internet eXchange (SAIX),Riyadh,SA,2022-08-11 12:12:10+00:00,False,False,True,15
+1055,SBH-IX,Saint-Barthélemy,BL,2022-07-19 12:56:44+00:00,False,False,False,0
+1050,SBIX LON,London,GB,2022-07-19 11:39:32+00:00,False,False,False,0
+674,SCL-IX (SCL-IX),Santiago,CL,2019-06-17 09:11:39+00:00,False,False,False,0
+489,Sea-IX (South Russia IX),Krasnodar,RU,2019-06-13 23:11:27+00:00,False,False,False,0
+894,Securebit AG,Zurich,CH,2021-07-09 10:25:29+00:00,False,False,False,0
+895,Securebit AG - AS47422,Dusseldorf,DE,2021-07-09 10:29:05+00:00,False,False,False,0
+896,Securebit AG - Tuusula,Tuusula,FI,2020-11-13 17:36:37+00:00,False,False,False,0
+879,SEECIX (South East Europe Cloud & Interconnection Exchange),Athens,GR,2022-08-11 12:12:09+00:00,False,False,True,0
+32,SFINX (Service for French Internet eXchange),Paris,FR,2019-05-28 06:05:44+00:00,False,False,False,95
+223,SFMIX (San Francisco Metropolitan Internet Exchange),San Francisco,US,2021-09-23 11:00:14+00:00,True,False,False,79
+668,SFO-IX (SFO-IX),Barnaul,RU,2019-06-17 15:34:33+00:00,False,False,False,0
+371,SGIX (Singapore Internet Exchange),Singapore,SG,2019-06-18 02:12:50+00:00,False,False,False,54
+655,SIBIR-IX (SIBIR-IX),Krasnoyarsk,RU,2019-06-16 20:16:11+00:00,False,False,False,0
+950,SIEX (Southern Internet Exchange),Rome,IT,2021-06-07 16:53:23+00:00,False,False,False,0
+167,SIX - Košice (Slovak Internet eXchange - Košice),Košice,SK,2019-05-09 14:59:30+00:00,False,False,False,4
+25,SIX (Slovenian Internet Exchange),Ljubljana,SI,2019-05-27 22:19:53+00:00,False,False,False,20
+89,SIX Bratislava (Slovak Internet eXchange Bratislava),Bratislava,SK,2022-07-29 10:00:14+00:00,True,True,False,55
+679,SIX Seattle (Jumbo) (Seattle Internet Exchange (MTU 9000)),Seattle,US,2022-08-04 21:00:29+00:00,True,False,False,48
+148,SIX Seattle (Seattle Internet Exchange (MTU 1500)),Seattle,US,2022-08-04 21:00:08+00:00,True,False,False,359
+200,SIX Stavanger (Stavanger Internet Exchange),Stavanger,NO,2019-06-17 08:19:11+00:00,False,False,False,0
+723,SIXP (Serrekunda IXP),Serrekunda,GM,2019-06-19 01:49:33+00:00,False,False,False,0
+388,SIXP (Sudan Internet Exchange Point),Khartoum,SD,2019-06-12 21:24:06+00:00,False,False,False,0
+822,SJIX (Saint John Internet Exchange),New Brunswick,CA,2019-09-04 16:17:19+00:00,False,False,False,0
+1044,SKNIX,Basseterre,KN,2022-05-31 14:02:27+00:00,False,True,False,0
+877,SkyIX HK (SkyIX Hong Kong),,HK,2020-07-28 08:07:57+00:00,True,False,False,1
+1017,Skywolf IX (Skywolf Internet Exchange),Fremont,US,2022-03-15 14:08:10+00:00,False,False,False,0
+503,SLIX (Salt Lake Internet Exchange),Salt Lake City,US,2019-06-19 22:07:51+00:00,False,False,False,0
+808,SLT-IX,,,2019-08-02 10:41:11+00:00,False,False,False,0
+320,SMARTHUB Internet Exchange / SH-IX,Abu Dhabi,AE,2019-06-19 22:09:58+00:00,False,False,False,0
+228,SMILE (Santa Monica Internet Local Exchange),Riga,LV,2019-06-17 14:39:25+00:00,False,False,False,29
+88,smr-ix (SMR-IX public peering VLAN),Samara,RU,2022-08-11 12:00:16+00:00,True,False,False,18
+423,SNAP (Southeast Network Access Point),Atlanta,US,2019-06-18 22:08:59+00:00,False,False,False,0
+271,SOAX (Southern Oregon Access Exchange),Medford,US,2019-06-19 01:53:29+00:00,False,False,False,5
+91,SOLIX - Stockholm (SOLIX),Stockholm,SE,2019-05-28 06:09:22+00:00,False,False,False,21
+754,Somali Internet Exchange Point - Mogadishu,Mogadishu,SO,2019-06-18 12:28:53+00:00,False,False,False,0
+1001,SONIX Gothenburg (Sweden Open Network Internet Exchange),Gothenburg,SE,2022-07-24 22:02:30+00:00,True,False,False,2
+963,SONIX Stockholm (Sweden Open Network Internet Exchange),Stockholm,SE,2022-07-24 22:02:28+00:00,True,False,False,16
+133,SOX - Singapore (Singapore Open eXchange),Singapore,SG,2019-06-17 20:09:33+00:00,False,False,False,14
+292,SOX (Serbian Open eXchange),Belgrade,RS,2019-06-17 23:55:45+00:00,False,False,False,28
+87,spb-ix (SPB-IX public peering VLAN),St.-Petersburg,RU,2022-08-11 12:00:51+00:00,True,False,False,81
+898,SpeedIX Internet Exchange (SpeedIX Internet Exchange),,NL,2021-09-21 11:04:07+00:00,True,True,False,202
+854,SpokaneIX (Spokane Internet Exchange),Spokane,US,2020-04-07 06:36:51+00:00,False,False,False,0
+758,SR-IX (Silk Road Internet Exchange),,KG,2021-09-23 08:06:44+00:00,True,False,False,9
+906,STACIX (Staclar Internet Exchange),Frankfurt am Main,DE,2021-01-08 18:14:19+00:00,False,False,False,0
+713,STHIX - Copenhagen (Stockholm Internet eXchange AB),Copenhagen,DK,2022-08-11 12:12:10+00:00,True,True,True,25
+712,STHIX - Gothenburg (Stockholm Internet eXchange AB),Gothenburg,SE,2022-08-11 12:12:10+00:00,True,True,True,13
+928,STHIX - Helsinki (Stockholm Internet eXchange AB),,FI,2022-08-02 13:00:26+00:00,True,True,False,0
+144,STHIX - Stockholm (Stockholm Internet eXchange AB),Stockholm,SE,2022-08-11 12:12:10+00:00,True,True,True,117
+820,STHIX - Sundsvall (Stockholm Internet eXchange AB),Sundsvall,SE,2022-08-11 12:12:10+00:00,True,True,True,4
+844,STHIX - Umeå (Stockholm Internet eXchange AB),Umeå,SE,2022-08-02 13:00:25+00:00,True,False,False,4
+884,STLIX (Saint Louis Internet Exchange),St. Louis,US,2021-09-23 08:12:58+00:00,True,False,False,18
+384,stw-ix (STW-IX public peering VLAN),Stavropol,RU,2022-08-11 12:00:17+00:00,True,False,False,3
+1043,SUR-IX (Suriname Internet Exchange),Paramaribo,SR,2022-05-31 13:52:58+00:00,False,False,False,0
+974,Suraj IX (Suraj Peering Exchange),Ghaziabad,IN,2021-11-23 15:45:38+00:00,False,False,False,0
+34,SwissIX (SwissIX Internet Exchange),Glattbrugg,CH,2022-08-11 12:12:11+00:00,True,True,True,233
+813,Switch #1 (Gavlix),Gavle,SE,2022-08-11 12:12:10+00:00,True,True,True,12
+949,SXMIX,SAINT-MARTIN,US,2021-05-27 16:09:31+00:00,False,False,False,0
+666,T-CIX (T-CIX),Sofia,BG,2019-06-18 12:22:07+00:00,False,False,False,0
+635,TahoeIX (Tahoe Internet Exchange),Tahoe,US,2019-06-16 18:46:44+00:00,False,False,False,0
+424,tdc-ops-sw1 (SUPRnet),St. George,US,2021-09-23 08:09:19+00:00,True,False,False,19
+859,TEHRAN-IX,Tehran,IR,2021-06-02 08:07:41+00:00,False,False,False,0
+936,Thai-IX Bangkok by CS Loxinfo,Bangkok,TH,2021-03-20 10:53:21+00:00,False,False,False,0
+934,Thai-IX Malaysia by CS Loxinfo,,MY,2021-03-20 10:51:55+00:00,False,False,False,0
+935,Thai-IX Singapore by CS Loxinfo,Singapore,SG,2021-03-20 10:50:25+00:00,False,False,False,0
+889,THESS-IX (Thess-IX),Thessaloniki,GR,2022-01-05 19:01:35+00:00,True,False,False,12
+346,Thinx (Thinx Warsaw IX),Warsaw,PL,2022-08-09 13:05:16+00:00,True,True,False,167
+663,Tirol-IX (Tirol-IX),Hall in Tirol,AT,2019-06-18 23:43:05+00:00,False,False,False,0
+50,TIX - Tanzania (Tanzania Internet eXchange),Dar es Salaam,TZ,2019-06-18 08:34:57+00:00,False,False,False,36
+76,TIX Tallinn (Tallinn Internet eXchange),Tallinn,EE,2019-06-17 14:02:21+00:00,False,False,False,11
+675,TIX Tanzania - Mwanza IXP (TIX Tanzania - Mwanza IXP),Mwanza,TZ,2019-06-17 15:35:48+00:00,False,False,False,0
+199,TIX Tromsø (Tromsø Internet Exchange),Tromsø,NO,2019-06-18 08:43:42+00:00,False,False,False,0
+26,TIX Tuscany (Tuscany Internet eXchange),Florence,IT,2019-05-27 22:20:39+00:00,False,False,False,20
+98,TLLIX (Tallinn Internet Exchange),Tallinn,EE,2019-05-28 06:23:02+00:00,False,False,False,13
+14,TOP-IX (Torino Piemonte Exchange Point),,IT,2022-08-11 12:12:12+00:00,True,False,True,122
+163,TorIX (Toronto Internet Exchange),Toronto,CA,2022-08-11 12:12:12+00:00,True,False,True,265
+274,TOUIX (Toulouse Internet eXchange),Toulouse,FR,2019-06-17 23:12:40+00:00,False,False,False,0
+495,TP-IX (Twin Ports IX),Duluth,US,2019-06-14 14:16:54+00:00,False,False,False,0
+656,TPA-IX (Tampa Internet Exchange),Tampa,US,2019-06-16 20:23:03+00:00,False,False,False,0
+185,TPIX - Taipei (Taipei Internet Exchange),Taipei,TW,2019-06-10 11:06:57+00:00,False,False,False,21
+401,TPIX (Orange Polska Internet Exchange),Warsaw,PL,2019-06-13 21:05:54+00:00,False,False,False,189
+864,TR-IX (Turk IX),Denizli,TR,2021-09-23 08:12:55+00:00,True,False,False,13
+330,TransACT IX (TransACT IX),Canberra,AU,2019-06-12 21:16:32+00:00,False,False,False,0
+193,TRDIX (Trondheim Internet Exchange),Trondheim,NO,2019-06-17 08:16:16+00:00,False,False,False,5
+46,TREX (TREX Regional Exchanges Oy),,FI,2022-08-11 12:12:12+00:00,True,False,True,19
+536,TTIX,Barataria,TT,2019-06-18 23:28:30+00:00,False,False,False,8
+799,TTIX2,,,2019-06-18 23:30:13+00:00,False,False,False,0
+757,TTPL LAN (Bhutan Internet Exchange),Thimphu,BT,2022-06-20 13:03:07+00:00,True,False,False,14
+931,Tucson-IX (Ninja-IX),,US,2022-07-27 13:05:15+00:00,True,True,False,0
+880,TunIXP (Tunisian Internet Exchange Point),Tunis,TN,2020-08-07 12:37:20+00:00,False,False,False,0
+767,Turk-IX,Istanbul,TR,2019-03-28 16:02:05+00:00,False,False,False,0
+113,TWIX - Taipei (Taiwan Internet Exchange),Taipei,TW,2022-08-11 12:12:10+00:00,False,False,True,24
+48,UA-IX (Ukrainian Internet Exchange),Kiev,UA,2019-06-16 23:25:57+00:00,False,False,False,95
+373,UAE-IX (United Arab Emirates Internet Exchange),Dubai,AE,2022-08-11 12:12:09+00:00,False,False,True,52
+829,UEPG Internet Exchange (UEPG IX),Ponta Grossa,BR,2022-08-11 12:12:10+00:00,True,False,True,12
+187,ULN-IX (Ulyanovsk Internet Exchange),Ulyanovsk,RU,2022-06-16 08:00:16+00:00,True,False,False,13
+598,UNIFI-IX (UNIFI-IX),Coventry,GB,2019-06-17 15:28:10+00:00,False,False,False,0
+849,UNY-IX (Universitas Negeri Yogyakarta Internet Exchange Point),Yogyakarta,ID,2020-02-20 20:59:30+00:00,False,False,False,0
+535,VANIX (Vancouver Internet eXchange),Vancouver,CA,2022-08-11 12:12:10+00:00,False,False,True,0
+819,VarnaIX,Varna,BG,2019-08-29 10:38:54+00:00,False,False,False,0
+927,Vegas-IX (Ninja-IX),"Las Vegas, NV",US,2022-07-27 13:05:13+00:00,True,True,False,13
+393,VIC-IX (IX Australia (Melbourne VIC)),Melbourne,AU,2022-08-09 02:01:53+00:00,True,False,False,114
+3,VIX (Vienna Internet Exchange),,AT,2022-06-28 06:00:14+00:00,True,False,False,149
+897,VIXP,Balzers,LI,2020-11-16 16:55:30+00:00,False,False,False,0
+170,vlv-ix (VLV-IX public peering VLAN),Vladivostok,RU,2022-08-11 12:00:22+00:00,True,False,False,17
+134,VNIX - Hanoi (Vietnam National Internet eXchange - Hanoi),Hanoi,VN,2019-06-17 20:10:11+00:00,False,False,False,16
+135,VNIX - Ho Chi Minh (Vietnam National Internet eXchange - Ho Chi Minh),Ho Chi Minh City,VN,2019-06-19 00:22:06+00:00,False,False,False,6
+971,VOLGA-IX,Yaroslavl,RU,2021-10-27 15:27:42+00:00,False,False,False,0
+38,VSIX Nap (VSIX),Padova,IT,2022-08-11 12:12:11+00:00,True,False,True,55
+494,VUIX (Vanuatu Internet Exchange),Port Vila,VU,2019-06-14 14:16:23+00:00,False,False,False,0
+678,W-IX (W-IX),Moscow,RU,2019-06-18 23:49:17+00:00,False,False,False,0
+108,WA-IX (IX Australia (Perth WA)),Perth,AU,2022-08-09 02:01:57+00:00,True,False,False,99
+85,WIX - Poland (Warsaw Internet eXchange),Warsaw,PL,2019-06-17 06:49:00+00:00,False,False,False,10
+132,WIX - Wellington (Wellington Internet Exchange),Wellington,NZ,2019-06-17 20:08:52+00:00,False,False,False,78
+386,WPG-IX (Winnipeg Internet Exchange),Winnipeg,CA,2019-06-12 21:21:22+00:00,False,False,False,0
+493,YAR-IX (Yaroslavl Internet Exchange),Yaroslavl,RU,2019-06-14 14:12:01+00:00,False,False,False,0
+669,YEGIX (YEGIX),Edmonton,CA,2019-06-18 23:44:25+00:00,False,False,False,0
+219,YRIX (Yellowstone Regional Internet Exchange),Billings,US,2019-06-17 14:37:31+00:00,False,False,False,7
+858,YXEIX (Saskatoon Internet Exchange Inc),Saskatoon,CA,2022-08-11 12:12:10+00:00,False,False,True,0
+398,YYCIX (Calgary Internet Exchange),Calgary,CA,2022-08-11 12:12:11+00:00,False,False,True,26
+213,ZINX (Zimbabwe Internet Exchange),Harare,ZW,2019-06-17 23:00:12+00:00,False,False,False,0

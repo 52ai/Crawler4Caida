@@ -48,7 +48,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["3D-Building", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
+    menu = ["3D-Building", "GlobalIXPMap", "GlobalIDCMap", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -59,8 +59,9 @@ if st.session_state.count > 0:
                       "light_no_labels",
                       ]
     st.sidebar.markdown(" ")
-    choice = st.sidebar.selectbox("请选择可视化样式：", menu)
+    choice = st.sidebar.selectbox("请选择可视化实验案例：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
+
     if choice == "Demo":
         cols0, cols1, cols2, cols3, cols4 = st.columns([1, 1, 1, 1, 1])
         with cols0:
@@ -531,5 +532,9 @@ if st.session_state.count > 0:
         # r.to_html("globe_view.html", css_background_color="black")
         st.pydeck_chart(r)
 
+    elif choice == "GlobalIXPMap":
+        st.write("依托GIS地图系统，开展全球互联网交换中心可视化实验研究")
+    elif choice == "GlobalIDCMap":
+        st.write("依托GIS地图系统以及全球IP端扫描数据（80/443端口），开展全球数据中心可视化实验研究")
 else:
     st.info("Please Login!")

@@ -166,7 +166,7 @@ if st.session_state.count > 0:
         # Set the viewport location
         view_state = pdk.ViewState(
             longitude=0,
-            latitude=0,
+            latitude=9,
             zoom=2,
             min_zoom=2,
             max_zoom=22,
