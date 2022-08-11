@@ -1,0 +1,1 @@
+{"id":"fukuoka-japan","name":"Fukuoka, Japan","country":"Japan","cables":[{"id":"bridge-one","name":"Bridge One","rfs_year":2025,"is_planned":true},{"id":"korea-japan-cable-network-kjcn","name":"Korea-Japan Cable Network (KJCN)","rfs_year":2002,"is_planned":false}],"landing_points":["fukuoka-japan","busan-south-korea","kita-kyushu-japan","pohang-south-korea"]}

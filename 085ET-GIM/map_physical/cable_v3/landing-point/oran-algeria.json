@@ -1,0 +1,1 @@
+{"id":"oran-algeria","name":"Oran, Algeria","country":"Algeria","cables":[{"id":"med-cable-network","name":"Med Cable Network","rfs_year":2005,"is_planned":false},{"id":"oran-valencia-orval","name":"Oran-Valencia (ORVAL)","rfs_year":2020,"is_planned":false}],"landing_points":["annaba-algeria","marseille-france","algiers-algeria","oran-algeria","valencia-spain"]}

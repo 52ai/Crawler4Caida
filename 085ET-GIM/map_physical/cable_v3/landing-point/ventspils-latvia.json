@@ -1,0 +1,1 @@
+{"id":"ventspils-latvia","name":"Ventspils, Latvia","country":"Latvia","cables":[{"id":"latvia-sweden-1-lv-se-1","name":"Latvia-Sweden 1 (LV-SE 1)","rfs_year":1994,"is_planned":false},{"id":"sweden-latvia","name":"Sweden-Latvia","rfs_year":2005,"is_planned":false}],"landing_points":["ventspils-latvia","nynashamn-sweden","farosund-sweden","stockholm-sweden"]}

@@ -4,7 +4,8 @@ import numpy as np
 
 st.set_page_config(
     page_title="逻辑层地图",
-    page_icon="world_map"
+    page_icon="world_map",
+    layout="wide",
 )
 
 # 去除streamlit的原生标记
