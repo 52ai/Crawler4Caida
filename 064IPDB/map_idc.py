@@ -42,6 +42,7 @@ def deal():
     :return:
     """
     db = City("../000LocalData/ipdb/caict_ipv4.ipdb")
+    # db = City("../000LocalData/ipdb/caict_full.ipdb")
     print("ipdb.build.time:", db.build_time())
     print(db.find("223.255.207.197", "CN"))
     result_list = []

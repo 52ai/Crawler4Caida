@@ -905,4 +905,4 @@ if st.session_state.count > 0:
 
 
 else:
-    st.info("Please Login!")
+    st.info("请先点击首页下拉选择框，登录系统！")

@@ -38,4 +38,4 @@ if st.session_state.count > 0:
     choice = st.selectbox("请选择目标国家或地区：", menu)
 
 else:
-    st.info("Please Login!")
+    st.info("请先点击首页下拉选择框，登录系统！")

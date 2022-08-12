@@ -664,4 +664,4 @@ if st.session_state.count > 0:
         st.write("依托GIS地图系统以及全球IP端扫描数据（80/443端口），开展全球数据中心可视化实验研究")
 
 else:
-    st.info("Please Login!")
+    st.info("请先点击首页下拉选择框，登录系统！")

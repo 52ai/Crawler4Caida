@@ -402,6 +402,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\064IPDB\map_idc.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\064IPDB\map_idc_geo_result.csv">
           <value>
             <Attribute>
