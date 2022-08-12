@@ -661,6 +661,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\085ET-GIM\map_logical\asns_geo_all.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\085ET-GIM\map_policy\fcc_policy.csv">
           <value>
             <Attribute>

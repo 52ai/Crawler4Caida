@@ -49,7 +49,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["全球", "中国", "美国", "德国", "俄罗斯", "日本", "中国台湾"]
+    menu = ["中国", "美国", "德国", "俄罗斯", "日本", "中国台湾", "全球"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",

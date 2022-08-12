@@ -68,7 +68,6 @@ if st.session_state.count > 0:
     map_point_radius = st.sidebar.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
     map_point_color = st.sidebar.color_picker("地图节点颜色：", "#EC7E22")
     map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
-    is_single_cable_mode = st.sidebar.radio("请选择是否进入海缆Single模式:", (False, True))
     is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (True, False))
     is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
 
@@ -86,7 +85,7 @@ if st.session_state.count > 0:
         st.write("当前选择的绘图范围:", choice)
         st.write("当前选择的开放端口:", port_value)
         st.write("正在努力加载全球端口扫描数据...")
-        print(port_geo_file)
+        # print(port_geo_file)
         port_geo_list = []  # 存储端口的定位及相关信息
         except_info_cnt = 0  # 统计存在定位信息缺失的数据
         with open(port_geo_file, 'r', encoding="gbk") as f:
@@ -117,7 +116,7 @@ if st.session_state.count > 0:
                 except Exception as e:
                     except_info_cnt += 1
 
-        print(port_geo_list[0:3])
+        # print(port_geo_list[0:3])
 
         layer_scatter_ip = pdk.Layer(
             "ScatterplotLayer",
@@ -146,12 +145,12 @@ if st.session_state.count > 0:
             port_geo_list if is_hexagon_mode else [],
             get_position="coordinates",
             auto_highlight=True,
-            elevation_scale=100,
+            elevation_scale=1000,
             pickable=True,
-            elevation_range=[10, 3000],
+            elevation_range=[40, 1000],
             extruded=True,
             coverage=1,
-            radius=10, )
+            radius=100, )
 
         # Set the viewport location
         view_state = pdk.ViewState(
@@ -184,5 +183,6 @@ if st.session_state.count > 0:
     else:
         st.write("因应用层所需的全球端口扫描数据过于庞大，地图渲染时间相对比较长，故默认不做渲染。")
         st.write("请在左侧选择绘图范围，开始绘图！")
+        st.image("./image/dns53_map.PNG", caption="图例：全球DNS基础设施分布图（2022）")
 else:
     st.info("请先点击首页下拉选择框，登录系统！")
