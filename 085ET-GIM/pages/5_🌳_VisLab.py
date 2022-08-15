@@ -626,7 +626,7 @@ if st.session_state.count > 0:
         view_state = pdk.ViewState(
             longitude=0,
             latitude=9,
-            zoom=2,
+            zoom=1,
             min_zoom=2,
             max_zoom=22,
             pitch=0,

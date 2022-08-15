@@ -240,6 +240,6 @@ def ix_analysis(aim_country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    country = "CN"
+    country = "US"
     ix_analysis(country)
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

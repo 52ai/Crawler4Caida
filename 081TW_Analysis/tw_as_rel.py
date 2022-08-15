@@ -101,7 +101,7 @@ def as_analysis(aim_country):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
 
-    for path_item in file_path[-10:-9]:
+    for path_item in file_path[-1:]:
         print(f"- - - - - - - {aim_country}国家网络地图统计报告（网络连接）- - - - - -  - - ")
         print("0.数据统计源：", path_item)
 
@@ -218,7 +218,7 @@ def as_analysis(aim_country):
         external_country_list.sort(reverse=True, key=lambda elem: int(elem[2]))
         print(f"6.TOP 10 国际直联国家或地区（按照直联网络数量排名）:")
         direct_rel_country_result = []
-        for item in external_country_list:
+        for item in external_country_list[0:11]:
             continent = country2group[str(item[0])][3]
             country_name = country2group[str(item[0])][5]
             is_belt_and_road = country2group[str(item[0])][7]
@@ -248,6 +248,6 @@ def as_analysis(aim_country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    country = "CN"
+    country = "JP"
     as_analysis(country)
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

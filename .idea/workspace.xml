@@ -29,24 +29,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/map_logical/20220701.as-rel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/085ET-GIM/map_logical/asns_geo_all.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/composer_fly_150.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/go_fly_150.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/ruby_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/gexf_to_ngraph.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_CN.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_CN_new.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_DE.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_DE_new.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_Global.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_Global_new.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_JP.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_JP_new.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_RU.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_RU_new.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_TW.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_US.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_US_new.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/cn/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/de/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/jp/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/059See/bar_figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/059See/bar_figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/059See/ixp-view.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_ix.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_ix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/cache/wordcloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/cache/wordcloud.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/2__物理层地图（Physical Facilities）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌲_物理层地图（Physical Facilities）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/2__物理层地图（Physical Facilities）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌲_物理层地图（Physical Facilities）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -117,7 +136,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/085ET-GIM/map_logical" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/086LearnNodeJs/pm/images" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -130,11 +149,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_logical" />
-      <recent name="D:\Code\Crawler4Caida\064IPDB" />
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM\pages" />
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_physical" />
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM\report" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\images" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\cn" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\us" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
@@ -144,7 +163,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\data_global" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.map_dns_53">
+  <component name="RunManager" selected="Python.generate_gexf_global_as_pm">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +180,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="4_🎄_应用层地图（Application）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IXP-View" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,11 +188,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/085ET-GIM/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/059See" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/059See/IXP-View.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_gexf_global_as_pm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA/Gephi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="map_idc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tw_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,11 +251,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/064IPDB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/081TW_Analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/064IPDB/map_idc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="map_idc_443" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tw_ix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,32 +272,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/064IPDB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/081TW_Analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/064IPDB/map_idc_443.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="map_idc_80" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/064IPDB" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/064IPDB/map_idc_80.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/081TW_Analysis/tw_ix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,18 +287,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.map_dns_53" />
-      <item itemvalue="Python.map_idc" />
-      <item itemvalue="Python.map_idc_80" />
-      <item itemvalue="Python.map_idc_443" />
-      <item itemvalue="Python.4_🎄_应用层地图（Application）" />
+      <item itemvalue="Python.tw_ix" />
+      <item itemvalue="Python.IXP-View" />
+      <item itemvalue="Python.tw_as_rel" />
+      <item itemvalue="Python.generate_gexf_global_as_pm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_gexf_global_as_pm" />
+        <item itemvalue="Python.tw_as_rel" />
+        <item itemvalue="Python.tw_ix" />
+        <item itemvalue="Python.IXP-View" />
         <item itemvalue="Python.map_dns_53" />
-        <item itemvalue="Python.4_🎄_应用层地图（Application）" />
-        <item itemvalue="Python.map_idc_443" />
-        <item itemvalue="Python.map_idc_80" />
-        <item itemvalue="Python.map_idc" />
       </list>
     </recent_temporary>
   </component>

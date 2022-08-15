@@ -288,7 +288,7 @@ if st.session_state.count > 0:
             longitude=0,
             latitude=0,
             zoom=2,
-            min_zoom=2,
+            min_zoom=0,
             max_zoom=22,
             pitch=45,
             bearing=0)
@@ -406,7 +406,7 @@ if st.session_state.count > 0:
             longitude=0,
             latitude=0,
             zoom=2,
-            min_zoom=2,
+            min_zoom=1,
             max_zoom=22,
             pitch=45,
             bearing=0)

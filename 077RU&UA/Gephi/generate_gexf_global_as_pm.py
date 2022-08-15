@@ -21,7 +21,7 @@ import csv
 
 asns_file = "asns_geo_all.csv"
 as_rel_file = "20220301.as-rel.txt"
-global_as_gephi_file = "global_as_RU.gexf"
+global_as_gephi_file = "global_as_DE_new.gexf"
 
 
 def write_to_csv(res_list, des_path, title):
@@ -89,7 +89,7 @@ def generate_gephi_file():
             node_org = line[1].split(" - ")[-1]
             # node_label = node_label + "-" + node_name
             node_country = line[2]
-            if node_country != "RU":
+            if node_country != "DE":
                 continue
             long = line[3]
             lat = line[4]
