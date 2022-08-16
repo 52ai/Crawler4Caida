@@ -53,19 +53,6 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/059See/bar_figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/059See/bar_figure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/059See/ixp-view.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" beforeDir="false" afterPath="$PROJECT_DIR$/077RU&amp;UA/Gephi/generate_gexf_global_as_pm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/country_as_list.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/direct_rel_country_result.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/external_as_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/081TW_Analysis/tw_ix.py" beforeDir="false" afterPath="$PROJECT_DIR$/081TW_Analysis/tw_ix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/cache/wordcloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/cache/wordcloud.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/2__物理层地图（Physical Facilities）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌲_物理层地图（Physical Facilities）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/2__物理层地图（Physical Facilities）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌲_物理层地图（Physical Facilities）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
