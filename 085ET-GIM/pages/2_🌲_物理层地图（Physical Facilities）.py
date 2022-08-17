@@ -63,8 +63,8 @@ if st.session_state.count > 0:
     choice = st.sidebar.selectbox("请选择目标国家或地区：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
     map_point_radius = st.sidebar.number_input("地图节点大小：", value=2, min_value=0, max_value=10)
-    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#EC7E22")
-    map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
+    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#11EAD8")
+    map_line_width = st.sidebar.number_input("地图连边粗细：", value=3, min_value=0, max_value=10)
     is_single_cable_mode = st.sidebar.radio("请选择是否进入海缆Single模式:", (False, True))
     is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (False, True))
     is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
@@ -168,7 +168,7 @@ if st.session_state.count > 0:
             longitude=0,
             latitude=9,
             zoom=2,
-            min_zoom=2,
+            min_zoom=0,
             max_zoom=22,
             pitch=45,
             bearing=0)
