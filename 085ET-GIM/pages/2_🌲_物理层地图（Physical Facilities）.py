@@ -49,7 +49,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["中国", "美国", "德国", "俄罗斯", "日本", "中国台湾", "全球"]
+    menu = ["全球", "中国", "美国", "德国", "俄罗斯", "日本", "中国台湾"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -166,11 +166,11 @@ if st.session_state.count > 0:
         # Set the viewport location
         view_state = pdk.ViewState(
             longitude=0,
-            latitude=9,
+            latitude=23.26,
             zoom=2,
             min_zoom=0,
             max_zoom=22,
-            pitch=45,
+            pitch=0,
             bearing=0)
         # Combined all of it and render a viewport
         r = pdk.Deck(map_style=map_style,
@@ -178,7 +178,7 @@ if st.session_state.count > 0:
                      initial_view_state=view_state,
                      tooltip={
                          # 'html': '<b>Elevation Value:</b> {elevationValue}',
-                         'text': '{name}',
+                         'text': '名称：{name}\n地理坐标:{coordinates}',
                          'style': {
                              'color': 'white'
                          },

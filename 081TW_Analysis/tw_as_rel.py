@@ -109,6 +109,7 @@ def as_analysis(aim_country):
         aim_country_as = {}  # 存储目标国家的as网络
         internal_rel_cnt = 0  # 统计该国内部网络互联关系数量
         external_as_list = []  # 存储该国对外连接的网络关系数量及网络数量
+        global_as_list = []  # 存储全球自治域网络数量
 
         file_read = open(path_item, 'r', encoding='utf-8')
         for line in file_read.readlines():
@@ -122,6 +123,14 @@ def as_analysis(aim_country):
                 right_as = str(line.strip().split('|')[1])
                 right_as_country = as2country[right_as]
                 right_as_org = as2org[right_as]
+
+                global_as_list.append(left_as)
+                global_as_list.append(right_as)
+
+                # if left_as not in global_as_list:
+                #     global_as_list.append(left_as)
+                # if right_as not in global_as_list:
+                #     global_as_list.append(right_as)
 
                 """
                 统计内部网络情况            
@@ -156,7 +165,7 @@ def as_analysis(aim_country):
             except Exception as e:
                 except_info.append(e)
 
-        print(f"1.{aim_country}活跃自治域网络数量：", len(aim_country_as.keys()))
+        print(f"1.{aim_country}活跃自治域网络数量：", len(aim_country_as.keys()), ", 全球自治域网络数量:", len(set(global_as_list)))
         country_as_info_list = []  # 存储目标国家详细的AS列表信息
         for key in aim_country_as.keys():
             # print(key, aim_country_as[key])
@@ -248,6 +257,6 @@ def as_analysis(aim_country):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
-    country = "JP"
+    country = "CN"
     as_analysis(country)
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

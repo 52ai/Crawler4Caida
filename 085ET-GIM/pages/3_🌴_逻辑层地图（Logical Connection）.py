@@ -210,7 +210,7 @@ if st.session_state.count > 0:
         zoom=3,
         min_zoom=1,
         max_zoom=22,
-        pitch=45,
+        pitch=0,
         bearing=0)
     # Combined all of it and render a viewport
     r = pdk.Deck(map_style=map_style,
