@@ -111,7 +111,7 @@ def rib_analysis(rib_file):
             print(v4_prefix)
             continue
 
-        if cn_isp not in ["4134", "9808", "4837"]:
+        if cn_isp not in ["9808"]:
             continue
 
         all_prefix_num += 1
@@ -177,13 +177,14 @@ def rib_analysis(rib_file):
         # print(temp_line)
         temp_line_simple = ["as"+cn_isp, "as"+origin_as, origin_as_country, v4_num,
                             "P"+str((len(country_path_deal) - 1)),
-                            country_path_deal]
+                            country_path_deal,
+                            as_path]
 
         cn2global_result.append(temp_line)
         cn2global_result_simple.append(temp_line_simple)
 
     print("国内节点采集路由条目总数：", all_prefix_num)
-    save_file = "../000LocalData/as_cn/cn2global_result_simple_AS4134.csv"
+    save_file = "../000LocalData/as_cn/cn2global_result_simple_AS9808.csv"
     write_to_csv(cn2global_result_simple, save_file)
     return cn2global_result
 
