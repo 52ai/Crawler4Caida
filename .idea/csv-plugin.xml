@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\ASWhois\asns_geo_all_copy.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\BGPlay\as_graph_3d_edges_all.csv">
           <value>
             <Attribute>
