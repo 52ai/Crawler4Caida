@@ -50,7 +50,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["中国", "美国", "德国", "俄罗斯", "日本", "全球"]
+    menu = ["美国", "中国", "德国", "俄罗斯", "日本", "全球"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -67,6 +67,7 @@ if st.session_state.count > 0:
                    "4713"]  # 存储需要分析的as列表
 
     st.sidebar.markdown(" ")
+
     choice = st.sidebar.selectbox("请选择目标国家或地区：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
     map_point_radius = st.sidebar.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
@@ -128,6 +129,28 @@ if st.session_state.count > 0:
                 del temp_dic
             else:
                 except_info_list.append(line[0])
+    # print(as_geo_list[0:4])
+    search_list = [item['name']+","+item['source'] for item in as_geo_list]
+    # print(search_list[0:4])
+    search_all_list = ["默认"]
+    search_all_list.extend(search_list)
+
+    search_value = st.selectbox("请选择目标自治域网络:", search_all_list)
+    print(search_value)
+    """
+    根据选择的目标自治域网络，生成单个节点的图层绘制数据
+    """
+    search_as_geo_list = []
+    view_longitude = -100
+    view_latitude = 39
+    view_zoom = 3
+
+    for item in as_geo_list:
+        if search_value == (item['name']+","+item['source']):
+            search_as_geo_list.append(item)
+            view_longitude = item['coordinates'][0]
+            view_latitude = item['coordinates'][1]
+    # print(search_as_geo_list)
 
     # 生成互联关系数据
     rel_geo_list = []  # 存储互联关系对
@@ -170,6 +193,22 @@ if st.session_state.count > 0:
         get_fill_color=hex_to_rgb(map_point_color),
         get_line_color=[0, 0, 0])
 
+    layer_scatter_as_search = pdk.Layer(
+        "ScatterplotLayer",
+        search_as_geo_list,
+        pickable=True,  # 可选择
+        opacity=1,  # 透明度
+        stroked=True,  # 绘制点的轮廓
+        filled=True,  # 绘制点的填充区
+        radius_scale=6,  # 所有点的全局半径乘数
+        radius_min_pixels=4,  # 点半径的最小值
+        radius_max_pixels=100,  # 点半径的最大值
+        line_width_min_pixels=0.5,  # 线的最小的像素值
+        get_position="coordinates",  # 获取位置信息
+        # get_fill_color=[255, 140, 0],  # 填充的颜色
+        get_fill_color=hex_to_rgb('#F10F46'),
+        get_line_color=[0, 0, 0])
+
     layer_heatmap_as = pdk.Layer(
         "HeatmapLayer",
         as_geo_list if is_heatmap_mode else [],
@@ -204,17 +243,28 @@ if st.session_state.count > 0:
     )
 
     # Set the viewport location
-    view_state = pdk.ViewState(
-        longitude=116,
-        latitude=39,
-        zoom=3,
-        min_zoom=1,
-        max_zoom=22,
-        pitch=0,
-        bearing=0)
+    if search_value == "默认":
+        view_state = pdk.ViewState(
+            longitude=-100,
+            latitude=39,
+            zoom=3,
+            min_zoom=1,
+            max_zoom=22,
+            pitch=0,
+            bearing=0)
+    else:
+        view_state = pdk.ViewState(
+            longitude=view_longitude,
+            latitude=view_latitude,
+            zoom=view_zoom,
+            min_zoom=1,
+            max_zoom=22,
+            pitch=0,
+            bearing=0)
+
     # Combined all of it and render a viewport
     r = pdk.Deck(map_style=map_style,
-                 layers=[layer_heatmap_as, layer_scatter_as, layer_hexagon_as, layer_circle_as],
+                 layers=[layer_heatmap_as, layer_scatter_as, layer_hexagon_as, layer_circle_as, layer_scatter_as_search],
                  initial_view_state=view_state,
                  tooltip={
                      # 'html': '<b>Elevation Value:</b> {elevationValue}',
