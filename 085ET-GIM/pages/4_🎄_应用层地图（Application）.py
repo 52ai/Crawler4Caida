@@ -116,7 +116,8 @@ if st.session_state.count > 0:
                 except Exception as e:
                     except_info_cnt += 1
 
-        # print(port_geo_list[0:3])
+        with open("port_geo_53.json", 'w') as f_obj:
+            json.dump(port_geo_list, f_obj)
 
         layer_scatter_ip = pdk.Layer(
             "ScatterplotLayer",
@@ -174,6 +175,8 @@ if st.session_state.count > 0:
                      }
                      )
         st.pydeck_chart(r)
+        r.to_html("Global_demo.html")
+
         st.write("全球扫描出的开放端口数量:", all_line)
         st.write("当前绘图范围的节点数量:", current_area_cnt)
         st.write("实际绘图节点数量（排除多IP重合定位，降低GIS地图渲染负载）:", len(port_geo_list))

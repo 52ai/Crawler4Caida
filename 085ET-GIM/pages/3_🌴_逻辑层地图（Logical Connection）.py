@@ -275,6 +275,7 @@ if st.session_state.count > 0:
                  }
                  )
     st.pydeck_chart(r)
+    r.to_html("us_as_demo.html")
 
     st.write("已收集全球自治域网络画像数量:", all_line)
     st.write("已处理有效地理定位信息的数量", len(as_geo_list))

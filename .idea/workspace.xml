@@ -48,18 +48,21 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_TW.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_US.gexf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/global_as_US_new.gexf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/labels2OpenGalaxy.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/cn/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/de/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/jp/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/labels_demo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" afterDir="false" />
@@ -126,8 +129,8 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/089OpenGlaxy" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -139,11 +142,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\089OpenGlaxy" />
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\open-galaxy" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
       <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\images" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\cn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
@@ -153,7 +156,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\data_global" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_🌴_逻辑层地图（Logical Connection）">
+  <component name="RunManager" selected="Python.labels2OpenGalaxy">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_gexf_global_as_pm_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="labels2OpenGalaxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA/Gephi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi\generate_gexf_global_as_pm_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/labels2OpenGalaxy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,18 +280,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.tw_as_rel" />
-      <item itemvalue="Python.generate_gexf_global_as_pm_v2" />
       <item itemvalue="Python.generate_gexf_global_as_pm_v2 (1)" />
       <item itemvalue="Python.cn2global" />
       <item itemvalue="Python.3_🌴_逻辑层地图（Logical Connection）" />
+      <item itemvalue="Python.labels2OpenGalaxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.labels2OpenGalaxy" />
         <item itemvalue="Python.3_🌴_逻辑层地图（Logical Connection）" />
         <item itemvalue="Python.cn2global" />
         <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.generate_gexf_global_as_pm_v2 (1)" />
-        <item itemvalue="Python.generate_gexf_global_as_pm_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +353,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/053PaddlePaddle/PaddleDetection/PaddleDetection" />
       <path value="$PROJECT_DIR$/086LearnNodeJs/graph-start-main/dist" />
+      <path value="$PROJECT_DIR$/089OpenGlaxy/open-galaxy" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
