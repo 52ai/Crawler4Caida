@@ -55,14 +55,13 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/labels_demo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/Global_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/Global_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" afterDir="false" />
@@ -85,7 +84,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/086LearnNodeJs/pm" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
