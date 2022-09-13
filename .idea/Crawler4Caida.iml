@@ -6,6 +6,11 @@
       <excludeFolder url="file://$MODULE_DIR$/013Countries_ASNs/data" />
       <excludeFolder url="file://$MODULE_DIR$/026Labelme/build" />
       <excludeFolder url="file://$MODULE_DIR$/000LocalData" />
+      <excludeFolder url="file://$MODULE_DIR$/086LearnNodeJs/allcomposer/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/086LearnNodeJs/graph-start/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/086LearnNodeJs/graph-start/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/086LearnNodeJs/pm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/086LearnNodeJs/pm/node_modules" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

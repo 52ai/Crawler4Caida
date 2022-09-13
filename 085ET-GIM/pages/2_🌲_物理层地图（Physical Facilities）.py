@@ -118,6 +118,8 @@ if st.session_state.count > 0:
 
                     del cl_dic_temp  # 销毁该字典
 
+        print(cable_line_map_all[0:3])
+
         layer_scatter_lp = pdk.Layer(
             "ScatterplotLayer",
             landing_point_map,

@@ -3,6 +3,7 @@ import streamlit as st
 import time
 import numpy as np
 import json
+import random
 
 from st_card import st_card
 import pydeck as pdk
@@ -60,7 +61,7 @@ if st.session_state.count > 0:
                       "dark_no_labels",
                       "light_no_labels",
                       ]
-    aim_as_list = ["4134", "4837", "9808",
+    aim_as_list = ["默认", "4134", "4837", "9808",
                    "6939", "7018", "15169",
                    "12389",
                    "3320",
@@ -70,14 +71,6 @@ if st.session_state.count > 0:
 
     choice = st.sidebar.selectbox("请选择目标国家或地区：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
-    map_point_radius = st.sidebar.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
-    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#DEC512")
-    map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
-    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (True, False))
-    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
-    is_circle_mode = st.sidebar.radio("选择是否开启GreateCircle模式：", (False, True))
-    aim_as_value = st.sidebar.selectbox("请选择需要目标自治域网络:", aim_as_list)
-
 
     def hex_to_rgb(h):
         h = h.lstrip("#")
@@ -101,12 +94,10 @@ if st.session_state.count > 0:
                   "俄罗斯": "RU",
                   "日本": "JP"}
 
-    st.write("深度整合开源GIS地图系统，在全球互联网络拓扑研究基础上，绘制全球各国逻辑层地图")
-    st.write("地图绘制时间:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
-    st.write("当前选择的绘图范围:", choice)
     as_geo_list = []  # 存储全球as地理定位数据
     except_info_list = []  # 统计存在地理定位缺失的数据
     area_as_geo_dic = {}  # 存储as的经纬度
+    global_as_geo_dic = {}  # 存储全球as经纬度
     with open(asns_geo_file, 'r', encoding="utf-8") as f:
         all_line = 0  # 存储自治域网络画像数量
         current_area_cnt = 0  # 统计当前绘图范围的节点数量
@@ -127,6 +118,7 @@ if st.session_state.count > 0:
                     current_area_cnt += 1
                     area_as_geo_dic[line[0]] = [long, lat]
                 del temp_dic
+                global_as_geo_dic[line[0]] = [long, lat]  # 存储全球as geo 信息，给路由导航使用
             else:
                 except_info_list.append(line[0])
     # print(as_geo_list[0:4])
@@ -135,16 +127,28 @@ if st.session_state.count > 0:
     search_all_list = ["默认"]
     search_all_list.extend(search_list)
 
-    search_value = st.selectbox("请选择目标自治域网络:", search_all_list)
+    with st.expander("全球网络逻辑层地图绘制（更多参数设置）", False):
+        is_route_mode = st.radio("选择是否开启路由导航模式:", (False, True))
+        from_as_value = st.selectbox("选择出发网络(FROM-AS):", ["4134", "4837", "9808"])
+        to_as_value = st.selectbox("选择到达网络(TO-AS):", ["27064", "15169", "3356", "7018", "2516", "9605", "397942"])
+
+        map_point_radius = st.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
+        map_point_color = st.color_picker("地图节点颜色：", "#DEC512")
+        map_line_width = st.number_input("地图连边粗细：", value=4, min_value=0, max_value=10)
+        is_heatmap_mode = st.radio("选择是否开启热力图模式:", (True, False))
+        is_hexagon_mode = st.radio("选择是否开启Hexagon模式：", (False, True))
+        is_circle_mode = st.radio("选择是否开启GreateCircle模式：", (False, True))
+        aim_as_value = st.selectbox("请选择需要目标自治域网络:", aim_as_list)
+
+    search_value = st.sidebar.selectbox("请选择目标自治域网络:", search_all_list)
     print(search_value)
-    """
-    根据选择的目标自治域网络，生成单个节点的图层绘制数据
-    """
+
     search_as_geo_list = []
     view_longitude = -100
     view_latitude = 39
     view_zoom = 3
 
+    # 获取目标自治域网络的经纬度信息
     for item in as_geo_list:
         if search_value == (item['name']+","+item['source']):
             search_as_geo_list.append(item)
@@ -176,6 +180,59 @@ if st.session_state.count > 0:
                     rel_geo_list.append(temp_dic)
                     rel_area_draw += 1
                     del temp_dic
+
+    # 生成路由导航数据（根据FROM-AS以及TO-AS的值，匹配路由表中的多路径，然后根据路径最短原则，选择最优路由）
+    # 若已开启了路由导航模式，则处理AS PATH数据
+    as_line_map = []  # 存储as line数据
+    if is_route_mode:
+        rib_file = "./data/z20220320.txt"
+        rib_as_path_list = []  # 存储路由表中有效的as path
+        with open(rib_file, 'r', encoding='utf-8') as f:
+            for line in f.readlines():
+                line = line.strip().split("|")
+                as_path = line[-2].split(" ")
+                last_as = as_path[-1]
+                if as_path[-1].find("{") != -1:
+                    last_as = as_path[-1].strip("{").strip("}").split(",")[0]
+                first_as = as_path[0]
+                if last_as == to_as_value and first_as == from_as_value:
+                    # print("FROM:", first_as, "TO:", last_as, "\nAS PATH:", as_path)
+                    if as_path not in rib_as_path_list:
+                        rib_as_path_list.append(as_path)
+        print("有效路径:", len(rib_as_path_list), rib_as_path_list)
+
+        # 根据有效路径，生成地图绘制的路线图数据
+        path_id = 1  # 存储路径的编号
+        item_dict = {}
+        for line in rib_as_path_list:
+            item_dict_temp = item_dict.copy()
+            item_dict_temp["id"] = path_id
+            item_dict_temp["name"] = "第" + str(path_id) + "条路:" + str(line)
+            # 随机生成颜色数组
+            color_list = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+            item_dict_temp["color"] = color_list
+            path = []  # 存储线段的经纬度信息
+            for as_item in line:
+                as_geo = global_as_geo_dic[as_item]
+                path.append(as_geo)
+            item_dict_temp["path"] = path
+            as_line_map.append(item_dict_temp)
+            del item_dict_temp
+            path_id += 1  # 路径的编号自增1
+
+        print(as_line_map)
+
+    cols0, cols1, cols2, cols3, cols4 = st.columns([1, 1, 1, 1, 1])
+    with cols0:
+        st_card('All ASN', value=all_line, unit='', show_progress=False)
+    with cols1:
+        st_card('Deal Geo ASN', value=len(as_geo_list), unit='', show_progress=False)
+    with cols2:
+        st_card('Draw ASN', value=current_area_cnt, unit='', show_progress=False)
+    with cols3:
+        st_card('All REL Info', value=rel_all_cnt, unit='', show_progress=False)
+    with cols4:
+        st_card('Draw REL', value=rel_area_draw, unit='', show_progress=False)
 
     layer_scatter_as = pdk.Layer(
         "ScatterplotLayer",
@@ -242,6 +299,17 @@ if st.session_state.count > 0:
         auto_highlight=True,
     )
 
+    layer_path_route = pdk.Layer(
+        type="PathLayer",
+        data=as_line_map if is_route_mode else [],
+        pickable=True,
+        get_color="color",
+        width_scale=20,
+        width_min_pixels=map_line_width,
+        get_path="path",
+        get_width=5,
+    )
+
     # Set the viewport location
     if search_value == "默认":
         view_state = pdk.ViewState(
@@ -264,7 +332,12 @@ if st.session_state.count > 0:
 
     # Combined all of it and render a viewport
     r = pdk.Deck(map_style=map_style,
-                 layers=[layer_heatmap_as, layer_scatter_as, layer_hexagon_as, layer_circle_as, layer_scatter_as_search],
+                 layers=[layer_heatmap_as,
+                         layer_scatter_as,
+                         layer_hexagon_as,
+                         layer_circle_as,
+                         layer_scatter_as_search,
+                         layer_path_route],
                  initial_view_state=view_state,
                  tooltip={
                      # 'html': '<b>Elevation Value:</b> {elevationValue}',
@@ -277,14 +350,17 @@ if st.session_state.count > 0:
     st.pydeck_chart(r)
     r.to_html("us_as_demo.html")
 
-    st.write("已收集全球自治域网络画像数量:", all_line)
-    st.write("已处理有效地理定位信息的数量", len(as_geo_list))
-    with st.expander("详细列表", False):
-        st.json(as_geo_list)
-    st.write("当前绘图范围实际节点数量（约等于已分配ASN数量）:", current_area_cnt)
-    st.write("已收集全球自治域互联关系数量:", rel_all_cnt)
-    st.write("当前绘图有效网络互联关系数量:", rel_area_draw)
+    st.write("深度整合开源GIS地图系统，在全球互联网络拓扑研究基础上，绘制全球各国逻辑层地图")
+    st.write("地图绘制时间:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
+    st.write("当前选择的绘图范围:", choice)
 
+    # st.write("已收集全球自治域网络画像数量:", all_line)
+    # st.write("已处理有效地理定位信息的数量", len(as_geo_list))
+    # # with st.expander("详细列表", False):
+    # #     st.json(as_geo_list)
+    # st.write("当前绘图范围实际节点数量（约等于已分配ASN数量）:", current_area_cnt)
+    # st.write("已收集全球自治域互联关系数量:", rel_all_cnt)
+    # st.write("当前绘图有效网络互联关系数量:", rel_area_draw)
 
 else:
     st.info("请先点击首页下拉选择框，登录系统！")
