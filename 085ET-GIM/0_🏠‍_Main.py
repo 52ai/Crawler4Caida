@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="ET-GIM",
     page_icon="world_map",
     layout="centered",
-    initial_sidebar_state="auto"
+    initial_sidebar_state="auto",
 )
 
 

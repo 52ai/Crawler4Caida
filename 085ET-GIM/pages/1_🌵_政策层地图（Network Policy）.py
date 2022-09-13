@@ -42,8 +42,7 @@ with st.sidebar:
     st.sidebar.markdown(
         """
         <small> ET-GIM 0.1.0 | Jane 2022 </small>  
-        [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=25 height=25>](https://github.com/52ai) 
-        [<img src='http://www.mryu.top/content/templates/start/images/weibo.png' class='img-fluid' width=25 height=25>](http://weibo.com/billcode) 
+        <small> Driven By PYTHON </small>
          """,
         unsafe_allow_html=True,
     )
@@ -444,10 +443,6 @@ if st.session_state.count > 0:
                 browser.close()
         except Exception as e_site_fail:
             print("站点链接抓取失败，", e_site_fail)
-
-
-
-
 
 else:
     st.info("请先点击首页下拉选择框，登录系统！")

@@ -41,8 +41,7 @@ with st.sidebar:
     st.sidebar.markdown(
         """
         <small> ET-GIM 0.1.0 | Jane 2022 </small>  
-        [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=25 height=25>](https://github.com/52ai) 
-        [<img src='http://www.mryu.top/content/templates/start/images/weibo.png' class='img-fluid' width=25 height=25>](http://weibo.com/billcode) 
+        <small> Driven By PYTHON </small>
          """,
         unsafe_allow_html=True,
     )
@@ -62,12 +61,14 @@ if st.session_state.count > 0:
     st.sidebar.markdown(" ")
     choice = st.sidebar.selectbox("请选择目标国家或地区：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
-    map_point_radius = st.sidebar.number_input("地图节点大小：", value=2, min_value=0, max_value=10)
-    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#11EAD8")
-    map_line_width = st.sidebar.number_input("地图连边粗细：", value=3, min_value=0, max_value=10)
-    is_single_cable_mode = st.sidebar.radio("请选择是否进入海缆Single模式:", (False, True))
-    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (False, True))
-    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
+
+    with st.expander("全球网络物理层地图绘制（更多参数设置）", False):
+        map_point_radius = st.number_input("地图节点大小：", value=2, min_value=0, max_value=10)
+        map_point_color = st.color_picker("地图节点颜色：", "#11EAD8")
+        map_line_width = st.number_input("地图连边粗细：", value=3, min_value=0, max_value=10)
+        is_single_cable_mode = st.radio("请选择是否进入海缆Single模式:", (False, True))
+        is_heatmap_mode = st.radio("选择是否开启热力图模式:", (False, True))
+        is_hexagon_mode = st.radio("选择是否开启Hexagon模式：", (False, True))
 
     def hex_to_rgb(h):
         h = h.lstrip("#")
@@ -86,9 +87,7 @@ if st.session_state.count > 0:
                 cable_list.append(cl_dic["name"])
         cable_list.sort(reverse=False)
 
-        single_cable_name = st.selectbox("请选择或搜索需要了解的海缆（需开启Single模式）:", cable_list)
-        st.markdown("深度整合开源GIS地图系统，构建全球各国物理层地图绘制（Submarine Cables Map）")
-        st.write("地图绘制时间：", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
+        single_cable_name = st.sidebar.selectbox("请搜索目标海缆（需开启Single模式）:", cable_list)
 
         landing_point_map = []  # 存储海缆登陆站字典列表
         with open(landing_point, 'r', encoding='utf-8') as landing_point_f:
@@ -119,6 +118,11 @@ if st.session_state.count > 0:
                     del cl_dic_temp  # 销毁该字典
 
         print(cable_line_map_all[0:3])
+        cols0, cols1, clos2, clos3, cols4 = st.columns([1, 1, 1, 1, 1])
+        with cols0:
+            st_card('全球海底光缆', value=len(cable_line_map), unit='条', show_progress=False)
+        with cols1:
+            st_card('全球海缆登陆站', value=len(landing_point_map), unit='个', show_progress=False)
 
         layer_scatter_lp = pdk.Layer(
             "ScatterplotLayer",
@@ -187,13 +191,17 @@ if st.session_state.count > 0:
                      }
                      )
         st.pydeck_chart(r)
-        st.write("全球海底光缆数量：", len(cable_line_map))
-        with st.expander("详细列表", False):
-            st.json(cable_line_map)
 
-        st.write("全球海缆登陆站数量：", len(landing_point_map))
-        with st.expander("详细列表", False):
-            st.json(landing_point_map)
+        st.markdown("深度整合开源GIS地图系统，构建全球各国物理层地图绘制（Submarine Cables Map）")
+        st.write("地图绘制时间：", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
+
+        # st.write("全球海底光缆数量：", len(cable_line_map))
+        # with st.expander("详细列表", False):
+        #     st.json(cable_line_map)
+
+        # st.write("全球海缆登陆站数量：", len(landing_point_map))
+        # with st.expander("详细列表", False):
+        #     st.json(landing_point_map)
         # st.write("全球海底光缆多路径绘图统计（条）:", len(cable_line_map_all))
 
     elif choice == "中国":

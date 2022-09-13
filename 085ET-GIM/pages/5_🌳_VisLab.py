@@ -43,8 +43,7 @@ with st.sidebar:
     st.sidebar.markdown(
         """
         <small> ET-GIM 0.1.0 | Jane 2022 </small>  
-        [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=25 height=25>](https://github.com/52ai) 
-        [<img src='http://www.mryu.top/content/templates/start/images/weibo.png' class='img-fluid' width=25 height=25>](http://weibo.com/billcode) 
+        <small> Driven By PYTHON </small>
          """,
         unsafe_allow_html=True,
     )
@@ -64,11 +63,12 @@ if st.session_state.count > 0:
     st.sidebar.markdown(" ")
     choice = st.sidebar.selectbox("请选择可视化实验案例：", menu)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
-    map_point_radius = st.sidebar.number_input("地图节点大小：", value=3, min_value=0, max_value=10)
-    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#EC7E22")
-    map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
-    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (True, False))
-    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
+    with st.expander("VisLab地图绘制（更多参数设置）", False):
+        map_point_radius = st.number_input("地图节点大小：", value=3, min_value=0, max_value=10)
+        map_point_color = st.color_picker("地图节点颜色：", "#EC7E22")
+        map_line_width = st.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
+        is_heatmap_mode = st.radio("选择是否开启热力图模式:", (True, False))
+        is_hexagon_mode = st.radio("选择是否开启Hexagon模式：", (False, True))
 
     def hex_to_rgb(h):
         h = h.lstrip("#")

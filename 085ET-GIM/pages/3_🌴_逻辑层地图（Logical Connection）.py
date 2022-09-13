@@ -43,9 +43,8 @@ with st.sidebar:
     st.sidebar.markdown(
         """
         <small> ET-GIM 0.1.0 | Jane 2022 </small>  
-        [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=25 height=25>](https://github.com/52ai) 
-        [<img src='http://www.mryu.top/content/templates/start/images/weibo.png' class='img-fluid' width=25 height=25>](http://weibo.com/billcode) 
-         """,
+        <small> Driven By PYTHON </small>
+        """,
         unsafe_allow_html=True,
     )
 
@@ -128,20 +127,23 @@ if st.session_state.count > 0:
     search_all_list.extend(search_list)
 
     with st.expander("全球网络逻辑层地图绘制（更多参数设置）", False):
-        is_route_mode = st.radio("选择是否开启路由导航模式:", (False, True))
-        from_as_value = st.selectbox("选择出发网络(FROM-AS):", ["4134", "4837", "9808"])
-        to_as_value = st.selectbox("选择到达网络(TO-AS):", ["27064", "15169", "3356", "7018", "2516", "9605", "397942"])
-
         map_point_radius = st.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
         map_point_color = st.color_picker("地图节点颜色：", "#DEC512")
         map_line_width = st.number_input("地图连边粗细：", value=4, min_value=0, max_value=10)
         is_heatmap_mode = st.radio("选择是否开启热力图模式:", (True, False))
         is_hexagon_mode = st.radio("选择是否开启Hexagon模式：", (False, True))
         is_circle_mode = st.radio("选择是否开启GreateCircle模式：", (False, True))
-        aim_as_value = st.selectbox("请选择需要目标自治域网络:", aim_as_list)
+        aim_as_value = st.selectbox("请选择需要绘制GreateCircle的目标自治域网络:", aim_as_list)
 
-    search_value = st.sidebar.selectbox("请选择目标自治域网络:", search_all_list)
+    search_value = st.sidebar.selectbox("请搜索目标自治域网络:", search_all_list)
     print(search_value)
+    cols0, cols1, cols2 = st.sidebar.columns([1, 1, 1])
+    with cols0:
+        is_route_mode = st.radio("选择是否开启路由导航模式:", (False, True))
+    with cols1:
+        from_as_value = st.selectbox("选择出发网络(FROM-AS):", ["4134", "4837", "9808"])
+    with cols2:
+        to_as_value = st.selectbox("选择到达网络(TO-AS):", ["27064", "15169", "3356", "7018", "2516", "9605", "397942"])
 
     search_as_geo_list = []
     view_longitude = -100
@@ -154,6 +156,7 @@ if st.session_state.count > 0:
             search_as_geo_list.append(item)
             view_longitude = item['coordinates'][0]
             view_latitude = item['coordinates'][1]
+
     # print(search_as_geo_list)
 
     # 生成互联关系数据
@@ -208,8 +211,10 @@ if st.session_state.count > 0:
             item_dict_temp = item_dict.copy()
             item_dict_temp["id"] = path_id
             item_dict_temp["name"] = "第" + str(path_id) + "条路:" + str(line)
+            item_dict_temp["path_length"] = len(line)
             # 随机生成颜色数组
-            color_list = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+            # color_list = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+            color_list = (34, 139, 34)
             item_dict_temp["color"] = color_list
             path = []  # 存储线段的经纬度信息
             for as_item in line:
@@ -221,6 +226,16 @@ if st.session_state.count > 0:
             path_id += 1  # 路径的编号自增1
 
         print(as_line_map)
+        # 根据路径最短优先原则，取最优路径
+        as_line_map_best = []
+        best_id = 0
+        shortest_path = 10  # 设置最长路径为10
+        for item_id in range(0, len(as_line_map)):
+            print(item_id)
+            if as_line_map[item_id]["path_length"] < shortest_path:
+                best_id = item_id
+        as_line_map_best.append(as_line_map[best_id])
+        print(as_line_map_best)
 
     cols0, cols1, cols2, cols3, cols4 = st.columns([1, 1, 1, 1, 1])
     with cols0:
@@ -301,7 +316,7 @@ if st.session_state.count > 0:
 
     layer_path_route = pdk.Layer(
         type="PathLayer",
-        data=as_line_map if is_route_mode else [],
+        data=as_line_map_best if is_route_mode else [],
         pickable=True,
         get_color="color",
         width_scale=20,

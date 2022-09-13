@@ -42,8 +42,7 @@ with st.sidebar:
     st.sidebar.markdown(
         """
         <small> ET-GIM 0.1.0 | Jane 2022 </small>  
-        [<img src='http://www.mryu.top/content/templates/start/images/github.png' class='img-fluid' width=25 height=25>](https://github.com/52ai) 
-        [<img src='http://www.mryu.top/content/templates/start/images/weibo.png' class='img-fluid' width=25 height=25>](http://weibo.com/billcode) 
+        <small> Driven By PYTHON </small>
          """,
         unsafe_allow_html=True,
     )
@@ -65,11 +64,12 @@ if st.session_state.count > 0:
     choice = st.sidebar.selectbox("请选择目标国家或地区：", menu)
     port_value = st.sidebar.selectbox("请选择开放端口:", port_list)
     map_style = st.sidebar.selectbox("地图样式：", map_style_list)
-    map_point_radius = st.sidebar.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
-    map_point_color = st.sidebar.color_picker("地图节点颜色：", "#EC7E22")
-    map_line_width = st.sidebar.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
-    is_heatmap_mode = st.sidebar.radio("选择是否开启热力图模式:", (True, False))
-    is_hexagon_mode = st.sidebar.radio("选择是否开启Hexagon模式：", (False, True))
+    with st.expander("全球网络应用层地图绘制（更多参数设置）", False):
+        map_point_radius = st.number_input("地图节点大小：", value=1, min_value=0, max_value=10)
+        map_point_color = st.color_picker("地图节点颜色：", "#EC7E22")
+        map_line_width = st.number_input("地图连边粗细：", value=2, min_value=0, max_value=10)
+        is_heatmap_mode = st.radio("选择是否开启热力图模式:", (True, False))
+        is_hexagon_mode = st.radio("选择是否开启Hexagon模式：", (False, True))
 
     def hex_to_rgb(h):
         h = h.lstrip("#")
@@ -78,7 +78,6 @@ if st.session_state.count > 0:
     port_geo_file = "../000LocalData/IPPorts/map_" + port_value + ".csv"
     # port_geo_file = "../000LocalData/IPPorts/map_53.csv"
 
-    st.write("深度整合开源GIS地图系统，依托全球开放端口扫描数据，绘制全球各国应用层地图")
     if choice != "默认":
         st.write("地图绘制时间:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
 
@@ -115,6 +114,7 @@ if st.session_state.count > 0:
                         del temp_dic
                 except Exception as e:
                     except_info_cnt += 1
+
 
         with open("port_geo_53.json", 'w') as f_obj:
             json.dump(port_geo_list, f_obj)
@@ -180,12 +180,13 @@ if st.session_state.count > 0:
         st.write("全球扫描出的开放端口数量:", all_line)
         st.write("当前绘图范围的节点数量:", current_area_cnt)
         st.write("实际绘图节点数量（排除多IP重合定位，降低GIS地图渲染负载）:", len(port_geo_list))
-        with st.expander("详细列表", False):
-            st.json(port_geo_list)
+        # with st.expander("详细列表", False):
+        #     st.json(port_geo_list)
         st.write("缺失地理位置信息的节点数量", except_info_cnt)
     else:
+        st.image("./image/dns53_map.PNG", caption="图例：全球DNS基础设施分布图（2022）")
+        st.write("深度整合开源GIS地图系统，依托全球开放端口扫描数据，绘制全球各国应用层地图")
         st.write("因应用层所需的全球端口扫描数据过于庞大，地图渲染时间相对比较长，故默认不做渲染。")
         st.write("请在左侧选择绘图范围，开始绘图！")
-        st.image("./image/dns53_map.PNG", caption="图例：全球DNS基础设施分布图（2022）")
 else:
     st.info("请先点击首页下拉选择框，登录系统！")
