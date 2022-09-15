@@ -33,7 +33,7 @@ footer {visibility:hidden;}
 st.markdown(sys_menu, unsafe_allow_html=True)
 
 if 'count' not in st.session_state:
-    st.session_state.count = 0
+    st.session_state.count = 1
     st.session_state.user = "Guest"
 
 # 给侧边栏添加APP版本信息
@@ -114,7 +114,6 @@ if st.session_state.count > 0:
                         del temp_dic
                 except Exception as e:
                     except_info_cnt += 1
-
 
         with open("port_geo_53.json", 'w') as f_obj:
             json.dump(port_geo_list, f_obj)

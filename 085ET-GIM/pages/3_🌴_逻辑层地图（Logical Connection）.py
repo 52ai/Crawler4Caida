@@ -34,7 +34,7 @@ footer {visibility:hidden;}
 st.markdown(sys_menu, unsafe_allow_html=True)
 
 if 'count' not in st.session_state:
-    st.session_state.count = 0
+    st.session_state.count = 1
     st.session_state.user = "Guest"
 
 # 给侧边栏添加APP版本信息
@@ -148,7 +148,7 @@ if st.session_state.count > 0:
     search_as_geo_list = []
     view_longitude = -100
     view_latitude = 39
-    view_zoom = 3
+    view_zoom = 16
 
     # 获取目标自治域网络的经纬度信息
     for item in as_geo_list:
@@ -156,8 +156,12 @@ if st.session_state.count > 0:
             search_as_geo_list.append(item)
             view_longitude = item['coordinates'][0]
             view_latitude = item['coordinates'][1]
+        item_as = item['name'].split(",")[0].strip("AS")
+        # print(item_as)
+        # if item_as in
 
-    # print(search_as_geo_list)
+
+    print(search_as_geo_list)
 
     # 生成互联关系数据
     rel_geo_list = []  # 存储互联关系对
@@ -187,6 +191,7 @@ if st.session_state.count > 0:
     # 生成路由导航数据（根据FROM-AS以及TO-AS的值，匹配路由表中的多路径，然后根据路径最短原则，选择最优路由）
     # 若已开启了路由导航模式，则处理AS PATH数据
     as_line_map = []  # 存储as line数据
+    as_line_map_best = []  # 存储最优路径数据
     if is_route_mode:
         rib_file = "./data/z20220320.txt"
         rib_as_path_list = []  # 存储路由表中有效的as path
@@ -210,7 +215,7 @@ if st.session_state.count > 0:
         for line in rib_as_path_list:
             item_dict_temp = item_dict.copy()
             item_dict_temp["id"] = path_id
-            item_dict_temp["name"] = "第" + str(path_id) + "条路:" + str(line)
+            item_dict_temp["name"] = str(line)
             item_dict_temp["path_length"] = len(line)
             # 随机生成颜色数组
             # color_list = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
@@ -227,7 +232,6 @@ if st.session_state.count > 0:
 
         print(as_line_map)
         # 根据路径最短优先原则，取最优路径
-        as_line_map_best = []
         best_id = 0
         shortest_path = 10  # 设置最长路径为10
         for item_id in range(0, len(as_line_map)):
@@ -251,7 +255,7 @@ if st.session_state.count > 0:
 
     layer_scatter_as = pdk.Layer(
         "ScatterplotLayer",
-        as_geo_list,
+        as_geo_list if search_value == "默认" else [],
         pickable=True,  # 可选择
         opacity=0.8,  # 透明度
         stroked=True,  # 绘制点的轮廓
@@ -283,7 +287,7 @@ if st.session_state.count > 0:
 
     layer_heatmap_as = pdk.Layer(
         "HeatmapLayer",
-        as_geo_list if is_heatmap_mode else [],
+        as_geo_list if is_heatmap_mode and search_value == "默认" else [],
         opacity=0.9,
         get_position="coordinates",
         # color_range=COLOR_BREWER_BLUE_SCALE,
@@ -291,7 +295,7 @@ if st.session_state.count > 0:
 
     layer_hexagon_as = pdk.Layer(
         'HexagonLayer',  # `type` positional argument is here, CPUGridLayer, HexagonLayer,GridLayer
-        as_geo_list if is_hexagon_mode else [],
+        as_geo_list if is_hexagon_mode and search_value == "默认" else [],
         get_position="coordinates",
         auto_highlight=True,
         elevation_scale=1000,
@@ -303,7 +307,7 @@ if st.session_state.count > 0:
 
     layer_circle_as = pdk.Layer(
         "GreatCircleLayer",
-        rel_geo_list if is_circle_mode else [],
+        rel_geo_list if is_circle_mode and search_value == "默认" else [],
         pickable=True,
         get_stroke_width=12,
         width_min_pixels=map_line_width,
@@ -365,9 +369,12 @@ if st.session_state.count > 0:
     st.pydeck_chart(r)
     r.to_html("us_as_demo.html")
 
-    st.write("深度整合开源GIS地图系统，在全球互联网络拓扑研究基础上，绘制全球各国逻辑层地图")
+    if is_route_mode:
+        st.write("已开启路由导航模式，当前最优路由为：", as_line_map_best[0]["name"])
+    # st.write("深度整合开源GIS地图系统，在全球互联网络拓扑研究基础上，绘制全球各国逻辑层地图")
     st.write("地图绘制时间:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
     st.write("当前选择的绘图范围:", choice)
+
 
     # st.write("已收集全球自治域网络画像数量:", all_line)
     # st.write("已处理有效地理定位信息的数量", len(as_geo_list))
