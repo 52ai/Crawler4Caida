@@ -30,6 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/nodejs/hello_nodejs.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/composer_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/go_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/ruby_fly_150.gif" afterDir="false" />
@@ -55,17 +56,15 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/1__政策层地图（Network Policy）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌵_政策层地图（Network Policy）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/1__政策层地图（Network Policy）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌵_政策层地图（Network Policy）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/2__物理层地图（Physical Facilities）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌲_物理层地图（Physical Facilities）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/2__物理层地图（Physical Facilities）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/2_🌲_物理层地图（Physical Facilities）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/3__逻辑层地图（Logical Connection）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/4__应用层地图（Application）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/4_🎄_应用层地图（Application）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" afterDir="false" />
@@ -89,7 +88,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/089OpenGalaxy/open-galaxy" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -134,7 +133,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/085ET-GIM/data" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">

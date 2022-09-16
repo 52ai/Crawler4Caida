@@ -3,5 +3,10 @@
     "ngraph.graph": "^20.0.0",
     "ngraph.pixel": "^2.4.1",
     "pixel.layout": "^0.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "webpack": "^5.74.0",
+    "wepack-cli": "^0.0.1-security"
   }
 }
