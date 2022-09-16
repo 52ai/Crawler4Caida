@@ -5,7 +5,7 @@
     "pixel.layout": "^0.1.2"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "webpack": "^5.74.0",
     "wepack-cli": "^0.0.1-security"
   }
