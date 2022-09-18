@@ -30,7 +30,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/nodejs/hello_nodejs.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/composer_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/go_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/ruby_fly_150.gif" afterDir="false" />
@@ -56,15 +55,10 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/config.js" afterDir="false" />
@@ -88,7 +82,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/089OpenGalaxy/open-galaxy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -107,10 +101,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/031CAICT-Display/country_Provider.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/035NetwrokSimulation/GlobalNet_Simulate_V2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/057IPv6UrlCrawler/gain_site_v3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/068IXVis/ix_rel_v2.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/031CAICT-Display/country_Provider.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/076Streamlit/demo_list.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
