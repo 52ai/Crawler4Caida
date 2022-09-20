@@ -216,3 +216,11 @@ ff.readFile("test.txt", 'utf-8', (err, data) => {
     console.log("Read Success!");
 })
 
+// Learn Basic JS
+
+function greetMe(yourName) {
+    console.log('hello ' + yourName);
+}
+greetMe('Wayne');
+console.log(typeof 123);
+console.log(Math.pow(2, 534));

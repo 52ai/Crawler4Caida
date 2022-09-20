@@ -160,7 +160,6 @@ if st.session_state.count > 0:
         # print(item_as)
         # if item_as in
 
-
     print(search_as_geo_list)
 
     # 生成互联关系数据
@@ -374,7 +373,6 @@ if st.session_state.count > 0:
     # st.write("深度整合开源GIS地图系统，在全球互联网络拓扑研究基础上，绘制全球各国逻辑层地图")
     st.write("地图绘制时间:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "\n")
     st.write("当前选择的绘图范围:", choice)
-
 
     # st.write("已收集全球自治域网络画像数量:", all_line)
     # st.write("已处理有效地理定位信息的数量", len(as_geo_list))
