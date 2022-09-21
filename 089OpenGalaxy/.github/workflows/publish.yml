@@ -1,0 +1,36 @@
+name: publish
+
+on:
+  push:
+    branches: [ master, nebula-hackathon ]
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  publish:
+    if: github.repository_owner == 'X-lab2017'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Setup node 14 env
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: build
+        run: |
+          npm install
+          npm run build
+
+      - name: Publish to oss
+        uses: tvrcgo/upload-to-oss@master
+        with:
+          key-id: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          key-secret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          region: ${{ secrets.OSS_REGION }}
+          bucket: ${{ secrets.OSS_BUCKET }}
+          assets: |
+            ./build/**:${{ secrets.OSS_TARGET_PATH }}

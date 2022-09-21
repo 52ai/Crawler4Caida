@@ -1,0 +1,52 @@
+@import "~bootstrap/less/bootstrap";
+@background: #000000;
+@foreground: #ffffff;
+@border-color: #808080;
+@font-size: 18px;
+@line-height: 1.4;
+@lines-to-show: 2;
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.cool-box {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.85);
+  border: 1px solid @border-color;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  z-index: 1;
+}
+
+.contributors-activity-evolution-box {
+  width: 660px;
+  height: 640px;
+  right: 16px;
+  bottom: 12px;
+  position: absolute;
+}
+
+.two-networks-box {
+  width: 660px;
+  height: 400px;
+  right: 16px;
+  top: 12px;
+  position: absolute;
+
+  .project-network-box {
+    width: 320px;
+    height: 380px;
+    left: 5px;
+    position: absolute;
+  }
+
+  .contributor-network-box {
+    width: 320px;
+    height: 380px;
+    right: 5px;
+    position: absolute;
+  }
+}

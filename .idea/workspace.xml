@@ -30,6 +30,52 @@
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/public/fonts/Roboto.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/public/fonts/Roboto0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/Keymap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/LoadingIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/SmallPreview.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/Tooltip.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/appState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/components/ImproveWindow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/components/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/components/Typeahead.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/ArrowCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/BoxCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/ColoredTextCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/LineCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/MSDFTextCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/PointCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/PolyLineCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/bus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/clickOutside.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createFirstInteractionListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createFuzzySearcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createPointerEventsHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createPressListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createSVGLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createSceneLayerManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createStreamingSVGRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createStreetView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/createSubgraphVisualizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/getComplimentaryColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/src/vars.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/map_of_reddit/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/086LearnNodeJs/nodejs/es6.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/composer_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/go_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/ruby_fly_150.gif" afterDir="false" />
@@ -55,6 +101,136 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/.github/hypertrons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/.github/workflows/pr_test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/.github/workflows/publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/RFC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/about/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/about/arch.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/dev-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/go_all_links_away.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/go_all_links_hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/go_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/go_image_all_links.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/go_some_links.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/open_galaxy_2d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/open_galaxy_3d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/images/pm_steering.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/public/locales/en-US.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/public/locales/zh-CN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/CompaniesScatter/CompaniesScatter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/CompaniesScatter/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/ContributorsGeoDistribution/ContributorsGeoDistribution.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/ContributorsGeoDistribution/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/ContributorsGeoDistribution/world-2020.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/GitHubScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/GitHubScreen.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/MonthlyActiveReposAndUsers/MonthlyActiveReposAndUsers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/MonthlyActiveReposAndUsers/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/ReposUsersTotal/ReposUsersTotal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/ReposUsersTotal/github-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/Template/Template.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/Template/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/TopActiveRepos/TopActiveRepos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/TopActiveRepos/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/TopLanguages/TopLanguages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/TopLanguages/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/UserActionsPie/UserActionsPie.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/UserActionsPie/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/GitHubScreen/UserActionsPie/base64Images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/ContributorNetwork/ContributorNetwork.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/DynamicBar/DynamicBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/DynamicBar/PlayButton/PlayButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/DynamicBar/PlayButton/PlayButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/ProjectNetwork/ProjectNetwork.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/RepoDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/RepoDetails.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/RepoDetails/RepoDetailsStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/actions_count.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Alibaba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Huawei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Meituan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Meta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Microsoft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Tencent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_logos/Xiaomi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/companies_scatter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/languages_count.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/repo_activities_top20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/repos_and_users_monthly_counts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/SODAComponents/temp_http_server/repos_and_users_total.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/destination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/about.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/galaxyPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/help.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/hoverInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/loadingIndicator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/locale/LocaleSelector.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/locale/LocaleSelector.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/native/appConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/native/getNearestIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/native/lineView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/native/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/native/sceneKeyboardBinding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/native/touchControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/noWebgl.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/nodeDetails/degreeWindowViewModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/nodeDetails/nodeDetailsStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/nodeDetails/nodeDetailsView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/nodeDetails/templates/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/nodeDetails/templates/default.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/runtime/around.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/runtime/clientRuntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/runtime/cls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/runtime/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/runtime/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/runtime/showLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/scene.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/search/SearchResultWindowViewModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/search/searchBoxModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/search/searchBoxView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/service/appEvents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/service/edgeFinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/service/eventMirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/service/graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/service/graphLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/service/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/steeringIndicator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/store/baseNodeViewModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/store/graphSepcific/graphSpecificInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/store/hover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/store/scene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/utils/formatNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/utils/key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/utils/resources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/windows/nodeInfoRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/windows/nodeListView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/windows/windowCollectionModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/windows/windowCollectionView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/galaxy/windows/windowTitle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/styles/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/styles/nodeDetails.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/styles/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/styles/steering.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/styles/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/src/welcome.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/webpack.local.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/089OpenGalaxy/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/090ThreeJS/hello_threejs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/090ThreeJS/js/three.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -65,6 +241,7 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/089OpenGalaxy/open-galaxy" beforeDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -76,8 +253,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -116,19 +293,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Crawler4Caida/034Python2CV/image2gif.py" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="TODO_SCOPE" value="All Places" />
-    <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/085ET-GIM/data" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "D:/Code/Crawler4Caida/086LearnNodeJs/map_of_reddit"
+  }
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Crawler4Caida" is-module-sdk="true">
@@ -139,11 +309,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\map_of_reddit" />
+      <recent name="D:\Code\Crawler4Caida\089OpenGalaxy" />
+      <recent name="D:\Code\Crawler4Caida\089OpenGalaxy\open-galaxy" />
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\data" />
       <recent name="D:\Code\Crawler4Caida\089OpenGlaxy" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\open-galaxy" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
-      <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />

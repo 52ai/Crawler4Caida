@@ -1,0 +1,22 @@
+[
+  { "name": "JavaScript", "value": 305977 },
+  { "name": "Python", "value": 175530 },
+  { "name": "HTML", "value": 159295 },
+  { "name": "Java", "value": 139651 },
+  { "name": "Ruby", "value": 87854 },
+  { "name": "TypeScript", "value": 85043 },
+  { "name": "C#", "value": 54307 },
+  { "name": "PHP", "value": 52885 },
+  { "name": "C++", "value": 47770 },
+  { "name": "CSS", "value": 46598 },
+  { "name": "Jupyter Notebook", "value": 31739 },
+  { "name": "Go", "value": 30110 },
+  { "name": "C", "value": 26182 },
+  { "name": "Vue", "value": 21943 },
+  { "name": "Shell", "value": 20482 },
+  { "name": "Kotlin", "value": 15763 },
+  { "name": "Swift", "value": 12960 },
+  { "name": "Dart", "value": 10553 },
+  { "name": "Rust", "value": 8201 },
+  { "name": "Others", "value": 88592 }
+]
