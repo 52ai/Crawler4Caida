@@ -16,6 +16,10 @@ from bokeh.plotting import figure
 import math
 import time
 
+import graphistry
+import streamlit.components.v1 as components
+import pandas
+
 import plotly.express as px
 
 
@@ -50,7 +54,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["3D-Building", "GlobalIXPMap", "GlobalIDCMap", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
+    menu = ["3D-Building", 'Graphistry', "GlobalIXPMap", "GlobalIDCMap", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -166,6 +170,26 @@ if st.session_state.count > 0:
         """)
 
         st.bokeh_chart(column(p, div), use_container_width=True)
+
+    elif choice == "Graphistry":
+        links = pandas.read_csv("./data/mgfb.csv")
+        links["label"] = links.value.map(lambda v: "#rel type: %d" % v)
+
+        # 登录
+        graphistry.register(api=3, username='ieeflsyu', password='go123456')
+        # 基础绑定
+        g_url = graphistry \
+            .bind(source="source", destination="target", edge_title="label") \
+            .edges(links) \
+            .plot(as_files=True, render=False)
+        print(g_url)
+        # g_url = "https://pnnl.github.io/HyperNetX/build/index.html"
+
+        components.iframe(
+            src=g_url,
+            height=800,
+            scrolling=True
+        )
 
     elif choice == "GeoMap":
         st.markdown("依托pydeck+mapbox开展，地图系统的研究")

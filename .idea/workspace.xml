@@ -55,9 +55,12 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/091Pygraphistry/tutorial/lesmiserables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/091Pygraphistry/tutorial/20220701.as-rel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/091Pygraphistry/tutorial/generate_graphistry_as_v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -67,6 +70,8 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/destination.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/091Pygraphistry/tutorial/lesmiserables.py" beforeDir="false" afterPath="$PROJECT_DIR$/091Pygraphistry/tutorial/lesmiserables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -121,8 +126,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "last_opened_file_path": "D:/Code/Crawler4Caida/086LearnNodeJs/map_of_reddit",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "D:/Code/Crawler4Caida/085ET-GIM/data",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
@@ -135,21 +140,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\085ET-GIM\data" />
+      <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
+      <recent name="D:\Code\Crawler4Caida\091Pygraphistry\tutorial" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\map_of_reddit" />
       <recent name="D:\Code\Crawler4Caida\089OpenGalaxy" />
-      <recent name="D:\Code\Crawler4Caida\089OpenGalaxy\open-galaxy" />
-      <recent name="D:\Code\Crawler4Caida\085ET-GIM\data" />
-      <recent name="D:\Code\Crawler4Caida\089OpenGlaxy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\091Pygraphistry\tutorial" />
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\pm-data-server\my-graph\version-RU" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\data" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm\own_graph\data_global" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lesmiserables">
+  <component name="RunManager" selected="Python.generate_graphistry_as_v1 (1)">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_🌴_逻辑层地图（Logical Connection）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5_🌳_VisLab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +204,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/085ET-GIM/pages/3_🌴_逻辑层地图（Logical Connection）.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="labels2OpenGalaxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generate_graphistry_as_v1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +221,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/091Pygraphistry/tutorial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/labels2OpenGalaxy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/091Pygraphistry/tutorial/generate_graphistry_as_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_graphistry_as_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA/Gephi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\091Pygraphistry\tutorial\generate_graphistry_as_v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,41 +276,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.5_🌳_VisLab" />
+      <item itemvalue="Python.generate_graphistry_as_v1" />
+      <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
       <item itemvalue="Python.lesmiserables" />
       <item itemvalue="Python.2_🌲_物理层地图（Physical Facilities）" />
-      <item itemvalue="Python.3_🌴_逻辑层地图（Logical Connection）" />
-      <item itemvalue="Python.labels2OpenGalaxy" />
-      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
+        <item itemvalue="Python.5_🌳_VisLab" />
         <item itemvalue="Python.lesmiserables" />
+        <item itemvalue="Python.generate_graphistry_as_v1" />
         <item itemvalue="Python.2_🌲_物理层地图（Physical Facilities）" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.labels2OpenGalaxy" />
-        <item itemvalue="Python.3_🌴_逻辑层地图（Logical Connection）" />
       </list>
     </recent_temporary>
   </component>
