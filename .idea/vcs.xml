@@ -4,6 +4,5 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/086LearnNodeJs/graph-start" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/086LearnNodeJs/pm" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/089OpenGalaxy/open-galaxy" vcs="Git" />
   </component>
 </project>
