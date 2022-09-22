@@ -689,6 +689,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\091Pygraphistry\tutorial\lesmiserables.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
