@@ -175,16 +175,16 @@ if st.session_state.count > 0:
         links = pandas.read_csv("./data/mgfb.csv")
         links["label"] = links.value.map(lambda v: "#rel type: %d" % v)
 
-        # 登录
-        graphistry.register(api=3, username='ieeflsyu', password='go123456')
-        # 基础绑定
-        g_url = graphistry \
-            .bind(source="source", destination="target", edge_title="label") \
-            .edges(links) \
-            .plot(as_files=True, render=False)
-        print(g_url)
+        # # 登录
+        # graphistry.register(api=3, username='ieeflsyu', password='go123456')
+        # # 基础绑定
+        # g_url = graphistry \
+        #     .bind(source="source", destination="target", edge_title="label") \
+        #     .edges(links) \
+        #     .plot(as_files=True, render=False)
+        # print(g_url)
         # g_url = "https://pnnl.github.io/HyperNetX/build/index.html"
-
+        g_url = "https://hub.graphistry.com/graph/graph.html?dataset=34b3caf404f44e8090764c247bed02cb&type=arrow&viztoken=15be"
         components.iframe(
             src=g_url,
             height=800,
