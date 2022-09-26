@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p ./build && cp ./src/index.html ./build/ && webpack -p --config webpack.production.config.js",
-    "start": "node dev-server.js"
+    "build": "webpack -p",
+    "start": "webpack-dev-server --progress --hot --open"
   },
   "repository": {
     "type": "git",

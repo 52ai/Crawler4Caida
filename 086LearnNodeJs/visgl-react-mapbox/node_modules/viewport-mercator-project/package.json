@@ -1,0 +1,27 @@
+{
+  "name": "viewport-mercator-project",
+  "description": "Utilities for perspective-enabled Web Mercator projections",
+  "author": "Uber Technologies, Inc.",
+  "license": "MIT",
+  "version": "7.0.4",
+  "keywords": [
+    "webgl",
+    "javascript",
+    "math",
+    "geospatial",
+    "cartographic",
+    "projection",
+    "web mercator",
+    "geographic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uber-web/math.gl.git"
+  },
+  "types": "index.d.ts",
+  "main": "index.js",
+  "module": "module.js",
+  "dependencies": {
+    "@math.gl/web-mercator": "^3.5.5"
+  }
+}
