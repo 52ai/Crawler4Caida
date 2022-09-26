@@ -75,3 +75,6 @@ for(var i = 0; i < 3; ++i) {
 }
 g.endUpdate(); // this triggers all listeners of 'changed' event
 
+var country = "AS2-UniversityofDelaware-US";
+console.log(country.toString().split('-')[2]);
+console.log(country.toString().split('-')[2] === "US");

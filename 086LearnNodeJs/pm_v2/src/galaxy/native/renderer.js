@@ -26,7 +26,7 @@ import appConfig from './appConfig.js';
 
 export default sceneRenderer;
 
-
+var nodeCommunity = [];
 //var highlightNodeColor = 0xff0000ff;
 var highlightNodeColor = 0x000080ff;
 
@@ -38,6 +38,7 @@ function sceneRenderer(container) {
   var queryUpdateId = setInterval(updateQuery, 200);
 
   appEvents.positionsDownloaded.on(setPositions);
+  appEvents.labelsDownloaded.on(setLabels);
   appEvents.linksDownloaded.on(setLinks);
   appEvents.toggleSteering.on(toggleSteering);
   appEvents.focusOnNode.on(focusOnNode);
@@ -48,19 +49,31 @@ function sceneRenderer(container) {
   appEvents.focusScene.on(focusScene);
   appEvents.cls.on(cls);
 
-  var colorMap = {
-    0: 0x00f7ffff,
-    1: 0x1a14ffff,
-    2: 0x6e30ffff,
-    3: 0x1189ffff,
-    4: 0xde38ffff,
-    5: 0xfff10cff,
-    6: 0xff3254ff,
-    7: 0x4dea00ff
-};
+  var communityColorMap = new Map();
+//  var colorMap = {
+//    0: 0x00f7ffff,
+//    1: 0x1a14ffff,
+//    2: 0x6e30ffff,
+//    3: 0x1189ffff,
+//    4: 0xde38ffff,
+//    5: 0xfff10cff,
+//    6: 0xff3254ff,
+//    7: 0x4dea00ff
+//};
 
-  //var defaultNodeColor = 0xffffffff;
-  var defaultNodeColor = colorMap[7];
+  var colorMap = new Map([
+    [0, 0x00f7ffff],
+    [1, 0x1a14ffff],
+    [2, 0x6e30ffff],
+    [3, 0x1189ffff],
+    [4, 0xde38ffff],
+    [5, 0xfff10cff],
+    [6, 0xff3254ff],
+    [7, 0x4dea00ff],
+  ]);
+
+  var defaultNodeColor = 0xffffffff;
+  //var defaultNodeColor = colorMap.get(7);
 
 
   appConfig.on('camera', moveCamera);
@@ -146,6 +159,33 @@ function sceneRenderer(container) {
     hitTest.on('dblclick', handleDblClick);
     hitTest.on('hitTestReady', adjustMovementSpeed);
   }
+
+  function getColor(c) {
+    return colorMap.has(c) ? colorMap.get(c) : defaultNodeColor;
+  }
+  // 染色
+  function setLabels(labels) {
+    if (!renderer) return;
+    // set color
+    var view = renderer.getParticleView();
+    var colors = view.colors();
+    nodeCommunity = [];  // 存储节点的社区分类
+    for (var i = 0; i < labels.length; i++) {
+      var country =  labels[i].toString().split('-')[2]
+      if (!communityColorMap.has(country)) {
+        //构建颜色表
+        // var c = getColor(8)
+       var c = getColor((i % 7))
+        communityColorMap.set(country, c);
+      }
+      //communityColorMap.set("US", getColor(7));
+      colorNode(i * 3, colors, communityColorMap.get(labels[i].toString().split('-')[2]));
+      nodeCommunity.push(labels[i].toString().split('-')[2]);
+    }
+    view.colors(colors);
+    // set sizes
+  }
+
 
   function adjustMovementSpeed(tree) {
     var input = renderer.input();
@@ -271,7 +311,7 @@ function sceneRenderer(container) {
     var sizes = view.sizes();
 
     if (lastHighlight !== undefined) {
-      colorNode(lastHighlight, colors, defaultNodeColor);
+      colorNode(lastHighlight, colors, communityColorMap.get(nodeCommunity[lastHighlight/3]));
       sizes[lastHighlight/3] = lastHighlightSize;
     }
 
