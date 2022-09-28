@@ -63,7 +63,8 @@ function renderLinks(scene, THREE) {
         var toZ = idxToPos[toIdx * 3 + 2];
 
         var dist = distance(fromX, fromY, fromZ, toX, toY, toZ);
-        if (maxVisibleDistance < dist) continue;
+        // 距离过长的边，不予显示
+        //if (maxVisibleDistance < dist) continue;
         jsPos.push(fromX, fromY, fromZ, toX, toY, toZ);
         jsColors.push(fromX / r + 0.5, fromY / r + 0.5, fromZ / r + 0.5, toX / r + 0.5, toY / r + 0.5, toZ / r + 0.5)
       }
@@ -76,9 +77,9 @@ function renderLinks(scene, THREE) {
     var material = new THREE.LineBasicMaterial({
       vertexColors: THREE.VertexColors,
       blending: THREE.AdditiveBlending,
-      opacity:0.4,
+      opacity:0.3,
       transparent: true,
-      linewidth: 0.4,
+      linewidth: 0.001,
     });
 
     geometry.addAttribute('position', new THREE.BufferAttribute(positions, 3));

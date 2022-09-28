@@ -61,15 +61,27 @@ function sceneRenderer(container) {
 //    7: 0x4dea00ff
 //};
 
+//  var colorMap = new Map([
+//    [0, 0x00f7ffff],// 青色
+//    [1, 0x1a14ffff],// 蓝色
+//    [2, 0x6e30ffff],// 蓝色
+//    [3, 0x1189ffff],// 蓝色
+//    [4, 0xde38ffff],// 紫色
+//    [5, 0xfff10cff],// 黄色
+//    [6, 0xff0000ff],// 粉红
+//    [7, 0x4dea00ff],// 绿色
+//  ]);
+
+
   var colorMap = new Map([
-    [0, 0x00f7ffff],
-    [1, 0x1a14ffff],
-    [2, 0x6e30ffff],
-    [3, 0x1189ffff],
-    [4, 0xde38ffff],
-    [5, 0xfff10cff],
-    [6, 0xff3254ff],
-    [7, 0x4dea00ff],
+    [0, 0x00f7ffff],// 青色
+    [1, 0x1a14ffff],// 蓝色
+    [2, 0x6e30ffff],// 蓝色
+    [3, 0x1189ffff],// 蓝色
+    [4, 0xde38ffff],// 紫色
+    [5, 0xfff10cff],// 黄色
+    [6, 0xff3254ff],// 红色
+    [7, 0x4dea00ff],// 绿色
   ]);
 
   var defaultNodeColor = 0xffffffff;
@@ -174,11 +186,13 @@ function sceneRenderer(container) {
       var country =  labels[i].toString().split('-')[2]
       if (!communityColorMap.has(country)) {
         //构建颜色表
-        // var c = getColor(8)
-       var c = getColor((i % 7))
+//        var c = getColor(8)
+        var c = getColor((i % 7))
         communityColorMap.set(country, c);
       }
-      //communityColorMap.set("US", getColor(7));
+//      communityColorMap.set("CN", getColor(6));
+//      communityColorMap.set("US", getColor(7));
+//      communityColorMap.set("RU", getColor(4));
       colorNode(i * 3, colors, communityColorMap.get(labels[i].toString().split('-')[2]));
       nodeCommunity.push(labels[i].toString().split('-')[2]);
     }
