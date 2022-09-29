@@ -65,6 +65,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 从眷15到眷7，站在这个新的起点，去寻找更广阔的世界。---20220829 By Wenyan YU<br>
 人的思维是集体的。---20220830 By Wenyan YU<br>
 回首向来萧瑟处，归去，也无风雨也无晴。---20220918 By Wenyan YU<br>
+付出不亚于任何人的努力，把人生中少数那么几件事情做到极致。---20220929 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
