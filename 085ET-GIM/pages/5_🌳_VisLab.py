@@ -54,7 +54,7 @@ with st.sidebar:
 
 
 if st.session_state.count > 0:
-    menu = ["3D-Building", 'Graphistry', "GlobalIXPMap", "GlobalIDCMap", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
+    menu = ["3D-Building", 'Graphistry', "3D-TOPO", "GlobalIXPMap", "GlobalIDCMap", "GeoMap", "ArcLayer", "Demo", "FlightsLine", "GlobeView", "3D星际巡航图", "星云图"]
     map_style_list = ["mapbox://styles/mapbox/dark-v10",
                       "mapbox://styles/mapbox/light-v10",
                       "mapbox://styles/mapbox/streets-v11",
@@ -185,6 +185,14 @@ if st.session_state.count > 0:
         # print(g_url)
         # g_url = "https://pnnl.github.io/HyperNetX/build/index.html"
         g_url = "https://hub.graphistry.com/graph/graph.html?dataset=34b3caf404f44e8090764c247bed02cb&type=arrow&viztoken=15be"
+        components.iframe(
+            src=g_url,
+            height=800,
+            scrolling=True
+        )
+
+    elif choice == "3D-TOPO":
+        g_url = "http://127.0.0.1:8989/#/galaxy/my-graph"
         components.iframe(
             src=g_url,
             height=800,
