@@ -270,11 +270,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.5_🌳_VisLab" />
-      <item itemvalue="Python.generate_graphistry_as_v1" />
       <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
+      <item itemvalue="Python.generate_graphistry_as_v1" />
       <item itemvalue="Python.lesmiserables" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
