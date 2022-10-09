@@ -186,7 +186,7 @@ function sceneRenderer(container) {
       var country =  labels[i].toString().split('-')[2]
       if (!communityColorMap.has(country)) {
         //构建颜色表
-//        var c = getColor(8)
+        //var c = getColor(8)
         var c = getColor((i % 7))
         communityColorMap.set(country, c);
       }
