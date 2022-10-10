@@ -192,7 +192,7 @@ if st.session_state.count > 0:
         )
 
     elif choice == "3D-TOPO":
-        g_url = "http://127.0.0.1:8989/#/galaxy/my-graph"
+        g_url = "http://127.0.0.1:8989/#/galaxy/my-graph?cx=-465&cy=0&cz=424&lx=0.0102&ly=-0.6171&lz=0.0080&lw=0.7867&ml=150&s=1.75&l=0&v=v2022_plus"
         components.iframe(
             src=g_url,
             height=800,

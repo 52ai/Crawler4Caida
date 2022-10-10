@@ -66,7 +66,9 @@ if st.session_state.count > 0:
             st.write("URL:", page_url)
             domain_name = urlparse(page_url).netloc.strip("www.")
             site_str = domain_name.replace(".", "")
-            save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            # save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            save_path = "./cache/" + site_str + "202209.png"
+
             if not os.access(save_path, os.F_OK):
                 # 判断今天是否已经截图了
                 browser = p.firefox.launch(headless=headless_radio)
@@ -83,7 +85,8 @@ if st.session_state.count > 0:
             st.write("URL:", page_url)
             domain_name = urlparse(page_url).netloc.strip("www.")
             site_str = domain_name.replace(".", "")
-            save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            # save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            save_path = "./cache/" + site_str + "202209.png"
             if not os.access(save_path, os.F_OK):
                 # 判断今天是否已经截图了
                 page.goto(page_url)
@@ -98,7 +101,8 @@ if st.session_state.count > 0:
             st.write("URL:", page_url)
             domain_name = urlparse(page_url).netloc.strip("www.")
             site_str = domain_name.replace(".", "")
-            save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            # save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            save_path = "./cache/" + site_str + "202209.png"
             if not os.access(save_path, os.F_OK):
                 # 判断今天是否已经截图了
                 page.goto(page_url)
@@ -113,7 +117,8 @@ if st.session_state.count > 0:
             st.write("URL:", page_url)
             domain_name = urlparse(page_url).netloc.strip("www.")
             site_str = domain_name.replace(".", "")
-            save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            # save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            save_path = "./cache/" + site_str + "202209.png"
             if not os.access(save_path, os.F_OK):
                 # 判断今天是否已经截图了
                 page.goto(page_url)
@@ -128,7 +133,8 @@ if st.session_state.count > 0:
             st.write("URL:", page_url)
             domain_name = urlparse(page_url).netloc.strip("www.")
             site_str = domain_name.replace(".", "")
-            save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            # save_path = "./cache/" + site_str + time.strftime(time_format, time.localtime()) + ".png"
+            save_path = "./cache/" + site_str + "202209.png"
             if not os.access(save_path, os.F_OK):
                 # 判断今天是否已经截图了
                 page.goto(page_url)

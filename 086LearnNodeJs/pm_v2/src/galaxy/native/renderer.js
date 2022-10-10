@@ -233,9 +233,9 @@ function sceneRenderer(container) {
     for (var i = 0; i < sizes.length; ++i) {
       var degree = inLinks[i];
       if (degree) {
-        sizes[i] = ((200 / maxInDegree) * degree.length + 10);
+        sizes[i] = ((200 / maxInDegree) * degree.length + 1);
       } else {
-        sizes[i] = 10;
+        sizes[i] = 0;
       }
     }
     view.sizes(sizes);

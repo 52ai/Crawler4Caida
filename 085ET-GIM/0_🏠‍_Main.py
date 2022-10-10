@@ -10,6 +10,7 @@ Function:
 """
 import streamlit as st
 import pymysql
+import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="ET-GIM",
@@ -17,7 +18,6 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="auto",
 )
-
 
 # 去除streamlit的原生标记
 sys_menu = '''
@@ -98,7 +98,6 @@ if choice == "首页":
     # st.image("./image/fore_cn_2020_gao(1).png", caption="中国自治域网络互联地图(2020)")
     # st.image("./image/fore_cjk_2020_gao.png", caption="中日韩网络互联关系地图")
     st.image("./image/canvas2019_top200.png", caption="全球TOP200网络互联关系地图")
-
     st.write("# Welcome to ET-GIM! 😁")
     st.markdown(
         """
