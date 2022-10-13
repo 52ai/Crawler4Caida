@@ -56,10 +56,6 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/1__政策层地图（Network Policy）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌵_政策层地图（Network Policy）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/1__政策层地图（Network Policy）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌵_政策层地图（Network Policy）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/5__VisLab.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -70,8 +66,6 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/lineView.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/lineView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/renderer.js" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
