@@ -164,6 +164,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\015BGPAnalysis\active_as_AR.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\active_as_DE.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\active_as_US_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\015BGPAnalysis\active_as_cn.csv">
           <value>
             <Attribute>

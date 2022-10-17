@@ -29,6 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_us.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/composer_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/go_fly_150.gif" afterDir="false" />
@@ -55,6 +56,17 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/0_‍_Main.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/0_🏠‍_Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -65,6 +77,8 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/lineView.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/lineView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm_v2/src/galaxy/native/renderer.js" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -116,13 +130,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/086LearnNodeJs/pm_v2/src/galaxy&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "D:/Code/Crawler4Caida/015BGPAnalysis",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Crawler4Caida" is-module-sdk="true">
@@ -133,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\src\galaxy" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\own_graph\pm-data-server\my-graph\test_pm" />
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs" />
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\data" />
-      <recent name="D:\Code\Crawler4Caida\077RU&amp;UA\Gephi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\src" />
@@ -147,7 +161,7 @@
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.active_as_us">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,7 +178,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="5_🌳_VisLab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="active_as" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +186,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/085ET-GIM/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/085ET-GIM/pages/5_🌳_VisLab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/active_as.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="active_as_cn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="active_as_us" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015BGPAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015BGPAnalysis/active_as_us.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,48 +254,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/091Pygraphistry/tutorial/generate_graphistry_as_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="generate_graphistry_as_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/077RU&amp;UA/Gephi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\Crawler4Caida\091Pygraphistry\tutorial\generate_graphistry_as_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lesmiserables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/091Pygraphistry/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/091Pygraphistry/tutorial/lesmiserables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,19 +284,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.5_🌳_VisLab" />
+      <item itemvalue="Python.active_as" />
+      <item itemvalue="Python.active_as_cn" />
+      <item itemvalue="Python.active_as_us" />
       <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
-      <item itemvalue="Python.generate_graphistry_as_v1" />
-      <item itemvalue="Python.lesmiserables" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.active_as_us" />
+        <item itemvalue="Python.active_as" />
+        <item itemvalue="Python.active_as_cn" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
-        <item itemvalue="Python.5_🌳_VisLab" />
-        <item itemvalue="Python.lesmiserables" />
-        <item itemvalue="Python.generate_graphistry_as_v1" />
       </list>
     </recent_temporary>
   </component>

@@ -151,7 +151,7 @@ if __name__ == "__main__":
     temp_list = []
     x_list = []
     y_list = []
-    for path_item in file_path[-60:]:
+    for path_item in file_path[-120:]:
         # print(analysis(path_item))
         x_date, y_cnt = analysis(path_item)
         temp_list.append(x_date)
