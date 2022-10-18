@@ -178,7 +178,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\015BGPAnalysis\active_as_RU_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\active_as_TW_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\active_as_UA_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\015BGPAnalysis\active_as_US_rate.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\active_as_VN_rate.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

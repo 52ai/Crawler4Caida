@@ -12,7 +12,7 @@ import matplotlib.ticker as ticker
 import time
 import csv
 
-country = "US"
+country = "IN"
 
 
 def write_to_csv(res_list, des_path):
@@ -153,7 +153,7 @@ if __name__ == "__main__":
     temp_list = []
     x_list = []
     y_list = []
-    for path_item in file_path[-120:]:
+    for path_item in file_path[-240:]:
         # print(analysis(path_item))
         x_date, y_cnt = analysis(path_item)
         temp_list.append(x_date)
