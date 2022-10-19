@@ -55,21 +55,9 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_DE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_DE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_FR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_FR.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_GB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_GB.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_IN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_IN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_JP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_JP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_RU.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_RU.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_US.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_US.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_US.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_US.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_US_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_US_rate.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_cn_rate.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015BGPAnalysis/active_as_us.py" beforeDir="false" afterPath="$PROJECT_DIR$/015BGPAnalysis/active_as_us.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/059See/IXP-View.py" beforeDir="false" afterPath="$PROJECT_DIR$/059See/IXP-View.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/059See/bar_figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/059See/bar_figure.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -162,7 +150,7 @@
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.active_as_us">
+  <component name="RunManager" selected="Python.IXP-View">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +166,27 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="IXP-View" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/059See" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/059See/IXP-View.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="active_as" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
@@ -242,27 +251,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_graphistry_as_v1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/091Pygraphistry/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/091Pygraphistry/tutorial/generate_graphistry_as_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,19 +273,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.IXP-View" />
       <item itemvalue="Python.active_as" />
       <item itemvalue="Python.active_as_cn" />
       <item itemvalue="Python.active_as_us" />
-      <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IXP-View" />
         <item itemvalue="Python.active_as_us" />
         <item itemvalue="Python.active_as" />
         <item itemvalue="Python.active_as_cn" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.generate_graphistry_as_v1 (1)" />
       </list>
     </recent_temporary>
   </component>

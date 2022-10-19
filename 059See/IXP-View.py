@@ -545,6 +545,8 @@ def generate_global_ixp_report(doc_file_path):
 
 if __name__ == "__main__":
     time_start = time.time()
-    generate_global_ixp_report(r'./ixp-view.docx')
+    time_format = "%Y%m%d"
+    time_str = time.strftime(time_format, time.localtime())
+    generate_global_ixp_report(fr'./ixp-view{time_str}.docx')
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
