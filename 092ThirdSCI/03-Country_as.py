@@ -53,10 +53,11 @@ def gain_as2country_caida():
     return as2country
 
 
-def analysis(open_file):
+def analysis(open_file, country):
     """
     对数据进行处理
     :param open_file:
+    :param country:
     :return:
     """
     as2country = gain_as2country_caida()  # 获取每个AS的country信息
@@ -142,7 +143,8 @@ def draw(x_list_in, y_list_in, save_name_in):
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country = "CN"
+    country_str = "UA"
+
     active_as = []  # 记录活跃的as号
     file_path = []
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
@@ -154,7 +156,7 @@ if __name__ == "__main__":
     y_list = []
     for path_item in file_path:
         # print(analysis(path_item))
-        x_date, y_cnt = analysis(path_item)
+        x_date, y_cnt = analysis(path_item, country_str)
         temp_list.append(x_date)
         x_list.append(x_date)
         temp_list.append(y_cnt)
@@ -167,18 +169,18 @@ if __name__ == "__main__":
     自动化处理，同比增长率
     """
     active_as_rate = []
-    for i in range(len(active_as)):
+    for i_index in range(len(active_as)):
         # print(i)
-        date_string = active_as[i][0]
-        asn_count = active_as[i][1]
-        if i >= 12:
-            asn_rate = round((active_as[i][1]-active_as[i-12][1])/active_as[i-12][1], 3)
+        date_string = active_as[i_index][0]
+        asn_count = active_as[i_index][1]
+        if i_index >= 12:
+            asn_rate = round((active_as[i_index][1]-active_as[i_index-12][1])/active_as[i_index-12][1], 3)
             active_as_rate.append([date_string, asn_count, asn_rate])
-    save_path = f"../000LocalData/Paper_Data_Third/03_active_as_{country}.csv"
+    save_path = f"../000LocalData/Paper_Data_Third/03_active_as_{country_str}.csv"
     write_to_csv(active_as, save_path)
-    draw(x_list, y_list, f"active_as_{country}")
+    draw(x_list, y_list, f"active_as_{country_str}")
     # print(active_as_rate)
-    save_path = f"../000LocalData/Paper_Data_Third/03_active_as_{country}_rate.csv"
+    save_path = f"../000LocalData/Paper_Data_Third/03_active_as_{country_str}_rate.csv"
     write_to_csv(active_as_rate, save_path)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

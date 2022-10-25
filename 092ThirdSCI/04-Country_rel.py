@@ -1,22 +1,17 @@
 # coding:utf-8
 """
-create on May 1, 2020 by Wayne Yu
-Function: 对全球BGP数据进行分析
+create on Oct 25, 2022 By Wayne YU
+Function:
 
-读取全球BGP关系数据，分析其互联方式的占比（peer or transit）
+从国家维度，分析其BGP网络生态，本程序主要从网络互联关系出发
+包含:
+rel_cnt, transit_cnt, peer_cnt
+inner_rel_cnt, inner_transit_cnt, inner_peer_cnt
+outer_rel_cnt, outer_transit_cnt, outer_peer_cnt
 
-Edition:
-
-为了地图基础课题第一篇论文输出，重新绘图，使得排版更加美观
-绘制的时间修改为19980101-20191201
-
-v2: 20221025
-
-服务于ThirdSCI论文的撰写，绘制时间19980101-20221001
-
+统计从19980101至20221001
 
 """
-
 import os
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
@@ -61,10 +56,11 @@ def gain_as2country_caida():
     return as2country
 
 
-def analysis(open_file):
+def analysis(open_file, country):
     """
     对数据进行分析处理
     :param open_file:
+    :param country:
     :return:
     """
     as2country = gain_as2country_caida()  # 获取每个AS的country信息
@@ -79,7 +75,6 @@ def analysis(open_file):
     for line in file_read.readlines():
         if line.strip().find("#") == 0:
             continue
-
         as0 = line.strip().split('|')[0]
         as1 = line.strip().split('|')[1]
         rel_type = line.strip().split('|')[2]
@@ -96,32 +91,32 @@ def analysis(open_file):
         except Exception as e:
             except_info.append(e)
 
-        if rel_type == '0':
-            peer_cnt += 1
-        if rel_type == '-1':
-            transit_cnt += 1
-        edge_cnt += 1
+        if as0_country == country or as1_country == country:
+            if rel_type == '0':
+                peer_cnt += 1
+            if rel_type == '-1':
+                transit_cnt += 1
+            edge_cnt += 1
 
-        if as0_country == as1_country:
-            inner_rel_cnt += 1
-        else:
-            outer_rel_cnt += 1
-
+            if as0_country == country and as1_country == country:
+                inner_rel_cnt += 1
+            else:
+                outer_rel_cnt += 1
     res = [date_str, edge_cnt, peer_cnt, transit_cnt, inner_rel_cnt, outer_rel_cnt]
     print(res)
-
     return res
 
 
-def draw(data_list):
+def draw(data_list, country):
     """
     对传入的数据进行绘图
     :param data_list:
+    :param country:
     :return:
     """
     # print(data_list)
     # 存储绘图数据
-    save_path_data_list = "../000LocalData/Paper_Data_Third/02_draw_rel.csv"
+    save_path_data_list = f"../000LocalData/Paper_Data_Third/04_draw_rel_{country}.csv"
     write_to_csv(data_list, save_path_data_list)
 
     # dt = 1
@@ -157,7 +152,7 @@ def draw(data_list):
                    'size': 36
                    }
     tick_spacing = 12
-    # ax.set_title("全球互联网BGP互联趋势分析(19980101-20221001)", font)
+    # ax.set_title("BGP互联趋势分析(19980101-20221001)", font)
     ax.plot(draw_date, edge_list, ls='-', marker='.', label='All interconnected relationships')
     ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='Inner relationships')
     ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='Outer relationships')
@@ -169,22 +164,22 @@ def draw(data_list):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_path_fig = "..\\000LocalData\\Paper_Data_Third\\02_draw_rel_en.svg"
+    save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\04_draw_rel_en_{country}.svg"
     plt.savefig(save_path_fig, dpi=600)
     # plt.show()
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
+    country_str = "TW"
+
     file_path = []
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
         for file_item in files:
-            # print(os.path.join(root, file_item))
             file_path.append(os.path.join(root, file_item))
-    # print(file_path)
     result_list = []
     for path_item in file_path:
-        result_list.append(analysis(path_item))
-    draw(result_list)
+        result_list.append(analysis(path_item, country_str))
+    draw(result_list, country_str)
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")
