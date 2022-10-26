@@ -164,7 +164,7 @@ def draw(data_list, country):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\04_draw_rel_en_{country}.svg"
+    save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\04_draw_rel_en_{country}.png"
     plt.savefig(save_path_fig, dpi=600)
     # plt.show()
 
