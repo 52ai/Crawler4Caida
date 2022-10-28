@@ -187,6 +187,7 @@ if __name__ == "__main__":
                 country_as_cnt_dict[key] = [len(list(set(country_as_dict_out[key])))]
             else:
                 country_as_cnt_dict[key].append(len(list(set(country_as_dict_out[key]))))
+
     """
     将country_as_cnt_dict，转换为list，便于存储
     """
