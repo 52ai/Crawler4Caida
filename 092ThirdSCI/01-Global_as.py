@@ -107,7 +107,7 @@ def draw(x_list_in, y_list_in, save_name_in):
     #                'weight': 'normal',
     #                'size': 28
     #                }
-    tick_spacing = 12
+    tick_spacing = 14
     # title_string = "全球互联网网络数量增长趋势（19980101-20191201） "
     # ax.set_title(title_string, font)
     ax.plot(x_list_in, y_list_in, ls='-')
@@ -117,7 +117,7 @@ def draw(x_list_in, y_list_in, save_name_in):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_fig_name = "../000LocalData/Paper_Data_Third/01_" + save_name_in + "_en.svg"
+    save_fig_name = "../000LocalData/Paper_Data_Third/01_" + save_name_in + "_en.png"
     plt.savefig(save_fig_name, dpi=600)
     # plt.show()
 

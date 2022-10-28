@@ -156,7 +156,7 @@ def draw(data_list):
                    'weight': 'normal',
                    'size': 36
                    }
-    tick_spacing = 12
+    tick_spacing = 14
     # ax.set_title("全球互联网BGP互联趋势分析(19980101-20221001)", font)
     ax.plot(draw_date, edge_list, ls='-', marker='.', label='All interconnected relationships')
     ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='Inner relationships')
@@ -169,7 +169,7 @@ def draw(data_list):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_path_fig = "..\\000LocalData\\Paper_Data_Third\\02_draw_rel_en.svg"
+    save_path_fig = "..\\000LocalData\\Paper_Data_Third\\02_draw_rel_en.png"
     plt.savefig(save_path_fig, dpi=600)
     # plt.show()
 

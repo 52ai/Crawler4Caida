@@ -103,12 +103,13 @@ def analysis(open_file, country):
     return date_str, len(as_list)
 
 
-def draw(x_list_in, y_list_in, save_name_in):
+def draw(x_list_in, y_list_in, save_name_in, title_str):
     """
     对传入的数据进行绘图
     :param x_list_in:
     :param y_list_in:
     :param save_name_in:
+    :param title_str:
     :return:
     """
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
@@ -128,7 +129,7 @@ def draw(x_list_in, y_list_in, save_name_in):
     #                }
     tick_spacing = 12
     # title_string = "网络数量增长趋势（19980101-20191201） "
-    # ax.set_title(title_string, font)
+    ax.set_title(title_str, font)
     ax.plot(x_list_in, y_list_in, ls='-')
     ax.set_xlabel('Time of estimation', font)
     ax.set_ylabel('Number of networks', font)
@@ -136,51 +137,52 @@ def draw(x_list_in, y_list_in, save_name_in):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_fig_name = "../000LocalData/Paper_Data_Third/03_" + save_name_in + "_en.svg"
+    save_fig_name = "../000LocalData/Paper_Data_Third/03_Country_as/03_" + save_name_in + "_en.png"
     plt.savefig(save_fig_name, dpi=600)
     # plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country_str = "UA"
 
-    active_as = []  # 记录活跃的as号
-    file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
-        for file_item in files:
-            file_path.append(os.path.join(root, file_item))
-    # print(file_path)
-    temp_list = []
-    x_list = []
-    y_list = []
-    for path_item in file_path:
-        # print(analysis(path_item))
-        x_date, y_cnt = analysis(path_item, country_str)
-        temp_list.append(x_date)
-        x_list.append(x_date)
-        temp_list.append(y_cnt)
-        y_list.append(y_cnt)
-        active_as.append(temp_list)
-        # print(temp_list)
+    # country_list = ["CN", "US", "JP", "DE", "GB",
+    #                 "IN", "FR", "IT", "CA", "KR",
+    #                 "RU", "BR", "AU", "ES", "MX",
+    #                 "ID", "NL", "SA", "TR", "CH",
+    #                 "PL", "SE", "BE", "TH", "IE",
+    #                 "AR", "NO", "IL", "AT", "NG",
+    #                 "ZA", "BD", "EG", "DK", "SG",
+    #                 "PH", "MY", "HK", "VN", "PK"]
+    country_list = ["UA"]
+    for country_str in country_list:
+        # country_str = "UA"
+
+        active_as = []  # 记录活跃的as号
+        file_path = []
+        for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
+            for file_item in files:
+                file_path.append(os.path.join(root, file_item))
+        # print(file_path)
+
         temp_list = []
-    # print(active_as)
-    """
-    自动化处理，同比增长率
-    """
-    active_as_rate = []
-    for i_index in range(len(active_as)):
-        # print(i)
-        date_string = active_as[i_index][0]
-        asn_count = active_as[i_index][1]
-        if i_index >= 12:
-            asn_rate = round((active_as[i_index][1]-active_as[i_index-12][1])/active_as[i_index-12][1], 3)
-            active_as_rate.append([date_string, asn_count, asn_rate])
-    save_path = f"../000LocalData/Paper_Data_Third/03_active_as_{country_str}.csv"
-    write_to_csv(active_as, save_path)
-    draw(x_list, y_list, f"active_as_{country_str}")
-    # print(active_as_rate)
-    save_path = f"../000LocalData/Paper_Data_Third/03_active_as_{country_str}_rate.csv"
-    write_to_csv(active_as_rate, save_path)
+        x_list = []
+        y_list = []
+        for path_item in file_path[-36:]:
+            # print(analysis(path_item))
+            x_date, y_cnt = analysis(path_item, country_str)
+            temp_list.append(x_date)
+            x_list.append(x_date)
+            temp_list.append(y_cnt)
+            y_list.append(y_cnt)
+            active_as.append(temp_list)
+            # print(temp_list)
+            temp_list = []
+        # print(active_as)
+
+        save_path = f"../000LocalData/Paper_Data_Third/03_Country_as/03_active_as_{country_str}.csv"
+        write_to_csv(active_as, save_path)
+        draw(x_list, y_list, f"active_as_{country_str}", country_str)
+
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

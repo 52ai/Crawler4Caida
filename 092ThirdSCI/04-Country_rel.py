@@ -116,7 +116,7 @@ def draw(data_list, country):
     """
     # print(data_list)
     # 存储绘图数据
-    save_path_data_list = f"../000LocalData/Paper_Data_Third/04_draw_rel_{country}.csv"
+    save_path_data_list = f"../000LocalData/Paper_Data_Third/04_Country_rel/04_draw_rel_{country}.csv"
     write_to_csv(data_list, save_path_data_list)
 
     # dt = 1
@@ -164,22 +164,35 @@ def draw(data_list, country):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     ax.grid(True)
     fig.tight_layout()
-    save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\04_draw_rel_en_{country}.png"
+    save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\04_Country_rel\\04_draw_rel_en_{country}.png"
     plt.savefig(save_path_fig, dpi=600)
     # plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    country_str = "TW"
 
-    file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
-        for file_item in files:
-            file_path.append(os.path.join(root, file_item))
-    result_list = []
-    for path_item in file_path:
-        result_list.append(analysis(path_item, country_str))
-    draw(result_list, country_str)
+    # country_list = ["CN", "US", "JP", "DE", "GB",
+    #                 "IN", "FR", "IT", "CA", "KR",
+    #                 "RU", "BR", "AU", "ES", "MX",
+    #                 "ID", "NL", "SA", "TR", "CH",
+    #                 "PL", "SE", "BE", "TH", "IE",
+    #                 "AR", "NO", "IL", "AT", "NG",
+    #                 "ZA", "BD", "EG", "DK", "SG",
+    #                 "PH", "MY", "HK", "VN", "PK"]
+    country_list = ["UA"]
+
+    for country_str in country_list:
+        # country_str = "UA"
+        file_path = []
+        for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
+            for file_item in files:
+                file_path.append(os.path.join(root, file_item))
+        result_list = []
+        for path_item in file_path:
+            result_list.append(analysis(path_item, country_str))
+        draw(result_list, country_str)
+
     time_end = time.time()
     print("=>Scripts Finish, Time Consuming:", (time_end - time_start), "S")

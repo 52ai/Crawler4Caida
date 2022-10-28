@@ -133,7 +133,7 @@ def analysis():
         print(f"{draw_date_gdp[i]}:Scipy computed Pearson r: {r} and p-value: {p}")
         country_cor_space.append([draw_date_gdp[i], r, p])
     save_path = "..\\000LocalData\\Paper_Data_Third\\06_country_cor_space.csv"
-    write_to_csv(country_cor_time, save_path, ["year", "r", "p-value"])
+    write_to_csv(country_cor_space, save_path, ["year", "r", "p-value"])
 
 
 if __name__ == "__main__":
