@@ -14,6 +14,29 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import time
 import math
+import csv
+
+
+def write_to_csv(res_list, des_path, title_str):
+    """
+    把给定的List，写到指定路径的文件中
+    :param res_list:
+    :param des_path:
+    :param title_str:
+    :return: None
+    """
+    print("write file <%s> ..." % des_path)
+    csv_file = open(des_path, 'w', newline='', encoding='utf-8')
+    try:
+        writer = csv.writer(csv_file)
+        writer.writerow(title_str)
+        for i in res_list:
+            writer.writerow(i)
+    except Exception as e:
+        print(e)
+    finally:
+        csv_file.close()
+    print("write finish!")
 
 
 def draw():
@@ -128,6 +151,17 @@ def draw():
     save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\08_Country_GDP_per_AS_1_picture.png"
     plt.savefig(save_path_fig, dpi=600)
     plt.close()
+    """
+    单独输出2021年GDP TOP40国家的每BGP的GDP产值
+    """
+    per_result_list = []
+    for country_item in country_list:
+        temp_line = [country_item, country_per_trend_dict[country_item][-1]]
+        print(temp_line)
+        per_result_list.append(temp_line)
+
+    save_file = "..\\000LocalData\\Paper_Data_Third\\08_Country_GDP_per_AS_1_picture.csv"
+    write_to_csv(per_result_list, save_file, ["country", "GDP/BGP"])
 
 
 if __name__ == "__main__":
