@@ -49,7 +49,7 @@ def analysis():
     """
     """"
        获取as trend
-       """
+    """
     file_in = "../000LocalData/Paper_Data_Third/05_CountryAll_as_trend.txt"
     file_read = open(file_in, 'r', encoding='utf-8')
     draw_date = []  # 存储绘图的时间
@@ -87,16 +87,28 @@ def analysis():
         temp_list = [int(elem.strip()) for elem in item[1:]]
         country_gdp_trend_dict[item[0]] = temp_list
 
-    country_list = ["CN", "US", "JP", "DE", "GB",
-                    "IN", "FR", "IT", "CA", "KR",
-                    "RU", "BR", "AU", "ES", "MX",
-                    "ID", "NL", "SA", "TR", "CH",
-                    "PL", "SE", "BE", "TH", "IE",
-                    "AR", "NO", "IL", "AT", "NG",
-                    "ZA", "BD", "EG", "DK", "SG",
-                    "PH", "MY", "HK", "VN", "PK"]
+    # country_list = ["CN", "US", "JP", "DE", "GB",
+    #                 "IN", "FR", "IT", "CA", "KR",
+    #                 "RU", "BR", "AU", "ES", "MX",
+    #                 "ID", "NL", "SA", "TR", "CH",
+    #                 "PL", "SE", "BE", "TH", "IE",
+    #                 "AR", "NO", "IL", "AT", "NG",
+    #                 "ZA", "BD", "EG", "DK", "SG",
+    #                 "PH", "MY", "HK", "VN", "PK"]
 
     # country_list = ["CN", "US", "RU"]
+
+    # country_list = ["US", "JP", "DE", "GB", "FR",
+    #                 "IT", "CA", "KR", "AU", "ES",
+    #                 "NL", "CH", "PL", "SE", "BE",
+    #                 "IE", "NO", "IL", "AT", "DK",
+    #                 "SG"]
+
+    country_list = ["CN", "IN", "RU", "BR", "MX",
+                    "ID", "SA", "TR", "TH", "AR",
+                    "NG", "ZA", "BD", "EG", "PH",
+                    "MY", "HK", "VN", "PK"]
+
     """
     从时间维度，按国家列表分析相关性
     """
@@ -115,7 +127,7 @@ def analysis():
         print(f"Scipy computed Pearson r: {r} and p-value: {p}")
         country_cor_time.append([country_str, r, p])
     print(country_cor_time)
-    save_path = "..\\000LocalData\\Paper_Data_Third\\06_country_cor_time.csv"
+    save_path = "..\\000LocalData\\Paper_Data_Third\\06_country_cor_time_developing.csv"
     write_to_csv(country_cor_time, save_path, ["country", "r", "p-value"])
     """
     从空间维度，分析as与GDP的关系
@@ -132,7 +144,7 @@ def analysis():
         r, p = stats.pearsonr(country_as_list, country_gdp_list)
         print(f"{draw_date_gdp[i]}:Scipy computed Pearson r: {r} and p-value: {p}")
         country_cor_space.append([draw_date_gdp[i], r, p])
-    save_path = "..\\000LocalData\\Paper_Data_Third\\06_country_cor_space.csv"
+    save_path = "..\\000LocalData\\Paper_Data_Third\\06_country_cor_space_developing.csv"
     write_to_csv(country_cor_space, save_path, ["year", "r", "p-value"])
 
 
