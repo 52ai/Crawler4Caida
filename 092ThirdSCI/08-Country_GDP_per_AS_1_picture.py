@@ -151,6 +151,7 @@ def draw():
     save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\08_Country_GDP_per_AS_1_picture.png"
     plt.savefig(save_path_fig, dpi=600)
     plt.close()
+
     """
     单独输出2021年GDP TOP40国家的每BGP的GDP产值
     """
