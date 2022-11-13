@@ -186,13 +186,16 @@ function sceneRenderer(container) {
       var country =  labels[i].toString().split('-')[2]
       if (!communityColorMap.has(country)) {
         //构建颜色表
-        //var c = getColor(8)
-        var c = getColor((i % 7))
+        var c = getColor(8)
+        //var c = getColor((i % 7))
         communityColorMap.set(country, c);
       }
-//      communityColorMap.set("CN", getColor(6));
-//      communityColorMap.set("US", getColor(7));
-//      communityColorMap.set("RU", getColor(4));
+      communityColorMap.set("CN", getColor(6));
+      communityColorMap.set("US", getColor(7));
+      communityColorMap.set("RU", getColor(4));
+      communityColorMap.set("UA", getColor(5));
+      communityColorMap.set("JP", getColor(1));
+      communityColorMap.set("DE", getColor(2));
       colorNode(i * 3, colors, communityColorMap.get(labels[i].toString().split('-')[2]));
       nodeCommunity.push(labels[i].toString().split('-')[2]);
     }
@@ -233,9 +236,9 @@ function sceneRenderer(container) {
     for (var i = 0; i < sizes.length; ++i) {
       var degree = inLinks[i];
       if (degree) {
-        sizes[i] = ((200 / maxInDegree) * degree.length + 10);
+        sizes[i] = ((200 / maxInDegree) * degree.length + 1);
       } else {
-        sizes[i] = 10;
+        sizes[i] = 1;
       }
     }
     view.sizes(sizes);
