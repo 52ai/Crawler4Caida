@@ -9,6 +9,7 @@
  * events bus. These events are later consumed by stores to show appropriate
  * UI feedback
  */
+
 // TODO: This class needs to be refactored. It is doing too much, and parts
 // of its code should be done from unrender itself
 // TODO: Use DynamicBufferAttribute which can accelarate render
@@ -236,9 +237,9 @@ function sceneRenderer(container) {
     for (var i = 0; i < sizes.length; ++i) {
       var degree = inLinks[i];
       if (degree) {
-        sizes[i] = ((200 / maxInDegree) * degree.length + 1);
+        sizes[i] = ((200 / maxInDegree) * degree.length + 4);
       } else {
-        sizes[i] = 1;
+        sizes[i] = 4;
       }
     }
     view.sizes(sizes);
