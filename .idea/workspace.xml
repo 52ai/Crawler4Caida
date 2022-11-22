@@ -55,7 +55,6 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/093Supports4ZMS/All_country_active_as_rank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -67,6 +66,7 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/093Supports4ZMS/All_country_active_as_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/093Supports4ZMS/All_country_active_as_rank.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -113,7 +113,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="1eTfk4jnNlfnTNoKG0FZVnH4Hgq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,7 +152,7 @@
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tw_as_rel">
+  <component name="RunManager" selected="Python.All_country_active_as_rank">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,27 +190,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07-Country_as_1_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/092ThirdSCI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/092ThirdSCI/07-Country_as_1_picture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="08-Country_GDP_per_AS_1_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,6 +203,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/092ThirdSCI/08-Country_GDP_per_AS_1_picture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All_country_active_as_rank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/093Supports4ZMS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/093Supports4ZMS/All_country_active_as_rank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,19 +275,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.All_country_active_as_rank" />
       <item itemvalue="Python.06-Country_as_gdp_correlation" />
       <item itemvalue="Python.08-Country_GDP_per_AS_1_picture" />
       <item itemvalue="Python.compare2country" />
-      <item itemvalue="Python.07-Country_as_1_picture" />
       <item itemvalue="Python.tw_as_rel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.All_country_active_as_rank" />
         <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.08-Country_GDP_per_AS_1_picture" />
         <item itemvalue="Python.06-Country_as_gdp_correlation" />
         <item itemvalue="Python.compare2country" />
-        <item itemvalue="Python.07-Country_as_1_picture" />
       </list>
     </recent_temporary>
   </component>
