@@ -56,6 +56,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -66,7 +67,6 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/093Supports4ZMS/All_country_active_as_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/093Supports4ZMS/All_country_active_as_rank.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -152,7 +152,7 @@
       <recent name="D:\Code\Crawler4Caida\085ET-GIM\map_vislab\ixps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.All_country_active_as_rank">
+  <component name="RunManager" selected="Python.gain_asn_info_from_CAIDA">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,7 +232,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="compare2country" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gain_asn_info_from_CAIDA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,11 +240,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/087TW_Analysis_v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/058ASWhois" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/087TW_Analysis_v2/compare2country.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/058ASWhois/gain_asn_info_from_CAIDA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,18 +276,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.All_country_active_as_rank" />
+      <item itemvalue="Python.gain_asn_info_from_CAIDA" />
       <item itemvalue="Python.06-Country_as_gdp_correlation" />
       <item itemvalue="Python.08-Country_GDP_per_AS_1_picture" />
-      <item itemvalue="Python.compare2country" />
       <item itemvalue="Python.tw_as_rel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gain_asn_info_from_CAIDA" />
         <item itemvalue="Python.All_country_active_as_rank" />
         <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.08-Country_GDP_per_AS_1_picture" />
         <item itemvalue="Python.06-Country_as_gdp_correlation" />
-        <item itemvalue="Python.compare2country" />
       </list>
     </recent_temporary>
   </component>
