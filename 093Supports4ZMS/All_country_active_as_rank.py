@@ -5,6 +5,10 @@ Function:
 
 根据某个全球AS_Rel快照，提取全球各国活跃AS网络数量，并将其排名
 
+V2:
+
+增加国家对外网络互联关系数量，以及外部互联网络数量（去重后）
+
 """
 import os
 import time
@@ -58,7 +62,8 @@ def analysis(open_file):
     as2country = gain_as2country_caida()  # 获取每个AS的country信息
     file_read = open(open_file, 'r', encoding='utf-8')
     as_list = []  # 存储当前时间，全部有连接关系的AS
-    country_as_dic = {}  # 存储每个国家
+    country_as_dic = {}  # 存储每个国家active as
+    country_outer_as_dic = {}  # 存储每个国家外部互联as
     except_info = []  # 存储异常记录
     for line in file_read.readlines():
         if line.strip().find("#") == 0:
@@ -96,6 +101,18 @@ def analysis(open_file):
         else:
             country_as_dic[as1_country].append(as1)
 
+        if as0_country != as1_country:
+            # 判断当前互联关系是否为国家间的互联关系
+            if as0_country not in country_outer_as_dic.keys():
+                country_outer_as_dic[as0_country] = [as1]
+            else:
+                country_outer_as_dic[as0_country].append(as1)
+
+            if as1_country not in country_outer_as_dic.keys():
+                country_outer_as_dic[as1_country] = [as0]
+            else:
+                country_outer_as_dic[as1_country].append(as0)
+
     as_list = list(set(as_list))  # 先转换为字典，再转化为列表，速度还可以
     as_list.sort(key=lambda elem: int(elem))
     print("Active AS：", len(as_list), " Except Cnt:", len(set(except_info)))
@@ -106,7 +123,7 @@ def analysis(open_file):
     """
     country_as_rank_list = []
     for key in country_as_dic.keys():
-        country_as_rank_list.append([key, len(list(set(country_as_dic[key])))])
+        country_as_rank_list.append([key, len(list(set(country_as_dic[key]))), len(list(set(country_outer_as_dic[key]))), len(country_outer_as_dic[key])])
     country_as_rank_list.sort(reverse=True, key=lambda elem: int(elem[1]))
     print(country_as_rank_list)
     save_path = "../000LocalData/as_cn/global_country_as_rank.csv"
