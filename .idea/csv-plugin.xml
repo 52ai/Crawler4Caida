@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_Gao\asn_info_1122.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_Gao\asn_info_from_caida.csv">
           <value>
             <Attribute>
@@ -795,6 +802,27 @@
           </value>
         </entry>
         <entry key="\091Pygraphistry\tutorial\small_as_group.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\094Supports4WZF\as2info_result.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\094Supports4WZF\as2info_result_multi.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\094Supports4WZF\as_list_input.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
