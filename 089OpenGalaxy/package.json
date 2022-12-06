@@ -55,7 +55,7 @@
     "ngraph.events": "0.0.3",
     "node-libs-browser": "^0.5.0",
     "prop-types": "^15.7.2",
-    "qs": "^4.0.0",
+    "qs": "^6.2.4",
     "rafor": "^1.0.2",
     "react": "^17.0.2",
     "react-bootstrap": "^0.28.1",
