@@ -1,13 +1,14 @@
 # coding:utf-8
 """
-create on Nov 29, 2022 By Wayne YU
+create on Dec 6, 2022 By Wayne YU
 
 Function:
 
-将AS，转换为ORG，Country
+将as rel 处理成as1, country1, as2, country2, rel_type
 
 """
 
+import os
 import time
 import csv
 
@@ -67,39 +68,53 @@ def country_en2cn():
     return en2cn
 
 
-def gain_as_info():
+def deal(open_file):
     """
-    根据输入的as信息，输出ORG COUNTRY
+    按要求处理as rel数据
+
+    :param open_file:
     :return:
     """
     as2info = gain_as2info_caida()
     en2cn_dict = country_en2cn()
     print(as2info["4134"])
-    as_list_input_file = "../000LocalData/Support4WZF/as_list_input.csv"
-    file_read = open(as_list_input_file, 'r', encoding='utf-8')
-    as2info_result = []
+    file_read = open(open_file, 'r', encoding='utf-8')
+    except_info = []  # 存储异常记录
+    global_as_relationships_result = []
     for line in file_read.readlines():
-        line = line.strip().split(",")
-        temp_line_list = []
-        # print(line[0])
-        for as_str in line:
-            as_org = "ZZ"
-            as_country = "ZZ"
-            try:
-                as_info = as2info[as_str]
-                as_org = as_info[0]
-                as_country = en2cn_dict[as_info[1]]
-            except Exception as e:
-                print(e)
-            temp_line_list.append([as_str, as_org, as_country])
+        if line.strip().find("#") == 0:
+            continue
+        # print(line.strip())
+        as0 = line.strip().split('|')[0]
+        as1 = line.strip().split('|')[1]
+        rel_type = line.strip().split('|')[2]
+        rel_type_str = "PEER" if rel_type == "0" else "TRANSIT"
 
-        print(temp_line_list)
-        as2info_result.append(temp_line_list)
-    save_file = "..\\000LocalData\\Support4WZF\\as2info_result_multi.csv"
-    write_to_csv(as2info_result, save_file)
+        as0_country = "查无"
+        as1_country = "查无"
+
+        try:
+            as0_country = en2cn_dict[as2info[as0][1]]
+        except Exception as e:
+            except_info.append(e)
+
+        try:
+            as1_country = en2cn_dict[as2info[as1][1]]
+        except Exception as e:
+            except_info.append(e)
+
+        temp_line = [as0, as0_country, as1, as1_country, rel_type_str]
+        # print(temp_line)
+        global_as_relationships_result.append(temp_line)
+    save_path = "..//000LocalData//Support4ZMS//global_as_relationships_result.csv"
+    write_to_csv(global_as_relationships_result, save_path)
 
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
-    gain_as_info()
+    file_path = []
+    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
+        for file_item in files:
+            file_path.append(os.path.join(root, file_item))
+    deal(file_path[-1])
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
