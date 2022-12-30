@@ -71,7 +71,6 @@ def country_en2cn():
 def deal(open_file):
     """
     按要求处理as rel数据
-
     :param open_file:
     :return:
     """
