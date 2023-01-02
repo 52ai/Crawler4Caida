@@ -274,9 +274,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.as_rel2excel" />
-      <item itemvalue="Python.as2info" />
       <item itemvalue="Python.All_country_active_as_rank" />
+      <item itemvalue="Python.as2info" />
+      <item itemvalue="Python.as_rel2excel" />
       <item itemvalue="Python.gain_asn_info_from_CAIDA" />
       <item itemvalue="Python.tw_as_rel" />
     </list>
