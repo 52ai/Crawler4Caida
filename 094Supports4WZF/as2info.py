@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on Nov 29, 2022 By Wayne YU
+create on Nov. 29, 2022 By Wayne YU
 
 Function:
 
