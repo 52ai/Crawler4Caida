@@ -342,6 +342,28 @@
             </State>
           </value>
         </entry>
+        <entry key="e268a405-7447-44c4-bb44-f108ee035dbc">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e268a405-7447-44c4-bb44-f108ee035dbc" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
