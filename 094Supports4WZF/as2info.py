@@ -69,7 +69,7 @@ def country_en2cn():
 
 def gain_as_info():
     """
-    根据输入的as信息，输出ORG COUNTRY
+    根据输入的as信息，输出ORG COUNTRY信息
     :return:
     """
     as2info = gain_as2info_caida()
