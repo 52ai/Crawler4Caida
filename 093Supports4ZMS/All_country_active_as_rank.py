@@ -115,9 +115,9 @@ def analysis(open_file):
 
     as_list = list(set(as_list))  # 先转换为字典，再转化为列表，速度还可以
     as_list.sort(key=lambda elem: int(elem))
-    print("Active AS：", len(as_list), " Except Cnt:", len(set(except_info)))
-    print("CN:", len(list(set(country_as_dic["CN"]))))
-    print("US:", len(list(set(country_as_dic["US"]))))
+    print("Global Active AS：", len(as_list), " Except Cnt:", len(set(except_info)))
+    print("CN Active AS:", len(list(set(country_as_dic["CN"]))))
+    print("US Active AS:", len(list(set(country_as_dic["US"]))))
     """
     将字典，转换为list
     """
@@ -136,5 +136,5 @@ if __name__ == "__main__":
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
-    analysis(file_path[-1])
+    analysis(file_path[-2])
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
