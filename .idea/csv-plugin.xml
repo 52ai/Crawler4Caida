@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\Support4ZMS\global_as_relationships_result.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_Gao\asn_info_1122.csv">
           <value>
             <Attribute>
