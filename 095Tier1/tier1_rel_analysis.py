@@ -40,6 +40,7 @@ Lumen/level3, AS3549 (---)
 德国电信DT, AS3320
 荷兰电信	Liberty Global B.V., AS6830 (***)
 
+
 wikipedia数据共15家
 
 01)美国Lumen(原Level3+Centurylink), AS3356
