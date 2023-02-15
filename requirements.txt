@@ -82,3 +82,4 @@ html2text~=2020.1.16
 sympy~=1.10.1
 graphistry~=0.27.3
 seaborn~=0.12.1
+shadowsocks~=2.8.2

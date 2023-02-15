@@ -13,41 +13,60 @@ import requests
 import json
 
 
+# 设置Shadowsocks代理服务器的地址和端口号
+proxies = {
+    'http': 'socks5://127.0.0.1:7890',
+    'https': 'socks5://127.0.0.1:7890'
+}
+
 key_file = ".key/openai_key.txt"
 with open(key_file, 'r', encoding='utf-8') as f:
     line = f.readlines()[0].strip()
     print(line)
-    key_string = line
+    api_key = line
 
-url = "http://api.openai.com/v1/engines/davinci-codex/completions"
+# 现在，我们可以使用requests库来发出HTTP请求
+# response = requests.get("http://httpbin.org/ip", proxies=proxies)
+response = requests.get("http://httpbin.org/ip")
 
-data = {
-    "prompt": "Hello, how are you?",
-    "temperature": 0.7,
-    "max_tokens": 60,
-    "top_p": 1,
-    "n": 1,
-    "stop": "\n"
-}
+# print(response.json())
+ip_address = response.json()["origin"]
+# print(ip_address)
+# 请求IP地址定位数据
+response = requests.get('https://ipinfo.io/'+ip_address+'/json')
 
-# 设置Shadowsocks代理服务器的地址和端口号
-proxies = {
-    'http': 'socks5://127.0.0.1:1080',
-    'https': 'socks5://127.0.0.1:1080'
-}
+# 解析JSON响应
+data = json.loads(response.text)
+print(data)
+# 输出IP地址定位数据
+print('IP Address:', data['ip'])
+print('City:', data['city'])
+print('Country:', data['country'])
 
-headers = {
-    "Content-Type": "application/json",
-    "Authorization": f"Bearer <{key_string}>"
-}
 
-# response = requests.post(url, headers=headers, data=json.dumps(data), proxies=proxies)
-response = requests.post(url, headers=headers, data=json.dumps(data))
+print("开始测试ChatGPT API")
+"""
+代码生成引擎：davinci-codex
+自然语言生成引擎：text-davinci-002
+"""
 
-if response.status_code == 200:
-    response_data = json.loads(response.content)
-    completions = response_data["choices"][0]["text"]
-    print(completions)
-else:
-    print(f"Error: {response.status_code}")
+api_url = 'https://api.openai.com/v1/engines/text-davinci-002/completions'
+
+# 输入的文本
+prompt = "在一起10周年，请帮我写一封给女朋友的信，表达我对她的感谢、对感情的珍惜以及对未来的憧憬"
+print("问题：", prompt)
+
+# 调用API接口并获取响应
+response = requests.post(api_url, headers={'Content-Type': 'application/json',
+                                           'Authorization': f'Bearer {api_key}'},
+                         json={'prompt': prompt, 'max_tokens': 2000, 'temperature': 0.7, 'n': 5})
+
+# 解析响应JSON
+result = response.json()["choices"][0]["text"].strip()
+# print(response.json())
+# 输出响应结果
+print("回答:", result)
+
+for item in response.json()["choices"]:
+    print(item)
 

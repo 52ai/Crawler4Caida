@@ -10,7 +10,7 @@ Function:
 """
 import streamlit as st
 import pymysql
-import streamlit.components.v1 as components
+# import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="ET-GIM",
