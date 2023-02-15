@@ -44,22 +44,22 @@ print('City:', data['city'])
 print('Country:', data['country'])
 
 
-print("开始测试ChatGPT API")
+print("Start testing ChatGPT API")
 """
-代码生成引擎：davinci-codex
-自然语言生成引擎：text-davinci-002
+代码生成引擎：code-davinci-002
+自然语言生成引擎：text-davinci-003
 """
 
-api_url = 'https://api.openai.com/v1/engines/text-davinci-002/completions'
+api_url = 'https://api.openai.com/v1/engines/text-davinci-003/completions'
 
 # 输入的文本
-prompt = "Which ISP is global Tier ISP, Please give me a list and the reason."
+prompt = "How to install Shadowsocks in Ubuntu?"
 print("问题：", prompt)
 
 # 调用API接口并获取响应
 response = requests.post(api_url, headers={'Content-Type': 'application/json',
                                            'Authorization': f'Bearer {api_key}'},
-                         json={'prompt': prompt, 'max_tokens': 2000, 'temperature': 0.7, 'n': 5})
+                         json={'prompt': prompt, 'max_tokens': 2048, 'temperature': 0.7, 'n': 5})
 
 # 解析响应JSON
 result = response.json()["choices"][0]["text"].strip()
