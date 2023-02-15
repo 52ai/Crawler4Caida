@@ -124,4 +124,3 @@ if __name__ == "__main__":
             file_path.append(os.path.join(root, file_item))
     analysis(file_path[-2])
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
-

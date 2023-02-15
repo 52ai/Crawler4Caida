@@ -53,7 +53,7 @@ print("开始测试ChatGPT API")
 api_url = 'https://api.openai.com/v1/engines/text-davinci-002/completions'
 
 # 输入的文本
-prompt = "在一起10周年，请帮我写一封给女朋友的信，表达我对她的感谢、对感情的珍惜以及对未来的憧憬"
+prompt = "Which ISP is global Tier ISP, Please give me a list and the reason."
 print("问题：", prompt)
 
 # 调用API接口并获取响应
