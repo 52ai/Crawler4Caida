@@ -27,7 +27,7 @@ def openai_text():
     Openai在文本生成方面的应用
     :return:
     """
-    prompt = "Ubuntu，ERROR    method chacha20-ietf-poly1305 not supported"
+    prompt = "I'm a Chinese, would you please tell me how to learning English very well?"
     print("问题：", prompt)
 
     response = openai.Completion.create(model="text-davinci-003",
