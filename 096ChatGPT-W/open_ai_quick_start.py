@@ -5,7 +5,7 @@ Email: ieeflsyu@outlook.com
 
 Function:
 
-测试ChatGPT的API接口的另一种实现openai，并探索其他的可能性，比如代码生成、图片生成等功能
+测试ChatGPT的API接口的另一种实现openai，并探索其他的可能性，比如代码自动生成、图片生成等功能
 
 """
 import os
