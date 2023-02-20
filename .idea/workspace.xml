@@ -56,6 +56,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -66,6 +67,8 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/095Tier1/tier1_rel_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/095Tier1/tier1_rel_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/096ChatGPT-W/chatgpt_api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/096ChatGPT-W/chatgpt_api_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/096ChatGPT-W/open_ai_quick_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/096ChatGPT-W/open_ai_quick_start.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -153,7 +156,7 @@
       <recent name="D:\Code\Crawler4Caida\091Pygraphistry\tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.open_ai_quick_start">
+  <component name="RunManager" selected="Python.tier1_rel_analysis">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,11 +287,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tier1_rel_analysis" />
         <item itemvalue="Python.open_ai_quick_start" />
+        <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.chatgpt_api_test" />
         <item itemvalue="Python.shadowsocks_proxy" />
-        <item itemvalue="Python.tier1_rel_analysis" />
-        <item itemvalue="Python.tw_as_rel" />
       </list>
     </recent_temporary>
   </component>

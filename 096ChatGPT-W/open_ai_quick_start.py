@@ -27,13 +27,13 @@ def openai_text():
     Openai在文本生成方面的应用
     :return:
     """
-    prompt = "I'm a Chinese, would you please tell me how to learning English very well?"
+    prompt = "How to gain BGP RIB through cloud service provider?"
     print("问题：", prompt)
 
     response = openai.Completion.create(model="text-davinci-003",
                                         prompt=prompt,
                                         temperature=0.7,
-                                        max_tokens=2048,
+                                        max_tokens=1024,
                                         n=5)
     # 输出响应结果
     result = response['choices'][0]['text'].strip()

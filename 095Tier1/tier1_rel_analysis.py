@@ -67,18 +67,25 @@ import os
 import time
 import csv
 
+Tier1_list = ["3356", "1299", "2914", "6762", "3257",
+              "6453", "6461", "3491", "5511", "12956",
+              "701", "1239", "7018", "3320", "6830",
+              "174", "6939", "4134"]
 
-def write_to_csv(res_list, des_path):
+
+def write_to_csv(res_list, des_path, title_line):
     """
     把给定的List，写到指定路径的文件中
     :param res_list:
     :param des_path:
+    :param title_line:
     :return None:
     """
     print("write file <%s> ..." % des_path)
     csv_file = open(des_path, 'w', newline='', encoding='utf-8')
     try:
         writer = csv.writer(csv_file)
+        writer.writerow(title_line)
         for i in res_list:
             writer.writerow(i)
     except Exception as e:
@@ -101,19 +108,92 @@ def gain_as2info_caida():
         # print(line)
         as_number = line[0]
         as_name = line[1]
-        as_org = line[2]
-        as_country = line[3]
+        as_org = line[2].strip("\"")
+        as_country = line[-1]
         as2info_result[as_number] = [as_name, as_org, as_country]
     return as2info_result
 
 
 def analysis(open_file):
     """
-    根据全球AS Rel快照，分析全球Tier1 rel的特诊
+    根据全球AS Rel快照，分析全球Tier1 rel的特征
     :param open_file:
     :return:
     """
     print(open_file)
+    as2info = gain_as2info_caida()  # 获取每个ASN的详细信息
+    except_info = []  # 存储异常记录
+    as_rel_dict = {}  # 存储as互联关系统计结果
+    # dict_value = [0, 0, 0, 0]  # edge_cnt、peer_cnt、transit_provider、transit_customer
+    """
+    第一遍扫描，构建字典keys
+    """
+    with open(open_file, 'r', encoding='utf-8') as f:
+        for line in f.readlines():
+            if line.strip().find("#") == 0:
+                continue
+            line = line.strip().split("|")
+            as_left = line[0]
+            as_right = line[1]
+            rel_type = line[2]
+            # print(as_left, as_right, rel_type)
+
+            if as_left not in as_rel_dict.keys():
+                as_rel_dict.setdefault(as_left, []).append(0)
+                as_rel_dict.setdefault(as_left, []).append(0)
+                as_rel_dict.setdefault(as_left, []).append(0)
+                as_rel_dict.setdefault(as_left, []).append(0)
+
+            if as_right not in as_rel_dict.keys():
+                as_rel_dict.setdefault(as_right, []).append(0)
+                as_rel_dict.setdefault(as_right, []).append(0)
+                as_rel_dict.setdefault(as_right, []).append(0)
+                as_rel_dict.setdefault(as_right, []).append(0)
+    """
+    第二遍扫描，构建字典Values
+    """
+    with open(open_file, 'r', encoding='utf-8') as f:
+        for line in f.readlines():
+            if line.strip().find("#") == 0:
+                continue
+            line = line.strip().split("|")
+            as_left = line[0]
+            as_right = line[1]
+            rel_type = line[2]
+            # print(as_left, as_right, rel_type)
+            if rel_type == '0':
+                # 如果该关系为peer关系
+                # 总连接数自增1
+                # print("PEER")
+                as_rel_dict[as_left][0] += 1
+                as_rel_dict[as_right][0] += 1
+                # Peer连接数自增1
+                as_rel_dict[as_left][1] += 1
+                as_rel_dict[as_right][1] += 1
+            elif rel_type == "-1":
+                # 否则该条关系为transit关系
+                # 总连接数自增1
+                # print("TRANSIT")
+                as_rel_dict[as_left][0] += 1
+                as_rel_dict[as_right][0] += 1
+                # provider-customer, transit关系分别自增1
+                as_rel_dict[as_left][3] += 1  # as left的客户加1
+                as_rel_dict[as_right][2] += 1  # as right的提供商加1
+
+    print("Global AS Count:", len(as_rel_dict.keys()))
+    # print(as_rel_dict)
+    tier1_rel_result_list = []
+    temp_line = []
+    for item in Tier1_list:
+        temp_line.append("AS"+item)
+        temp_line.extend(as2info[item])
+        temp_line.extend(as_rel_dict[item])
+        print(temp_line)
+        tier1_rel_result_list.append(temp_line)
+        temp_line = []
+    title_str = ["ASN", "AS NAME", "AS ORG", "AS COUNTRY", "all rel", "peer", "provider", "customer"]
+    save_path = "../000LocalData/tier1/tier1_rel_result.csv"
+    write_to_csv(tier1_rel_result_list, save_path, title_str)
 
 
 if __name__ == "__main__":

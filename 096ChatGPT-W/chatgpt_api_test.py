@@ -69,4 +69,3 @@ print("回答:", result)
 
 for item in response.json()["choices"]:
     print(item)
-
