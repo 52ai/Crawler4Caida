@@ -283,6 +283,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\024KnowlegeData\5g_cloud.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\030CAICT-AtlasToolkit\samples\03-03(01).csv">
           <value>
             <Attribute>

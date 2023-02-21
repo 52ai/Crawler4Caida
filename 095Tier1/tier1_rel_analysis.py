@@ -6,6 +6,11 @@ Email: ieeflsyu@outlook.com
 Function:
 
 依托全球AS Rel数据集，研究18家Tier1运营商的网络互联现状
+1）每个Tier1 ISP网络互联现状，all rel、peer、provider、customer；
+2）针对每个Tier1 ISP 做进一步分析。分析所有的peer/customer的国家、大洲分布，研究其服务范围；
+3）从时间维度，研究每个Tier1 ISP的网络互联及其服务范围的变化，从中总结规律；
+4）结合路由表数据，研究每个Tier1 ISP的路由通告量，路由条目、IP地址量。
+
 
 tier1_list = ['3356', '174', '2914', '6939', '3257',
               '701', '7018', '1239', '3549', '7922',
@@ -124,7 +129,7 @@ def analysis(open_file):
     as2info = gain_as2info_caida()  # 获取每个ASN的详细信息
     except_info = []  # 存储异常记录
     as_rel_dict = {}  # 存储as互联关系统计结果
-    # dict_value = [0, 0, 0, 0]  # edge_cnt、peer_cnt、transit_provider、transit_customer
+    # dict_value = [0, 0, 0, 0]  # all rel、peer、provider、customer
     """
     第一遍扫描，构建字典keys
     """
