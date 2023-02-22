@@ -7,6 +7,7 @@ Function:
 
 对6号节点的RIB数据进行处理，提取出电信、移动、联通以及HangZhouIX的BGP数据，并开展相关分析
 这个分析很有意义，可形成实时报告机制
+
 """
 import time
 import csv
