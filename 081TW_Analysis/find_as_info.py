@@ -47,7 +47,7 @@ def find_country():
     根据asn info信息查找国家
     :return:
     """
-    c_file = "c_cm_ct.CSV"
+    c_file = "../000LocalData/Support4WZF/c_cm_ct.CSV"
     as2country = gain_as2country_caida()
     file_read = open(c_file, 'r', encoding='GBK')
     result_list = []
@@ -59,7 +59,7 @@ def find_country():
             result_list.append(line_temp)
         except Exception as e:
             print(e)
-    write_to_csv(result_list, "./c_cm_ct_info.csv")
+    write_to_csv(result_list, "../000LocalData/Support4WZF/c_cm_ct_info.csv")
 
 
 if __name__ == "__main__":

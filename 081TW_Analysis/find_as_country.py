@@ -25,7 +25,7 @@ def find_country(aim_country):
     根据asn info信息查找国家
     :return:
     """
-    c_file = "c_cm_ct.CSV"
+    c_file = "../000LocalData/Support4WZF/c_cm_ct.CSV"
     as2country = gain_as2country_caida()
     file_read = open(c_file, 'r', encoding='GBK')
     aim_country_as = []  # 存储尼泊尔的AS
