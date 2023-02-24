@@ -668,20 +668,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\081TW_Analysis\c_cm_ct.CSV">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\081TW_Analysis\c_cm_ct_info.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\081TW_Analysis\country_as_list.csv">
           <value>
             <Attribute>
