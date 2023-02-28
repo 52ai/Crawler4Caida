@@ -66,7 +66,6 @@ wikipedia数据共15家
 
 以维基百科的15家为研究对象
 
-
 """
 import os
 import time
