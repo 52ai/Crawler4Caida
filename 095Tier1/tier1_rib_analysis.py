@@ -81,7 +81,7 @@ def gain_country2info():
 
 def rib_analysis():
     """
-    处理181 rib文件，分析电信（AS4134）的路由表
+    处理181 rib文件，分析电信（AS4134）的路由表，形成网络互联、网络路由等分析模板
     :return:
     """
     as2info = gain_as2info_caida()

@@ -205,5 +205,5 @@ if __name__ == "__main__":
     for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
-    analysis(file_path[-2])
+    analysis(file_path[-170])
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

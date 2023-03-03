@@ -115,6 +115,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\tier1\tier1_rel_result.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\001GlobalNetTest\company_log_2018_10_29_18_15_23.csv">
           <value>
             <Attribute>
