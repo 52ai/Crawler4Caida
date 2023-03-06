@@ -8,6 +8,7 @@ Function:
 以RIB数据作为输入，研究每个Tier1 ISP的路由通告量，路由条目、IP地址量。
 并以此为契机，开展Tier1 ISP网间和网内拓扑的构建研究
 
+
 """
 import time
 import csv
