@@ -198,6 +198,29 @@ def analysis(open_file):
     save_path = "../000LocalData/tier1/tier1_rel_result.csv"
     write_to_csv(tier1_rel_result_list, save_path, title_str)
 
+    """
+    提取TOP1000的网络，分析其国际分布
+    """
+    global_as_list = []
+    temp_line = []
+    except_as_info = []
+    for key in as_rel_dict.keys():
+        temp_line.append("AS" + key)
+        try:
+            temp_line.extend(as2info[key])
+        except Exception as e:
+            except_as_info.append(e)
+            temp_line = []
+            continue
+        temp_line.extend(as_rel_dict[key])
+        global_as_list.append(temp_line)
+        temp_line = []
+    print("Global AS Count:", len(global_as_list))
+    global_as_list.sort(reverse=True, key=lambda elem: int(elem[4]))
+    title_str = ["ASN", "AS NAME", "AS ORG", "AS COUNTRY", "all rel", "peer", "provider", "customer"]
+    save_path = "../000LocalData/tier1/global_as_rel_result.csv"
+    write_to_csv(global_as_list[0:1000], save_path, title_str)
+
 
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间

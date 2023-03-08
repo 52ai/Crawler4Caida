@@ -14,8 +14,8 @@ import csv
 from IPy import IP
 
 rib_file = "../000LocalData/BGPData/rib_live/rib_2023-01-13_181.txt"
-country_info_file = '../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv'
 as_info_file = '../000LocalData/as_Gao/asn_info_from_caida.csv'
+country_info_file = '../000LocalData/as_geo/GeoLite2-Country-Locations-zh-CN.csv'
 
 
 def write_to_csv(res_list, des_path, title_line):
@@ -85,6 +85,18 @@ def rib_analysis():
     """
     as2info = gain_as2info_caida()
     print("asWhois信息记录:", len(as2info))
+    country2continent, country2name = gain_country2info()
+    print("countryWhois信息记录：", len(country2continent))
+    rib_dict = {}
+    """
+    1)判断协议类型，包括TABLE_DUMP2和TABLE_DUMP2_AP
+    2)按照来源构建各自的RIB：AS4134、AS4837、AS9808
+    3)数据格式按照来源ASN作为key, [[ip_prefix, as_path], ...]作为value   
+    """
+    with open(rib_file, 'r', encoding='utf-8') as f:
+        for line in f.readlines():
+            line = line.strip().split("|")
+            print(line)
 
 
 if __name__ == "__main__":
