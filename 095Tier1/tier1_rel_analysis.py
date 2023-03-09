@@ -125,7 +125,7 @@ def analysis(open_file):
     """
     print(open_file)
     as2info = gain_as2info_caida()  # 获取每个ASN的详细信息
-    except_info = []  # 存储异常记录
+    # except_info = []  # 存储异常记录
     as_rel_dict = {}  # 存储as互联关系统计结果
     # dict_value = [0, 0, 0, 0]  # all rel、peer、provider、customer
     """
@@ -138,7 +138,7 @@ def analysis(open_file):
             line = line.strip().split("|")
             as_left = line[0]
             as_right = line[1]
-            rel_type = line[2]
+            # rel_type = line[2]
             # print(as_left, as_right, rel_type)
 
             if as_left not in as_rel_dict.keys():
@@ -219,7 +219,7 @@ def analysis(open_file):
     global_as_list.sort(reverse=True, key=lambda elem: int(elem[4]))
     title_str = ["ASN", "AS NAME", "AS ORG", "AS COUNTRY", "all rel", "peer", "provider", "customer"]
     save_path = "../000LocalData/tier1/global_as_rel_result.csv"
-    write_to_csv(global_as_list[0:1000], save_path, title_str)
+    write_to_csv(global_as_list[0:100], save_path, title_str)
 
 
 if __name__ == "__main__":
