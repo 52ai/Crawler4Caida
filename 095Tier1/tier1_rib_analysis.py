@@ -11,7 +11,7 @@ Function:
 """
 import time
 import csv
-from IPy import IP
+# from IPy import IP
 
 rib_file = "../000LocalData/BGPData/rib_live/rib_2023-01-13_181.txt"
 as_info_file = '../000LocalData/as_Gao/asn_info_from_caida.csv'
@@ -87,7 +87,7 @@ def rib_analysis():
     print("asWhois信息记录:", len(as2info))
     country2continent, country2name = gain_country2info()
     print("countryWhois信息记录：", len(country2continent))
-    rib_dict = {}
+    # rib_dict = {}
     """
     1)判断协议类型，包括TABLE_DUMP2和TABLE_DUMP2_AP
     2)按照来源构建各自的RIB：AS4134、AS4837、AS9808
