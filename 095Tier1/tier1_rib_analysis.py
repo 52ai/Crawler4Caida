@@ -203,6 +203,25 @@ def rib_analysis_table_dump2(asn, rib_list):
     title_str = ["ASN", "AS NAME", "AS ORG", "AS COUNTRY", "ip prefix", "ip num"]
     write_to_csv(tier1_ip_list, save_path, title_str)
 
+    global_as_ip_list = []
+    for item_as in as2prefix_dict.keys():
+        item_as_ipv4_num = 0
+        for ipv4_prefix in as2prefix_dict[item_as]:
+            item_as_ipv4_num += len(IP(ipv4_prefix))
+        as_country = "ZZ"
+        try:
+            as_country = as2info[item_as][2]
+        except Exception as e:
+            except_as.append(e)
+        # print("AS%s, IPv4前缀规模:%s, IPv4地址数量：%s" % ("AS"+item_as, len(as2prefix_dict[item_as]), item_as_ipv4_num))
+        global_as_ip_list.append(["AS"+item_as,
+                                  as_country,
+                                  len(as2prefix_dict[item_as]),
+                                  item_as_ipv4_num])
+    save_path = "../000LocalData/tier1/global_as_ip_result.csv"
+    title_str = ["ASN", "AS COUNTRY", "ip prefix", "ip num"]
+    write_to_csv(global_as_ip_list, save_path, title_str)
+
 
 def rib_analysis():
     """

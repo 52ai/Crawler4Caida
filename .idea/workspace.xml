@@ -55,8 +55,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/097ReCNNIC/bypass_abroad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -68,6 +67,8 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/095Tier1/tier1_rib_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/095Tier1/tier1_rib_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/097ReCNNIC/bypass_abroad.py" beforeDir="false" afterPath="$PROJECT_DIR$/097ReCNNIC/bypass_abroad.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -162,7 +163,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\own_graph\pm-data-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bypass_abroad (1)">
+  <component name="RunManager" selected="Python.tier1_rib_analysis">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,10 +294,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tier1_rib_analysis" />
         <item itemvalue="Python.bypass_abroad (1)" />
         <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.tier1_rel_analysis" />
-        <item itemvalue="Python.tier1_rib_analysis" />
         <item itemvalue="Python.bypass_abroad" />
       </list>
     </recent_temporary>

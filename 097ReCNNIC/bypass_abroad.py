@@ -74,14 +74,15 @@ def gain_cn_topn_as(topn):
     :return cn_topn_as_list:
     """
     cn_topn_as_list = []
-    with open("../000LocalData/ReCNNIC/cn_as.csv", "r", encoding="utf-8") as f:
+    cnt = 1
+    with open("../000LocalData/ReCNNIC/cn_as.csv", "r", encoding="gbk") as f:
         for item in f.readlines():
             item = item.strip().split(",")
             asn = item[1].strip("AS")
-            rank_id = int(item[0])
             cn_topn_as_list.append(asn)
-            if rank_id >= topn:
+            if cnt >= topn:
                 break
+            cnt += 1
     return cn_topn_as_list
 
 
@@ -94,7 +95,7 @@ def rib_analysis(rib_file):
     as2country_dic = gain_as2country_caida()
     as2org_dic = gain_as2org_caida()
     left_as_list = ["4134", "4837", "9808"]
-    cn_top100_as_list = gain_cn_topn_as(590)  # 获取CN TOP 100的列表
+    cn_top100_as_list = gain_cn_topn_as(100)  # 获取CN TOP 100的列表
     # print("CN TOP100 AS:", cn_top100_as_list)
     # print("AS4134's Country:", as2country_dic['4134'])
 
@@ -103,6 +104,10 @@ def rib_analysis(rib_file):
     internal_prefix_list = []  # 统计国内节点采集到的两端都在国内的路由条目
     bypass_abroad = []  # 统计两端在国内，中间经过国外的路由前缀及AS PATH
     bypass_abroad_prefix_list = []  # 统计两端在国内，中间经过国外的路由前缀
+
+    all_as_path_list = []  # 存储限定条件节点集合间所有的路径
+    bypass_abroad_as_path_list = []  # 限定条件节点集合间所有路径中经过国际的路径
+
     except_info_list = []  # 存储异常记录信息
     for line in file_read.readlines():
         line = line.strip().split("|")
@@ -124,6 +129,7 @@ def rib_analysis(rib_file):
 
         if str(as_path[0]) in left_as_list and str(as_path[-1]) in cn_top100_as_list:  # 找出CN top100 AS间的总的路由路径
             internal_prefix_list.append(v4_prefix)
+            all_as_path_list.append(str(as_path))
             for item_as in as_path[1:-1]:  # 遍历as path，获取每一跳的国别
                 temp_country = "ZZ"
                 try:
@@ -143,28 +149,44 @@ def rib_analysis(rib_file):
                         except_info_list.append(e)
 
                     # print(v4_prefix, as_path, temp_country, as_path[-1], right_as_org)
-                    bypass_abroad.append([v4_prefix, as_path, item_as, temp_country, as_path[-1], right_as_org])
+                    bypass_abroad.append([v4_prefix, as_path[0], as_path, item_as, temp_country, as_path[-1], right_as_org])
                     bypass_abroad_prefix_list.append(v4_prefix)
+                    bypass_abroad_as_path_list.append(str(as_path))
                     break
 
     print("三家运营商骨干网采集路由总数：", all_prefix_num)
-    print("CN TOP100 AS间的路由路径数量:", len(internal_prefix_list), "——去重后：", len(set(internal_prefix_list)))
-    print("CN TOP100 AS间经境外绕转的路由路径数量：", len(bypass_abroad_prefix_list), "——去重后:", len(set(bypass_abroad_prefix_list)))
-    print("CN TOP100 AS间经境外绕转的路由路径数量（去重后）占比：", len(set(bypass_abroad_prefix_list))/len(set(internal_prefix_list)))
+    print("CN TOP100 AS间的路由路径数量:", len(all_as_path_list), "——去重后：", len(set(all_as_path_list)))
+    print("CN TOP100 AS间经境外绕转的路由路径数量：", len(bypass_abroad_as_path_list), "——去重后:", len(set(bypass_abroad_as_path_list)))
+    print("CN TOP100 AS间经境外绕转的路由路径数量（去重后）占比：", len(set(bypass_abroad_as_path_list))/len(set(all_as_path_list)))
 
-    """
-    统计IP地址
-    """
-    internal_ip_num = 0  # CN TOP100 AS间的路由路径，换算成IP地址数量
-    for item in list(set(internal_prefix_list)):
-        internal_ip_num += len(IP(item))
+    all_cnt_dic = {}
+    for item_path in set(all_as_path_list):
+        item_path = item_path.strip("[").strip("]").strip().split(",")
+        # print(item_path[0])
+        if item_path[0] not in all_cnt_dic.keys():
+            all_cnt_dic[item_path[0]] = 1
+        else:
+            all_cnt_dic[item_path[0]] += 1
+    print("all_cnt_dict:", all_cnt_dic)
 
-    bypass_abroad_ip_num = 0  # CN TOP100 AS间经境外绕转的路由路径，换算成IP地址数量
-    for item in list(set(bypass_abroad_prefix_list)):
-        bypass_abroad_ip_num += len(IP(item))
+    bypass_cnt_dic = {}
+    for item_path in set(bypass_abroad_as_path_list):
+        item_path = item_path.strip("[").strip("]").strip().split(",")
+        # print(item_path[0])
+        if item_path[0] not in bypass_cnt_dic.keys():
+            bypass_cnt_dic[item_path[0]] = 1
+        else:
+            bypass_cnt_dic[item_path[0]] += 1
+    print("bypass_cnt_dict:", bypass_cnt_dic)
 
-    print("CN TOP100 AS间的路由路径，换算成IP地址数量：", internal_ip_num)
-    print("CN TOP100 AS间经境外绕转的路由路径，换算成IP地址数量:", bypass_abroad_ip_num, "占比：", bypass_abroad_ip_num/internal_ip_num)
+    # 运营商top100，电信：61个，联通：18个，移动：21个
+    bypass_weight = 0
+    if len(bypass_cnt_dic.keys()) != 0:
+        bypass_weight = int(bypass_cnt_dic["'4134'"]) * 61 + int(bypass_cnt_dic["'4837'"]) * 18 + int(bypass_cnt_dic["'9808'"]) * 21
+    all_weight = int(all_cnt_dic["'4134'"]) * 61 + int(all_cnt_dic["'4837'"]) * 18 + int(all_cnt_dic["'9808'"]) * 21
+    print("bypass_weight:", bypass_weight)
+    print("all_weight:", all_weight)
+    print("下游加权统计的占比：", bypass_weight/all_weight)
 
     save_file = "..\\000LocalData\\ReCNNIC\\bypass_abroad.csv"
     write_to_csv(bypass_abroad, save_file)
