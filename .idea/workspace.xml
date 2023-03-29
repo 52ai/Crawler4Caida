@@ -55,6 +55,8 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/097ReCNNIC/bypass_abroad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -66,7 +68,6 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/095Tier1/tier1_reachability_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/095Tier1/tier1_reachability_analysis.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -123,20 +124,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/000LocalData/BGPData/rib_live&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "D:/Code/Crawler4Caida/097ReCNNIC",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Crawler4Caida" is-module-sdk="true">
@@ -147,11 +148,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\097ReCNNIC" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData\rib_live" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\as_Gao" />
       <recent name="D:\Code\Crawler4Caida\092ThirdSCI" />
       <recent name="D:\Code\Crawler4Caida\015BGPAnalysis" />
-      <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\src\galaxy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\000LocalData\Support4WZF" />
@@ -161,7 +162,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\own_graph\pm-data-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bypass_abroad">
+  <component name="RunManager" selected="Python.bypass_abroad (1)">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +179,27 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
+    <configuration name="bypass_abroad (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/097ReCNNIC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/097ReCNNIC/bypass_abroad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bypass_abroad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,48 +213,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/077RU&amp;UA/bypass_abroad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chatgpt_api_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/096ChatGPT-W" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/096ChatGPT-W/chatgpt_api_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="open_ai_quick_start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/096ChatGPT-W" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/096ChatGPT-W/open_ai_quick_start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,20 +263,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tw_as_rel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/081TW_Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/081TW_Analysis/tw_as_rel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.bypass_abroad (1)" />
+      <item itemvalue="Python.tw_as_rel" />
       <item itemvalue="Python.bypass_abroad" />
-      <item itemvalue="Python.chatgpt_api_test" />
-      <item itemvalue="Python.open_ai_quick_start" />
       <item itemvalue="Python.tier1_rel_analysis" />
       <item itemvalue="Python.tier1_rib_analysis" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bypass_abroad" />
-        <item itemvalue="Python.chatgpt_api_test" />
-        <item itemvalue="Python.tier1_rib_analysis" />
+        <item itemvalue="Python.bypass_abroad (1)" />
+        <item itemvalue="Python.tw_as_rel" />
         <item itemvalue="Python.tier1_rel_analysis" />
-        <item itemvalue="Python.open_ai_quick_start" />
+        <item itemvalue="Python.tier1_rib_analysis" />
+        <item itemvalue="Python.bypass_abroad" />
       </list>
     </recent_temporary>
   </component>
