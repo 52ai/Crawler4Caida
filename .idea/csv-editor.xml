@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\ReCNNIC\global_as_ip_result.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_Gao\asn_info20230130.csv">
           <value>
             <Attribute>

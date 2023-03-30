@@ -1,6 +1,6 @@
 # coding:utf-8
 """
-create on Mar 29, 2022 By Wayne YU
+create on Mar 29, 2023 By Wayne YU
 
 Function:
 
@@ -10,7 +10,7 @@ CN TOP100 AS（按IPv4地址数量排名）间的通路：通过三大运营商�
 """
 import time
 import csv
-from IPy import IP
+# from IPy import IP
 
 
 def write_to_csv(res_list, des_path):
@@ -96,6 +96,15 @@ def rib_analysis(rib_file):
     as2org_dic = gain_as2org_caida()
     left_as_list = ["4134", "4837", "9808"]
     cn_top100_as_list = gain_cn_topn_as(100)  # 获取CN TOP 100的列表
+
+    """
+    把移动AS58453、联通AS10099、电信AS23764，纳入统计范畴
+    """
+
+    # cn_top100_as_list.append("58453")
+    # cn_top100_as_list.append("10099")
+    # cn_top100_as_list.append("23764")
+
     # print("CN TOP100 AS:", cn_top100_as_list)
     # print("AS4134's Country:", as2country_dic['4134'])
 
@@ -118,14 +127,14 @@ def rib_analysis(rib_file):
             # print(v4_prefix)
             continue
         all_prefix_num += 1
-        left_country = "ZZ"
-        right_country = "ZZ"
+        # left_country = "ZZ"
+        # right_country = "ZZ"
 
-        try:
-            left_country = as2country_dic[str(as_path[0])]
-            right_country = as2country_dic[str(as_path[-1])]
-        except Exception as e:
-            except_info_list.append(e)
+        # try:
+        #     left_country = as2country_dic[str(as_path[0])]
+        #     right_country = as2country_dic[str(as_path[-1])]
+        # except Exception as e:
+        #     except_info_list.append(e)
 
         if str(as_path[0]) in left_as_list and str(as_path[-1]) in cn_top100_as_list:  # 找出CN top100 AS间的总的路由路径
             internal_prefix_list.append(v4_prefix)
@@ -139,6 +148,10 @@ def rib_analysis(rib_file):
 
                 if temp_country == "":
                     temp_country = "ZZ"
+
+                # if item_as in ["37963", "58453", "10099", "23764", "36678"]:  # 阿里的US网络，不算出国绕
+                if item_as in ["37963"]:  # 阿里的US网络，不算出国绕
+                    temp_country = "CN"
 
                 if temp_country != "CN" and temp_country != "ZZ":  # 找出中间出境绕的路
 
@@ -157,8 +170,11 @@ def rib_analysis(rib_file):
     print("三家运营商骨干网采集路由总数：", all_prefix_num)
     print("CN TOP100 AS间的路由路径数量:", len(all_as_path_list), "——去重后：", len(set(all_as_path_list)))
     print("CN TOP100 AS间经境外绕转的路由路径数量：", len(bypass_abroad_as_path_list), "——去重后:", len(set(bypass_abroad_as_path_list)))
-    print("CN TOP100 AS间经境外绕转的路由路径数量（去重后）占比：", len(set(bypass_abroad_as_path_list))/len(set(all_as_path_list)))
 
+    print("CN TOP100 AS间经境外绕转的路由路径数量（去重后）占比：", len(set(bypass_abroad_as_path_list))/len(set(all_as_path_list)))
+    print("CN TOP100 AS间经境外绕转的路由路径数量占比：", len(bypass_abroad_as_path_list) / len(all_as_path_list))
+
+    print("------开展三家加权统计（按照路径去重）---------")
     all_cnt_dic = {}
     for item_path in set(all_as_path_list):
         item_path = item_path.strip("[").strip("]").strip().split(",")
@@ -171,6 +187,36 @@ def rib_analysis(rib_file):
 
     bypass_cnt_dic = {}
     for item_path in set(bypass_abroad_as_path_list):
+        item_path = item_path.strip("[").strip("]").strip().split(",")
+        # print(item_path[0])
+        if item_path[0] not in bypass_cnt_dic.keys():
+            bypass_cnt_dic[item_path[0]] = 1
+        else:
+            bypass_cnt_dic[item_path[0]] += 1
+    print("bypass_cnt_dict:", bypass_cnt_dic)
+
+    # 运营商top100，电信：61个，联通：18个，移动：21个
+    bypass_weight = 0
+    if len(bypass_cnt_dic.keys()) != 0:
+        bypass_weight = int(bypass_cnt_dic["'4134'"]) * 61 + int(bypass_cnt_dic["'4837'"]) * 18 + int(bypass_cnt_dic["'9808'"]) * 21
+    all_weight = int(all_cnt_dic["'4134'"]) * 61 + int(all_cnt_dic["'4837'"]) * 18 + int(all_cnt_dic["'9808'"]) * 21
+    print("bypass_weight:", bypass_weight)
+    print("all_weight:", all_weight)
+    print("下游加权统计的占比：", bypass_weight/all_weight)
+
+    print("------开展三家加权统计（不去重）---------")
+    all_cnt_dic = {}
+    for item_path in all_as_path_list:
+        item_path = item_path.strip("[").strip("]").strip().split(",")
+        # print(item_path[0])
+        if item_path[0] not in all_cnt_dic.keys():
+            all_cnt_dic[item_path[0]] = 1
+        else:
+            all_cnt_dic[item_path[0]] += 1
+    print("all_cnt_dict:", all_cnt_dic)
+
+    bypass_cnt_dic = {}
+    for item_path in bypass_abroad_as_path_list:
         item_path = item_path.strip("[").strip("]").strip().split(",")
         # print(item_path[0])
         if item_path[0] not in bypass_cnt_dic.keys():
