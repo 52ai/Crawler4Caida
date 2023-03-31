@@ -153,11 +153,11 @@ def draw(data_list, country):
                    }
     tick_spacing = 12
     # ax.set_title("BGP互联趋势分析(19980101-20221001)", font)
-    ax.plot(draw_date, edge_list, ls='-', marker='.', label='All interconnected relationships')
-    ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='Inner relationships')
-    ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='Outer relationships')
-    ax.plot(draw_date, peer_list, ls=':', marker='+', label='Peer relationships')
-    ax.plot(draw_date, transit_list, ls='-.', marker='+', label='Transit relationships')
+    ax.plot(draw_date, edge_list, ls='-', marker='.', label='overall relationships')
+    ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='national relationships')
+    ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='transnational relationships')
+    ax.plot(draw_date, peer_list, ls=':', marker='+', label='peering relationships')
+    ax.plot(draw_date, transit_list, ls='-.', marker='+', label='transit relationships')
     ax.set_xlabel('Time of estimation', font)
     ax.set_ylabel('Interconnected relationship', font)
     ax.legend(prop=font_legend)
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     #                 "AR", "NO", "IL", "AT", "NG",
     #                 "ZA", "BD", "EG", "DK", "SG",
     #                 "PH", "MY", "HK", "VN", "PK"]
-    country_list = ["UA"]
+    country_list = ["RU"]
 
     for country_str in country_list:
         # country_str = "UA"

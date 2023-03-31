@@ -154,7 +154,7 @@ if __name__ == "__main__":
     #                 "AR", "NO", "IL", "AT", "NG",
     #                 "ZA", "BD", "EG", "DK", "SG",
     #                 "PH", "MY", "HK", "VN", "PK"]
-    country_list = ["UA"]
+    country_list = ["RU"]
     for country_str in country_list:
         # country_str = "UA"
 

@@ -158,11 +158,11 @@ def draw(data_list):
                    }
     tick_spacing = 14
     # ax.set_title("全球互联网BGP互联趋势分析(19980101-20221001)", font)
-    ax.plot(draw_date, edge_list, ls='-', marker='.', label='All interconnected relationships')
-    ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='Inner relationships')
-    ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='Outer relationships')
-    ax.plot(draw_date, peer_list, ls=':', marker='+', label='Peer relationships')
-    ax.plot(draw_date, transit_list, ls='-.', marker='+', label='Transit relationships')
+    ax.plot(draw_date, edge_list, ls='-', marker='.', label='overall relationships')
+    ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='national relationships')
+    ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='transnational relationships')
+    ax.plot(draw_date, peer_list, ls=':', marker='+', label='peering relationships')
+    ax.plot(draw_date, transit_list, ls='-.', marker='+', label='transit relationships')
     ax.set_xlabel('Time of estimation', font)
     ax.set_ylabel('Interconnected relationship', font)
     ax.legend(prop=font_legend)
