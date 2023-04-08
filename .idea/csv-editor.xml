@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\000LocalData\RU&amp;UA\as_ix.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\ReCNNIC\cn_as_top100_isp.csv">
           <value>
             <Attribute>
@@ -24,7 +31,49 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_Gao\asn_info_from_caida.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\as_geo\GeoLite2-Country-Locations-zh-CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\ix_geo_develop_done.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\068IXVis\ix_he_backup.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\country_list_speed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\ix.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\071IX2YiWen\region_list_speed.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
