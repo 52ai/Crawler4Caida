@@ -109,13 +109,12 @@ def generate_ix_rel():
     基于PEERING DB数据抽取ix和net的对应关系
     :return:
     """
-    # as2country, as2info = gain_as2country()
     as2info = gain_as2info_pdb()
     ix2info = gain_ix2info_pdb()
 
     # html = urlopen(r"https://www.peeringdb.com/api/netixlan")
     # html_json = json.loads(html.read())
-    with open("../000LocalData/IXVis/netixlan.json") as json_file:
+    with open("../000LocalData/IXVis/netixlan20230408.json") as json_file:
         html_json = json.load(json_file)
     ix_list = []  # 存储ix的信息（ix_id, name）
     as_list = []  # 存储as的信息（net_id, asn）

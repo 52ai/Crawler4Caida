@@ -137,6 +137,13 @@ def ix_view():
 
     match_rel_list = set(all_rel_list).intersection(set(as_rel_list))
     print("2) 推断关系对与实际观测关系对相配的as rel数量：", len(match_rel_list), ", 占实际观测关系数量比：", round(len(match_rel_list)/len(as_rel_list), 4))
+    match_rel_result = []
+    for match_item in match_rel_list:
+        match_item = match_item.strip().split("-")
+        match_rel_result.append(match_item)
+        # print(match_item)
+    save_file = "./match_rel_result.csv"
+    write_to_csv(match_rel_result, save_file)
 
 
 if __name__ == "__main__":
