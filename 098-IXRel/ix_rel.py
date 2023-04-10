@@ -103,7 +103,7 @@ def ix_view():
         all_rel_cnt += rel_cnt
 
         temp_line = [ix_id, ix_name, open_cnt, selective_cnt, union_cnt, rel_cnt]
-        # print(temp_line)
+        print(temp_line)
 
         open_list = list(set(ix2as_dict[ix_id]["open"]))
         for i in range(0, len(open_list)):
