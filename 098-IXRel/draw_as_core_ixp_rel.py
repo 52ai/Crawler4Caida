@@ -129,7 +129,7 @@ def draw_polar_map(as_info, open_file, year_str):
 
     for item in radius_list:
         if item < max_radius * 0.2:
-            area_list.append(8)
+            area_list.append(4)
             lw_list.append(0.1)
             # c_color_list.append([float(200/256), float(100/256), float(100/256)])
             c_color_list.append([float(256 / 256), float(256 / 256), float(256 / 256)])
@@ -138,7 +138,7 @@ def draw_polar_map(as_info, open_file, year_str):
             if as_info[index_cnt][8] == "CN":
                 cn_index.append(index_cnt)
         elif item < max_radius * 0.4:
-            area_list.append(6)
+            area_list.append(3)
             lw_list.append(0.1)
             # c_color_list.append([float(224.0/256), float(200.0/256), float(41.0/256)])
             c_color_list.append([float(256 / 256), float(256 / 256), float(256 / 256)])
@@ -146,7 +146,7 @@ def draw_polar_map(as_info, open_file, year_str):
             if as_info[index_cnt][8] == "CN":
                 cn_index.append(index_cnt)
         elif item < max_radius * 0.6:
-            area_list.append(4)
+            area_list.append(2)
             lw_list.append(0.1)
             # c_color_list.append([float(100/256), float(100/256), float(200/256)])
             c_color_list.append([float(256 / 256), float(256 / 256), float(256 / 256)])
@@ -154,7 +154,7 @@ def draw_polar_map(as_info, open_file, year_str):
             if as_info[index_cnt][8] == "CN":
                 cn_index.append(index_cnt)
         else:
-            area_list.append(2)
+            area_list.append(1)
             lw_list.append(0.1)
             c_color_list.append([float(256/256), float(256/256), float(256/256)])
             z_order_list.append(1)
@@ -183,7 +183,7 @@ def draw_polar_map(as_info, open_file, year_str):
         p2 = coordinate_dic.get(line[1])
         if p1 and p2:
 
-            line_width = 0.02
+            line_width = 0.01
             line_color = [float(145/256), float(102/256), float(210/256)]
             alpha_value = 1
             z_order_value = 1
@@ -223,8 +223,8 @@ def draw_polar_map(as_info, open_file, year_str):
             p2 = coordinate_dic.get(item[1])
             if p1 and p2:
                 z_order_value = 1
-                line_width = 0.02
-                alpha_value = 0.7
+                line_width = 0.01
+                alpha_value = 0.5
                 line_color = [float(62/256), float(132/256), float(132/256)]
                 ax.plot([p1[0], p2[0]], [p1[1], p2[1]], linewidth=line_width, alpha=alpha_value, color=line_color,
                         zorder=z_order_value, )
