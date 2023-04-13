@@ -5,7 +5,6 @@ create on Apr 8, 2023 By Wayne YU
 Function:
 
 统计全球通过IX产生的网络互联关系数量
-
 根据https://www.peeringdb.com/api/netixlan
 抽取ix和net的对应关系，依据AS接入的方式open或者selective，生成网络互联关系
 
