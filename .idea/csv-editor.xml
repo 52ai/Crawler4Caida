@@ -80,34 +80,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\098-IXRel\as_core_map_statistics_info.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="|" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\098-IXRel\match_rel_result.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\098-IXRel\topas20CN_2022.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="|" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\098-IXRel\topas20Global_2022.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="|" />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\099StarlinkOutage\feed.csv">
           <value>
             <Attribute>
