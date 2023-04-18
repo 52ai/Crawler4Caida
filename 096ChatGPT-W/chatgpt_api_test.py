@@ -53,7 +53,7 @@ print("Start testing ChatGPT API")
 api_url = 'https://api.openai.com/v1/engines/text-davinci-003/completions'
 
 # 输入的文本
-prompt = "How to install Shadowsocks in Ubuntu?"
+prompt = "科技创新任职人员的正向行为，请给出10条。"
 print("问题：", prompt)
 
 # 调用API接口并获取响应
