@@ -61,7 +61,7 @@ def analysis(open_file):
     print(open_file)
     # 处理文件名，提取日期信息
     temp_str = open_file.split('\\')[-1]
-    date_str = temp_str.split(".")[0]
+    date_str = temp_str.split(".")[0][0:4]
     file_read = open(open_file, 'r', encoding='utf-8')
     as_list = []  # 存储当前时间，全部有连接关系的AS
     for line in file_read.readlines():
@@ -107,7 +107,7 @@ def draw(x_list_in, y_list_in, save_name_in):
     #                'weight': 'normal',
     #                'size': 28
     #                }
-    tick_spacing = 14
+    tick_spacing = 4
     # title_string = "全球互联网网络数量增长趋势（19980101-20191201） "
     # ax.set_title(title_string, font)
     ax.plot(x_list_in, y_list_in, ls='-')
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     active_as = []  # 记录活跃的as号
     file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
+    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-5"):
         for file_item in files:
             file_path.append(os.path.join(root, file_item))
     # print(file_path)

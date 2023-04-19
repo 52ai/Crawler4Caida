@@ -69,7 +69,7 @@ def analysis(open_file):
     """
     as2country = gain_as2country_caida()  # 获取每个AS的country信息
     file_read = open(open_file, 'r', encoding='utf-8')
-    date_str = str(open_file.split('\\')[-1]).split('.')[0]
+    date_str = str(open_file.split('\\')[-1]).split('.')[0][0:4]
     edge_cnt = 0
     peer_cnt = 0
     transit_cnt = 0
@@ -156,7 +156,7 @@ def draw(data_list):
                    'weight': 'normal',
                    'size': 36
                    }
-    tick_spacing = 14
+    tick_spacing = 4
     # ax.set_title("全球互联网BGP互联趋势分析(19980101-20221001)", font)
     ax.plot(draw_date, edge_list, ls='-', marker='.', label='overall relationships')
     ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='national relationships')
@@ -177,7 +177,7 @@ def draw(data_list):
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     file_path = []
-    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-1"):
+    for root, dirs, files in os.walk("..\\000LocalData\\as_relationships\\serial-5"):
         for file_item in files:
             # print(os.path.join(root, file_item))
             file_path.append(os.path.join(root, file_item))
