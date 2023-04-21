@@ -6,7 +6,6 @@ Function: 统计两个口径TOP AS的交集
 
 """
 
-import csv
 
 cn_topn_as_list = []
 cnt = 1
