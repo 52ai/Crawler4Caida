@@ -5,8 +5,6 @@ create on Apr 21, 2023 By Wayne YU
 Function: 统计两个口径TOP AS的交集
 
 """
-
-
 cn_topn_as_list = []
 cnt = 1
 with open("../000LocalData/ReCNNIC/cn_as.csv", "r", encoding="gbk") as f:
