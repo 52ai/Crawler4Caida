@@ -163,7 +163,7 @@ def draw(data_list):
     ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='transnational relationships')
     ax.plot(draw_date, peer_list, ls=':', marker='+', label='peering relationships')
     ax.plot(draw_date, transit_list, ls='-.', marker='+', label='transit relationships')
-    ax.set_xlabel('Time of estimation', font)
+    ax.set_xlabel('Time of estimation (Year)', font)
     ax.set_ylabel('Interconnected relationship', font)
     ax.legend(prop=font_legend)
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))

@@ -19,7 +19,6 @@ NTT, 2914
 联通，4837
 
 Edition:
-
 为地图基础课题第一篇论文输出，重新绘图，使得排版更加的美观
 绘制的时间修改为19980101-20191201
 
@@ -136,9 +135,7 @@ if __name__ == "__main__":
     # as_analysis = ["32787", "13335", "54994", "63541",
     #                "16509", "8075", "15169", "37963", "45102", "45090", "132203", "38365", "55967",
     #                "4134", "4837", "7018", "701", "2914"]
-    as_analysis = ["4134", "4809", "23764",
-                   "9808", "58453",
-                   "4837", "9929", "10099"]
+    as_analysis_list = ["4134", "4809", "23764", "9808", "58453", "4837", "9929", "10099"]
     # file_path = ["../000LocalData/as_relationships/20151201.as-rel2.txt",
     #              "../000LocalData/as_relationships/20160901.as-rel2.txt",
     #              "../000LocalData/as_relationships/20170901.as-rel2.txt",
@@ -152,7 +149,7 @@ if __name__ == "__main__":
     print(file_path)
     result_list = []
     date_list = []
-    for as_item in as_analysis:
+    for as_item in as_analysis_list:
         for path_item in file_path:
             result_list.append(analysis(path_item, as_item))
             # print(result_list)
