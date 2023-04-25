@@ -93,7 +93,7 @@ def draw(x_list_in, y_list_in, save_name_in):
     :return:
     """
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
-    plt.xticks(rotation=32)
+    plt.xticks(rotation=45)
     plt.tick_params(labelsize=32)
     # plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
     font = {'family': 'Times New Roman',
@@ -107,11 +107,11 @@ def draw(x_list_in, y_list_in, save_name_in):
     #                'weight': 'normal',
     #                'size': 28
     #                }
-    tick_spacing = 4
+    tick_spacing = 1
     # title_string = "全球互联网网络数量增长趋势（19980101-20191201） "
     # ax.set_title(title_string, font)
     ax.plot(x_list_in, y_list_in, ls='-')
-    ax.set_xlabel('Time of estimation', font)
+    ax.set_xlabel('Time of estimation (Year)', font)
     ax.set_ylabel('Number of networks', font)
     # ax.legend(prop=font_legend)
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))

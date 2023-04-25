@@ -142,7 +142,7 @@ def draw(data_list):
         outer_rel_list.append(int(item[5]))
 
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
-    plt.xticks(rotation=32)
+    plt.xticks(rotation=45)
     plt.tick_params(labelsize=32)
     # plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
     font = {'family': 'Times New Roman',
@@ -156,7 +156,7 @@ def draw(data_list):
                    'weight': 'normal',
                    'size': 36
                    }
-    tick_spacing = 4
+    tick_spacing = 1
     # ax.set_title("全球互联网BGP互联趋势分析(19980101-20221001)", font)
     ax.plot(draw_date, edge_list, ls='-', marker='.', label='overall relationships')
     ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='national relationships')
