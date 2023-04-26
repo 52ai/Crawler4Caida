@@ -160,7 +160,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\own_graph\pm-data-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.04-Country_rel">
+  <component name="RunManager" selected="Python.bgp_analysis_as">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="top_as_intersection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bgp_analysis_as" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/097ReCNNIC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100CNISP_Rel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/097ReCNNIC/top_as_intersection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100CNISP_Rel/bgp_analysis_as.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,17 +285,17 @@
     <list>
       <item itemvalue="Python.04-Country_rel" />
       <item itemvalue="Python.IXP-View" />
-      <item itemvalue="Python.top_as_intersection" />
       <item itemvalue="Python.01-Global_as" />
       <item itemvalue="Python.02-Global_rel" />
+      <item itemvalue="Python.bgp_analysis_as" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bgp_analysis_as" />
         <item itemvalue="Python.04-Country_rel" />
         <item itemvalue="Python.02-Global_rel" />
         <item itemvalue="Python.01-Global_as" />
         <item itemvalue="Python.IXP-View" />
-        <item itemvalue="Python.top_as_intersection" />
       </list>
     </recent_temporary>
   </component>
