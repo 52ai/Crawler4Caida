@@ -24,7 +24,6 @@ Edition:
 绘制的时间修改为19980101-20191201
 
 # 20230419
-
 统计CN ISP自1998-2022的网络连通度变化情况
 
 电信：AS4134、AS4809、AS23764
@@ -34,9 +33,9 @@ Edition:
 
 import os
 import matplotlib.pyplot as plt
-import numpy as np
+# import numpy as np
 import matplotlib.ticker as ticker
-import time
+# import time
 
 
 def analysis(open_file, as_analysis):
@@ -71,7 +70,7 @@ def analysis(open_file, as_analysis):
         # if edge_cnt > 1000:
         #     break
 
-    return edge_cnt, peer_cnt, transit_provider_cnt + transit_customer_cnt,transit_provider_cnt, transit_customer_cnt
+    return edge_cnt, peer_cnt, transit_provider_cnt + transit_customer_cnt, transit_provider_cnt, transit_customer_cnt
 
 
 def draw(draw_date, data_list, as_analysis):
@@ -79,9 +78,10 @@ def draw(draw_date, data_list, as_analysis):
     对传入的数据进行绘图
     :param draw_date:
     :param data_list:
+    :param as_analysis:
     :return:
     """
-    dt = 1
+    # dt = 1
     # t = np.arange(0, len(draw_date), dt)
     edge_list = []
     peer_list = []
