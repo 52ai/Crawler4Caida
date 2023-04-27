@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\ReCNNIC\Country-Locations-Group - ReCNNIC.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\ReCNNIC\cn_as_top100_isp.csv">
           <value>
             <Attribute>
