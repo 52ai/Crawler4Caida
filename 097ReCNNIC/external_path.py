@@ -112,7 +112,7 @@ def rib_analysis(rib_file):
     :return:
     """
     as2country_dic = gain_as2country_caida()
-    as2org_dic = gain_as2org_caida()
+    # as2org_dic = gain_as2org_caida()
     global_as_ip_dict, group_country_dict = gain_topn_as_list()
 
     file_read = open(rib_file, 'r', encoding='utf-8')
