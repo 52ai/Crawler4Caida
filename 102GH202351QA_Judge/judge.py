@@ -20,22 +20,22 @@ import re
 
 
 answer_dic = {
-    "A":["D", "C", "C", "D", "C",
-            "C", "C", "B", "C", "C",
-            "B", "C", "D", "C", "ABCDE",
-            "ABCDE", "ABCDE", "ABCDE", "ACDE", "ABCEF"],
-    "B":["A", "B", "B", "C", "D",
-            "C", "D", "B", "C", "B",
-            "B", "B", "A", "C", "BCED",
-            "BCDEF", "ABCDE", "ABDEF", "ABDE", "ABCDE"],
-    "C":["D", "C", "C", "C", "C",
-            "B", "C", "C", "B", "C",
-            "D", "C", "D", "C", "ABCD",
-            "ABCEF", "ABCDF", "ABCDE", "ABCDE", "BCDE"],
-    "D":["C", "C", "A", "C", "B",
-            "C", "C", "D", "C", "B",
-            "B", "B", "D", "D", "BCDE",
-            "BCDEF", "ABCDE", "ABDEF", "ABDE", "ABCDE"],
+    "A": ["D", "C", "C", "D", "C",
+          "C", "C", "B", "C", "C",
+          "B", "C", "D", "C", "ABCDE",
+          "ABCDE", "ABCDE", "ABCDE", "ACDE", "ABCEF"],
+    "B": ["A", "B", "B", "C", "D",
+          "C", "D", "B", "C", "B",
+          "B", "B", "A", "C", "BCDE",
+          "BCDEF", "ABCDE", "ABDEF", "ABDE", "ABCDE"],
+    "C": ["D", "C", "C", "C", "C",
+          "B", "C", "C", "B", "C",
+          "D", "C", "D", "C", "ABCD",
+          "ABCEF", "ABCDF", "ABCDE", "ABCDE", "BCDE"],
+    "D": ["C", "C", "A", "C", "B",
+          "C", "C", "D", "C", "B",
+          "B", "B", "D", "D", "BCDE",
+          "BCDEF", "ABCDE", "ABDEF", "ABDE", "ABCDE"],
 
 }
 
@@ -61,7 +61,7 @@ def judge(answer_file):
         print("答题人：", name)
         cols_cnt = 0
         scores = 0
-        for item_answer in row[5:]:
+        for item_answer in row[5:25]:
             gain_answer = re.findall('[a-zA-Z]', item_answer.value)
             gain_answer = "".join(gain_answer)
             # print("试卷选择：", gain_answer)
