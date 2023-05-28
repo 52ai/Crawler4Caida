@@ -456,7 +456,7 @@ if __name__ == "__main__":
     time_start = time.time()  # 记录启动时间
     as_core_map_info = []
     temp_list = []
-    for year_string in range(2020, 2022, 1):
+    for year_string in range(2020, 2023, 1):
         file_in = '..\\000LocalData\\as_map\\as_core_map_data_new' + str(year_string) + '1001.csv'
         file_read = open(file_in, 'r', encoding='utf-8')
         file_in_list = []

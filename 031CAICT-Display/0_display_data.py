@@ -84,7 +84,7 @@ def bgp_analysis():
         temp_save.extend(result_list[i])
         bgp_analysis_result.append(temp_save)
         temp_save = []
-    bgp_analysis_save = "../000LocalData/caict_display/bgp_analysis_result_21years.csv"
+    bgp_analysis_save = "../000LocalData/caict_display/bgp_analysis_result_all_years.csv"
     write_to_csv(bgp_analysis_result, bgp_analysis_save)  # 写CSV文件
 
 
