@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_geo\as_org_info.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\ix_geo_develop_done.csv">
           <value>
             <Attribute>
