@@ -137,7 +137,8 @@ def draw(data_list, country):
         outer_rel_list.append(int(item[5]))
 
     fig, ax = plt.subplots(1, 1, figsize=(19.2, 10.8))
-    plt.xticks(rotation=32)
+    plt.xticks(rotation=45)
+    plt.yticks(rotation=45)
     plt.tick_params(labelsize=32)
     # plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
     font = {'family': 'Times New Roman',
@@ -152,12 +153,13 @@ def draw(data_list, country):
                    'size': 36
                    }
     tick_spacing = 15
+    ms_value = 6
     # ax.set_title("BGP互联趋势分析(19980101-20221001)", font)
-    ax.plot(draw_date, edge_list, ls='-', marker='.', label='overall relationships')
-    ax.plot(draw_date, inner_rel_list, ls='-.', marker='.', label='national relationships')
-    ax.plot(draw_date, outer_rel_list, ls='-.', marker='.', label='transnational relationships')
-    ax.plot(draw_date, peer_list, ls=':', marker='+', label='peering relationships')
-    ax.plot(draw_date, transit_list, ls='-.', marker='+', label='transit relationships')
+    ax.plot(draw_date, edge_list, ls='-', marker='.', ms=ms_value, label='overall relationships')
+    ax.plot(draw_date, inner_rel_list, ls='-.', marker='D', ms=ms_value, label='national relationships')
+    ax.plot(draw_date, outer_rel_list, ls='-.', marker='s', ms=ms_value, label='transnational relationships')
+    ax.plot(draw_date, peer_list, ls=':', marker='v', ms=ms_value, label='peering relationships')
+    ax.plot(draw_date, transit_list, ls='-.', marker='^', ms=ms_value, label='transit relationships')
     ax.set_xlabel('Time of estimation (Year)', font)
     ax.set_ylabel('Interconnected relationship', font)
     ax.legend(prop=font_legend)
