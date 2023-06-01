@@ -83,8 +83,10 @@ def draw():
     # plt.suptitle('TOP 40 BGP Networks Trends (1998-2022)', fontsize=20)
     # fig.tight_layout()
     # plt.xticks(rotation=32)
-    save_path_fig = f"..\\000LocalData\\Paper_Data_Third\\07_CountryAll_as_1_picture.png"
-    plt.savefig(save_path_fig, dpi=600)
+    save_path_fig1 = f"..\\000LocalData\\Paper_Data_Third\\07_CountryAll_as_1_picture.png"
+    save_path_fig2 = f"..\\000LocalData\\Paper_Data_Third\\07_CountryAll_as_1_picture.svg"
+    plt.savefig(save_path_fig1, bbox_inches='tight', pad_inches=0, dpi=900)
+    plt.savefig(save_path_fig2, bbox_inches='tight', pad_inches=0, dpi=900)
     plt.close()
 
 
