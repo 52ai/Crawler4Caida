@@ -73,7 +73,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 参差多态，乃是幸福本源。---20221208 By Wenyan YU<br>
 创造更多的优质连接。---20230117 By Wenyan YU<br>
 书读百遍，其义自见；剧看百遍，其言自通。---20230314 By Wenyan YU<br>
-
+主线任务要深耕，支线任务随机应变、尽力而为。---20230606 By Wenyan YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
