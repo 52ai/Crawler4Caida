@@ -29,6 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a002b5-7b87-410b-bc3d-67d5e639eda9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/076Streamlit/test_big_screen.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/pixel_demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/composer_fly_150.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/images/go_fly_150.gif" afterDir="false" />
@@ -55,9 +56,51 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/archive_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/USA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/countries.geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/disk.tree.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/drink-flavors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/flare.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/les-miserables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/life-expectancy-table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/data/product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/boxplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/calendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/candlestick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/gauge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/heatmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/pictorial_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/pie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/radar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/sankey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/sunburst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/themeriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_echarts/treemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_pyecharts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_pyecharts/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_pyecharts/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_pyecharts/line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_pyecharts/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/demo_pyecharts/pie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103ST_echarts/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/cache/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/cache/screenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/us_as_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -124,20 +167,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/100CNISP_Rel&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "D:/Code/Crawler4Caida/103ST_echarts",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Crawler4Caida" is-module-sdk="true">
@@ -148,11 +191,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\103ST_echarts" />
       <recent name="D:\Code\Crawler4Caida\100CNISP_Rel" />
       <recent name="D:\Code\Crawler4Caida\099StarlinkOutage" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\BGPData\message_live" />
       <recent name="D:\Code\Crawler4Caida\098-IXRel" />
-      <recent name="D:\Code\Crawler4Caida\097ReCNNIC" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\000LocalData\Support4WZF" />

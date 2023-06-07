@@ -66,6 +66,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\015BGPAnalysis\data\countries_asns_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\015BGPAnalysis\data\countries_asns_CN_copy.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\ix_geo_develop_done.csv">
           <value>
             <Attribute>
@@ -74,6 +88,13 @@
           </value>
         </entry>
         <entry key="\068IXVis\ix_he_backup.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\069IX-ROOT&amp;TLDs\tlds_result_rt - raw.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -95,6 +116,13 @@
           </value>
         </entry>
         <entry key="\071IX2YiWen\region_list_speed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\081TW_Analysis\country_as_list.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
