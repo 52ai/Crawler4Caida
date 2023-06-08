@@ -283,9 +283,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.07-Country_as_1_picture" />
       <item itemvalue="Python.02-Global_rel" />
       <item itemvalue="Python.04-Country_rel" />
+      <item itemvalue="Python.07-Country_as_1_picture" />
       <item itemvalue="Python.1_internal_as_rel" />
       <item itemvalue="Python.5_all_as_rel" />
     </list>
