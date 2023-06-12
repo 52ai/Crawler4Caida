@@ -84,3 +84,5 @@ graphistry~=0.27.3
 seaborn~=0.12.1
 shadowsocks~=2.8.2
 openai~=0.26.5
+tcping~=0.1.1rc1
+ping3~=4.0.4
