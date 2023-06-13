@@ -7,8 +7,6 @@ Function:
 
 """
 from ping3 import ping, verbose_ping
-import csv
-from datetime import *
 import time
 
 
