@@ -85,3 +85,4 @@ openai~=0.26.5
 ping3~=4.0.4
 icmplib~=3.0.3
 mtrpacket~=1.0.0
+scapy~=2.5.0

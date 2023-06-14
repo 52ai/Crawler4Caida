@@ -37,4 +37,3 @@ for hop in hops:
     # See the Hop class for details
     print(f'{hop.distance}    {hop.address}    {hop.avg_rtt} ms')
     last_distance = hop.distance
-
