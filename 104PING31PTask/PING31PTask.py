@@ -6,8 +6,11 @@ Function:
 开发31省三家运营商PING测试探针程序
 
 """
-from ping3 import ping, verbose_ping
+from ping3 import ping
 import time
+from ipdb import City
+import requests
+import re
 
 
 def gain_ip_list():
@@ -30,14 +33,28 @@ if __name__ == '__main__':
     time_str = time.strftime(time_format, time.localtime())
     print("=======>启动探测：", time_str)
 
-    result_list = []
-    for line in gain_ip_list():
-        temp_line = []
-        delay = ping(line[-1], timeout=1, size=100)
-        temp_line.append(time.strftime(time_format, time.localtime()))
-        temp_line.extend(line)
-        temp_line.append(delay)
-        print(temp_line)
+    db = City("../000LocalData/ipdb/caict_ipv4.ipdb")
+    print("ipdb.build.time:", db.build_time())
 
+    # 获取公网IP地址
+    req = requests.get("http://txt.go.sohu.com/ip/soip")
+    ip_public = re.findall(r'\d+.\d+.\d+.\d+', req.text)[0]
+
+    print("Public IP:", ip_public, db.find(ip_public, "CN"))
+
+    iter_cnt = 1
+    iter_cnt_max = 3
+    while iter_cnt_max:
+        for line in gain_ip_list():
+            temp_line = []
+            # print(db.find(line[-1], "CN"))
+            delay = ping(line[-1], timeout=1, size=100)
+            temp_line.append(iter_cnt)
+            temp_line.append(ip_public)
+            temp_line.append(time.strftime(time_format, time.localtime()))
+            temp_line.extend(line)
+            temp_line.append(delay)
+            print(temp_line)
+        iter_cnt += 1
+        iter_cnt_max -= 1
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
-

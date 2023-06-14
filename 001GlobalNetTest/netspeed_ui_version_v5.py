@@ -7,7 +7,7 @@
 from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
-import tkinter.filedialog
+# import tkinter.filedialog
 from tkinter import ttk
 import pandas as pd
 
@@ -16,7 +16,7 @@ import threading
 import time
 import re
 import csv
-import socket
+# import socket
 
 import requests
 
@@ -113,8 +113,8 @@ def run_ping_group(self, run_index):
         # print("本组测试平均时延(", ip_str, ")：", re.findall('\d+ms', str_ret)[-1])
 
         try:
-            loss_rate = re.findall('\d+%', str_ret)[0]
-            time_delay = re.findall('\d+ms', str_ret)[-1]
+            loss_rate = re.findall(r'\d+%', str_ret)[0]
+            time_delay = re.findall(r'\d+ms', str_ret)[-1]
 
         except IndexError:
             loss_rate = "NONE"
@@ -189,7 +189,7 @@ def main_run(self):
     threads = []  # 存储进程
     item_index = 0
     for item in ip_info_threading:
-        # print(item)
+        print(item)
         threads.append(threading.Thread(target=run_ping_group, args=(self, item_index,)))
         item_index += 1
 
@@ -217,7 +217,7 @@ def main_run(self):
     # 写企业日志文件
     company_log_str = "%s, %s, %s" % ("-", "-", "-")
     company_log_list.append(company_log_str + "\n")
-    company_log_str = "%s, %s, %s" % (self.e1.get(), self.e2.get(), str(self.ip_public ))
+    company_log_str = "%s, %s, %s" % (self.e1.get(), self.e2.get(), str(self.ip_public))
     company_log_list.append(company_log_str + "\n")
 
     # print("=>WRITE company_log")
@@ -266,8 +266,8 @@ def ip_test_run_thread(self, run_item):
     ret = ftp_sub.stdout.read()
     str_ret = ret.decode('gbk')
     try:
-        loss_rate = re.findall('\d+%', str_ret)[0]
-        time_delay = re.findall('\d+ms', str_ret)[-1]
+        loss_rate = re.findall(r'\d+%', str_ret)[0]
+        time_delay = re.findall(r'\d+ms', str_ret)[-1]
 
     except IndexError:
         str_invalid_country = "=>" + run_item[0]
@@ -321,7 +321,7 @@ class App:
 
         # 获取公网IP地址
         req = requests.get("http://txt.go.sohu.com/ip/soip")
-        self.ip_public = re.findall('\d+.\d+.\d+.\d+', req.text)[0]
+        self.ip_public = re.findall(r'\d+.\d+.\d+.\d+', req.text)[0]
 
         # 用三个LabelFrame将TopView分为三个区
         # 部区域
