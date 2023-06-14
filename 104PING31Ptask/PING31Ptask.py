@@ -19,7 +19,7 @@ def gain_ip_list():
     :return ip_list:
     """
     ip_list = []
-    ip_file = "../000LocalData/104PING31PTask/ip_info_file.csv"
+    ip_file = "../000LocalData/104PING31Ptask/ip_info_file.csv"
     with open(ip_file, "r", encoding="gbk") as f:
         for item in f.readlines()[1:]:
             ip_list.append(item.strip().split(","))
