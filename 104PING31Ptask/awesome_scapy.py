@@ -12,7 +12,8 @@ import sys
 from scapy.all import sr, sr1, IP, ICMP
 
 ans, unans = sr(IP(dst='111.8.18.2')/ICMP())
-ans.summary(lambda s,r : r.sprintf("%IP.src% is alive") )
+ans.summary(lambda s, r: r.sprintf("%IP.src% is alive"))
+unans.show()
 
 
 
