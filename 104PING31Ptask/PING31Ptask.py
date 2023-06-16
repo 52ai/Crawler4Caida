@@ -11,6 +11,9 @@ import time
 from ipdb import City
 import requests
 import re
+import json
+from websocket import create_connection
+import requests
 
 
 def gain_ip_list():
@@ -43,7 +46,7 @@ if __name__ == '__main__':
     print("Public IP:", ip_public, db.find(ip_public, "CN"))
 
     iter_cnt = 1
-    iter_cnt_max = 3
+    iter_cnt_max = 100
     while iter_cnt_max:
         for line in gain_ip_list():
             temp_line = []
@@ -55,6 +58,29 @@ if __name__ == '__main__':
             temp_line.extend(line)
             temp_line.append(delay)
             print(temp_line)
+
+            # ws = create_connection("ws://123.126.105.167:38094/websocket/onMsg")
+            # ws.send(json.dumps({"body": temp_line}))
+            # result = ws.recv()
+            # print(result)
+            # ws.close()
+
+            url = 'http://123.126.105.167:38094/websocket/onMsg'
+            send_obj = {"body": str(temp_line)}
+            print(send_obj)
+            post_headers = {'Content-Type': 'application/json', "Accept": "*/*"}
+            sr = requests.post(url, data=json.dumps(send_obj), headers=post_headers)
+            print("--------------------------------------")
+            print(sr.text)
+
+            # send_obj = {"body": str(temp_line)}
+            # print(send_obj)
+
+            # post_headers = {'Content-Type': 'application/json', "Accept": "*/*"}
+            # r = requests.post('http://123.126.105.167:38094/websocket/onMsg', data=json.dumps(send_obj), headers=post_headers)
+            # print("--------------------------------------")
+            # print(r.text)
+
         iter_cnt += 1
         iter_cnt_max -= 1
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
