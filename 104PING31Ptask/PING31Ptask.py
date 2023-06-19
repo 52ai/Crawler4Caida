@@ -46,32 +46,39 @@ if __name__ == '__main__':
     print("Public IP:", ip_public, db.find(ip_public, "CN"))
 
     iter_cnt = 1
-    iter_cnt_max = 100
+    iter_cnt_max = 1000
     while iter_cnt_max:
         for line in gain_ip_list():
             temp_line = []
             # print(db.find(line[-1], "CN"))
-            delay = ping(line[-1], timeout=1, size=100)
-            temp_line.append(iter_cnt)
-            temp_line.append(ip_public)
-            temp_line.append(time.strftime(time_format, time.localtime()))
-            temp_line.extend(line)
-            temp_line.append(delay)
-            print(temp_line)
+            try:
+                delay = ping(line[-1], timeout=1, size=100)
+                temp_line.append(iter_cnt)
+                temp_line.append(ip_public)
+                temp_line.append(time.strftime(time_format, time.localtime()))
+                temp_line.extend(line)
+                temp_line.append(delay)
+                print(temp_line)
 
-            # ws = create_connection("ws://123.126.105.167:38094/websocket/onMsg")
-            # ws.send(json.dumps({"body": temp_line}))
-            # result = ws.recv()
-            # print(result)
-            # ws.close()
+                # ws = create_connection("ws://123.126.105.167:38094/websocket/onMsg")
+                # ws.send(json.dumps({"body": temp_line}))
+                # result = ws.recv()
+                # print(result)
+                # ws.close()
 
-            url = 'http://123.126.105.167:38094/websocket/onMsg'
-            send_obj = {"body": str(temp_line)}
-            print(send_obj)
-            post_headers = {'Content-Type': 'application/json', "Accept": "*/*"}
-            sr = requests.post(url, data=json.dumps(send_obj), headers=post_headers)
-            print("--------------------------------------")
-            print(sr.text)
+                time.sleep(0.5)  # 延时500ms
+                url = 'http://123.126.105.167:38094/websocket/onMsg'
+                send_obj = {"body": str(temp_line)}
+                print(send_obj)
+                post_headers = {'Content-Type': 'application/json', "Accept": "*/*"}
+                sr = requests.post(url, data=json.dumps(send_obj), headers=post_headers)
+                print("--------------------------------------")
+                print(sr.text)
+
+            except Exception as e:
+                print(e)
+                time.sleep(1)
+                continue
 
             # send_obj = {"body": str(temp_line)}
             # print(send_obj)
