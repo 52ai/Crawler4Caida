@@ -5,14 +5,14 @@ Function:
 
 开发31省三家运营商PING测试探针程序
 
+3rd依赖包: ping3、requests、ipip-ipdb
+
 """
 from ping3 import ping
 import time
 from ipdb import City
-import requests
 import re
 import json
-from websocket import create_connection
 import requests
 
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     print("Public IP:", ip_public, db.find(ip_public, "CN"))
 
     iter_cnt = 1
-    iter_cnt_max = 1000
+    iter_cnt_max = 3
     while iter_cnt_max:
         for line in gain_ip_list():
             temp_line = []
@@ -66,7 +66,7 @@ if __name__ == '__main__':
                 # print(result)
                 # ws.close()
 
-                time.sleep(0.5)  # 延时500ms
+                time.sleep(0.01)  # 延时500ms
                 url = 'http://123.126.105.167:38094/websocket/onMsg'
                 send_obj = {"body": str(temp_line)}
                 print(send_obj)

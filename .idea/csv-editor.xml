@@ -66,6 +66,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\as_map\as_core_map_data_new20230101.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\015BGPAnalysis\data\countries_asns_CN.csv">
           <value>
             <Attribute>
