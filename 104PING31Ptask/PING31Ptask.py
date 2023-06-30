@@ -46,7 +46,7 @@ if __name__ == '__main__':
     print("Public IP:", ip_public, db.find(ip_public, "CN"))
 
     iter_cnt = 1
-    iter_cnt_max = 3
+    iter_cnt_max = 1000
     while iter_cnt_max:
         for line in gain_ip_list():
             temp_line = []
@@ -66,7 +66,7 @@ if __name__ == '__main__':
                 # print(result)
                 # ws.close()
 
-                time.sleep(0.01)  # 延时500ms
+                # time.sleep(1)  # 延时500ms
                 url = 'http://123.126.105.167:38094/websocket/onMsg'
                 send_obj = {"body": str(temp_line)}
                 print(send_obj)
