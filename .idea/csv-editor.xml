@@ -73,6 +73,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\010GainWebsiteInfo\deploy\content.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\015BGPAnalysis\data\countries_asns_CN.csv">
           <value>
             <Attribute>

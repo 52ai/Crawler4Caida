@@ -17,13 +17,76 @@ Function:
 2、IPIP地理定位库
 
 三、整体思路
-1、通过域名解析，拿到网站的IP地址，然后通过IPIP地理定位，判断其是否为国内；
-2、对于国内的域名，抓取其首页截图、提取页面关键词（即指纹），然后存档；
+1、通过域名解析(socket、ipwhois、python-whois)，拿到网站的IP地址，然后通过IPIP地理定位(ipip-ipdb)，判断其是否为国内，同时看看时延情况如何；
+2、对于国内的域名，抓取其首页截图(playwright)、提取页面关键词（即指纹），然后存档；
 3、每隔1天，重新抓取，然后逐一判断是否被劫持篡改。
 
 按照上述思路，先出一个MVP（Minimum Viable Product）
 
 """
 
+import socket
+# from ping3 import ping
+from ipdb import City
+import time
+import whois
+import tldextract
+import csv
 
 
+def write_to_csv(res_list, des_path):
+    """
+    把给定的List，写到指定路径的文件中
+    :param res_list:
+    :param des_path:
+    :return: None
+    """
+    print("write file <%s> ..." % des_path)
+    csv_file = open(des_path, 'w', newline='', encoding='utf-8')
+    try:
+        writer = csv.writer(csv_file, delimiter=",")
+        for i in res_list:
+            writer.writerow(i)
+    except Exception as e:
+        print(e)
+    finally:
+        csv_file.close()
+    print("write finish!")
+
+
+def gain_cn_domains():
+    """
+    读取10million域名信息，获取中国域名
+    :return:
+    """
+    top_10_million_domains_file = "../000LocalData/Domains/top10milliondomains.csv"
+    db = City("../000LocalData/ipdb/caict_ipv4.ipdb")
+    print("构建IPIP地理定位数据库库（ipdb.build.time）：", db.build_time())
+
+    print("mryu.top whois country:", whois.whois("mryu.top")["country"])
+    print("mryu.top host ip:", socket.gethostbyname("mryu.top"))
+    print("mryu.top host ip Location Info:", db.find(socket.gethostbyname("mryu.top"), "CN"))
+
+    cn_result_list = []
+    with open(top_10_million_domains_file, 'r', encoding='gbk') as f:
+        line_cnt = 0
+        for line in f.readlines()[1:]:
+            line_cnt += 1  # 统计行数
+            line = line.replace('"', "")  # 替换掉字符串中的双引号
+            line = line.strip().split(",")
+            url_format = tldextract.extract(line[1])
+            if url_format.suffix.find("cn") != -1:
+                # print(line)
+                # print(url_format.suffix)
+                cn_result_list.append(line)
+    save_file = "../000LocalData/106WebPage/cn_domains.csv"
+    write_to_csv(cn_result_list, save_file)
+
+
+if __name__ == '__main__':
+    time_start = time.time()
+    time_format = "%Y%m%d %H:%M:%S"
+    time_str = time.strftime(time_format, time.localtime())
+    print("=======>启动国内域名首页截屏及关键词提取任务：", time_str)
+    gain_cn_domains()
+    print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")

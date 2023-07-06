@@ -86,3 +86,8 @@ ping3~=4.0.4
 icmplib~=3.0.3
 mtrpacket~=1.0.0
 scapy~=2.5.0
+pydig~=0.4.0
+ipwhois~=1.2.0
+whois~=0.9.27
+
+tldextract~=3.4.4

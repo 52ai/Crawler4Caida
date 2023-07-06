@@ -59,6 +59,6 @@ def openai_image():
 
 if __name__ == "__main__":
     time_start = time.time()
-    # openai_text()
-    openai_image()
+    openai_text()
+    # openai_image()
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
