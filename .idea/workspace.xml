@@ -55,6 +55,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -161,7 +162,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\own_graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PING31Ptask">
+  <component name="RunManager" selected="Python.crawler_web_page">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cn_external_analysis_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="crawler_web_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,11 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/079CNNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/106WebPageHijackingDetecting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/079CNNet/cn_external_analysis_v3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +329,19 @@
     <list>
       <item itemvalue="Python.icmplib_demo" />
       <item itemvalue="Python.traceroute_source_code" />
+      <item itemvalue="Python.crawler_web_page" />
       <item itemvalue="Python.cn_external_analysis" />
-      <item itemvalue="Python.cn_external_analysis_v3" />
       <item itemvalue="Python.group_as_external_stas" />
       <item itemvalue="Python.awesome_scapy" />
       <item itemvalue="Python.PING31Ptask" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crawler_web_page" />
         <item itemvalue="Python.PING31Ptask" />
         <item itemvalue="Python.group_as_external_stas" />
         <item itemvalue="Python.awesome_scapy" />
         <item itemvalue="Python.cn_external_analysis" />
-        <item itemvalue="Python.cn_external_analysis_v3" />
       </list>
     </recent_temporary>
   </component>
