@@ -57,6 +57,8 @@ def write_to_csv(res_list, des_path):
 def gain_cn_domains():
     """
     读取10million域名信息，获取中国域名
+    亦可通过whois 域名信息，或者自行爬取，然后判断页面内容是否为中文，方法可以多样
+    将国内域名获取进行解耦，先形成简单可用的系统，交付给领导
     :return:
     """
     top_10_million_domains_file = "../000LocalData/Domains/top10milliondomains.csv"
@@ -76,7 +78,7 @@ def gain_cn_domains():
             line = line.strip().split(",")
             url_format = tldextract.extract(line[1])
             if url_format.suffix.find("cn") != -1:
-                # print(line)
+                print(line)
                 # print(url_format.suffix)
                 cn_result_list.append(line)
     save_file = "../000LocalData/106WebPage/cn_domains.csv"

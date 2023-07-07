@@ -201,7 +201,6 @@ def rib_analysis(rib_file):
     print("US13中断(初步考虑：影响的网络，有一个前缀影响了就算影响了):", us13_rate_as)
 
 
-
 if __name__ == "__main__":
     time_start = time.time()  # 记录启动的时间
     rib_analysis("..\\000LocalData\\BGPData\\rib_live\\rib_2023-01-13_181.txt")

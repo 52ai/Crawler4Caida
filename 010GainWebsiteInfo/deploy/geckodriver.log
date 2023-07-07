@@ -102,3 +102,15 @@ console.error: BroadcastService:
 [GPU 1920, Chrome_ChildThr
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1688695314939	geckodriver	INFO	Listening on 127.0.0.1:12451
+1688695318014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofile2qt6Az"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688695318542	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688695318552	Marionette	INFO	Listening on port 12462
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1688695318906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.worldunionji.com/p/static/js/libs/jquery.min.js?20230607, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1688695341627	Marionette	INFO	Stopped listening on port 12462
+Dynamically enable window occlusion 1
