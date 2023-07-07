@@ -56,25 +56,6 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_10_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_10_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_10_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_10_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_4_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_4_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_4_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_4_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_5_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_8_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -85,8 +66,6 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101ReCNNIC_new/pass_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/101ReCNNIC_new/pass_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page.py" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
