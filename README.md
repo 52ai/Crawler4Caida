@@ -75,6 +75,7 @@ _**懒得再去建库了，入职后所有的Python程序都扔这里面了。--
 书读百遍，其义自见；剧看百遍，其言自通。---20230314 By Wenyan YU<br>
 主线任务要深耕，支线任务随机应变、尽力而为。---20230606 By Wenyan YU<br>
 SCI-3论文已被录用，加油，继续下一篇。---20230620 By Wayne YU<br>
+全力推动非全日制博士攻读计划。---20230711 By Wayne YU<br>
 
 ## 关于CAIDA
 Founded in 1997, the Center for Applied Internet Data Analysis (CAIDA) conducts network research and builds research infrastructure to support large-scale data collection, curation, and data distribution to the scientific research community.<br>
