@@ -55,7 +55,18 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page_async.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/exe_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_2_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_6_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_7_screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/010GainWebsiteInfo/deploy/website_9_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/085ET-GIM/pages/1__政策层地图（Network Policy）.py" beforePathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌵_政策层地图（Network Policy）.py" beforeDir="false" afterPath="$PROJECT_DIR$/085ET-GIM/pages/1__政策层地图（Network Policy）.py" afterPathEscaped="$PROJECT_DIR$/085ET-GIM/pages/1_🌵_政策层地图（Network Policy）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/src/lib/getGraph.js" afterDir="false" />
@@ -66,6 +77,8 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/galaxy/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
     <list id="d54493ed-a63c-4a11-9f67-b78223ee6d02" name="完成RIPE实时数据采集第二版程序" comment="" />
@@ -122,21 +135,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/104PING31Ptask&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "full.screen.before.presentation.mode": "true",
+    "last.edited.regexp": "",
+    "last_opened_file_path": "D:/Code/Crawler4Caida/106WebPageHijackingDetecting",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Crawler4Caida" is-module-sdk="true">
@@ -147,11 +160,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\106WebPageHijackingDetecting" />
+      <recent name="D:\Code\Crawler4Caida\000LocalData\106WebPage\20230714" />
       <recent name="D:\Code\Crawler4Caida\104PING31Ptask" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\104PING31PTask" />
       <recent name="D:\Code\Crawler4Caida\103ST_echarts" />
-      <recent name="D:\Code\Crawler4Caida\100CNISP_Rel" />
-      <recent name="D:\Code\Crawler4Caida\099StarlinkOutage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\000LocalData\104PING31Ptask" />
@@ -161,7 +174,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\own_graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PING31Ptask">
+  <component name="RunManager" selected="Python.crawler_web_page">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,9 +349,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PING31Ptask" />
         <item itemvalue="Python.crawler_web_page" />
         <item itemvalue="Python.gain_website_info_v2" />
+        <item itemvalue="Python.PING31Ptask" />
         <item itemvalue="Python.chatgpt_api_test" />
         <item itemvalue="Python.open_ai_quick_start" />
       </list>

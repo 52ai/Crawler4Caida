@@ -23,6 +23,8 @@ Function:
 
 按照上述思路，先出一个MVP（Minimum Viable Product）
 
+# 20230714 采用并发或异步提高爬取效率
+
 """
 
 import socket
@@ -101,12 +103,13 @@ def gain_website_info():
         # 启动浏览器
         browser = p.firefox.launch(headless=False)
         page = browser.new_page()
-        page.set_default_timeout(10000)
         # 打开国内域名列表文件
         with open(cn_domains_file, "r", encoding="utf-8") as f:
             for line in f.readlines():
+                print("------------------------")
                 line = line.strip().split(",")
                 page_url = "http://" + line[0]
+                print(page_url)
                 time_format_date = "%Y%m%d"
                 time_date_str = time.strftime(time_format_date, time.localtime())
                 data_dir = "../000LocalData/106WebPage/" + time_date_str
@@ -123,20 +126,18 @@ def gain_website_info():
                 # print("html path:", save_path_html)
 
                 if os.path.exists(save_path_png):
-                    # print("Already Crawler, Next!")
+                    print("Already Crawler, Next!")
                     continue
                 try:
-                    print("------------------------")
-                    print(page_url)
                     page.goto(page_url)
-                    page.wait_for_load_state("domcontentloaded")
+                    page.wait_for_load_state("load")
                     page.screenshot(path=save_path_png)
                     page_html = page.content()
                     with open(save_path_html, "w", encoding="utf-8") as f_html:
                         f_html.write(page_html)
                 except Exception as e:
                     print(e)
-                    print("!!!!!!!!!!!!!!!!!!!!!!")
+                    print("!!!!!!!!!!!!!!!!!!!!!!!!")
 
 
 if __name__ == '__main__':

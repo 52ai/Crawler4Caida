@@ -114,3 +114,18 @@ console.error: "Warning: unrecognized command line flag -foreground\n"
 JavaScript warning: https://static.worldunionji.com/p/static/js/libs/jquery.min.js?20230607, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1688695341627	Marionette	INFO	Stopped listening on port 12462
 Dynamically enable window occlusion 1
+1689317768639	geckodriver	INFO	Listening on 127.0.0.1:4415
+1689317771719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileJam2gK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689317772368	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1689317772686	Marionette	INFO	Listening on port 4432
+1689317772913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.worldunionji.com/p/static/js/libs/jquery.min.js?20230607, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1689317778113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689317779920	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689317797253	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689317797347	Marionette	INFO	Stopped listening on port 4432
+Dynamically enable window occlusion 1
