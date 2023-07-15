@@ -23,6 +23,9 @@ Function:
 
 按照上述思路，先出一个MVP（Minimum Viable Product）
 
+# 20230715 采用selenium+firefox实现
+
+
 """
 
 import socket
@@ -32,9 +35,10 @@ import time
 import whois
 import tldextract
 import csv
-from playwright.sync_api import sync_playwright
+# from playwright.sync_api import sync_playwright
 import os
 from urllib.parse import urlparse
+from selenium import webdriver
 
 
 def write_to_csv(res_list, des_path):
@@ -96,48 +100,47 @@ def gain_website_info():
     :return:
     """
     cn_domains_file = "../000LocalData/106WebPage/cn_domains_test.csv"
+    # 启动浏览器
+    driver = webdriver.Firefox()
+    # 打开国内域名列表文件
+    with open(cn_domains_file, "r", encoding="utf-8") as f:
+        for line in f.readlines():
+            line = line.strip().split(",")
+            page_url = "http://" + line[0]
+            time_format_date = "%Y%m%d"
+            time_date_str = time.strftime(time_format_date, time.localtime())
+            data_dir = "../000LocalData/106WebPage/" + time_date_str
+            if not os.path.exists(data_dir):
+                os.makedirs(data_dir)
+                print("Create Directory:", data_dir)
 
-    with sync_playwright() as p:
-        # 启动浏览器
-        # browser = p.firefox.launch(headless=False)
-        browser = p.chromium.launch(headless=False)
-        page = browser.new_page()
-        page.set_default_timeout(20000)
-        # 打开国内域名列表文件
-        with open(cn_domains_file, "r", encoding="utf-8") as f:
-            for line in f.readlines():
-                line = line.strip().split(",")
-                page_url = "http://" + line[0]
-                time_format_date = "%Y%m%d"
-                time_date_str = time.strftime(time_format_date, time.localtime())
-                data_dir = "../000LocalData/106WebPage/" + time_date_str
-                if not os.path.exists(data_dir):
-                    os.makedirs(data_dir)
-                    print("Create Directory:", data_dir)
+            domain_name = urlparse(page_url).netloc.strip("www.")
+            site_str = domain_name.replace(".", "_")
+            save_path_png = data_dir + "/" + site_str + "_" + time.strftime(time_format_date, time.localtime()) + ".png"
+            save_path_html = data_dir + "/" + site_str + "_" + time.strftime(time_format_date, time.localtime()) + ".html"
 
-                domain_name = urlparse(page_url).netloc.strip("www.")
-                site_str = domain_name.replace(".", "_")
-                save_path_png = data_dir + "/" + site_str + ".png"
-                save_path_html = data_dir + "/" + site_str + ".html"
+            # print("png path:", save_path_png)
+            # print("html path:", save_path_html)
 
-                # print("png path:", save_path_png)
-                # print("html path:", save_path_html)
+            if os.path.exists(save_path_png):
+                # print("Already Crawler, Next!")
+                continue
+            try:
+                print("------------------------")
+                print(page_url)
+                # 访问统一格式之后的网址
+                driver.get(page_url)
+                # 获取网站截图，并保存到本地
+                driver.save_screenshot(save_path_png)
+                page_html = driver.page_source
+                with open(save_path_html, "w", encoding="utf-8") as f_html:
+                    f_html.write(page_html)
+            except Exception as e:
+                print(e)
+                print("!!!!!!!!!!!!!!!!!!!!!!")
 
-                if os.path.exists(save_path_png):
-                    # print("Already Crawler, Next!")
-                    continue
-                try:
-                    print("------------------------")
-                    print(page_url)
-                    page.goto(page_url)
-                    page.wait_for_load_state("load")
-                    page.screenshot(path=save_path_png)
-                    page_html = page.content()
-                    with open(save_path_html, "w", encoding="utf-8") as f_html:
-                        f_html.write(page_html)
-                except Exception as e:
-                    print(e)
-                    print("!!!!!!!!!!!!!!!!!!!!!!")
+        # 关闭浏览器
+        driver.quit()
 
 
 if __name__ == '__main__':

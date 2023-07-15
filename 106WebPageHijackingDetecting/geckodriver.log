@@ -1,0 +1,79 @@
+1689384438346	geckodriver	INFO	Listening on 127.0.0.1:6020
+1689384465070	geckodriver	INFO	Listening on 127.0.0.1:6043
+1689384468127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ieefls\\AppData\\Local\\Temp\\rust_mozprofileZxkkmf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689384469026	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1689384471162	Marionette	INFO	Listening on port 6051
+1689384471602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: https://statics.itc.cn/fasttpl/pchome/prod/ClientJs/20237111738/main-1a5942c329.js, line 2: TypeError: r is undefined
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript warning: https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,secdev/sufei_data/3.8.7/index.js, line 6: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.7/et_n.js, line 2: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.65.1/et_n.pre.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.65.1/et_n.pre.js, line 2: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.65.1/et_n.pre.js, line 7: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/fireyejs/1.226.0/fireyejs.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gias.jd.com/js/pc-tk.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gias.jd.com/js/pc-tk.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gias.jd.com/js/td.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://h5.360buyimg.com/ws_js/jdwebm.js?v=pcHome, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://h5.360buyimg.com/ws_js/jdwebm.js?v=pcHome, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gias.jd.com/js/td.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://n.sinaimg.cn/index/js/shms2.js?v=20230516, line 316: unreachable code after return statement
+JavaScript error: https://n.sinaimg.cn/index/js/shms2.js?v=20230516, line 2689: TypeError: o is null
+JavaScript error: https://www.sina.com.cn/, line 2119: TypeError: document.SearchEcho is undefined
+JavaScript error: https://err.tmall.com/error1.html?c=404&u=https%3A%2F%2Fpages.tmall.com%2F, line 311: TypeError: data.def is undefined
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.66.5/et_n.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.66.5/et_n.js, line 7: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.66.5/et_n.js, line 6: WebGL context was lost.
+[Parent 11320, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+JavaScript warning: https://gw.alipayobjects.com/render/p/yuyan_v/180020010000010426/4.0.1/jquery-e3f24f23.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://xinhuanet.com."
+1689384589245	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689384632299	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689384654771	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://h5player.zhanqi.tv/assets/h5liveplayer/dist/js/vendor.js?v=a2f9efc0202, line 0: Successfully compiled asm.js code (total compilation time 25ms)
+1689384700160	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
