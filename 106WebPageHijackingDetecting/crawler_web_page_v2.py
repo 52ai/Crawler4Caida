@@ -42,29 +42,31 @@ def run_page_list_info_gain_selenium(run_page_list):
     """
     # 启动浏览器
     options = webdriver.FirefoxOptions()
-    # options.set_headless(True)
-    # options.add_argument("--headless")  # 设置火狐为headless无界面模式
+    options.add_argument("--headless")  # 设置火狐为headless无界面模式
     # options.add_argument("--disable-gpu")
     driver = webdriver.Firefox(options=options)
-    driver.set_page_load_timeout(10)
-    driver.set_script_timeout(10)
-    driver.implicitly_wait(10)  # 设置隐性等待时间
+    driver.set_page_load_timeout(30)
+    # driver.implicitly_wait(15)  # 设置隐性等待时间
+    # driver.set_script_timeout(10)
     driver.set_window_size(width=1280, height=720)
     # driver.maximize_window()  # 最大化窗口
     # 遍历传入的page url list
     for run_page in run_page_list:
-        # time_format_date = "%Y%m%d"
-        # time_date_str = time.strftime(time_format_date, time.localtime())
-        # data_dir = "../000LocalData/106WebPage/" + time_date_str
-        data_dir = "../000LocalData/106WebPage/20230715_origin"
+        time_format_date = "%Y%m%d"
+        time_date_str = time.strftime(time_format_date, time.localtime())
+        data_dir = "../000LocalData/106WebPage/" + time_date_str
+        # data_dir = "../000LocalData/106WebPage/20230715_origin"
         if not os.path.exists(data_dir):
             os.makedirs(data_dir)
             print("Create Directory:", data_dir)
 
-        domain_name = urlparse(run_page).netloc.strip("www.")
+        domain_name = urlparse(run_page).netloc
         site_str = domain_name.replace(".", "_")
         save_path_png = data_dir + "/" + site_str + ".png"
         save_path_html = data_dir + "/" + site_str + ".html"
+
+        print(save_path_png)
+        print(save_path_html)
 
         if os.path.exists(save_path_png):
             print("Already Crawler, Next!")
@@ -74,6 +76,7 @@ def run_page_list_info_gain_selenium(run_page_list):
             print("------------------------")
             print(run_page)
             driver.get(run_page)
+            # time.sleep(1)  # 强制等待1s
             # 获取网站截图，并保存到本地
             driver.save_screenshot(save_path_png)
             page_html = driver.page_source
@@ -101,30 +104,41 @@ if __name__ == '__main__':
     page_list_all = []  # 原始page url 列表
     page_list_already = []  # 存储已经抓取的列表
     page_list_group = []  # 分组page url
-    n_threading = 6  # 设置并发线程数
+    n_threading = 1  # 设置并发线程数
 
-    cn_domains_file = "../000LocalData/106WebPage/cn_domains_test_small.csv"
+    cn_domains_file = "../000LocalData/106WebPage/cn_domains_day.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")
             page_url = "http://" + line[0]
-            data_dir_out = "../000LocalData/106WebPage/20230715_origin"
+
+            time_format_date_out = "%Y%m%d"
+            time_date_str_out = time.strftime(time_format_date_out, time.localtime())
+            data_dir_out = "../000LocalData/106WebPage/" + time_date_str_out
+            # data_dir_out = "../000LocalData/106WebPage/20230715_origin"
             if not os.path.exists(data_dir_out):
                 os.makedirs(data_dir_out)
                 print("Create Directory:", data_dir_out)
 
-            domain_name_out = urlparse(page_url).netloc.strip("www.")
+            domain_name_out = urlparse(page_url).netloc
             site_str_out = domain_name_out.replace(".", "_")
             save_path_png_out = data_dir_out + "/" + site_str_out + ".png"
             save_path_html_out = data_dir_out + "/" + site_str_out + ".html"
 
-            if not os.path.exists(save_path_png_out) or not os.path.exists(save_path_html_out):
-                page_list_all.append(page_url)
-            else:
+            if os.path.exists(save_path_png_out) and os.path.exists(save_path_html_out):
                 page_list_already.append(page_url)
+            else:
+                page_list_all.append(page_url)
 
-    max_page_cnt = (len(page_list_all) // n_threading)  # 向上取整
+    max_page_cnt = (len(page_list_all) // n_threading) + 1  # 向上取整
     print("page list already:", len(page_list_already))
+    """
+    确定一个可行的最小test group，每天对其进行抓取，比如先确定一个TOP1000的list
+    """
+    # with open("../000LocalData/106WebPage/cn_domains_day.csv", "w", encoding="utf-8") as f:
+    #     for item in page_list_already[0:100]:
+    #         f.writelines(item.strip("http://")+"\n")
+
     print("page list all:", len(page_list_all))
     print("threading:", n_threading)
     print("max_page_cnt:", max_page_cnt)
@@ -138,8 +152,10 @@ if __name__ == '__main__':
             page_cnt = 0
             temp_list = []
         page_cnt += 1
+    page_list_group.append(temp_list)
 
     print("page url group cnt:", len(page_list_group))
+    print(page_list_group)
     """
     第二步：将分组后的任务列表，分给不同的线程独立执行
     """
@@ -155,3 +171,8 @@ if __name__ == '__main__':
         k.join()
     print("All threading finished!")
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
+
+"""
+TOP20 单线程 66s
+
+"""
