@@ -105,7 +105,7 @@ def gain_website_info():
         page.set_default_timeout(20000)
         # 打开国内域名列表文件
         with open(cn_domains_file, "r", encoding="utf-8") as f:
-            for line in f.readlines():
+            for line in f.readlines()[7747:]:
                 line = line.strip().split(",")
                 page_url = "http://" + line[0]
                 time_format_date = "%Y%m%d"
@@ -124,13 +124,13 @@ def gain_website_info():
                 # print("html path:", save_path_html)
 
                 if os.path.exists(save_path_png):
-                    # print("Already Crawler, Next!")
+                    print("Already Crawler, Next!")
                     continue
                 try:
                     print("------------------------")
                     print(page_url)
                     page.goto(page_url)
-                    page.wait_for_load_state("load")
+                    page.wait_for_load_state("networkidle")  # "domcontentloaded", "load", "networkidle"
                     page.screenshot(path=save_path_png)
                     page_html = page.content()
                     with open(save_path_html, "w", encoding="utf-8") as f_html:
