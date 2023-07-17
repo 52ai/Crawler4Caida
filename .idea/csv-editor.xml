@@ -31,7 +31,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\000LocalData\106WebPage\cn_domains_day_10.csv">
+        <entry key="\000LocalData\106WebPage\cn_domains_day_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\000LocalData\106WebPage\cn_domains_day_5000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -119,13 +126,6 @@
           <value>
             <Attribute>
               <option name="separator" value="|" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\000LocalData\cn_domains_day_5000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>

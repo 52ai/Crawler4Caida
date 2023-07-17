@@ -26,7 +26,7 @@ Function:
 # 20230715 为提供页面的抓取速度，使用并发，最佳拍档是selenium
 
 """
-
+import random
 import time
 import os
 from urllib.parse import urlparse
@@ -42,7 +42,7 @@ def run_page_list_info_gain_selenium(run_page_list):
     """
     # 启动浏览器
     options = webdriver.FirefoxOptions()
-    options.add_argument("--headless")  # 设置火狐为headless无界面模式
+    # options.add_argument("--headless")  # 设置火狐为headless无界面模式
     # options.add_argument("--disable-gpu")
     driver = webdriver.Firefox(options=options)
     driver.set_page_load_timeout(30)
@@ -52,10 +52,10 @@ def run_page_list_info_gain_selenium(run_page_list):
     # driver.maximize_window()  # 最大化窗口
     # 遍历传入的page url list
     for run_page in run_page_list:
-        time_format_date = "%Y%m%d"
-        time_date_str = time.strftime(time_format_date, time.localtime())
-        data_dir = "../000LocalData/106WebPage/" + time_date_str
-        # data_dir = "../000LocalData/106WebPage/20230715_origin"
+        # time_format_date = "%Y%m%d"
+        # time_date_str = time.strftime(time_format_date, time.localtime())
+        # data_dir = "../000LocalData/106WebPage/" + time_date_str
+        data_dir = "../000LocalData/106WebPage/20230715_origin"
         if not os.path.exists(data_dir):
             os.makedirs(data_dir)
             print("Create Directory:", data_dir)
@@ -106,16 +106,16 @@ if __name__ == '__main__':
     page_list_group = []  # 分组page url
     n_threading = 1  # 设置并发线程数
 
-    cn_domains_file = "../000LocalData/106WebPage/cn_domains_day.csv"
+    cn_domains_file = "../000LocalData/106WebPage/cn_domains_test.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")
             page_url = "http://" + line[0]
 
-            time_format_date_out = "%Y%m%d"
-            time_date_str_out = time.strftime(time_format_date_out, time.localtime())
-            data_dir_out = "../000LocalData/106WebPage/" + time_date_str_out
-            # data_dir_out = "../000LocalData/106WebPage/20230715_origin"
+            # time_format_date_out = "%Y%m%d"
+            # time_date_str_out = time.strftime(time_format_date_out, time.localtime())
+            # data_dir_out = "../000LocalData/106WebPage/" + time_date_str_out
+            data_dir_out = "../000LocalData/106WebPage/20230715_origin"
             if not os.path.exists(data_dir_out):
                 os.makedirs(data_dir_out)
                 print("Create Directory:", data_dir_out)
@@ -143,6 +143,7 @@ if __name__ == '__main__':
     print("threading:", n_threading)
     print("max_page_cnt:", max_page_cnt)
 
+    random.shuffle(page_list_all)
     temp_list = []  # 存储page list
     page_cnt = 1
     for item_url in page_list_all:
