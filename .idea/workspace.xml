@@ -55,7 +55,6 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -164,7 +163,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.match_web_page">
+  <component name="RunManager" selected="Python.crawler_web_page_v2">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -339,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.match_web_page" />
         <item itemvalue="Python.crawler_web_page_v2" />
+        <item itemvalue="Python.match_web_page" />
         <item itemvalue="Python.crawler_web_page" />
         <item itemvalue="Python.crawler_web_page_selenium" />
         <item itemvalue="Python.gain_website_info_v2" />

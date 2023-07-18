@@ -104,7 +104,7 @@ if __name__ == '__main__':
     page_list_all = []  # 原始page url 列表
     page_list_already = []  # 存储已经抓取的列表
     page_list_group = []  # 分组page url
-    n_threading = 1  # 设置并发线程数
+    n_threading = 3  # 设置并发线程数
 
     cn_domains_file = "../000LocalData/106WebPage/cn_domains_test.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
@@ -172,8 +172,3 @@ if __name__ == '__main__':
         k.join()
     print("All threading finished!")
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
-
-"""
-TOP20 单线程 66s
-
-"""
