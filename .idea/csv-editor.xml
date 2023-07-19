@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\000LocalData\106WebPage\domains_cn_merge.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\ASWhois\asns_copy.csv">
           <value>
             <Attribute>

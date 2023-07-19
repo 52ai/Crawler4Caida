@@ -55,6 +55,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/domains_cn_merge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
@@ -164,7 +165,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.crawler_web_page_v2">
+  <component name="RunManager" selected="Python.domains_cn_merge">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="crawler_web_page_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="crawler_web_page_async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page_selenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page_async.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gain_website_info_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="domains_cn_merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,11 +253,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/010GainWebsiteInfo/deploy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/106WebPageHijackingDetecting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010GainWebsiteInfo/deploy/gain_website_info_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/106WebPageHijackingDetecting/domains_cn_merge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,19 +332,19 @@
     <list>
       <item itemvalue="Python.icmplib_demo" />
       <item itemvalue="Python.traceroute_source_code" />
+      <item itemvalue="Python.crawler_web_page_async" />
+      <item itemvalue="Python.domains_cn_merge" />
       <item itemvalue="Python.match_web_page" />
-      <item itemvalue="Python.crawler_web_page_selenium" />
       <item itemvalue="Python.crawler_web_page_v2" />
-      <item itemvalue="Python.gain_website_info_v2" />
       <item itemvalue="Python.crawler_web_page" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.domains_cn_merge" />
         <item itemvalue="Python.crawler_web_page_v2" />
+        <item itemvalue="Python.crawler_web_page_async" />
         <item itemvalue="Python.match_web_page" />
         <item itemvalue="Python.crawler_web_page" />
-        <item itemvalue="Python.crawler_web_page_selenium" />
-        <item itemvalue="Python.gain_website_info_v2" />
       </list>
     </recent_temporary>
   </component>
