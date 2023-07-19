@@ -55,6 +55,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -131,7 +132,7 @@
     &quot;last.edited.regexp&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/000LocalData/106WebPage&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [

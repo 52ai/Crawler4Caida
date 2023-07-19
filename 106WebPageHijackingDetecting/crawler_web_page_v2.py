@@ -45,8 +45,8 @@ def run_page_list_info_gain_selenium(run_page_list):
     # options.add_argument("--headless")  # 设置火狐为headless无界面模式
     # options.add_argument("--disable-gpu")
     driver = webdriver.Firefox(options=options)
-    driver.set_page_load_timeout(30)
-    # driver.implicitly_wait(15)  # 设置隐性等待时间
+    driver.set_page_load_timeout(15)
+    driver.implicitly_wait(10)  # 设置隐性等待时间
     # driver.set_script_timeout(10)
     driver.set_window_size(width=1280, height=720)
     # driver.maximize_window()  # 最大化窗口
@@ -65,26 +65,26 @@ def run_page_list_info_gain_selenium(run_page_list):
         save_path_png = data_dir + "/" + site_str + ".png"
         save_path_html = data_dir + "/" + site_str + ".html"
 
-        print(save_path_png)
-        print(save_path_html)
+        # print(save_path_png)
+        # print(save_path_html)
 
         if os.path.exists(save_path_png):
-            print("Already Crawler, Next!")
+            # print("Already Crawler, Next!")
             continue
 
         try:
-            print("------------------------")
-            print(run_page)
             driver.get(run_page)
             # time.sleep(1)  # 强制等待1s
+
             # 获取网站截图，并保存到本地
             driver.save_screenshot(save_path_png)
             page_html = driver.page_source
             with open(save_path_html, "w", encoding="utf-8") as f_html:
                 f_html.write(page_html)
+            print("Success!", run_page)
         except Exception as e:
+            print(f"Failed! Info({run_page}):")
             print(e)
-            print("!!!!!!!!!!!!!!!!!!!!!")
             if str(e).find("without establishing a connection") != -1:
                 print("连接关闭！！！刷新下浏览器")
                 driver.refresh()  # 刷新的浏览器
@@ -92,11 +92,14 @@ def run_page_list_info_gain_selenium(run_page_list):
     driver.quit()
 
 
-if __name__ == '__main__':
-    time_start = time.time()
+def run_main():
+    """
+    主程序
+    :return:
+    """
     time_format = "%Y%m%d %H:%M:%S"
     time_str = time.strftime(time_format, time.localtime())
-    print("=======>启动国内域名首页截屏及关键词提取任务：", time_str)
+    print("======启动国内域名首页截屏及关键词提取任务：", time_str)
 
     """
     第一步，获取待爬取的列表，并按照并发线程数将其拆分为不同分任务列表
@@ -143,7 +146,7 @@ if __name__ == '__main__':
     print("threading:", n_threading)
     print("max_page_cnt:", max_page_cnt)
 
-    random.shuffle(page_list_all)
+    random.shuffle(page_list_all)  # 随机打乱无法打开的域名，防止扎堆浪费时间（后续可以做针对不同的异常做标记，区别处理）
     temp_list = []  # 存储page list
     page_cnt = 1
     for item_url in page_list_all:
@@ -156,7 +159,7 @@ if __name__ == '__main__':
     page_list_group.append(temp_list)
 
     print("page url group cnt:", len(page_list_group))
-    print(page_list_group)
+    # print(page_list_group)
     """
     第二步：将分组后的任务列表，分给不同的线程独立执行
     """
@@ -171,4 +174,13 @@ if __name__ == '__main__':
     for k in threads:
         k.join()
     print("All threading finished!")
+
+
+if __name__ == '__main__':
+    time_start = time.time()
+    loop = 3
+    while loop:
+        print(f"第{4-loop}次循环")
+        run_main()
+        loop -= 1
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
