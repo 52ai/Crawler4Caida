@@ -48,7 +48,7 @@ def run_page_list_info_gain_selenium(run_page_list):
     driver.set_page_load_timeout(15)
     driver.implicitly_wait(10)  # 设置隐性等待时间
     # driver.set_script_timeout(10)
-    driver.set_window_size(width=1280, height=720)
+    # driver.set_window_size(width=1280, height=720)
     # driver.maximize_window()  # 最大化窗口
     # 遍历传入的page url list
     for run_page in run_page_list:
@@ -110,7 +110,7 @@ def run_main():
     page_list_group = []  # 分组page url
     n_threading = 3  # 设置并发线程数
 
-    cn_domains_file = "../000LocalData/106WebPage/domains_cn_merge.csv"
+    cn_domains_file = "../000LocalData/106WebPage/cn_domains_small.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")
@@ -179,9 +179,10 @@ def run_main():
 
 if __name__ == '__main__':
     time_start = time.time()
-    loop = 3
+    loop = 1
+    max_loop = loop + 1
     while loop:
-        print(f"第{4-loop}次循环")
+        print(f"第{max_loop-loop}次循环")
         run_main()
         loop -= 1
     print("=>Scripts Finish, Time Consuming:", (time.time() - time_start), "S")
