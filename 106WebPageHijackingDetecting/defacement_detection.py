@@ -106,6 +106,7 @@ def run_page_list_info_detection_selenium(run_page_list):
             doc2_cleaned = clean_html(doc2)
 
             # print(doc1_cleaned)
+            # 计算历史信息库的TF-IDF文档相似度
             similarity_percentage = calculate_similarity(doc1_cleaned, doc2_cleaned)
 
             hacked_flag = "否"
@@ -153,9 +154,9 @@ def run_main():
     """
     page_list_all = []  # 原始page url 列表
     page_list_group = []  # 分组page url
-    n_threading = 3  # 设置并发线程数
+    n_threading = 1  # 设置并发线程数
 
-    cn_domains_file = "../000LocalData/106WebPage/domains_cn_merge.csv"
+    cn_domains_file = "../000LocalData/106WebPage/cn_domains_test.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")

@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\000LocalData\104PING31Ptask\ip_info_file.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\000LocalData\106WebPage\20230714\cn_domains_37200.csv">
           <value>
             <Attribute>
