@@ -96,9 +96,6 @@ def run_page_list_info_detection_selenium(run_page_list):
             driver.save_screenshot(save_path_png)
             with open(save_path_html, "w", encoding="utf-8") as f_html:
                 f_html.write(page_html)
-            print("-------------------------------")
-            print("url:", run_page)
-            print("获取当前页面状态成功!")
             """"
             以下为检测程序
             """
@@ -109,22 +106,24 @@ def run_page_list_info_detection_selenium(run_page_list):
             doc2_cleaned = clean_html(doc2)
 
             # print(doc1_cleaned)
-
             similarity_percentage = calculate_similarity(doc1_cleaned, doc2_cleaned)
-            print("历史匹配TF-IDF文档相似度：", similarity_percentage)
 
             hacked_flag = "否"
             if doc1_cleaned.find("hackedby") != -1:
                 hacked_flag = "是"
-            print("是否含被篡改关键字：", hacked_flag)
 
-            if similarity_percentage < 0.2 or hacked_flag == "是":
+            if similarity_percentage < 0.1 or hacked_flag == "是":
+                print("-------------------------------")
+                print("url:", run_page)
+                print("获取当前页面状态成功!")
+                print("历史匹配TF-IDF文档相似度：", similarity_percentage)
+                print("是否含被篡改关键字：", hacked_flag)
                 # 相似度小于0.1，则输出网站截图及原始截图
                 copyfile(origin_path_png, origin_path_png_dst)
                 copyfile(origin_path_html, origin_path_html_dst)
                 print("检测结论：该页面疑似篡改!!!")
             else:
-                print("检测结论：该页面未被篡改")
+                # print("检测结论：该页面未被篡改")
                 # 若未被篡改，则删除记录
                 os.remove(save_path_png)
                 os.remove(save_path_html)
@@ -154,9 +153,9 @@ def run_main():
     """
     page_list_all = []  # 原始page url 列表
     page_list_group = []  # 分组page url
-    n_threading = 1  # 设置并发线程数
+    n_threading = 3  # 设置并发线程数
 
-    cn_domains_file = "../000LocalData/106WebPage/cn_domains_small.csv"
+    cn_domains_file = "../000LocalData/106WebPage/domains_cn_merge.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")

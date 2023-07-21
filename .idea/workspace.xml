@@ -55,9 +55,6 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/defacement_dection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ieefls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -70,6 +67,7 @@
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/src/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/webpack.local.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/crawler_web_page_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/106WebPageHijackingDetecting/defacement_dection.py" beforeDir="false" afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/defacement_dection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/106WebPageHijackingDetecting/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/106WebPageHijackingDetecting/geckodriver.log" afterDir="false" />
     </list>
     <list id="dc9b1c10-815b-43d0-9697-3da75daa6b6d" name="处理RIPE实时数据采集requests请求错误异常" comment="" />
@@ -377,17 +375,6 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
               <option name="COLUMN_ID_WIDTH">

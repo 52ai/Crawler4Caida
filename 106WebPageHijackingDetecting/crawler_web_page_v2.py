@@ -110,7 +110,7 @@ def run_main():
     page_list_group = []  # 分组page url
     n_threading = 3  # 设置并发线程数
 
-    cn_domains_file = "../000LocalData/106WebPage/cn_domains_small.csv"
+    cn_domains_file = "../000LocalData/106WebPage/domains_cn_merge.csv"
     with open(cn_domains_file, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.strip().split(",")
