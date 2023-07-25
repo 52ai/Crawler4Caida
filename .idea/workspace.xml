@@ -55,6 +55,7 @@
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/my-graph/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/ru/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/086LearnNodeJs/pm/own_graph/pm-data-server/us/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/104PING31Ptask/PING31Ptask_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/086LearnNodeJs/graph-start/index.html" afterDir="false" />
@@ -127,7 +128,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/test.py&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/Crawler4Caida/104PING31Ptask&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
@@ -147,11 +148,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Crawler4Caida\104PING31Ptask" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\106WebPage" />
       <recent name="D:\Code\Crawler4Caida\000LocalData" />
       <recent name="D:\Code\Crawler4Caida\106WebPageHijackingDetecting" />
       <recent name="D:\Code\Crawler4Caida\000LocalData\106WebPage\20230714" />
-      <recent name="D:\Code\Crawler4Caida\104PING31Ptask" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Crawler4Caida\000LocalData\106WebPage" />
@@ -161,7 +162,7 @@
       <recent name="D:\Code\Crawler4Caida\086LearnNodeJs\pm_v2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PING31Ptask">
+  <component name="RunManager" selected="Python.PING31Ptask_v2">
     <configuration name="Crawler4Caida" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Crawler4Caida" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +192,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/104PING31Ptask/PING31Ptask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PING31Ptask_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crawler4Caida" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/104PING31Ptask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/104PING31Ptask/PING31Ptask_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,27 +255,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/106WebPageHijackingDetecting/defacement_detection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="domains_cn_merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Crawler4Caida" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/106WebPageHijackingDetecting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/106WebPageHijackingDetecting/domains_cn_merge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +329,19 @@
     <list>
       <item itemvalue="Python.icmplib_demo" />
       <item itemvalue="Python.traceroute_source_code" />
+      <item itemvalue="Python.PING31Ptask_v2" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.PING31Ptask" />
       <item itemvalue="Python.defacement_detection" />
-      <item itemvalue="Python.domains_cn_merge" />
       <item itemvalue="Python.crawler_web_page_v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PING31Ptask_v2" />
         <item itemvalue="Python.PING31Ptask" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.defacement_detection" />
         <item itemvalue="Python.crawler_web_page_v2" />
-        <item itemvalue="Python.domains_cn_merge" />
       </list>
     </recent_temporary>
   </component>
