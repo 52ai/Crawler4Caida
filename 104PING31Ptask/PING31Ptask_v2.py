@@ -15,7 +15,6 @@ Function:
 
 选八个省份做测试用即可：北京、上海、天津、重庆、广东、江苏、四川、湖北
 
-
 """
 from ping3 import ping
 import time
