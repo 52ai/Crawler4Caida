@@ -115,6 +115,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\003Music163Spiders\log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\003Music163Spiders\music_163_artists.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\010GainWebsiteInfo\deploy\content.csv">
           <value>
             <Attribute>
@@ -137,6 +151,20 @@
           </value>
         </entry>
         <entry key="\024KnowlegeData\5g_cloud.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\058ASWhois\asn_info_from_caida.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\058ASWhois\asns.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -185,7 +213,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\077RU&amp;UA\Gephi\asns_geo_all.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\081TW_Analysis\country_as_list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\085ET-GIM\map_logical\asns_geo_all.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
