@@ -1,3 +1,3 @@
 # can ignore all directories and files in a directory
-.idea/*
-.idea/workspace.xml
+./.idea/*
+./.idea/workspace.xml
