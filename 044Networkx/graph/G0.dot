@@ -1,9 +1,0 @@
-strict graph G0 {
-	graph [label=G0,
-		name=G0
-	];
-	node [color=red,
-		shape=circle,
-		style=filled
-	];
-}

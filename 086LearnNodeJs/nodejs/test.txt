@@ -1,1 +1,0 @@
-This is a test File for JS write function.

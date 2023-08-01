@@ -1,8 +1,0 @@
-# can ignore all directories and files in a directory
-000LocalData/*
-013Countries_ASNs/data/*
-.idea/workspace.xml
-.streamlit/*
-085ET-GIM/.streamlit/*
-085ET-GIM/data/*
-096ChatGPT-W/.key/*

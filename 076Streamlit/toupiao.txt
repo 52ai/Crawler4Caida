@@ -1,3 +1,0 @@
-wayne,caict,as_core_map_scatter_intergrate2020.jpg,fore_cjk_2020_gao.png,
-bob,caict,as_core_map_scatter_intergrate2020.jpg,fore_cjk_2020_gao.png,fore_us_2020_gao.png,Mayavi_3d.png,
-boc,caict,as_core_map_scatter_intergrate2020.jpg,fore_cjk_2020_gao.png,fore_us_2020_gao.png,Mayavi_3d.png,

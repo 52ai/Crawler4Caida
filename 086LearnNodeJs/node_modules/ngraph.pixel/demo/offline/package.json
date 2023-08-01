@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "start": "browserify index.js > data/bundle.js"
-  },
-  "dependencies": {
-    "ngraph.fromdot": "^0.1.6",
-    "ngraph.offline.layout": "^1.1.1"
-  }
-}
