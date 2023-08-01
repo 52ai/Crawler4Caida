@@ -136,6 +136,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\024KnowlegeData\5g_cloud.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\068IXVis\ix_geo_develop_done.csv">
           <value>
             <Attribute>
