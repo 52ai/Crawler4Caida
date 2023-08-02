@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="mayavi" />
+            <item index="1" class="java.lang.String" itemvalue="traits" />
+            <item index="2" class="java.lang.String" itemvalue="torch" />
+            <item index="3" class="java.lang.String" itemvalue="docx" />
+            <item index="4" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="5" class="java.lang.String" itemvalue="streamlit" />
+            <item index="6" class="java.lang.String" itemvalue="bokeh" />
+            <item index="7" class="java.lang.String" itemvalue="ipdb" />
+            <item index="8" class="java.lang.String" itemvalue="whois" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pandas.core.frame" />
+          <option value="scapy.all.IP" />
+          <option value="scapy.all.ICMP" />
+          <option value="scapy.all.Ether" />
+          <option value="scapy.all.TCP" />
+          <option value="scapy.all.UDP" />
+          <option value="scapy.all.DNS" />
+          <option value="scapy.all.arping" />
+          <option value="scapy.all.traceroute" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
