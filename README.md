@@ -1,1 +1,2 @@
 ### 路虽远，行则将至；事虽难，做则必成
+>Although the road is long, as long as you start to walk, you will definitely reach it; although things are difficult, as long as you start to do it, you will definitely complete it.  --- Wayne 20230803
